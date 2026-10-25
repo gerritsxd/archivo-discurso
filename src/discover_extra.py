@@ -43,6 +43,9 @@ RTVE_PROGRAMMES = {  # programme id -> name (ids read from each programme page, 
     131790: "La hora de La 1", 45030: "Telediario 1", 135930: "Telediario 2",
     25970: "La noche en 24h", 1000646: "La Revuelta", 175650: "Mañaneros",
     1631: "Informe Semanal", 1689: "Parlamento", 1001094: "Malas lenguas",
+    # added 2026-10-25 from the coverage audit (m0/COVERAGE_AUDIT.md)
+    46052: "Informativo 24h", 30870: "La tarde en 24h", 135932: "Telediario fin de semana",
+    1655: "Los desayunos", 131940: "Cafè d'idees",
 }
 CAT_PROGRAMMES = {136938435: "Telenotícies", 145947628: "Els Matins"}
 CONGRESO_ORGANS = {500: "Diputación Permanente"}

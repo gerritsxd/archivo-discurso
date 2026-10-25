@@ -11,6 +11,7 @@ YouTube only works from a residential IP (the VPS gets a bot check), so on the V
 --only direct / rtve and let the PC fetch YouTube.
 """
 import argparse
+import re
 import csv
 import hashlib
 import json
@@ -57,6 +58,9 @@ def kind_of(url):
     if "lamoncloa.gob.es/multimedia/videos/" in url:
         return "moncloa"
     if "static.congreso.es/" in url and url.lower().endswith(".mp4"):
+        return "direct_video"
+    # broadcasters' own clip files: Atresmedia news pages (laSexta, Antena 3, Onda Cero), Europa Press
+    if re.search(r"^https://(dpvclip\.(lasexta|antena3|ondacero)\.(com|es)|video\d*\.europapress\.net)/", url)             and url.split("?")[0].lower().endswith(".mp4"):
         return "direct_video"
     if url.split("?")[0].lower().endswith((".mp3", ".m4a", ".aac", ".ogg")) or "/play.mp3" in url:
         return "direct"
