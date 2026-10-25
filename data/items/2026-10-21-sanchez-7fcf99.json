@@ -14,7 +14,7 @@
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
   "voiceprint_threshold": 0.65,
-  "processed_at": "2026-10-25T18:26:06+00:00",
+  "processed_at": "2026-10-25T20:11:44+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -29,7 +29,7 @@
    "person": "sanchez",
    "name": "Pedro Sánchez (PSOE)",
    "decision": "match",
-   "reason": "sim 0.78, next 0.24",
+   "reason": "sim 0.78, next 0.26",
    "talk_s": 964.7
   },
   "SPEAKER_09": {
@@ -53,40 +53,40 @@
    "reason": "best sim 0.52 < 0.65",
    "talk_s": 21.9
   },
-  "SPEAKER_10": {
+  "SPEAKER_17": {
    "person": null,
    "name": "Hablante sin identificar 5",
+   "decision": "unknown",
+   "reason": "best sim 0.43 < 0.65",
+   "talk_s": 27.6
+  },
+  "SPEAKER_10": {
+   "person": null,
+   "name": "Hablante sin identificar 6",
    "decision": "unknown",
    "reason": "best sim 0.42 < 0.65",
    "talk_s": 20.4
   },
   "SPEAKER_11": {
    "person": null,
-   "name": "Hablante sin identificar 6",
+   "name": "Hablante sin identificar 7",
    "decision": "too_short",
    "reason": "only 19s of speech",
    "talk_s": 18.9
   },
   "SPEAKER_12": {
    "person": null,
-   "name": "Hablante sin identificar 7",
+   "name": "Hablante sin identificar 8",
    "decision": "unknown",
    "reason": "best sim 0.40 < 0.65",
    "talk_s": 918.9
   },
   "SPEAKER_03": {
    "person": null,
-   "name": "Hablante sin identificar 8",
+   "name": "Hablante sin identificar 9",
    "decision": "too_short",
    "reason": "only 7s of speech",
    "talk_s": 6.7
-  },
-  "SPEAKER_17": {
-   "person": null,
-   "name": "Hablante sin identificar 9",
-   "decision": "unknown",
-   "reason": "best sim 0.39 < 0.65",
-   "talk_s": 27.6
   },
   "SPEAKER_18": {
    "person": null,
@@ -174,7 +174,7 @@
    "end": 15.8,
    "label": "SPEAKER_17",
    "person": null,
-   "name": "Hablante sin identificar 9",
+   "name": "Hablante sin identificar 5",
    "text": "Cabrón."
   },
   {
@@ -190,7 +190,7 @@
    "end": 25.8,
    "label": "SPEAKER_17",
    "person": null,
-   "name": "Hablante sin identificar 9",
+   "name": "Hablante sin identificar 5",
    "text": "El galgo de Paiporta. Creo que debería irse de este país en un maletero. Repugnante presidente del gobierno de España."
   },
   {
@@ -278,7 +278,7 @@
    "end": 120.04,
    "label": "SPEAKER_03",
    "person": null,
-   "name": "Hablante sin identificar 8",
+   "name": "Hablante sin identificar 9",
    "text": "Yo le pido a todo el mundo que ni se le ocurra votar por correo."
   },
   {
@@ -294,7 +294,7 @@
    "end": 127.78,
    "label": "SPEAKER_11",
    "person": null,
-   "name": "Hablante sin identificar 6",
+   "name": "Hablante sin identificar 7",
    "text": "Yo a mis hijos lo que les he pedido es que vengan a votar en persona."
   },
   {
@@ -326,7 +326,7 @@
    "end": 408.15,
    "label": "SPEAKER_10",
    "person": null,
-   "name": "Hablante sin identificar 5",
+   "name": "Hablante sin identificar 6",
    "text": "El sistema de pensiones es un zombi. Tenemos que ser valientes y entender que el modelo hay que cambiarlo, Porque el sistema actual como está no va a funcionar y va a petar. Hay que llevar a cabo una reforma drástica del sistema de las pensiones."
   },
   {
@@ -358,7 +358,7 @@
    "end": 495.56,
    "label": "SPEAKER_17",
    "person": null,
-   "name": "Hablante sin identificar 9",
+   "name": "Hablante sin identificar 5",
    "text": "Un caudillejo tercermundista. Cabrón."
   },
   {
@@ -374,7 +374,7 @@
    "end": 505.6,
    "label": "SPEAKER_17",
    "person": null,
-   "name": "Hablante sin identificar 9",
+   "name": "Hablante sin identificar 5",
    "text": "El galgo de Paiporta. Creo que debería irse de este país en un maletero Repugnante presidente del gobierno de España"
   },
   {
@@ -438,7 +438,7 @@
    "end": 550.0,
    "label": "SPEAKER_17",
    "person": null,
-   "name": "Hablante sin identificar 9",
+   "name": "Hablante sin identificar 5",
    "text": "garantiza la igualdad salarial entre hombres y mujeres?"
   },
   {
@@ -454,7 +454,7 @@
    "end": 599.79,
    "label": "SPEAKER_03",
    "person": null,
-   "name": "Hablante sin identificar 8",
+   "name": "Hablante sin identificar 9",
    "text": "Yo le pido a todo el mundo que ni se le ocurra votar por correo."
   },
   {
@@ -470,7 +470,7 @@
    "end": 607.51,
    "label": "SPEAKER_11",
    "person": null,
-   "name": "Hablante sin identificar 6",
+   "name": "Hablante sin identificar 7",
    "text": "Yo a mis hijos lo que les he pedido es que vengan a votar en persona."
   },
   {
@@ -502,7 +502,7 @@
    "end": 888.08,
    "label": "SPEAKER_10",
    "person": null,
-   "name": "Hablante sin identificar 5",
+   "name": "Hablante sin identificar 6",
    "text": "El sistema de pensiones es un zombi. Tenemos que ser valientes y entender que el modelo hay que cambiarlo, Porque el sistema actual como está no va a funcionar y va a petar. Hay que llevar a cabo una reforma drástica del sistema de las pensiones."
   },
   {
@@ -534,7 +534,7 @@
    "end": 975.34,
    "label": "SPEAKER_17",
    "person": null,
-   "name": "Hablante sin identificar 9",
+   "name": "Hablante sin identificar 5",
    "text": "Un caudillejo tercermundista. Cabrón."
   },
   {
@@ -550,7 +550,7 @@
    "end": 985.38,
    "label": "SPEAKER_17",
    "person": null,
-   "name": "Hablante sin identificar 9",
+   "name": "Hablante sin identificar 5",
    "text": "El galgo de Paiporta. Creo que debería irse de este país en un maletero Repugnante presidente del gobierno de España"
   },
   {
@@ -614,7 +614,7 @@
    "end": 1079.55,
    "label": "SPEAKER_03",
    "person": null,
-   "name": "Hablante sin identificar 8",
+   "name": "Hablante sin identificar 9",
    "text": "Yo le pido a todo el mundo que ni se le ocurra votar por correo."
   },
   {
@@ -630,7 +630,7 @@
    "end": 1087.27,
    "label": "SPEAKER_11",
    "person": null,
-   "name": "Hablante sin identificar 6",
+   "name": "Hablante sin identificar 7",
    "text": "Yo a mis hijos lo que les he pedido es que vengan a votar en persona."
   },
   {
@@ -742,7 +742,7 @@
    "end": 2479.09,
    "label": "SPEAKER_11",
    "person": null,
-   "name": "Hablante sin identificar 6",
+   "name": "Hablante sin identificar 7",
    "text": "Buenas tardes, burgos."
   },
   {
@@ -750,7 +750,7 @@
    "end": 2718.96,
    "label": "SPEAKER_12",
    "person": null,
-   "name": "Hablante sin identificar 7",
+   "name": "Hablante sin identificar 8",
    "text": "Yo cada vez que vengo a esta tierra me tengo que acordar de mi padre, Burgales de Ontoria del Pinar, tierra de pinares como la que has estado visitando. Y que tan orgulloso estaría de estar hoy aquí acompañándonos con ese orgullo de zurdo que hoy volvíamos a gritar desde la propia Moncloa, ese orgullo de la historia de un partido más que centenario que lleva muchos años, siglos, luchando por la igualdad de oportunidades, por los derechos de los trabajadores. Tengo que empezar por agradeceros a todos que estéis hoy aquí en esta pre-campaña electoral, llenando este nuevo espacio con las prisas que lo estamos organizando todo en esta pre-campaña electoral que está siendo intensa, intensísima en nuestra comunidad autónoma. Porque hoy se está visualizando en esta tercera visita a Ponferrada, Valladolid y Burgos, gracias Pedro, por apostar por Castilla y León, no solamente en precampaña electoral, sino en actuación de gobierno. ¡Eso es el gobierno! ¡Eso es el compromiso del Gobierno de España con esta comunidad autónoma! ¡Ese es el compromiso del Gobierno de España por una tierra que merece oportunidades, que labra su futuro con el esfuerzo de una ciudadanía viva, despierta! Una ciudadanía activa, una ciudadanía que se entienda en los pilares del esfuerzo, una ciudadanía que se asienta en el poder municipal. Yo hoy tengo que acordarme, cómo no, de Ángel Olivares, nuestro alcalde, y cómo no, de mi alcalde y mi compañero, Dani de la Rosa, gran alcalde también de esta ciudad y que la extrema derecha truncó precisamente la continuidad del mismo hace prácticamente ahora cuatro años. Gracias, señor presidente. Yolanda Díaz, Presidenta de la Junta Constitucional Los principios y los valores de los derechos humanos, del Estado de Derechos y del Estado Social, de ser un contrapunto en Europa a cómo se sufrió y cómo se luchó en la crisis del 2008. El 2008. Algunos quieren que perdamos la memoria y nosotros tenemos que hacer ese ejercicio de responsabilidad y de memoria precisamente para entender ese lado opuesto que las políticas públicas poniéndolas al servicio de las personas han sido capaces de poner y hacer frente de una forma muy distinta a esa crisis económica que luego se convirtió en social y que arrastramos durante más de una década con una austeridad suicida compulsiva que pagamos los de siempre con unas políticas inversas de política pública. Gracias, Pedro, por todo esto. Y gracias también por defender el derecho internacional. Y gracias también por denunciar las guerras que se están sucediendo por las manos de los de siempre, aquellos que solamente buscan el negocio"
   },
   {
@@ -758,7 +758,7 @@
    "end": 2720.5,
    "label": "SPEAKER_11",
    "person": null,
-   "name": "Hablante sin identificar 6",
+   "name": "Hablante sin identificar 7",
    "text": "y el beneficio en esos conflictos bélicos."
   },
   {
@@ -766,7 +766,7 @@
    "end": 2752.04,
    "label": "SPEAKER_12",
    "person": null,
-   "name": "Hablante sin identificar 7",
+   "name": "Hablante sin identificar 8",
    "text": "Gracias por denunciar especialmente el genocidio en Gaza, a ese pueblo palestino que todavía a día de hoy está sufriendo del genocida de Netanyahu, que tarde o temprano acabará como todos y cada uno de ellos en el Tribunal Penal Internacional, penando por todos los crímenes que está todavía a día de hoy cometiendo. Pero de lo internacional quiero venir al europeo y a lo nacional. Luego pasaremos un repasito por"
   },
   {
@@ -774,7 +774,7 @@
    "end": 2754.14,
    "label": "SPEAKER_11",
    "person": null,
-   "name": "Hablante sin identificar 6",
+   "name": "Hablante sin identificar 7",
    "text": "lo autonómico que creo que también tiene lo suyo."
   },
   {
@@ -782,7 +782,7 @@
    "end": 3104.42,
    "label": "SPEAKER_12",
    "person": null,
-   "name": "Hablante sin identificar 7",
+   "name": "Hablante sin identificar 8",
    "text": "Venimos de un pleno y está calentito algunas de las cuestiones que nos están haciendo aquí en Castilla y León. Pero si hablamos del orgullo que como Partido Socialista, foco de una ideología progresista, defensora de los derechos humanos, también tenemos que hablar en el ámbito internacional, del ámbito europeo, de lo que ha supuesto y supone España en el viraje de esa crisis del 2008 con respecto a las que hemos recibido de forma consecutiva y que todavía estamos sufriendo. Esos fondos NEX que muchos de nuestros alcaldes y alcaldesas, yo he sido alcalde hasta apenas hace nueve meses, nos están permitiendo transformar nuestros municipios, pero también transformar la energía en nuestro país, pero también transformar el escudo social y el estado del bienestar de nuestro país y generar desarrollo, inversión y riqueza. Hoy estaba viendo aquí, en un polo industrial fundamental, seguramente el principal polo industrial que tiene nuestra ciudad, cómo los sindicatos, aquellos que se les está agrediendo de forma permanente en ese breve encuentro que hemos tenido con ellos, reclamaban una vez más que necesitamos seguir, necesitamos seguir apostando por el escudo social, necesitamos reconocer que todos y cada uno de nosotras y nosotros nos reconocemos en esos sindicatos para que nos den cobijo cuando vienen maldadas, Para que en la crisis del 2008 fueron los que nos escudaron, los que nos blindaron, los que a través de los ERTE intentamos blindar ese estado de bienestar y nos dan refugio cuando la peor parte del sector empresarial de este país olvida que los trabajadores también merecemos y tenemos derechos. Por eso necesitamos también consolidar este proyecto progresista de gobierno a partir del 29N. Porque yo estoy viviendo desde el punto de vista autonómico lo que está sucediendo con las coaliciones de la derecha extrema y Vox. Vox, y no me he equivocado, de la derecha extrema y Vox, y no me he equivocado, porque hoy he tenido que ver, cuando estamos hablando de que somos el partido del amor, el partido del corazón, el partido del alma, el partido de la empatía, hoy hemos tenido que sufrir, en las Cortes de Castilla y León, como no Vox, sino el Partido Popular, se negaba a aprobar una declaración institucional para apoyar la lucha contra el cáncer de mama. Hoy, como el Partido Popular se negaba a respaldar una declaración institucional en la lucha por la investigación, por el apoyo a esas más de 38.000 mujeres que al año están siendo diagnosticadas de cáncer de mama en nuestro país. Solamente por eso ya merecen un varapalo este próximo 29 de mayo. Gracias, señor presidente. No se les caiga la cara de vergüenza, esa cara de cemento armado que tienen en demasiadas ocasiones. Y luego se erigen como los defensores del campo. Campo. Mira, yo te agradezco, de verdad, Pedro, que hoy hayas pisado bosque, que hayas pisado en una zona limítrofe entre Soria y Burgos, allá donde más duro seguramente es el día a día. Eso que se está salvando y de milagro de la ola de incendios, pero que sumado a ese milagro está la identidad de mucha gente que siente el monte como propio, que lo cuida, que lo protege, que sabe que sus aprovechamientos y sus rendimientos económicos dependen de ello y que está viendo cómo está siendo permanentemente abandonado por aquellos que niegan el cambio climático y porque además no ponen medios cuando vienen contra los incendios. Hoy hemos estado en un lugar absolutamente privilegiado de Burgos y Soria, ese lugar privilegiado que también compartimos en ese rico patrimonio natural que tiene Castilla y León y que está siendo olvidado y degradado, abandonado a pasto de los incendios, en otra zona al oeste de nuestra comunidad como es Zamora, como es Alamanca y León. No merecen la voluntad de esa tierra, no merecen defender o pretender ser los defensores del campo de Castilla y León, de la gestión forestal, cuando están olvidando precisamente a todos esos territorios que durante muchísimo tiempo han estado respaldando unas opciones de derechas y desde luego la derecha jamás se ha acordado de ellos. Gracias, señor presidente. Y las organizaciones agrarias de nuestra comunidad autónoma, para al menos empatar con los 150 millones de euros que está poniendo encima de la mesa el Gobierno de España. Y estamos viendo cómo, una vez más, en mes y medio, todavía el señor Mañueco, que sabéis, tiene una agenda intensísima de trabajo, siempre, todavía no ha tenido ni un solo minuto, tarde, una hora, un ratejo, para poder recibir a las organizaciones agrarias."
   },
   {
@@ -790,7 +790,7 @@
    "end": 3106.5,
    "label": "SPEAKER_11",
    "person": null,
-   "name": "Hablante sin identificar 6",
+   "name": "Hablante sin identificar 7",
    "text": "Ese es el desprecio"
   },
   {
@@ -798,7 +798,7 @@
    "end": 3647.61,
    "label": "SPEAKER_12",
    "person": null,
-   "name": "Hablante sin identificar 7",
+   "name": "Hablante sin identificar 8",
    "text": "real con el que está devolviendo la moneda del respaldo ciudadano que durante tanto tiempo ha tenido la derecha rural de esta comunidad autónoma a señor Mayueco. Y por eso hoy se les está quitando la careta. No son los defensores del campo, el Partido Socialista Obrero Español, el Partido Socialista de Castilla y León, el que pisa quemado en invierno, El que pisa charcos al revés, quemado en verano y charcos en invierno, es el verdadero defensor de nuestros agricultores, de nuestros ganaderos, de los que cuidan nuestras masas forestales y de los entornos rurales de Castilla y León, porque nosotros tenemos un proyecto político para ordenar este territorio, para reconocer las desigualdades y para poder planificar el desarrollo de unos servicios e infraestructuras que nos permitan poder vivir donde hemos nacido. Hay un grupo de burgos maravilloso, no sé calificarlo, indi-tradición, la moda, lo han mencionado también antes, que tiene una canción maravillosa que dice Al Sapa Madrid, que relata la realidad de una tierra sin oportunidades. La realidad es que estamos sufriendo muchos. Los que ya estamos más maduros y tenemos hijos más mayores en edad de estudiar ya antes han tenido la generación de nuestros padres. Ver cómo el mejor capital humano que tenía nuestra comunidad autónoma, nuestra tierra, salía en el Alsa, para Madrid, para el País Vasco o para Barcelona. Pedro, eso hay que invertirlo. Necesitamos fijar la mirada en el territorio, fijar la mirada en lo rural, generar oportunidades para que pueblos de esta provincia, los 2.248 pueblos de esta comunidad, podamos tener unas oportunidades para que mis hijos no tengan que hacer como muchos de mis amigos, como mis hermanos, salir de nuestra tierra para poder desarrollar un futuro mejor. Y eso no nos lo está dando el Partido Popular. Todavía echamos la mano atrás y vemos cómo aquel que luego, por denunciar corrupción, abrazaba a Corderitos y se lo cargó a Ayuso por denunciar la corrupción de Ayuso, vino a muchos pueblos de esta comunidad autónoma a rascar puñados de votos abrazando a Corderitos. Gracias, señor presidente. El voto fuera público. ¿Y ellos qué han hecho? Pedir el voto en urna y secreto. Con la tontería que tiene que al final el número de votos sale siempre lo mismo. La suma de PP y Vox rechaza el blindaje de nuestras pensiones. Ese es el claro mensaje que lanzan a nuestros pensionistas, a nuestros mayores. El claro mensaje que nos están mandando, el claro mensaje que nos mandó Inda. No hablemos de esto hasta el 29 y luego hagamos lo que tengamos que hacer. Esa es la realidad de ese partido de defensa del campo y de defensa de nuestros mayores. Y esa es la realidad a la que tenemos que poner pie en pared, blindándolo en la Constitución, blindándolo en el pacto de Todredo y no dejándonos engañar ni un minuto más. La gente es mayor, pero no es... Es inteligente. Si me iba a escapar. La gente es mayor, pero desde luego es mucho más inteligente de lo que algunos se piensan. Y ya dejo para el final, insisto, lo que me parece más grave. Una vez más, Castilla y León, esta comunidad que fue pionera en dejar entrar a la extrema derecha de Vox y reconvertir a la derecha, que al menos se quitara la careta para ver que son lo mismo, es la primera que dejó pasar a la extrema derecha en un gobierno autonómico. Y hoy lo han vuelto a hacer. Hoy volvemos a ser noticia a nivel nacional precisamente porque aquí han vuelto a hacer un regreso al pasado, a sacar el boli rojo de la censura y a aplicar una política cultural como Dios manda. Esa política cultural de adoctrinamiento, esa política cultural en la que las ayudas públicas solo llegan a aquellos colectivos culturales Y hemos tenido que recordar a los señores del Partido Popular y a los señores de Vox hoy en las Cortes de Castilla y León que qué sería de Castilla y León y qué sería de España y yo diría del pensamiento humanista internacional sin don Antonio Machado y Campos de Castilla y Juan de Mairena. ¿Qué sería de Castilla y León y del pensamiento humanista sin las ratas de Miguel de Libes que denunciaron la miseria de muchos de los entornos rurales de nuestro Castilla y León? ¿Qué sería de Castilla y León y de España sin los santos inocentes que denunciaban el abuso de poder? ¿Qué sería de Castilla y León sin un amuno poniendo pie en pared y defendiendo la universidad y la autonomía universitaria? Oponiéndose a la dictadura, ¿qué sería de Castilla y León sin esas poetisas de Castilla y León como Concha de Marco, como Rosa en Valladolid, que supieron poner pie en París y defender los ideales de la República? ¿Qué sería de Castilla y León si no hubiéramos tenido también a Lorca durante la República a través de la barraca pisando los pueblos más pequeños de esta comunidad autónoma? ¿Qué sería de Castilla y León si volvemos a esos tiempos de la censura, del boli en rojo, de las ayudas solo para los nuestros? Ayer les decía también en las Cortes de Castilla y León, mi compañera Nuri, que están convirtiendo la prioridad nacional en la parida nacional y falta de razón. No le faltaba razón. La parida nacional es lo que están haciendo que sintamos los ciudadanos de esta comunidad autónoma con el sonrojo que nos da volver a ser ejemplo abriendo los telediarios precisamente para todo esto. Pero yo estoy convencido de que el mundo de la cultura, el mundo del cine, aquellos que tienen una visión abierta, libertaria, de pensamiento, de acción, que entienden que la cultura es un espacio en el que cabemos todos, que entienden que la censura es no solamente una injusticia democrática, sino una regresión a los tiempos del nodo, Que la cultura se tiene que abrir paso para poder generar sociedades igualitarias, libres, para que don Juan de Mariana a través de Antonio Machado sea lo que tengamos en el frontispicio cada uno de nosotros cada vez que nos acostamos, cada vez que sintamos el más mínimo pudor por entender que esta gente no puede pasar. Y como no puede pasar, yo lo que os invito a esa movilización que tanto les duele, a la necesidad de que seamos agentes electorales en cada uno de nuestros espacios, que nos jugamos mucho el 29 de noviembre, que nos lo jugamos a nivel internacional, a nivel europeo, pero también nos lo jugamos a nivel nacional, a nivel de Castilla y León y a nivel de cada uno de nuestros pequeños municipios en nuestros entornos rurales. Que el 29N nos jugamos el futuro o el regreso al pasado. Y creo que para pasado ya hemos tenido bastante en esta tierra que llevamos 40 años gobernando por los mismos. Por tanto, yo os invito a que a través de la cultura, a través de la fuerza de la razón, a través de la fuerza de la palabra libre y convencido de que esta palabra libre es infinitamente más fuerte que los insultos, que los engaños, que la violencia, Seamos capaces de pararlos el 29 de noviembre y consolidar un gobierno progresista que abra luz y arcoiris, amor, aunque les duela, a partir del próximo 30 de noviembre y hasta el año 2030, que es lo que más les expuese. Muchas gracias. Y con Pedro Sánchez, que os dejo con él."
   },
   {

@@ -91,7 +91,10 @@ def main():
     args = ap.parse_args()
     ITEMS.mkdir(parents=True, exist_ok=True)
 
-    dirs = sorted(d for d in RAW.iterdir() if (d / "audio.wav").exists() and (d / "meta.json").exists())
+    excl = ROOT / "config" / "exclude.txt"   # fetched by mistake (not a candidate): never published
+    skip = {l.split("#")[0].strip() for l in excl.read_text(encoding="utf-8").splitlines()} if excl.exists() else set()
+    dirs = sorted(d for d in RAW.iterdir() if (d / "audio.wav").exists() and (d / "meta.json").exists()
+                  and d.name not in skip)
     if args.only:
         dirs = [d for d in dirs if d.name == args.only]
     todo = [d for d in dirs if args.reidentify or not (ITEMS / f"{d.name}.json").exists()]

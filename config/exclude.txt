@@ -1,0 +1,2 @@
+# Appearances fetched by mistake: process.py skips them, so they are never published.
+2026-10-11-sanchez-4822a1  # Manu Sánchez (comedian) monologue, matched "Sánchez" in discovery

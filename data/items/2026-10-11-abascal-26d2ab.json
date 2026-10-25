@@ -14,7 +14,7 @@
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
   "voiceprint_threshold": 0.65,
-  "processed_at": "2026-10-25T18:25:49+00:00",
+  "processed_at": "2026-10-25T20:11:26+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -46,26 +46,26 @@
    "reason": "best sim 0.32 < 0.65",
    "talk_s": 295.1
   },
-  "SPEAKER_05": {
+  "SPEAKER_02": {
    "person": null,
    "name": "Hablante sin identificar 4",
+   "decision": "unknown",
+   "reason": "best sim 0.17 < 0.65",
+   "talk_s": 144.5
+  },
+  "SPEAKER_05": {
+   "person": null,
+   "name": "Hablante sin identificar 5",
    "decision": "unknown",
    "reason": "best sim 0.22 < 0.65",
    "talk_s": 79.7
   },
   "SPEAKER_01": {
    "person": null,
-   "name": "Hablante sin identificar 5",
+   "name": "Hablante sin identificar 6",
    "decision": "unknown",
    "reason": "best sim 0.19 < 0.65",
    "talk_s": 31.7
-  },
-  "SPEAKER_02": {
-   "person": null,
-   "name": "Hablante sin identificar 6",
-   "decision": "unknown",
-   "reason": "best sim 0.17 < 0.65",
-   "talk_s": 144.5
   }
  },
  "turns": [
@@ -74,7 +74,7 @@
    "end": 593.83,
    "label": "SPEAKER_01",
    "person": null,
-   "name": "Hablante sin identificar 5",
+   "name": "Hablante sin identificar 6",
    "text": "Y la tierra de sus padres seguirá siendo su hogar Yo le miro a los ojos y no sé qué contestar Pero su mirada me da fuerzas para seguir y luchar Lucharé por mis convicciones, lucharé por lo que creo No le debo nada a nadie,"
   },
   {
@@ -82,7 +82,7 @@
    "end": 600.37,
    "label": "SPEAKER_02",
    "person": null,
-   "name": "Hablante sin identificar 6",
+   "name": "Hablante sin identificar 4",
    "text": "solo creo en lo que me padre Es el hogar de mis abuelos, la que con sudor y..."
   },
   {
@@ -90,7 +90,7 @@
    "end": 617.67,
    "label": "SPEAKER_01",
    "person": null,
-   "name": "Hablante sin identificar 5",
+   "name": "Hablante sin identificar 6",
    "text": "Una sola mi familia, prioridad nacional,"
   },
   {
@@ -98,7 +98,7 @@
    "end": 740.44,
    "label": "SPEAKER_02",
    "person": null,
-   "name": "Hablante sin identificar 6",
+   "name": "Hablante sin identificar 4",
    "text": "prioridad nacional, las heridas sigan siendo mías, junto a Vox de la mano llegaremos al fin, tierra, prioridad nacional, la lucía es miña, yo voy a votar."
   },
   {
@@ -106,7 +106,7 @@
    "end": 1320.59,
    "label": "SPEAKER_05",
    "person": null,
-   "name": "Hablante sin identificar 4",
+   "name": "Hablante sin identificar 5",
    "text": "Buenas tardes a todos, bienvenidos a Estepona, bienvenidos a Málaga. Es un orgullo para el equipo de Vox Málaga que nuestro presidente nacional, Santiago Abascal, haya elegido Málaga como inicio de esta etapa tan importante y tan crucial para el futuro de España. Por eso, Santiago, desde el equipo de Málaga te queremos agradecer que estés aquí, agradecerte que hayas elegido a Málaga como inicio de esta pre-campaña en estas elecciones, Y decirte simplemente que el equipo está preparado. Y yo quiero decir, bueno, pues, dar un agradecimiento por todo el esfuerzo, por todo el trabajo, por toda la dedicación que ha tenido el equipo de Málaga y que hemos conseguido un reto en las últimas elecciones al Parlamento de Andalucía y fue, pues bueno, superar los 100.000 votos en Málaga ante esas elecciones autonómicas que nunca lo habíamos conseguido. Y eso es gracias al trabajo, entre otros, de todo ese equipo tan importante que tenemos en la provincia de Málaga. Santiago, simplemente decirte que estamos todos preparados, que nos vamos a dejar la piel en estas elecciones, porque lo que queremos es verte en el Gobierno, en la Presidencia del Gobierno de España. Y ahora quiero que recibamos con un fuerte aplauso al Vicepresidente de la Junta de Andalucía, Consejero de Turismo, Justicia, Regulación y Administración Local, Manuel Gaviria"
   },
   {

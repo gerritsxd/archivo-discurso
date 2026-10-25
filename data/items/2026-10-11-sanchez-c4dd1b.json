@@ -14,7 +14,7 @@
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
   "voiceprint_threshold": 0.65,
-  "processed_at": "2026-10-25T18:25:50+00:00",
+  "processed_at": "2026-10-25T20:11:26+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -22,50 +22,50 @@
    "person": "sanchez",
    "name": "Pedro Sánchez (PSOE)",
    "decision": "match",
-   "reason": "sim 0.82, next 0.23",
+   "reason": "sim 0.82, next 0.26",
    "talk_s": 1081.4
+  },
+  "SPEAKER_05": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "unknown",
+   "reason": "best sim 0.49 < 0.65",
+   "talk_s": 64.4
   },
   "SPEAKER_06": {
    "person": null,
-   "name": "Hablante sin identificar 1",
+   "name": "Hablante sin identificar 2",
    "decision": "unknown",
    "reason": "best sim 0.48 < 0.65",
    "talk_s": 362.2
   },
   "SPEAKER_02": {
    "person": null,
-   "name": "Hablante sin identificar 2",
+   "name": "Hablante sin identificar 3",
    "decision": "unknown",
    "reason": "best sim 0.41 < 0.65",
    "talk_s": 590.1
   },
   "SPEAKER_03": {
    "person": null,
-   "name": "Hablante sin identificar 3",
+   "name": "Hablante sin identificar 4",
    "decision": "unknown",
    "reason": "best sim 0.35 < 0.65",
    "talk_s": 47.9
   },
   "SPEAKER_00": {
    "person": null,
-   "name": "Hablante sin identificar 4",
+   "name": "Hablante sin identificar 5",
    "decision": "unknown",
    "reason": "best sim 0.35 < 0.65",
    "talk_s": 43.1
   },
   "SPEAKER_01": {
    "person": null,
-   "name": "Hablante sin identificar 5",
+   "name": "Hablante sin identificar 6",
    "decision": "unknown",
    "reason": "best sim 0.35 < 0.65",
    "talk_s": 231.8
-  },
-  "SPEAKER_05": {
-   "person": null,
-   "name": "Hablante sin identificar 6",
-   "decision": "unknown",
-   "reason": "best sim 0.33 < 0.65",
-   "talk_s": 64.4
   },
   "SPEAKER_07": {
    "person": null,
@@ -88,7 +88,7 @@
    "end": 47.94,
    "label": "SPEAKER_05",
    "person": null,
-   "name": "Hablante sin identificar 6",
+   "name": "Hablante sin identificar 1",
    "text": "Compañeras, compañeros, recibamos al secretario de organización del PSOE de Castilla y León, Daniel de la Rosa, al progresista de Socialistas y Hermócatas de Europa, Irache García, al ministro de Transporte y Movilidad Sostenible, Óscar Puente, y a la presidenta del PSOE de Castilla y León y ministra de Igualdad, Ana Redondo."
   },
   {
@@ -96,7 +96,7 @@
    "end": 466.46,
    "label": "SPEAKER_01",
    "person": null,
-   "name": "Hablante sin identificar 5",
+   "name": "Hablante sin identificar 6",
    "text": "No, que ni se le ocurra votar por correo."
   },
   {
@@ -104,7 +104,7 @@
    "end": 470.86,
    "label": "SPEAKER_06",
    "person": null,
-   "name": "Hablante sin identificar 1",
+   "name": "Hablante sin identificar 2",
    "text": "Yo les animo a que no voten por correo. No confío en los directivos de correos."
   },
   {
@@ -112,7 +112,7 @@
    "end": 474.18,
    "label": "SPEAKER_02",
    "person": null,
-   "name": "Hablante sin identificar 2",
+   "name": "Hablante sin identificar 3",
    "text": "Yo a mis hijos lo que les he pedido es que vengan a votar en persona."
   },
   {
@@ -120,7 +120,7 @@
    "end": 520.22,
    "label": "SPEAKER_00",
    "person": null,
-   "name": "Hablante sin identificar 4",
+   "name": "Hablante sin identificar 5",
    "text": "Te quieren recortar hasta el derecho a votar. No desconfían del voto por correo. Lo que no quieren es que votes. Que no vote el camarero cuya jornada le impide ir a su mesa electoral. El bombero y la sanitaria que el 29 de noviembre tienen guardia. Que no voten los estudiantes que viven fuera de su pueblo. Que el voto de las personas mayores que no pueden ir a la urna no cuente. El voto por correo es la manera de ejercer tu derecho cuando no puedes votar en urna. Y el 29 de noviembre, por correo o presencial, vamos a votar. No nos van a recortar nuestro derecho a votar."
   },
   {
@@ -128,7 +128,7 @@
    "end": 834.24,
    "label": "SPEAKER_05",
    "person": null,
-   "name": "Hablante sin identificar 6",
+   "name": "Hablante sin identificar 1",
    "text": "Compañeras, debemos decidir nuestro futuro. Esto va de retroceso o avance. Depende de nosotras y nosotras, demostremos la fuerza de la gente Del Partido Socialista Obrero Español y presidente del gobierno, Pedro Sánchez Un"
   },
   {
@@ -136,7 +136,7 @@
    "end": 1096.95,
    "label": "SPEAKER_06",
    "person": null,
-   "name": "Hablante sin identificar 1",
+   "name": "Hablante sin identificar 2",
    "text": "caudillejo, tercer mundista, cabrón"
   },
   {
@@ -144,7 +144,7 @@
    "end": 1098.45,
    "label": "SPEAKER_01",
    "person": null,
-   "name": "Hablante sin identificar 5",
+   "name": "Hablante sin identificar 6",
    "text": "El Jeta de la Mareta El"
   },
   {
@@ -152,7 +152,7 @@
    "end": 1117.06,
    "label": "SPEAKER_06",
    "person": null,
-   "name": "Hablante sin identificar 1",
+   "name": "Hablante sin identificar 2",
    "text": "Galgo de Paiporta Creo que debería irse de este país en un maletero Repugnante presidente del gobierno de España Mentiroso, cobarde Es un corrupto. Es un farsante."
   },
   {
@@ -160,7 +160,7 @@
    "end": 1118.18,
    "label": "SPEAKER_05",
    "person": null,
-   "name": "Hablante sin identificar 6",
+   "name": "Hablante sin identificar 1",
    "text": "Un peligro."
   },
   {
@@ -168,7 +168,7 @@
    "end": 1122.9,
    "label": "SPEAKER_06",
    "person": null,
-   "name": "Hablante sin identificar 1",
+   "name": "Hablante sin identificar 2",
    "text": "Un caudillismo que en España no se veía desde hace 50 años."
   },
   {
@@ -176,7 +176,7 @@
    "end": 1188.38,
    "label": "SPEAKER_03",
    "person": null,
-   "name": "Hablante sin identificar 3",
+   "name": "Hablante sin identificar 4",
    "text": "Yo seré un perro, pero no tengo amor. ¿Por qué nos insultan? ¿Por subir el salario mínimo y batir récord de empleos? ¿Por revalorizar y llenar la hucha de las pensiones? Por extender y equiparar los permisos de paternidad y maternidad Por aprobar una ley que garantiza la igualdad salarial entre hombres y mujeres Por aprobar medidas en favor del pequeño propietario y los inquilinos frente a los fondos buitres Por alzar la voz contra el genocidio en Gaza Por enfrentar los asesos ternoligarcas que quieren forrarse a costa de la salud mental de la gente Por defender el estado del bienestar frente al realme militar del 5%? Pues sí, por eso nos insultan, porque somos el gobierno de la gente que pone en su sitio a los de arriba. Y si queremos llegar más lejos en avances sociales y hacerlo antes, necesitamos tu fuerza, la fuerza de la gente."
   },
   {
@@ -184,7 +184,7 @@
    "end": 1692.03,
    "label": "SPEAKER_06",
    "person": null,
-   "name": "Hablante sin identificar 1",
+   "name": "Hablante sin identificar 2",
    "text": "Buenos días, amigas y amigos. Bienvenidos a Ponferrada. Bienvenidos a Alvierzo. Presidente, qué orgullo tenerte de nuevo en Ponferrada, tenerte en León y recibirte así, con la fuerza de la gente. Ayer en Dos Hermanas y hoy en Ponferrada. Porque Pedro, querido secretario general, querido presidente, voy a hacer una afirmación. La leyenda continúa. La leyenda continúa porque vas a volver a ganar las elecciones generales. Porque Pedro, eres como un Tom Cruise en Misión Imposible. Los teóricos de la derecha y de la extrema derecha, los tertulianos, vaticinan una debacle. Las casas de encuestas o más bien de apuestas lo mismo. La derecha y la ultraderecha dopadas mediática y judicialmente. ¿Pero sabéis cómo termina la película? Al final siempre ganas. Porque a diferencia de Tom Cruise, tú tienes la fuerza de la gente y sobre todo tienes detrás al mejor partido de este país, el Partido Socialista Obrero Español. Y la noticia, amigas y amigos, la noticia es que el Partido Socialista va a ganar las elecciones en el Bierzo, en León y en España. Permitidme ahora dar las gracias al presidente por haber elegido Ponferrada para iniciar la precampaña electoral. Porque el Partido Socialista está muy orgulloso y tiene un magnífico agradecimiento por el apoyo histórico ¡Que se la da desde esta comarca a los gobiernos socialistas, al presidente del gobierno! Porque esta es una tierra de trabajadores, de buenos demócratas, de luchadores, de gente educada, de la educación que representa al Partido Socialista, que es uno de nuestros grandes valores. Ese buen tono. Porque fijaros, el lunes ha convocado las elecciones el presidente del gobierno. La derecha y la extrema derecha llevan pidiendo elecciones desde el día siguiente de las elecciones del 2023. 2023. Pues vaya, no les ha gustado. Ya les empiezan a temblar las piernas. ¿Ahora qué dicen? Que si la ley de nietos, que si el censo electoral, que si el voto por correo, todo excusas de mal pagador. Son como los niños caprichosos, esos que nunca están contentos. Y hay magníficos ejemplos en la oposición, en la derecha y en la extrema derecha. Aquí conocéis bien a un diputado de Vox, bajito, con gafitas redondas, que ¿Qué ha dicho hace unos días? Que hay que privatizar las pensiones. Claro, ¿sabéis cómo es apellida, no? Rato Figaredo, aquí les conocemos bien, porque ni ellos ni su familia necesitan una pensión pública para vivir. Que se lo digan a los 140.000 pensionistas de esta provincia, que se las van a bajar, que se las van a privatizar. Eso es lo que tenemos delante, amigas y amigos. Por eso es tan importante que nos movilicemos, que nos movilicemos todas y todos. Hemos visto un vídeo, hace unos segundos, un vídeo en el que vemos ejemplos, un vídeo breve, del odio, de los insultos de la derecha y de la extrema derecha. Si pudiéramos juntar todos los insultos que le han dedicado al presidente del gobierno en una película, sería más larga que lo que el viento se llevó. Sí, pero os voy a decir una cosa, a quien se va a llevar el viento es a Feijóo el 29 de noviembre porque no se puede permitir ni consentir una oposición tan deplorable, tan mezquina como la que han hecho y las urnas, los ciudadanos, la gente, se lo va a hacer pagar Y todo esto empezó con Ayuso, ¿os acordáis de todo aquello del me gusta la fruta, de la mala educación, de intentar insultar al presidente del gobierno? Le siguió Feijóo, Álvarez de Toledo, Ester Muñoz, Tellado. Menuda alineación, amigas y amigos. Pero es que lo que es real, y cualquier persona lo sabe, es que quien no respeta al contrario no se respeta a sí mismo y no se quiere a sí mismo. Y lo que han intentado hacer con el presidente del gobierno, con ministras y ministras como Óscar Puente, como Ana Redondo, con sus familias, lo que le han hecho a Begoña, todo mi afecto y todo mi cariño también, no lo vamos a consentir. Yo siempre le di vueltas a por qué derogaron la asignatura de Educación para la Ciudadanía, una asignatura que puso en marcha el presidente Zapatero, al que le mando un fuerte abrazo desde su tierra, desde León. Y es porque querían una sociedad mal educada. Lo han demostrado. Por eso lo hicieron. Lo más importante en la vida es la educación, el respeto al contrario, el respeto al prójimo. Y es que mirad, después de esta reflexión, si uno lo piensa, igual Feijóo no es tan mal candidato. Para el Partido Socialista seguro que no. Para Vox tampoco. Y es que fijaos lo que dijo ayer en un mítin. Además se puso trascendente en un determinado momento. Dijo que iba a exigir sacrificios y que no quería aplausos. Pues estaba bueno que encima le aplaudieran, porque los sacrificios son las pensiones, el ingreso mínimo vital, el salario mínimo profesional. Porque este presidente hizo de España un país más decente, más mejor donde vivir, un lugar más próspero. Y eso es lo que nos jugamos el día 29, avanzar con un gobierno socialista con Pedro Sánchez o retroceder con la derecha y la extrema derecha. Y los grandes avances que han llegado a este país y particularmente a esta provincia siempre han tenido la firma de socialistas. Y eso hay que reconocerlo, eso se lo tenemos que reconocer en León, que se pusieron en marcha las transiciones digitales, la transición verde, volvemos a crecer en población. Por eso es tan importante que el día 29 de noviembre le devolvamos la mayoría social a este país para seguir legislando, legislando para la gente, porque quedan muchas personas, quedan muchas vidas por mejorar y ahí vamos a estar, ahí va a estar el gobierno socialista con Pedro Sánchez a la cabeza. Y sin más, os dejo con la vicesecretaria general del PSOE de Castilla y León, con Nuria Rubio, ¡a ganar!"
   },
   {
@@ -192,7 +192,7 @@
    "end": 1971.19,
    "label": "SPEAKER_01",
    "person": null,
-   "name": "Hablante sin identificar 5",
+   "name": "Hablante sin identificar 6",
    "text": "Últimas elecciones y las volveremos a ganar el 29 de noviembre porque representas a las personas mejor que nadie. Y hoy aquí, muy brevemente, porque sé que todos queréis escuchar al presidente y a nuestro secretario general autonómico, quiero reivindicar quiénes somos y de dónde venimos. Quiero reivindicar la conciencia de clase y aquí en una tierra que tanto nos ha enseñado. Yo que vengo de la cuenca minera, que me han enseñado la importancia del esfuerzo, de la unidad, de la lucha obrera, de la unión, y que ahora vemos como unos señoritos que no han trabajado nunca quieren atacar los derechos que tanto esfuerzo les costó conseguir a nuestros padres y a nuestros abuelos. No podemos permitir que la generación que viene viva peor que nosotros y nosotras, porque nos dieron todas las oportunidades, nos dieron la oportunidad de poder elegir nuestro futuro, vimos a nuestras familias esforzarse mucho para que pudiéramos estudiar, para poder ir a las universidades públicas con una beca y ahora vemos al candidato del PP decir poco más o menos que somos los que tenemos que ser. Y que cogemos las bajas los lunes y los viernes. Y que ahora nos tiene que dar el alta la mutua. ¿Cuántas huelgas costó conseguir eso, compañeros y compañeras? ¿Cuántas? Así que lo que yo os pido es que hagamos lo que siempre hemos hecho, que trabajemos unidos y unidas para que no nos quiten nada de lo que nos pertenece. La única manera es aglutinar ese voto progresista, ese voto de izquierdas. Aquí en Castilla y León ya sabemos qué pasa cuando gobiernan la derecha y la extrema derecha, o las dos derechas extremas. Lo sabemos bien, pero siempre hemos tenido la protección del gobierno de España. de España. Recuerdo muy bien, ministra, recuerdo muy bien, Patri, cuando aquí a las mujeres que decidían libremente interrumpir su embarazo pretendían obligarnos a escuchar el latido del feto. Lo frenaron desde el gobierno de España porque teníamos quien nos defendiera. ¿Qué es la diferencia de las personas y los dirigentes que nos defienden y los que nos atacan? Porque se dicen muy patriotas, pero no sé qué patria defienden. Porque atacan a las personas que vienen de fuera. Repoblar nuestros pueblos que buena falta nos hace. Atacan a los pensionistas a los que les quieren quitar la pensión y privatizar el sistema. Atacan a las personas vulnerables que están cobrando una prestación porque se encuentran en situación de desempleo y también dicen que son unos vagos. Y nos atacan a nosotras. Por eso yo digo que la revolución será feminista o no será. Y compañeras, va a ser. Nos tenemos que movilizar. Estas elecciones las vamos a ganar con el voto de las mujeres. Que nos tenemos que levantar, compañeras. Lo vamos a lograr. Así que Pedro, hay muchas encuestas o como dice nuestro secretario general Javier, muchas apuestas, pero yo aquí lo que veo es que hay partido, hay partido y en el Partido Socialista no salimos a empatar, salimos a ganar. Y hoy estamos aquí, pero miles de personas se quedaron fuera, que han venido a ver a nuestro presidente, que también les quiero mandar un saludo y todo nuestro afecto a toda la gente que habéis venido a arropar a Pedro. Gracias, Pedro. Así que yo ya he trasladado el mensaje que quería deciros y ahora nos toca trabajar, algo que no nos asusta a las socialistas y a los socialistas. Lo haremos desde León, lo haremos desde El Bierzo, pero también lo haremos desde Castilla y León con el mejor líder que podemos tener. Así que os dejo con Carlos Martínez."
   },
   {
@@ -200,7 +200,7 @@
    "end": 2054.27,
    "label": "SPEAKER_02",
    "person": null,
-   "name": "Hablante sin identificar 2",
+   "name": "Hablante sin identificar 3",
    "text": "Venga, vamos al lío. Pedro, Conferrada nunca falla, Elvierzo nunca falla y León nunca falla. Aquí los tienes. Esta es la fuerza de la gente. Esta es la fuerza de nuestra tierra. Un saludo y mil disculpas. El próximo duplicaremos aforo a toda esta gente que se nos ha tenido que quedar fuera. Un saludo para todos ellos y para todas ellas. Gracias. Es esta, Pedro, la fuerza de nuestra gente, la que cuando se siente agredida"
   },
   {
@@ -208,7 +208,7 @@
    "end": 2058.19,
    "label": "SPEAKER_06",
    "person": null,
-   "name": "Hablante sin identificar 1",
+   "name": "Hablante sin identificar 2",
    "text": "reacciona, la que cuando se indigna"
   },
   {
@@ -216,7 +216,7 @@
    "end": 2325.33,
    "label": "SPEAKER_02",
    "person": null,
-   "name": "Hablante sin identificar 2",
+   "name": "Hablante sin identificar 3",
    "text": "se revuelve, la que cuando le agreden a un compañero aprieta el brazo y aprieta las filas. Y hoy lo estamos viendo en Ponferrada, igual que lo estamos viendo en cada uno de los rincones de esta bendita comunidad autónoma. Una comunidad autónoma que ha sabido estar a la altura en las pasadas elecciones autonómicas. Es el primer acto, un gran acto que hacemos después de las elecciones autonómicas y a mí me corresponde también daros a todas y cada una de vosotras y de vosotros las gracias por cómo habéis comportado, por haber hecho que en León se ganara ampliamente a la derecha. Para que en León fuéramos primera fuerza política, para plantear que también en Castilla y León el cambio es posible y para fijar como objetivo el Ejecutivo de la Comunidad Autónoma para erradicar 40 años de oscuridad y de blanco y negro después de los 40 años en negro que tuvimos con la dictadura. También le toca a nuestra comunidad autónoma abrir un nuevo espacio, abrir un nuevo tiempo. Pero siempre digo que nunca lo hemos tenido fácil, el Partido Socialista. Ni ahora ni antaño. La historia del Partido Socialista y la historia de la lucha obrera, de la lucha de las mujeres, de la lucha de los hombres y mujeres que entendieron y se rebelaron contra la imposición del más fuerte, que entendieron que solo a través de la lucha, de las alianzas, de golpear unidos y permanentemente en el mismo clavo es como se resuelven los problemas. Esa lucha obrera que ha conseguido los grandes avances sociales que hoy disfrutamos. Esa lucha obrera que se ha ganado poder coger una baja cuando se está en enfermedad. Esa lucha obrera que a través de los sindicatos canaliza las reivindicaciones de la mejora de las condiciones laborales que hemos conseguido. Esa lucha obrera que a través de la representación política que tiene el Partido Socialista ha conseguido los grandes avances que garantizan la igualdad de oportunidades para que el hijo de un relojero y de un ama de casa, como es mi caso, pueda tener hoy la aspiración de presidir la comunidad autónoma. Esa es la grandeza de la democracia que algunos quieren deteriorar. Esa es la grandeza y la fuerza de un partido con más de 140 años de historia y que hoy es el único faro que tenemos a nivel europeo para poder seguir consolidando ese estado del bienestar que tanto nos ha costado conseguir. Hoy hablaba con Irache en ese off y hablaba de la necesidad también en Europa de que en España siga habiendo un gobierno progresista. Y yo digo, la necesidad también que a nivel internacional tengamos un presidente con la valentía que ha tenido Pedro Sánchez para poner pie en pared ante los oligarcas, Ante aquellos que no les pone freno absolutamente nadie, a quienes no quieren solamente controlar la economía, sino controlar nuestras vidas para ponerla al servicio de unos pocos. Pedro, qué orgullo estar en tu equipo, qué orgullo en las representaciones de ámbito internacional de forma permanente, qué orgullo escucharte en Nueva York, qué orgullo verte abrazar al alcalde Mandani para poder plantear un contrapoder. Es un poder absolutamente necesario en un contexto absolutamente endiablado que yo os digo también va a servir para conseguir una mayoría este próximo 29 de noviembre. Porque la gente nos está esperando, la gente está reclamando al Partido Socialista, porque la gente ha visto como las políticas públicas no solamente consolidan un desarrollo económico, hay algo que se nos olvida permanentemente y yo quiero reivindicar hoy aquí. Es verdad que hablamos mucho del escudo social, del progreso de los trabajadores y trabajadoras de este país, pero hablamos menos del desarrollo económico que hemos conseguido a lo largo de estos últimos ocho años. Yo quiero marcar una cifra que la dije el otro día para que no se olviden algunos. Cuando Pedro asumió la responsabilidad del Ejecutivo del Gobierno, el índice del IBEX era de 8.500 puntos. 19"
   },
   {
@@ -224,7 +224,7 @@
    "end": 2327.35,
    "label": "SPEAKER_06",
    "person": null,
-   "name": "Hablante sin identificar 1",
+   "name": "Hablante sin identificar 2",
    "text": ".500 puntos."
   },
   {
@@ -232,7 +232,7 @@
    "end": 2559.67,
    "label": "SPEAKER_02",
    "person": null,
-   "name": "Hablante sin identificar 2",
+   "name": "Hablante sin identificar 3",
    "text": "El posicionamiento a nivel internacional y la defensa de los de siempre, de los que van a por ellos permanentemente. Yo quiero hacer aquí un llamamiento también y una defensa de la gestión que con la migración estamos haciendo y de la gestión también que se está haciendo en Ceuta. Sí, frente a aquellos que permanentemente están en el cuanto peor mejor, en la zancadilla, en el palo, en las ruedas, quiero reivindicar la gestión silenciosa y callada de un gobierno que está resolviendo los problemas, que no sin dificultades hemos tenido también en esta crisis, pero sin satanizar y sin criminalizar a aquellos que tienen que venir, Como tantos otros castellanos, castellanas, leonesas y leoneses hemos tenido que ir a otros territorios para buscarnos la vida, para generar desarrollo y oportunidades. Esa gente son personas con diferente color, con diferente Dios, pero son personas con iguales de derechos y de oportunidades que tenemos nosotros y por tanto ahí tiene que estar también el Partido Socialista. Y diré más, me voy a sumar a la reivindicación de que esta revolución tiene que ser feminista o no será. Sí, la fuerza de la mujer, frente a aquellos que quieren volver a la pata quebrada y en la cocina, la reivindicación de la fuerza de la mujer en la representación política, en la representación pública. Y quiero aquí hacer una especial mención y un reconocimiento al trabajo que están haciendo mis compañeras, Patricia, Nuria, Lorena, nuestra ministra, Ana, Irache, Clara, a todas y cada una de las compañeras de este partido que están poniendo en marcha esa escuela feminista. Y aquí quiero decir que el primer premio llevará el nombre y el reconocimiento de Nevenka, porque los símbolos también son importantes, porque las que fueron pioneras son las que nos han llevado hasta aquí. Y por tanto, el recuerdo de Nevenka tiene que ser absolutamente clave y fundamental para poder seguir avanzando en una sociedad de iguales, en una sociedad feminista, en una sociedad en la que el 50% de la población alcance de una vez por todas esa igualdad de oportunidades. Y, mirad, os digo que esta semana hemos sufrido mucho en el grupo parlamentario. Hemos sufrido mucho la oposición permanente de PP y Vox, esa coalición del no, que está permanentemente rechazando todas y cada una de las iniciativas. Pero esta semana ha sido todavía más doloroso. Después de más de 15 años sin tener una ley autonómica para adaptarnos al pacto de Estado contra la violencia machista, Hoy hemos tenido que ver cómo esa alianza del no volvía a rechazar una proposición de ley presentada por el Grupo Socialista para después de 15 años tener una ley adaptada. No puede ser. No puede ser que las mujeres sean siempre la moneda de cambio con la que el Partido Popular consigue el poder y el sillón. Y esa memoria tenemos que intentar trasladarla a la ciudadanía para que no dar ni un paso atrás, para permanecer en la denuncia permanente de cuáles son las políticas públicas. ¿Cuáles son las políticas públicas que hacen daño a la sociedad, que hacen daño a los más débiles?"
   },
   {
@@ -240,7 +240,7 @@
    "end": 2561.61,
    "label": "SPEAKER_06",
    "person": null,
-   "name": "Hablante sin identificar 1",
+   "name": "Hablante sin identificar 2",
    "text": "Y hablando de mujeres,"
   },
   {
@@ -248,7 +248,7 @@
    "end": 2668.78,
    "label": "SPEAKER_02",
    "person": null,
-   "name": "Hablante sin identificar 2",
+   "name": "Hablante sin identificar 3",
    "text": "como no, un recuerdo a la familia de Mari Carmen, una mujer una vez más, una mujer una vez más, que ha prendido una llama de una reivindicación que a todos nos interpela, a todos. Yo he sido 20 años prácticamente alcalde de mi ciudad y tengo una responsabilidad política pública. Y, por tanto, yo también tengo esa mezcla de sentimientos, de tristeza, de hartazgo, de indignación por el aprovechamiento y la negación del derecho de algunos. También me culpa por no haber hecho lo suficiente. Y, por tanto, la valentía con que el presidente del Gobierno ha asumido la aprobación de los realdecretos a través de la Diputación Permanente Es un gesto que dice que lo venimos a gobernar hasta el último minuto y que después de ese último minuto habrá Partido Socialista 2030, habrá Pedro Sánchez 2030 y habrá un presidente del Gobierno que de una vez por todas desarrolle el derecho a la vivienda, ese artículo 47, mediante la confluencia y el consenso de todos los actores. Porque cuando uno gobierna asume las responsabilidades, no se pone de perfil. Se asume, se es valiente, se desarrollan los decretos, se habla a través del Boletín Oficial del Estado. Esa es nuestra fortaleza frente a sus insultos, la fortaleza del Boletín Oficial del Estado, la fortaleza de unos presupuestos que financian políticas públicas y garantizan igualdad. Esa es la herramienta con la que tenemos que hacer frente al problema de la vivienda estos próximos años. Y hasta aquí hemos llegado en esta legislatura y de una forma valiente, pero otra vez a contrapié, hemos"
   },
   {
@@ -256,7 +256,7 @@
    "end": 2671.16,
    "label": "SPEAKER_06",
    "person": null,
-   "name": "Hablante sin identificar 1",
+   "name": "Hablante sin identificar 2",
    "text": "vuelto al señor Feijóo y ya le he desprevenido."
   },
   {
@@ -264,7 +264,7 @@
    "end": 2768.41,
    "label": "SPEAKER_02",
    "person": null,
-   "name": "Hablante sin identificar 2",
+   "name": "Hablante sin identificar 3",
    "text": "Se ve que el absentismo lo practica más de lunes a viernes que los lunes y los viernes. Y por lo que sea, pues tampoco le ha venido bien que le convocáramos ahora y por tanto su objetivo es desanimar el voto, que la gente se quede en casa, que solo vayan a votar los, si pueden ser los suyos o los de sus socios, que cada vez le van a votar más a los otros que a él. y creo que nosotros tenemos que estar en todo lo contrario. Un ejemplo de cómo está la sociedad es vuestra presencia hoy aquí y yo os tengo que pedir un esfuerzo mayores. Vamos a dejarnos la vida, a dejarnos la piel de aquí al 29 de noviembre para que la respuesta de la ciudadanía, la respuesta de la gente a todos esos insultos, a esa desintentivación y a esa desmovilización que pretende la derecha, Se la devolvamos con votos, con puños y rosas en cada una de las urnas, en cada uno de los municipios de Castilla y León. Esa es la mejor respuesta que le podemos dar. Ese es el mayor impulso que podemos trasladar para seguir cambiando este país, para seguir consolidando España como ese faro ético, moral, ideológico, progresista de políticas públicas que alcanzan la igualdad. Ese es el sentido del Partido Socialista y eso es lo que pretendemos hacer hasta el 2030 con Pedro Sánchez. Muchas gracias."
   },
   {

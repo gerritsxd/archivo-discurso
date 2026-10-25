@@ -14,7 +14,7 @@
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
   "voiceprint_threshold": 0.65,
-  "processed_at": "2026-10-25T18:25:52+00:00",
+  "processed_at": "2026-10-25T20:11:28+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -81,40 +81,40 @@
    "reason": "only 18s of speech",
    "talk_s": 18.1
   },
-  "SPEAKER_12": {
+  "SPEAKER_14": {
    "person": null,
    "name": "Hablante sin identificar 9",
+   "decision": "unknown",
+   "reason": "best sim 0.23 < 0.65",
+   "talk_s": 22.5
+  },
+  "SPEAKER_12": {
+   "person": null,
+   "name": "Hablante sin identificar 10",
    "decision": "too_short",
    "reason": "only 8s of speech",
    "talk_s": 7.7
   },
+  "SPEAKER_02": {
+   "person": null,
+   "name": "Hablante sin identificar 11",
+   "decision": "too_short",
+   "reason": "only 15s of speech",
+   "talk_s": 14.7
+  },
   "SPEAKER_10": {
    "person": null,
-   "name": "Hablante sin identificar 10",
+   "name": "Hablante sin identificar 12",
    "decision": "unknown",
    "reason": "best sim 0.18 < 0.65",
    "talk_s": 35.0
   },
-  "SPEAKER_14": {
-   "person": null,
-   "name": "Hablante sin identificar 11",
-   "decision": "unknown",
-   "reason": "best sim 0.17 < 0.65",
-   "talk_s": 22.5
-  },
   "SPEAKER_15": {
-   "person": null,
-   "name": "Hablante sin identificar 12",
-   "decision": "too_short",
-   "reason": "only 19s of speech",
-   "talk_s": 18.7
-  },
-  "SPEAKER_02": {
    "person": null,
    "name": "Hablante sin identificar 13",
    "decision": "too_short",
-   "reason": "only 15s of speech",
-   "talk_s": 14.7
+   "reason": "only 19s of speech",
+   "talk_s": 18.7
   },
   "SPEAKER_13": {
    "person": null,
@@ -185,7 +185,7 @@
    "end": 674.24,
    "label": "SPEAKER_14",
    "person": null,
-   "name": "Hablante sin identificar 11",
+   "name": "Hablante sin identificar 9",
    "text": "Creo que es la bicicleta en sí misma. Es el tipo de cosa con la que se hace. Runa el negocio en Shopify. Comienza tu periodo de prueba gratis en Shopify.com"
   },
   {
@@ -193,7 +193,7 @@
    "end": 711.64,
    "label": "SPEAKER_10",
    "person": null,
-   "name": "Hablante sin identificar 10",
+   "name": "Hablante sin identificar 12",
    "text": "www.greenchoice"
   },
   {
@@ -201,7 +201,7 @@
    "end": 726.45,
    "label": "SPEAKER_02",
    "person": null,
-   "name": "Hablante sin identificar 13",
+   "name": "Hablante sin identificar 11",
    "text": ".nl No tengo ni idea."
   },
   {

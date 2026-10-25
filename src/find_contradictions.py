@@ -130,14 +130,31 @@ def main():
     db.execute("""CREATE TABLE contradictions (id INTEGER PRIMARY KEY, person TEXT, topic TEXT,
         claim_a INTEGER, claim_b INTEGER, kind TEXT, explanation TEXT)""")
     rejected = json.loads(REVIEW.read_text(encoding="utf-8")).get("rejected", {}) if REVIEW.exists() else {}
-    out = []
+    parent = {}
+
+    def find(x):
+        while parent.get(x, x) != x:
+            x = parent[x]
+        return x
+
+    accepted = []
     for k, r in cache["judge_v2"].items():
         if "-".join(sorted(k.split("-"))) in rejected:   # a human looked at it and said no
             continue
         a, b = (by_h.get(x) for x in k.split("-"))
         if r.get("veredicto") == "contradiccion" and a and b:
-            kind = "cifras" if r.get("tipo") == "cifras" else "postura"
-            out.append((info[a][1], info[a][2], a, b, kind, str(r.get("explicacion", ""))[:400]))
+            accepted.append((a, b, r))
+            parent[find(h[a])] = find(h[b])
+    # one pair per issue: pairs that share a quote (2.400 vs 1.400 vs 2.401 años…) are the same
+    # inconsistency, so only the first pair of each connected group is kept
+    out, seen = [], set()
+    for a, b, r in accepted:
+        root = find(h[a])
+        if root in seen:
+            continue
+        seen.add(root)
+        kind = "cifras" if r.get("tipo") == "cifras" else "postura"
+        out.append((info[a][1], info[a][2], a, b, kind, str(r.get("explicacion", ""))[:400]))
     db.executemany("INSERT INTO contradictions (person, topic, claim_a, claim_b, kind, explanation) VALUES (?,?,?,?,?,?)",
                    out)
     db.commit()

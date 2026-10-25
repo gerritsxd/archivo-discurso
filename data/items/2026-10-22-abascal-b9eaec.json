@@ -14,7 +14,7 @@
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
   "voiceprint_threshold": 0.65,
-  "processed_at": "2026-10-25T18:26:07+00:00",
+  "processed_at": "2026-10-25T20:11:45+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -32,19 +32,19 @@
    "reason": "only 10s of speech",
    "talk_s": 9.5
   },
-  "SPEAKER_00": {
+  "SPEAKER_03": {
    "person": null,
    "name": "Hablante sin identificar 2",
    "decision": "unknown",
-   "reason": "best sim 0.41 < 0.65",
-   "talk_s": 192.6
+   "reason": "best sim 0.36 < 0.65",
+   "talk_s": 460.2
   },
-  "SPEAKER_03": {
+  "SPEAKER_00": {
    "person": null,
    "name": "Hablante sin identificar 3",
    "decision": "unknown",
-   "reason": "best sim 0.36 < 0.65",
-   "talk_s": 460.2
+   "reason": "best sim 0.41 < 0.65",
+   "talk_s": 192.6
   },
   "SPEAKER_01": {
    "person": null,
@@ -121,7 +121,7 @@
    "end": 1635.71,
    "label": "SPEAKER_00",
    "person": null,
-   "name": "Hablante sin identificar 2",
+   "name": "Hablante sin identificar 3",
    "text": "segovianos, bienvenidos a este acto central de Segovia en el que vamos a conseguir un muy buen resultado en las próximas elecciones generales. ¡Qué ambientazo, qué alegría, cuánta gente buena y qué orgullosa estoy de que estemos todos aquí acompañando a nuestro futuro presidente del Gobierno de España, Santiago Abascal! Han encargado abrir este acto y desde luego que lo hago con muchísima ilusión, con mucho orgullo, porque de verdad que da gusto ver cómo está este salón. Vosotros sois la prueba de cómo el partido ha crecido y se ha consolidado para llegar a ser la única alternativa real que tiene España. Esta alternativa está dirigida por nuestro presidente, Santiago Abascal, el único líder que puede sacar a España de la situación que nos encontramos actualmente. Bienvenido, Santiago. Nuestro presidente no está solo, le acompaña un gran equipo que está trabajando por España en todos los rincones de nuestra nación. Algunos miembros de este equipo están aquí esta tarde acompañándonos, como por ejemplo Carlos Poyán, vicepresidente primero de la Junta de Castilla y León, que está demostrando que Vox no solamente sabe hacer oposición, sino que también sabe gobernar. Así que, Carlos, bienvenido a Segovia. Quiero saludar también a nuestra procuradora en las Cortes de Castilla y León, Susana Suárez, que trabaja con rigor y con valentía para esta provincia, para Segovia. Gracias, Susana. Y por supuesto tengo que saludar a nuestro candidato, a nuestro futuro diputado, que lo vamos a conseguir, Gonzalo, claro que sí, a nuestro diputado Gonzalo Bave, que va a dar la batalla por esta tierra en las próximas elecciones del 29 de noviembre. Pero este gran equipo no acaba aquí. También quiero dar la bienvenida y quiero aprovechar a saludar a nuestros concejales que nos acompañan de diferentes municipios. Me vas a permitir, Santiago, un inciso. Los que somos concejales sabemos que la política municipal es la más cercana al ciudadano y tú fuiste concejal y bien lo sabes, aunque tu situación en aquellos tiempos era bastante complicada. Había que ser muy valiente y tú siempre lo has demostrado. Y me vais a permitir también detenerme para reconocer la labor que han hecho los voluntarios, jóvenes voluntarios que llevan aquí desde primera hora de la tarde y que con David al frente han conseguido organizar lo mejor posible este acto. Y para finalizar también quiero agradecer a mi equipo de campaña, que estoy segura que entre todos además lo vamos a hacer muy bien Y lo daremos, daremos lo mejor cada uno de nosotros para que Santiago Abascal sea presidente del gobierno que España necesita. Y bueno, nos esperan unos días duros, intensos, pero lo vamos a dar todo, ¿verdad Gonzalo? Así que vamos a seguir adelante y ya lo último, lo último de verdad, es dar las gracias a mi familia porque me aguanta con muchísima paciencia Y en especial a mi marido que merece de verdad que le reconozca esta labor. Muchas gracias a todos. Adelante españoles, segovianos, viva España y viva Segovia. Disculpad, a continuación doy la palabra a Carlos Poyan."
   },
   {
@@ -153,7 +153,7 @@
    "end": 2531.42,
    "label": "SPEAKER_03",
    "person": null,
-   "name": "Hablante sin identificar 3",
+   "name": "Hablante sin identificar 2",
    "text": "Buenas tardes a todos, queridos amigos. En primer lugar, quiero dar las gracias a nuestro presidente nacional y futuro presidente de España, Santiago Abascal, a todos vosotros por venir a este acto, a Carlos, a Esther, que me han precedido en el uso de la palabra, a todos los procuradores, a todo el equipo provincial, y la Comisión Provincial que vamos a conseguir entre todos los que estamos aquí y todos los que no han podido venir, pero vamos a conseguir recuperar el escaño que Vox necesita en esta provincia para defender a todos los segovianos. No es fácil encontrar tiempo en un día laborable y la verdad es que estoy encantado de estar aquí con la sala llena, abarrotada y viendo que la confianza y el apoyo que Vox tiene no solo va a ser en Segovia sino va a ser a nivel nacional y vamos a tener y cosechar unos grandes resultados. No hay que confiarse un ápice, no hay que desperdiciar un solo voto porque ya sabemos que nos enfrentamos a una mafia que hace muchas trampas y que es capaz de hacer cualquier cosa para intentar manipular. Permitidme que, lógicamente, agradezca a nuestro presidente Santiago Abascal el liderazgo y la clara visión Y la determinación que tiene, cómo está buscando siempre devolver la tranquilidad a nuestras calles, devolver la tranquilidad a los pueblos de España, a todas las ciudades, para que todos los españoles de bien puedan encontrar el futuro próspero que España merece. España es una gran nación y somos capaces de salir de esta y salir seguro que vamos a recuperar el orgullo patrio que siempre nos ha caracterizado. Esto es una pesadilla que va a acabar el 29 de noviembre y tenemos que trabajar todos para acabar con esa pesadilla. Aquí está la España efectivamente que trabaja y que madruga y que trabaja por sacar España adelante, que paga sus impuestos. Los españoles que necesitan la prioridad, como bien se dice, que al final necesitamos dar apoyo a todos nuestros ciudadanos. Señoras y señores, yo quiero, aparte de dar las gracias, desmentir una cosa. Me ha sentado un poquito regular, pero lo voy a desmentir en tres minutos, que decía, no, un diputado que viene de Madrid, es que no conoce mis raíces segovianas y permitidme que me presente como tal. No solo soy de Abuela Segoviana, de San García, donde tengo familia y donde tengo algún primo que ha sido alcalde en San García, sino que llevo desde el año 68 solo, fijaros, desde que tenía tres años, soy del año 65, veraneando en Navas de Río Frío, en Las Navillas. Por tanto, llevo 57-58 años de veraneo en la zona. He veraneado en Las Navillas, en Navas de Río Frío, en La Granja, Pero es que mis padres se conocieron en Segovia. Mi padre estuvo estudiando en la Academia de Artillería de Segovia y luego mi madre tenía unas tierras que luego pasaron a los agricultores tanto en Chañe como en Gemenuño como en Santa María la Real de Nieva. Por tanto, cuando dicen no, es que viene uno que no es de Segovia, pues les ha salido el tiro por la culata. Lo siento. Como os digo, en mi época de la infancia he pasado la mejor etapa de mi vida aquí en Segovia. La casa familiar la mantiene mi hermana mayor en Navas de Río Frío. Tengo otro hermano que tiene también casa allí y allí hemos estado los nueve hermanos. Yo soy el pequeño de nueve hermanos y ahí nos juntamos muchas veces los sobrinos, los primos, nos juntamos a veces más de 60 o 70, que ya somos casi un pequeño pueblo. Gracias, señor presidente. Son sitios maravillosos. O los propios dulces de Carbonero el Mayor. O sea que todo eso lo he trabajado, lo he comido y lo llevo dentro. Nunca mejor dicho. Aquellos que nos tildan de extremistas, siempre me gusta decirles que sí, que tienen razón, que somos de extrema necesidad. Somos de extrema necesidad para España. España no se puede permitir un segundo más de este gobierno infame. Y necesitamos, por tanto, que Vox tenga un resultado muy claro el día 29 para poder recuperar la España que queremos, la España de paz y de tranquilidad que hemos conocido, que hemos conocido todos de jóvenes, los más jóvenes les tenemos que ofrecer un futuro prometedor y estamos en la obligación de trabajar por ello. Yo desde luego me voy a dejar la vida en conseguir que obtengamos un escaño. Si pueden ser más, mejor, pero un escaño lo vamos a intentar conseguir. ¿Verdad que sí, Esther, Carlos, Santi? Voy a ser breve, pero quiero acabar con mensajes que, lógicamente, desde la convicción, desde los firmes principios que nos distinguen en Vox, pues nos caracterizan. Yo creo que hace falta ver los hechos, yo creo que la gestión que está haciendo Carlos Poyán en la vicepresidencia de la Junta, las tres consejerías que tenemos, la labor de los procuradores que estáis aquí, se está anotando y se ve en los hechos. Y en cambio cuando se contrasta con los hechos de los socialistas, pues también lo vemos, la corrupción, las cocas, las prostitutas y todo el derroche que hacen con nuestros impuestos, con lo que pagamos día a día que cuesta mucho sacrificio conseguir. Gracias, señor presidente. Tenemos la obligación de defender una tierra tan rica como Segovia, pero como toda España en su agricultura y en su ganadería. Voy a trabajar también por defender a los pueblos, a cada uno de los pueblos. Tenemos unos pueblos que a veces se van quedando despoblados y tenemos que trabajar también por fomentar la natalidad, por la familia, por mejorar la vida de las personas para que nuestros pueblos sigan teniendo vida en cada uno de ellos. Yo voy a trabajar también, y es un tema que me encanta porque me apasiona la historia y la cultura, por el patrimonio cultural y el patrimonio histórico que tenemos. Segovia es de las ciudades más ricas de siempre de España en cuanto a patrimonio cultural e histórico. Voy a trabajar también por la defensa del turismo, que es una actividad económica fundamental para nuestro beneficio y para el bienestar de todos nosotros. Y, por supuesto, voy a trabajar con el liderazgo de Santiago Abascal en poder bajar los impuestos, en reducir la administración y los gastos suntuarios que hay. Carlos estaba recordando muy bien nuestro vicepresidente que se acabaron las subvenciones a los chiringuitos, a los sindicatos y a todo ese corpúsculo de gente que vive de los presupuestos. Todo eso tiene que volver a vuestros bolsillos, porque es de los bolsillos vuestros y de los nuestros de donde sale. Nosotros vamos a trabajar en el Congreso por eso. Y no me alargo más. Quiero reiterar de nuevo las gracias a Santiago, a Carlos, a Esther, a todo el equipo, a los procuradores. Quiero desearos lo mejor. Por supuesto voy a estar a vuestra disposición, entregado a tope en la campaña. y todo lo que os pueda ayudar, pues vais a contar conmigo las 24 horas del día y los próximos cuatro años y, como dicen los cursis, más allá. Así que, muchísimas gracias. ¡Viva Vox! ¡Viva Segovia! ¡Y viva España! Y os dejo con nuestro presidente nacional y futuro presidente de España, Santiago Abascal."
   },
   {
@@ -169,7 +169,7 @@
    "end": 3344.07,
    "label": "SPEAKER_03",
    "person": null,
-   "name": "Hablante sin identificar 3",
+   "name": "Hablante sin identificar 2",
    "text": "Los tataranietos y los trastataranietos."
   },
   {
@@ -201,7 +201,7 @@
    "end": 4331.04,
    "label": "SPEAKER_03",
    "person": null,
-   "name": "Hablante sin identificar 3",
+   "name": "Hablante sin identificar 2",
    "text": "Entonces, por eso hablamos de reemigración."
   },
   {
@@ -217,7 +217,7 @@
    "end": 4370.02,
    "label": "SPEAKER_03",
    "person": null,
-   "name": "Hablante sin identificar 3",
+   "name": "Hablante sin identificar 2",
    "text": "se vuelve por donde ha venido."
   },
   {
@@ -233,7 +233,7 @@
    "end": 4396.9,
    "label": "SPEAKER_03",
    "person": null,
-   "name": "Hablante sin identificar 3",
+   "name": "Hablante sin identificar 2",
    "text": "Nos da igual que sean ilegales, legales o que hayan sido nacionalizados porque se les va a retirar la nacionalidad."
   },
   {
@@ -249,7 +249,7 @@
    "end": 4657.72,
    "label": "SPEAKER_03",
    "person": null,
-   "name": "Hablante sin identificar 3",
+   "name": "Hablante sin identificar 2",
    "text": "Muchísimas gracias a todos"
   },
   {

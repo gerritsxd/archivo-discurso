@@ -14,7 +14,7 @@
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
   "voiceprint_threshold": 0.65,
-  "processed_at": "2026-10-25T18:58:57+00:00",
+  "processed_at": "2026-10-25T20:11:55+00:00",
   "reviewed": false
  },
  "speakers": {

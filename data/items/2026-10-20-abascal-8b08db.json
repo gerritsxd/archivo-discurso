@@ -14,7 +14,7 @@
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
   "voiceprint_threshold": 0.65,
-  "processed_at": "2026-10-25T18:26:02+00:00",
+  "processed_at": "2026-10-25T20:11:39+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -53,26 +53,26 @@
    "reason": "best sim 0.26 < 0.65",
    "talk_s": 184.9
   },
-  "SPEAKER_04": {
+  "SPEAKER_00": {
    "person": null,
    "name": "Hablante sin identificar 5",
+   "decision": "unknown",
+   "reason": "best sim 0.22 < 0.65",
+   "talk_s": 81.8
+  },
+  "SPEAKER_04": {
+   "person": null,
+   "name": "Hablante sin identificar 6",
    "decision": "unknown",
    "reason": "best sim 0.17 < 0.65",
    "talk_s": 84.1
   },
   "SPEAKER_05": {
    "person": null,
-   "name": "Hablante sin identificar 6",
+   "name": "Hablante sin identificar 7",
    "decision": "unknown",
    "reason": "best sim 0.15 < 0.65",
    "talk_s": 510.2
-  },
-  "SPEAKER_00": {
-   "person": null,
-   "name": "Hablante sin identificar 7",
-   "decision": "unknown",
-   "reason": "best sim 0.12 < 0.65",
-   "talk_s": 81.8
   }
  },
  "turns": [
@@ -89,7 +89,7 @@
    "end": 340.46,
    "label": "SPEAKER_05",
    "person": null,
-   "name": "Hablante sin identificar 6",
+   "name": "Hablante sin identificar 7",
    "text": "Nacional, prioridad, cosa, estoy"
   },
   {
@@ -97,7 +97,7 @@
    "end": 361.89,
    "label": "SPEAKER_04",
    "person": null,
-   "name": "Hablante sin identificar 5",
+   "name": "Hablante sin identificar 6",
    "text": "cansado de promesas, de promesas, incumplas,"
   },
   {
@@ -105,7 +105,7 @@
    "end": 436.01,
    "label": "SPEAKER_05",
    "person": null,
-   "name": "Hablante sin identificar 6",
+   "name": "Hablante sin identificar 7",
    "text": "heridas, necesidades, siga siendo mía Nacional, prioridad, hasta Canarias, la"
   },
   {
@@ -113,7 +113,7 @@
    "end": 548.91,
    "label": "SPEAKER_04",
    "person": null,
-   "name": "Hablante sin identificar 5",
+   "name": "Hablante sin identificar 6",
    "text": "tierra de sus padres, seguirá siendo su hogar Me miro a los ojos y no sé qué contestar, pero su mirada me da fuerzas para seguir y luchar."
   },
   {
@@ -121,7 +121,7 @@
    "end": 575.46,
    "label": "SPEAKER_05",
    "person": null,
-   "name": "Hablante sin identificar 6",
+   "name": "Hablante sin identificar 7",
    "text": "Lucharé por mis convicciones, lucharé por lo que creo, no le debo nada a nadie, solo creo en lo que veo, en la tierra de mis abuelos, una sola mi familia nacional."
   },
   {
@@ -129,7 +129,7 @@
    "end": 610.62,
    "label": "SPEAKER_04",
    "person": null,
-   "name": "Hablante sin identificar 5",
+   "name": "Hablante sin identificar 6",
    "text": "Nacional, prioridad nacional, estoy cansado de promesas, de promesas incumplidas,"
   },
   {
@@ -137,7 +137,7 @@
    "end": 705.16,
    "label": "SPEAKER_05",
    "person": null,
-   "name": "Hablante sin identificar 6",
+   "name": "Hablante sin identificar 7",
    "text": "cansado de heridas, de tantas heridas necesitas, siga siendo mía Nacional, prioridad nacional, hacia esta canaria, mirándose al espejo, Melilla es una hija y España, madre amada, la"
   },
   {
@@ -145,7 +145,7 @@
    "end": 797.99,
    "label": "SPEAKER_04",
    "person": null,
-   "name": "Hablante sin identificar 5",
+   "name": "Hablante sin identificar 6",
    "text": "tierra de sus padres, seguirá siendo su hogar A los ojos y no sé qué contestar, tu mirada me da fuerzas para seguir y"
   },
   {
@@ -153,7 +153,7 @@
    "end": 802.53,
    "label": "SPEAKER_05",
    "person": null,
-   "name": "Hablante sin identificar 6",
+   "name": "Hablante sin identificar 7",
    "text": "luchar, lucharé por mis convicciones Bienvenidos todos."
   },
   {
@@ -161,7 +161,7 @@
    "end": 989.73,
    "label": "SPEAKER_00",
    "person": null,
-   "name": "Hablante sin identificar 7",
+   "name": "Hablante sin identificar 5",
    "text": "Hace unos meses nos encontrábamos aquí en esta misma plaza y hoy, inesperadamente, bueno, inesperadamente, Gracias al cambio de opinión del traidor de la Moncloa nos encontramos aquí de nuevo. Nos encontramos ante un gobierno devastado por la corrupción y una herencia que no es otra cosa que un deterioro social, moral, económico e institucional a niveles máximos. Señoras y señores, el día 29 de noviembre esto lo vamos a cambiar porque les vamos a echar de la Moncloa al tirano y a su equipo mafioso. Nos acompañan en este acto, tenemos el privilegio de que nos acompañen en este acto de pre-campaña, Carlos Poyán, vicepresidente de la Junta de Castilla y León, Pablo Calvo Liste, ya por todos conocido, Y nuestro presidente nacional, Santiago Abascal. Y desde Ponferrada, desde el Bierzo, no lo podemos decir ni más alto ni más claro. ¡Esta batalla la vamos a ganar! ¡Viva Vox y viva España!"
   },
   {
@@ -225,7 +225,7 @@
    "end": 3180.24,
    "label": "SPEAKER_04",
    "person": null,
-   "name": "Hablante sin identificar 5",
+   "name": "Hablante sin identificar 6",
    "text": "No se votan otras cosas."
   },
   {

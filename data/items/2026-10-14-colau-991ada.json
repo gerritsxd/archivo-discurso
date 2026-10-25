@@ -14,7 +14,7 @@
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
   "voiceprint_threshold": 0.65,
-  "processed_at": "2026-10-25T18:25:54+00:00",
+  "processed_at": "2026-10-25T20:11:30+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -36,7 +36,7 @@
    "person": null,
    "name": "Hablante sin identificar 2",
    "decision": "unknown",
-   "reason": "best sim 0.15 < 0.65",
+   "reason": "best sim 0.20 < 0.65",
    "talk_s": 95.5
   },
   "SPEAKER_08": {
@@ -60,26 +60,26 @@
    "reason": "only 20s of speech",
    "talk_s": 19.9
   },
-  "SPEAKER_04": {
+  "SPEAKER_05": {
    "person": null,
    "name": "Hablante sin identificar 6",
+   "decision": "too_short",
+   "reason": "only 5s of speech",
+   "talk_s": 4.7
+  },
+  "SPEAKER_04": {
+   "person": null,
+   "name": "Hablante sin identificar 7",
    "decision": "unknown",
    "reason": "best sim 0.18 < 0.65",
    "talk_s": 22.1
   },
   "SPEAKER_06": {
    "person": null,
-   "name": "Hablante sin identificar 7",
+   "name": "Hablante sin identificar 8",
    "decision": "too_short",
    "reason": "only 6s of speech",
    "talk_s": 6.0
-  },
-  "SPEAKER_05": {
-   "person": null,
-   "name": "Hablante sin identificar 8",
-   "decision": "too_short",
-   "reason": "only 5s of speech",
-   "talk_s": 4.7
   }
  },
  "turns": [
@@ -304,7 +304,7 @@
    "end": 800.22,
    "label": "SPEAKER_05",
    "person": null,
-   "name": "Hablante sin identificar 8",
+   "name": "Hablante sin identificar 6",
    "text": "Fins demà!"
   }
  ]

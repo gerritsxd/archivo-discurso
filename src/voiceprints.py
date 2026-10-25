@@ -46,16 +46,15 @@ def people():
 
 
 def voiceprints():
-    import numpy as np
-    out = {}
-    for f in sorted(VP_DIR.glob("*.json")):
-        vp = load(f)
-        # weight each enrolment by how long the person spoke in it
-        embs = np.array([e["embedding"] for e in vp["enrolments"]], dtype=float)
-        w = np.array([e["talk_s"] for e in vp["enrolments"]], dtype=float)
-        embs = embs / np.linalg.norm(embs, axis=1, keepdims=True)
-        out[vp["person"]] = (embs * w[:, None]).sum(0) / w.sum()
-    return out
+    """person -> list of enrolment embeddings. Each enrolment is one setting (TV studio, radio,
+    phone line, rally PA); a speaker is compared with every one and the best counts, because
+    the same voice through a phone line and a studio microphone can be far apart (Colau: 0.28)."""
+    return {vp["person"]: [e["embedding"] for e in vp["enrolments"]]
+            for vp in (load(f) for f in sorted(VP_DIR.glob("*.json")))}
+
+
+def sim(emb, prints):
+    return max(cos(emb, e) for e in prints)
 
 
 def enrol(diar_path, label, person):
@@ -78,7 +77,7 @@ def enrol(diar_path, label, person):
 def identify(diar_path, out_path):
     d, vps, ppl = load(diar_path), voiceprints(), people()
     # score every (speaker, person) pair
-    scores = {lab: sorted(((cos(s["embedding"], v), p) for p, v in vps.items()), reverse=True)
+    scores = {lab: sorted(((sim(s["embedding"], v), p) for p, v in vps.items()), reverse=True)
               for lab, s in d["speakers"].items()}
     result, taken = {}, set()
     # strongest matches first, and one person can only be one speaker per recording
@@ -126,7 +125,7 @@ def matrix(paths):
         d = load(p)
         for lab, s in d["speakers"].items():
             row = f"{Path(p).stem[:30]}:{lab} ({s['talk_s']:.0f}s)".ljust(52)
-            print(row + "".join(f"{cos(s['embedding'], vps[n]):11.2f}" for n in names))
+            print(row + "".join(f"{sim(s['embedding'], vps[n]):11.2f}" for n in names))
 
 
 if __name__ == "__main__":

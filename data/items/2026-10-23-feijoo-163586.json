@@ -14,7 +14,7 @@
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
   "voiceprint_threshold": 0.65,
-  "processed_at": "2026-10-25T18:26:11+00:00",
+  "processed_at": "2026-10-25T20:11:49+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -32,26 +32,26 @@
    "reason": "best sim 0.46 < 0.65",
    "talk_s": 349.0
   },
-  "SPEAKER_00": {
+  "SPEAKER_04": {
    "person": null,
    "name": "Hablante sin identificar 2",
+   "decision": "too_short",
+   "reason": "only 4s of speech",
+   "talk_s": 4.5
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 3",
    "decision": "too_short",
    "reason": "only 5s of speech",
    "talk_s": 5.4
   },
   "SPEAKER_03": {
    "person": null,
-   "name": "Hablante sin identificar 3",
+   "name": "Hablante sin identificar 4",
    "decision": "too_short",
    "reason": "only 7s of speech",
    "talk_s": 6.7
-  },
-  "SPEAKER_04": {
-   "person": null,
-   "name": "Hablante sin identificar 4",
-   "decision": "too_short",
-   "reason": "only 4s of speech",
-   "talk_s": 4.5
   }
  },
  "turns": [
@@ -60,7 +60,7 @@
    "end": 2.22,
    "label": "SPEAKER_00",
    "person": null,
-   "name": "Hablante sin identificar 2",
+   "name": "Hablante sin identificar 3",
    "text": "Laser"
   },
   {
@@ -1244,7 +1244,7 @@
    "end": 2697.04,
    "label": "SPEAKER_03",
    "person": null,
-   "name": "Hablante sin identificar 3",
+   "name": "Hablante sin identificar 4",
    "text": "¡Gracias por ver este video!"
   }
  ]

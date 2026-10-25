@@ -14,7 +14,7 @@
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
   "voiceprint_threshold": 0.65,
-  "processed_at": "2026-10-25T18:25:59+00:00",
+  "processed_at": "2026-10-25T20:11:36+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -22,7 +22,7 @@
    "person": "sanchez",
    "name": "Pedro Sánchez (PSOE)",
    "decision": "match",
-   "reason": "sim 0.83, next 0.23",
+   "reason": "sim 0.83, next 0.27",
    "talk_s": 1119.2
   },
   "SPEAKER_02": {
@@ -32,68 +32,68 @@
    "reason": "best sim 0.61 < 0.65",
    "talk_s": 46.9
   },
-  "SPEAKER_13": {
+  "SPEAKER_15": {
    "person": null,
    "name": "Hablante sin identificar 2",
+   "decision": "unknown",
+   "reason": "best sim 0.50 < 0.65",
+   "talk_s": 53.4
+  },
+  "SPEAKER_13": {
+   "person": null,
+   "name": "Hablante sin identificar 3",
    "decision": "unknown",
    "reason": "best sim 0.40 < 0.65",
    "talk_s": 377.6
   },
   "SPEAKER_10": {
    "person": null,
-   "name": "Hablante sin identificar 3",
+   "name": "Hablante sin identificar 4",
    "decision": "unknown",
    "reason": "best sim 0.39 < 0.65",
    "talk_s": 429.0
   },
   "SPEAKER_07": {
    "person": null,
-   "name": "Hablante sin identificar 4",
+   "name": "Hablante sin identificar 5",
    "decision": "unknown",
    "reason": "best sim 0.39 < 0.65",
    "talk_s": 25.4
   },
   "SPEAKER_08": {
    "person": null,
-   "name": "Hablante sin identificar 5",
+   "name": "Hablante sin identificar 6",
    "decision": "unknown",
    "reason": "best sim 0.35 < 0.65",
    "talk_s": 42.6
   },
   "SPEAKER_14": {
    "person": null,
-   "name": "Hablante sin identificar 6",
+   "name": "Hablante sin identificar 7",
    "decision": "unknown",
    "reason": "best sim 0.34 < 0.65",
    "talk_s": 92.6
   },
   "SPEAKER_09": {
    "person": null,
-   "name": "Hablante sin identificar 7",
+   "name": "Hablante sin identificar 8",
    "decision": "unknown",
    "reason": "best sim 0.32 < 0.65",
    "talk_s": 122.3
   },
-  "SPEAKER_15": {
-   "person": null,
-   "name": "Hablante sin identificar 8",
-   "decision": "unknown",
-   "reason": "best sim 0.31 < 0.65",
-   "talk_s": 53.4
-  },
-  "SPEAKER_00": {
+  "SPEAKER_11": {
    "person": null,
    "name": "Hablante sin identificar 9",
    "decision": "unknown",
-   "reason": "best sim 0.28 < 0.65",
-   "talk_s": 117.2
+   "reason": "best sim 0.29 < 0.65",
+   "talk_s": 312.9
   },
-  "SPEAKER_11": {
+  "SPEAKER_00": {
    "person": null,
    "name": "Hablante sin identificar 10",
    "decision": "unknown",
-   "reason": "best sim 0.26 < 0.65",
-   "talk_s": 312.9
+   "reason": "best sim 0.28 < 0.65",
+   "talk_s": 117.2
   },
   "SPEAKER_01": {
    "person": null,
@@ -145,7 +145,7 @@
    "end": 73.56,
    "label": "SPEAKER_14",
    "person": null,
-   "name": "Hablante sin identificar 6",
+   "name": "Hablante sin identificar 7",
    "text": "¿Por subir el salario mínimo y batir récord de empleos? ¿Por revalorizar y llenar la hucha de las pensiones? Por extender y equiparar los permisos de paternidad y maternidad Por aprobar una ley que garantiza la igualdad salarial entre hombres y mujeres Por aprobar medidas en favor del pequeño propietario y los inquilinos frente a los fondos buitres Por alzar la voz contra el genocidio en Gaza Por enfrentar los asesos ternoligarcas que quieren forrarse a costa de la salud mental de la gente ¿Por qué nos insultan? ¿Por defender el estado del bienestar frente al rearme militar del 5%? Pues sí, por eso nos insultan, porque somos el gobierno de la gente que pone en su sitio a los de arriba. Y si queremos llegar más lejos en avances sociales y hacerlo antes, necesitamos tu fuerza."
   },
   {
@@ -161,7 +161,7 @@
    "end": 76.12,
    "label": "SPEAKER_14",
    "person": null,
-   "name": "Hablante sin identificar 6",
+   "name": "Hablante sin identificar 7",
    "text": "la gente."
   },
   {
@@ -169,7 +169,7 @@
    "end": 86.13,
    "label": "SPEAKER_10",
    "person": null,
-   "name": "Hablante sin identificar 3",
+   "name": "Hablante sin identificar 4",
    "text": "Yo le pido a todo el mundo"
   },
   {
@@ -177,7 +177,7 @@
    "end": 87.55,
    "label": "SPEAKER_09",
    "person": null,
-   "name": "Hablante sin identificar 7",
+   "name": "Hablante sin identificar 8",
    "text": "que ni se le ocurra votar por correo."
   },
   {
@@ -193,7 +193,7 @@
    "end": 92.91,
    "label": "SPEAKER_11",
    "person": null,
-   "name": "Hablante sin identificar 10",
+   "name": "Hablante sin identificar 9",
    "text": "Yo a mis hijos"
   },
   {
@@ -209,7 +209,7 @@
    "end": 119.33,
    "label": "SPEAKER_08",
    "person": null,
-   "name": "Hablante sin identificar 5",
+   "name": "Hablante sin identificar 6",
    "text": "Te quieren recortar hasta el derecho a votar. No desconfían del voto por correo. Lo que no quieren es que votes. Que no vote el camarero cuya jornada le impide ir a su mesa electoral. El bombero y la sanitaria que el 29 de noviembre tienen guardia. Que no voten los estudiantes que viven fuera de su pueblo. Que el voto de las personas mayores que no pueden ir a la urna no cuente."
   },
   {
@@ -217,7 +217,7 @@
    "end": 223.18,
    "label": "SPEAKER_07",
    "person": null,
-   "name": "Hablante sin identificar 4",
+   "name": "Hablante sin identificar 5",
    "text": "El sistema de pensiones es un zombi. Tenemos que ser valientes y entender que el modelo hay que cambiarlo, Porque el sistema actual como está no va a funcionar y va a petar. Hay que ver acá, hay una reforma drástica del sistema de las pensiones. Habría que buscar, dibujar un modelo de pensiones mixto."
   },
   {
@@ -225,7 +225,7 @@
    "end": 291.7,
    "label": "SPEAKER_09",
    "person": null,
-   "name": "Hablante sin identificar 7",
+   "name": "Hablante sin identificar 8",
    "text": "¿Lo has oído bien? Están hablando de tu pensión. PP y Vox quieren gobernar España. Y si lo hacen, de sus decisiones dependerán las pensiones de más de 10 millones de personas, pero también las de quienes todavía tenemos 20, 30, 40 o 50 años. Las nuestras, las de todos. Hay otra forma de perder la pensión, y es con un sistema público que las garantiza. Después de toda una vida trabajando, no tienes que perder poder adquisitivo, porque esto ya lo hizo el PP cuando gobernaba, congelando las pensiones, dejando a millones de pensionistas de lado mientras reivindicaban en las calles. Y el gobierno les dio respuesta, vinculando las pensiones al IPC. Una decisión, por cierto, con el voto en contra del Partido Popular. Por eso protegemos las pensiones más bajas y garantizamos la hucha para los pensionistas de ahora y del futuro. Porque defender las pensiones no es hablar solo de nuestros padres ni de nuestros abuelos, es hablar de nosotros y nosotros. De lo que queremos ser dentro de 20, 30 o 40 años. De quienes queremos que estén ahí para protegernos."
   },
   {
@@ -241,7 +241,7 @@
    "end": 305.9,
    "label": "SPEAKER_09",
    "person": null,
-   "name": "Hablante sin identificar 7",
+   "name": "Hablante sin identificar 8",
    "text": "Cabrón. El jeta de la maretta."
   },
   {
@@ -273,7 +273,7 @@
    "end": 459.0,
    "label": "SPEAKER_15",
    "person": null,
-   "name": "Hablante sin identificar 8",
+   "name": "Hablante sin identificar 2",
    "text": "Bienvenidos a Fuenlabrada, bienvenidos a Madrid. Compañeros, debemos decidir nuestro futuro. Esto va de retroceso o avance. Depende de nosotras y nosotros demostrar la fuerza de la gente. Recibamos al alcalde de Fuenlabrada, Javier Ayala, al secretario general de Juventud y Socialistas de España, Aranza Zufigueroa, y al secretario general del PSOE de Madrid, Óscar López."
   },
   {
@@ -297,7 +297,7 @@
    "end": 554.66,
    "label": "SPEAKER_09",
    "person": null,
-   "name": "Hablante sin identificar 7",
+   "name": "Hablante sin identificar 8",
    "text": "el jeta de la maretta, el"
   },
   {
@@ -313,7 +313,7 @@
    "end": 644.6,
    "label": "SPEAKER_14",
    "person": null,
-   "name": "Hablante sin identificar 6",
+   "name": "Hablante sin identificar 7",
    "text": "¿Por qué nos insultan? ¿Por subir el salario mínimo y batir récord de empleos? ¿Por revalorizar y llenar la hucha de las pensiones? ¿Por extender y equiparar los permisos de paternidad y maternidad? ¿Por aprobar una ley que garantiza la igualdad salarial entre hombres y mujeres? ¿Por aprobar medidas en favor del pequeño propietario y los inquilinos frente a los fondos buitres? ¿Por alzar la voz contra el genocidio en Gaza? ¿Por enfrentar los asesos ternoligarcas que quieren forrarse a costa de la salud mental de la gente? ¿Por defender el estado del bienestar frente al rearme militar del 5%? Pues sí, por eso nos insultan, porque somos el gobierno de la gente que pone en su sitio a los de arriba. Y si queremos llegar más lejos en avances sociales y hacerlo antes, necesitamos tu fuerza. La fuerza de la gente."
   },
   {
@@ -321,7 +321,7 @@
    "end": 1171.78,
    "label": "SPEAKER_00",
    "person": null,
-   "name": "Hablante sin identificar 9",
+   "name": "Hablante sin identificar 10",
    "text": "España es hoy la referencia progresista en Europa y en el mundo. Hemos demostrado que se puede crecer y reducir emisiones de gases de efecto invernadero. Que se puede crear empleo subiendo el salario mínimo interprofesional y reducir la temporalidad. Que se puede llenar la hucha de las pensiones y revalorizarlas frente a las amenazas de recortes del PP y de Vox Que se pueden reforzar nuestros servicios públicos y tener unas cuentas saneadas Que la agenda de igualdad entre hombres y mujeres impulsa el crecimiento económico además de cerrar las brechas sociales Que se puede condenar el terrorismo de Hamas, rechazar el genocidio de Gaza y liderar el reconocimiento del Estado palestino Todo frente a esa internacional ultraderechista que sólo sabe insultar y mentir, que sólo sabe hablar de recortes y de sacrificios, ya sea con tijeras o con motosierras. Por eso hoy somos más necesarios que nunca, para garantizar los derechos de la gente, frente a la agenda reaccionaria que la derecha y la ultraderecha imponen allí donde gobiernan. Su terraplanismo ante la emergencia climática Su derogación de derechos y libertades a las mujeres y al colectivo LGTBI Sus recortes mientras ponen la alfombra roja a los tecno-oligarcas Su servilismo ante los fondos buitre y su obsesión por hacer negocio con las pensiones de nuestros mayores Su falta de respeto al derecho internacional y los derechos humanos Una internacional ultraderechista que solo ha traído guerras, odio y desigualdad social Si no queremos eso para este mundo, ¿cómo lo vamos a querer para España? España es un país valiente, que respondió al avance ultraderechista con una gran ola de movilización progresista. Lo hicimos en 2019 y en 2023, y lo vamos a volver a hacer. El 29 de noviembre, España dirá alto y claro, ni un paso atrás, siempre adelante, con la fuerza de la gente."
   },
   {
@@ -329,7 +329,7 @@
    "end": 1614.28,
    "label": "SPEAKER_13",
    "person": null,
-   "name": "Hablante sin identificar 2",
+   "name": "Hablante sin identificar 3",
    "text": "Buenos días a todos los que estáis dentro, pero sobre todo buenos días a los cientos de personas que se han quedado fuera de este espectáculo, fuera de este encuentro de los socialistas. ¡Mirad! Hoy probablemente Fuenlabrada es un poco más socialista de lo habitual. Tenemos hoy aquí a todas las direcciones territoriales, tenemos aquí a todos los ministros, tenemos aquí al presidente del gobierno, ¡a Pedro Sánchez! ¡Sánchez! Por eso hoy Fuenlabrada es más socialista. Pero quería deciros que es que Pedro Sánchez, secretario general Pedro, es que tiene mucha suerte también. Es que te hemos ido a proclamar como cabeza de lista, como para ser presidente del gobierno en Fuenlabrada. Y eso no es casualidad, eso va a hacer que tengamos mucha, mucha suerte. Yo casi me he atrevido cuando estábamos ahí dentro de darle la pócima secreta de lo que tenemos en Fuenlabrada para que el próximo 29 de noviembre ganemos como vamos a ganar las elecciones. Y decía que estar en Fuenlabrada no es casualidad, no es casualidad tener un acto como este, en el que es una ciudad de valores, donde cuando hablamos de la fuerza de la gente, nosotros sabemos en Fuenlabrada que es tener fuerza y que es trabajar con la gente, Pedro. Ciudad de Trabajadores y Trabajadoras En un momento como este, donde por cierto el Gobierno de España aprueba una ley de vivienda y nosotros en Madrid ha decidido la señora Ayuso no aplicarla, el Ayuntamiento de Fuenlabrada pone 400 ayudas, casi 300.000 euros para que los chicos y las chicas, ya que no podemos complementar el alquiler, lo que hacemos es pagarle la luz y el agua cada mes a nuestros jóvenes de Fuenlabrada. Y sabes por qué es eso, Pedro. Porque necesitamos a alguien con sensibilidad en la Puerta del Sol. Necesitamos a Óscar López de presidente de la Comunidad de Madrid. Esto contigo no pasaría, Óscar. Y como veis, esta campaña va a ir a hablar de modelos, el modelo socialista, el modelo de Fuenlabrada, el modelo del gobierno de España, el gobierno de la gente, aquellos que trabajan porque a la gente le vaya mejor, para la gente como los que estamos aquí les vaya un poco mejor. Vamos a hablar durante toda la campaña de la subida de las pensiones, de lo que quieren hacer la derecha y la extrema derecha, vamos a hablar de la ley de vivienda, vamos a hablar de muchas cuestiones que afectan a la ciudadanía. Pero yo sí quería hacer dos reflexiones. Hay una que imaginaos por un momento, yo me parecía que esto ya no era de Pedro Sánchez, ni de Pedro Sánchez o Feijóo, es que esto no va de Pedro Sánchez, esto es más importante aún. ¿Os imagináis o qué preferís? ¿Una imagen después del 29 de noviembre con un Donald Trump y con un Feijóo con los pies encima de la mesa y fumándose un puro poniendo el 5% para gasto militar? ¿Os imagináis un presidente que diga que cumplimos con la OTAN pero que no vamos a restringir derechos sociales, que no lo vamos a hacer porque ese, Pedro, es el sufrimiento del que ellos hablan? El sufrimiento que ellos hablan es el que afecta a la gente. Y claro, alguien puede decir, bueno, ya está aquí Ayala diciendo que Pedro Sánchez es el que va a arreglar el mundo. Pues seguramente no, pero sí que le estás aplicando sensatez a un mundo que está como está. Necesitamos sensatez, Pedro, y solamente tú lo puedes hacer. Y decía que vamos a tener que luchar contra una cuestión que es fundamental. Fundamental. Están empeñados que no se los pase sin fijarnos en esta cuestión. Hay quien dice del PP que la crispación se va a acabar si Feijóo llega a la Moncloa. O lo dice uno, que yo entiendo que haya mucha gente que esté cansada de esto de la política. A mí hay veces que también tengo que aguantar lo que tengo que aguantar en el Pleno Municipal. Pero yo te voy a decir cuál es la clave. Pedro, para acabarlo con la crispación lo Lo que hay que hacer es ganarles, ganarles en las urnas. Si les ganamos, nosotros no vamos a crispar el ambiente político. Eso lo podemos garantizar. Vais a ver una campaña alegre, una campaña de sonrisa, una campaña de TikTok trasladando a la ciudadanía que es lo que somos los socialistas. Y para terminar te voy a dar un dato, te voy a adelantar. En septiembre hice una encuesta. En septiembre son las fiestas de Fuenlabrada. Miles de personas, aprovechando que no está ahora Abel Caballero, tengo que decir que tenemos el mejor ferial de España, lo digo porque si no me rebatería. Pues en ese ferial, donde han pasado más de 200.000 personas, hice una encuesta, la encuesta real, la encuesta de la calle, la encuesta del que se te acerca y te dice que está con nosotros, que le des ánimo a Pedro. Y hay dos sectores muy importantes. Por un lado estaba el sector de los mayores preocupados. Dile a Pedro que tire para adelante. Dile a Pedro que es fundamental que ganemos el 29 de noviembre. Pero hubo un sector que a mí realmente me emocionó, que son los jóvenes. Los jóvenes me decían, ¡Ayala, a ganar! ¡Ayala, Pedro Sánchez puede! ¡Ayala, estamos con vosotros! Por eso, Pedro, la victoria nos la van a dar los mayores, los de mediana edad, los jóvenes, todos tienen que ir a votar, porque a nosotros no nos sobra ninguno. Nosotros queremos que voten todos, eso sí, que nos voten a nosotros, por supuesto. Por eso decía, amigos y amigas, que los jóvenes son fundamentales. Por eso te acompaña en una candidatura el número 14, Calmer Martínez, de Juventudes de Fuenlabrada. ¡Que te va a dar muy buena suerte! Y por eso también va a acoger la intervención para demostraros no solamente la fuerza de la gente, sino la fuerza de los jóvenes y de las mujeres. ¡Ari, nuestra compañera secretaria general!"
   },
   {
@@ -337,7 +337,7 @@
    "end": 2178.1,
    "label": "SPEAKER_10",
    "person": null,
-   "name": "Hablante sin identificar 3",
+   "name": "Hablante sin identificar 4",
    "text": "Se os han colado por ahí unos cuantos jóvenes. Muy buenos días compañeros y compañeras, buenos días pues Labrada. Y lo tengo que decir porque es que si no reviento. ¡Cómo me alegro, Pedro, de que hoy estés acompañado por Begoña aquí! ¡Cómo me alegro! Compañeros y compañeras, quiero que mis primeras palabras, quiero comenzar hoy dando un llamamiento de apoyo y de fuerza para toda la comunidad educativa madrileña que en estos días están llevando a cabo una huelga indefinida, que están luchando, luchando por unas condiciones, que están aquí, que están luchando por unas condiciones dignas de trabajo, por una educación pública de calidad. Ahí están ellas. ¡Gracias! Y como no podía ser de otra manera, compañeros y compañeras, también quiero reivindicar a todos los acampados y las acampadas en la Puerta del Sol y en todas y cada una de las ciudades de este país para defender un derecho tan básico y fundamental como el derecho a la vivienda, por el que están sufriendo insultos y atropellos del fascismo, pero también de las administraciones del Partido Popular. Porque, vamos a sernos honestos, lo que nos jugamos el próximo 29 de noviembre es precisamente eso Es una elección crucial, la elección entre los fondos buitres o la vivienda protegida permanentemente Elegir entre esos amiguitos del poderoso caballero don Dinero o elegir por aquellos que defienden los servicios públicos Elegir entre los siervos del poder, los siervos de Trump, de Milley, que lo veíamos ahí bien claro, o elegir entre los defensores de la fuerza de la gente. Ellos protegen a quienes quieren especular con nuestro futuro. Nosotros representamos a los que quieren una casa para poder desarrollar sus proyectos de vida digno. Y por eso, compañeros y compañeras, la derecha ultra y la ultraderecha PP y Vox llevan ocho años insultándonos. Llevan ocho años insultando al presidente del Gobierno, ocho años hablando de derogar el sanchismo. Porque derogar el sanchismo, porque echar a Pedro Sánchez, claro, significa mucho. Es que Pedro Sánchez es quien pone a la mayoría social por delante de los intereses de esos pocos privilegiados. Y yo, no sé vosotros, pero muchas veces me pregunto, ¿de qué va eso cuando dicen derogar el sanchismo? ¿De qué va eso de derogar el sanchismo? Derogar el sanchismo es votar en contra de unos decretos que protegían a familias vulnerables de acabar desahuciadas. Derogar el sanchismo es tumbar medidas que buscan acabar con la especulación y proteger a los inquilinos y a las inquilinas para que no les suba el alquiler. Derogar el sanchismo es acabar también con las sucesivas subidas del salario mínimo interprofesional y volver a los 736 euros de miseria que se cobraba antes. Derogar el sanchismo es acabar con la senda de crecimiento económico para volver a esa España de los recortes. Derogar el sanchismo es acabar con la revalorización de las pensiones, con la subida de las becas o con las ayudas a las familias en los momentos de crisis. Eso es derogar el sanchismo. No hay vergüenza. Os voy a hacer una traducción muy sencillita. Lo que para ellos significa derogar el sanchismo es acabar con todas las leyes que han protegido a la mayoría social de este país para beneficiar los intereses económicos del Partido Popular y de Vox. Porque cuando Feijóo, compañeros y compañeras, habla de hacer sacrificios, yo voy adelantando que no habla de ningún sacrificio en nombre propio, ni muchísimo menos. Él habla de sacrificar los intereses de esa mayoría trabajadora. Habla de sacrificar tu sueldo, tus vacaciones remuneradas, tu baja por enfermedad, la pensión de tu abuelo y de tu abuela y, sobre todo, los servicios públicos que tú necesitas para tener una vida digna. Esos son los sacrificios que están pidiendo la ciudadanía. Que no nos engañan. Porque cuando ellos hablan de sacrificios, hablan de que se sacrifiquen los mismos de siempre, las trabajadoras y los trabajadores, los jóvenes, las mujeres y, sobre todo, los servicios públicos. Y además, bueno, es que no lo estoy diciendo yo, no me invento nada, es que llevamos dos semanas de pre-campaña y ellos ya lo han ido dejando bastante claro. Primero, han atacado el derecho de los nietos y nietas, hijos e hijas de exiliados a poder votar. El primero, el derecho a voto que nos iguala a todos. Después han ido a por las bajas laborales, ahora por la pensión de nuestros abuelos y nuestras abuelas. El remate final ha sido volver a ir a por las mujeres y poner en cuestión de nuevo nuestro derecho a decidir sobre nuestros propios cuerpos. Ya está bien. Esto es a lo que nos enfrentamos, a una coalición ultra que quiere hacernos retroceder más de cinco décadas, que quiere devolvernos a esa España donde ser mujer, trabajadora y roja eran sinónimos de desigualdad, opresión y esclavitud. Pues ahí desde luego no nos van a encontrar. Vamos a poner pie en pared, porque frente a su involución, nuestra esperanza, frente a sus recortes, nuestros derechos, frente a sus privilegios, nuestra justicia social y sobre todo, frente a su odio, frente al odio que quieren sembrar, La fuerza de la gente y la ilusión por seguir avanzando en un país de progreso. Que lo tengan claro, no vamos a dar ni un paso atrás para defender la España de progreso que hemos construido entre todos y entre todas, pero especialmente el presidente del Gobierno en estos últimos ocho años. Es más, vamos a seguir con otros cuatro años más de progreso para España. Y quiero terminar dirigiéndome hoy a una generación, dirigiéndome a mi generación, a quienes estáis cansados de trabajar sin ser capaces de emanciparos, de hacer planes que nunca terminan de llegar y de escuchar siempre esos discursos de resignación de la derecha. No podemos resignarnos porque el futuro no está escrito. El futuro podemos escribirlo con nuestras propias manos porque cuando nos organizamos, cuando salimos a las calles y sobre todo cuando reventamos las urnas de votos de progreso somos más, cuando reventamos las urnas de votos de progreso somos imparables. El próximo 29 de noviembre tenemos una oportunidad que no podemos desaprovechar como generación, la oportunidad de convertir esa esperanza en fuerza y esa fuerza en una mayoría progresista holgada para poder asegurar nuestro presente y nuestro futuro, para poder decirles alto y claro que no pasarán. Muchas gracias compañeras y compañeros."
   },
   {
@@ -345,7 +345,7 @@
    "end": 2786.42,
    "label": "SPEAKER_11",
    "person": null,
-   "name": "Hablante sin identificar 10",
+   "name": "Hablante sin identificar 9",
    "text": "Buenos días, Fuenlabrada. Buenos días, Madrid. Buenos días, Begoña. Estás en tu casa. No hay dinero en el mundo que pueda financiar una máquina del bulo tan potente como para desmontar una realidad. Y esa realidad es que la verdad importa. La verdad importa. Aporta, en tiempos de bulos, buenos días a las educadoras de 0 a 3 años que están con nosotros, estáis en casa. El gobierno de Pedro Sánchez os dijo que rebajaría las ratios y las rebajará. Y el gobierno de la Comunidad de Madrid dignificará vuestras condiciones laborales. El próximo gobierno de la Comunidad de Madrid. Buenos días a todos y todas. Voy a empezar con una idea un poco polémica, lo siento. Para mí es un orgullo arrancar esta campaña con el mejor alcalde de España, con Javi. Lo siento, hay alcaldes y alcaldesas que empatan, pero ninguno le supera. Por lo tanto, un orgullo. Y me vais a permitir, hoy hay también gente de fuera de Madrid, que están en el Comité Federal del PSOE, Pero me vais a permitir que yo empiece presumiendo de la lista de Madrid como ejemplo también de lo que son las candidaturas que ha aprobado hoy el Partido Socialista. La lista de Madrid es una lista que siempre tiene ministros, por lo tanto tiene la fuerza del gobierno. La fuerza de Margarita, la fuerza de Félix, la fuerza de Marlaska. La Lista de Madrid tiene la fuerza de la militancia socialista y por eso la número 4 es Pilar Sánchez Acera. La Lista de Madrid tiene la fuerza de los jóvenes, que es un ciclón y por eso está Arantxa, Arantza Azul, Ari, a la que me gusta. La lista de Madrid tiene la fuerza del feminismo y por eso está Lorena en la candidatura. La lista de Madrid tiene la fuerza de la cultura y por eso está Manuela Villa. Y la lista de Madrid tiene la fuerza de la gente y por eso está Pedro Sánchez al frente de la lista de Madrid. La fuerza de la gente, sí. Esta película ya la hemos visto. Hace tres años y medio todo el guión. Primero las encuestas, luego Feijóo repartiendo ministerios, luego Vox frotándose las manos por cuántos ministerios coge, luego toda la campaña de bulos, insultos y recortes y al final lo que pasó, la remontada del PSOE y el gobierno socialista una vez más. Esto es lo que hay. Y yo solo quiero deciros una cosa. Lo decía antes Javi, los que nos recorremos las agrupaciones, los que estamos con compañeros todos los días, todos nos dan, el partido está enchufadísimo, el partido está como una moto, y todos nos dicen fuerza, fuerza, dile a Pedro, dile a Pedro. Y a continuación todos me preguntan lo mismo. Oye, ¿cómo está Pedro? Mira, os contesto una vez y no me lo preguntéis más, ¿vale? Pedro está mejor que nunca, está como una moto y va a ganar la selección otra vez. La fuerza de la gente, la fuerza de la gente es la que hizo posible este gobierno. Y esa es la fuerza que le ha dado autonomía siempre a Pedro Sánchez y al gobierno de España. Autonomía y valentía. Valentía para formar parte de la OTAN y decir que no se va a subir a 5% el gasto en defensa. Valentía para denunciar el genocidio en Gaza, para reconocer a Palestina y para decir no a la guerra en Irán. Valentía para intervenir el mercado energético o el mercado de la vivienda como ha hecho este gobierno. Gobierno, valentía para defender la igualdad entre mujeres y hombres, la cultura, los derechos de las personas LGTBI y los derechos de las personas migrantes, que es lo que hace el Gobierno de este país. Mirad, no hace falta exagerar, basta con contar la verdad. Quienes tenemos la oportunidad y hemos tenido de viajar estos años por el mundo sabemos que estas elecciones son muy importantes en España. Pero no solo en España, lo son en Europa y lo son también en otros países que miran a España, que saben que España se ha convertido en la referencia de un mundo más justo, de un mundo que defiende la lucha contra el cambio climático, la paz, la igualdad entre mujeres y hombres, los derechos de las personas migrantes, el respeto, la tolerancia y que hace todo eso batiendo récords de crecimiento, batiendo récords de creación de empleo, subiendo el salario mínimo, subiendo el salario mínimo. Mínimo, haciendo contratos estables, subiendo las pensiones, mientras rellena la hucha de las pensiones. Eso es lo que hace este Gobierno. Por cierto, olvidaba decir que en la peli que ya hemos visto y vamos a volver a ver, también vino Milei en campaña para que viniera la Internacional Ultraderechista. Creo que vuelve este lunes, pues le va a pasar lo mismo, que vamos a volver a ganar el Gobierno de España. Y otra cosa, y otra cosa para que nadie se despiste, porque luego algunos se despistan. Aquí tenemos dos misiones, dos. La resumo muy sencillo. Primero mantenemos la Moncloa y luego tomamos sol, que nadie se olvide de que vamos a gobernar en la Comunidad de Madrid. Oye, acabo. No solamente vamos a gobernar por la fuerza de la gente, para hacer políticas justas, no solamente eso. Vamos a gobernar también para derrotar a la mala política. Y la mala política tiene cuatro elementos, siempre son los mismos. Insultos, bulos, odio y recortes. Ese es el programa electoral del Partido Popular y de Vox. Cuatro capítulos. Insultos, bulos, odios y recortes. No hay más. Pero frente a todo eso está la fuerza de la gente. Está un presidente valiente, valiente, reconocido en todo el mundo. La esperanza de los progresistas en todos los países. El orgullo de todos nosotros y muy especialmente de los socialistas madrileños. Pedro Sánchez."
   },
   {
@@ -361,7 +361,7 @@
    "end": 3092.4,
    "label": "SPEAKER_13",
    "person": null,
-   "name": "Hablante sin identificar 2",
+   "name": "Hablante sin identificar 3",
    "text": "quiero."
   },
   {
@@ -377,7 +377,7 @@
    "end": 5023.36,
    "label": "SPEAKER_07",
    "person": null,
-   "name": "Hablante sin identificar 4",
+   "name": "Hablante sin identificar 5",
    "text": "El sistema actual como está no va a funcionar y va a petar. Hay que llevar a cabo una reforma drástica del sistema de las pensiones. Habría que buscar, dibujar un modelo de pensiones mixto."
   },
   {
@@ -385,7 +385,7 @@
    "end": 5079.98,
    "label": "SPEAKER_09",
    "person": null,
-   "name": "Hablante sin identificar 7",
+   "name": "Hablante sin identificar 8",
    "text": "¿Lo has oído bien? Están hablando de tu pensión. PP y Vox quieren gobernar España. Y si lo hacen, de sus decisiones dependerán las pensiones de más de 10 millones de personas, pero también las de quienes todavía tenemos 20, 30, 40 o 50 años. Las nuestras, las de todos. Hay otra forma de entender las pensiones. Y es con un sistema público que las garantice. Después de toda una vida trabajando, no tienes que perder poder adquisitivo, porque esto ya lo hemos visto. Ya lo hizo el PP cuando gobernaba, congelando las pensiones, dejando a millones de pensionistas de lado mientras reivindicaban en las calles. Y el gobierno les dio respuesta, vinculando las pensiones al IPC. Una decisión, por cierto, con el voto en contra del Partido Popular. Por eso protegemos las pensiones más bajas y garantizamos la hucha para los pensionistas de ahora y del futuro. Porque defender las pensiones no es hablar solo de las pensiones, sino de las pensiones de los pensionistas."
   }
  ]

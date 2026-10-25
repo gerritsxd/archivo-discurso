@@ -14,7 +14,7 @@
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
   "voiceprint_threshold": 0.65,
-  "processed_at": "2026-10-25T18:25:49+00:00",
+  "processed_at": "2026-10-25T20:11:25+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -22,7 +22,7 @@
    "person": "sanchez",
    "name": "Pedro Sánchez (PSOE)",
    "decision": "match",
-   "reason": "sim 0.80, next 0.18",
+   "reason": "sim 0.80, next 0.24",
    "talk_s": 726.6
   },
   "SPEAKER_00": {
@@ -36,7 +36,7 @@
    "person": null,
    "name": "Hablante sin identificar 2",
    "decision": "unknown",
-   "reason": "best sim 0.36 < 0.65",
+   "reason": "best sim 0.38 < 0.65",
    "talk_s": 1058.5
   },
   "SPEAKER_04": {

@@ -14,7 +14,7 @@
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
   "voiceprint_threshold": 0.65,
-  "processed_at": "2026-10-25T18:26:13+00:00",
+  "processed_at": "2026-10-25T20:11:51+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -53,19 +53,19 @@
    "reason": "best sim 0.18 < 0.65",
    "talk_s": 62.0
   },
-  "SPEAKER_03": {
+  "SPEAKER_05": {
    "person": null,
    "name": "Hablante sin identificar 5",
    "decision": "unknown",
-   "reason": "best sim 0.16 < 0.65",
-   "talk_s": 35.1
+   "reason": "best sim 0.15 < 0.65",
+   "talk_s": 423.6
   },
-  "SPEAKER_05": {
+  "SPEAKER_03": {
    "person": null,
    "name": "Hablante sin identificar 6",
    "decision": "unknown",
-   "reason": "best sim 0.15 < 0.65",
-   "talk_s": 423.6
+   "reason": "best sim 0.16 < 0.65",
+   "talk_s": 35.1
   }
  },
  "turns": [
@@ -98,7 +98,7 @@
    "end": 1313.54,
    "label": "SPEAKER_05",
    "person": null,
-   "name": "Hablante sin identificar 6",
+   "name": "Hablante sin identificar 5",
    "text": "luchar Lucharé por mis convicciones, lucharé por lo que creo No le debo nada a nadie, solo creo en lo que veo Es la tierra de mis padres, el hogar de mis abuelos Prioridad, estoy cansado de que siga siendo mía Junto a Vox, vemos al fin a esta canaria mirándose al espejo La"
   },
   {
@@ -114,7 +114,7 @@
    "end": 1808.09,
    "label": "SPEAKER_05",
    "person": null,
-   "name": "Hablante sin identificar 6",
+   "name": "Hablante sin identificar 5",
    "text": "Lucharé por mis convicciones, lucharé por lo que te mis abuelos, una sola a mí, estoy cansado de promesas, de promesas incumplidas. ¡Familia! ¡Nacional! ¡Prioridad! ¡Estoy cansado de promesas! ¡De promesas incumplidas! ¡Cansado de vida! ¡Necesito! ¡Siga siendo mía! ¡Nacional! ¡Prioridad! ¡Alicia hasta Canarias! ¡Mirándose al espejo!"
   },
   {

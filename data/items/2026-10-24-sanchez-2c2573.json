@@ -14,7 +14,7 @@
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
   "voiceprint_threshold": 0.65,
-  "processed_at": "2026-10-25T18:26:15+00:00",
+  "processed_at": "2026-10-25T20:11:54+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -22,7 +22,7 @@
    "person": "sanchez",
    "name": "Pedro Sánchez (PSOE)",
    "decision": "match",
-   "reason": "sim 0.84, next 0.23",
+   "reason": "sim 0.84, next 0.26",
    "talk_s": 1113.1
   },
   "SPEAKER_04": {
@@ -32,19 +32,19 @@
    "reason": "best sim 0.50 < 0.65",
    "talk_s": 34.4
   },
-  "SPEAKER_02": {
+  "SPEAKER_01": {
    "person": null,
    "name": "Hablante sin identificar 2",
    "decision": "unknown",
-   "reason": "best sim 0.33 < 0.65",
-   "talk_s": 28.5
+   "reason": "best sim 0.36 < 0.65",
+   "talk_s": 656.7
   },
-  "SPEAKER_01": {
+  "SPEAKER_02": {
    "person": null,
    "name": "Hablante sin identificar 3",
    "decision": "unknown",
    "reason": "best sim 0.33 < 0.65",
-   "talk_s": 656.7
+   "talk_s": 28.5
   },
   "SPEAKER_08": {
    "person": null,
@@ -57,7 +57,7 @@
    "person": null,
    "name": "Hablante sin identificar 5",
    "decision": "unknown",
-   "reason": "best sim 0.30 < 0.65",
+   "reason": "best sim 0.31 < 0.65",
    "talk_s": 727.3
   },
   "SPEAKER_00": {
@@ -160,7 +160,7 @@
    "end": 210.76,
    "label": "SPEAKER_02",
    "person": null,
-   "name": "Hablante sin identificar 2",
+   "name": "Hablante sin identificar 3",
    "text": "presidente del gobierno de España,"
   },
   {
@@ -184,7 +184,7 @@
    "end": 264.98,
    "label": "SPEAKER_02",
    "person": null,
-   "name": "Hablante sin identificar 2",
+   "name": "Hablante sin identificar 3",
    "text": "¿Por qué nos insultan? ¿Por subir el salario mínimo y batir récord de empleos? ¿Por revalorizar y llenar la hucha de las pensiones? ¿Por extender y equiparar los permisos de paternidad y maternidad? Por aprobar una ley que garantiza la igualdad salarial entre hombres y mujeres Por aprobar medidas en favor del pequeño propietario y los inquilinos frente a los fondos buitres Por alzar la voz contra el genocidio en Gaza"
   },
   {
@@ -216,7 +216,7 @@
    "end": 1672.91,
    "label": "SPEAKER_01",
    "person": null,
-   "name": "Hablante sin identificar 3",
+   "name": "Hablante sin identificar 2",
    "text": "Me siento de ser socialista. Qué orgulloso me siento de ser andaluz. Y qué orgulloso me siento de tanta gente que habéis venido desde tantos rincones de esta provincia de Granada, Jalonada por 174 municipios, por 6 entidades locales autónomas, de otras provincias que también, vecinas, os habéis acercado aquí hoy. Gracias por el esfuerzo, el sacrificio, porque sin duda es vuestra fuerza la que necesitamos para ganar las próximas elecciones. Y gracias a los sindicatos, gracias por el trabajo que hacéis permanentemente por defender la dignidad de los trabajadores, gracias a las asociaciones y colectivos múltiples que nos acompañáis hoy aquí, del ámbito social, del ámbito de la lucha feminista, del ámbito de la dignidad de las personas en el ámbito sanitario, que hacéis todo aquello que necesitáis y necesitamos de vosotros y por lo tanto tenéis todo nuestro apoyo. Bienvenida María Jesús siempre a esta tu tierra a la que defiendes con uñas y dientes desde el Gobierno de España o ahora en el Parlamento de Andalucía. Muchas gracias María Jesús y bienvenido. Bienvenido presidente Pedro Sánchez. Bienvenido a Granada. A la tierra que acogió Fernando de los Ríos, la de Francisco Ayala, la de Mariana Pineda, la de Federico García Lorca. Esta es su sala hoy aquí, la que acogió a Manuel de Falla, la tierra de Enrique y Estrella Morente, la de niños mutantes, por cierto Juan Alberto, líder y vocalista, gracias por estar hoy aquí acompañándonos, la tierra de Carlos Cano y la tierra de Miguel Ríos,"
   },
   {
@@ -232,7 +232,7 @@
    "end": 2344.15,
    "label": "SPEAKER_01",
    "person": null,
-   "name": "Hablante sin identificar 3",
+   "name": "Hablante sin identificar 2",
    "text": "La del sacromonte con sus zambras, la del albaicín y la alhambra, que en árabe es jambra, que significa la roja, y al fondo el blanco de la sierra nevada. ¿Se puede tener más privilegio que ese? Pues no. Y hoy además, esta provincia, esta ciudad, este territorio, a todo ese patrimonio, a todas esas personas ilustres, luchadoras, a todos esos grandes artistas que ha dado, le sumamos la presencia del mejor presidente que protege a su gente y se enfrenta a los poderosos. Gracias, Pedro Sánchez, por engrandecer la historia de Granada hoy con tu presencia aquí, en Granada. Contigo y con tus gobiernos, los hombres y mujeres de esta provincia tienen más derechos, están mucho más protegidos. Queridos, esta provincia te agradece porque en este momento es mucho más competitiva y tiene más progreso, tiene más futuro en el ámbito del empleo, de la creación de la riqueza, gracias al esfuerzo importante y al desembarco de medidas sociales, económicas y de progreso que aquí en Granada, como en el resto de España, gracias a tu Gobierno, del que ha formado parte María Jesús Montero durante mucho tiempo, hemos conseguido. Así que gracias, presidente, en nombre de Granada, en su conjunto, de todos sus estamentos y sectores. Gracias, presidente, gracias, Pedro, en nombre de los 200.000 pensionistas de Granada, de esta provincia, que han visto cómo se han incrementado desde el año 2017 un 50% sus pensiones y, lo más importante, Han visto garantizado el legítimo derecho que después de tanto esfuerzo tienen para no preocuparse por su futuro. Gracias también en nombre de los más de 30.000 estudiantes, tanto universitarios como no universitarios, que han disfrutado de ese incremento del número y de la cuantía de las becas. Un 84% más que en el año 17, cuando gobernaba la derecha, porque creemos en el ascensor social de la educación. Claro que sí. Gracias en nombre de los más de 40.000 trabajadores y trabajadoras que se han beneficiado de ese aumento del 66% del salario mínimo interprofesional. Más de 500 euros al mes porque eso dignifica a las personas, a la clase trabajadora, a la clase media de este país. Gracias en nombre de todas las personas que son usuarios de la ley de la dependencia, de sus familiares, de las trabajadoras de ayuda a domicilio por haber incrementado la financiación y haber garantizado la aportación del Estado a través de las reformas necesarias. Gracias en nombre de todos y cada uno de ellos y de ellas. Gracias en nombre de las mujeres, de los hombres de esta provincia por haber hecho un esfuerzo ímprobo, nunca suficiente, pero duplicando la financiación destinada a la lucha contra la violencia de género a través del Pacto de Estado contra la Violencia de Género. Gracias, eso es política. Gracias por las ayudas, gracias por las ayudas. Más de 280 millones de euros que han recibido nuestros agricultores y ayuntamientos de forma inmediata tras los daños sufridos como consecuencia de la sucesión de borrasca, además de otras situaciones que hemos vivido absolutamente complejas. O los 52 millones que ya se han recibido también a través del Consorcio de Compensación de Seguros por los daños sufridos en esos terremotos, Asociación de Terremotos, que, como bien sabe y conoce, hemos sufrido aquí, en Granada. Bueno, y alguno que otro todavía, ¿verdad? Alguno que otro todavía. Gracias por la inversión histórica que has hecho en Granada, sacando del cajón del olvido tantos y tantos proyectos. Aquella desconexión ferroviaria, aislamiento ferroviario de más de tres años y medio que, de forma inmediata, corregiste. Gracias por la conexión directa, mediante alta velocidad, entre Granada y Málaga. Gracias por la ingente inversión que se está haciendo en infraestructuras, con la variante de la hoja duplicando. La integración ferroviaria, por lo tanto, la nueva estación de Granada, consensuada con el resto de Administraciones, porque nosotros somos gente de consenso, la mejora de las conexiones con Almería y esa conexión histórica con el corredor del Mediterráneo de Andalucía, con más de 1.600 millones de euros de inversión en Almería y en la región de Murcia. Gracias por apostar por las inversiones, por las inversiones viarias, por la Pinos Puente a Tarfe, a Granada, convertida en autovías, a Nacional 432, que tan importante es para nosotros, por la segunda circunvalación, claro que sí, todos son, y llevan el sello, infraestructuras que llevan el sello del Gobierno de España. La modernización de los regadíos, las conducciones de rules, que era una situación absolutamente vergonzosa, que el PP dejó absolutamente olvidada y que hoy ya tiene un desglosado con 55 millones de euros por parte del gobierno de España, fondo perdido, que ya está entregada, tanto para garantizar el suministro de agua potable en la costa de Granada como para empezar a regar. Y gracias, y gracias, podría seguir así, pero bueno, la cartulina no me da para más, podría seguir así mucho rato, pero gracias sobre todo por una cosa importante, muy importante. Gracias por la apuesta, por la tecnología que nos coloca como líderes mundiales en la investigación de los materiales necesarios para que a través de esos reactores de fusión podamos conseguir la energía más limpia, la energía infinita, que es la misma de las estrellas y del sol, aquí al lado, en Escúzar, a través del INMIDONES. Gracias, presidente. Somos referentes internacionales en la investigación y en la innovación. Por eso, pero además todo esto, todo esto, y ya voy terminando, todo esto se produce en un momento y en una circunstancia absolutamente compleja. Porque el agradecimiento último que quiero hacer es muy personal. Gracias, presidente, por haberme permitido que durante cinco años y medio, durante dos gobiernos progresistas encabezados por ti y de los que ha formado parte María Jesús Montero, yo haya podido saber, conocer de primera mano la grandeza de la política con mayúsculas. Con mayúsculas porque es aquella que busca el bien y la felicidad de la gente, sobre todo de la que más lo necesita. Gracias por permitirme ser el hombre de referencia, el representante de esos gobiernos aquí en Andalucía durante ese tiempo. Y no ha sido… Fijaros, no voy a entrar en el relato de las vicisitudes, de las circunstancias, de los imprevistos que hemos sufrido, Pero justamente en esos difíciles momentos, en esas circunstancias, es cuando se mide la altura y la capacidad de gestión de un político. Y tú, frente a esas dificultades, has conseguido que España crezca en derechos sociales, en protección ante esas incidencias tan graves que hemos vivido y, sobre todo, ser la economía de los países desarrollados que más crece. Ole tú, porque ahí se demuestra la valía de un presidente y de un gestor. Ahí se demuestra. La Junta de Andalucía ha olvidado a Granada, le ha dado la espalda. Lo único que ha hecho ha sido justamente cerrar esa escuela andaluza de salud pública que se la ha llevado a otro foro distinto del de Granada, que la ha cerrado. No hemos oído nada de la autovía de la Almanzora, nada de la autovía de la Darroch y Nayot, nada en inversión en patrimonio para conseguir que Granada, justamente en el 2031, sea la ciudad europea de la capitalidad cultural. y, lo peor de todo, y con eso ya lo dejo, no tengo que entrar en detalle, en materia sanitaria de sus competencias educativas, sabéis lo que ha hecho, pero es que lo último que ha hecho, presidente, aquí en Andalucía, que afecta directamente a Granada, es conceder a una empresa privada 26 millones de euros para que desde otras provincias, incluso regiones como el caso de Murcia, los que residen, concretamente, además, más en mi comarca, en la zona norte de la provincia de Granada, tengamos que salir de nuestra provincia, incluso de nuestra región, para hacernos una simple prueba de diagnóstico, Está el negocio. Eso no lo podemos consentir. No lo podemos consentir. Confiamos plenamente en ti, presidente, para seguir avanzando. Detrás de todos los avances sociales siempre ha estado el Partido Socialista. Y en materias como las que ahora nos ocupa, nos preocupa, que es la vivienda, que es seguir avanzando en la reforma laboral para que los trabajadores y trabajadoras cada vez tengan más dignidad y más capacidad para seguir viviendo Y que sus hijos y sus entornos puedan vivir como se merecen y también la protección social, que es nuestra seña de identidad que la llevamos en el ADN, sigan siendo una realidad. Y eso solamente lo puede hacer un presidente como tú, un presidente socialista que tiene el socialismo en el ADN y en cada una de las medidas del Consejo de Ministros de tus dos últimos gobiernos. Y termino, termino, termino, termino. De Pedro a Pedro, de Pedro a Pedro, estoy absolutamente convencido, y tengo ya algunos años de experiencia, estoy absolutamente convencido de que por el bien de la gente de Granada, de la gente de Andalucía, de la gente de España y con la fuerza de la gente vas a ser de nuevo el presidente del gobierno de nuestro país. Bueno, y ahora os dejo con una mujer de la que yo he aprendido mucho, que ha formado parte y es responsable, como decía, de ese crecimiento económico y social de España de los últimos años, que es nuestra líder andaluza, que lucha permanentemente por aquellos valores que nos identifican, que es el mejor activo que podemos tener de cara a ganar justamente las elecciones generales desde aquí, desde Andalucía. Gracias, María Jesús Montero."
   },
   {
@@ -256,7 +256,7 @@
    "end": 3390.94,
    "label": "SPEAKER_02",
    "person": null,
-   "name": "Hablante sin identificar 2",
+   "name": "Hablante sin identificar 3",
    "text": "Y claro, yo cuando leí ese correo"
   },
   {
@@ -296,7 +296,7 @@
    "end": 5244.85,
    "label": "SPEAKER_02",
    "person": null,
-   "name": "Hablante sin identificar 2",
+   "name": "Hablante sin identificar 3",
    "text": "Un caudillejo."
   }
  ]

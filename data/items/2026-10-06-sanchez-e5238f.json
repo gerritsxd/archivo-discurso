@@ -14,7 +14,7 @@
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
   "voiceprint_threshold": 0.65,
-  "processed_at": "2026-10-25T18:25:45+00:00",
+  "processed_at": "2026-10-25T20:11:21+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -22,14 +22,14 @@
    "person": "sanchez",
    "name": "Pedro Sánchez (PSOE)",
    "decision": "match",
-   "reason": "sim 0.93, next 0.15",
+   "reason": "sim 0.93, next 0.17",
    "talk_s": 2318.5
   },
   "SPEAKER_01": {
    "person": null,
    "name": "Hablante sin identificar 1",
    "decision": "unknown",
-   "reason": "best sim 0.26 < 0.65",
+   "reason": "best sim 0.28 < 0.65",
    "talk_s": 62.8
   },
   "SPEAKER_04": {
@@ -39,19 +39,19 @@
    "reason": "best sim 0.42 < 0.65",
    "talk_s": 88.7
   },
-  "SPEAKER_05": {
+  "SPEAKER_03": {
    "person": null,
    "name": "Hablante sin identificar 3",
    "decision": "unknown",
-   "reason": "best sim 0.39 < 0.65",
-   "talk_s": 66.0
+   "reason": "best sim 0.42 < 0.65",
+   "talk_s": 64.4
   },
-  "SPEAKER_03": {
+  "SPEAKER_05": {
    "person": null,
    "name": "Hablante sin identificar 4",
    "decision": "unknown",
-   "reason": "best sim 0.37 < 0.65",
-   "talk_s": 64.4
+   "reason": "best sim 0.39 < 0.65",
+   "talk_s": 66.0
   },
   "SPEAKER_00": {
    "person": null,
@@ -155,7 +155,7 @@
    "end": 2234.13,
    "label": "SPEAKER_05",
    "person": null,
-   "name": "Hablante sin identificar 3",
+   "name": "Hablante sin identificar 4",
    "text": "¿Qué tal, presidente? Buenas tardes. Ahora que se ha llenado el regreso de Puigdemont a España, no sé si se dan las condiciones para hacerse esa foto y esa reunión a la que usted se comprometió, o estando ya a las puertas de unas elecciones, pues no lo considera oportuno. Una cuestión también de actualidad. El PP ha presentado hoy un escrito en la Audiencia Nacional pidiendo la imputación del PSOE por toda una serie de delitos de corrupción, entre ellos la financiación ilegal. No sé qué le parece que se dé este paso en puertas también de unas elecciones y qué viabilidad le da al movimiento, si cree que va a tener recorrido. Y por último, ayer usted en su discurso de convocatoria admitió que el Gobierno había cometido errores, hoy que le podemos hacer preguntas me gustaría preguntarle cuáles son esos errores. y continuamente apela a una mayoría rotunda, una mayoría suficiente que ahora no tiene, pero sin embargo vemos que según todas las encuestas los españoles hoy apostarían por una mayoría de derechas bastante contundente en el entorno de los 200 escaños. Quería completar la pregunta preguntándole por qué ha renunciado a ocho meses de gobierno progresista por adelantar las urnas con este panorama que le ofrecen las encuestas. Gracias."
   },
   {
@@ -203,7 +203,7 @@
    "end": 2941.77,
    "label": "SPEAKER_03",
    "person": null,
-   "name": "Hablante sin identificar 4",
+   "name": "Hablante sin identificar 3",
    "text": "Gracias, presidente. Lo decía antes, Ainhoa, ninguna encuesta dibuja ahora mismo una posibilidad de que usted revalide el cargo. Pero ya parece misión imposible sin el espacio a su izquierda. Querría saber qué espera de ese espacio que está a la izquierda del Partido Socialista. Si es imprescindible que vaya en una sola lista o que el cabeza de cartel sea Gabriel Rufián. En segundo lugar, usted ha dicho que el Gobierno va a seguir gobernando. Eso quiere decir que habrá nuevos decretos ley sobre otras medidas que consideren urgentes. Aunque no sean decretos ley, hay sectores, por ejemplo, de los centros de datos esperando una nueva regulación. Y en tercer lugar, si me permite, quería preguntarle por el impacto de estas elecciones en el ámbito internacional, donde usted ha mantenido en algunas ocasiones posiciones disonantes o distintas en el seno de la OTAN o de la Unión Europea. Me gustaría saber cómo cree usted que puede afectar esta disolución de las Cortes a debates europeos pendientes, como China, como el próximo presupuesto europeo, que esperan un acuerdo antes de final de año. ¿Es posible un acuerdo antes de final de año mientras España está volcada en elecciones? Gracias."
   },
   {

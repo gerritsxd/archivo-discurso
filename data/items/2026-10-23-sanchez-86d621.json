@@ -14,7 +14,7 @@
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
   "voiceprint_threshold": 0.65,
-  "processed_at": "2026-10-25T18:26:12+00:00",
+  "processed_at": "2026-10-25T20:11:51+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -53,19 +53,19 @@
    "reason": "best sim 0.37 < 0.65",
    "talk_s": 44.0
   },
-  "SPEAKER_01": {
-   "person": null,
-   "name": "Hablante sin identificar 6",
-   "decision": "unknown",
-   "reason": "best sim 0.35 < 0.65",
-   "talk_s": 27.9
-  },
   "SPEAKER_07": {
    "person": null,
-   "name": "Hablante sin identificar 7",
+   "name": "Hablante sin identificar 6",
    "decision": "too_short",
    "reason": "only 17s of speech",
    "talk_s": 17.3
+  },
+  "SPEAKER_01": {
+   "person": null,
+   "name": "Hablante sin identificar 7",
+   "decision": "unknown",
+   "reason": "best sim 0.35 < 0.65",
+   "talk_s": 27.9
   },
   "SPEAKER_14": {
    "person": null,
@@ -74,12 +74,12 @@
    "reason": "only 15s of speech",
    "talk_s": 15.2
   },
-  "SPEAKER_13": {
+  "SPEAKER_02": {
    "person": null,
    "name": "Hablante sin identificar 9",
    "decision": "too_short",
-   "reason": "only 14s of speech",
-   "talk_s": 14.5
+   "reason": "only 10s of speech",
+   "talk_s": 10.2
   },
   "SPEAKER_04": {
    "person": null,
@@ -88,26 +88,26 @@
    "reason": "only 10s of speech",
    "talk_s": 9.7
   },
-  "SPEAKER_02": {
+  "SPEAKER_13": {
    "person": null,
    "name": "Hablante sin identificar 11",
    "decision": "too_short",
-   "reason": "only 10s of speech",
-   "talk_s": 10.2
+   "reason": "only 14s of speech",
+   "talk_s": 14.5
+  },
+  "SPEAKER_09": {
+   "person": null,
+   "name": "Hablante sin identificar 12",
+   "decision": "too_short",
+   "reason": "only 11s of speech",
+   "talk_s": 10.8
   },
   "SPEAKER_15": {
    "person": null,
-   "name": "Hablante sin identificar 12",
+   "name": "Hablante sin identificar 13",
    "decision": "unknown",
    "reason": "best sim 0.22 < 0.65",
    "talk_s": 72.7
-  },
-  "SPEAKER_06": {
-   "person": null,
-   "name": "Hablante sin identificar 13",
-   "decision": "too_short",
-   "reason": "only 18s of speech",
-   "talk_s": 18.5
   },
   "SPEAKER_12": {
    "person": null,
@@ -116,12 +116,12 @@
    "reason": "only 6s of speech",
    "talk_s": 6.5
   },
-  "SPEAKER_09": {
+  "SPEAKER_06": {
    "person": null,
    "name": "Hablante sin identificar 15",
    "decision": "too_short",
-   "reason": "only 11s of speech",
-   "talk_s": 10.8
+   "reason": "only 18s of speech",
+   "talk_s": 18.5
   },
   "SPEAKER_08": {
    "person": null,
@@ -209,7 +209,7 @@
    "end": 89.66,
    "label": "SPEAKER_15",
    "person": null,
-   "name": "Hablante sin identificar 12",
+   "name": "Hablante sin identificar 13",
    "text": "En la maretta cuando estábamos grabándole, hay un momento que está muy bien. Sánchez, se meten los dos en el mar, en el agua, pero Sánchez sale primero. Y sale por unas rocas hasta que tienes que subir y tal y tal. Y se olvida de ella. Y ella se queda ahí luchando, parada, intentando también subir porque no hay escaleritas, no hay una escalerilla que tú vas a subir, tienes que escalar las rocas como puedes."
   },
   {
@@ -225,7 +225,7 @@
    "end": 127.2,
    "label": "SPEAKER_15",
    "person": null,
-   "name": "Hablante sin identificar 12",
+   "name": "Hablante sin identificar 13",
    "text": "Se olvida la de ella y se fue a la mareta y ella a la otra intentando salir del mar. Eso no era la fuerza del amor."
   },
   {
@@ -265,7 +265,7 @@
    "end": 224.04,
    "label": "SPEAKER_06",
    "person": null,
-   "name": "Hablante sin identificar 13",
+   "name": "Hablante sin identificar 15",
    "text": "No lo vi, lo reconozco. En mi casa hay unas normas de seguridad, de higiene. Un gusto, la primera no tiene el control parental, pero por lo que he estado oyendo, Ábalos es mucho más pudoroso que él, pero le falta perrear. Bueno, les viene bien, ¿no? Porque así aprovechan bien el vis-a-vis en la cárcel. Que asquito, por Dios."
   },
   {
@@ -273,7 +273,7 @@
    "end": 241.38,
    "label": "SPEAKER_07",
    "person": null,
-   "name": "Hablante sin identificar 7",
+   "name": "Hablante sin identificar 6",
    "text": "Yo la verdad aguanté poco, hasta los primeros rebusnos de Pedro Sánchez, no lo aguanto. Pero que se puede esperar de una entrevista en la que el entrevistador es vulgar, chavacano y ordinario, pues un entrevistado del mismo nivel. Un hombre que ha vivido de o en el mundo de la prostitución, que contrata sicarios para matar jueces."
   },
   {
@@ -281,7 +281,7 @@
    "end": 251.5,
    "label": "SPEAKER_02",
    "person": null,
-   "name": "Hablante sin identificar 11",
+   "name": "Hablante sin identificar 9",
    "text": "Va ahí a que le dé el masaje a su sauna particular y los índices de audiencia esos que decís, que ni me lo creo, vamos, ni me lo creo."
   },
   {
@@ -289,7 +289,7 @@
    "end": 266.1,
    "label": "SPEAKER_13",
    "person": null,
-   "name": "Hablante sin identificar 9",
+   "name": "Hablante sin identificar 11",
    "text": "Lo que presenciamos en ese programa fue el protagonismo de un herón, un herón moderno, que se está riendo y diciéndonos cómo está quemando la ciudad, cómo está quemando el país. Y ayer salió riéndose de todos nosotros, diciéndonos cómo él está quemando el país y lo bien que se lo está pasando."
   },
   {
@@ -321,7 +321,7 @@
    "end": 305.16,
    "label": "SPEAKER_15",
    "person": null,
-   "name": "Hablante sin identificar 12",
+   "name": "Hablante sin identificar 13",
    "text": "Y aparte recordando algo que se nos pasaba, que es verdad, que ya parece que ha quedado atrás, pero que es el yerno de un proxeneta. Y que su mujer trabajaba en esa sauna de administrativa. Pues por eso"
   },
   {
@@ -337,7 +337,7 @@
    "end": 310.06,
    "label": "SPEAKER_15",
    "person": null,
-   "name": "Hablante sin identificar 12",
+   "name": "Hablante sin identificar 13",
    "text": "Y hablando de que este tío venga a hablar de una vida sana y tal."
   },
   {
@@ -353,7 +353,7 @@
    "end": 319.94,
    "label": "SPEAKER_15",
    "person": null,
-   "name": "Hablante sin identificar 12",
+   "name": "Hablante sin identificar 13",
    "text": "Cuando trabajaba en una sauna donde hay testigos y hay testimonios de que prostituían a menores, claro, se te cae una cara de tonto."
   },
   {
@@ -377,7 +377,7 @@
    "end": 352.46,
    "label": "SPEAKER_01",
    "person": null,
-   "name": "Hablante sin identificar 6",
+   "name": "Hablante sin identificar 7",
    "text": "¿De qué? ¿De romper familias aquí todos los días?"
   },
   {
@@ -393,7 +393,7 @@
    "end": 383.54,
    "label": "SPEAKER_01",
    "person": null,
-   "name": "Hablante sin identificar 6",
+   "name": "Hablante sin identificar 7",
    "text": "Familiares, hablando de política. Sí, hubo una época en la que estaba a la orden del día, pero sí, bueno, iba a seguir a la orden del día, porque vamos, aquí están esperando a que gane el Partido Popular y gobierne con Vox para volver a las calles. Eso que decís al principio de que en España todavía no se han incendiado las calles, bueno, tranquilos, tiempo a tiempo y que enseguida en el País Vasco ya se empiezan a ver detalles."
   },
   {
@@ -409,7 +409,7 @@
    "end": 385.2,
    "label": "SPEAKER_01",
    "person": null,
-   "name": "Hablante sin identificar 6",
+   "name": "Hablante sin identificar 7",
    "text": "10 veces más rápido?"
   },
   {
@@ -425,7 +425,7 @@
    "end": 388.16,
    "label": "SPEAKER_01",
    "person": null,
-   "name": "Hablante sin identificar 6",
+   "name": "Hablante sin identificar 7",
    "text": "de 70%, y"
   },
   {
