@@ -1,39 +1,58 @@
 # Archivo del discurso político
 
-Open-source archive of what Spain's main candidates say in public, from the day the 29 November 2026 general election was called. Live: **https://gerritsxd.com/discurso/** (search, transcripts with sources, and the daily game *¿Quién lo dijo?*).
+**Todo lo que dicen en público los candidatos a las elecciones generales del 29 de noviembre de 2026, transcrito, con quién lo dijo y enlace al segundo exacto de la fuente.** Desde el día de la convocatoria (5 de octubre de 2026).
 
-Pipeline: discover appearances (party channels, radio podcasts, RTVE, Congreso, Moncloa) → download audio → Whisper large-v3 → pyannote speaker diarization → voiceprint identification → SQLite full-text database + static site. Only text, timestamps and links to the original source are published; audio and voiceprints (biometric data) stay private.
+🔗 **Web:** https://gerritsxd.com/discurso/ · **Juego diario:** [¿Quién lo dijo?](https://gerritsxd.com/discurso/juego.html) · **Plan:** [ROADMAP.md](ROADMAP.md)
 
-**Licences:** code MIT ([LICENSE](LICENSE)); transcripts and data CC BY 4.0. Transcripts are automatic and unreviewed: always check the source.
+> Transcripción automática, sin revisar. Comprueba siempre la fuente: cada frase enlaza al original.
 
-Design: [ARCHITECTURE.md](ARCHITECTURE.md). Milestone 1 results: [m1/RESULTS.md](m1/RESULTS.md) (large-v3 on an RTX 3060 Ti: 10.6× real time, ~4.2 GB GPU memory, 11.4 % WER against an *edited* official transcript).
+## Por qué
 
-## How to run (M1: transcribe one appearance and measure WER)
+El discurso político llega troceado: un corte de 20 segundos en el telediario, un titular, un clip en redes. Casi nadie transcribe los mítines, las entrevistas de radio de las 8 de la mañana ni las ruedas de prensa completas, y lo que existe está repartido entre cadenas y partidos. Este proyecto es un archivo abierto de **lo que se dijo de verdad**, verificable por cualquiera, para el derecho a la información y para que nadie tenga el monopolio de lo que se recuerda.
 
-Windows, NVIDIA GPU (tested on an RTX 3060 Ti 8 GB), Python 3.13, ffmpeg on PATH. Commands are for Git Bash, run from this folder.
+## Qué ofrece hoy
 
-```bash
-# 1. Environment. CUDA 12 cuBLAS and cuDNN 9 come from pip; transcribe.py adds their DLL folders itself.
-#    Pin av<16: PyAV 19 breaks faster-whisper 1.2.1. Exact versions: requirements.lock.txt
-py -3.13 -m venv .venv
-.venv/Scripts/python -m pip install faster-whisper "av<16" jiwer pypdf yt-dlp nvidia-cublas-cu12 "nvidia-cudnn-cu12==9.*"
+- **Buscador** de todo lo dicho por los candidatos, con la pregunta del entrevistador como contexto y enlace al minuto exacto de la fuente.
+- **Transcripciones completas** de cada aparición, con cada intervención atribuida a quien habla.
+- **¿Quién lo dijo?**: 5 frases reales al día, adivina el candidato. Solo frases con contenido (cada una puntuada por un editor automático).
+- **Datos abiertos**: un JSON por aparición y una API de solo lectura (`/discurso/api/search`, `/stats`, `/item/<id>`, `/daily`).
 
-# 2. Fetch audio only (16 kHz mono) and the official transcript into data/raw/<date-slug>/
-#    Use yt-dlp, not plain ffmpeg: ffmpeg silently lost ~14 s to TLS drops. Check the duration.
-D=data/raw/2026-10-05-decl-inst-convocatoria; mkdir -p $D
-.venv/Scripts/yt-dlp -f 480p --fragment-retries 100 -x --audio-format wav \
-  --postprocessor-args "ffmpeg:-ac 1 -ar 16000" -o "$D/audio.%(ext)s" "<La Moncloa .m3u8 URL>"
-curl -L -o $D/official_page.html "<La Moncloa intervención page URL>"
+Cobertura a 25 de octubre de 2026: **72 apariciones, ~55 h de audio** (5–24 oct) de Pedro Sánchez, Alberto Núñez Feijóo, Santiago Abascal, Ada Colau, Irene Montero e Ione Belarra: mítines, declaraciones, entrevistas de radio y televisión.
 
-# 3. Transcribe. The first run downloads large-v3 (~3 GB). Always use -I: the inputs are untrusted downloads.
-.venv/Scripts/python -I src/transcribe.py $D/audio.wav m1/ours.json --model large-v3 --compute-type float16
+## Lo que viene
 
-# 4. Official text, cut to the speech, then WER
-.venv/Scripts/python -I src/extract_official.py $D/official_page.html m1/official_speech.txt \
-  --start "Queridos ciudadanos" --end "Muchas gracias."
-.venv/Scripts/python -I src/wer.py m1/ours.json m1/official_speech.txt --out m1/wer_report.json
+El valor está en lo que se puede sacar del archivo (detalle en [ROADMAP.md](ROADMAP.md)):
+
+1. **Promesómetro**: cada promesa, por candidato y tema, con la fuente. Durante la campaña, el mapa de lo que se promete; después del 29N, la lista con la que pedir cuentas.
+2. **Mismo candidato, distinto discurso**: qué dice cada uno según dónde y ante quién habla.
+3. **Las cifras de la semana**: de qué hablan, de qué no, y a quién atacan.
+4. **Frases para verificar**: afirmaciones con datos, listas para los verificadores.
+5. **Los debates** (16, 23 y 26 de noviembre), transcritos a la mañana siguiente.
+
+## Cómo funciona
+
+```
+descubrir apariciones → descargar audio → Whisper large-v3 → pyannote (quién habla cuándo)
+  → huellas de voz (qué candidato es) → base de datos SQLite + búsqueda → web y API
 ```
 
-- Prefer the HTML transcript to the PDF: pypdf splits words in the Moncloa PDFs.
-- Scripts live in `src/`. Downloads go only in `data/`, which is private, never published, and never holds code.
-- No GPU? Use `--device cpu --model small --compute-type int8` to check the pipeline.
+- **Fuentes**: canales oficiales de los partidos y de La Moncloa, RTVE Play, radio (SER, COPE, Onda Cero, RNE, esRadio y emisoras regionales), Congreso, TV3. Solo fuentes oficiales o de medios, nunca subidas anónimas (los imitadores también suenan como el original).
+- **Quién habla**: la voz de cada candidato se compara con su huella de voz. Solo se atribuye una frase si la coincidencia es clara; si no, aparece como «hablante sin identificar». Una cita mal atribuida es el peor error posible, así que el sistema prefiere no poner nombre a equivocarse.
+- **Precisión medida**: Whisper sobre una declaración oficial de La Moncloa, 11,4 % de diferencia con la transcripción oficial (que está editada: la diferencia real es menor). Huellas de voz: el mismo candidato en otro estudio y otra emisora da una similitud de 0,96; personas distintas, como mucho 0,40.
+
+Detalles técnicos: [ARCHITECTURE.md](ARCHITECTURE.md) · Cómo ejecutarlo: [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md)
+
+## Principios
+
+- **Se publica texto, marcas de tiempo y enlaces a la fuente.** Nunca audio ni vídeo.
+- **Neutralidad**: mismo trato para todos los candidatos, orden alfabético, sin colores de partido.
+- **Privacidad**: sin cookies, sin analítica, sin registros de visitas. Las huellas de voz son datos biométricos y nunca se publican.
+- **Correcciones públicas**: cualquier error se corrige y queda registrado.
+
+## Licencias
+
+Código: [MIT](LICENSE). Transcripciones y datos: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es). Las fuentes originales pertenecen a sus autores; aquí solo se cita y se enlaza.
+
+---
+
+*English: an open archive of everything Spain's 2026 general-election candidates say in public, transcribed with speaker attribution and second-precise links to the original source. Whisper + pyannote + voiceprints, SQLite full-text search, static site and read-only API. See [ROADMAP.md](ROADMAP.md) and [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md).*
