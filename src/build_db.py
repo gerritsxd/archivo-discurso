@@ -97,7 +97,12 @@ def main():
     db.executescript(SCHEMA)
 
     n_items = n_turns = n_quotes = 0
+    # fetched by mistake or duplicates (dedup.py): never in the database, even if a stale JSON is still here
+    excl = ROOT / "config" / "exclude.txt"
+    skip = {l.split("#")[0].strip() for l in excl.read_text(encoding="utf-8").splitlines()} if excl.exists() else set()
     for f in sorted(Path(args.items).glob("*.json")):
+        if f.stem in skip:
+            continue
         it = json.loads(f.read_text(encoding="utf-8"))
         db.execute("INSERT INTO items VALUES (?,?,?,?,?,?,?,?,?,?,?)", (
             it["id"], it.get("date"), it.get("outlet"), it.get("title"), it.get("url"),

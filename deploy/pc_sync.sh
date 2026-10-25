@@ -15,6 +15,8 @@ $PY -u src/fetch.py                              # the original M0 inventory (no
 $PY -u src/backfill_channels.py                  # channel uploads beyond the RSS window (PC only)
 [ -f data/queue_backfill.csv ] && $PY -u src/fetch.py --inventory data/queue_backfill.csv
 $PY -u src/process.py
+$PY -u src/dedup.py                              # same event from two sources: keep one
+scp -q config/exclude.txt "$VPS:discurso/config/exclude.txt"
 # database on the VPS: push the item files, rebuild archivo.db (the API reads it live)
 tar cf - -C data items | ssh "$VPS" 'mkdir -p ~/discurso/data && tar xmf - -C ~/discurso/data && cd ~/discurso && python3 -I src/build_db.py && set -a && . ~/armario/.env && set +a && python3 -I src/score_quotes.py && python3 -I src/tag_claims.py && python3 -I src/check_insults.py && python3 -I src/attack_graph.py && python3 -I src/find_contradictions.py && python3 -I src/check_attribution.py && python3 -I src/tone.py && python3 -I src/export_data.py'
 $PY -I src/export_site.py

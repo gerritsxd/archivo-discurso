@@ -55,7 +55,8 @@ channels:
     channel_id: UCp5vwMbdAelxaqgCt6ipTgw
     rss: https://www.youtube.com/feeds/videos.xml?channel_id=UCp5vwMbdAelxaqgCt6ipTgw
     notes: Personal channel; no uploads since 5 Oct; no streams tab.
-# Not found: personal channels for Sánchez, Feijóo or Abascal. The handle @PedroSanchez belongs to an unrelated user.
+# Not found: personal channels for Sánchez, Feijóo or Abascal (2026-10-25: @AlbertoNunezFeijoo is an old Galician
+# channel with no recent uploads; @SantiagoAbascal is not him). Not found on YouTube: 20minutos, EITB. The handle @PedroSanchez belongs to an unrelated user.
 broadcasters:
   - name: RTVE Noticias
     channel_id: UC7QZIf0dta-XPXsp9Hv4dTw
@@ -85,3 +86,43 @@ broadcasters:
     channel_id: UC3hQI9c_MZPSDWNLF05OQGQ
     rss: https://www.youtube.com/feeds/videos.xml?channel_id=UC3hQI9c_MZPSDWNLF05OQGQ
     notes: Posts mostly shorts (<1 min) of Ana Rosa / Horizonte; full interviews are on mitele.
+  - name: Europa Press
+    channel_id: UCh_chnQ7OJPQ8mZ7vbXFpIQ
+    rss: https://www.youtube.com/feeds/videos.xml?channel_id=UCh_chnQ7OJPQ8mZ7vbXFpIQ
+    notes: "Agency: posts full statements and press conferences uncut, plus short news cuts. Added 2026-10-25."
+  - name: EL PAÍS
+    channel_id: UCnsvJeZO4RigQ898WdDNoBw
+    rss: https://www.youtube.com/feeds/videos.xml?channel_id=UCnsvJeZO4RigQ898WdDNoBw
+    notes: "Newspaper: live streams of rallies and statements. Added 2026-10-25."
+  - name: elDiarioes
+    channel_id: UCig8aKQHLt8E35_LJKwOscA
+    rss: https://www.youtube.com/feeds/videos.xml?channel_id=UCig8aKQHLt8E35_LJKwOscA
+    notes: "Newspaper: live streams (e.g. the Montero-Rufián act of 24 Oct was only here). Added 2026-10-25."
+  - name: El Mundo
+    channel_id: UCGXbLrVe8vnkiFv7q2vYv3w
+    rss: https://www.youtube.com/feeds/videos.xml?channel_id=UCGXbLrVe8vnkiFv7q2vYv3w
+    notes: "Newspaper: live streams and interview clips. Added 2026-10-25."
+  - name: Diario ABC
+    channel_id: UChFgb_m6aDftnqrxTYFO5Xw
+    rss: https://www.youtube.com/feeds/videos.xml?channel_id=UChFgb_m6aDftnqrxTYFO5Xw
+    notes: "Newspaper (@abc_es; @abc is the US network). Added 2026-10-25."
+  - name: À Punt Mèdia
+    channel_id: UC06jp6UgU3rzTNpuBk0OebQ
+    rss: https://www.youtube.com/feeds/videos.xml?channel_id=UC06jp6UgU3rzTNpuBk0OebQ
+    notes: "Valencian public TV; its own site is not fetchable. Added 2026-10-25."
+  - name: Canal Sur
+    channel_id: UChtLgH7ZJLqLGWJpBnzy9Lg
+    rss: https://www.youtube.com/feeds/videos.xml?channel_id=UChtLgH7ZJLqLGWJpBnzy9Lg
+    notes: "Andalusian public TV; its site is limited to Spain (403 from NL and DE). Added 2026-10-25."
+  - name: IB3
+    channel_id: UCff_CBVJDTHP4wOHPjP5BMg
+    rss: https://www.youtube.com/feeds/videos.xml?channel_id=UCff_CBVJDTHP4wOHPjP5BMg
+    notes: "Balearic public TV. Added 2026-10-25."
+  - name: Telemadrid
+    channel_id: UCv2BcgqxHSrl2QQfIkjR5Eg
+    rss: https://www.youtube.com/feeds/videos.xml?channel_id=UCv2BcgqxHSrl2QQfIkjR5Eg
+    notes: "Madrid public TV. Added 2026-10-25."
+  - name: G24 Noticias (CRTVG)
+    channel_id: UCdI9WAe0tILyWkmSaVrnkSA
+    rss: https://www.youtube.com/feeds/videos.xml?channel_id=UCdI9WAe0tILyWkmSaVrnkSA
+    notes: "Galician public TV news; its site returns 502/403. Added 2026-10-25."

@@ -97,8 +97,11 @@ def main():
     copy.unlink()
 
     with tarfile.open(tmp / "items.tar.gz", "w:gz") as t:
+        excl = ROOT / "config" / "exclude.txt"
+        skip = {l.split("#")[0].strip() for l in excl.read_text(encoding="utf-8").splitlines()} if excl.exists() else set()
         for p in sorted((ROOT / "data" / "items").glob("*.json")):
-            t.add(p, arcname=f"items/{p.name}")
+            if p.stem not in skip:   # duplicates and wrong fetches stay out of the dump too
+                t.add(p, arcname=f"items/{p.name}")
     for name in ("config/contradictions_review.json", "eval/attribution_review.jsonl", "eval/attribution_sample.jsonl",
                  "eval/ATTRIBUTION.md"):
         p = ROOT / name

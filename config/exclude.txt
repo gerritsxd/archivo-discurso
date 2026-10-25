@@ -1,2 +1,10 @@
 # Appearances fetched by mistake: process.py skips them, so they are never published.
 2026-10-11-sanchez-4822a1  # Manu Sánchez (comedian) monologue, matched "Sánchez" in discovery
+2026-10-05-sanchez-1cea66  # duplicate of 2026-10-05-sanchez-14e702 (dedup.py, similarity 0.96)
+2026-10-12-abascal-ebf57e  # duplicate of 2026-10-12-abascal-0945b9 (dedup.py, similarity 0.98)
+2026-10-13-feijoo-cbba06  # duplicate of 2026-10-13-feijoo-a68305 (dedup.py, similarity 1.00)
+2026-10-15-belarra-d00e28  # duplicate of 2026-10-15-belarra-7db33a (dedup.py, similarity 0.94)
+2026-10-19-sanchez-68c2b7  # duplicate of 2026-10-19-sanchez-6942fc (dedup.py, similarity 0.97)
+2026-10-21-sanchez-035ff9  # duplicate of 2026-10-20-sanchez-6a642e (dedup.py, similarity 0.94)
+2026-10-25-abascal-3fa132  # duplicate of 2026-10-23-abascal-99f34e (dedup.py, similarity 0.90)
+2026-10-23-feijoo-a83d43  # duplicate of 2026-10-23-feijoo-a46a59 (dedup.py, similarity 0.91)

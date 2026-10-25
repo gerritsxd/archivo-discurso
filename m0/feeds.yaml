@@ -185,3 +185,16 @@
   verified: yes
   granularity: "one item per episode"
   depth: "last item 2026-06-20 (between seasons)"
+# ---------- Added 2026-10-25 (found via Apple Podcasts search; checked: HTTP 200, enclosure on every item) ----------
+- station: esRadio
+  programme: En casa de Herrero
+  rss_url: https://esradio.libertaddigital.com/en-casa-de-herrero/podcast.xml
+  verified: yes
+  granularity: "clips and full hours"
+  depth: "50 items"
+- station: Per determinar
+  programme: Per determinar
+  rss_url: https://feeds.feedburner.com/PerDeterminar
+  verified: yes
+  granularity: "one item per episode (long interviews, in Catalan; Colau S15E01 on 6 Oct)"
+  depth: "200 items"
