@@ -477,7 +477,7 @@ def build_home(ctx):
 <section class="hero">
   <p class="kicker">Elecciones generales · 29 de noviembre de 2026</p>
   <h1>Todo lo que dicen en público los candidatos, transcrito y con enlace al segundo exacto.</h1>
-  <p class="lede">Mítines, entrevistas y ruedas de prensa de Pedro Sánchez, Alberto Núñez Feijóo, Santiago Abascal, Ada Colau, Irene Montero e Ione Belarra desde el 5 de octubre. Un programa transcribe el audio, reconoce quién habla por su voz y enlaza cada frase al momento exacto del vídeo o audio original, para que puedas comprobarla.</p>
+  <p class="lede">Mítines, entrevistas y ruedas de prensa del líder de cada partido nacional (Pedro Sánchez, Alberto Núñez Feijóo, Santiago Abascal, Ada Colau e Irene Montero) desde el 5 de octubre: el objetivo es tener todo lo que dicen en público, no una selección. Un programa transcribe el audio, reconoce quién habla por su voz y enlaza cada frase al momento exacto del vídeo o audio original, para que puedas comprobarla.</p>
   {search_form("", big=True, placeholder="Busca lo que han dicho: vivienda, pensiones, salario mínimo…")}
   <div class="howto">
     <a class="ht" href="buscar.html"><span class="ht-t">Buscar</span><span class="ht-x">Escribe una palabra o una frase entre comillas y verás quién la dijo, cuándo y dónde, con la pregunta que le hicieron.</span></a>

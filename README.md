@@ -19,7 +19,7 @@ El discurso político llega troceado: un corte de 20 segundos en el telediario, 
 - **Pregunta al archivo**: una pregunta en lenguaje normal («¿qué ha prometido Feijóo sobre vivienda?») y una respuesta corta escrita solo con frases del archivo, cada una enlazada.
 - **Datos abiertos**: un JSON por aparición y una API de solo lectura (`/discurso/api/search`, `/stats`, `/item/<id>`, `/daily`, `/claims`, `/contradictions`, `/attacks`, `/tone`).
 
-Cobertura a 25 de octubre de 2026: **72 apariciones, ~55 h de audio** (5–24 oct) de Pedro Sánchez, Alberto Núñez Feijóo, Santiago Abascal, Ada Colau, Irene Montero e Ione Belarra: mítines, declaraciones, entrevistas de radio y televisión.
+Cobertura a 25 de octubre de 2026: **72 apariciones, ~55 h de audio** (5–24 oct) de Pedro Sánchez, Alberto Núñez Feijóo, Santiago Abascal, Ada Colau e Irene Montero (el líder de cada partido nacional): mítines, declaraciones, entrevistas de radio y televisión. El objetivo es la cobertura completa: todo lo que dicen en público, no una selección.
 
 ## Lo que viene
 
