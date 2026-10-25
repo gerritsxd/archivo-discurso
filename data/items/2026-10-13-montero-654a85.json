@@ -14,7 +14,7 @@
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
   "voiceprint_threshold": 0.65,
-  "processed_at": "2026-10-25T20:11:29+00:00",
+  "processed_at": "2026-10-25T20:59:17+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -61,7 +61,21 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Ser Podcast Son las 9 y 21 de la mañana, las 8 y 21 en Canarias. Irene Montero, buenos días."
+   "text": "Ser Podcast Son las 9 y 21 de la mañana, las 8 y 21 en Canarias. Irene Montero, buenos días.",
+   "marks": [
+    [
+     0,
+     1.5
+    ],
+    [
+     47,
+     8.7
+    ],
+    [
+     65,
+     10.2
+    ]
+   ]
   },
   {
    "start": 11.69,
@@ -69,7 +83,17 @@
    "label": "SPEAKER_03",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "¿Qué tal? Muy buenos días, Aimar."
+   "text": "¿Qué tal? Muy buenos días, Aimar.",
+   "marks": [
+    [
+     0,
+     11.7
+    ],
+    [
+     10,
+     12.2
+    ]
+   ]
   },
   {
    "start": 13.23,
@@ -77,7 +101,13 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Señora Montero, ¿cómo se gestó la decisión de aliarse con Esquerra?"
+   "text": "Señora Montero, ¿cómo se gestó la decisión de aliarse con Esquerra?",
+   "marks": [
+    [
+     0,
+     13.2
+    ]
+   ]
   },
   {
    "start": 17.13,
@@ -85,7 +115,49 @@
    "label": "SPEAKER_03",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "Bueno, pues muy despacito y escuchando a la gente y creo que esas formas de colaboración, de cooperación entre fuerzas y personas diferentes Independientes es lo que la gente nos está pidiendo y honestamente creo que puede ser una propuesta que represente a una mayoría de gente que quiere que baje el precio de los alquileres, que baje el coste de la vida y que tengamos una izquierda fuerte en el Congreso que salga de estas elecciones y que realmente esa candidatura pueda hacer que las cosas pasen y no solo que estén puestas en un programa electoral pero que al final por cualquier excusa se terminen por no hacer."
+   "text": "Bueno, pues muy despacito y escuchando a la gente y creo que esas formas de colaboración, de cooperación entre fuerzas y personas diferentes Independientes es lo que la gente nos está pidiendo y honestamente creo que puede ser una propuesta que represente a una mayoría de gente que quiere que baje el precio de los alquileres, que baje el coste de la vida y que tengamos una izquierda fuerte en el Congreso que salga de estas elecciones y que realmente esa candidatura pueda hacer que las cosas pasen y no solo que estén puestas en un programa electoral pero que al final por cualquier excusa se terminen por no hacer.",
+   "marks": [
+    [
+     0,
+     17.1
+    ],
+    [
+     61,
+     21.4
+    ],
+    [
+     156,
+     26.8
+    ],
+    [
+     217,
+     30.5
+    ],
+    [
+     283,
+     35.6
+    ],
+    [
+     346,
+     38.1
+    ],
+    [
+     408,
+     42.2
+    ],
+    [
+     482,
+     47.2
+    ],
+    [
+     536,
+     49.6
+    ],
+    [
+     610,
+     53.0
+    ]
+   ]
   },
   {
    "start": 53.35,
@@ -93,7 +165,13 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Esa alianza, señora Montero, se circunscribe a Cataluña."
+   "text": "Esa alianza, señora Montero, se circunscribe a Cataluña.",
+   "marks": [
+    [
+     0,
+     53.4
+    ]
+   ]
   },
   {
    "start": 59.39,
@@ -101,7 +179,25 @@
    "label": "SPEAKER_03",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "Bueno, la alianza lo que dice es que nosotras vamos a contribuir a la candidatura de Esquerra Republicana en Cataluña y que Gabriel y yo vamos a hacer equipo para las elecciones generales en todo el territorio."
+   "text": "Bueno, la alianza lo que dice es que nosotras vamos a contribuir a la candidatura de Esquerra Republicana en Cataluña y que Gabriel y yo vamos a hacer equipo para las elecciones generales en todo el territorio.",
+   "marks": [
+    [
+     0,
+     59.4
+    ],
+    [
+     65,
+     62.8
+    ],
+    [
+     134,
+     66.5
+    ],
+    [
+     199,
+     69.9
+    ]
+   ]
   },
   {
    "start": 71.25,
@@ -109,7 +205,17 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "¿Y eso está abierto a que se sumen los partidos que ahora están en eso que se llama Frente Amplio?"
+   "text": "¿Y eso está abierto a que se sumen los partidos que ahora están en eso que se llama Frente Amplio?",
+   "marks": [
+    [
+     0,
+     71.2
+    ],
+    [
+     58,
+     74.8
+    ]
+   ]
   },
   {
    "start": 76.71,
@@ -117,7 +223,41 @@
    "label": "SPEAKER_03",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "Hombre, pero por supuesto todavía esto es, yo creo, un paso muy importante y un paso que la gente estaba pidiendo, que jugásemos un papel, que llegásemos a marcos de colaboración entre diferentes y ahora pues hay que seguir trabajando para que mucha más gente esté ahí y para que esa candidatura represente a esa mayoría de izquierdas que está deseando poder votar para bajar el precio de los alquileres, para bajar el coste de la vida, para acabar con el negocio de la especulación"
+   "text": "Hombre, pero por supuesto todavía esto es, yo creo, un paso muy importante y un paso que la gente estaba pidiendo, que jugásemos un papel, que llegásemos a marcos de colaboración entre diferentes y ahora pues hay que seguir trabajando para que mucha más gente esté ahí y para que esa candidatura represente a esa mayoría de izquierdas que está deseando poder votar para bajar el precio de los alquileres, para bajar el coste de la vida, para acabar con el negocio de la especulación",
+   "marks": [
+    [
+     0,
+     76.7
+    ],
+    [
+     64,
+     81.0
+    ],
+    [
+     132,
+     86.1
+    ],
+    [
+     209,
+     90.7
+    ],
+    [
+     271,
+     94.4
+    ],
+    [
+     344,
+     98.4
+    ],
+    [
+     416,
+     102.4
+    ],
+    [
+     470,
+     104.6
+    ]
+   ]
   },
   {
    "start": 110.69,
@@ -125,7 +265,33 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Ayer, anoche, los partidos que forman el Frente Amplio, que son Izquierda Unida, Más Madrid, Los Comunes y Movimiento Sumar, dijeron, nosotros estamos ya de acuerdo en presentar a Ada Colau, o que Ada Colau sea la candidata a la presidencia del gobierno, y le abrimos la puerta a Podemos para que se sume. ¿Ustedes a esto qué dicen?"
+   "text": "Ayer, anoche, los partidos que forman el Frente Amplio, que son Izquierda Unida, Más Madrid, Los Comunes y Movimiento Sumar, dijeron, nosotros estamos ya de acuerdo en presentar a Ada Colau, o que Ada Colau sea la candidata a la presidencia del gobierno, y le abrimos la puerta a Podemos para que se sume. ¿Ustedes a esto qué dicen?",
+   "marks": [
+    [
+     0,
+     110.7
+    ],
+    [
+     74,
+     114.8
+    ],
+    [
+     154,
+     120.4
+    ],
+    [
+     211,
+     122.9
+    ],
+    [
+     278,
+     126.4
+    ],
+    [
+     306,
+     128.6
+    ]
+   ]
   },
   {
    "start": 130.57,
@@ -133,7 +299,81 @@
    "label": "SPEAKER_03",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "A ver, a mí me incomoda profundamente este tipo de... O sea, es que no quiero responder y seguir en el bucle infinito. Nosotras ya planteamos, en lo que tiene que ver con la izquierda española, que creíamos que estábamos en un bucle del que había que salir y que las primarias eran la mejor forma de hacerlo. Nosotras hemos trabajado intensamente para hacer unas primarias, que por cierto se vota el día 14 y 15 y la gente puede entrar en primarias.info y votar. Y estamos trabajando además para hacer marcos y para establecer marcos de colaboración, como es este tándem Gabriel conmigo, para poder tener la candidatura más fuerte. Y todo lo demás, la verdad, yo prefiero mi silencio, porque creo que es lo que mejor puede contribuir a que las cosas vayan bien y a que no nos tengamos que ruborizar de nosotras mismas."
+   "text": "A ver, a mí me incomoda profundamente este tipo de... O sea, es que no quiero responder y seguir en el bucle infinito. Nosotras ya planteamos, en lo que tiene que ver con la izquierda española, que creíamos que estábamos en un bucle del que había que salir y que las primarias eran la mejor forma de hacerlo. Nosotras hemos trabajado intensamente para hacer unas primarias, que por cierto se vota el día 14 y 15 y la gente puede entrar en primarias.info y votar. Y estamos trabajando además para hacer marcos y para establecer marcos de colaboración, como es este tándem Gabriel conmigo, para poder tener la candidatura más fuerte. Y todo lo demás, la verdad, yo prefiero mi silencio, porque creo que es lo que mejor puede contribuir a que las cosas vayan bien y a que no nos tengamos que ruborizar de nosotras mismas.",
+   "marks": [
+    [
+     0,
+     130.6
+    ],
+    [
+     54,
+     134.9
+    ],
+    [
+     61,
+     135.1
+    ],
+    [
+     119,
+     137.8
+    ],
+    [
+     128,
+     138.2
+    ],
+    [
+     194,
+     141.7
+    ],
+    [
+     257,
+     144.6
+    ],
+    [
+     309,
+     147.4
+    ],
+    [
+     324,
+     148.0
+    ],
+    [
+     400,
+     151.7
+    ],
+    [
+     454,
+     154.7
+    ],
+    [
+     463,
+     155.2
+    ],
+    [
+     527,
+     159.4
+    ],
+    [
+     605,
+     165.9
+    ],
+    [
+     632,
+     167.3
+    ],
+    [
+     672,
+     169.1
+    ],
+    [
+     736,
+     173.5
+    ],
+    [
+     789,
+     178.0
+    ]
+   ]
   },
   {
    "start": 179.49,
@@ -141,7 +381,17 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Pero por entenderlo, señora Montero, ¿usted lo que propone es que esos partidos se sumen a lo que ya han construido Esquerra y ustedes?"
+   "text": "Pero por entenderlo, señora Montero, ¿usted lo que propone es que esos partidos se sumen a lo que ya han construido Esquerra y ustedes?",
+   "marks": [
+    [
+     0,
+     179.5
+    ],
+    [
+     71,
+     183.0
+    ]
+   ]
   },
   {
    "start": 187.75,
@@ -149,7 +399,57 @@
    "label": "SPEAKER_03",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "Yo prefiero cuando las cosas se hagan poder contarlas y no estar hablando permanentemente en un bucle infinito que incomoda a todo el mundo, que incomoda a la propia gente a la que le tenemos que pedir su confianza y su voto y a la que lo que le tenemos que garantizar Vamos a encontrar la forma de tener una candidatura fuerte que sea capaz de hacer lo que la gente está ya haciendo en las acampadas, en las calles, organizando la huelga general, que es que como este sistema no funciona, pues hay que cambiarlo y que no puede haber más excusas que nos demoren en hacer las cosas que hay que hacer respecto a la crisis de vivienda o respecto al precio de los alimentos o respecto a los impuestos que tienen que pagar los superricos."
+   "text": "Yo prefiero cuando las cosas se hagan poder contarlas y no estar hablando permanentemente en un bucle infinito que incomoda a todo el mundo, que incomoda a la propia gente a la que le tenemos que pedir su confianza y su voto y a la que lo que le tenemos que garantizar Vamos a encontrar la forma de tener una candidatura fuerte que sea capaz de hacer lo que la gente está ya haciendo en las acampadas, en las calles, organizando la huelga general, que es que como este sistema no funciona, pues hay que cambiarlo y que no puede haber más excusas que nos demoren en hacer las cosas que hay que hacer respecto a la crisis de vivienda o respecto al precio de los alimentos o respecto a los impuestos que tienen que pagar los superricos.",
+   "marks": [
+    [
+     0,
+     187.8
+    ],
+    [
+     65,
+     192.6
+    ],
+    [
+     141,
+     196.5
+    ],
+    [
+     196,
+     199.2
+    ],
+    [
+     243,
+     202.1
+    ],
+    [
+     309,
+     205.8
+    ],
+    [
+     372,
+     209.4
+    ],
+    [
+     448,
+     213.6
+    ],
+    [
+     513,
+     216.9
+    ],
+    [
+     571,
+     221.1
+    ],
+    [
+     632,
+     224.1
+    ],
+    [
+     697,
+     228.1
+    ]
+   ]
   },
   {
    "start": 229.51,
@@ -157,7 +457,29 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Pero, por ejemplo, en Cataluña, en las cuatro circunscripciones de Cataluña, ¿es factible pensar una candidatura en la que estén ustedes, Esquerra, los comunes, todos juntos? Parece imposible que Esquerra y los comunes estén en la misma candidatura."
+   "text": "Pero, por ejemplo, en Cataluña, en las cuatro circunscripciones de Cataluña, ¿es factible pensar una candidatura en la que estén ustedes, Esquerra, los comunes, todos juntos? Parece imposible que Esquerra y los comunes estén en la misma candidatura.",
+   "marks": [
+    [
+     0,
+     229.5
+    ],
+    [
+     81,
+     232.8
+    ],
+    [
+     161,
+     237.8
+    ],
+    [
+     175,
+     238.4
+    ],
+    [
+     231,
+     240.6
+    ]
+   ]
   },
   {
    "start": 241.65,
@@ -165,7 +487,57 @@
    "label": "SPEAKER_03",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "Lo que tenemos seguro es que Gabriel y yo vamos a hacer equipo para las elecciones generales y que, como parte de ese acuerdo también, nosotras vamos a contribuir a la candidatura de Esquerra. Eso es lo que yo puedo contar porque es lo que hemos trabajado Y creo que ha salido bien trabajarlo tranquila y silenciosamente y cuando está hecho poder contarlo, porque de lo contrario entramos en un bucle infinito en el que va a ser un titular que luego otro responde, que luego otro responde y así no llegamos a ninguna parte, de verdad, si sirviese para algo no tendría problema, creo que todo el mundo sabe lo que pienso, aunque no lo diga, y creo que la cosa aquí está de conseguir que las cosas salgan."
+   "text": "Lo que tenemos seguro es que Gabriel y yo vamos a hacer equipo para las elecciones generales y que, como parte de ese acuerdo también, nosotras vamos a contribuir a la candidatura de Esquerra. Eso es lo que yo puedo contar porque es lo que hemos trabajado Y creo que ha salido bien trabajarlo tranquila y silenciosamente y cuando está hecho poder contarlo, porque de lo contrario entramos en un bucle infinito en el que va a ser un titular que luego otro responde, que luego otro responde y así no llegamos a ninguna parte, de verdad, si sirviese para algo no tendría problema, creo que todo el mundo sabe lo que pienso, aunque no lo diga, y creo que la cosa aquí está de conseguir que las cosas salgan.",
+   "marks": [
+    [
+     0,
+     241.7
+    ],
+    [
+     56,
+     245.2
+    ],
+    [
+     126,
+     249.2
+    ],
+    [
+     193,
+     253.0
+    ],
+    [
+     200,
+     253.6
+    ],
+    [
+     258,
+     256.4
+    ],
+    [
+     335,
+     261.9
+    ],
+    [
+     410,
+     265.3
+    ],
+    [
+     465,
+     269.4
+    ],
+    [
+     527,
+     272.9
+    ],
+    [
+     595,
+     275.9
+    ],
+    [
+     651,
+     279.9
+    ]
+   ]
   },
   {
    "start": 282.19,
@@ -173,7 +545,13 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "La cuestión es que usted nos lo explique, señora Montero."
+   "text": "La cuestión es que usted nos lo explique, señora Montero.",
+   "marks": [
+    [
+     0,
+     282.2
+    ]
+   ]
   },
   {
    "start": 285.35,
@@ -181,7 +559,17 @@
    "label": "SPEAKER_03",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "Sí, sí, pero creo que ahora mismo, como te decía, lo más importante es que consigamos que las cosas pasen, que las cosas pasen."
+   "text": "Sí, sí, pero creo que ahora mismo, como te decía, lo más importante es que consigamos que las cosas pasen, que las cosas pasen.",
+   "marks": [
+    [
+     0,
+     285.4
+    ],
+    [
+     57,
+     289.0
+    ]
+   ]
   },
   {
    "start": 292.57,
@@ -189,7 +577,33 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Vale, en ese camino a que las cosas pasen, ¿ahora mismo hay conversaciones, negociaciones con los partidos que están en el Frente Amplio para que no haya candidaturas que se hagan la competencia, por lo menos en las circunscripciones que menos escaños reparten y en las que penalizaría muchísimo concurrir? Por supuesto, ¿hay negociaciones?"
+   "text": "Vale, en ese camino a que las cosas pasen, ¿ahora mismo hay conversaciones, negociaciones con los partidos que están en el Frente Amplio para que no haya candidaturas que se hagan la competencia, por lo menos en las circunscripciones que menos escaños reparten y en las que penalizaría muchísimo concurrir? Por supuesto, ¿hay negociaciones?",
+   "marks": [
+    [
+     0,
+     292.6
+    ],
+    [
+     60,
+     295.2
+    ],
+    [
+     142,
+     300.4
+    ],
+    [
+     209,
+     305.0
+    ],
+    [
+     286,
+     308.0
+    ],
+    [
+     307,
+     309.1
+    ]
+   ]
   },
   {
    "start": 310.17,
@@ -197,7 +611,21 @@
    "label": "SPEAKER_03",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "Sí, conversaciones hay siempre y yo creo que quedan ya poquitos días y que lo más importante es que cuidemos las cosas y tratemos de hacer que finalmente lleguen a buen puerto."
+   "text": "Sí, conversaciones hay siempre y yo creo que quedan ya poquitos días y que lo más importante es que cuidemos las cosas y tratemos de hacer que finalmente lleguen a buen puerto.",
+   "marks": [
+    [
+     0,
+     310.2
+    ],
+    [
+     69,
+     315.7
+    ],
+    [
+     130,
+     320.7
+    ]
+   ]
   },
   {
    "start": 323.45,
@@ -205,7 +633,17 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Es que nos decía Antonio Maillo anoche en Hora 25 que no hay, que no se está negociando."
+   "text": "Es que nos decía Antonio Maillo anoche en Hora 25 que no hay, que no se está negociando.",
+   "marks": [
+    [
+     0,
+     323.4
+    ],
+    [
+     57,
+     326.6
+    ]
+   ]
   },
   {
    "start": 331.88,
@@ -213,7 +651,41 @@
    "label": "SPEAKER_03",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "Bueno, a ver, yo creo que el hecho de que las cosas no se hagan como tú quieres no significa que no sean una buena idea o que no se estén haciendo con la mejor voluntad. Entonces, de verdad que yo creo que la gente está entendiendo lo que ocurre, que para mí el objetivo es encontrar una manera de establecer marcos de colaboración y marcos de cooperación entre fuerzas diferentes que nos permitan tener una candidatura fuerte y creo que vamos por el buen camino."
+   "text": "Bueno, a ver, yo creo que el hecho de que las cosas no se hagan como tú quieres no significa que no sean una buena idea o que no se estén haciendo con la mejor voluntad. Entonces, de verdad que yo creo que la gente está entendiendo lo que ocurre, que para mí el objetivo es encontrar una manera de establecer marcos de colaboración y marcos de cooperación entre fuerzas diferentes que nos permitan tener una candidatura fuerte y creo que vamos por el buen camino.",
+   "marks": [
+    [
+     0,
+     331.9
+    ],
+    [
+     52,
+     335.8
+    ],
+    [
+     109,
+     340.4
+    ],
+    [
+     170,
+     344.0
+    ],
+    [
+     235,
+     348.9
+    ],
+    [
+     298,
+     354.7
+    ],
+    [
+     385,
+     359.9
+    ],
+    [
+     451,
+     363.4
+    ]
+   ]
   },
   {
    "start": 376.58,
@@ -221,7 +693,13 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Irene Montero, muchas gracias."
+   "text": "Irene Montero, muchas gracias.",
+   "marks": [
+    [
+     0,
+     376.6
+    ]
+   ]
   },
   {
    "start": 378.72,
@@ -229,7 +707,17 @@
    "label": "SPEAKER_03",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "Gracias a ti Aimar, que tengas buen día. Adiós."
+   "text": "Gracias a ti Aimar, que tengas buen día. Adiós.",
+   "marks": [
+    [
+     0,
+     378.7
+    ],
+    [
+     41,
+     380.5
+    ]
+   ]
   }
  ]
 }

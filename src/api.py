@@ -32,6 +32,7 @@ from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "src"))  # -I leaves the script dir off sys.path
+from marks import time_at  # noqa: E402
 MADRID = ZoneInfo("Europe/Madrid")
 ROUNDS = 5
 LAUNCH = "2026-10-25"  # puzzle no. 1
@@ -39,12 +40,21 @@ DB_PATH = ROOT / "data" / "archivo.db"
 LOCK = threading.Lock()  # daily picks are written once; serialise that write
 
 
+FOLD = str.maketrans("áéíóúüàèìòùïçñÁÉÍÓÚÜÀÈÌÒÙÏÇÑ", "aeiouuaeiouicnaeiouuaeiouicn")
+
+
+def fold(s):
+    """Lower-case without accents, same length as the input (so positions map back)."""
+    return s.translate(FOLD).lower()
+
+
 def people():
     return json.loads((ROOT / "config" / "people.json").read_text(encoding="utf-8"))
 
 
-def connect():
-    db = sqlite3.connect(f"file:{DB_PATH}?mode=rw", uri=True, timeout=10)
+def connect(ro=False):
+    """Read-only unless the request must write (only the daily game's picks are ever written)."""
+    db = sqlite3.connect(f"file:{DB_PATH}?mode={'ro' if ro else 'rw'}", uri=True, timeout=10)
     db.row_factory = sqlite3.Row
     return db
 
@@ -131,7 +141,7 @@ class Handler(BaseHTTPRequestHandler):
         path = re.sub(r"^/discurso", "", u.path).rstrip("/")
         q = {k: v[0] for k, v in parse_qs(u.query).items()}
         try:
-            with connect() as db:
+            with connect(ro=path != "/api/daily") as db:
                 if path == "/api/stats":
                     return self.send(self.stats(db))
                 if path == "/api/search":
@@ -169,7 +179,7 @@ class Handler(BaseHTTPRequestHandler):
             return self.send({"error": "bad request"}, 400)
         if date > today():
             return self.send({"error": "future"}, 400)
-        with connect() as db:
+        with connect(ro=True) as db:
             row = db.execute("SELECT d.*, i.outlet, i.title, i.url, i.date AS item_date FROM daily d "
                              "JOIN items i ON i.id = d.item_id WHERE d.date=? AND d.n=?", (date, rnd)).fetchone()
         if not row:
@@ -194,7 +204,7 @@ class Handler(BaseHTTPRequestHandler):
             return self.send({"error": "bad request"}, 400)
         import ask  # imported lazily: the rest of the API works without a key
         ppl = {k: v for k, v in people().items() if v.get("kind") == "candidate"}
-        with connect() as db:
+        with connect(ro=True) as db:
             res, code = ask.answer(db, q, ppl, source_link)
         self.send(res, code)
 
@@ -300,16 +310,17 @@ class Handler(BaseHTTPRequestHandler):
         return {"per_person": per, "contradictions": n_contra, "candidates": candidates()}
 
     def search(self, db, q):
-        text = (q.get("q") or "").strip()
+        text = (q.get("q") or "").strip()[:200]
         limit = max(1, min(int(q.get("limit", 20)), 50))
         offset = max(0, int(q.get("offset", 0)))
-        where, args = ["t.person IS NOT NULL"], []
+        where, args = ([] if q.get("all") == "1" else ["t.person IS NOT NULL"]), []
         if text:
             # quote every term so user input can't use FTS operators; "…" keeps phrases
             phrases = re.findall(r'"([^"]+)"', text)
             rest = re.sub(r'"[^"]+"', " ", text)
             terms = ['"' + p.replace('"', "") + '"' for p in phrases] + \
                     ['"' + w.replace('"', "") + '"' for w in rest.split() if w]
+            terms = terms[:10]   # bounded query cost
             where.append("t.id IN (SELECT rowid FROM turns_fts WHERE turns_fts MATCH ?)")
             args.append(" ".join(terms))
         if q.get("person"):
@@ -318,14 +329,35 @@ class Handler(BaseHTTPRequestHandler):
             where.append("i.date >= ?"); args.append(q["from"])
         if q.get("to"):
             where.append("i.date <= ?"); args.append(q["to"])
-        sql = " FROM turns t JOIN items i ON i.id = t.item_id WHERE " + " AND ".join(where)
+        sql = " FROM turns t JOIN items i ON i.id = t.item_id WHERE " + (" AND ".join(where) or "1=1")
         total = db.execute("SELECT COUNT(*)" + sql, args).fetchone()[0]
+        hit = [p for p in re.findall(r'"([^"]+)"', text)] + re.sub(r'"[^"]+"', " ", text).split()
         rows = db.execute("SELECT t.*, i.date, i.outlet, i.title, i.url" + sql +
                           " ORDER BY i.date DESC, t.start LIMIT ? OFFSET ?", args + [limit, offset]).fetchall()
         return {"total": total, "results": [{
             "item_id": r["item_id"], "person": r["person"], "name": r["name"], "date": r["date"],
-            "outlet": r["outlet"], "title": r["title"], "start": r["start"], "text": r["text"],
-            "link": source_link(r["url"], r["start"]), "context": self.before(db, r)} for r in rows]}
+            "outlet": r["outlet"], "title": r["title"], "start": self.hit_time(r, hit), "text": r["text"],
+            "link": source_link(r["url"], self.hit_time(r, hit)), "context": self.before(db, r)} for r in rows]}
+
+    @staticmethod
+    def hit_time(r, terms):
+        """Second at which the first searched word is said (word marks), else the turn start."""
+        if not terms:
+            return r["start"]
+        folded = fold(r["text"])
+        # the whole query first, then the longest words ("autónomos" before "que")
+        pos = -1
+        for t in [" ".join(terms)] + sorted(terms, key=len, reverse=True):
+            pos = folded.find(fold(t))
+            if pos >= 0:
+                break
+        if pos < 0:
+            return r["start"]
+        try:
+            mk = json.loads(r["marks"] or "[]")
+        except (IndexError, KeyError, ValueError):
+            return r["start"]
+        return max(0, time_at(mk, pos, r["start"]) - 1)
 
     def before(self, db, r):
         """The turn just before a quote (usually the interviewer's question), for context.

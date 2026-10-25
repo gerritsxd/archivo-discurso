@@ -29,6 +29,9 @@ from collections import defaultdict
 from datetime import date, datetime, timezone
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from marks import time_at  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 SITE_NAME = "Archivo del discurso"
 SITE_SUB = "Lo que dicen en público los candidatos a las elecciones generales del 29 de noviembre de 2026"
@@ -165,7 +168,9 @@ def chunks(turn):
         out.append((buf_off, " ".join(buf)))
     res = []
     for o, t in out:
-        if o == 0:
+        if turn.get("marks"):   # word timestamps: exact
+            res.append((int(time_at(turn["marks"], o, start)), 0, t))
+        elif o == 0:
             res.append((int(start), 0, t))
         else:
             est = start + (end - start) * o / n
@@ -267,7 +272,7 @@ def load_items(folder, people):
 
 def page(root, title, body, active="", desc="", body_attrs=""):
     nav = [("index.html", "Inicio", "inicio"), ("juego.html", "Juego", "juego"), ("buscar.html", "Buscar", "buscar"),
-           ("analisis.html", "Análisis", "analisis"), ("como-funciona.html", "Cómo funciona", "como")]
+           ("analisis.html", "Análisis", "analisis"), ("datos.html", "Datos", "datos"), ("como-funciona.html", "Cómo funciona", "como")]
     links = "".join(
         f'<a href="{root}{h}"{" aria-current=page" if k == active else ""}>{esc(t)}</a>' for h, t, k in nav)
     full = f"{title} · {SITE_NAME}" if title != SITE_NAME else SITE_NAME
@@ -298,7 +303,7 @@ def page(root, title, body, active="", desc="", body_attrs=""):
 <footer class="foot">
   <div class="wrap">
     <p>{esc(SITE_SUB)}. Textos y marcas de tiempo; el audio y el vídeo están en la fuente original, enlazada en cada cita.</p>
-    <p><a href="https://github.com/gerritsxd/archivo-discurso">Código abierto en GitHub</a>. Datos bajo licencia CC BY 4.0. <a href="{root}privacidad.html">Sin cookies, sin analítica, sin rastreo</a>. Generado el {esc(GENERATED)}. <a href="{root}como-funciona.html#correcciones">Comunicar un error</a>.</p>
+    <p><a href="https://github.com/gerritsxd/archivo-discurso">Código abierto en GitHub</a>. <a href="{root}datos.html">Todos los datos, sin filtrar</a>, bajo licencia CC BY 4.0. <a href="{root}privacidad.html">Sin cookies, sin analítica, sin rastreo</a>. Generado el {esc(GENERATED)}. <a href="{root}como-funciona.html#correcciones">Comunicar un error</a>.</p>
   </div>
 </footer>
 </body>
@@ -412,6 +417,8 @@ def build(items_dir, people_path, out, vp_dir):
     write(out / "como-funciona.html", build_how(ctx, web))
     write(out / "juego.html", build_game(ctx))
     write(out / "analisis.html", build_analysis(ctx))
+    write(out / "datos.html", page("", "Datos", (web / "datos.html").read_text(encoding="utf-8"), "datos",
+                                   desc="Descarga la base de datos completa del archivo: todas las transcripciones, sin filtrar."))
     write(out / "privacidad.html", page("", "Privacidad y cookies",
                                         (web / "privacidad.html").read_text(encoding="utf-8"), "",
                                         desc="Sin cookies, sin analítica, sin registros de visitas."))
@@ -516,7 +523,7 @@ def build_search(ctx):
     kinds = "".join(f'<option value="{k}">{esc(v)}</option>' for k, v in KIND_ES.items())
     body = f"""
 <h1 class="ptitle">Buscar</h1>
-<p class="lede">Solo se buscan las palabras de candidatos identificados. Lo que dicen periodistas y hablantes sin identificar está en cada transcripción, pero no aquí.</p>
+<p class="lede">Por defecto se buscan las palabras de candidatos identificados. Marca la casilla para buscar también en lo que dicen periodistas y hablantes sin identificar.</p>
 <form id="sf" class="filters" role="search" action="buscar.html" method="get">
   <div class="frow q">
     <label for="q">Palabras</label>
@@ -527,6 +534,7 @@ def build_search(ctx):
   <div class="frow"><label for="hasta">Hasta</label><input id="hasta" name="hasta" type="date"></div>
   <div class="frow"><label for="medio">Medio</label><select id="medio" name="medio"><option value="">Todos</option>{media}</select></div>
   <div class="frow"><label for="tipo">Tipo</label><select id="tipo" name="tipo"><option value="">Todos</option>{kinds}</select></div>
+  <div class="frow chk"><label><input id="todo" name="todo" type="checkbox" value="1"> Incluir a periodistas y hablantes sin identificar</label></div>
   <div class="frow go"><button type="submit">Buscar</button></div>
 </form>
 <p id="status" class="status" aria-live="polite">Escribe una palabra o elige un candidato.</p>
@@ -556,14 +564,14 @@ def build_analysis(ctx):
 <h1 class="ptitle">Análisis</h1>
 <p class="lede">Promesas, cifras, ataques y posturas de cada candidato, sacados automáticamente de las transcripciones. Cada frase es una cita literal comprobada contra la transcripción y enlaza a la fuente.</p>
 <p class="note">Clasificación automática con un modelo de lenguaje (DeepSeek), sin revisión humana: puede equivocarse al etiquetar. Las «posibles contradicciones» las propone el modelo y las confirma una segunda comprobación independiente; lee siempre las dos citas completas en su fuente antes de sacar conclusiones.</p>
-<form id="askf" class="ask" onsubmit="return false">
+<form id="askf" class="ask">
   <label for="askq" class="kicker">Pregunta al archivo</label>
   <div class="search"><input id="askq" type="search" maxlength="300" autocomplete="off" placeholder="¿Qué ha prometido Feijóo sobre vivienda? ¿A quién insulta Abascal?"><button id="askb" type="submit">Preguntar</button></div>
   <p class="note">Responde un modelo de lenguaje (DeepSeek) usando solo las frases del archivo, que se muestran debajo con su fuente. Tu pregunta se envía a DeepSeek para interpretarla; no se guarda.</p>
   <div id="askout" class="askout" aria-live="polite" hidden></div>
 </form>
 <div class="tabs" role="group" aria-label="Qué mostrar">{tabh}</div>
-<form id="af" class="filters" role="search" onsubmit="return false">
+<form id="af" class="filters" role="search">
   <div class="frow"><label for="c">Candidato</label><select id="c"><option value="">Todos</option>{opts}</select></div>
   <div class="frow"><label for="t">Tema</label><select id="t"><option value="">Todos</option>{topics}</select></div>
   <div class="frow q"><label for="q">Contiene</label><input id="q" type="search" autocomplete="off" placeholder="Sánchez, vivienda, 20 %…"></div>

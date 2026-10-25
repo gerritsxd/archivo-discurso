@@ -14,7 +14,7 @@
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
   "voiceprint_threshold": 0.65,
-  "processed_at": "2026-10-25T20:11:50+00:00",
+  "processed_at": "2026-10-25T20:59:38+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -33,7 +33,89 @@
    "label": "SPEAKER_00",
    "person": "feijoo",
    "name": "Alberto Núñez Feijóo (PP)",
-   "text": "Cuando el gobierno dice, no, es que el señor Feijóo no va a cumplir las pensiones, la pregunta es, pero si las pensiones, ha dicho usted, que están saneadas, pero si las pensiones nadie las discute en España, porque a usted le preocupa por lo tanto tanto esta situación. Mi compromiso de que aseguro la actualización del IPC con las pensiones, por cierto, yo no voté nunca a favor de la congelación de las pensiones, el señor Sánchez era el diputado junto con Zapatero que congelaron las pensiones en nuestro país. La crisis de vivienda que ha generado este gobierno, después de ocho años, es la crisis social más importante que ha generado un presidente de gobierno. ¿Y por qué las comunidades autónomas que tienen competencia y que la mayoría están gobernadas por PP no han empezado a construir vivienda pública a Cholón? Para construir vivienda se necesita una ley que facilite las licencias. Si usted tiene una licencia durante un año, un año y medio, sin contestar, evidentemente usted no puede hacerla."
+   "text": "Cuando el gobierno dice, no, es que el señor Feijóo no va a cumplir las pensiones, la pregunta es, pero si las pensiones, ha dicho usted, que están saneadas, pero si las pensiones nadie las discute en España, porque a usted le preocupa por lo tanto tanto esta situación. Mi compromiso de que aseguro la actualización del IPC con las pensiones, por cierto, yo no voté nunca a favor de la congelación de las pensiones, el señor Sánchez era el diputado junto con Zapatero que congelaron las pensiones en nuestro país. La crisis de vivienda que ha generado este gobierno, después de ocho años, es la crisis social más importante que ha generado un presidente de gobierno. ¿Y por qué las comunidades autónomas que tienen competencia y que la mayoría están gobernadas por PP no han empezado a construir vivienda pública a Cholón? Para construir vivienda se necesita una ley que facilite las licencias. Si usted tiene una licencia durante un año, un año y medio, sin contestar, evidentemente usted no puede hacerla.",
+   "marks": [
+    [
+     0,
+     0.0
+    ],
+    [
+     58,
+     3.2
+    ],
+    [
+     125,
+     6.6
+    ],
+    [
+     198,
+     11.1
+    ],
+    [
+     260,
+     14.0
+    ],
+    [
+     271,
+     14.6
+    ],
+    [
+     333,
+     18.1
+    ],
+    [
+     399,
+     22.8
+    ],
+    [
+     469,
+     27.2
+    ],
+    [
+     515,
+     31.5
+    ],
+    [
+     541,
+     32.8
+    ],
+    [
+     610,
+     37.3
+    ],
+    [
+     668,
+     39.6
+    ],
+    [
+     679,
+     39.9
+    ],
+    [
+     762,
+     42.3
+    ],
+    [
+     824,
+     44.9
+    ],
+    [
+     829,
+     45.0
+    ],
+    [
+     896,
+     49.6
+    ],
+    [
+     905,
+     50.2
+    ],
+    [
+     971,
+     53.1
+    ]
+   ]
   }
  ]
 }

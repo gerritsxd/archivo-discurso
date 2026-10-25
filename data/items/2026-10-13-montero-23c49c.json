@@ -14,7 +14,7 @@
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
   "voiceprint_threshold": 0.65,
-  "processed_at": "2026-10-25T20:11:28+00:00",
+  "processed_at": "2026-10-25T20:59:16+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -40,7 +40,21 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Ahora vamos a incorporarle a nuestra mesa a Irene Montero, candidata de Podemos a la presidencia del Gobierno. Muy buenos días."
+   "text": "Ahora vamos a incorporarle a nuestra mesa a Irene Montero, candidata de Podemos a la presidencia del Gobierno. Muy buenos días.",
+   "marks": [
+    [
+     0,
+     0.0
+    ],
+    [
+     72,
+     3.3
+    ],
+    [
+     111,
+     4.9
+    ]
+   ]
   },
   {
    "start": 7.58,
@@ -48,7 +62,13 @@
    "label": "SPEAKER_01",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "¿Qué tal?"
+   "text": "¿Qué tal?",
+   "marks": [
+    [
+     0,
+     7.6
+    ]
+   ]
   },
   {
    "start": 8.18,
@@ -56,7 +76,37 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Buenos días, Silvia. A ver, candidata, le voy a pedir que sea didáctica y concisa porque hay mucho interés en saber qué es lo que está sucediendo en el espacio a la izquierda de la izquierda, pero para el ciudadano, nivel ciudadano, vamos a ver. ¿Usted qué ha pactado exactamente con Gabriel Rufián?"
+   "text": "Buenos días, Silvia. A ver, candidata, le voy a pedir que sea didáctica y concisa porque hay mucho interés en saber qué es lo que está sucediendo en el espacio a la izquierda de la izquierda, pero para el ciudadano, nivel ciudadano, vamos a ver. ¿Usted qué ha pactado exactamente con Gabriel Rufián?",
+   "marks": [
+    [
+     0,
+     8.2
+    ],
+    [
+     21,
+     9.3
+    ],
+    [
+     62,
+     11.5
+    ],
+    [
+     126,
+     16.6
+    ],
+    [
+     192,
+     20.4
+    ],
+    [
+     246,
+     23.9
+    ],
+    [
+     260,
+     24.5
+    ]
+   ]
   },
   {
    "start": 29.47,
@@ -64,7 +114,37 @@
    "label": "SPEAKER_01",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "Una colaboración para poder hacer equipo en las elecciones generales. Gabriel Rufián y yo vamos a hacer equipo en estas elecciones y eso es lo que hemos pactado. Algo que la gente esperaba, ¿no? Que colaborásemos, pues querían acuerdos, tenemos acuerdos."
+   "text": "Una colaboración para poder hacer equipo en las elecciones generales. Gabriel Rufián y yo vamos a hacer equipo en estas elecciones y eso es lo que hemos pactado. Algo que la gente esperaba, ¿no? Que colaborásemos, pues querían acuerdos, tenemos acuerdos.",
+   "marks": [
+    [
+     0,
+     29.5
+    ],
+    [
+     70,
+     33.0
+    ],
+    [
+     85,
+     33.8
+    ],
+    [
+     140,
+     37.8
+    ],
+    [
+     162,
+     39.0
+    ],
+    [
+     195,
+     40.5
+    ],
+    [
+     214,
+     41.4
+    ]
+   ]
   },
   {
    "start": 43.87,
@@ -72,7 +152,17 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "¿Y eso supone que va a haber candidatos de Podemos dentro de las listas de Esquerra Republicana de Cataluña?"
+   "text": "¿Y eso supone que va a haber candidatos de Podemos dentro de las listas de Esquerra Republicana de Cataluña?",
+   "marks": [
+    [
+     0,
+     43.9
+    ],
+    [
+     61,
+     47.8
+    ]
+   ]
   },
   {
    "start": 52.93,
@@ -80,7 +170,17 @@
    "label": "SPEAKER_01",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "Efectivamente, contribuiremos a la candidatura de Esquerra Republicana y haremos equipo, Gabriel y yo, en el conjunto del Estado."
+   "text": "Efectivamente, contribuiremos a la candidatura de Esquerra Republicana y haremos equipo, Gabriel y yo, en el conjunto del Estado.",
+   "marks": [
+    [
+     0,
+     52.9
+    ],
+    [
+     97,
+     58.1
+    ]
+   ]
   },
   {
    "start": 60.07,
@@ -88,7 +188,21 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Que habrá espectadores, candidata, que se estén preguntando, si han podido pactar con Gabriel Rufián en estos términos, ¿por qué no pudieron pactar con los comuns?"
+   "text": "Que habrá espectadores, candidata, que se estén preguntando, si han podido pactar con Gabriel Rufián en estos términos, ¿por qué no pudieron pactar con los comuns?",
+   "marks": [
+    [
+     0,
+     60.1
+    ],
+    [
+     82,
+     65.4
+    ],
+    [
+     152,
+     69.1
+    ]
+   ]
   },
   {
    "start": 72.92,
@@ -96,7 +210,49 @@
    "label": "SPEAKER_01",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "Para eso proponíamos unas primarias, porque como llevamos mucho tiempo buscando diferentes formas de encontrar acuerdos, pues al final las primarias y que decida la gente y que pueda también presentarse quien quiera, creemos y lo seguimos pensando. Votamos el 14 y el 15 en primarias.info y ahí en ese proceso se ha podido presentar quien ha querido y claro, hay que seguir buscando los acuerdos. Ya tenemos uno que yo creo que es bastante importante, que es este de hacer equipo Gabriel y yo y hay que seguir buscando acuerdos, claro."
+   "text": "Para eso proponíamos unas primarias, porque como llevamos mucho tiempo buscando diferentes formas de encontrar acuerdos, pues al final las primarias y que decida la gente y que pueda también presentarse quien quiera, creemos y lo seguimos pensando. Votamos el 14 y el 15 en primarias.info y ahí en ese proceso se ha podido presentar quien ha querido y claro, hay que seguir buscando los acuerdos. Ya tenemos uno que yo creo que es bastante importante, que es este de hacer equipo Gabriel y yo y hay que seguir buscando acuerdos, claro.",
+   "marks": [
+    [
+     0,
+     72.9
+    ],
+    [
+     91,
+     77.5
+    ],
+    [
+     162,
+     82.6
+    ],
+    [
+     230,
+     86.7
+    ],
+    [
+     249,
+     87.4
+    ],
+    [
+     291,
+     91.0
+    ],
+    [
+     352,
+     95.2
+    ],
+    [
+     397,
+     97.4
+    ],
+    [
+     419,
+     98.5
+    ],
+    [
+     488,
+     103.0
+    ]
+   ]
   },
   {
    "start": 105.72,
@@ -104,7 +260,13 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Pero para tomar esa decisión no hubo primarias."
+   "text": "Pero para tomar esa decisión no hubo primarias.",
+   "marks": [
+    [
+     0,
+     105.7
+    ]
+   ]
   },
   {
    "start": 111.05,
@@ -112,7 +274,13 @@
    "label": "SPEAKER_01",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "Esquerra ha hecho sus"
+   "text": "Esquerra ha hecho sus",
+   "marks": [
+    [
+     0,
+     111.0
+    ]
+   ]
   },
   {
    "start": 111.87,
@@ -120,7 +288,21 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "primarias y nosotras estamos haciendo las nuestras, sí. Pero, digo, todavía no conocemos el resultado antes de que anunciasen ustedes el pacto."
+   "text": "primarias y nosotras estamos haciendo las nuestras, sí. Pero, digo, todavía no conocemos el resultado antes de que anunciasen ustedes el pacto.",
+   "marks": [
+    [
+     0,
+     111.9
+    ],
+    [
+     56,
+     115.7
+    ],
+    [
+     79,
+     117.0
+    ]
+   ]
   },
   {
    "start": 121.93,
@@ -128,7 +310,17 @@
    "label": "SPEAKER_01",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "Por supuesto, y el resultado va a ser respetado, pero que sí que estamos haciendo esos procesos."
+   "text": "Por supuesto, y el resultado va a ser respetado, pero que sí que estamos haciendo esos procesos.",
+   "marks": [
+    [
+     0,
+     121.9
+    ],
+    [
+     61,
+     125.5
+    ]
+   ]
   },
   {
    "start": 128.55,
@@ -136,7 +328,21 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "De momento la única lista es la suya, ¿no? La que se presenta a las primarias en Podemos."
+   "text": "De momento la única lista es la suya, ¿no? La que se presenta a las primarias en Podemos.",
+   "marks": [
+    [
+     0,
+     128.6
+    ],
+    [
+     43,
+     130.5
+    ],
+    [
+     53,
+     131.0
+    ]
+   ]
   },
   {
    "start": 134.32,
@@ -144,7 +350,29 @@
    "label": "SPEAKER_01",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "No, no, hay muchos candidatos y candidatas que se están presentando como independientes, otros muchos, por supuesto, en listas, Y en eso consisten unas primarias, en que hay gente que forma listas, otras que no. Eso ha pasado siempre y eso ha pasado también en estas."
+   "text": "No, no, hay muchos candidatos y candidatas que se están presentando como independientes, otros muchos, por supuesto, en listas, Y en eso consisten unas primarias, en que hay gente que forma listas, otras que no. Eso ha pasado siempre y eso ha pasado también en estas.",
+   "marks": [
+    [
+     0,
+     134.3
+    ],
+    [
+     73,
+     137.9
+    ],
+    [
+     152,
+     142.9
+    ],
+    [
+     212,
+     145.6
+    ],
+    [
+     216,
+     146.1
+    ]
+   ]
   },
   {
    "start": 150.06,
@@ -152,7 +380,17 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Pero entonces, ¿cómo anuncia usted un acuerdo con Rufián sin haber esperado el resultado de las primarias en Podemos?"
+   "text": "Pero entonces, ¿cómo anuncia usted un acuerdo con Rufián sin haber esperado el resultado de las primarias en Podemos?",
+   "marks": [
+    [
+     0,
+     150.1
+    ],
+    [
+     76,
+     155.0
+    ]
+   ]
   },
   {
    "start": 159.3,
@@ -160,7 +398,129 @@
    "label": "SPEAKER_01",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "Pues porque los tiempos son muy cortos y lo que estamos intentando es responder a lo que la gente nos pide. Los partidos también buscan esos acuerdos. Entonces, estamos haciendo lo que la gente espera, que es llegar a acuerdos. para poder maximizar las posibilidades de tener una candidatura que represente al conjunto de las personas que quieren que acabe el negocio de la vivienda o que baje el precio de los alimentos o que hagamos políticas que cuiden el planeta. Necesitamos esos acuerdos y eso es perfectamente compatible con que haya procedimientos democráticos donde se elige a los candidatos y a las candidatas. Lo que salga de esas primarias será lo que forme parte de ese acuerdo. Lo que tampoco vale es criticar todo lo que pase. Si no hay acuerdo, porque no hay acuerdo. Si hay acuerdo, no nos parece bien ese acuerdo. Yo creo que hay que tener un poco de, también de, no sé, de entender que estamos en un momento, que lo decíais antes en la mesa, de reorganización del espacio y que lo importante es que consigamos tener acuerdos que la gente está esperando y que nos permitan tener una candidatura que represente a la mayoría de la gente, que quiere que pasen cosas y que no siempre, por cualquier excusa al final, pues terminemos quedándonos como estamos con un sistema que no funciona. Creo que vamos por el buen camino."
+   "text": "Pues porque los tiempos son muy cortos y lo que estamos intentando es responder a lo que la gente nos pide. Los partidos también buscan esos acuerdos. Entonces, estamos haciendo lo que la gente espera, que es llegar a acuerdos. para poder maximizar las posibilidades de tener una candidatura que represente al conjunto de las personas que quieren que acabe el negocio de la vivienda o que baje el precio de los alimentos o que hagamos políticas que cuiden el planeta. Necesitamos esos acuerdos y eso es perfectamente compatible con que haya procedimientos democráticos donde se elige a los candidatos y a las candidatas. Lo que salga de esas primarias será lo que forme parte de ese acuerdo. Lo que tampoco vale es criticar todo lo que pase. Si no hay acuerdo, porque no hay acuerdo. Si hay acuerdo, no nos parece bien ese acuerdo. Yo creo que hay que tener un poco de, también de, no sé, de entender que estamos en un momento, que lo decíais antes en la mesa, de reorganización del espacio y que lo importante es que consigamos tener acuerdos que la gente está esperando y que nos permitan tener una candidatura que represente a la mayoría de la gente, que quiere que pasen cosas y que no siempre, por cualquier excusa al final, pues terminemos quedándonos como estamos con un sistema que no funciona. Creo que vamos por el buen camino.",
+   "marks": [
+    [
+     0,
+     159.3
+    ],
+    [
+     67,
+     163.0
+    ],
+    [
+     108,
+     165.3
+    ],
+    [
+     129,
+     166.2
+    ],
+    [
+     151,
+     168.3
+    ],
+    [
+     206,
+     171.5
+    ],
+    [
+     228,
+     173.1
+    ],
+    [
+     280,
+     176.1
+    ],
+    [
+     357,
+     180.2
+    ],
+    [
+     411,
+     182.0
+    ],
+    [
+     468,
+     185.9
+    ],
+    [
+     494,
+     187.2
+    ],
+    [
+     578,
+     191.6
+    ],
+    [
+     621,
+     193.4
+    ],
+    [
+     637,
+     194.0
+    ],
+    [
+     692,
+     197.1
+    ],
+    [
+     699,
+     197.4
+    ],
+    [
+     742,
+     200.1
+    ],
+    [
+     761,
+     200.9
+    ],
+    [
+     784,
+     201.8
+    ],
+    [
+     823,
+     203.6
+    ],
+    [
+     832,
+     204.0
+    ],
+    [
+     882,
+     206.7
+    ],
+    [
+     943,
+     209.6
+    ],
+    [
+     1011,
+     213.6
+    ],
+    [
+     1078,
+     217.1
+    ],
+    [
+     1147,
+     219.7
+    ],
+    [
+     1213,
+     223.0
+    ],
+    [
+     1290,
+     227.1
+    ],
+    [
+     1303,
+     227.9
+    ]
+   ]
   },
   {
    "start": 230.7,
@@ -168,7 +528,25 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Entonces, dentro de ese acuerdo, sin esperar a primarias, nos confirma que va a haber candidatos de Podemos en las listas de Esquerra Republicana. ¿Cuántos? Sí."
+   "text": "Entonces, dentro de ese acuerdo, sin esperar a primarias, nos confirma que va a haber candidatos de Podemos en las listas de Esquerra Republicana. ¿Cuántos? Sí.",
+   "marks": [
+    [
+     0,
+     230.7
+    ],
+    [
+     75,
+     234.8
+    ],
+    [
+     147,
+     239.1
+    ],
+    [
+     157,
+     240.2
+    ]
+   ]
   },
   {
    "start": 242.64,
@@ -176,7 +554,21 @@
    "label": "SPEAKER_01",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "Pues habrá diferentes en diferentes posiciones. En todas las listas, en las cuatro circunscripciones."
+   "text": "Pues habrá diferentes en diferentes posiciones. En todas las listas, en las cuatro circunscripciones.",
+   "marks": [
+    [
+     0,
+     242.6
+    ],
+    [
+     48,
+     245.9
+    ],
+    [
+     76,
+     247.7
+    ]
+   ]
   },
   {
    "start": 250.74,
@@ -184,7 +576,21 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Usted, si piensa que Podemos puede tener un buen resultado... Depende del resultado que se obtenga,"
+   "text": "Usted, si piensa que Podemos puede tener un buen resultado... Depende del resultado que se obtenga,",
+   "marks": [
+    [
+     0,
+     250.7
+    ],
+    [
+     62,
+     253.2
+    ],
+    [
+     74,
+     253.4
+    ]
+   ]
   },
   {
    "start": 254.7,
@@ -192,7 +598,13 @@
    "label": "SPEAKER_01",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "habrá más o menos diputados."
+   "text": "habrá más o menos diputados.",
+   "marks": [
+    [
+     0,
+     254.7
+    ]
+   ]
   },
   {
    "start": 256.52,
@@ -200,7 +612,49 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "No, no, discúlpeme señora Montero, que es que quería escuchar la respuesta hasta el final. Pero de entrada, ¿en qué consistiría, digamos, los mimbres del pacto con Esquerra Republicana de Cataluña? Oiga, señor Rufián, si conseguimos tantos escaños, si se consiguen tantos escaños, yo me quedo con X. Si se consiguen más, yo me quedo con X más uno. Más o menos, ¿en qué consistiría el pacto, señora Montero? Es mucho más sencillo."
+   "text": "No, no, discúlpeme señora Montero, que es que quería escuchar la respuesta hasta el final. Pero de entrada, ¿en qué consistiría, digamos, los mimbres del pacto con Esquerra Republicana de Cataluña? Oiga, señor Rufián, si conseguimos tantos escaños, si se consiguen tantos escaños, yo me quedo con X. Si se consiguen más, yo me quedo con X más uno. Más o menos, ¿en qué consistiría el pacto, señora Montero? Es mucho más sencillo.",
+   "marks": [
+    [
+     0,
+     256.5
+    ],
+    [
+     75,
+     260.3
+    ],
+    [
+     91,
+     261.4
+    ],
+    [
+     150,
+     264.6
+    ],
+    [
+     198,
+     266.9
+    ],
+    [
+     233,
+     268.9
+    ],
+    [
+     300,
+     272.3
+    ],
+    [
+     348,
+     275.1
+    ],
+    [
+     352,
+     275.5
+    ],
+    [
+     407,
+     279.0
+    ]
+   ]
   },
   {
    "start": 280.74,
@@ -208,7 +662,49 @@
    "label": "SPEAKER_01",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "Pero Podemos va a contribuir a la candidatura de Esquerra Republicana en Cataluña y Gabriel Rufián es nuestro candidato en Cataluña y Gabriel Rufián y yo vamos a hacer equipo en el conjunto del Estado para poder representar a un montón de gente a la que le puede gustar Gabriel Rufián, le puede gustar Podemos y quieren que lleguemos a marcos de colaboración y de entendimiento. Y eso hemos buscado con mucha paciencia y eso tenemos ahora mismo. Y ya te digo, creo que todavía faltan más acuerdos pero que vamos por el buen camino."
+   "text": "Pero Podemos va a contribuir a la candidatura de Esquerra Republicana en Cataluña y Gabriel Rufián es nuestro candidato en Cataluña y Gabriel Rufián y yo vamos a hacer equipo en el conjunto del Estado para poder representar a un montón de gente a la que le puede gustar Gabriel Rufián, le puede gustar Podemos y quieren que lleguemos a marcos de colaboración y de entendimiento. Y eso hemos buscado con mucha paciencia y eso tenemos ahora mismo. Y ya te digo, creo que todavía faltan más acuerdos pero que vamos por el buen camino.",
+   "marks": [
+    [
+     0,
+     280.7
+    ],
+    [
+     73,
+     284.8
+    ],
+    [
+     149,
+     289.0
+    ],
+    [
+     206,
+     292.0
+    ],
+    [
+     263,
+     295.0
+    ],
+    [
+     336,
+     299.5
+    ],
+    [
+     379,
+     301.3
+    ],
+    [
+     409,
+     303.0
+    ],
+    [
+     446,
+     305.3
+    ],
+    [
+     469,
+     306.4
+    ]
+   ]
   },
   {
    "start": 309.98,
@@ -216,7 +712,29 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Nos confirma que habrá candidatos entonces de Podemos en la lista de Esquerra Republicana de Cataluña. Por el otro lado del pacto, ¿cuál es la implicación de Esquerra Republicana de Cataluña en el resto de España dentro de Podemos?"
+   "text": "Nos confirma que habrá candidatos entonces de Podemos en la lista de Esquerra Republicana de Cataluña. Por el otro lado del pacto, ¿cuál es la implicación de Esquerra Republicana de Cataluña en el resto de España dentro de Podemos?",
+   "marks": [
+    [
+     0,
+     310.0
+    ],
+    [
+     69,
+     313.1
+    ],
+    [
+     103,
+     314.7
+    ],
+    [
+     140,
+     317.4
+    ],
+    [
+     213,
+     321.1
+    ]
+   ]
   },
   {
    "start": 325.34,
@@ -224,7 +742,37 @@
    "label": "SPEAKER_01",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "Es que Esquerra es una fuerza catalana. Se presentan en Cataluña, nosotras tenemos a Gabriel como candidato en Cataluña y Gabriel va a hacer campaña y va a hacer equipo con nosotras en el conjunto del Estado. Y ahora equipo con nosotras, con Podemos, en el resto del Estado, en España."
+   "text": "Es que Esquerra es una fuerza catalana. Se presentan en Cataluña, nosotras tenemos a Gabriel como candidato en Cataluña y Gabriel va a hacer campaña y va a hacer equipo con nosotras en el conjunto del Estado. Y ahora equipo con nosotras, con Podemos, en el resto del Estado, en España.",
+   "marks": [
+    [
+     0,
+     325.3
+    ],
+    [
+     40,
+     327.7
+    ],
+    [
+     75,
+     330.6
+    ],
+    [
+     141,
+     334.4
+    ],
+    [
+     201,
+     338.5
+    ],
+    [
+     209,
+     343.5
+    ],
+    [
+     267,
+     350.3
+    ]
+   ]
   },
   {
    "start": 352.33,
@@ -232,7 +780,17 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Si Podemos cree que puede mantener un buen resultado en las elecciones generales, ¿por qué mantienen abiertas las negociaciones con Frente Amplio, señora Montero?"
+   "text": "Si Podemos cree que puede mantener un buen resultado en las elecciones generales, ¿por qué mantienen abiertas las negociaciones con Frente Amplio, señora Montero?",
+   "marks": [
+    [
+     0,
+     352.3
+    ],
+    [
+     71,
+     356.2
+    ]
+   ]
   },
   {
    "start": 363.33,
@@ -240,7 +798,73 @@
    "label": "SPEAKER_01",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "Porque la gente está pidiendo que busquemos vías de acuerdo y porque cuantas más seamos, mejor vamos a poder representar a esa mayoría. Podemos ha buscado acuerdos en todo momento y en todas las elecciones y eso vamos a seguir haciendo. Es que parece como que es sospechoso que se busquen acuerdos. Yo creo que eso es lo que tiene que pasar en los procesos electorales, que busquemos acuerdos entre diferentes y que trabajemos juntas para tener los mejores resultados y sobre todo a un montón de gente en el Congreso ¿Qué pasa con los acuerdos? ¿Cómo puede jugar un rol en el conjunto del Estado? Y eso es la colaboración que estamos construyendo. Hasta ayer era lo que todo el mundo quería."
+   "text": "Porque la gente está pidiendo que busquemos vías de acuerdo y porque cuantas más seamos, mejor vamos a poder representar a esa mayoría. Podemos ha buscado acuerdos en todo momento y en todas las elecciones y eso vamos a seguir haciendo. Es que parece como que es sospechoso que se busquen acuerdos. Yo creo que eso es lo que tiene que pasar en los procesos electorales, que busquemos acuerdos entre diferentes y que trabajemos juntas para tener los mejores resultados y sobre todo a un montón de gente en el Congreso ¿Qué pasa con los acuerdos? ¿Cómo puede jugar un rol en el conjunto del Estado? Y eso es la colaboración que estamos construyendo. Hasta ayer era lo que todo el mundo quería.",
+   "marks": [
+    [
+     0,
+     363.3
+    ],
+    [
+     69,
+     366.5
+    ],
+    [
+     136,
+     372.0
+    ],
+    [
+     144,
+     372.6
+    ],
+    [
+     208,
+     377.3
+    ],
+    [
+     237,
+     378.7
+    ],
+    [
+     274,
+     381.4
+    ],
+    [
+     299,
+     382.7
+    ],
+    [
+     331,
+     384.5
+    ],
+    [
+     412,
+     389.3
+    ],
+    [
+     483,
+     393.6
+    ],
+    [
+     545,
+     425.2
+    ],
+    [
+     597,
+     428.3
+    ],
+    [
+     603,
+     428.6
+    ],
+    [
+     648,
+     432.9
+    ],
+    [
+     675,
+     434.9
+    ]
+   ]
   },
   {
    "start": 436.15,
@@ -248,7 +872,13 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Ahora de repente a lo"
+   "text": "Ahora de repente a lo",
+   "marks": [
+    [
+     0,
+     436.1
+    ]
+   ]
   },
   {
    "start": 437.43,
@@ -256,7 +886,13 @@
    "label": "SPEAKER_01",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "mejor como..."
+   "text": "mejor como...",
+   "marks": [
+    [
+     0,
+     437.4
+    ]
+   ]
   },
   {
    "start": 439.81,
@@ -264,7 +900,33 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Yo, señora Montero, es que lo que no alcanza a comprender es por qué los mismos términos y condiciones, por qué han podido pactar con Gabriel Rufián en Cataluña y con los comunes no. En los mismos términos y condiciones. ¿Qué es lo que no alcanza a comprender?"
+   "text": "Yo, señora Montero, es que lo que no alcanza a comprender es por qué los mismos términos y condiciones, por qué han podido pactar con Gabriel Rufián en Cataluña y con los comunes no. En los mismos términos y condiciones. ¿Qué es lo que no alcanza a comprender?",
+   "marks": [
+    [
+     0,
+     439.8
+    ],
+    [
+     61,
+     443.3
+    ],
+    [
+     130,
+     447.9
+    ],
+    [
+     183,
+     451.5
+    ],
+    [
+     190,
+     452.1
+    ],
+    [
+     221,
+     453.2
+    ]
+   ]
   },
   {
    "start": 458.3,
@@ -272,7 +934,53 @@
    "label": "SPEAKER_01",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "Pues porque yo creo que con Esquerra y con Gabriel eso es lo que está pidiendo la gente y porque hemos sido capaces de establecer ese marco de cooperación y luego es que no sé cuál es el problema de que lleguemos a un acuerdo y a una colaboración y eso no quiere decir que no se pueda llegar a acuerdos con más gente. Llevamos proponiendo que haya primarias, proponiendo que todo el mundo pueda presentarse, proponiendo que la gente pueda elegir a las personas que mejor le representan, O sea que la voluntad de acuerdo es total y cuando se llega a un acuerdo se anuncia y eso no quiere decir que luego no puedan llegar más acuerdos."
+   "text": "Pues porque yo creo que con Esquerra y con Gabriel eso es lo que está pidiendo la gente y porque hemos sido capaces de establecer ese marco de cooperación y luego es que no sé cuál es el problema de que lleguemos a un acuerdo y a una colaboración y eso no quiere decir que no se pueda llegar a acuerdos con más gente. Llevamos proponiendo que haya primarias, proponiendo que todo el mundo pueda presentarse, proponiendo que la gente pueda elegir a las personas que mejor le representan, O sea que la voluntad de acuerdo es total y cuando se llega a un acuerdo se anuncia y eso no quiere decir que luego no puedan llegar más acuerdos.",
+   "marks": [
+    [
+     0,
+     458.3
+    ],
+    [
+     58,
+     462.9
+    ],
+    [
+     119,
+     465.9
+    ],
+    [
+     181,
+     468.8
+    ],
+    [
+     234,
+     472.9
+    ],
+    [
+     294,
+     475.6
+    ],
+    [
+     318,
+     476.7
+    ],
+    [
+     380,
+     479.9
+    ],
+    [
+     452,
+     483.3
+    ],
+    [
+     520,
+     485.9
+    ],
+    [
+     573,
+     488.6
+    ]
+   ]
   },
   {
    "start": 492.06,
@@ -280,7 +988,13 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "¿Intentaron un acuerdo con los comunes que no salió, señora Montero?"
+   "text": "¿Intentaron un acuerdo con los comunes que no salió, señora Montero?",
+   "marks": [
+    [
+     0,
+     492.1
+    ]
+   ]
   },
   {
    "start": 498.73,
@@ -288,7 +1002,49 @@
    "label": "SPEAKER_01",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "Yo creo que las cosas cuando salen hay que contarlas y si no es mejor no contribuir al bucle infinito. Lo que estamos haciendo creo que tiene sentido, que es trabajar con aquellos liderazgos que son fuertes, aquellos liderazgos que la gente quiere ver unidos, Podemos, aquellas fuerzas políticas que siendo diferentes podemos tener objetivos compartidos y que podemos trabajar y hacer cooperaciones excepcionales en un momento que es excepcional y creo que eso es lo que nos está pidiendo la gente y que es el camino que tenemos que seguir, lo que ya estamos haciendo y lo que tenemos que seguir haciendo en estos días."
+   "text": "Yo creo que las cosas cuando salen hay que contarlas y si no es mejor no contribuir al bucle infinito. Lo que estamos haciendo creo que tiene sentido, que es trabajar con aquellos liderazgos que son fuertes, aquellos liderazgos que la gente quiere ver unidos, Podemos, aquellas fuerzas políticas que siendo diferentes podemos tener objetivos compartidos y que podemos trabajar y hacer cooperaciones excepcionales en un momento que es excepcional y creo que eso es lo que nos está pidiendo la gente y que es el camino que tenemos que seguir, lo que ya estamos haciendo y lo que tenemos que seguir haciendo en estos días.",
+   "marks": [
+    [
+     0,
+     498.7
+    ],
+    [
+     58,
+     501.7
+    ],
+    [
+     103,
+     504.7
+    ],
+    [
+     127,
+     505.9
+    ],
+    [
+     199,
+     510.6
+    ],
+    [
+     286,
+     514.2
+    ],
+    [
+     377,
+     518.9
+    ],
+    [
+     453,
+     524.4
+    ],
+    [
+     504,
+     526.0
+    ],
+    [
+     568,
+     528.8
+    ]
+   ]
   },
   {
    "start": 531.23,
@@ -296,7 +1052,13 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "¿Podemos se va a integrar en Frente Amplio?"
+   "text": "¿Podemos se va a integrar en Frente Amplio?",
+   "marks": [
+    [
+     0,
+     531.2
+    ]
+   ]
   },
   {
    "start": 535.33,
@@ -304,7 +1066,45 @@
    "label": "SPEAKER_01",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "No. ¿No? No, no, nosotras tenemos un acuerdo con Esquerra Republicana de Cataluña y vamos a trabajar, a hacer equipo con Gabriel y eso está abierto a que se incorpore quien quiera, pero digamos que las cosas no se hagan como algunas personas querrían, no quiere decir que no estén hechas con la mejor voluntad o que se hagan para conseguir los mejores resultados y que sean buenas al final para la gente."
+   "text": "No. ¿No? No, no, nosotras tenemos un acuerdo con Esquerra Republicana de Cataluña y vamos a trabajar, a hacer equipo con Gabriel y eso está abierto a que se incorpore quien quiera, pero digamos que las cosas no se hagan como algunas personas querrían, no quiere decir que no estén hechas con la mejor voluntad o que se hagan para conseguir los mejores resultados y que sean buenas al final para la gente.",
+   "marks": [
+    [
+     0,
+     535.3
+    ],
+    [
+     4,
+     536.7
+    ],
+    [
+     9,
+     537.2
+    ],
+    [
+     73,
+     544.5
+    ],
+    [
+     135,
+     548.4
+    ],
+    [
+     202,
+     553.0
+    ],
+    [
+     272,
+     556.9
+    ],
+    [
+     330,
+     561.4
+    ],
+    [
+     398,
+     564.5
+    ]
+   ]
   },
   {
    "start": 564.73,
@@ -312,7 +1112,17 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Entonces, la negociación que mantienen desde Podemos con Frente Amplio, ¿qué objetivo tiene?"
+   "text": "Entonces, la negociación que mantienen desde Podemos con Frente Amplio, ¿qué objetivo tiene?",
+   "marks": [
+    [
+     0,
+     564.7
+    ],
+    [
+     86,
+     569.8
+    ]
+   ]
   },
   {
    "start": 574.04,
@@ -320,7 +1130,21 @@
    "label": "SPEAKER_01",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "Nosotras vamos a hablar siempre con todo el mundo y el objetivo es que las diferentes fuerzas políticas tenemos que poder hablar y tenemos que poder buscar formas de entendimiento de las formas que consigamos."
+   "text": "Nosotras vamos a hablar siempre con todo el mundo y el objetivo es que las diferentes fuerzas políticas tenemos que poder hablar y tenemos que poder buscar formas de entendimiento de las formas que consigamos.",
+   "marks": [
+    [
+     0,
+     574.0
+    ],
+    [
+     64,
+     576.4
+    ],
+    [
+     139,
+     580.0
+    ]
+   ]
   },
   {
    "start": 584.56,
@@ -328,7 +1152,17 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "¿Y cuál sería la mejor forma de entendimiento en su opinión, señora Montero?"
+   "text": "¿Y cuál sería la mejor forma de entendimiento en su opinión, señora Montero?",
+   "marks": [
+    [
+     0,
+     584.6
+    ],
+    [
+     68,
+     587.7
+    ]
+   ]
   },
   {
    "start": 589.94,
@@ -336,7 +1170,37 @@
    "label": "SPEAKER_01",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "Las primarias, que es lo que llevamos proponiendo todos estos días y que, insisto, se vota los días 14 y 15 en primarias.info, 14 y 15 de octubre, que es ya mañana y pasado, se puede votar. Esa es la forma que nosotras creemos que es la mejor de llegar a acuerdos, sobre todo cuando se lleva mucho tiempo en un bucle infinito que no lleva a ninguna parte."
+   "text": "Las primarias, que es lo que llevamos proponiendo todos estos días y que, insisto, se vota los días 14 y 15 en primarias.info, 14 y 15 de octubre, que es ya mañana y pasado, se puede votar. Esa es la forma que nosotras creemos que es la mejor de llegar a acuerdos, sobre todo cuando se lleva mucho tiempo en un bucle infinito que no lleva a ninguna parte.",
+   "marks": [
+    [
+     0,
+     589.9
+    ],
+    [
+     69,
+     593.1
+    ],
+    [
+     127,
+     596.7
+    ],
+    [
+     177,
+     599.7
+    ],
+    [
+     190,
+     600.3
+    ],
+    [
+     237,
+     602.0
+    ],
+    [
+     305,
+     604.6
+    ]
+   ]
   },
   {
    "start": 608.18,
@@ -344,7 +1208,41 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Claro, pero es que es ahí donde volvemos al bucle, porque no le han hecho falta primarias para pactar con Gabriel Rufián. Es que por eso digo que es que no entiendo, por eso no alcanzo a comprender y creo que hablo por todos los compañeros que tengo en la mesa, es decir, si usted dice, oiga, mira, primero hacemos primarias y luego ya decidimos, lo entiendo, pero el problema es que pactó con Rufián antes de esperar a hacer primarias."
+   "text": "Claro, pero es que es ahí donde volvemos al bucle, porque no le han hecho falta primarias para pactar con Gabriel Rufián. Es que por eso digo que es que no entiendo, por eso no alcanzo a comprender y creo que hablo por todos los compañeros que tengo en la mesa, es decir, si usted dice, oiga, mira, primero hacemos primarias y luego ya decidimos, lo entiendo, pero el problema es que pactó con Rufián antes de esperar a hacer primarias.",
+   "marks": [
+    [
+     0,
+     608.2
+    ],
+    [
+     61,
+     610.3
+    ],
+    [
+     122,
+     613.2
+    ],
+    [
+     129,
+     613.6
+    ],
+    [
+     185,
+     617.8
+    ],
+    [
+     250,
+     620.1
+    ],
+    [
+     315,
+     622.3
+    ],
+    [
+     384,
+     625.5
+    ]
+   ]
   },
   {
    "start": 631.74,
@@ -352,7 +1250,49 @@
    "label": "SPEAKER_01",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "Yo creo de verdad que la gente quiere acuerdos, que la gente quiere que nos podamos entender, si ahora resulta que no, pues será la gente la que juzgue, Silvia, por suerte hay unas elecciones muy pronto y será la gente la que decida y la que ponga a cada uno y a cada una en su sitio, yo me voy a dejar la piel de verdad porque haya una candidatura fuerte que represente a la gente que quiere que baje el precio de los alquileres, que quiere que las cosas cambien, que sabe que este sistema como está no funciona y que sabe que tenemos que cooperar entre todos."
+   "text": "Yo creo de verdad que la gente quiere acuerdos, que la gente quiere que nos podamos entender, si ahora resulta que no, pues será la gente la que juzgue, Silvia, por suerte hay unas elecciones muy pronto y será la gente la que decida y la que ponga a cada uno y a cada una en su sitio, yo me voy a dejar la piel de verdad porque haya una candidatura fuerte que represente a la gente que quiere que baje el precio de los alquileres, que quiere que las cosas cambien, que sabe que este sistema como está no funciona y que sabe que tenemos que cooperar entre todos.",
+   "marks": [
+    [
+     0,
+     631.7
+    ],
+    [
+     61,
+     635.0
+    ],
+    [
+     129,
+     639.9
+    ],
+    [
+     196,
+     642.9
+    ],
+    [
+     248,
+     645.8
+    ],
+    [
+     291,
+     647.8
+    ],
+    [
+     356,
+     650.3
+    ],
+    [
+     415,
+     653.7
+    ],
+    [
+     483,
+     657.2
+    ],
+    [
+     549,
+     660.5
+    ]
+   ]
   },
   {
    "start": 690.74,
@@ -360,7 +1300,25 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Me guste más o menos. ¿Usted no ve la contradicción? Que la puede defender, pero no ve la contradicción."
+   "text": "Me guste más o menos. ¿Usted no ve la contradicción? Que la puede defender, pero no ve la contradicción.",
+   "marks": [
+    [
+     0,
+     690.7
+    ],
+    [
+     22,
+     692.2
+    ],
+    [
+     53,
+     695.5
+    ],
+    [
+     60,
+     696.2
+    ]
+   ]
   },
   {
    "start": 698.97,
@@ -368,7 +1326,21 @@
    "label": "SPEAKER_01",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "Yo creo que la gente está pidiendo acuerdos y que esos acuerdos pasan porque entre diferentes busquemos puntos en común y busquemos formas de cooperación y eso es lo que estamos haciendo."
+   "text": "Yo creo que la gente está pidiendo acuerdos y que esos acuerdos pasan porque entre diferentes busquemos puntos en común y busquemos formas de cooperación y eso es lo que estamos haciendo.",
+   "marks": [
+    [
+     0,
+     699.0
+    ],
+    [
+     64,
+     704.2
+    ],
+    [
+     142,
+     709.4
+    ]
+   ]
   },
   {
    "start": 712.57,
@@ -376,7 +1348,17 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Entonces, si Frente Amplio no accede a primarias, ¿Podemos concurre por separado con Esquerra Republicana?"
+   "text": "Entonces, si Frente Amplio no accede a primarias, ¿Podemos concurre por separado con Esquerra Republicana?",
+   "marks": [
+    [
+     0,
+     712.6
+    ],
+    [
+     81,
+     718.0
+    ]
+   ]
   },
   {
    "start": 723.13,
@@ -384,7 +1366,17 @@
    "label": "SPEAKER_01",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "Vamos a seguir hablando y vamos a seguir intentando todas las formas de colaboración, Silvia."
+   "text": "Vamos a seguir hablando y vamos a seguir intentando todas las formas de colaboración, Silvia.",
+   "marks": [
+    [
+     0,
+     723.1
+    ],
+    [
+     69,
+     726.5
+    ]
+   ]
   },
   {
    "start": 729.17,
@@ -392,7 +1384,41 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "No me ha despejado la duda, señora Montero. Digo, sí, es que, ¿sabe lo que pasa? Que para entrar en coalición se acaba el tiempo para el viernes. Es que todavía quedan unos días. Por eso, pues, vamos a seguir trabajando"
+   "text": "No me ha despejado la duda, señora Montero. Digo, sí, es que, ¿sabe lo que pasa? Que para entrar en coalición se acaba el tiempo para el viernes. Es que todavía quedan unos días. Por eso, pues, vamos a seguir trabajando",
+   "marks": [
+    [
+     0,
+     729.2
+    ],
+    [
+     44,
+     732.0
+    ],
+    [
+     62,
+     733.2
+    ],
+    [
+     81,
+     733.8
+    ],
+    [
+     122,
+     735.3
+    ],
+    [
+     146,
+     736.1
+    ],
+    [
+     179,
+     737.8
+    ],
+    [
+     188,
+     738.3
+    ]
+   ]
   },
   {
    "start": 740.37,
@@ -400,7 +1426,33 @@
    "label": "SPEAKER_01",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "y yo creo que es mejor que cuando tengamos acuerdos que poder comunicar, los comunicamos. Y mientras tanto, pues, hay que dejar que se pueda trabajar. Pero sí, creo que las primarias hubiesen sido una muy buena forma de poder ordenar y llegar a acuerdos."
+   "text": "y yo creo que es mejor que cuando tengamos acuerdos que poder comunicar, los comunicamos. Y mientras tanto, pues, hay que dejar que se pueda trabajar. Pero sí, creo que las primarias hubiesen sido una muy buena forma de poder ordenar y llegar a acuerdos.",
+   "marks": [
+    [
+     0,
+     740.4
+    ],
+    [
+     62,
+     744.8
+    ],
+    [
+     90,
+     746.4
+    ],
+    [
+     135,
+     749.2
+    ],
+    [
+     151,
+     749.8
+    ],
+    [
+     205,
+     753.2
+    ]
+   ]
   },
   {
    "start": 759.69,
@@ -408,7 +1460,13 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Yo sí lo creo,"
+   "text": "Yo sí lo creo,",
+   "marks": [
+    [
+     0,
+     759.7
+    ]
+   ]
   },
   {
    "start": 760.87,
@@ -416,7 +1474,21 @@
    "label": "SPEAKER_01",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "y si no, pues tendremos que seguir hablando, evidentemente, pues seguiremos hablando. Y si hay algo que comunicar y que acordar, pues os lo contaremos."
+   "text": "y si no, pues tendremos que seguir hablando, evidentemente, pues seguiremos hablando. Y si hay algo que comunicar y que acordar, pues os lo contaremos.",
+   "marks": [
+    [
+     0,
+     760.9
+    ],
+    [
+     86,
+     764.5
+    ],
+    [
+     140,
+     767.6
+    ]
+   ]
   },
   {
    "start": 768.39,
@@ -424,7 +1496,13 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Es decir, que estaría dispuesta a llegar..."
+   "text": "Es decir, que estaría dispuesta a llegar...",
+   "marks": [
+    [
+     0,
+     768.4
+    ]
+   ]
   },
   {
    "start": 784.3,
@@ -432,7 +1510,13 @@
    "label": "SPEAKER_01",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "Silvia, cuando tengamos una forma, un acuerdo, algo que comunicar, lo comunicaremos."
+   "text": "Silvia, cuando tengamos una forma, un acuerdo, algo que comunicar, lo comunicaremos.",
+   "marks": [
+    [
+     0,
+     784.3
+    ]
+   ]
   },
   {
    "start": 790.02,
@@ -440,7 +1524,13 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Mientras tanto, creo de verdad que es un"
+   "text": "Mientras tanto, creo de verdad que es un",
+   "marks": [
+    [
+     0,
+     790.0
+    ]
+   ]
   },
   {
    "start": 793.86,
@@ -448,7 +1538,49 @@
    "label": "SPEAKER_01",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "bucle infinito que además que incomoda a todo el mundo, de verdad, que es que hace hasta que sea difícil defender las cosas buenas que están pasando como que hay acuerdos. Entonces, bueno, pues no lo sé. Yo creo que cuando tengamos un acuerdo lo podremos contar. Señora Montero, gracias por haber estado con nosotros en directo esta mañana. Venga Silvia, muchísimas gracias."
+   "text": "bucle infinito que además que incomoda a todo el mundo, de verdad, que es que hace hasta que sea difícil defender las cosas buenas que están pasando como que hay acuerdos. Entonces, bueno, pues no lo sé. Yo creo que cuando tengamos un acuerdo lo podremos contar. Señora Montero, gracias por haber estado con nosotros en directo esta mañana. Venga Silvia, muchísimas gracias.",
+   "marks": [
+    [
+     0,
+     793.9
+    ],
+    [
+     67,
+     797.0
+    ],
+    [
+     131,
+     803.4
+    ],
+    [
+     172,
+     805.0
+    ],
+    [
+     200,
+     806.5
+    ],
+    [
+     204,
+     806.8
+    ],
+    [
+     263,
+     810.2
+    ],
+    [
+     270,
+     810.7
+    ],
+    [
+     341,
+     813.6
+    ],
+    [
+     347,
+     814.1
+    ]
+   ]
   },
   {
    "start": 815.44,
@@ -456,7 +1588,13 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Hasta luego."
+   "text": "Hasta luego.",
+   "marks": [
+    [
+     0,
+     815.4
+    ]
+   ]
   }
  ]
 }

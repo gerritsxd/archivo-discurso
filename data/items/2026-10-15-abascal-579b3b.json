@@ -14,7 +14,7 @@
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
   "voiceprint_threshold": 0.65,
-  "processed_at": "2026-10-25T20:11:31+00:00",
+  "processed_at": "2026-10-25T20:59:19+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -40,7 +40,53 @@
    "label": "SPEAKER_01",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Ya el año pasado rompí ese protocolo porque no quería compartir tribuna por un gobierno corrupto y con un gobierno traidor. Me cuesta mucho soportar un desfile en el Día Nacional teniendo en cuenta la situación que están padeciendo 80.000 españoles en Ceuta. Este martes visitan Los Reyes, la ciudad autónoma. ¿Cree que esa visita llega tarde? Yo creo que esa visita llega tarde, me habría gustado antes, pero más vale tarde que nunca."
+   "text": "Ya el año pasado rompí ese protocolo porque no quería compartir tribuna por un gobierno corrupto y con un gobierno traidor. Me cuesta mucho soportar un desfile en el Día Nacional teniendo en cuenta la situación que están padeciendo 80.000 españoles en Ceuta. Este martes visitan Los Reyes, la ciudad autónoma. ¿Cree que esa visita llega tarde? Yo creo que esa visita llega tarde, me habría gustado antes, pero más vale tarde que nunca.",
+   "marks": [
+    [
+     0,
+     0.0
+    ],
+    [
+     72,
+     3.4
+    ],
+    [
+     124,
+     6.0
+    ],
+    [
+     140,
+     6.9
+    ],
+    [
+     211,
+     10.6
+    ],
+    [
+     259,
+     12.8
+    ],
+    [
+     283,
+     13.5
+    ],
+    [
+     310,
+     15.4
+    ],
+    [
+     344,
+     17.0
+    ],
+    [
+     352,
+     17.5
+    ],
+    [
+     419,
+     21.1
+    ]
+   ]
   },
   {
    "start": 21.74,
@@ -48,7 +94,25 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Con Santiago Abascal como presidente del gobierno, si de repente Marruecos abre la llave y entran 80.000 personas de forma ilegal a territorio nacional, ¿cómo actuaría Vox y sobre todo cuál sería la relación con Marruecos?"
+   "text": "Con Santiago Abascal como presidente del gobierno, si de repente Marruecos abre la llave y entran 80.000 personas de forma ilegal a territorio nacional, ¿cómo actuaría Vox y sobre todo cuál sería la relación con Marruecos?",
+   "marks": [
+    [
+     0,
+     21.7
+    ],
+    [
+     80,
+     26.7
+    ],
+    [
+     143,
+     30.3
+    ],
+    [
+     212,
+     34.3
+    ]
+   ]
   },
   {
    "start": 36.2,
@@ -56,7 +120,109 @@
    "label": "SPEAKER_01",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "La clave es que no entrarían. La frontera estaría militarizada, defendida perfectamente, construiríamos infraestructuras mejores, muros, espigones más grandes en el mar. ¿Cómo vivía usted ese desahucio de Mari Carmen? Bueno, realmente como uno más, a pesar de que los medios de comunicación intentaron que lo viviéramos como si fuera el único desaudio que se ha producido. Son muchos miles los españoles que están siendo desahuciados con unas políticas respecto a la vivienda que son criminales. En España puede entrar todo el mundo, 5 millones de personas en 5 años, y no se construye ni una sola vivienda. Mientras no se hagan ambas cosas, abrir la puerta a lo que se tienen que ir y a la vez favorecer las políticas de construcción de vivienda, el precio de la vivienda no bajará. Santiago Abascal si llega al gobierno se compromete a derogar este decreto que ha aprobado el gobierno de Pedro Sánchez Todos los decretos de Pedro Sánchez son malos porque no solucionan el problema, lo que nos comprometemos es una política distinta Si no lo derogaría Por supuesto hay que derogarlos, pero no sirve, todo vale con eso, derogar los decretos de Sánchez no sirve para solucionar el problema de la vivienda, puede servir para que el problema de la vivienda no sea peor Se ha extendido una versión"
+   "text": "La clave es que no entrarían. La frontera estaría militarizada, defendida perfectamente, construiríamos infraestructuras mejores, muros, espigones más grandes en el mar. ¿Cómo vivía usted ese desahucio de Mari Carmen? Bueno, realmente como uno más, a pesar de que los medios de comunicación intentaron que lo viviéramos como si fuera el único desaudio que se ha producido. Son muchos miles los españoles que están siendo desahuciados con unas políticas respecto a la vivienda que son criminales. En España puede entrar todo el mundo, 5 millones de personas en 5 años, y no se construye ni una sola vivienda. Mientras no se hagan ambas cosas, abrir la puerta a lo que se tienen que ir y a la vez favorecer las políticas de construcción de vivienda, el precio de la vivienda no bajará. Santiago Abascal si llega al gobierno se compromete a derogar este decreto que ha aprobado el gobierno de Pedro Sánchez Todos los decretos de Pedro Sánchez son malos porque no solucionan el problema, lo que nos comprometemos es una política distinta Si no lo derogaría Por supuesto hay que derogarlos, pero no sirve, todo vale con eso, derogar los decretos de Sánchez no sirve para solucionar el problema de la vivienda, puede servir para que el problema de la vivienda no sea peor Se ha extendido una versión",
+   "marks": [
+    [
+     0,
+     36.2
+    ],
+    [
+     30,
+     38.0
+    ],
+    [
+     89,
+     41.8
+    ],
+    [
+     170,
+     47.3
+    ],
+    [
+     182,
+     47.9
+    ],
+    [
+     218,
+     49.8
+    ],
+    [
+     251,
+     51.3
+    ],
+    [
+     325,
+     54.9
+    ],
+    [
+     373,
+     56.8
+    ],
+    [
+     390,
+     58.3
+    ],
+    [
+     467,
+     62.6
+    ],
+    [
+     496,
+     63.8
+    ],
+    [
+     536,
+     65.3
+    ],
+    [
+     593,
+     68.0
+    ],
+    [
+     608,
+     69.0
+    ],
+    [
+     660,
+     71.4
+    ],
+    [
+     709,
+     73.5
+    ],
+    [
+     784,
+     76.6
+    ],
+    [
+     859,
+     79.6
+    ],
+    [
+     926,
+     82.5
+    ],
+    [
+     995,
+     85.3
+    ],
+    [
+     1070,
+     88.7
+    ],
+    [
+     1141,
+     93.1
+    ],
+    [
+     1211,
+     95.8
+    ],
+    [
+     1269,
+     98.2
+    ]
+   ]
   },
   {
    "start": 100.0,
@@ -64,7 +230,21 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "de que Vox quiere privatizar las pensiones. ¿Cuál es la fórmula de Vox para garantizar estas pensiones?"
+   "text": "de que Vox quiere privatizar las pensiones. ¿Cuál es la fórmula de Vox para garantizar estas pensiones?",
+   "marks": [
+    [
+     0,
+     100.0
+    ],
+    [
+     44,
+     105.0
+    ],
+    [
+     67,
+     105.7
+    ]
+   ]
   },
   {
    "start": 107.66,
@@ -72,7 +252,57 @@
    "label": "SPEAKER_01",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Es que yo creo que el sistema es discutible. Este sistema y cualquier otro. No voy a cometer el error de plantear un sistema. Lo que digo es que las pensiones se van a pagar como sea. Y como sea es como sea. Lo que podemos decir con absoluta firmeza es que las pensiones se pagan. Y me atrevo a acusar con toda contundencia que con las políticas económicas de Sánchez al final las pensiones no se pagan."
+   "text": "Es que yo creo que el sistema es discutible. Este sistema y cualquier otro. No voy a cometer el error de plantear un sistema. Lo que digo es que las pensiones se van a pagar como sea. Y como sea es como sea. Lo que podemos decir con absoluta firmeza es que las pensiones se pagan. Y me atrevo a acusar con toda contundencia que con las políticas económicas de Sánchez al final las pensiones no se pagan.",
+   "marks": [
+    [
+     0,
+     107.7
+    ],
+    [
+     45,
+     109.5
+    ],
+    [
+     60,
+     110.6
+    ],
+    [
+     76,
+     111.4
+    ],
+    [
+     126,
+     113.9
+    ],
+    [
+     179,
+     115.6
+    ],
+    [
+     184,
+     116.0
+    ],
+    [
+     208,
+     117.3
+    ],
+    [
+     233,
+     118.1
+    ],
+    [
+     281,
+     120.1
+    ],
+    [
+     295,
+     121.2
+    ],
+    [
+     371,
+     125.6
+    ]
+   ]
   },
   {
    "start": 126.76,
@@ -80,7 +310,29 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Una herramienta muy popular que es la calculadora de las nóminas. Es una calculadora que dice que en un sueldo neto ahora mismo de 2.000 euros, con el sistema que propone Vox, esos españoles pueden cobrar hasta 400 euros de tos más."
+   "text": "Una herramienta muy popular que es la calculadora de las nóminas. Es una calculadora que dice que en un sueldo neto ahora mismo de 2.000 euros, con el sistema que propone Vox, esos españoles pueden cobrar hasta 400 euros de tos más.",
+   "marks": [
+    [
+     0,
+     126.8
+    ],
+    [
+     66,
+     130.8
+    ],
+    [
+     69,
+     131.0
+    ],
+    [
+     131,
+     134.2
+    ],
+    [
+     198,
+     138.1
+    ]
+   ]
   },
   {
    "start": 140.42,
@@ -88,7 +340,41 @@
    "label": "SPEAKER_01",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Yo puedo garantizar eso si los españoles nos dan la mayoría absoluta para hacerlo. Si le dan el poder al Partido Popular, que en su momento ya nos trajo Montoro y que subió los impuestos más que la izquierda, pues eso será difícil. El Supremo les ha dado la razón. ¿Cómo recibe esta noticia?"
+   "text": "Yo puedo garantizar eso si los españoles nos dan la mayoría absoluta para hacerlo. Si le dan el poder al Partido Popular, que en su momento ya nos trajo Montoro y que subió los impuestos más que la izquierda, pues eso será difícil. El Supremo les ha dado la razón. ¿Cómo recibe esta noticia?",
+   "marks": [
+    [
+     0,
+     140.4
+    ],
+    [
+     69,
+     143.7
+    ],
+    [
+     83,
+     144.3
+    ],
+    [
+     129,
+     147.0
+    ],
+    [
+     191,
+     149.3
+    ],
+    [
+     232,
+     151.4
+    ],
+    [
+     255,
+     152.5
+    ],
+    [
+     265,
+     153.1
+    ]
+   ]
   },
   {
    "start": 154.22,
@@ -96,7 +382,13 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Pedro"
+   "text": "Pedro",
+   "marks": [
+    [
+     0,
+     154.2
+    ]
+   ]
   },
   {
    "start": 154.84,
@@ -104,7 +396,41 @@
    "label": "SPEAKER_01",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Sánchez estaba intentando robar las elecciones por una vía fraudulenta. Solo había un intento de fabricar votantes, de manipular el censo electoral y nos preocupan aún más que las nacionalizaciones el modo en el que esos votos iban a llegar. A través de funcionarios cubanos, de funcionarios venezolanos, les hemos pillado con el carrito de los helados, les hemos pillado con las manos en la masa."
+   "text": "Sánchez estaba intentando robar las elecciones por una vía fraudulenta. Solo había un intento de fabricar votantes, de manipular el censo electoral y nos preocupan aún más que las nacionalizaciones el modo en el que esos votos iban a llegar. A través de funcionarios cubanos, de funcionarios venezolanos, les hemos pillado con el carrito de los helados, les hemos pillado con las manos en la masa.",
+   "marks": [
+    [
+     0,
+     154.8
+    ],
+    [
+     72,
+     158.6
+    ],
+    [
+     83,
+     159.2
+    ],
+    [
+     154,
+     163.5
+    ],
+    [
+     221,
+     166.3
+    ],
+    [
+     242,
+     167.1
+    ],
+    [
+     305,
+     169.9
+    ],
+    [
+     372,
+     173.0
+    ]
+   ]
   },
   {
    "start": 174.38,
@@ -112,7 +438,29 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "¿Qué error, por hacer un poco de autocrítica, cometió entonces Vox en 2023 cuando todas las secuestras también eran favorables y qué no se va a cometer ahora? El gran error colectivo fue precisamente la publicación de las encuestas que no eran reales."
+   "text": "¿Qué error, por hacer un poco de autocrítica, cometió entonces Vox en 2023 cuando todas las secuestras también eran favorables y qué no se va a cometer ahora? El gran error colectivo fue precisamente la publicación de las encuestas que no eran reales.",
+   "marks": [
+    [
+     0,
+     174.4
+    ],
+    [
+     70,
+     179.0
+    ],
+    [
+     139,
+     182.5
+    ],
+    [
+     159,
+     183.3
+    ],
+    [
+     215,
+     187.0
+    ]
+   ]
   },
   {
    "start": 188.9,
@@ -120,7 +468,37 @@
    "label": "SPEAKER_01",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Eso llevó a la desmovilización de la parte del electorado que pensaba que estaba hecho y a la movilización de la izquierda. ¿Tiene un borrador de quiénes pueden ser sus ministros en caso de que llegue al gobierno? Yo solo tengo un borrador y es que el día 29 de noviembre Sánchez no tenga ninguna opción."
+   "text": "Eso llevó a la desmovilización de la parte del electorado que pensaba que estaba hecho y a la movilización de la izquierda. ¿Tiene un borrador de quiénes pueden ser sus ministros en caso de que llegue al gobierno? Yo solo tengo un borrador y es que el día 29 de noviembre Sánchez no tenga ninguna opción.",
+   "marks": [
+    [
+     0,
+     188.9
+    ],
+    [
+     70,
+     192.3
+    ],
+    [
+     124,
+     194.6
+    ],
+    [
+     134,
+     194.9
+    ],
+    [
+     201,
+     197.5
+    ],
+    [
+     214,
+     198.5
+    ],
+    [
+     256,
+     200.9
+    ]
+   ]
   }
  ]
 }

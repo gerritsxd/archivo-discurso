@@ -14,7 +14,7 @@
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
   "voiceprint_threshold": 0.65,
-  "processed_at": "2026-10-25T20:11:44+00:00",
+  "processed_at": "2026-10-25T20:59:32+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -54,7 +54,33 @@
    "label": "SPEAKER_03",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "En sus años que lleva de gobierno, 11 millones de argentinos y argentinas en la economía informal, sin cotizar a la Seguridad Social y cobrando en negro. Aquí en España, gracias a la reforma laboral y a la subida del salario mínimo interprofesional, 22,6 millones de trabajadores y trabajadoras cotizando a la Seguridad Social."
+   "text": "En sus años que lleva de gobierno, 11 millones de argentinos y argentinas en la economía informal, sin cotizar a la Seguridad Social y cobrando en negro. Aquí en España, gracias a la reforma laboral y a la subida del salario mínimo interprofesional, 22,6 millones de trabajadores y trabajadoras cotizando a la Seguridad Social.",
+   "marks": [
+    [
+     0,
+     0.0
+    ],
+    [
+     63,
+     3.8
+    ],
+    [
+     135,
+     6.8
+    ],
+    [
+     154,
+     7.8
+    ],
+    [
+     201,
+     11.2
+    ],
+    [
+     280,
+     15.4
+    ]
+   ]
   },
   {
    "start": 18.9,
@@ -62,7 +88,25 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "Así amanecía hoy Ferraz, el PSOE daba la bienvenida a Milei, al país que más crece de Europa, dice esta gran lona, llevando a su terreno el término con el que el presidente argentino descalifica a la izquierda."
+   "text": "Así amanecía hoy Ferraz, el PSOE daba la bienvenida a Milei, al país que más crece de Europa, dice esta gran lona, llevando a su terreno el término con el que el presidente argentino descalifica a la izquierda.",
+   "marks": [
+    [
+     0,
+     18.9
+    ],
+    [
+     64,
+     22.7
+    ],
+    [
+     126,
+     26.2
+    ],
+    [
+     197,
+     30.3
+    ]
+   ]
   },
   {
    "start": 31.02,
@@ -70,7 +114,13 @@
    "label": "SPEAKER_03",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Soy zurdo y a mucha honra."
+   "text": "Soy zurdo y a mucha honra.",
+   "marks": [
+    [
+     0,
+     31.0
+    ]
+   ]
   },
   {
    "start": 32.92,
@@ -78,7 +128,25 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "Sánchez entra de lleno en el cuerpo a cuerpo desde las redes sociales y en el mítin de esta tarde donde ha sonado Esta canción que la artista argentina Lali Expósito publicó en respuesta a los ataques de Milenio."
+   "text": "Sánchez entra de lleno en el cuerpo a cuerpo desde las redes sociales y en el mítin de esta tarde donde ha sonado Esta canción que la artista argentina Lali Expósito publicó en respuesta a los ataques de Milenio.",
+   "marks": [
+    [
+     0,
+     32.9
+    ],
+    [
+     61,
+     35.9
+    ],
+    [
+     119,
+     44.3
+    ],
+    [
+     193,
+     48.2
+    ]
+   ]
   },
   {
    "start": 49.13,
@@ -86,7 +154,33 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Como dictadura España deja mucho que desear, porque tenemos hasta la paciencia de escucharle a él. El uso es muy de visitar a ticos y recibir a lunáticos. Señor impresentable y maleducado, lo primero que hace es venir a insultar."
+   "text": "Como dictadura España deja mucho que desear, porque tenemos hasta la paciencia de escucharle a él. El uso es muy de visitar a ticos y recibir a lunáticos. Señor impresentable y maleducado, lo primero que hace es venir a insultar.",
+   "marks": [
+    [
+     0,
+     49.1
+    ],
+    [
+     79,
+     52.8
+    ],
+    [
+     99,
+     53.6
+    ],
+    [
+     132,
+     55.4
+    ],
+    [
+     155,
+     56.8
+    ],
+    [
+     209,
+     59.9
+    ]
+   ]
   },
   {
    "start": 61.61,
@@ -94,7 +188,45 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "El gobierno le acusa de intentar fomentar un clima de crispación y de violencia por declaraciones como esta. En un comunicado, Exteriores avisa que España es una nación soberana que no acepta ni injurias a su presidente ni injerencias externas. No es el primer enfrentamiento. En 2024, el Ejecutivo retiró a la embajadora en Buenos Aires después de que Milley llamara a Begoña Gómez corrupta."
+   "text": "El gobierno le acusa de intentar fomentar un clima de crispación y de violencia por declaraciones como esta. En un comunicado, Exteriores avisa que España es una nación soberana que no acepta ni injurias a su presidente ni injerencias externas. No es el primer enfrentamiento. En 2024, el Ejecutivo retiró a la embajadora en Buenos Aires después de que Milley llamara a Begoña Gómez corrupta.",
+   "marks": [
+    [
+     0,
+     61.6
+    ],
+    [
+     67,
+     65.1
+    ],
+    [
+     109,
+     72.2
+    ],
+    [
+     148,
+     75.2
+    ],
+    [
+     209,
+     78.8
+    ],
+    [
+     245,
+     80.9
+    ],
+    [
+     277,
+     82.5
+    ],
+    [
+     289,
+     84.0
+    ],
+    [
+     360,
+     87.5
+    ]
+   ]
   }
  ]
 }

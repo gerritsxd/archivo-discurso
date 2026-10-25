@@ -14,7 +14,7 @@
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
   "voiceprint_threshold": 0.65,
-  "processed_at": "2026-10-25T20:11:51+00:00",
+  "processed_at": "2026-10-25T20:59:39+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -47,7 +47,13 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Si insultan, pues"
+   "text": "Si insultan, pues",
+   "marks": [
+    [
+     0,
+     0.0
+    ]
+   ]
   },
   {
    "start": 0.82,
@@ -55,7 +61,13 @@
    "label": "SPEAKER_00",
    "person": "sanchez",
    "name": "Pedro Sánchez (PSOE)",
-   "text": "allá ellos, me llaman de todo, se acuerdan de mi madre, ¿no?"
+   "text": "allá ellos, me llaman de todo, se acuerdan de mi madre, ¿no?",
+   "marks": [
+    [
+     0,
+     0.8
+    ]
+   ]
   },
   {
    "start": 3.94,
@@ -63,7 +75,17 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Ya, ya, está feo, sí. Yo también me acuerdo de las"
+   "text": "Ya, ya, está feo, sí. Yo también me acuerdo de las",
+   "marks": [
+    [
+     0,
+     3.9
+    ],
+    [
+     22,
+     5.5
+    ]
+   ]
   },
   {
    "start": 6.7,
@@ -71,7 +93,13 @@
    "label": "SPEAKER_00",
    "person": "sanchez",
    "name": "Pedro Sánchez (PSOE)",
-   "text": "suyas, cuando subo las pensiones o cuando subo el salario mínimo interprofesional."
+   "text": "suyas, cuando subo las pensiones o cuando subo el salario mínimo interprofesional.",
+   "marks": [
+    [
+     0,
+     6.7
+    ]
+   ]
   },
   {
    "start": 12.16,
@@ -79,7 +107,37 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "Eran palabras de Pedro Sánchez en la revuelta. Inaugura la precampaña televisiva con una charla informal en la que ha abordado temas como la vivienda, la crisis de Ceuta, que dice, por cierto, que podría haberse hecho mejor, y también la decepción que sufrió con la corrupción en miembros de su partido. También ha mostrado su lado más personal."
+   "text": "Eran palabras de Pedro Sánchez en la revuelta. Inaugura la precampaña televisiva con una charla informal en la que ha abordado temas como la vivienda, la crisis de Ceuta, que dice, por cierto, que podría haberse hecho mejor, y también la decepción que sufrió con la corrupción en miembros de su partido. También ha mostrado su lado más personal.",
+   "marks": [
+    [
+     0,
+     12.2
+    ],
+    [
+     47,
+     14.5
+    ],
+    [
+     81,
+     16.1
+    ],
+    [
+     141,
+     19.5
+    ],
+    [
+     212,
+     22.7
+    ],
+    [
+     280,
+     25.8
+    ],
+    [
+     304,
+     27.2
+    ]
+   ]
   },
   {
    "start": 31.56,
@@ -87,7 +145,13 @@
    "label": "SPEAKER_00",
    "person": "sanchez",
    "name": "Pedro Sánchez (PSOE)",
-   "text": "Con una presentación"
+   "text": "Con una presentación",
+   "marks": [
+    [
+     0,
+     31.6
+    ]
+   ]
   },
   {
    "start": 32.78,
@@ -95,7 +159,13 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "cargada de ironía Por"
+   "text": "cargada de ironía Por",
+   "marks": [
+    [
+     0,
+     32.8
+    ]
+   ]
   },
   {
    "start": 34.0,
@@ -103,7 +173,13 @@
    "label": "SPEAKER_00",
    "person": "sanchez",
    "name": "Pedro Sánchez (PSOE)",
-   "text": "poco tiempo Y"
+   "text": "poco tiempo Y",
+   "marks": [
+    [
+     0,
+     34.0
+    ]
+   ]
   },
   {
    "start": 35.3,
@@ -111,7 +187,13 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "entre bromas Luego"
+   "text": "entre bromas Luego",
+   "marks": [
+    [
+     0,
+     35.3
+    ]
+   ]
   },
   {
    "start": 37.32,
@@ -119,7 +201,13 @@
    "label": "SPEAKER_00",
    "person": "sanchez",
    "name": "Pedro Sánchez (PSOE)",
-   "text": "me dicen a mí que esta televisión es mía Pedro"
+   "text": "me dicen a mí que esta televisión es mía Pedro",
+   "marks": [
+    [
+     0,
+     37.3
+    ]
+   ]
   },
   {
    "start": 39.5,
@@ -127,7 +215,21 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Sánchez llega a la revuelta como es habitual, con regalos para el programa, uno de ellos Un perro con una capa roja Más de hora y media en la que Sánchez tiene claro su mayor error"
+   "text": "Sánchez llega a la revuelta como es habitual, con regalos para el programa, uno de ellos Un perro con una capa roja Más de hora y media en la que Sánchez tiene claro su mayor error",
+   "marks": [
+    [
+     0,
+     39.5
+    ],
+    [
+     66,
+     42.8
+    ],
+    [
+     123,
+     48.4
+    ]
+   ]
   },
   {
    "start": 51.0,
@@ -135,7 +237,25 @@
    "label": "SPEAKER_00",
    "person": "sanchez",
    "name": "Pedro Sánchez (PSOE)",
-   "text": "Crees conocer a la gente y de repente se desvela una cara algunas veces y te quedas helado, ¿no? Y es el caso de Ábalos, ¿no?"
+   "text": "Crees conocer a la gente y de repente se desvela una cara algunas veces y te quedas helado, ¿no? Y es el caso de Ábalos, ¿no?",
+   "marks": [
+    [
+     0,
+     51.0
+    ],
+    [
+     58,
+     54.7
+    ],
+    [
+     97,
+     56.8
+    ],
+    [
+     113,
+     58.2
+    ]
+   ]
   },
   {
    "start": 59.04,
@@ -143,7 +263,13 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Sobre la gestión de la crisis en Ceuta Sin"
+   "text": "Sobre la gestión de la crisis en Ceuta Sin",
+   "marks": [
+    [
+     0,
+     59.0
+    ]
+   ]
   },
   {
    "start": 61.42,
@@ -151,7 +277,13 @@
    "label": "SPEAKER_00",
    "person": "sanchez",
    "name": "Pedro Sánchez (PSOE)",
-   "text": "duda alguna podríamos haberlo gestionado mejor."
+   "text": "duda alguna podríamos haberlo gestionado mejor.",
+   "marks": [
+    [
+     0,
+     61.4
+    ]
+   ]
   },
   {
    "start": 63.22,
@@ -159,7 +291,13 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Aunque al mismo tiempo saca pecho de la labor del gobierno."
+   "text": "Aunque al mismo tiempo saca pecho de la labor del gobierno.",
+   "marks": [
+    [
+     0,
+     63.2
+    ]
+   ]
   },
   {
    "start": 66.02,
@@ -167,7 +305,29 @@
    "label": "SPEAKER_00",
    "person": "sanchez",
    "name": "Pedro Sánchez (PSOE)",
-   "text": "Nosotros en dos meses hemos habilitado 7.500 plazas para poder acoger a todas estas personas. Se están acelerando lo que son los expedientes, que en su amplísima mayoría son personas que no tienen el derecho a la protección internacional y que con toda seguridad volverán a Marruecos."
+   "text": "Nosotros en dos meses hemos habilitado 7.500 plazas para poder acoger a todas estas personas. Se están acelerando lo que son los expedientes, que en su amplísima mayoría son personas que no tienen el derecho a la protección internacional y que con toda seguridad volverán a Marruecos.",
+   "marks": [
+    [
+     0,
+     66.0
+    ],
+    [
+     70,
+     70.8
+    ],
+    [
+     94,
+     72.0
+    ],
+    [
+     142,
+     74.4
+    ],
+    [
+     208,
+     78.0
+    ]
+   ]
   },
   {
    "start": 82.18,
@@ -175,7 +335,37 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "El líder socialista cree que se han traspasado líneas rojas con su mujer y su hermano y vuelve a defender su inocencia. Sánchez, en plena pre-campaña, aspira a seguir cuatro años más. Sueña, dice, si no con una mayoría absoluta, con una de izquierdas, para poder sacar adelante proyectos, por ejemplo, en materia de vivienda."
+   "text": "El líder socialista cree que se han traspasado líneas rojas con su mujer y su hermano y vuelve a defender su inocencia. Sánchez, en plena pre-campaña, aspira a seguir cuatro años más. Sueña, dice, si no con una mayoría absoluta, con una de izquierdas, para poder sacar adelante proyectos, por ejemplo, en materia de vivienda.",
+   "marks": [
+    [
+     0,
+     82.2
+    ],
+    [
+     67,
+     85.4
+    ],
+    [
+     120,
+     88.0
+    ],
+    [
+     132,
+     89.1
+    ],
+    [
+     184,
+     91.7
+    ],
+    [
+     200,
+     92.7
+    ],
+    [
+     269,
+     95.9
+    ]
+   ]
   },
   {
    "start": 98.8,
@@ -183,7 +373,21 @@
    "label": "SPEAKER_00",
    "person": "sanchez",
    "name": "Pedro Sánchez (PSOE)",
-   "text": "Si en las Cortes Generales, en el Parlamento del próximo 29 de noviembre, no sale una mayoría mucho más amplia progresista, pues el Gobierno tiene pocas herramientas para intervenir."
+   "text": "Si en las Cortes Generales, en el Parlamento del próximo 29 de noviembre, no sale una mayoría mucho más amplia progresista, pues el Gobierno tiene pocas herramientas para intervenir.",
+   "marks": [
+    [
+     0,
+     98.8
+    ],
+    [
+     63,
+     102.2
+    ],
+    [
+     141,
+     105.8
+    ]
+   ]
   },
   {
    "start": 108.7,
@@ -191,7 +395,29 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Y lanza un dardo a PP y Vox por no querer aplicar la ley de vivienda en las comunidades que gobiernan. Como broche final, el presidente del gobierno no se ha librado de las preguntas clásicas de la revuelta que ha contestado entre risas."
+   "text": "Y lanza un dardo a PP y Vox por no querer aplicar la ley de vivienda en las comunidades que gobiernan. Como broche final, el presidente del gobierno no se ha librado de las preguntas clásicas de la revuelta que ha contestado entre risas.",
+   "marks": [
+    [
+     0,
+     108.7
+    ],
+    [
+     50,
+     111.4
+    ],
+    [
+     103,
+     113.6
+    ],
+    [
+     122,
+     114.8
+    ],
+    [
+     192,
+     118.0
+    ]
+   ]
   }
  ]
 }

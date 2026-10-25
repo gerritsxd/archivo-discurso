@@ -14,7 +14,7 @@
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
   "voiceprint_threshold": 0.65,
-  "processed_at": "2026-10-25T20:11:55+00:00",
+  "processed_at": "2026-10-25T20:59:43+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -40,7 +40,13 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "¡Sanchez, Alberto Núñez Feijóo!"
+   "text": "¡Sanchez, Alberto Núñez Feijóo!",
+   "marks": [
+    [
+     0,
+     5.7
+    ]
+   ]
   },
   {
    "start": 35.71,
@@ -48,7 +54,37 @@
    "label": "SPEAKER_01",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "que robó las elecciones a los propios militantes socialistas y que llegó al poder y robó a manos llenas a la mafia que hoy tiene imputados o condenados a todo el entorno político y familiar del presidente del gobierno que todavía tiene el valor de concurrir a estas elecciones. Esa es la prioridad nacional, decir que los españoles tienen el derecho en su propia patria a"
+   "text": "que robó las elecciones a los propios militantes socialistas y que llegó al poder y robó a manos llenas a la mafia que hoy tiene imputados o condenados a todo el entorno político y familiar del presidente del gobierno que todavía tiene el valor de concurrir a estas elecciones. Esa es la prioridad nacional, decir que los españoles tienen el derecho en su propia patria a",
+   "marks": [
+    [
+     0,
+     35.7
+    ],
+    [
+     73,
+     39.5
+    ],
+    [
+     123,
+     42.2
+    ],
+    [
+     194,
+     47.0
+    ],
+    [
+     266,
+     50.6
+    ],
+    [
+     278,
+     51.6
+    ],
+    [
+     342,
+     55.8
+    ]
+   ]
   },
   {
    "start": 57.85,
@@ -56,7 +92,13 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "ser los primeros en"
+   "text": "ser los primeros en",
+   "marks": [
+    [
+     0,
+     57.9
+    ]
+   ]
   },
   {
    "start": 59.53,
@@ -64,7 +106,13 @@
    "label": "SPEAKER_01",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "recibir las ayudas sociales, en recibir las ayudas al alquiler ¡Viva España!"
+   "text": "recibir las ayudas sociales, en recibir las ayudas al alquiler ¡Viva España!",
+   "marks": [
+    [
+     0,
+     59.5
+    ]
+   ]
   }
  ]
 }

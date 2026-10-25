@@ -14,7 +14,7 @@
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
   "voiceprint_threshold": 0.65,
-  "processed_at": "2026-10-25T20:11:31+00:00",
+  "processed_at": "2026-10-25T20:59:19+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -47,7 +47,13 @@
    "label": "SPEAKER_01",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "RNE Audio."
+   "text": "RNE Audio.",
+   "marks": [
+    [
+     0,
+     0.3
+    ]
+   ]
   },
   {
    "start": 1.96,
@@ -55,7 +61,45 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Solo tienes que escuchar. Vamos a saludar a Ione Belarra, secretaria general de Podemos. Muy buenos días, señora Belarra. Muy buenos días, ¿cómo estáis? ¿Están negociando? Quedan menos de 40 horas para que termine el plazo para registrar coaliciones. ¿Están negociando con el Frente Amplio?"
+   "text": "Solo tienes que escuchar. Vamos a saludar a Ione Belarra, secretaria general de Podemos. Muy buenos días, señora Belarra. Muy buenos días, ¿cómo estáis? ¿Están negociando? Quedan menos de 40 horas para que termine el plazo para registrar coaliciones. ¿Están negociando con el Frente Amplio?",
+   "marks": [
+    [
+     0,
+     2.0
+    ],
+    [
+     26,
+     6.4
+    ],
+    [
+     77,
+     8.8
+    ],
+    [
+     89,
+     9.4
+    ],
+    [
+     122,
+     11.4
+    ],
+    [
+     153,
+     14.2
+    ],
+    [
+     172,
+     16.0
+    ],
+    [
+     223,
+     19.3
+    ],
+    [
+     251,
+     20.8
+    ]
+   ]
   },
   {
    "start": 23.67,
@@ -63,7 +107,181 @@
    "label": "SPEAKER_02",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "Bueno, yo creo que es muy importante dejar claro que lo que hemos visto en estos días está muy lejos de parecerse a lo que fue Unidas Podemos en su momento, ¿no? Yo creo que es importante recordar, para no tergiversar la historia y no tergiversar lo que ha pasado en este país en los últimos años, que quien presentó la candidatura más amplia que ha concurrido a las elecciones generales desde la recuperación de la democracia fue Pablo Iglesias con Unidas Podemos. En esa candidatura fueron desde el Partido Comunista a Alianza Verde y las organizaciones que representan a los verdes a nivel europeo y esa es la candidatura más fuerte que se ha presentado nunca a las elecciones generales. Lo digo también porque creo que está en el histórico de Podemos el haber impulsado las candidaturas más fuertes, más amplias y que han conseguido garantizar derechos en este país a lo largo de los últimos años. Yo creo que hemos hecho lo que la gente nos llevaba pidiendo desde hace muchísimo tiempo. Yo creo que mucha gente de izquierdas a lo largo de estos últimos meses, incluida organizaciones que forman parte ahora de ese Frente Amplio, que es el nuevo nombre que le han puesto a Sumar, han pedido que Gabriel Rufián pudiera jugar un rol a nivel estatal. Yo creo que todo el mundo entiende que Gabriel Rufián es una figura clave de la izquierda en este momento, que es una de las personas que puede realmente hacer algo diferente, hacer las cosas de manera diferente para frenar a las derechas y yo creo que Podemos ha conseguido algo que no ha conseguido ninguna otra fuerza de la izquierda, que es que Gabriel pueda jugar ese rol respetando a la que es su organización de partida, porque yo creo que no está bien pedirle a una persona que abandone la organización, ¿Qué ha hecho posible que tenga un cargo de representación? ¿Sería el equivalente a pedirle a alguien que fuera un transfuga? Yo creo que Podemos ha conseguido algo muy difícil, que es cerrar un acuerdo con Esquerra Republicana de Cataluña para apoyar esa candidatura, que yo creo que es la que mejor resultado puede obtener la izquierda en Cataluña, y que Gabriel pueda jugar un rol en estas elecciones generales para hacer lo que hay que hacer, que yo creo que es lo que no hay que perder de vista en ningún momento. Que hay que intentar frenar a las derechas el próximo 29 de noviembre."
+   "text": "Bueno, yo creo que es muy importante dejar claro que lo que hemos visto en estos días está muy lejos de parecerse a lo que fue Unidas Podemos en su momento, ¿no? Yo creo que es importante recordar, para no tergiversar la historia y no tergiversar lo que ha pasado en este país en los últimos años, que quien presentó la candidatura más amplia que ha concurrido a las elecciones generales desde la recuperación de la democracia fue Pablo Iglesias con Unidas Podemos. En esa candidatura fueron desde el Partido Comunista a Alianza Verde y las organizaciones que representan a los verdes a nivel europeo y esa es la candidatura más fuerte que se ha presentado nunca a las elecciones generales. Lo digo también porque creo que está en el histórico de Podemos el haber impulsado las candidaturas más fuertes, más amplias y que han conseguido garantizar derechos en este país a lo largo de los últimos años. Yo creo que hemos hecho lo que la gente nos llevaba pidiendo desde hace muchísimo tiempo. Yo creo que mucha gente de izquierdas a lo largo de estos últimos meses, incluida organizaciones que forman parte ahora de ese Frente Amplio, que es el nuevo nombre que le han puesto a Sumar, han pedido que Gabriel Rufián pudiera jugar un rol a nivel estatal. Yo creo que todo el mundo entiende que Gabriel Rufián es una figura clave de la izquierda en este momento, que es una de las personas que puede realmente hacer algo diferente, hacer las cosas de manera diferente para frenar a las derechas y yo creo que Podemos ha conseguido algo que no ha conseguido ninguna otra fuerza de la izquierda, que es que Gabriel pueda jugar ese rol respetando a la que es su organización de partida, porque yo creo que no está bien pedirle a una persona que abandone la organización, ¿Qué ha hecho posible que tenga un cargo de representación? ¿Sería el equivalente a pedirle a alguien que fuera un transfuga? Yo creo que Podemos ha conseguido algo muy difícil, que es cerrar un acuerdo con Esquerra Republicana de Cataluña para apoyar esa candidatura, que yo creo que es la que mejor resultado puede obtener la izquierda en Cataluña, y que Gabriel pueda jugar un rol en estas elecciones generales para hacer lo que hay que hacer, que yo creo que es lo que no hay que perder de vista en ningún momento. Que hay que intentar frenar a las derechas el próximo 29 de noviembre.",
+   "marks": [
+    [
+     0,
+     23.7
+    ],
+    [
+     60,
+     27.3
+    ],
+    [
+     119,
+     31.6
+    ],
+    [
+     162,
+     33.7
+    ],
+    [
+     177,
+     34.8
+    ],
+    [
+     254,
+     39.6
+    ],
+    [
+     317,
+     43.2
+    ],
+    [
+     394,
+     48.1
+    ],
+    [
+     466,
+     52.5
+    ],
+    [
+     469,
+     52.6
+    ],
+    [
+     541,
+     57.4
+    ],
+    [
+     610,
+     63.4
+    ],
+    [
+     680,
+     66.4
+    ],
+    [
+     691,
+     67.1
+    ],
+    [
+     747,
+     70.3
+    ],
+    [
+     822,
+     75.6
+    ],
+    [
+     888,
+     80.1
+    ],
+    [
+     902,
+     82.6
+    ],
+    [
+     946,
+     84.8
+    ],
+    [
+     992,
+     87.1
+    ],
+    [
+     1019,
+     88.3
+    ],
+    [
+     1100,
+     93.4
+    ],
+    [
+     1161,
+     96.6
+    ],
+    [
+     1228,
+     100.1
+    ],
+    [
+     1252,
+     101.8
+    ],
+    [
+     1287,
+     103.3
+    ],
+    [
+     1350,
+     106.7
+    ],
+    [
+     1417,
+     111.2
+    ],
+    [
+     1491,
+     115.0
+    ],
+    [
+     1553,
+     118.0
+    ],
+    [
+     1621,
+     121.7
+    ],
+    [
+     1687,
+     126.2
+    ],
+    [
+     1747,
+     130.2
+    ],
+    [
+     1824,
+     136.7
+    ],
+    [
+     1890,
+     139.7
+    ],
+    [
+     1893,
+     140.1
+    ],
+    [
+     1959,
+     143.1
+    ],
+    [
+     2040,
+     147.6
+    ],
+    [
+     2105,
+     150.9
+    ],
+    [
+     2178,
+     155.0
+    ],
+    [
+     2230,
+     156.7
+    ],
+    [
+     2283,
+     158.4
+    ],
+    [
+     2287,
+     158.8
+    ]
+   ]
   },
   {
    "start": 162.15,
@@ -71,7 +289,21 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Me está definiendo usted la posición de Podemos, pero no me ha respondido a la pregunta de si están dialogando o negociando con Frente Amplio."
+   "text": "Me está definiendo usted la posición de Podemos, pero no me ha respondido a la pregunta de si están dialogando o negociando con Frente Amplio.",
+   "marks": [
+    [
+     0,
+     162.2
+    ],
+    [
+     63,
+     164.0
+    ],
+    [
+     135,
+     167.5
+    ]
+   ]
   },
   {
    "start": 168.67,
@@ -79,7 +311,85 @@
    "label": "SPEAKER_02",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "Bueno, nosotras estamos hablando con todo el mundo, lo decía ayer también en Televisión Española. Yo creo que los medios y los partidos pecamos de un madrileño-centrismo excesivo. Lo estaba escuchando ahora también en La Tertulia. Y yo creo que hay que saber que fuera de Madrid y fuera de Barcelona hay muchísima España. Hay muchísimo Estado español y ahí Podemos ha estado trabajando desde hace muchísimo tiempo en acuerdos de unidad para que no se pierda ni un solo voto de izquierdas, que yo creo que es lo que nos está pidiendo la gente, en Canarias, en el País Valencià, en Les Illes Balears, ahí llevamos muchísimo tiempo recorriendo un camino para poder tejer una candidatura de unidad. Nosotras estamos ahí y ahora estamos también tratando de que eso pase en el resto de territorios donde solo existen Izquierda Unida y Podemos Varios de nuestros líderes territoriales han lanzado ese guante, esa mano a Izquierda Unida a nivel territorial y yo confío que a lo largo de hoy podamos tener buenas noticias"
+   "text": "Bueno, nosotras estamos hablando con todo el mundo, lo decía ayer también en Televisión Española. Yo creo que los medios y los partidos pecamos de un madrileño-centrismo excesivo. Lo estaba escuchando ahora también en La Tertulia. Y yo creo que hay que saber que fuera de Madrid y fuera de Barcelona hay muchísima España. Hay muchísimo Estado español y ahí Podemos ha estado trabajando desde hace muchísimo tiempo en acuerdos de unidad para que no se pierda ni un solo voto de izquierdas, que yo creo que es lo que nos está pidiendo la gente, en Canarias, en el País Valencià, en Les Illes Balears, ahí llevamos muchísimo tiempo recorriendo un camino para poder tejer una candidatura de unidad. Nosotras estamos ahí y ahora estamos también tratando de que eso pase en el resto de territorios donde solo existen Izquierda Unida y Podemos Varios de nuestros líderes territoriales han lanzado ese guante, esa mano a Izquierda Unida a nivel territorial y yo confío que a lo largo de hoy podamos tener buenas noticias",
+   "marks": [
+    [
+     0,
+     168.7
+    ],
+    [
+     74,
+     171.9
+    ],
+    [
+     98,
+     173.4
+    ],
+    [
+     144,
+     176.7
+    ],
+    [
+     180,
+     179.2
+    ],
+    [
+     221,
+     181.2
+    ],
+    [
+     231,
+     181.8
+    ],
+    [
+     279,
+     184.2
+    ],
+    [
+     322,
+     186.4
+    ],
+    [
+     353,
+     188.7
+    ],
+    [
+     429,
+     193.2
+    ],
+    [
+     489,
+     196.2
+    ],
+    [
+     543,
+     198.3
+    ],
+    [
+     612,
+     203.3
+    ],
+    [
+     695,
+     207.8
+    ],
+    [
+     765,
+     213.6
+    ],
+    [
+     837,
+     218.9
+    ],
+    [
+     913,
+     223.8
+    ],
+    [
+     976,
+     226.8
+    ]
+   ]
   },
   {
    "start": 229.07,
@@ -87,7 +397,17 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Tengo que leer la entrelinea porque no me está respondiendo Entiendo que ustedes están esperando No, yo creo que"
+   "text": "Tengo que leer la entrelinea porque no me está respondiendo Entiendo que ustedes están esperando No, yo creo que",
+   "marks": [
+    [
+     0,
+     229.1
+    ],
+    [
+     73,
+     234.2
+    ]
+   ]
   },
   {
    "start": 235.83,
@@ -95,7 +415,13 @@
    "label": "SPEAKER_02",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "no te estoy respondiendo lo que tú quieres que te responda."
+   "text": "no te estoy respondiendo lo que tú quieres que te responda.",
+   "marks": [
+    [
+     0,
+     235.8
+    ]
+   ]
   },
   {
    "start": 238.09,
@@ -103,7 +429,13 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "No, no, no, no."
+   "text": "No, no, no, no.",
+   "marks": [
+    [
+     0,
+     238.1
+    ]
+   ]
   },
   {
    "start": 238.87,
@@ -111,7 +443,13 @@
    "label": "SPEAKER_02",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "No te estoy respondiendo totalmente."
+   "text": "No te estoy respondiendo totalmente.",
+   "marks": [
+    [
+     0,
+     238.9
+    ]
+   ]
   },
   {
    "start": 240.73,
@@ -119,7 +457,25 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "¿Hay o no diálogo con Frente Amplio? Porque yo lo que iba a decir es que tengo la impresión de que ustedes están esperando que sea Frente Amplio quien dé el paso y tienda la mano."
+   "text": "¿Hay o no diálogo con Frente Amplio? Porque yo lo que iba a decir es que tengo la impresión de que ustedes están esperando que sea Frente Amplio quien dé el paso y tienda la mano.",
+   "marks": [
+    [
+     0,
+     240.7
+    ],
+    [
+     37,
+     243.6
+    ],
+    [
+     58,
+     244.3
+    ],
+    [
+     123,
+     246.2
+    ]
+   ]
   },
   {
    "start": 249.51,
@@ -127,7 +483,105 @@
    "label": "SPEAKER_02",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "No, no, en absoluto. Si nosotras estamos hablando con las organizaciones del Frente Amplio y con muchas otras organizaciones, insisto, a Izquierda Unida le hemos tendido la mano en muchísimos territorios. Ayer mismo nuestros líderes territoriales de Andalucía, de la región de Murcia, Me consta también en Cantabria y en Asturias han tendido la mano para que no se pierda ni un solo voto de izquierdas. Yo creo que eso está en la mano de Izquierda Unida y nosotras desde luego estamos trabajando en continuar con ese acuerdo para que Irene Montero y Gabriel Rufián puedan hacer equipo en estas elecciones generales, que yo creo que son las dos personas que realmente le pueden devolver la esperanza a la izquierda, que después de esta experiencia de esta legislatura, pues la gente está muy desanimada como es normal. Una legislatura en la que solo manda el Partido Socialista, en la que hemos visto el mayor rearme de la historia de este país. Corrupción, no hacer nada con la especulación con la vivienda y la gente se da cuenta que con lo que hay ahora no es suficiente. Necesitamos una izquierda que realmente sea autónoma del Partido Socialista y eso lamentablemente en esta legislatura no se ha visto."
+   "text": "No, no, en absoluto. Si nosotras estamos hablando con las organizaciones del Frente Amplio y con muchas otras organizaciones, insisto, a Izquierda Unida le hemos tendido la mano en muchísimos territorios. Ayer mismo nuestros líderes territoriales de Andalucía, de la región de Murcia, Me consta también en Cantabria y en Asturias han tendido la mano para que no se pierda ni un solo voto de izquierdas. Yo creo que eso está en la mano de Izquierda Unida y nosotras desde luego estamos trabajando en continuar con ese acuerdo para que Irene Montero y Gabriel Rufián puedan hacer equipo en estas elecciones generales, que yo creo que son las dos personas que realmente le pueden devolver la esperanza a la izquierda, que después de esta experiencia de esta legislatura, pues la gente está muy desanimada como es normal. Una legislatura en la que solo manda el Partido Socialista, en la que hemos visto el mayor rearme de la historia de este país. Corrupción, no hacer nada con la especulación con la vivienda y la gente se da cuenta que con lo que hay ahora no es suficiente. Necesitamos una izquierda que realmente sea autónoma del Partido Socialista y eso lamentablemente en esta legislatura no se ha visto.",
+   "marks": [
+    [
+     0,
+     249.5
+    ],
+    [
+     21,
+     250.7
+    ],
+    [
+     77,
+     253.3
+    ],
+    [
+     156,
+     258.1
+    ],
+    [
+     205,
+     260.7
+    ],
+    [
+     247,
+     262.8
+    ],
+    [
+     316,
+     267.1
+    ],
+    [
+     372,
+     270.3
+    ],
+    [
+     403,
+     271.8
+    ],
+    [
+     427,
+     273.6
+    ],
+    [
+     499,
+     277.8
+    ],
+    [
+     572,
+     282.2
+    ],
+    [
+     640,
+     285.6
+    ],
+    [
+     715,
+     288.8
+    ],
+    [
+     787,
+     292.7
+    ],
+    [
+     818,
+     295.4
+    ],
+    [
+     855,
+     297.2
+    ],
+    [
+     919,
+     300.1
+    ],
+    [
+     945,
+     301.9
+    ],
+    [
+     991,
+     304.0
+    ],
+    [
+     1042,
+     306.6
+    ],
+    [
+     1074,
+     309.4
+    ],
+    [
+     1118,
+     311.8
+    ],
+    [
+     1198,
+     315.8
+    ]
+   ]
   },
   {
    "start": 317.73,
@@ -135,7 +589,21 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Bueno, Claudia, es un tema que hemos hablado en otras ocasiones y no es el que nos ocupa ahora, pero ustedes han estado en el gobierno con el Partido Socialista también."
+   "text": "Bueno, Claudia, es un tema que hemos hablado en otras ocasiones y no es el que nos ocupa ahora, pero ustedes han estado en el gobierno con el Partido Socialista también.",
+   "marks": [
+    [
+     0,
+     317.7
+    ],
+    [
+     66,
+     320.9
+    ],
+    [
+     123,
+     323.3
+    ]
+   ]
   },
   {
    "start": 325.37,
@@ -143,7 +611,157 @@
    "label": "SPEAKER_02",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "En la primera legislatura, cuando se hicieron todas las medidas, no, es que no es lo mismo. Porque en esa legislatura, yo llevo todo en la legislatura preguntándole a Pedro Sánchez y él me responde con medidas que nosotras le arrancamos al Partido Socialista. Entonces, no es lo mismo. La primera legislatura fue la legislatura de la gestión de la crisis económica de la pandemia protegiendo a la gente. Todas esas medidas de las que hoy saca pecho el Partido Socialista, La protección contra los desahucios, la congelación de los alquileres, eso lo escribió el equipo de Podemos en el gobierno y fue a costa del Partido Socialista después de mucho pelear y cuando nos decían que hacíamos ruido. Eso era lo que nos decían, que hacíamos ruido. Y en esta legislatura, el único avance, y puede preguntar en la tertulia, el único avance reseñable que se puede destacar de esta legislatura en clave progresista es la regularización. Algo que le arrancó Podemos al Partido Socialista a cambio de negociar la delegación de competencias migratorias a Cataluña. Y todo lo demás ha sido no hacer nada con la crisis de la vivienda, no hacer absolutamente nada, y por eso tenemos acampadas en la calle, y tenemos una huelga general el próximo 11 de noviembre, y casos de corrupción gravísimos en el seno del PSOE, y el mayor rearme de la historia de este país. Ayer mismo se volvían a publicar los datos. Estamos en máximos históricos, se ha subido un 122% el gasto militar y eso es dinero que no ha ido a nuestros servicios públicos. Claro que hay una diferencia entre la primera legislatura y esta y eso tiene que ver fundamentalmente con que se sustituyó a Podemos por una fuerza que hace lo que dice el Partido Socialista."
+   "text": "En la primera legislatura, cuando se hicieron todas las medidas, no, es que no es lo mismo. Porque en esa legislatura, yo llevo todo en la legislatura preguntándole a Pedro Sánchez y él me responde con medidas que nosotras le arrancamos al Partido Socialista. Entonces, no es lo mismo. La primera legislatura fue la legislatura de la gestión de la crisis económica de la pandemia protegiendo a la gente. Todas esas medidas de las que hoy saca pecho el Partido Socialista, La protección contra los desahucios, la congelación de los alquileres, eso lo escribió el equipo de Podemos en el gobierno y fue a costa del Partido Socialista después de mucho pelear y cuando nos decían que hacíamos ruido. Eso era lo que nos decían, que hacíamos ruido. Y en esta legislatura, el único avance, y puede preguntar en la tertulia, el único avance reseñable que se puede destacar de esta legislatura en clave progresista es la regularización. Algo que le arrancó Podemos al Partido Socialista a cambio de negociar la delegación de competencias migratorias a Cataluña. Y todo lo demás ha sido no hacer nada con la crisis de la vivienda, no hacer absolutamente nada, y por eso tenemos acampadas en la calle, y tenemos una huelga general el próximo 11 de noviembre, y casos de corrupción gravísimos en el seno del PSOE, y el mayor rearme de la historia de este país. Ayer mismo se volvían a publicar los datos. Estamos en máximos históricos, se ha subido un 122% el gasto militar y eso es dinero que no ha ido a nuestros servicios públicos. Claro que hay una diferencia entre la primera legislatura y esta y eso tiene que ver fundamentalmente con que se sustituyó a Podemos por una fuerza que hace lo que dice el Partido Socialista.",
+   "marks": [
+    [
+     0,
+     325.4
+    ],
+    [
+     72,
+     329.0
+    ],
+    [
+     92,
+     329.9
+    ],
+    [
+     133,
+     332.4
+    ],
+    [
+     202,
+     336.3
+    ],
+    [
+     260,
+     339.4
+    ],
+    [
+     279,
+     340.2
+    ],
+    [
+     286,
+     340.5
+    ],
+    [
+     348,
+     344.1
+    ],
+    [
+     404,
+     347.1
+    ],
+    [
+     423,
+     348.1
+    ],
+    [
+     493,
+     351.0
+    ],
+    [
+     569,
+     355.9
+    ],
+    [
+     632,
+     360.1
+    ],
+    [
+     696,
+     363.4
+    ],
+    [
+     700,
+     363.8
+    ],
+    [
+     743,
+     365.4
+    ],
+    [
+     766,
+     366.6
+    ],
+    [
+     833,
+     370.5
+    ],
+    [
+     909,
+     374.2
+    ],
+    [
+     928,
+     374.9
+    ],
+    [
+     987,
+     378.9
+    ],
+    [
+     1053,
+     382.0
+    ],
+    [
+     1063,
+     382.8
+    ],
+    [
+     1121,
+     385.6
+    ],
+    [
+     1191,
+     389.4
+    ],
+    [
+     1256,
+     393.7
+    ],
+    [
+     1320,
+     397.0
+    ],
+    [
+     1349,
+     397.9
+    ],
+    [
+     1382,
+     399.4
+    ],
+    [
+     1393,
+     400.1
+    ],
+    [
+     1445,
+     403.6
+    ],
+    [
+     1494,
+     406.2
+    ],
+    [
+     1523,
+     407.5
+    ],
+    [
+     1581,
+     409.9
+    ],
+    [
+     1646,
+     413.7
+    ],
+    [
+     1703,
+     416.9
+    ]
+   ]
   },
   {
    "start": 418.69,
@@ -151,7 +769,45 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Tengo delante, y usted los conoce perfectamente, los datos del CIS. Sumarse con la caída como cuarta fuerza, después de Vox, con un 6,1%, y ustedes tendrían un 3,1% de los votos, 6 décimas menos que en el barómetro publicado en septiembre. ¿No temen que este debate abierto dentro de la izquierda, esta incapacidad para ponerse de acuerdo, les reste votos por ese lado y vayan la izquierda al voto útil hacia el Partido Socialista?"
+   "text": "Tengo delante, y usted los conoce perfectamente, los datos del CIS. Sumarse con la caída como cuarta fuerza, después de Vox, con un 6,1%, y ustedes tendrían un 3,1% de los votos, 6 décimas menos que en el barómetro publicado en septiembre. ¿No temen que este debate abierto dentro de la izquierda, esta incapacidad para ponerse de acuerdo, les reste votos por ese lado y vayan la izquierda al voto útil hacia el Partido Socialista?",
+   "marks": [
+    [
+     0,
+     418.7
+    ],
+    [
+     68,
+     423.4
+    ],
+    [
+     76,
+     423.9
+    ],
+    [
+     133,
+     427.1
+    ],
+    [
+     181,
+     431.7
+    ],
+    [
+     240,
+     434.1
+    ],
+    [
+     254,
+     435.0
+    ],
+    [
+     331,
+     439.2
+    ],
+    [
+     393,
+     442.7
+    ]
+   ]
   },
   {
    "start": 447.03,
@@ -159,7 +815,133 @@
    "label": "SPEAKER_02",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "Bueno, hasta donde yo sé, Sumar no se presenta a estas elecciones, todo el rato me llevas hablando de Frente Amplio, yo creo que este cambio de nombres, la gente es consciente de que es un juego de trileros para no hablar de lo que hay que hablar, que es que esta legislatura ha sido un desastre en términos de avances progresistas, no se puede decir un solo avance que haya hecho este gobierno, y este gobierno estaba compuesto por el PSOE y por Sumar. Y yo creo que hay una diferencia entre el trabajo que se hizo desde Podemos en el gobierno y lo que hemos visto en esta legislatura. Más allá de eso, nosotras somos muy conscientes de que hay muchísima gente progresista que está muy preocupada. Y nosotras estamos escuchando atentamente esa preocupación y estamos trabajando con todas nuestras fuerzas, con toda nuestra dedicación para que en estas elecciones generales no se pierda ni un solo voto progresista, ni un solo voto de izquierdas. Eso pasa necesariamente, y creo que podemos repasar todo el mapa del Estado español si hace falta, por candidaturas de unidad en el País Valencià, en Les Illes Baleares, en Canarias, y yo creo que si no hay acuerdo en Madrid y Barcelona, porque es un sitio en el que ha sido muy difícil alcanzar un acuerdo, Yo creo que Izquierda Unida tiene una responsabilidad de cerrar acuerdos con Podemos, como les hemos propuesto, para que no se pierda un solo voto de izquierdas. Cerremos acuerdos en Murcia, en Asturias, por supuestísimo en Andalucía, y pongámonos a trabajar como nos está pidiendo la gente, para que no se pierda ni un solo voto de izquierdas, la gente pueda votar izquierda y nos pongamos en un proyecto que realmente sirva para bajar los precios de los alquileres, como está demandando la gente en las acampadas."
+   "text": "Bueno, hasta donde yo sé, Sumar no se presenta a estas elecciones, todo el rato me llevas hablando de Frente Amplio, yo creo que este cambio de nombres, la gente es consciente de que es un juego de trileros para no hablar de lo que hay que hablar, que es que esta legislatura ha sido un desastre en términos de avances progresistas, no se puede decir un solo avance que haya hecho este gobierno, y este gobierno estaba compuesto por el PSOE y por Sumar. Y yo creo que hay una diferencia entre el trabajo que se hizo desde Podemos en el gobierno y lo que hemos visto en esta legislatura. Más allá de eso, nosotras somos muy conscientes de que hay muchísima gente progresista que está muy preocupada. Y nosotras estamos escuchando atentamente esa preocupación y estamos trabajando con todas nuestras fuerzas, con toda nuestra dedicación para que en estas elecciones generales no se pierda ni un solo voto progresista, ni un solo voto de izquierdas. Eso pasa necesariamente, y creo que podemos repasar todo el mapa del Estado español si hace falta, por candidaturas de unidad en el País Valencià, en Les Illes Baleares, en Canarias, y yo creo que si no hay acuerdo en Madrid y Barcelona, porque es un sitio en el que ha sido muy difícil alcanzar un acuerdo, Yo creo que Izquierda Unida tiene una responsabilidad de cerrar acuerdos con Podemos, como les hemos propuesto, para que no se pierda un solo voto de izquierdas. Cerremos acuerdos en Murcia, en Asturias, por supuestísimo en Andalucía, y pongámonos a trabajar como nos está pidiendo la gente, para que no se pierda ni un solo voto de izquierdas, la gente pueda votar izquierda y nos pongamos en un proyecto que realmente sirva para bajar los precios de los alquileres, como está demandando la gente en las acampadas.",
+   "marks": [
+    [
+     0,
+     447.0
+    ],
+    [
+     67,
+     449.9
+    ],
+    [
+     129,
+     453.7
+    ],
+    [
+     189,
+     458.9
+    ],
+    [
+     248,
+     462.8
+    ],
+    [
+     311,
+     466.2
+    ],
+    [
+     381,
+     469.3
+    ],
+    [
+     447,
+     473.0
+    ],
+    [
+     454,
+     473.4
+    ],
+    [
+     508,
+     476.0
+    ],
+    [
+     566,
+     478.7
+    ],
+    [
+     587,
+     480.2
+    ],
+    [
+     638,
+     483.3
+    ],
+    [
+     699,
+     487.4
+    ],
+    [
+     718,
+     488.6
+    ],
+    [
+     811,
+     496.7
+    ],
+    [
+     887,
+     501.5
+    ],
+    [
+     947,
+     504.4
+    ],
+    [
+     951,
+     504.9
+    ],
+    [
+     1023,
+     509.8
+    ],
+    [
+     1094,
+     514.0
+    ],
+    [
+     1150,
+     517.7
+    ],
+    [
+     1210,
+     521.0
+    ],
+    [
+     1277,
+     524.5
+    ],
+    [
+     1356,
+     528.5
+    ],
+    [
+     1417,
+     531.5
+    ],
+    [
+     1426,
+     531.9
+    ],
+    [
+     1505,
+     539.1
+    ],
+    [
+     1569,
+     541.7
+    ],
+    [
+     1633,
+     545.0
+    ],
+    [
+     1704,
+     548.8
+    ]
+   ]
   },
   {
    "start": 551.89,
@@ -167,7 +949,25 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Y claro, en el País Vasco y Galicia, por un acuerdo entre Esquerra y las formaciones nacionalistas de esas comunidades o de esos territorios, el señor Rofián va a hacer campaña por Bildu y por el BNGA."
+   "text": "Y claro, en el País Vasco y Galicia, por un acuerdo entre Esquerra y las formaciones nacionalistas de esas comunidades o de esos territorios, el señor Rofián va a hacer campaña por Bildu y por el BNGA.",
+   "marks": [
+    [
+     0,
+     551.9
+    ],
+    [
+     58,
+     556.5
+    ],
+    [
+     142,
+     560.5
+    ],
+    [
+     196,
+     563.8
+    ]
+   ]
   },
   {
    "start": 564.61,
@@ -175,7 +975,105 @@
    "label": "SPEAKER_02",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "Por supuesto, Irene Montero por Podemos. Porque esto es un acuerdo de colaboración y cooperación. ¿Pero no auxiliará eso un poco? Yo es que creo que un acuerdo de cooperación implica necesariamente reconocer nuestras diferencias. Nosotras no estamos diciendo que somos lo mismo. Yo creo que la altura de miras de Esquerra y de Podemos en este caso tiene que ver con haber sido capaces de apartar nuestras diferencias y poner en común lo que nos une. Y en este momento lo que nos une y lo que nos llevaba pidiendo la gente durante meses en todas las encuestas que han salido en las redes sociales que todo el mundo ha visto es que Irene Montero y Gabriel Rufián hicieran equipo para estas elecciones generales porque es la gente, son las personas en las que la gente confía. Todo lo que estamos ofreciendo yo creo a la ciudadanía en estas elecciones. Vamos a trabajar para eso y vamos a trabajar para que esa candidatura sea lo más amplia y lo más fuerte posible. Es que yo creo que está claro."
+   "text": "Por supuesto, Irene Montero por Podemos. Porque esto es un acuerdo de colaboración y cooperación. ¿Pero no auxiliará eso un poco? Yo es que creo que un acuerdo de cooperación implica necesariamente reconocer nuestras diferencias. Nosotras no estamos diciendo que somos lo mismo. Yo creo que la altura de miras de Esquerra y de Podemos en este caso tiene que ver con haber sido capaces de apartar nuestras diferencias y poner en común lo que nos une. Y en este momento lo que nos une y lo que nos llevaba pidiendo la gente durante meses en todas las encuestas que han salido en las redes sociales que todo el mundo ha visto es que Irene Montero y Gabriel Rufián hicieran equipo para estas elecciones generales porque es la gente, son las personas en las que la gente confía. Todo lo que estamos ofreciendo yo creo a la ciudadanía en estas elecciones. Vamos a trabajar para eso y vamos a trabajar para que esa candidatura sea lo más amplia y lo más fuerte posible. Es que yo creo que está claro.",
+   "marks": [
+    [
+     0,
+     564.6
+    ],
+    [
+     41,
+     567.8
+    ],
+    [
+     70,
+     569.2
+    ],
+    [
+     98,
+     570.3
+    ],
+    [
+     130,
+     571.8
+    ],
+    [
+     140,
+     572.4
+    ],
+    [
+     230,
+     577.6
+    ],
+    [
+     239,
+     578.0
+    ],
+    [
+     279,
+     579.8
+    ],
+    [
+     301,
+     581.1
+    ],
+    [
+     358,
+     584.0
+    ],
+    [
+     428,
+     589.4
+    ],
+    [
+     450,
+     590.4
+    ],
+    [
+     479,
+     591.5
+    ],
+    [
+     539,
+     594.7
+    ],
+    [
+     605,
+     597.2
+    ],
+    [
+     670,
+     601.2
+    ],
+    [
+     746,
+     605.0
+    ],
+    [
+     774,
+     607.6
+    ],
+    [
+     808,
+     609.0
+    ],
+    [
+     850,
+     611.2
+    ],
+    [
+     876,
+     612.6
+    ],
+    [
+     938,
+     616.2
+    ],
+    [
+     963,
+     617.3
+    ]
+   ]
   },
   {
    "start": 620.53,
@@ -183,7 +1081,45 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "La señora Ada Colau decía ayer por la mañana, estaba dispuesta a dar un paso al lado si con ello se podía alcanzar un acuerdo. Luego por la noche iba al intermedio y daba un puñetazo en la mesa, me dio la sensación. ¿Le parece que escuchemos sus palabras y las comentamos? Perfecto. Vamos allá."
+   "text": "La señora Ada Colau decía ayer por la mañana, estaba dispuesta a dar un paso al lado si con ello se podía alcanzar un acuerdo. Luego por la noche iba al intermedio y daba un puñetazo en la mesa, me dio la sensación. ¿Le parece que escuchemos sus palabras y las comentamos? Perfecto. Vamos allá.",
+   "marks": [
+    [
+     0,
+     620.5
+    ],
+    [
+     65,
+     624.3
+    ],
+    [
+     118,
+     626.4
+    ],
+    [
+     127,
+     626.6
+    ],
+    [
+     183,
+     630.0
+    ],
+    [
+     216,
+     631.3
+    ],
+    [
+     246,
+     632.5
+    ],
+    [
+     273,
+     634.8
+    ],
+    [
+     283,
+     635.1
+    ]
+   ]
   },
   {
    "start": 635.57,
@@ -191,7 +1127,49 @@
    "label": "SPEAKER_01",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "El acuerdo entre Esquerra y Podemos ha tenido varios aspectos desconcertantes. Uno es que no sirve para construir una candidatura unitaria a la que sumar otras fuerzas, pero la otra efectivamente es que habían insistido mucho en Podemos en que la clave de todo pasaba por unas primarias, pero su principal acuerdo y su principal bandera que tienen ahora mismo para presentarse a las elecciones no ha pasado por ninguna primaria. Es evidente que ahí hay alguna contradicción, sin embargo, insisto, respeto a todos los procesos."
+   "text": "El acuerdo entre Esquerra y Podemos ha tenido varios aspectos desconcertantes. Uno es que no sirve para construir una candidatura unitaria a la que sumar otras fuerzas, pero la otra efectivamente es que habían insistido mucho en Podemos en que la clave de todo pasaba por unas primarias, pero su principal acuerdo y su principal bandera que tienen ahora mismo para presentarse a las elecciones no ha pasado por ninguna primaria. Es evidente que ahí hay alguna contradicción, sin embargo, insisto, respeto a todos los procesos.",
+   "marks": [
+    [
+     0,
+     635.6
+    ],
+    [
+     79,
+     641.0
+    ],
+    [
+     83,
+     641.5
+    ],
+    [
+     148,
+     644.7
+    ],
+    [
+     226,
+     649.6
+    ],
+    [
+     288,
+     652.2
+    ],
+    [
+     360,
+     656.5
+    ],
+    [
+     429,
+     659.6
+    ],
+    [
+     432,
+     659.9
+    ],
+    [
+     513,
+     665.6
+    ]
+   ]
   },
   {
    "start": 667.25,
@@ -199,7 +1177,13 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "¿Hay contradicción, señora Belarra?"
+   "text": "¿Hay contradicción, señora Belarra?",
+   "marks": [
+    [
+     0,
+     667.2
+    ]
+   ]
   },
   {
    "start": 670.03,
@@ -207,7 +1191,125 @@
    "label": "SPEAKER_02",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "Yo creo que donde hay contradicciones en fuerzas políticas que se dicen de izquierdas y no están dispuestas a ser primarias. Con Esquerra Republicana hemos llegado a un acuerdo como los que hemos llegado con Izquierda Unida a lo largo de nuestra historia en centenares, decenas de ocasiones. Si no hay acuerdos justos, si no hay acuerdos en los que todas las organizaciones se sientan cómodas, la única vía posible de solución de esas diferencias son las primarias. Y yo lo que no puedo entender es por qué una organización, una persona que yo creo que tiene compromiso democrático como es Ada Colau, no ha aceptado presentarse a unas primarias en las que podamos decidir cuál es el mejor cabeza de lista, cuáles son las mejores personas para representarnos en esas elecciones generales. Pues nosotras hemos estado dispuestas a todo. Hemos hecho unas primarias abiertas que no son solo de Podemos. Por cierto, se está votando en este momento para cualquiera que quiera participar hasta el final del día de hoy. Nosotras hemos estado dispuestas a que sea la gente, que yo creo que ahí es cuando la izquierda siempre acierta, a que sea la gente quien decida cuál es la mejor candidatura. Yo creo que las opciones están claras, o acuerdos justos o primarias para que sea la gente quien decida quiénes son los mejores equipos. Quien tiene, yo creo, una contradicción es quien no puede explicar por qué no acepta unas primarias."
+   "text": "Yo creo que donde hay contradicciones en fuerzas políticas que se dicen de izquierdas y no están dispuestas a ser primarias. Con Esquerra Republicana hemos llegado a un acuerdo como los que hemos llegado con Izquierda Unida a lo largo de nuestra historia en centenares, decenas de ocasiones. Si no hay acuerdos justos, si no hay acuerdos en los que todas las organizaciones se sientan cómodas, la única vía posible de solución de esas diferencias son las primarias. Y yo lo que no puedo entender es por qué una organización, una persona que yo creo que tiene compromiso democrático como es Ada Colau, no ha aceptado presentarse a unas primarias en las que podamos decidir cuál es el mejor cabeza de lista, cuáles son las mejores personas para representarnos en esas elecciones generales. Pues nosotras hemos estado dispuestas a todo. Hemos hecho unas primarias abiertas que no son solo de Podemos. Por cierto, se está votando en este momento para cualquiera que quiera participar hasta el final del día de hoy. Nosotras hemos estado dispuestas a que sea la gente, que yo creo que ahí es cuando la izquierda siempre acierta, a que sea la gente quien decida cuál es la mejor candidatura. Yo creo que las opciones están claras, o acuerdos justos o primarias para que sea la gente quien decida quiénes son los mejores equipos. Quien tiene, yo creo, una contradicción es quien no puede explicar por qué no acepta unas primarias.",
+   "marks": [
+    [
+     0,
+     670.0
+    ],
+    [
+     72,
+     674.6
+    ],
+    [
+     125,
+     677.1
+    ],
+    [
+     150,
+     679.0
+    ],
+    [
+     218,
+     681.7
+    ],
+    [
+     292,
+     715.1
+    ],
+    [
+     349,
+     717.3
+    ],
+    [
+     427,
+     721.7
+    ],
+    [
+     466,
+     723.5
+    ],
+    [
+     487,
+     724.6
+    ],
+    [
+     553,
+     728.4
+    ],
+    [
+     630,
+     732.2
+    ],
+    [
+     696,
+     736.2
+    ],
+    [
+     777,
+     741.1
+    ],
+    [
+     788,
+     741.8
+    ],
+    [
+     834,
+     744.3
+    ],
+    [
+     861,
+     745.4
+    ],
+    [
+     898,
+     747.3
+    ],
+    [
+     926,
+     748.6
+    ],
+    [
+     999,
+     752.4
+    ],
+    [
+     1011,
+     753.6
+    ],
+    [
+     1064,
+     756.2
+    ],
+    [
+     1126,
+     759.5
+    ],
+    [
+     1186,
+     762.6
+    ],
+    [
+     1189,
+     763.3
+    ],
+    [
+     1260,
+     767.6
+    ],
+    [
+     1323,
+     770.8
+    ],
+    [
+     1329,
+     771.2
+    ],
+    [
+     1398,
+     774.9
+    ]
+   ]
   },
   {
    "start": 776.81,
@@ -215,7 +1317,13 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Pero primarias en las que solo hay una candidata."
+   "text": "Pero primarias en las que solo hay una candidata.",
+   "marks": [
+    [
+     0,
+     776.8
+    ]
+   ]
   },
   {
    "start": 779.69,
@@ -223,7 +1331,13 @@
    "label": "SPEAKER_02",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "No, pero estas primarias abiertas se podía presentar todo el mundo."
+   "text": "No, pero estas primarias abiertas se podía presentar todo el mundo.",
+   "marks": [
+    [
+     0,
+     779.7
+    ]
+   ]
   },
   {
    "start": 783.41,
@@ -231,7 +1345,13 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Pero solo hay una, al final, se está votando una."
+   "text": "Pero solo hay una, al final, se está votando una.",
+   "marks": [
+    [
+     0,
+     783.4
+    ]
+   ]
   },
   {
    "start": 785.45,
@@ -239,7 +1359,25 @@
    "label": "SPEAKER_02",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "Claro, pero porque yo lo que me pregunto y sigo, o sea, entiendo cómo funcionan los medios, entiendo lo que significa, quién manda en este país. No, no, no, nadie me dice lo"
+   "text": "Claro, pero porque yo lo que me pregunto y sigo, o sea, entiendo cómo funcionan los medios, entiendo lo que significa, quién manda en este país. No, no, no, nadie me dice lo",
+   "marks": [
+    [
+     0,
+     785.5
+    ],
+    [
+     56,
+     790.4
+    ],
+    [
+     134,
+     795.1
+    ],
+    [
+     145,
+     796.0
+    ]
+   ]
   },
   {
    "start": 798.01,
@@ -247,7 +1385,33 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "que le tengo que preguntar a usted. Simplemente digo, ¿hay una sola candidata? Lo has dicho tú, no lo he dicho yo. ¿Hay una sola candidata?"
+   "text": "que le tengo que preguntar a usted. Simplemente digo, ¿hay una sola candidata? Lo has dicho tú, no lo he dicho yo. ¿Hay una sola candidata?",
+   "marks": [
+    [
+     0,
+     798.0
+    ],
+    [
+     36,
+     799.9
+    ],
+    [
+     68,
+     801.8
+    ],
+    [
+     79,
+     802.4
+    ],
+    [
+     115,
+     803.4
+    ],
+    [
+     124,
+     803.8
+    ]
+   ]
   },
   {
    "start": 805.33,
@@ -255,7 +1419,141 @@
    "label": "SPEAKER_02",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "Ahora sí, pero en esas primarias, que no son primarias de Podemos, son abiertas a toda la ciudadanía y entrando en primarias.info todo el mundo lo puede ver. Son unas primarias en las que perfectamente se podía haber presentado todos los distintos candidatos que se han presentado a encabezar, digamos, eso que antes era Sumar y que ahora es el Frente Amplio. Emilio Delgado, Mónica García, Ada Colau, todo el mundo se podía haber presentado. Si no se han presentado, creo que también esa pregunta hay que hacérsela a ellos. ¿Por qué no aceptan primarias? ¿Por qué no están dispuestos a ir a una candidatura de unidad en base a primarias? ¿Y qué es que elija la gente? Fíjate si estamos dispuestas a todo en Podemos por una candidatura de unidad, que estábamos dispuestas a ir a unas primarias compitiendo con todo el mundo. Yo creo que aquí, al final, después de todo el ruido de esta semana, que yo entiendo que la gente esté hasta las narices y muy harta, porque hasta yo estoy muy harta, me imagino que la gente tiene que estar hasta las narices, yo creo que lo que tiene que quedar es candidaturas en todos los territorios en los que no se pierda ni un solo voto de izquierdas. Y ahí en este momento, a 24 horas de cierre del plazo, quien tiene en su mano eso, que no se pierda ni un solo voto de izquierdas, porque todo el mundo sabe que las circunscripciones de Madrid y de Barcelona son proporcionales, ahí no se pierden votos de izquierdas, es Izquierda Unida que tiene nuestra mano tendida para sentarnos a ver Andalucía, todos los territorios en los que mucha gente quiere votar izquierda y no le estamos dando la oportunidad."
+   "text": "Ahora sí, pero en esas primarias, que no son primarias de Podemos, son abiertas a toda la ciudadanía y entrando en primarias.info todo el mundo lo puede ver. Son unas primarias en las que perfectamente se podía haber presentado todos los distintos candidatos que se han presentado a encabezar, digamos, eso que antes era Sumar y que ahora es el Frente Amplio. Emilio Delgado, Mónica García, Ada Colau, todo el mundo se podía haber presentado. Si no se han presentado, creo que también esa pregunta hay que hacérsela a ellos. ¿Por qué no aceptan primarias? ¿Por qué no están dispuestos a ir a una candidatura de unidad en base a primarias? ¿Y qué es que elija la gente? Fíjate si estamos dispuestas a todo en Podemos por una candidatura de unidad, que estábamos dispuestas a ir a unas primarias compitiendo con todo el mundo. Yo creo que aquí, al final, después de todo el ruido de esta semana, que yo entiendo que la gente esté hasta las narices y muy harta, porque hasta yo estoy muy harta, me imagino que la gente tiene que estar hasta las narices, yo creo que lo que tiene que quedar es candidaturas en todos los territorios en los que no se pierda ni un solo voto de izquierdas. Y ahí en este momento, a 24 horas de cierre del plazo, quien tiene en su mano eso, que no se pierda ni un solo voto de izquierdas, porque todo el mundo sabe que las circunscripciones de Madrid y de Barcelona son proporcionales, ahí no se pierden votos de izquierdas, es Izquierda Unida que tiene nuestra mano tendida para sentarnos a ver Andalucía, todos los territorios en los que mucha gente quiere votar izquierda y no le estamos dando la oportunidad.",
+   "marks": [
+    [
+     0,
+     805.3
+    ],
+    [
+     67,
+     808.7
+    ],
+    [
+     135,
+     812.5
+    ],
+    [
+     158,
+     814.2
+    ],
+    [
+     202,
+     816.3
+    ],
+    [
+     281,
+     821.2
+    ],
+    [
+     342,
+     824.5
+    ],
+    [
+     360,
+     825.6
+    ],
+    [
+     416,
+     829.0
+    ],
+    [
+     443,
+     830.0
+    ],
+    [
+     485,
+     832.3
+    ],
+    [
+     525,
+     834.2
+    ],
+    [
+     556,
+     835.8
+    ],
+    [
+     618,
+     839.4
+    ],
+    [
+     639,
+     841.0
+    ],
+    [
+     669,
+     842.6
+    ],
+    [
+     676,
+     843.0
+    ],
+    [
+     747,
+     847.0
+    ],
+    [
+     818,
+     850.0
+    ],
+    [
+     825,
+     850.2
+    ],
+    [
+     878,
+     853.8
+    ],
+    [
+     938,
+     856.1
+    ],
+    [
+     1003,
+     861.5
+    ],
+    [
+     1063,
+     865.0
+    ],
+    [
+     1131,
+     869.8
+    ],
+    [
+     1183,
+     871.9
+    ],
+    [
+     1185,
+     872.5
+    ],
+    [
+     1244,
+     876.3
+    ],
+    [
+     1294,
+     878.5
+    ],
+    [
+     1369,
+     881.6
+    ],
+    [
+     1438,
+     885.1
+    ],
+    [
+     1517,
+     889.4
+    ],
+    [
+     1590,
+     894.5
+    ]
+   ]
   },
   {
    "start": 896.91,
@@ -263,7 +1561,29 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Pero ustedes ponen la carga de la responsabilidad en Izquierda Unida nada más. Ustedes no la tienen. Por eso les suelo preguntar al principio si están dialogando."
+   "text": "Pero ustedes ponen la carga de la responsabilidad en Izquierda Unida nada más. Ustedes no la tienen. Por eso les suelo preguntar al principio si están dialogando.",
+   "marks": [
+    [
+     0,
+     896.9
+    ],
+    [
+     74,
+     900.7
+    ],
+    [
+     79,
+     901.0
+    ],
+    [
+     101,
+     902.6
+    ],
+    [
+     142,
+     904.5
+    ]
+   ]
   },
   {
    "start": 906.19,
@@ -271,7 +1591,185 @@
    "label": "SPEAKER_02",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "Sí, sí, nosotros estamos hablando con todo el mundo porque eso es lo que hace Podemos, trabajar con mucha dedicación y hablando con todo el mundo, aunque haya muchos medios interesados en decir que siempre podemos mal. Yo creo que Podemos ha demostrado, y nuestra carta de servicios es muy larga, que siempre hemos impulsado las candidaturas más amplias posibles. Incluso aceptamos el veto de Yolanda Díaz a Irene Montero en las anteriores elecciones. Pero es que ahora, después de esta legislatura, la gente ya se ha dado cuenta de que un proyecto político que hace todo lo que dice el PSOE no es lo que necesita la gente. Así, lo único que hemos conseguido es que Vox y el PP estén en máximos históricos. Para frenar a estas derechas no vale con plegarse al Partido Socialista. Hay que ir a la ofensiva. Hay que ir con firmeza a decir que vamos a expropiar las viviendas de los fondos buitre para hacer un parque de alquiler social. Hay que ir con credibilidad. Y para tener credibilidad, yo creo que en este momento quien la tiene son Gabriel Rufián e Irene Montero, que son personas que todo el mundo sabe que no se doblan, que son firmes y que van a hacer lo que hay que hacer para que esas cosas pasen, no para ponerlas en un programa electoral y que queden muy bonitas, sino para que pasen de verdad, que es lo que necesita la gente, que bajen los alquileres, que baje el precio de la compra y eso el PSOE no lo va a hacer. Y el PSOE, si no le tuerces el brazo, no lo va a hacer, todo el mundo lo sabe. Aunque Pedro Sánchez se envuelva en la bandera de la vivienda para estas elecciones, todo el mundo se acuerda que lo único que han hecho en esta legislatura es intentar impulsar una reforma de la ley del suelo para ponerle una alfombra roja a la especulación, un teléfono de la esperanza y una web con 800 viviendas. Esa es la carta de servicios del PSOE en materia de vivienda. Entonces, pues yo creo que hay que hacer otra cosa y para eso necesitamos una izquierda firme y una izquierda fuerte."
+   "text": "Sí, sí, nosotros estamos hablando con todo el mundo porque eso es lo que hace Podemos, trabajar con mucha dedicación y hablando con todo el mundo, aunque haya muchos medios interesados en decir que siempre podemos mal. Yo creo que Podemos ha demostrado, y nuestra carta de servicios es muy larga, que siempre hemos impulsado las candidaturas más amplias posibles. Incluso aceptamos el veto de Yolanda Díaz a Irene Montero en las anteriores elecciones. Pero es que ahora, después de esta legislatura, la gente ya se ha dado cuenta de que un proyecto político que hace todo lo que dice el PSOE no es lo que necesita la gente. Así, lo único que hemos conseguido es que Vox y el PP estén en máximos históricos. Para frenar a estas derechas no vale con plegarse al Partido Socialista. Hay que ir a la ofensiva. Hay que ir con firmeza a decir que vamos a expropiar las viviendas de los fondos buitre para hacer un parque de alquiler social. Hay que ir con credibilidad. Y para tener credibilidad, yo creo que en este momento quien la tiene son Gabriel Rufián e Irene Montero, que son personas que todo el mundo sabe que no se doblan, que son firmes y que van a hacer lo que hay que hacer para que esas cosas pasen, no para ponerlas en un programa electoral y que queden muy bonitas, sino para que pasen de verdad, que es lo que necesita la gente, que bajen los alquileres, que baje el precio de la compra y eso el PSOE no lo va a hacer. Y el PSOE, si no le tuerces el brazo, no lo va a hacer, todo el mundo lo sabe. Aunque Pedro Sánchez se envuelva en la bandera de la vivienda para estas elecciones, todo el mundo se acuerda que lo único que han hecho en esta legislatura es intentar impulsar una reforma de la ley del suelo para ponerle una alfombra roja a la especulación, un teléfono de la esperanza y una web con 800 viviendas. Esa es la carta de servicios del PSOE en materia de vivienda. Entonces, pues yo creo que hay que hacer otra cosa y para eso necesitamos una izquierda firme y una izquierda fuerte.",
+   "marks": [
+    [
+     0,
+     906.2
+    ],
+    [
+     66,
+     909.9
+    ],
+    [
+     137,
+     913.6
+    ],
+    [
+     214,
+     917.4
+    ],
+    [
+     219,
+     917.8
+    ],
+    [
+     283,
+     921.5
+    ],
+    [
+     364,
+     926.6
+    ],
+    [
+     429,
+     930.1
+    ],
+    [
+     452,
+     931.3
+    ],
+    [
+     509,
+     934.9
+    ],
+    [
+     567,
+     939.0
+    ],
+    [
+     617,
+     941.5
+    ],
+    [
+     624,
+     941.9
+    ],
+    [
+     675,
+     944.6
+    ],
+    [
+     707,
+     946.5
+    ],
+    [
+     744,
+     948.6
+    ],
+    [
+     780,
+     950.6
+    ],
+    [
+     806,
+     952.0
+    ],
+    [
+     810,
+     952.5
+    ],
+    [
+     873,
+     956.9
+    ],
+    [
+     935,
+     959.6
+    ],
+    [
+     939,
+     960.1
+    ],
+    [
+     964,
+     962.0
+    ],
+    [
+     1006,
+     964.2
+    ],
+    [
+     1074,
+     967.9
+    ],
+    [
+     1132,
+     970.5
+    ],
+    [
+     1182,
+     972.8
+    ],
+    [
+     1251,
+     976.7
+    ],
+    [
+     1312,
+     979.7
+    ],
+    [
+     1376,
+     982.3
+    ],
+    [
+     1422,
+     984.8
+    ],
+    [
+     1431,
+     985.1
+    ],
+    [
+     1472,
+     987.6
+    ],
+    [
+     1510,
+     989.4
+    ],
+    [
+     1531,
+     991.3
+    ],
+    [
+     1600,
+     995.0
+    ],
+    [
+     1655,
+     996.9
+    ],
+    [
+     1725,
+     1000.8
+    ],
+    [
+     1798,
+     1004.9
+    ],
+    [
+     1827,
+     1006.8
+    ],
+    [
+     1856,
+     1008.0
+    ],
+    [
+     1889,
+     1010.5
+    ],
+    [
+     1920,
+     1011.9
+    ],
+    [
+     1985,
+     1015.4
+    ]
+   ]
   },
   {
    "start": 1017.85,
@@ -279,7 +1777,33 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "No se han hecho las cosas al revés, pregunto, ¿no debían haber negociado primero cuotas? Estamos hablando de Ada Colau, Frente Amplio, que al final no sabemos, de Rufián e Irene Montero. ¿No debían haber negociado primero cuotas o incluso programas y luego candidatos?"
+   "text": "No se han hecho las cosas al revés, pregunto, ¿no debían haber negociado primero cuotas? Estamos hablando de Ada Colau, Frente Amplio, que al final no sabemos, de Rufián e Irene Montero. ¿No debían haber negociado primero cuotas o incluso programas y luego candidatos?",
+   "marks": [
+    [
+     0,
+     1017.9
+    ],
+    [
+     63,
+     1021.4
+    ],
+    [
+     89,
+     1022.4
+    ],
+    [
+     142,
+     1024.7
+    ],
+    [
+     187,
+     1028.6
+    ],
+    [
+     214,
+     1030.1
+    ]
+   ]
   },
   {
    "start": 1034.19,
@@ -287,7 +1811,13 @@
    "label": "SPEAKER_02",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "¿A qué te refieres con cuotas?"
+   "text": "¿A qué te refieres con cuotas?",
+   "marks": [
+    [
+     0,
+     1034.2
+    ]
+   ]
   },
   {
    "start": 1042.39,
@@ -295,7 +1825,53 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "¿Quién permanece? ¿Quién tiene responsabilidades? ¿Quién ocupa cada uno de los territorios de esas fuerzas políticas? ¿Quién negocia? ¿Qué programas se hacen? ¿Qué se lleva? Y sobre un acuerdo de eso empezar a haber candidatos, a eso me refiero El peso de cada formación también, vamos, en ese territorio O sea, yo creo que"
+   "text": "¿Quién permanece? ¿Quién tiene responsabilidades? ¿Quién ocupa cada uno de los territorios de esas fuerzas políticas? ¿Quién negocia? ¿Qué programas se hacen? ¿Qué se lleva? Y sobre un acuerdo de eso empezar a haber candidatos, a eso me refiero El peso de cada formación también, vamos, en ese territorio O sea, yo creo que",
+   "marks": [
+    [
+     0,
+     1042.4
+    ],
+    [
+     18,
+     1043.5
+    ],
+    [
+     50,
+     1045.5
+    ],
+    [
+     91,
+     1048.8
+    ],
+    [
+     118,
+     1049.9
+    ],
+    [
+     134,
+     1051.0
+    ],
+    [
+     159,
+     1052.3
+    ],
+    [
+     167,
+     1052.6
+    ],
+    [
+     174,
+     1053.0
+    ],
+    [
+     230,
+     1055.1
+    ],
+    [
+     294,
+     1060.2
+    ]
+   ]
   },
   {
    "start": 1060.93,
@@ -303,7 +1879,213 @@
    "label": "SPEAKER_02",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "eso, humildemente, eso en todos los países de Latinoamérica donde hay izquierdas fuertes y de gobierno, tiene una solución muy clara, que son las primarias internas dentro del espacio. Eso, ese problema ha surgido y se ha resuelto en muchos otros países, a pesar de que España no tenga ese tipo de cultura tan arraigada de primarias, pero ese problema, insisto, ya existe y ya se ha resuelto. Yo creo que aquí la cuestión es de proyecto político. Creo que en estas elecciones se dirime, y se ha visto en esta última legislatura, si tenemos una izquierda fuerte, autónoma del Partido Socialista, que es capaz de llevar hasta el final lo que hay que hacer, o no la tenemos. Esa es la pregunta. Entonces yo creo que quien puede encarnar mejor esa izquierda valiente, porque tienen una carta de servicios y todo el mundo sabe que Gabriel Rufián se ha mantenido firme, Irene Montero se ha mantenido firme y ha defendido las políticas feministas, haya sufrido lo que haya sufrido, que todo el mundo sabe lo que fue. Y esa es la izquierda que necesitamos y que creo que la gente está esperando en este país. Una izquierda que diga claramente que hay que expropiar las viviendas de los fondos buitre para ponerlos en alquiler social. Y eso tiene que hacerlo alguien que sepamos que no se va a doblar. Y yo creo que esa es la base de lo que nosotras planteamos. Que por supuesto vamos a hablar con todo el mundo, vamos a hablar en todos los territorios con todas las fuerzas políticas que existan ahí. Por supuesto, para que no se pierda un solo voto de izquierdas, porque esa es la cultura de Podemos y esa es nuestra naturaleza. Pero yo creo que claro que estamos ante un problema de proyecto político y de lo que significó Unidas Podemos respecto a lo que ha significado Sumar. Porque si Sumar ha salido también, ¿por qué le han cambiado el nombre? Sí, sí, no te preocupes que ahora en cuanto cuelgue sigo haciendo 20 llamadas por minuto y seguimos trabajando. Pero yo creo que la realidad es la que es. Ahora mismo las circunscripciones de Madrid y Barcelona, la gente que vota izquierda no se pierde su voto, puede votar lo que quiera y fuera de Madrid y Barcelona es donde hay que trabajar para tener las candidaturas de unidad más fuertes. Ojalá cuando podíamos hubiéramos cambiado la ley electoral."
+   "text": "eso, humildemente, eso en todos los países de Latinoamérica donde hay izquierdas fuertes y de gobierno, tiene una solución muy clara, que son las primarias internas dentro del espacio. Eso, ese problema ha surgido y se ha resuelto en muchos otros países, a pesar de que España no tenga ese tipo de cultura tan arraigada de primarias, pero ese problema, insisto, ya existe y ya se ha resuelto. Yo creo que aquí la cuestión es de proyecto político. Creo que en estas elecciones se dirime, y se ha visto en esta última legislatura, si tenemos una izquierda fuerte, autónoma del Partido Socialista, que es capaz de llevar hasta el final lo que hay que hacer, o no la tenemos. Esa es la pregunta. Entonces yo creo que quien puede encarnar mejor esa izquierda valiente, porque tienen una carta de servicios y todo el mundo sabe que Gabriel Rufián se ha mantenido firme, Irene Montero se ha mantenido firme y ha defendido las políticas feministas, haya sufrido lo que haya sufrido, que todo el mundo sabe lo que fue. Y esa es la izquierda que necesitamos y que creo que la gente está esperando en este país. Una izquierda que diga claramente que hay que expropiar las viviendas de los fondos buitre para ponerlos en alquiler social. Y eso tiene que hacerlo alguien que sepamos que no se va a doblar. Y yo creo que esa es la base de lo que nosotras planteamos. Que por supuesto vamos a hablar con todo el mundo, vamos a hablar en todos los territorios con todas las fuerzas políticas que existan ahí. Por supuesto, para que no se pierda un solo voto de izquierdas, porque esa es la cultura de Podemos y esa es nuestra naturaleza. Pero yo creo que claro que estamos ante un problema de proyecto político y de lo que significó Unidas Podemos respecto a lo que ha significado Sumar. Porque si Sumar ha salido también, ¿por qué le han cambiado el nombre? Sí, sí, no te preocupes que ahora en cuanto cuelgue sigo haciendo 20 llamadas por minuto y seguimos trabajando. Pero yo creo que la realidad es la que es. Ahora mismo las circunscripciones de Madrid y Barcelona, la gente que vota izquierda no se pierde su voto, puede votar lo que quiera y fuera de Madrid y Barcelona es donde hay que trabajar para tener las candidaturas de unidad más fuertes. Ojalá cuando podíamos hubiéramos cambiado la ley electoral.",
+   "marks": [
+    [
+     0,
+     1060.9
+    ],
+    [
+     81,
+     1065.8
+    ],
+    [
+     146,
+     1070.1
+    ],
+    [
+     185,
+     1072.0
+    ],
+    [
+     219,
+     1076.4
+    ],
+    [
+     280,
+     1079.3
+    ],
+    [
+     353,
+     1083.3
+    ],
+    [
+     393,
+     1085.8
+    ],
+    [
+     410,
+     1087.1
+    ],
+    [
+     447,
+     1089.2
+    ],
+    [
+     479,
+     1091.4
+    ],
+    [
+     544,
+     1097.3
+    ],
+    [
+     624,
+     1101.9
+    ],
+    [
+     672,
+     1104.5
+    ],
+    [
+     676,
+     1104.9
+    ],
+    [
+     692,
+     1105.5
+    ],
+    [
+     744,
+     1109.3
+    ],
+    [
+     817,
+     1113.9
+    ],
+    [
+     884,
+     1118.3
+    ],
+    [
+     961,
+     1124.9
+    ],
+    [
+     1010,
+     1127.5
+    ],
+    [
+     1016,
+     1128.3
+    ],
+    [
+     1077,
+     1131.0
+    ],
+    [
+     1101,
+     1132.3
+    ],
+    [
+     1147,
+     1134.6
+    ],
+    [
+     1226,
+     1138.5
+    ],
+    [
+     1283,
+     1144.0
+    ],
+    [
+     1293,
+     1144.9
+    ],
+    [
+     1328,
+     1147.1
+    ],
+    [
+     1353,
+     1148.2
+    ],
+    [
+     1397,
+     1150.0
+    ],
+    [
+     1466,
+     1153.2
+    ],
+    [
+     1493,
+     1154.5
+    ],
+    [
+     1532,
+     1156.5
+    ],
+    [
+     1595,
+     1159.8
+    ],
+    [
+     1622,
+     1161.7
+    ],
+    [
+     1662,
+     1163.5
+    ],
+    [
+     1732,
+     1167.7
+    ],
+    [
+     1772,
+     1170.5
+    ],
+    [
+     1798,
+     1172.1
+    ],
+    [
+     1843,
+     1174.1
+    ],
+    [
+     1857,
+     1175.7
+    ],
+    [
+     1932,
+     1179.7
+    ],
+    [
+     1955,
+     1181.9
+    ],
+    [
+     1994,
+     1184.7
+    ],
+    [
+     1998,
+     1185.0
+    ],
+    [
+     2068,
+     1188.7
+    ],
+    [
+     2131,
+     1192.2
+    ],
+    [
+     2192,
+     1195.3
+    ],
+    [
+     2238,
+     1197.3
+    ],
+    [
+     2280,
+     1199.9
+    ]
+   ]
   },
   {
    "start": 1201.59,
@@ -311,7 +2093,25 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Y a Ione Belarra, secretaria general de Podemos, muchísimas gracias por su presencia en la radio pública, que tenga muy buen día. Y gracias también por su sinceridad y su franqueza, que siempre uno lo agradece."
+   "text": "Y a Ione Belarra, secretaria general de Podemos, muchísimas gracias por su presencia en la radio pública, que tenga muy buen día. Y gracias también por su sinceridad y su franqueza, que siempre uno lo agradece.",
+   "marks": [
+    [
+     0,
+     1201.6
+    ],
+    [
+     75,
+     1205.0
+    ],
+    [
+     130,
+     1209.9
+    ],
+    [
+     140,
+     1210.6
+    ]
+   ]
   },
   {
    "start": 1213.87,
@@ -319,7 +2119,13 @@
    "label": "SPEAKER_02",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "Muchas gracias."
+   "text": "Muchas gracias.",
+   "marks": [
+    [
+     0,
+     1213.9
+    ]
+   ]
   },
   {
    "start": 1214.79,
@@ -327,7 +2133,13 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Buen día."
+   "text": "Buen día.",
+   "marks": [
+    [
+     0,
+     1214.8
+    ]
+   ]
   }
  ]
 }

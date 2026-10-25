@@ -14,7 +14,7 @@
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
   "voiceprint_threshold": 0.65,
-  "processed_at": "2026-10-25T20:11:22+00:00",
+  "processed_at": "2026-10-25T20:59:10+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -61,7 +61,13 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "SER PODCAST"
+   "text": "SER PODCAST",
+   "marks": [
+    [
+     0,
+     1.5
+    ]
+   ]
   },
   {
    "start": 35.49,
@@ -69,7 +75,41 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Por su lucha y su ejemplo, con 87 años, lo que ha resistido esta mujer, y no solo ha resistido, sino que ha animado a toda la población, especialmente la gente joven, a no rendirse, a defender lo que es nuestro, que es el derecho a un idealismo. Entonces creo que le tenemos que agradecer muchísimo a Ricardo y sobre todo traducir ese agradecimiento en mantener su lucha y su ejemplo, y por lo tanto seguir con las movilizaciones y apoyar esa huelga general que se va a hacer en noviembre."
+   "text": "Por su lucha y su ejemplo, con 87 años, lo que ha resistido esta mujer, y no solo ha resistido, sino que ha animado a toda la población, especialmente la gente joven, a no rendirse, a defender lo que es nuestro, que es el derecho a un idealismo. Entonces creo que le tenemos que agradecer muchísimo a Ricardo y sobre todo traducir ese agradecimiento en mantener su lucha y su ejemplo, y por lo tanto seguir con las movilizaciones y apoyar esa huelga general que se va a hacer en noviembre.",
+   "marks": [
+    [
+     0,
+     35.5
+    ],
+    [
+     50,
+     39.5
+    ],
+    [
+     116,
+     42.4
+    ],
+    [
+     184,
+     47.1
+    ],
+    [
+     246,
+     50.3
+    ],
+    [
+     317,
+     54.2
+    ],
+    [
+     387,
+     58.7
+    ],
+    [
+     458,
+     62.7
+    ]
+   ]
   },
   {
    "start": 64.59,
@@ -77,7 +117,25 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "¿Cree que esto es un punto de inflexión? ¿Puede ser un punto de inflexión que el caso de Mari Carmen insufle de verdad compasión y humanidad en las normas que nos rigen?"
+   "text": "¿Cree que esto es un punto de inflexión? ¿Puede ser un punto de inflexión que el caso de Mari Carmen insufle de verdad compasión y humanidad en las normas que nos rigen?",
+   "marks": [
+    [
+     0,
+     64.6
+    ],
+    [
+     41,
+     66.2
+    ],
+    [
+     61,
+     66.8
+    ],
+    [
+     129,
+     71.2
+    ]
+   ]
   },
   {
    "start": 77.25,
@@ -85,7 +143,109 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Debe ser un punto de inflexión. Yo creo que no es una opción y creo que es lo que nos está diciendo la gente en la calle, que debe ser un punto de inflexión. Y recordemos que Mari Carmen ha sido la más visible, pero que no es la única. Que hace pocos días en la provincia de Barcelona se suicidaron dos personas, Olga y Javier. Muchísimos otros invisibilizados. Estamos hablando de gente que se quita la vida por los desahucios y todo por un sistema que prima la especulación por encima del derecho a la vivienda. Eso es inaceptable y hace falta cambiar toda la legislación, no solo medidas de mínimo, sino toda la legislación para que las casas sean para vivir y no para especular. O sea, que se acabe el negocio de la especulación con un bien de primera necesidad, como es la vivienda. Eso hace muchos años que se reclama, hace muchos años que se han trabajado medidas de todo tipo a diferentes niveles de la Administración, pero ahora es el momento de que efectivamente esa reflexión y el ejemplo que ha sido Mari Carmen se traduzca en realidad."
+   "text": "Debe ser un punto de inflexión. Yo creo que no es una opción y creo que es lo que nos está diciendo la gente en la calle, que debe ser un punto de inflexión. Y recordemos que Mari Carmen ha sido la más visible, pero que no es la única. Que hace pocos días en la provincia de Barcelona se suicidaron dos personas, Olga y Javier. Muchísimos otros invisibilizados. Estamos hablando de gente que se quita la vida por los desahucios y todo por un sistema que prima la especulación por encima del derecho a la vivienda. Eso es inaceptable y hace falta cambiar toda la legislación, no solo medidas de mínimo, sino toda la legislación para que las casas sean para vivir y no para especular. O sea, que se acabe el negocio de la especulación con un bien de primera necesidad, como es la vivienda. Eso hace muchos años que se reclama, hace muchos años que se han trabajado medidas de todo tipo a diferentes niveles de la Administración, pero ahora es el momento de que efectivamente esa reflexión y el ejemplo que ha sido Mari Carmen se traduzca en realidad.",
+   "marks": [
+    [
+     0,
+     77.2
+    ],
+    [
+     32,
+     78.7
+    ],
+    [
+     54,
+     79.5
+    ],
+    [
+     109,
+     81.5
+    ],
+    [
+     158,
+     84.2
+    ],
+    [
+     171,
+     85.0
+    ],
+    [
+     226,
+     87.2
+    ],
+    [
+     236,
+     87.8
+    ],
+    [
+     288,
+     90.9
+    ],
+    [
+     328,
+     94.8
+    ],
+    [
+     362,
+     96.7
+    ],
+    [
+     382,
+     97.9
+    ],
+    [
+     439,
+     101.0
+    ],
+    [
+     504,
+     103.6
+    ],
+    [
+     514,
+     104.1
+    ],
+    [
+     578,
+     108.9
+    ],
+    [
+     646,
+     112.4
+    ],
+    [
+     683,
+     114.9
+    ],
+    [
+     703,
+     115.8
+    ],
+    [
+     772,
+     118.6
+    ],
+    [
+     788,
+     119.3
+    ],
+    [
+     837,
+     121.8
+    ],
+    [
+     905,
+     125.7
+    ],
+    [
+     977,
+     128.9
+    ],
+    [
+     1039,
+     134.2
+    ]
+   ]
   },
   {
    "start": 135.43,
@@ -93,7 +253,37 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Señora Colau, usted, su nacimiento público, nosotros la conocemos a usted a raíz de su participación en los movimientos antidesahucios. ¿Cómo ha cambiado el activismo por la vivienda desde que usted estaba ahí en la calle parando con el cuerpo desahucios hasta hoy? ¿Cómo ha evolucionado ese activismo por el derecho a la vivienda?"
+   "text": "Señora Colau, usted, su nacimiento público, nosotros la conocemos a usted a raíz de su participación en los movimientos antidesahucios. ¿Cómo ha cambiado el activismo por la vivienda desde que usted estaba ahí en la calle parando con el cuerpo desahucios hasta hoy? ¿Cómo ha evolucionado ese activismo por el derecho a la vivienda?",
+   "marks": [
+    [
+     0,
+     135.4
+    ],
+    [
+     76,
+     141.2
+    ],
+    [
+     136,
+     144.8
+    ],
+    [
+     157,
+     145.5
+    ],
+    [
+     222,
+     148.9
+    ],
+    [
+     266,
+     153.0
+    ],
+    [
+     302,
+     154.6
+    ]
+   ]
   },
   {
    "start": 156.85,
@@ -101,7 +291,129 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Bueno, pues a ver, en parte da rabia que durante tantos años siga ganando la especulación y que sea necesario seguir con esa movilización, pero al mismo tiempo hay un orgullo de ver cómo las luchas que van transmitiendo la experiencia y la sabiduría iban creciendo. Entonces yo me acuerdo cuando empezamos la campaña sobre desahucios en Barcelona, no existía la campaña sobre desahucios, y no solo no existía, sino que era impensable en el 2009, después del estallido de la burbuja inmobiliaria y de la estafa bancaria, de la Ciudad de Badajoz. Nuestro caso fue en Tarragona, en una urbanización de Tarragona, y ahí demostramos por primera vez que podíamos juntarnos y parar un desahucio. Y eso hizo que mucha otra gente se animara. Ahí nació una campaña sobre desahucios, que primero creció en Cataluña y luego con el 15M explotó en Madrid y en todo el Estado. Y desde entonces se han paralizado miles y miles y miles de desahucios con la Organización Popular de la Gente. Entonces, ahí es donde se ve que efectivamente puede que los especuladores tengan mucho dinero y que los ricos sean cada día más ricos porque hay leyes injustas en nuestro país, pero que la ciudadanía somos mayoría social y si nos organizamos podamos cambiar las cosas. De entrada, hemos parado miles de desahucios. Se ha conseguido obligar a inmobiliarias y a bancos a negociar miles de alquileres sociales, pero hay que conseguir que esa presión social traduzca eso en leyes estructurales para no tener que pelear caso por caso."
+   "text": "Bueno, pues a ver, en parte da rabia que durante tantos años siga ganando la especulación y que sea necesario seguir con esa movilización, pero al mismo tiempo hay un orgullo de ver cómo las luchas que van transmitiendo la experiencia y la sabiduría iban creciendo. Entonces yo me acuerdo cuando empezamos la campaña sobre desahucios en Barcelona, no existía la campaña sobre desahucios, y no solo no existía, sino que era impensable en el 2009, después del estallido de la burbuja inmobiliaria y de la estafa bancaria, de la Ciudad de Badajoz. Nuestro caso fue en Tarragona, en una urbanización de Tarragona, y ahí demostramos por primera vez que podíamos juntarnos y parar un desahucio. Y eso hizo que mucha otra gente se animara. Ahí nació una campaña sobre desahucios, que primero creció en Cataluña y luego con el 15M explotó en Madrid y en todo el Estado. Y desde entonces se han paralizado miles y miles y miles de desahucios con la Organización Popular de la Gente. Entonces, ahí es donde se ve que efectivamente puede que los especuladores tengan mucho dinero y que los ricos sean cada día más ricos porque hay leyes injustas en nuestro país, pero que la ciudadanía somos mayoría social y si nos organizamos podamos cambiar las cosas. De entrada, hemos parado miles de desahucios. Se ha conseguido obligar a inmobiliarias y a bancos a negociar miles de alquileres sociales, pero hay que conseguir que esa presión social traduzca eso en leyes estructurales para no tener que pelear caso por caso.",
+   "marks": [
+    [
+     0,
+     156.8
+    ],
+    [
+     61,
+     160.9
+    ],
+    [
+     139,
+     164.8
+    ],
+    [
+     198,
+     167.9
+    ],
+    [
+     266,
+     171.9
+    ],
+    [
+     278,
+     172.3
+    ],
+    [
+     359,
+     176.1
+    ],
+    [
+     423,
+     178.9
+    ],
+    [
+     497,
+     182.9
+    ],
+    [
+     545,
+     213.8
+    ],
+    [
+     562,
+     215.2
+    ],
+    [
+     640,
+     223.3
+    ],
+    [
+     689,
+     226.1
+    ],
+    [
+     704,
+     226.7
+    ],
+    [
+     733,
+     228.2
+    ],
+    [
+     777,
+     230.9
+    ],
+    [
+     841,
+     235.5
+    ],
+    [
+     862,
+     236.8
+    ],
+    [
+     903,
+     239.9
+    ],
+    [
+     967,
+     243.1
+    ],
+    [
+     974,
+     243.8
+    ],
+    [
+     1035,
+     247.1
+    ],
+    [
+     1103,
+     250.6
+    ],
+    [
+     1175,
+     254.7
+    ],
+    [
+     1244,
+     258.5
+    ],
+    [
+     1247,
+     258.8
+    ],
+    [
+     1290,
+     261.0
+    ],
+    [
+     1331,
+     263.2
+    ],
+    [
+     1396,
+     267.1
+    ],
+    [
+     1473,
+     272.0
+    ]
+   ]
   },
   {
    "start": 274.01,
@@ -109,7 +421,13 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Ada Colau, ¿va a ser usted la líder del Frente Amplio?"
+   "text": "Ada Colau, ¿va a ser usted la líder del Frente Amplio?",
+   "marks": [
+    [
+     0,
+     274.0
+    ]
+   ]
   },
   {
    "start": 278.47,
@@ -117,7 +435,165 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Pues ahora mismo, por supuesto que me honra mucho que se haya propuesto mi nombre, eso salió ayer en los medios de comunicación, porque si se entiende que yo puedo ser una persona de consenso que ayude a hacer realidad ese Frente Amplio, pues por supuesto que me honra y ya he dicho que estoy dispuesta a ayudar, por supuesto. El tema es que ahora lo que hay que concretar es el frente amplio, eso es lo importante. Tenemos que lograr que haya un frente realmente amplio y tenemos que lograr que no hayan dos o tres papeletas de la izquierda en las próximas elecciones, sino que haya una propuesta. En realidad, a nivel programático, creo que está muy claro cuáles son los puntos principales de ese programa, empezando por el derecho a la vivienda y acabar con la especulación, siguiendo por la defensa de los servicios públicos, por bajar el coste de la vida y por defender un mundo en paz y frenar esta deriva bélica y de discursos de odio y de genocidio que se está exponiendo. Creo que ese programa de mínimos está muy plano en la calle y también para las fuerzas progresistas. Entonces, la gente no entendería que todas esas fuerzas progresistas nos juntemos para hacer realidad un Frente Amplio que permita sumar todos los esfuerzos y no perder ningún voto y derrotar a la derecha y a la extrema derecha. No resignarnos a las encuestas y no resignarnos a pensar que en este país Abascal puede ser vicepresidente y puede haber un ICE que vaya percibiendo a gente por la raya como hemos visto en Estados Unidos. Entonces, creo que el momento histórico requiere que todas estemos ahí y, por lo tanto, no va de un nombre solo, no va de mi nombre, Tenemos que hacer muchas. Y creo que el momento ahora es de que las formaciones políticas se sienten en una mesa. Más allá de las filtraciones, más allá de lo que se diga en los medios de comunicación, lo importante es que desde el respeto, el reconocimiento mutuo, las fuerzas políticas progresistas se sienten en la mesa y no se levanten hasta que haya un consenso para ir juntas a esas elecciones."
+   "text": "Pues ahora mismo, por supuesto que me honra mucho que se haya propuesto mi nombre, eso salió ayer en los medios de comunicación, porque si se entiende que yo puedo ser una persona de consenso que ayude a hacer realidad ese Frente Amplio, pues por supuesto que me honra y ya he dicho que estoy dispuesta a ayudar, por supuesto. El tema es que ahora lo que hay que concretar es el frente amplio, eso es lo importante. Tenemos que lograr que haya un frente realmente amplio y tenemos que lograr que no hayan dos o tres papeletas de la izquierda en las próximas elecciones, sino que haya una propuesta. En realidad, a nivel programático, creo que está muy claro cuáles son los puntos principales de ese programa, empezando por el derecho a la vivienda y acabar con la especulación, siguiendo por la defensa de los servicios públicos, por bajar el coste de la vida y por defender un mundo en paz y frenar esta deriva bélica y de discursos de odio y de genocidio que se está exponiendo. Creo que ese programa de mínimos está muy plano en la calle y también para las fuerzas progresistas. Entonces, la gente no entendería que todas esas fuerzas progresistas nos juntemos para hacer realidad un Frente Amplio que permita sumar todos los esfuerzos y no perder ningún voto y derrotar a la derecha y a la extrema derecha. No resignarnos a las encuestas y no resignarnos a pensar que en este país Abascal puede ser vicepresidente y puede haber un ICE que vaya percibiendo a gente por la raya como hemos visto en Estados Unidos. Entonces, creo que el momento histórico requiere que todas estemos ahí y, por lo tanto, no va de un nombre solo, no va de mi nombre, Tenemos que hacer muchas. Y creo que el momento ahora es de que las formaciones políticas se sienten en una mesa. Más allá de las filtraciones, más allá de lo que se diga en los medios de comunicación, lo importante es que desde el respeto, el reconocimiento mutuo, las fuerzas políticas progresistas se sienten en la mesa y no se levanten hasta que haya un consenso para ir juntas a esas elecciones.",
+   "marks": [
+    [
+     0,
+     278.5
+    ],
+    [
+     62,
+     283.8
+    ],
+    [
+     136,
+     288.5
+    ],
+    [
+     196,
+     291.4
+    ],
+    [
+     263,
+     294.5
+    ],
+    [
+     327,
+     298.0
+    ],
+    [
+     379,
+     301.0
+    ],
+    [
+     416,
+     302.6
+    ],
+    [
+     447,
+     303.8
+    ],
+    [
+     511,
+     308.2
+    ],
+    [
+     584,
+     311.7
+    ],
+    [
+     599,
+     312.3
+    ],
+    [
+     658,
+     314.9
+    ],
+    [
+     734,
+     318.1
+    ],
+    [
+     803,
+     321.4
+    ],
+    [
+     862,
+     326.4
+    ],
+    [
+     921,
+     332.3
+    ],
+    [
+     981,
+     334.9
+    ],
+    [
+     986,
+     335.2
+    ],
+    [
+     1043,
+     338.1
+    ],
+    [
+     1082,
+     339.4
+    ],
+    [
+     1125,
+     342.1
+    ],
+    [
+     1205,
+     346.7
+    ],
+    [
+     1274,
+     350.9
+    ],
+    [
+     1311,
+     352.1
+    ],
+    [
+     1332,
+     353.2
+    ],
+    [
+     1399,
+     356.4
+    ],
+    [
+     1468,
+     360.6
+    ],
+    [
+     1516,
+     362.7
+    ],
+    [
+     1535,
+     363.9
+    ],
+    [
+     1604,
+     366.7
+    ],
+    [
+     1657,
+     370.0
+    ],
+    [
+     1675,
+     371.1
+    ],
+    [
+     1713,
+     372.9
+    ],
+    [
+     1763,
+     375.8
+    ],
+    [
+     1779,
+     376.6
+    ],
+    [
+     1837,
+     379.6
+    ],
+    [
+     1919,
+     384.0
+    ],
+    [
+     1989,
+     386.9
+    ]
+   ]
   },
   {
    "start": 391.13,
@@ -125,7 +601,21 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "¿Usted cree que es factible un acuerdo con Podemos, que Podemos se integra en el Frente Amplio? ¿Es factible realmente?"
+   "text": "¿Usted cree que es factible un acuerdo con Podemos, que Podemos se integra en el Frente Amplio? ¿Es factible realmente?",
+   "marks": [
+    [
+     0,
+     391.1
+    ],
+    [
+     67,
+     394.2
+    ],
+    [
+     96,
+     395.3
+    ]
+   ]
   },
   {
    "start": 397.05,
@@ -133,7 +623,65 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Desde luego debe ser factible porque Podemos yo he escuchado que se han expresado favorables al Frente Amplio, que entiende en el momento en el que estamos que es, como digo, excepcional y que requiere todos los esfuerzos para no solo frenar la extrema derecha, sino para impulsar medidas valientes e ilusionantes que transformen la realidad a mejor. Y, a ver, si ha expresado esa voluntad, pues ya se les ha invitado a sentarse a esa mesa en pie de igualdad para, entre todas las formaciones políticas, como digo, concretar ese Frente Amplio, pero no solo Podemos, también Compromís, también Nacha, también MES, o sea, hay todas las formaciones progresistas, creo que si podemos sumar debemos estar en esa mesa y encontrar la manera de ir juntos. Creo que la ciudadanía no entendería otra cosa."
+   "text": "Desde luego debe ser factible porque Podemos yo he escuchado que se han expresado favorables al Frente Amplio, que entiende en el momento en el que estamos que es, como digo, excepcional y que requiere todos los esfuerzos para no solo frenar la extrema derecha, sino para impulsar medidas valientes e ilusionantes que transformen la realidad a mejor. Y, a ver, si ha expresado esa voluntad, pues ya se les ha invitado a sentarse a esa mesa en pie de igualdad para, entre todas las formaciones políticas, como digo, concretar ese Frente Amplio, pero no solo Podemos, también Compromís, también Nacha, también MES, o sea, hay todas las formaciones progresistas, creo que si podemos sumar debemos estar en esa mesa y encontrar la manera de ir juntos. Creo que la ciudadanía no entendería otra cosa.",
+   "marks": [
+    [
+     0,
+     397.1
+    ],
+    [
+     68,
+     402.1
+    ],
+    [
+     141,
+     405.9
+    ],
+    [
+     208,
+     409.8
+    ],
+    [
+     281,
+     414.2
+    ],
+    [
+     351,
+     417.6
+    ],
+    [
+     356,
+     418.2
+    ],
+    [
+     418,
+     421.9
+    ],
+    [
+     477,
+     425.2
+    ],
+    [
+     557,
+     429.1
+    ],
+    [
+     634,
+     434.6
+    ],
+    [
+     712,
+     440.1
+    ],
+    [
+     748,
+     441.6
+    ],
+    [
+     774,
+     442.6
+    ]
+   ]
   },
   {
    "start": 443.37,
@@ -141,7 +689,17 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Si finalmente no hay acuerdo con Podemos, ¿usted seguiría siendo líder de Frente Amplio?"
+   "text": "Si finalmente no hay acuerdo con Podemos, ¿usted seguiría siendo líder de Frente Amplio?",
+   "marks": [
+    [
+     0,
+     443.4
+    ],
+    [
+     74,
+     447.8
+    ]
+   ]
   },
   {
    "start": 449.45,
@@ -149,7 +707,85 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Yo la verdad es que no consigo que ahora entre fuerzas progresistas no haya un acuerdo, porque vemos lo que está pasando en la calle, vemos lo que está en juego, hay vidas literalmente en juego, como la de Mari Carmen. Entonces creo que aquí no estamos para cuestiones menores, como yo que sé, pueden haber sido diferencias del pasado, o vetos cruzados, o todo eso es algo absolutamente secundario a lo que realmente importa, La ciudadanía nos está pidiendo que nos pongamos de acuerdo y que haya un frente amplio para que no se pierdan votos de la izquierda y podamos efectivamente avanzar y no retroceder. Esa es la prioridad de la ciudadanía. Entonces, yo no contemplo que nadie quiera bajarse de esa propuesta y voy a trabajar junto con el resto de las personas y de los partidos para que efectivamente ese frente amplio sea una realidad. O sea, yo ya he dicho que estoy dispuesta a ayudar, pero estoy dispuesta a ayudar para que estemos todas, porque todas somos necesarias."
+   "text": "Yo la verdad es que no consigo que ahora entre fuerzas progresistas no haya un acuerdo, porque vemos lo que está pasando en la calle, vemos lo que está en juego, hay vidas literalmente en juego, como la de Mari Carmen. Entonces creo que aquí no estamos para cuestiones menores, como yo que sé, pueden haber sido diferencias del pasado, o vetos cruzados, o todo eso es algo absolutamente secundario a lo que realmente importa, La ciudadanía nos está pidiendo que nos pongamos de acuerdo y que haya un frente amplio para que no se pierdan votos de la izquierda y podamos efectivamente avanzar y no retroceder. Esa es la prioridad de la ciudadanía. Entonces, yo no contemplo que nadie quiera bajarse de esa propuesta y voy a trabajar junto con el resto de las personas y de los partidos para que efectivamente ese frente amplio sea una realidad. O sea, yo ya he dicho que estoy dispuesta a ayudar, pero estoy dispuesta a ayudar para que estemos todas, porque todas somos necesarias.",
+   "marks": [
+    [
+     0,
+     449.4
+    ],
+    [
+     68,
+     452.2
+    ],
+    [
+     127,
+     454.9
+    ],
+    [
+     195,
+     457.9
+    ],
+    [
+     219,
+     459.2
+    ],
+    [
+     258,
+     461.1
+    ],
+    [
+     336,
+     466.0
+    ],
+    [
+     403,
+     471.0
+    ],
+    [
+     478,
+     476.0
+    ],
+    [
+     537,
+     478.7
+    ],
+    [
+     608,
+     482.7
+    ],
+    [
+     612,
+     483.1
+    ],
+    [
+     646,
+     484.2
+    ],
+    [
+     682,
+     485.7
+    ],
+    [
+     744,
+     489.2
+    ],
+    [
+     811,
+     493.2
+    ],
+    [
+     843,
+     494.6
+    ],
+    [
+     869,
+     495.4
+    ],
+    [
+     942,
+     498.1
+    ]
+   ]
   },
   {
    "start": 501.49,
@@ -157,7 +793,25 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "¿Y si no están todas? ¿Si no están todos los partidos? ¿Usted seguiría ahí?"
+   "text": "¿Y si no están todas? ¿Si no están todos los partidos? ¿Usted seguiría ahí?",
+   "marks": [
+    [
+     0,
+     501.5
+    ],
+    [
+     22,
+     503.1
+    ],
+    [
+     55,
+     504.5
+    ],
+    [
+     62,
+     504.9
+    ]
+   ]
   },
   {
    "start": 505.55,
@@ -165,7 +819,65 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "A ver, si algún partido decidiera ir por libre, creo que la ciudadanía no lo entendería y creo que le penalizaría muchísimo. Pero insisto, es que no quiero ponerme en ese escenario porque no entendería que una fuerza progresista no vea que ahora es momento de sentarse a la mesa. Insisto, desde el pleno reconocimiento, todo el mundo puede tener su papel, todo el mundo puede tener lugares en las listas electorales. O sea, hay espacio para todas, pero lo que hace falta sobre todo es generosidad y valentía para poner lo importante por delante. Y poner lo importante por delante es lo que nos está pidiendo la mayoría social, que es que nos pongamos de acuerdo y tiremos adelante ese frente lo más amplio posible."
+   "text": "A ver, si algún partido decidiera ir por libre, creo que la ciudadanía no lo entendería y creo que le penalizaría muchísimo. Pero insisto, es que no quiero ponerme en ese escenario porque no entendería que una fuerza progresista no vea que ahora es momento de sentarse a la mesa. Insisto, desde el pleno reconocimiento, todo el mundo puede tener su papel, todo el mundo puede tener lugares en las listas electorales. O sea, hay espacio para todas, pero lo que hace falta sobre todo es generosidad y valentía para poner lo importante por delante. Y poner lo importante por delante es lo que nos está pidiendo la mayoría social, que es que nos pongamos de acuerdo y tiremos adelante ese frente lo más amplio posible.",
+   "marks": [
+    [
+     0,
+     505.6
+    ],
+    [
+     60,
+     509.5
+    ],
+    [
+     125,
+     513.3
+    ],
+    [
+     139,
+     514.2
+    ],
+    [
+     206,
+     516.7
+    ],
+    [
+     271,
+     520.9
+    ],
+    [
+     280,
+     521.5
+    ],
+    [
+     346,
+     524.4
+    ],
+    [
+     417,
+     529.2
+    ],
+    [
+     477,
+     532.7
+    ],
+    [
+     546,
+     537.0
+    ],
+    [
+     548,
+     537.2
+    ],
+    [
+     611,
+     539.5
+    ],
+    [
+     681,
+     542.5
+    ]
+   ]
   },
   {
    "start": 544.81,
@@ -173,7 +885,13 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Dice que hay espacio para todos"
+   "text": "Dice que hay espacio para todos",
+   "marks": [
+    [
+     0,
+     544.8
+    ]
+   ]
   },
   {
    "start": 546.05,
@@ -181,7 +899,13 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "en las listas electorales."
+   "text": "en las listas electorales.",
+   "marks": [
+    [
+     0,
+     546.0
+    ]
+   ]
   },
   {
    "start": 546.75,
@@ -189,7 +913,13 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Y hay que"
+   "text": "Y hay que",
+   "marks": [
+    [
+     0,
+     546.8
+    ]
+   ]
   },
   {
    "start": 546.77,
@@ -197,7 +927,17 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "desbordar a que la ciudadanía lo penalizaría, pero es que prefiero no contemplar ese escenario y trabajar para que sea posible."
+   "text": "desbordar a que la ciudadanía lo penalizaría, pero es que prefiero no contemplar ese escenario y trabajar para que sea posible.",
+   "marks": [
+    [
+     0,
+     546.8
+    ],
+    [
+     70,
+     549.8
+    ]
+   ]
   },
   {
    "start": 552.13,
@@ -205,7 +945,37 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Dice que hay espacio para todos en las listas, pero es que es precisamente lo que no hay. Espacio para todos en puestos de salida en las listas electorales. ¿Usted por dónde va a concurrir a las elecciones? ¿Por Barcelona o por Madrid?"
+   "text": "Dice que hay espacio para todos en las listas, pero es que es precisamente lo que no hay. Espacio para todos en puestos de salida en las listas electorales. ¿Usted por dónde va a concurrir a las elecciones? ¿Por Barcelona o por Madrid?",
+   "marks": [
+    [
+     0,
+     552.1
+    ],
+    [
+     59,
+     553.8
+    ],
+    [
+     90,
+     554.8
+    ],
+    [
+     123,
+     556.0
+    ],
+    [
+     157,
+     557.4
+    ],
+    [
+     191,
+     559.0
+    ],
+    [
+     207,
+     559.5
+    ]
+   ]
   },
   {
    "start": 561.51,
@@ -213,7 +983,61 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Es que ahora no se trata de eso, de verdad. Ahora no se trata si Barcelona o Madrid o si el número uno, el dos o el tres. Ahora de lo que se trata es que todas esas discusiones se pongan al servicio de que haya consenso. No se trata, a mí me da igual de si voy por Barcelona, si voy por Madrid, si voy uno de tres. O sea, ese no es el tema ahora mismo. El tema es que todo el mundo encuentre su lugar, que todo el mundo tenga reconocimiento,"
+   "text": "Es que ahora no se trata de eso, de verdad. Ahora no se trata si Barcelona o Madrid o si el número uno, el dos o el tres. Ahora de lo que se trata es que todas esas discusiones se pongan al servicio de que haya consenso. No se trata, a mí me da igual de si voy por Barcelona, si voy por Madrid, si voy uno de tres. O sea, ese no es el tema ahora mismo. El tema es que todo el mundo encuentre su lugar, que todo el mundo tenga reconocimiento,",
+   "marks": [
+    [
+     0,
+     561.5
+    ],
+    [
+     44,
+     563.3
+    ],
+    [
+     53,
+     563.5
+    ],
+    [
+     107,
+     566.2
+    ],
+    [
+     122,
+     568.0
+    ],
+    [
+     154,
+     569.2
+    ],
+    [
+     221,
+     573.4
+    ],
+    [
+     224,
+     573.7
+    ],
+    [
+     276,
+     577.5
+    ],
+    [
+     315,
+     580.1
+    ],
+    [
+     326,
+     580.5
+    ],
+    [
+     353,
+     581.7
+    ],
+    [
+     376,
+     583.5
+    ]
+   ]
   },
   {
    "start": 601.71,
@@ -221,7 +1045,13 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Para no perderte"
+   "text": "Para no perderte",
+   "marks": [
+    [
+     0,
+     601.7
+    ]
+   ]
   },
   {
    "start": 605.37,
@@ -229,7 +1059,17 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "ningún episodio, síguenos en la aplicación o la web de la SER, Podium Podcast o tu plataforma de audio favorita."
+   "text": "ningún episodio, síguenos en la aplicación o la web de la SER, Podium Podcast o tu plataforma de audio favorita.",
+   "marks": [
+    [
+     0,
+     605.4
+    ],
+    [
+     63,
+     608.8
+    ]
+   ]
   },
   {
    "start": 625.67,
@@ -237,7 +1077,13 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 4",
-   "text": "¡Gracias por ver este video!"
+   "text": "¡Gracias por ver este video!",
+   "marks": [
+    [
+     0,
+     625.7
+    ]
+   ]
   }
  ]
 }

@@ -14,7 +14,7 @@
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
   "voiceprint_threshold": 0.65,
-  "processed_at": "2026-10-25T20:11:55+00:00",
+  "processed_at": "2026-10-25T20:59:43+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -40,7 +40,13 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "¿Cómo llenar la humanidad?"
+   "text": "¿Cómo llenar la humanidad?",
+   "marks": [
+    [
+     0,
+     7.8
+    ]
+   ]
   },
   {
    "start": 24.15,
@@ -48,7 +54,29 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "¡El diablo hiciera España! ¡Irá! ¡Gracias! ¡Santi! ¡Santi!"
+   "text": "¡El diablo hiciera España! ¡Irá! ¡Gracias! ¡Santi! ¡Santi!",
+   "marks": [
+    [
+     0,
+     24.1
+    ],
+    [
+     27,
+     28.6
+    ],
+    [
+     33,
+     31.5
+    ],
+    [
+     43,
+     35.9
+    ],
+    [
+     51,
+     37.4
+    ]
+   ]
   },
   {
    "start": 39.06,
@@ -56,7 +84,13 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "¡Una foto, por"
+   "text": "¡Una foto, por",
+   "marks": [
+    [
+     0,
+     39.1
+    ]
+   ]
   },
   {
    "start": 40.18,
@@ -64,7 +98,13 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "favor!"
+   "text": "favor!",
+   "marks": [
+    [
+     0,
+     40.2
+    ]
+   ]
   },
   {
    "start": 41.54,
@@ -72,7 +112,17 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "¡Abascal, por favor! ¡Tresi, una foto!"
+   "text": "¡Abascal, por favor! ¡Tresi, una foto!",
+   "marks": [
+    [
+     0,
+     41.5
+    ],
+    [
+     21,
+     42.9
+    ]
+   ]
   },
   {
    "start": 43.44,
@@ -80,7 +130,17 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "¡Tresi, por favor! ¡Gracias!"
+   "text": "¡Tresi, por favor! ¡Gracias!",
+   "marks": [
+    [
+     0,
+     43.4
+    ],
+    [
+     19,
+     44.4
+    ]
+   ]
   },
   {
    "start": 45.16,
@@ -88,7 +148,25 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "¡Una foto, señor! ¡Una foto, un amor de diablo! ¡Eres nuestro ídolo, Abascal!"
+   "text": "¡Una foto, señor! ¡Una foto, un amor de diablo! ¡Eres nuestro ídolo, Abascal!",
+   "marks": [
+    [
+     0,
+     45.2
+    ],
+    [
+     18,
+     46.3
+    ],
+    [
+     48,
+     48.6
+    ],
+    [
+     69,
+     51.0
+    ]
+   ]
   },
   {
    "start": 51.7,
@@ -96,7 +174,13 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "¡Eres nuestro ídolo, Abascal!"
+   "text": "¡Eres nuestro ídolo, Abascal!",
+   "marks": [
+    [
+     0,
+     51.7
+    ]
+   ]
   },
   {
    "start": 53.38,
@@ -104,7 +188,13 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "¡Tresi, por favor!"
+   "text": "¡Tresi, por favor!",
+   "marks": [
+    [
+     0,
+     53.4
+    ]
+   ]
   },
   {
    "start": 70.14,
@@ -112,7 +202,17 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "¡Dios te bendiga en el nombre de Jesús! ¡Santiago!"
+   "text": "¡Dios te bendiga en el nombre de Jesús! ¡Santiago!",
+   "marks": [
+    [
+     0,
+     70.1
+    ],
+    [
+     40,
+     73.2
+    ]
+   ]
   }
  ]
 }

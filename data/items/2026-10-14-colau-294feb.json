@@ -14,7 +14,7 @@
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
   "voiceprint_threshold": 0.65,
-  "processed_at": "2026-10-25T20:11:29+00:00",
+  "processed_at": "2026-10-25T20:59:17+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -75,7 +75,33 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "Ada Colau mueve ficha para intentar integrar a Podemos en Frente Amplio y pone sobre la mesa retirar su candidatura y también cambiar el nombre a la coalición si con eso los morados acceden, aunque ellos de momento no recogen el guante. El plazo para registrar las coaliciones acaba el viernes."
+   "text": "Ada Colau mueve ficha para intentar integrar a Podemos en Frente Amplio y pone sobre la mesa retirar su candidatura y también cambiar el nombre a la coalición si con eso los morados acceden, aunque ellos de momento no recogen el guante. El plazo para registrar las coaliciones acaba el viernes.",
+   "marks": [
+    [
+     0,
+     0.0
+    ],
+    [
+     72,
+     4.3
+    ],
+    [
+     137,
+     8.4
+    ],
+    [
+     204,
+     12.0
+    ],
+    [
+     237,
+     14.3
+    ],
+    [
+     277,
+     16.2
+    ]
+   ]
   },
   {
    "start": 18.98,
@@ -83,7 +109,33 @@
    "label": "SPEAKER_05",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Ada Colau no renuncia a pactar con Esquerra ni con Podemos. Claro que tiene que estar Irene Montero. Y para eso está dispuesta incluso a apartarse. Si hay otra persona que genera más consenso que"
+   "text": "Ada Colau no renuncia a pactar con Esquerra ni con Podemos. Claro que tiene que estar Irene Montero. Y para eso está dispuesta incluso a apartarse. Si hay otra persona que genera más consenso que",
+   "marks": [
+    [
+     0,
+     19.0
+    ],
+    [
+     60,
+     22.9
+    ],
+    [
+     66,
+     23.1
+    ],
+    [
+     101,
+     24.7
+    ],
+    [
+     135,
+     26.2
+    ],
+    [
+     148,
+     27.2
+    ]
+   ]
   },
   {
    "start": 29.82,
@@ -91,7 +143,13 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "mi candidatura, oiga, adelante, ¿entiendes?"
+   "text": "mi candidatura, oiga, adelante, ¿entiendes?",
+   "marks": [
+    [
+     0,
+     29.8
+    ]
+   ]
   },
   {
    "start": 32.5,
@@ -99,7 +157,45 @@
    "label": "SPEAKER_05",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Yo cedería absolutamente eso. Si el problema fuera el nombre de la formación, pues se le cambia el nombre a la formación. Aquí lo importante es que vayamos todas juntas. Ese es, dice, el escollo, los nombres y las siglas, no el programa. Podemos responde que el equipo ganador es el suyo."
+   "text": "Yo cedería absolutamente eso. Si el problema fuera el nombre de la formación, pues se le cambia el nombre a la formación. Aquí lo importante es que vayamos todas juntas. Ese es, dice, el escollo, los nombres y las siglas, no el programa. Podemos responde que el equipo ganador es el suyo.",
+   "marks": [
+    [
+     0,
+     32.5
+    ],
+    [
+     30,
+     34.3
+    ],
+    [
+     67,
+     35.4
+    ],
+    [
+     122,
+     37.9
+    ],
+    [
+     130,
+     38.4
+    ],
+    [
+     170,
+     40.3
+    ],
+    [
+     200,
+     41.8
+    ],
+    [
+     238,
+     44.0
+    ],
+    [
+     269,
+     45.3
+    ]
+   ]
   },
   {
    "start": 46.6,
@@ -107,7 +203,17 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "Estamos 100% convencidas de que ese tándem, Gabriel Rufián y Irene Montero, es lo que nos estaba pidiendo todo el mundo."
+   "text": "Estamos 100% convencidas de que ese tándem, Gabriel Rufián y Irene Montero, es lo que nos estaba pidiendo todo el mundo.",
+   "marks": [
+    [
+     0,
+     46.6
+    ],
+    [
+     67,
+     50.3
+    ]
+   ]
   },
   {
    "start": 52.52,
@@ -115,7 +221,13 @@
    "label": "SPEAKER_05",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Y que trabaja porque el Frente Amplio se les una."
+   "text": "Y que trabaja porque el Frente Amplio se les una.",
+   "marks": [
+    [
+     0,
+     52.5
+    ]
+   ]
   },
   {
    "start": 55.18,
@@ -123,7 +235,17 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "Para tener la candidatura más fuerte posible, más amplia, y que no se pierda, insisto, ni un solo voto de la izquierda."
+   "text": "Para tener la candidatura más fuerte posible, más amplia, y que no se pierda, insisto, ni un solo voto de la izquierda.",
+   "marks": [
+    [
+     0,
+     55.2
+    ],
+    [
+     67,
+     58.9
+    ]
+   ]
   },
   {
    "start": 61.52,
@@ -131,7 +253,33 @@
    "label": "SPEAKER_05",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "También está en su mano. Reprocha que no se hayan presentado las primarias abiertas que propusieron, para las que Irene Montero es la única aspirante. En el Frente Amplio creen que el gesto de Colau es revelador."
+   "text": "También está en su mano. Reprocha que no se hayan presentado las primarias abiertas que propusieron, para las que Irene Montero es la única aspirante. En el Frente Amplio creen que el gesto de Colau es revelador.",
+   "marks": [
+    [
+     0,
+     61.5
+    ],
+    [
+     25,
+     62.9
+    ],
+    [
+     65,
+     64.7
+    ],
+    [
+     140,
+     68.5
+    ],
+    [
+     151,
+     69.4
+    ],
+    [
+     202,
+     72.0
+    ]
+   ]
   },
   {
    "start": 72.68,
@@ -139,7 +287,17 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 6",
-   "text": "Lo que deja muy claro es quién tiene voluntad de construir una alianza y los demás relatos."
+   "text": "Lo que deja muy claro es quién tiene voluntad de construir una alianza y los demás relatos.",
+   "marks": [
+    [
+     0,
+     72.7
+    ],
+    [
+     63,
+     75.9
+    ]
+   ]
   },
   {
    "start": 77.78,
@@ -147,7 +305,13 @@
    "label": "SPEAKER_05",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Pero no se desvían de su plan."
+   "text": "Pero no se desvían de su plan.",
+   "marks": [
+    [
+     0,
+     77.8
+    ]
+   ]
   },
   {
    "start": 79.5,
@@ -155,7 +319,13 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 6",
-   "text": "Nada cambia."
+   "text": "Nada cambia.",
+   "marks": [
+    [
+     0,
+     79.5
+    ]
+   ]
   },
   {
    "start": 80.36,
@@ -163,7 +333,13 @@
    "label": "SPEAKER_05",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Y justo hoy han lanzado su marca, web, logo e imagen gráfica."
+   "text": "Y justo hoy han lanzado su marca, web, logo e imagen gráfica.",
+   "marks": [
+    [
+     0,
+     80.4
+    ]
+   ]
   },
   {
    "start": 86.65,
@@ -171,7 +347,89 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "Pues el primer cis tras la convocatoria electoral y en plena crisis por la vivienda dispara el PSOE y da al PP su peor dato de toda la legislatura. Según esa encuesta, los socialistas ganarían las elecciones con una ventaja de casi 12 puntos sobre los populares. El PSOE subiría 3 puntos y conseguiría el 34% de los votos, mientras que el PP pierde algo más de 3 y se queda en ese 22,2%. Vox, que mejora, mejora cinco décimas, igual que Sumar, mientras que Podemos cae seis. La formación de ultraderecha se acabó, la fiesta se mantiene igual. Y en la precampaña han entrado de lleno las pensiones. La portavoz parlamentaria del PP habló ayer de cambiar el sistema público de pensiones, pero hoy en su partido dicen que no se va a tocar. El gobierno pide a Feijóo que aclare si las va a revalorizar con el IPC si gana las elecciones."
+   "text": "Pues el primer cis tras la convocatoria electoral y en plena crisis por la vivienda dispara el PSOE y da al PP su peor dato de toda la legislatura. Según esa encuesta, los socialistas ganarían las elecciones con una ventaja de casi 12 puntos sobre los populares. El PSOE subiría 3 puntos y conseguiría el 34% de los votos, mientras que el PP pierde algo más de 3 y se queda en ese 22,2%. Vox, que mejora, mejora cinco décimas, igual que Sumar, mientras que Podemos cae seis. La formación de ultraderecha se acabó, la fiesta se mantiene igual. Y en la precampaña han entrado de lleno las pensiones. La portavoz parlamentaria del PP habló ayer de cambiar el sistema público de pensiones, pero hoy en su partido dicen que no se va a tocar. El gobierno pide a Feijóo que aclare si las va a revalorizar con el IPC si gana las elecciones.",
+   "marks": [
+    [
+     0,
+     86.7
+    ],
+    [
+     68,
+     90.8
+    ],
+    [
+     119,
+     94.2
+    ],
+    [
+     148,
+     95.6
+    ],
+    [
+     197,
+     98.2
+    ],
+    [
+     263,
+     102.1
+    ],
+    [
+     266,
+     102.3
+    ],
+    [
+     323,
+     107.1
+    ],
+    [
+     374,
+     111.1
+    ],
+    [
+     388,
+     114.7
+    ],
+    [
+     437,
+     118.4
+    ],
+    [
+     475,
+     121.3
+    ],
+    [
+     514,
+     123.1
+    ],
+    [
+     543,
+     125.0
+    ],
+    [
+     577,
+     127.5
+    ],
+    [
+     598,
+     128.5
+    ],
+    [
+     653,
+     131.2
+    ],
+    [
+     719,
+     134.5
+    ],
+    [
+     737,
+     135.3
+    ],
+    [
+     774,
+     137.1
+    ]
+   ]
   },
   {
    "start": 142.92,
@@ -179,7 +437,37 @@
    "label": "SPEAKER_03",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "En plena campaña electoral, el PP quiere que quede claro que no van a tocar las pensiones. Lo ha dicho en redes. Pasa y te cuento las trampas que está haciendo el PSOE con las pensiones. Y también desde los mítines. El"
+   "text": "En plena campaña electoral, el PP quiere que quede claro que no van a tocar las pensiones. Lo ha dicho en redes. Pasa y te cuento las trampas que está haciendo el PSOE con las pensiones. Y también desde los mítines. El",
+   "marks": [
+    [
+     0,
+     142.9
+    ],
+    [
+     64,
+     146.8
+    ],
+    [
+     91,
+     148.0
+    ],
+    [
+     113,
+     149.2
+    ],
+    [
+     120,
+     149.5
+    ],
+    [
+     187,
+     152.5
+    ],
+    [
+     216,
+     154.4
+    ]
+   ]
   },
   {
    "start": 154.56,
@@ -187,7 +475,17 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "PP se compromete con el modelo público de pensiones en nuestro país y se compromete a revalorizarla al IPC cada año."
+   "text": "PP se compromete con el modelo público de pensiones en nuestro país y se compromete a revalorizarla al IPC cada año.",
+   "marks": [
+    [
+     0,
+     154.6
+    ],
+    [
+     68,
+     157.9
+    ]
+   ]
   },
   {
    "start": 162.74,
@@ -195,7 +493,21 @@
    "label": "SPEAKER_03",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Lo aclaran después de la polémica que levantó ayer la portavoz del partido en el Congreso. Creo que tenemos que ser valientes y"
+   "text": "Lo aclaran después de la polémica que levantó ayer la portavoz del partido en el Congreso. Creo que tenemos que ser valientes y",
+   "marks": [
+    [
+     0,
+     162.7
+    ],
+    [
+     67,
+     166.2
+    ],
+    [
+     91,
+     167.2
+    ]
+   ]
   },
   {
    "start": 168.96,
@@ -203,7 +515,17 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "entender que el modelo hay que cambiarlo, porque el sistema actual como está no va a funcionar y va a petar."
+   "text": "entender que el modelo hay que cambiarlo, porque el sistema actual como está no va a funcionar y va a petar.",
+   "marks": [
+    [
+     0,
+     169.0
+    ],
+    [
+     72,
+     171.1
+    ]
+   ]
   },
   {
    "start": 172.98,
@@ -211,7 +533,13 @@
    "label": "SPEAKER_03",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Aunque Feijóo después, en un mitin, defendió el sistema público de pensiones."
+   "text": "Aunque Feijóo después, en un mitin, defendió el sistema público de pensiones.",
+   "marks": [
+    [
+     0,
+     173.0
+    ]
+   ]
   },
   {
    "start": 177.2,
@@ -219,7 +547,13 @@
    "label": "SPEAKER_06",
    "person": null,
    "name": "Hablante sin identificar 4",
-   "text": "Me comprometo a asegurar las pensiones."
+   "text": "Me comprometo a asegurar las pensiones.",
+   "marks": [
+    [
+     0,
+     177.2
+    ]
+   ]
   },
   {
    "start": 179.96,
@@ -227,7 +561,17 @@
    "label": "SPEAKER_03",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "En el gobierno ven claro que al PP le gustaría cambiar el modelo."
+   "text": "En el gobierno ven claro que al PP le gustaría cambiar el modelo.",
+   "marks": [
+    [
+     0,
+     180.0
+    ],
+    [
+     58,
+     183.2
+    ]
+   ]
   },
   {
    "start": 183.7,
@@ -235,7 +579,29 @@
    "label": "SPEAKER_06",
    "person": null,
    "name": "Hablante sin identificar 4",
-   "text": "Un modelo en el cual, diríamos, lo público deje de tener el espacio y pasemos a un modelo mixto. A mí se me hiela un poco la sangre solo de pensar lo de las ideas que tiene el Partido Popular y Vox de hacer con las pensiones."
+   "text": "Un modelo en el cual, diríamos, lo público deje de tener el espacio y pasemos a un modelo mixto. A mí se me hiela un poco la sangre solo de pensar lo de las ideas que tiene el Partido Popular y Vox de hacer con las pensiones.",
+   "marks": [
+    [
+     0,
+     183.7
+    ],
+    [
+     60,
+     187.3
+    ],
+    [
+     97,
+     189.5
+    ],
+    [
+     114,
+     190.2
+    ],
+    [
+     167,
+     193.3
+    ]
+   ]
   },
   {
    "start": 195.4,
@@ -243,7 +609,29 @@
    "label": "SPEAKER_03",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Y en su propia pre-campaña, con el derecho a la vivienda en el centro, salen al paso de una polémica a la que apunta a Montse Mínguez, portavoz del PSOE. Su pareja tiene un negocio inmobiliario con 30 viviendas en alquiler."
+   "text": "Y en su propia pre-campaña, con el derecho a la vivienda en el centro, salen al paso de una polémica a la que apunta a Montse Mínguez, portavoz del PSOE. Su pareja tiene un negocio inmobiliario con 30 viviendas en alquiler.",
+   "marks": [
+    [
+     0,
+     195.4
+    ],
+    [
+     57,
+     197.9
+    ],
+    [
+     110,
+     200.5
+    ],
+    [
+     154,
+     202.7
+    ],
+    [
+     181,
+     204.2
+    ]
+   ]
   },
   {
    "start": 206.72,
@@ -251,7 +639,25 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 7",
-   "text": "No se trata de perseguir ni señalar a quién hace una actividad lícita y quién cumple con la ley. Importante es quién quiere garantizar el derecho a la vivienda y quién no."
+   "text": "No se trata de perseguir ni señalar a quién hace una actividad lícita y quién cumple con la ley. Importante es quién quiere garantizar el derecho a la vivienda y quién no.",
+   "marks": [
+    [
+     0,
+     206.7
+    ],
+    [
+     63,
+     209.5
+    ],
+    [
+     97,
+     211.6
+    ],
+    [
+     135,
+     213.3
+    ]
+   ]
   },
   {
    "start": 214.52,
@@ -259,7 +665,25 @@
    "label": "SPEAKER_03",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Y el PP arremete, se pregunta si el PSOE hoy ya no habla de vivienda y hace este montaje. Entre buitres les acusa de hipócritas."
+   "text": "Y el PP arremete, se pregunta si el PSOE hoy ya no habla de vivienda y hace este montaje. Entre buitres les acusa de hipócritas.",
+   "marks": [
+    [
+     0,
+     214.5
+    ],
+    [
+     51,
+     217.8
+    ],
+    [
+     90,
+     220.0
+    ],
+    [
+     117,
+     221.6
+    ]
+   ]
   },
   {
    "start": 224.61,
@@ -267,7 +691,53 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "El Consejo del Poder Judicial se ha dividido de nuevo entre conservadores y progresistas. El Bloque Conservador ha propuesto un comunicado para apoyar a la jueza que investigó al hermano de Pedro Sánchez. Beatriz Biedma acaba de declarar como perjudicada en el caso Leire. Denuncia que fue objetivo de la supuesta trama que intentaba boicotear causas judiciales que afectaban al PSOE. Los progresistas lo han rechazado porque ya no ha pedido amparo y porque es un asunto, dicen, que se está investigando."
+   "text": "El Consejo del Poder Judicial se ha dividido de nuevo entre conservadores y progresistas. El Bloque Conservador ha propuesto un comunicado para apoyar a la jueza que investigó al hermano de Pedro Sánchez. Beatriz Biedma acaba de declarar como perjudicada en el caso Leire. Denuncia que fue objetivo de la supuesta trama que intentaba boicotear causas judiciales que afectaban al PSOE. Los progresistas lo han rechazado porque ya no ha pedido amparo y porque es un asunto, dicen, que se está investigando.",
+   "marks": [
+    [
+     0,
+     224.6
+    ],
+    [
+     74,
+     229.0
+    ],
+    [
+     90,
+     229.9
+    ],
+    [
+     153,
+     232.8
+    ],
+    [
+     205,
+     235.1
+    ],
+    [
+     226,
+     236.6
+    ],
+    [
+     273,
+     239.3
+    ],
+    [
+     299,
+     240.6
+    ],
+    [
+     379,
+     245.9
+    ],
+    [
+     385,
+     246.4
+    ],
+    [
+     449,
+     250.3
+    ]
+   ]
   }
  ]
 }

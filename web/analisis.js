@@ -196,13 +196,15 @@
       load(true);
     });
   });
+  $("af").addEventListener("submit", function (ev) { ev.preventDefault(); });
   $("c").addEventListener("change", function () { grpFilter = null; load(true); });
   $("t").addEventListener("change", function () { load(true); });
   $("q").addEventListener("input", function () { clearTimeout(timer); timer = setTimeout(function () { load(true); }, 350); });
   moreBtn.addEventListener("click", function () { load(false); });
   // Pregunta al archivo: POST api/ask, the answer is plain text with [n] markers that link to the sources
   var askf = $("askf");
-  if (askf) askf.addEventListener("submit", function () {
+  if (askf) askf.addEventListener("submit", function (ev) {
+    ev.preventDefault();
     var q = $("askq").value.trim(), out = $("askout");
     if (q.length < 4) return;
     out.hidden = false; out.textContent = "Buscando en el archivo…";

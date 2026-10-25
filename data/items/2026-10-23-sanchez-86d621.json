@@ -14,7 +14,7 @@
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
   "voiceprint_threshold": 0.65,
-  "processed_at": "2026-10-25T20:11:51+00:00",
+  "processed_at": "2026-10-25T20:59:38+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -138,7 +138,29 @@
    "label": "SPEAKER_05",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "Bueno, vamos a escuchar a los oyentes que estábamos aquí emulando lo que han podido responder los oyentes sobre la vida sexual sana del presidente del gobierno. Que todo el mundo se imaginaría que vida sexual puede tener, pero sana no,"
+   "text": "Bueno, vamos a escuchar a los oyentes que estábamos aquí emulando lo que han podido responder los oyentes sobre la vida sexual sana del presidente del gobierno. Que todo el mundo se imaginaría que vida sexual puede tener, pero sana no,",
+   "marks": [
+    [
+     0,
+     13.4
+    ],
+    [
+     69,
+     24.8
+    ],
+    [
+     136,
+     29.3
+    ],
+    [
+     161,
+     31.7
+    ],
+    [
+     209,
+     34.1
+    ]
+   ]
   },
   {
    "start": 35.46,
@@ -146,7 +168,17 @@
    "label": "SPEAKER_11",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "sana no Y no dijo muy, dijo activas secas, hay una diferencia ahí Yo creo"
+   "text": "sana no Y no dijo muy, dijo activas secas, hay una diferencia ahí Yo creo",
+   "marks": [
+    [
+     0,
+     35.5
+    ],
+    [
+     62,
+     40.6
+    ]
+   ]
   },
   {
    "start": 41.12,
@@ -154,7 +186,25 @@
    "label": "SPEAKER_03",
    "person": null,
    "name": "Hablante sin identificar 4",
-   "text": "que en cualquier caso el beso que vimos hace unos días con lo que contó ayer Que son matices Es que no encaja demasiado bien, ese beso, hubo hasta un amago de cobra que se ha hablado poco de él Pero efectivamente en el momento del beso, no"
+   "text": "que en cualquier caso el beso que vimos hace unos días con lo que contó ayer Que son matices Es que no encaja demasiado bien, ese beso, hubo hasta un amago de cobra que se ha hablado poco de él Pero efectivamente en el momento del beso, no",
+   "marks": [
+    [
+     0,
+     41.1
+    ],
+    [
+     59,
+     43.8
+    ],
+    [
+     120,
+     47.5
+    ],
+    [
+     175,
+     50.9
+    ]
+   ]
   },
   {
    "start": 54.54,
@@ -162,7 +212,17 @@
    "label": "SPEAKER_11",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "se miraron cuando se separaron del abrazo Y eso a mí me escama mucho,"
+   "text": "se miraron cuando se separaron del abrazo Y eso a mí me escama mucho,",
+   "marks": [
+    [
+     0,
+     54.5
+    ],
+    [
+     56,
+     59.0
+    ]
+   ]
   },
   {
    "start": 59.74,
@@ -170,7 +230,13 @@
    "label": "SPEAKER_03",
    "person": null,
    "name": "Hablante sin identificar 4",
-   "text": "esos detalles Sí,"
+   "text": "esos detalles Sí,",
+   "marks": [
+    [
+     0,
+     59.7
+    ]
+   ]
   },
   {
    "start": 60.64,
@@ -178,7 +244,13 @@
    "label": "SPEAKER_11",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "sí, sí."
+   "text": "sí, sí.",
+   "marks": [
+    [
+     0,
+     60.6
+    ]
+   ]
   },
   {
    "start": 60.76,
@@ -186,7 +258,17 @@
    "label": "SPEAKER_03",
    "person": null,
    "name": "Hablante sin identificar 4",
-   "text": "No hay pasión. Yo soy muy de culebrones y"
+   "text": "No hay pasión. Yo soy muy de culebrones y",
+   "marks": [
+    [
+     0,
+     60.8
+    ],
+    [
+     15,
+     61.5
+    ]
+   ]
   },
   {
    "start": 62.3,
@@ -194,7 +276,13 @@
    "label": "SPEAKER_11",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "esas cosas no..."
+   "text": "esas cosas no...",
+   "marks": [
+    [
+     0,
+     62.3
+    ]
+   ]
   },
   {
    "start": 63.04,
@@ -202,7 +290,13 @@
    "label": "SPEAKER_03",
    "person": null,
    "name": "Hablante sin identificar 4",
-   "text": "Bueno, hay muchas bromas."
+   "text": "Bueno, hay muchas bromas.",
+   "marks": [
+    [
+     0,
+     63.0
+    ]
+   ]
   },
   {
    "start": 64.64,
@@ -210,7 +304,53 @@
    "label": "SPEAKER_15",
    "person": null,
    "name": "Hablante sin identificar 13",
-   "text": "En la maretta cuando estábamos grabándole, hay un momento que está muy bien. Sánchez, se meten los dos en el mar, en el agua, pero Sánchez sale primero. Y sale por unas rocas hasta que tienes que subir y tal y tal. Y se olvida de ella. Y ella se queda ahí luchando, parada, intentando también subir porque no hay escaleritas, no hay una escalerilla que tú vas a subir, tienes que escalar las rocas como puedes."
+   "text": "En la maretta cuando estábamos grabándole, hay un momento que está muy bien. Sánchez, se meten los dos en el mar, en el agua, pero Sánchez sale primero. Y sale por unas rocas hasta que tienes que subir y tal y tal. Y se olvida de ella. Y ella se queda ahí luchando, parada, intentando también subir porque no hay escaleritas, no hay una escalerilla que tú vas a subir, tienes que escalar las rocas como puedes.",
+   "marks": [
+    [
+     0,
+     64.6
+    ],
+    [
+     71,
+     67.9
+    ],
+    [
+     77,
+     71.2
+    ],
+    [
+     126,
+     74.9
+    ],
+    [
+     153,
+     76.4
+    ],
+    [
+     192,
+     78.4
+    ],
+    [
+     215,
+     79.3
+    ],
+    [
+     236,
+     80.6
+    ],
+    [
+     238,
+     81.0
+    ],
+    [
+     313,
+     85.9
+    ],
+    [
+     380,
+     88.2
+    ]
+   ]
   },
   {
    "start": 94.22,
@@ -218,7 +358,13 @@
    "label": "SPEAKER_05",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "¡Suscríbete y activa la campanita!"
+   "text": "¡Suscríbete y activa la campanita!",
+   "marks": [
+    [
+     0,
+     94.2
+    ]
+   ]
   },
   {
    "start": 119.66,
@@ -226,7 +372,25 @@
    "label": "SPEAKER_15",
    "person": null,
    "name": "Hablante sin identificar 13",
-   "text": "Se olvida la de ella y se fue a la mareta y ella a la otra intentando salir del mar. Eso no era la fuerza del amor."
+   "text": "Se olvida la de ella y se fue a la mareta y ella a la otra intentando salir del mar. Eso no era la fuerza del amor.",
+   "marks": [
+    [
+     0,
+     119.7
+    ],
+    [
+     44,
+     122.5
+    ],
+    [
+     85,
+     124.5
+    ],
+    [
+     99,
+     126.6
+    ]
+   ]
   },
   {
    "start": 129.26,
@@ -234,7 +398,53 @@
    "label": "SPEAKER_03",
    "person": null,
    "name": "Hablante sin identificar 4",
-   "text": "Silvia, como os decía, hay muchas bromas hoy también y incredulidad entre los oyentes por los audios. Según nos dicen, por los que hemos emitido esta mañana en el programa, porque la práctica totalidad, os lo decía antes de la pausa, dice que anoche no vieron la entrevista de Broncano al presidente. Ahora, más allá de los chascarrillos, le comparan con Nerón, con un tipo que disfruta viendo cómo se quema todo a su alrededor. Por eso consideran que urge echarle de la Moncloa el 29 de noviembre."
+   "text": "Silvia, como os decía, hay muchas bromas hoy también y incredulidad entre los oyentes por los audios. Según nos dicen, por los que hemos emitido esta mañana en el programa, porque la práctica totalidad, os lo decía antes de la pausa, dice que anoche no vieron la entrevista de Broncano al presidente. Ahora, más allá de los chascarrillos, le comparan con Nerón, con un tipo que disfruta viendo cómo se quema todo a su alrededor. Por eso consideran que urge echarle de la Moncloa el 29 de noviembre.",
+   "marks": [
+    [
+     0,
+     129.3
+    ],
+    [
+     74,
+     134.4
+    ],
+    [
+     102,
+     136.2
+    ],
+    [
+     137,
+     138.0
+    ],
+    [
+     209,
+     141.8
+    ],
+    [
+     274,
+     146.0
+    ],
+    [
+     301,
+     147.6
+    ],
+    [
+     351,
+     150.9
+    ],
+    [
+     413,
+     154.5
+    ],
+    [
+     429,
+     155.4
+    ],
+    [
+     479,
+     158.2
+    ]
+   ]
   },
   {
    "start": 159.14,
@@ -242,7 +452,37 @@
    "label": "SPEAKER_10",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Pues va a ser que no. Me acabo de comer ahora un pincho de tortilla con un torrendo de Soria, barra energética soriana, con un café con leche y no pretendo, vamos, escuchar nada de sinvergüenza de nuestro presidente del gobierno, del perro Sánchez, para que me siente mal el desayuno. No fastidies."
+   "text": "Pues va a ser que no. Me acabo de comer ahora un pincho de tortilla con un torrendo de Soria, barra energética soriana, con un café con leche y no pretendo, vamos, escuchar nada de sinvergüenza de nuestro presidente del gobierno, del perro Sánchez, para que me siente mal el desayuno. No fastidies.",
+   "marks": [
+    [
+     0,
+     159.1
+    ],
+    [
+     22,
+     160.8
+    ],
+    [
+     49,
+     162.9
+    ],
+    [
+     124,
+     169.0
+    ],
+    [
+     194,
+     173.7
+    ],
+    [
+     268,
+     178.4
+    ],
+    [
+     285,
+     179.4
+    ]
+   ]
   },
   {
    "start": 180.64,
@@ -250,7 +490,33 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "¿De verdad hay alguien que a estas alturas pierda su tiempo viendo un programa de Pedro Sánchez? No me lo puedo creer. Hombre, que lo vean los psiquiatras para estudiarlo, sí. Pero el pueblo manda eso."
+   "text": "¿De verdad hay alguien que a estas alturas pierda su tiempo viendo un programa de Pedro Sánchez? No me lo puedo creer. Hombre, que lo vean los psiquiatras para estudiarlo, sí. Pero el pueblo manda eso.",
+   "marks": [
+    [
+     0,
+     180.6
+    ],
+    [
+     67,
+     185.9
+    ],
+    [
+     97,
+     188.2
+    ],
+    [
+     119,
+     189.9
+    ],
+    [
+     131,
+     190.3
+    ],
+    [
+     176,
+     193.1
+    ]
+   ]
   },
   {
    "start": 196.28,
@@ -258,7 +524,37 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 10",
-   "text": "¿Eso que lo vea su tía? No, no, no. Y luego, que hable encima de las relaciones sexuales con su mujer. Ah, no, no, no, no. Prefiero ver 50 sombras de Grey."
+   "text": "¿Eso que lo vea su tía? No, no, no. Y luego, que hable encima de las relaciones sexuales con su mujer. Ah, no, no, no, no. Prefiero ver 50 sombras de Grey.",
+   "marks": [
+    [
+     0,
+     196.3
+    ],
+    [
+     24,
+     197.5
+    ],
+    [
+     36,
+     198.3
+    ],
+    [
+     49,
+     198.8
+    ],
+    [
+     103,
+     202.7
+    ],
+    [
+     115,
+     203.3
+    ],
+    [
+     123,
+     203.9
+    ]
+   ]
   },
   {
    "start": 205.7,
@@ -266,7 +562,53 @@
    "label": "SPEAKER_06",
    "person": null,
    "name": "Hablante sin identificar 15",
-   "text": "No lo vi, lo reconozco. En mi casa hay unas normas de seguridad, de higiene. Un gusto, la primera no tiene el control parental, pero por lo que he estado oyendo, Ábalos es mucho más pudoroso que él, pero le falta perrear. Bueno, les viene bien, ¿no? Porque así aprovechan bien el vis-a-vis en la cárcel. Que asquito, por Dios."
+   "text": "No lo vi, lo reconozco. En mi casa hay unas normas de seguridad, de higiene. Un gusto, la primera no tiene el control parental, pero por lo que he estado oyendo, Ábalos es mucho más pudoroso que él, pero le falta perrear. Bueno, les viene bien, ¿no? Porque así aprovechan bien el vis-a-vis en la cárcel. Que asquito, por Dios.",
+   "marks": [
+    [
+     0,
+     205.7
+    ],
+    [
+     24,
+     206.9
+    ],
+    [
+     54,
+     208.4
+    ],
+    [
+     77,
+     210.0
+    ],
+    [
+     128,
+     213.0
+    ],
+    [
+     191,
+     216.4
+    ],
+    [
+     222,
+     218.3
+    ],
+    [
+     250,
+     219.4
+    ],
+    [
+     257,
+     219.7
+    ],
+    [
+     304,
+     222.6
+    ],
+    [
+     317,
+     223.7
+    ]
+   ]
   },
   {
    "start": 224.04,
@@ -274,7 +616,37 @@
    "label": "SPEAKER_07",
    "person": null,
    "name": "Hablante sin identificar 6",
-   "text": "Yo la verdad aguanté poco, hasta los primeros rebusnos de Pedro Sánchez, no lo aguanto. Pero que se puede esperar de una entrevista en la que el entrevistador es vulgar, chavacano y ordinario, pues un entrevistado del mismo nivel. Un hombre que ha vivido de o en el mundo de la prostitución, que contrata sicarios para matar jueces."
+   "text": "Yo la verdad aguanté poco, hasta los primeros rebusnos de Pedro Sánchez, no lo aguanto. Pero que se puede esperar de una entrevista en la que el entrevistador es vulgar, chavacano y ordinario, pues un entrevistado del mismo nivel. Un hombre que ha vivido de o en el mundo de la prostitución, que contrata sicarios para matar jueces.",
+   "marks": [
+    [
+     0,
+     224.0
+    ],
+    [
+     73,
+     227.8
+    ],
+    [
+     88,
+     228.5
+    ],
+    [
+     135,
+     230.5
+    ],
+    [
+     214,
+     234.5
+    ],
+    [
+     231,
+     235.4
+    ],
+    [
+     266,
+     237.9
+    ]
+   ]
   },
   {
    "start": 241.64,
@@ -282,7 +654,21 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 9",
-   "text": "Va ahí a que le dé el masaje a su sauna particular y los índices de audiencia esos que decís, que ni me lo creo, vamos, ni me lo creo."
+   "text": "Va ahí a que le dé el masaje a su sauna particular y los índices de audiencia esos que decís, que ni me lo creo, vamos, ni me lo creo.",
+   "marks": [
+    [
+     0,
+     241.6
+    ],
+    [
+     51,
+     244.3
+    ],
+    [
+     107,
+     249.9
+    ]
+   ]
   },
   {
    "start": 251.5,
@@ -290,7 +676,33 @@
    "label": "SPEAKER_13",
    "person": null,
    "name": "Hablante sin identificar 11",
-   "text": "Lo que presenciamos en ese programa fue el protagonismo de un herón, un herón moderno, que se está riendo y diciéndonos cómo está quemando la ciudad, cómo está quemando el país. Y ayer salió riéndose de todos nosotros, diciéndonos cómo él está quemando el país y lo bien que se lo está pasando."
+   "text": "Lo que presenciamos en ese programa fue el protagonismo de un herón, un herón moderno, que se está riendo y diciéndonos cómo está quemando la ciudad, cómo está quemando el país. Y ayer salió riéndose de todos nosotros, diciéndonos cómo él está quemando el país y lo bien que se lo está pasando.",
+   "marks": [
+    [
+     0,
+     251.5
+    ],
+    [
+     69,
+     255.2
+    ],
+    [
+     139,
+     259.4
+    ],
+    [
+     178,
+     261.0
+    ],
+    [
+     203,
+     262.2
+    ],
+    [
+     271,
+     265.3
+    ]
+   ]
   },
   {
    "start": 266.4,
@@ -298,7 +710,25 @@
    "label": "SPEAKER_12",
    "person": null,
    "name": "Hablante sin identificar 14",
-   "text": "A mí que se dedica a hablar de su vida sexual, me importa un bledo, la verdad. Lo que sí me importa es el miedo que da esta situación."
+   "text": "A mí que se dedica a hablar de su vida sexual, me importa un bledo, la verdad. Lo que sí me importa es el miedo que da esta situación.",
+   "marks": [
+    [
+     0,
+     266.4
+    ],
+    [
+     50,
+     268.4
+    ],
+    [
+     79,
+     269.7
+    ],
+    [
+     106,
+     271.3
+    ]
+   ]
   },
   {
    "start": 272.94,
@@ -306,7 +736,33 @@
    "label": "SPEAKER_14",
    "person": null,
    "name": "Hablante sin identificar 8",
-   "text": "Bueno, este personaje realmente es un delincuente, da vergüenza verlo. Se ríe del mismo, de los demás, de todos nosotros. Por eso no hay que votar a la calle ya, así que todos a votar el 29 de noviembre, hacerle ahí una opa total al tipo."
+   "text": "Bueno, este personaje realmente es un delincuente, da vergüenza verlo. Se ríe del mismo, de los demás, de todos nosotros. Por eso no hay que votar a la calle ya, así que todos a votar el 29 de noviembre, hacerle ahí una opa total al tipo.",
+   "marks": [
+    [
+     0,
+     272.9
+    ],
+    [
+     71,
+     276.7
+    ],
+    [
+     78,
+     277.4
+    ],
+    [
+     122,
+     279.4
+    ],
+    [
+     137,
+     280.5
+    ],
+    [
+     187,
+     284.3
+    ]
+   ]
   },
   {
    "start": 287.94,
@@ -314,7 +770,13 @@
    "label": "SPEAKER_05",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "La gente lo tiene muy claro, es buenísimo."
+   "text": "La gente lo tiene muy claro, es buenísimo.",
+   "marks": [
+    [
+     0,
+     287.9
+    ]
+   ]
   },
   {
    "start": 290.56,
@@ -322,7 +784,29 @@
    "label": "SPEAKER_15",
    "person": null,
    "name": "Hablante sin identificar 13",
-   "text": "Y aparte recordando algo que se nos pasaba, que es verdad, que ya parece que ha quedado atrás, pero que es el yerno de un proxeneta. Y que su mujer trabajaba en esa sauna de administrativa. Pues por eso"
+   "text": "Y aparte recordando algo que se nos pasaba, que es verdad, que ya parece que ha quedado atrás, pero que es el yerno de un proxeneta. Y que su mujer trabajaba en esa sauna de administrativa. Pues por eso",
+   "marks": [
+    [
+     0,
+     290.6
+    ],
+    [
+     63,
+     295.8
+    ],
+    [
+     119,
+     298.8
+    ],
+    [
+     133,
+     300.5
+    ],
+    [
+     190,
+     304.6
+    ]
+   ]
   },
   {
    "start": 305.04,
@@ -330,7 +814,13 @@
    "label": "SPEAKER_05",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "le decía yo a Rubén."
+   "text": "le decía yo a Rubén.",
+   "marks": [
+    [
+     0,
+     305.0
+    ]
+   ]
   },
   {
    "start": 306.6,
@@ -338,7 +828,17 @@
    "label": "SPEAKER_15",
    "person": null,
    "name": "Hablante sin identificar 13",
-   "text": "Y hablando de que este tío venga a hablar de una vida sana y tal."
+   "text": "Y hablando de que este tío venga a hablar de una vida sana y tal.",
+   "marks": [
+    [
+     0,
+     306.6
+    ],
+    [
+     54,
+     309.3
+    ]
+   ]
   },
   {
    "start": 310.06,
@@ -346,7 +846,13 @@
    "label": "SPEAKER_05",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "Que eso es imposible, es inviable."
+   "text": "Que eso es imposible, es inviable.",
+   "marks": [
+    [
+     0,
+     310.1
+    ]
+   ]
   },
   {
    "start": 311.64,
@@ -354,7 +860,17 @@
    "label": "SPEAKER_15",
    "person": null,
    "name": "Hablante sin identificar 13",
-   "text": "Cuando trabajaba en una sauna donde hay testigos y hay testimonios de que prostituían a menores, claro, se te cae una cara de tonto."
+   "text": "Cuando trabajaba en una sauna donde hay testigos y hay testimonios de que prostituían a menores, claro, se te cae una cara de tonto.",
+   "marks": [
+    [
+     0,
+     311.6
+    ],
+    [
+     70,
+     315.5
+    ]
+   ]
   },
   {
    "start": 320.44,
@@ -362,7 +878,61 @@
    "label": "SPEAKER_11",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "La historia la tendría que juzgar, él que estaba tan preocupado por eso, desde la semana después de estar en el gobierno, cuando se lo preguntó a Máximo Huerta, la historia la tendría que juzgar por levantar un muro entre los españoles. Es que eso es lo que va a costar superar. Es que han llegado a hablar, sus terminales mediáticas más chifladas, de levantar o seguir un cordón sanitario en la mesa de Nochebuena. Eso es de ser un sinvergüenza. Lo siento, eso es de romper familias, de intentar debilitar convivencias. Bueno, Pablo,"
+   "text": "La historia la tendría que juzgar, él que estaba tan preocupado por eso, desde la semana después de estar en el gobierno, cuando se lo preguntó a Máximo Huerta, la historia la tendría que juzgar por levantar un muro entre los españoles. Es que eso es lo que va a costar superar. Es que han llegado a hablar, sus terminales mediáticas más chifladas, de levantar o seguir un cordón sanitario en la mesa de Nochebuena. Eso es de ser un sinvergüenza. Lo siento, eso es de romper familias, de intentar debilitar convivencias. Bueno, Pablo,",
+   "marks": [
+    [
+     0,
+     320.4
+    ],
+    [
+     68,
+     323.2
+    ],
+    [
+     132,
+     326.2
+    ],
+    [
+     199,
+     329.7
+    ],
+    [
+     237,
+     331.2
+    ],
+    [
+     258,
+     332.2
+    ],
+    [
+     279,
+     333.1
+    ],
+    [
+     323,
+     335.7
+    ],
+    [
+     396,
+     341.2
+    ],
+    [
+     416,
+     342.0
+    ],
+    [
+     447,
+     343.4
+    ],
+    [
+     462,
+     344.0
+    ],
+    [
+     521,
+     346.8
+    ]
+   ]
   },
   {
    "start": 347.08,
@@ -370,7 +940,13 @@
    "label": "SPEAKER_05",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "Pablo, de eso sabéis vosotros en Cataluña muchísimo, claro."
+   "text": "Pablo, de eso sabéis vosotros en Cataluña muchísimo, claro.",
+   "marks": [
+    [
+     0,
+     347.1
+    ]
+   ]
   },
   {
    "start": 350.12,
@@ -378,7 +954,17 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 7",
-   "text": "¿De qué? ¿De romper familias aquí todos los días?"
+   "text": "¿De qué? ¿De romper familias aquí todos los días?",
+   "marks": [
+    [
+     0,
+     350.1
+    ],
+    [
+     9,
+     350.6
+    ]
+   ]
   },
   {
    "start": 352.48,
@@ -386,7 +972,17 @@
    "label": "SPEAKER_05",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "De romper familias y de mesas de Navidad, bueno, pues disueltas por broncas, ¿no?"
+   "text": "De romper familias y de mesas de Navidad, bueno, pues disueltas por broncas, ¿no?",
+   "marks": [
+    [
+     0,
+     352.5
+    ],
+    [
+     68,
+     356.5
+    ]
+   ]
   },
   {
    "start": 357.3,
@@ -394,7 +990,41 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 7",
-   "text": "Familiares, hablando de política. Sí, hubo una época en la que estaba a la orden del día, pero sí, bueno, iba a seguir a la orden del día, porque vamos, aquí están esperando a que gane el Partido Popular y gobierne con Vox para volver a las calles. Eso que decís al principio de que en España todavía no se han incendiado las calles, bueno, tranquilos, tiempo a tiempo y que enseguida en el País Vasco ya se empiezan a ver detalles."
+   "text": "Familiares, hablando de política. Sí, hubo una época en la que estaba a la orden del día, pero sí, bueno, iba a seguir a la orden del día, porque vamos, aquí están esperando a que gane el Partido Popular y gobierne con Vox para volver a las calles. Eso que decís al principio de que en España todavía no se han incendiado las calles, bueno, tranquilos, tiempo a tiempo y que enseguida en el País Vasco ya se empiezan a ver detalles.",
+   "marks": [
+    [
+     0,
+     357.3
+    ],
+    [
+     34,
+     358.2
+    ],
+    [
+     70,
+     359.7
+    ],
+    [
+     121,
+     363.9
+    ],
+    [
+     185,
+     366.7
+    ],
+    [
+     249,
+     372.7
+    ],
+    [
+     307,
+     375.9
+    ],
+    [
+     385,
+     380.1
+    ]
+   ]
   },
   {
    "start": 383.54,
@@ -402,7 +1032,13 @@
    "label": "SPEAKER_08",
    "person": null,
    "name": "Hablante sin identificar 16",
-   "text": "¿Tienes el sentimiento de que todo el mundo va"
+   "text": "¿Tienes el sentimiento de que todo el mundo va",
+   "marks": [
+    [
+     0,
+     383.5
+    ]
+   ]
   },
   {
    "start": 385.02,
@@ -410,7 +1046,13 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 7",
-   "text": "10 veces más rápido?"
+   "text": "10 veces más rápido?",
+   "marks": [
+    [
+     0,
+     385.0
+    ]
+   ]
   },
   {
    "start": 385.74,
@@ -418,7 +1060,13 @@
    "label": "SPEAKER_08",
    "person": null,
    "name": "Hablante sin identificar 16",
-   "text": "Cuando ves exactamente esas zapatillas, ahora con una reducción"
+   "text": "Cuando ves exactamente esas zapatillas, ahora con una reducción",
+   "marks": [
+    [
+     0,
+     385.7
+    ]
+   ]
   },
   {
    "start": 388.06,
@@ -426,7 +1074,13 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 7",
-   "text": "de 70%, y"
+   "text": "de 70%, y",
+   "marks": [
+    [
+     0,
+     388.1
+    ]
+   ]
   },
   {
    "start": 388.06,
@@ -434,7 +1088,53 @@
    "label": "SPEAKER_08",
    "person": null,
    "name": "Hablante sin identificar 16",
-   "text": "solo hay un par, entonces te detienes en tu banqueta, agarras tu banca, pero no trabajas con ella y ¡boom! ¡Has vendido! Bueno, entonces puedes usar la velocidad. Felizmente, ahora hay los deals de Giga Delta. Temporalmente con un vaso de glas de Giga, las primeras 14 meses por solo 30 euros por mes. Cheque Delta.nl. Delta, pensado en todo."
+   "text": "solo hay un par, entonces te detienes en tu banqueta, agarras tu banca, pero no trabajas con ella y ¡boom! ¡Has vendido! Bueno, entonces puedes usar la velocidad. Felizmente, ahora hay los deals de Giga Delta. Temporalmente con un vaso de glas de Giga, las primeras 14 meses por solo 30 euros por mes. Cheque Delta.nl. Delta, pensado en todo.",
+   "marks": [
+    [
+     0,
+     388.1
+    ],
+    [
+     65,
+     389.8
+    ],
+    [
+     107,
+     391.0
+    ],
+    [
+     121,
+     391.5
+    ],
+    [
+     137,
+     392.5
+    ],
+    [
+     163,
+     394.2
+    ],
+    [
+     210,
+     396.7
+    ],
+    [
+     275,
+     399.6
+    ],
+    [
+     302,
+     401.2
+    ],
+    [
+     319,
+     402.3
+    ],
+    [
+     337,
+     403.1
+    ]
+   ]
   }
  ]
 }

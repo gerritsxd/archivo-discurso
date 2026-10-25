@@ -23,6 +23,7 @@ from zoneinfo import ZoneInfo
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import llm  # noqa: E402
+from marks import time_at  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 LEDGER = ROOT / "data" / "ask_spend.json"
@@ -89,7 +90,45 @@ def _norm(q):
     return re.sub(r"\s+", " ", q.lower()).strip(" ¿?¡!.")
 
 
-def retrieve(db, plan, people):
+STOP = set("""que qué cual cuál cuales quien quién quienes como cómo donde dónde cuando cuándo sobre para por con sin
+los las una unos unas del al lo le les se su sus mas más muy pero porque han ha hay ser son está están dicho
+dice dicen piensa piensan opina opinan candidato candidatos candidata candidatas todos todas este esta esto
+ese esa eso entre hasta desde también algo nada tiene tienen hacer hecho sido the and what about""".split())
+
+
+def keywords(plan, question):
+    """The planner's keywords plus the question's own content words (a bare "Macron" must work)."""
+    words = [w for w in (plan.get("palabras") or []) if isinstance(w, str) and 2 < len(w) < 40]
+    for w in re.findall(r"[\wáéíóúüñÁÉÍÓÚÜÑ]{4,}", question):
+        if w.lower() not in STOP and w.lower() not in (x.lower() for x in words):
+            words.append(w)
+    return words[:6]
+
+
+def retrieve_text(db, words, plan, people, limit=12):
+    """Literal matches in what the candidates said (full-text index over every turn), with the
+    passage around the first match and the second it was said."""
+    if not words:
+        return []
+    match = " OR ".join('"' + w.replace('"', "") + '"' for w in words)
+    sql = ("SELECT t.id, t.person, t.text, t.marks, t.start, t.item_id, i.date, i.outlet, i.url FROM turns t "
+           "JOIN items i ON i.id = t.item_id WHERE t.person IS NOT NULL "
+           "AND t.id IN (SELECT rowid FROM turns_fts WHERE turns_fts MATCH ?)")
+    args = [match]
+    if plan.get("persona") in people:
+        sql += " AND t.person = ?"; args.append(plan["persona"])
+    out = []
+    for r in db.execute(sql + " ORDER BY i.date DESC LIMIT ?", args + [limit]).fetchall():
+        low = r[2].lower()
+        pos = min((p for p in (low.find(w.lower()) for w in words) if p >= 0), default=0)
+        a = max(0, low.rfind(". ", 0, max(0, pos - 250)) + 2) if pos > 250 else 0
+        passage = r[2][a: pos + 300].strip()
+        start = time_at(json.loads(r[3] or "[]"), pos, r[4])
+        out.append((f"t{r[0]}", r[1], "texto", passage, "", r[5], start, r[6], r[7], r[8]))
+    return out
+
+
+def retrieve(db, plan, people, relax=True):
     where, args = ["1=1"], []
     if plan.get("persona") in people:
         where.append("c.person = ?"); args.append(plan["persona"])
@@ -109,7 +148,7 @@ def retrieve(db, plan, people):
         kw = " OR ".join(["c.quote LIKE ? OR c.summary LIKE ?"] * len(words))
         rows = db.execute(base + " AND ".join(where) + f" AND ({kw}) ORDER BY i.date DESC LIMIT 25",
                           args + [a for w in words for a in (f"%{w}%", f"%{w}%")]).fetchall()
-    if len(rows) < 8:  # relax: drop the keywords
+    if relax and len(rows) < 8:  # relax: drop the keywords (not when the text search found literal matches)
         seen = {r[0] for r in rows}
         rows += [r for r in db.execute(base + " AND ".join(where) + " ORDER BY i.date DESC LIMIT 25", args).fetchall()
                  if r[0] not in seen][:25 - len(rows)]
@@ -148,8 +187,10 @@ def answer(db, question, people, source_link):
         plan = llm.ask(PLAN.format(cands=cands, types=TYPES, topics=TOPICS, groups=GROUPS),
                        {"pregunta": q}, max_tokens=300) or {}
         plan = plan if isinstance(plan, dict) else {}
-        on_topic = any(plan.get(k) for k in ("persona", "tipo", "tema", "contra", "palabras"))
-        rows = retrieve(db, plan, people) if on_topic else []
+        words = keywords(plan, q)
+        text_rows = retrieve_text(db, words, plan, people)
+        on_topic = bool(text_rows) or any(plan.get(k) for k in ("persona", "tipo", "tema", "contra", "palabras"))
+        rows = (text_rows + (retrieve(db, plan, people, relax=not text_rows) if on_topic else []))[:25] if on_topic else []
         if not on_topic:
             res = {"answer": "Solo puedo responder sobre lo que han dicho en público los candidatos del 29N.",
                    "sources": [], "plan": plan}

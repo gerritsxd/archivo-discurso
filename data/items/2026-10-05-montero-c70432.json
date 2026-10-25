@@ -14,7 +14,7 @@
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
   "voiceprint_threshold": 0.65,
-  "processed_at": "2026-10-25T20:11:20+00:00",
+  "processed_at": "2026-10-25T20:59:08+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -54,7 +54,13 @@
    "label": "SPEAKER_03",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "SER PODCAST"
+   "text": "SER PODCAST",
+   "marks": [
+    [
+     0,
+     1.5
+    ]
+   ]
   },
   {
    "start": 33.59,
@@ -62,7 +68,69 @@
    "label": "SPEAKER_01",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "Y para eso hay mucho trabajo que hacer porque tienen que ser también unas elecciones en las que votemos a la gente que va a hacer eso posible, no a la gente que luego además hay que forzarla y que siempre al final usa cualquier excusa para que todo siga igual. Yo creo que, bueno, lo decía la gente de la acampada, quiero que estas elecciones sirvan para que pasen las cosas, para que se acabe el negocio de la especulación, no para que todo siga igual con cualquier excusa. Y a eso nos tenemos que entregar en cuerpo y alma y por eso hoy mismo ya he ofrecido que haya unas primarias abiertas para que todo el mundo pueda votar los días 14 y 15 de octubre y que podamos tener esa candidatura que represente a una mayoría social que quiere que las cosas cambien."
+   "text": "Y para eso hay mucho trabajo que hacer porque tienen que ser también unas elecciones en las que votemos a la gente que va a hacer eso posible, no a la gente que luego además hay que forzarla y que siempre al final usa cualquier excusa para que todo siga igual. Yo creo que, bueno, lo decía la gente de la acampada, quiero que estas elecciones sirvan para que pasen las cosas, para que se acabe el negocio de la especulación, no para que todo siga igual con cualquier excusa. Y a eso nos tenemos que entregar en cuerpo y alma y por eso hoy mismo ya he ofrecido que haya unas primarias abiertas para que todo el mundo pueda votar los días 14 y 15 de octubre y que podamos tener esa candidatura que represente a una mayoría social que quiere que las cosas cambien.",
+   "marks": [
+    [
+     0,
+     33.6
+    ],
+    [
+     61,
+     36.9
+    ],
+    [
+     122,
+     39.9
+    ],
+    [
+     178,
+     42.5
+    ],
+    [
+     244,
+     45.7
+    ],
+    [
+     261,
+     46.4
+    ],
+    [
+     302,
+     48.4
+    ],
+    [
+     376,
+     52.0
+    ],
+    [
+     437,
+     54.6
+    ],
+    [
+     475,
+     56.1
+    ],
+    [
+     499,
+     57.5
+    ],
+    [
+     551,
+     60.1
+    ],
+    [
+     622,
+     63.5
+    ],
+    [
+     676,
+     66.3
+    ],
+    [
+     747,
+     69.8
+    ]
+   ]
   },
   {
    "start": 70.45,
@@ -70,7 +138,17 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "O sea, ustedes proponen una candidatura conjunta con los partidos que ahora mismo están construyendo ese Frente Amplio, siempre pasando por unas primarias."
+   "text": "O sea, ustedes proponen una candidatura conjunta con los partidos que ahora mismo están construyendo ese Frente Amplio, siempre pasando por unas primarias.",
+   "marks": [
+    [
+     0,
+     70.5
+    ],
+    [
+     76,
+     74.0
+    ]
+   ]
   },
   {
    "start": 78.71,
@@ -78,7 +156,77 @@
    "label": "SPEAKER_01",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "Una candidatura que se vote en primarias donde pueda participar todo el mundo, por supuesto formaciones políticas, toda la gente que quiera participar, la gente que se está movilizando en estos días por millones en todas las plazas, en todas las calles de nuestro país y que podamos construir una candidatura que represente a esa mayoría social que está urgida para que acabe el negocio de la vivienda, para que bajemos el precio de los alquileres, Para que tengamos paz, para que tengamos trabajo y más tiempo para estar con nuestras familias, para que, como te decía, también baje el precio de la energía de los alimentos, para que esas cosas pasen, para que ya se acaben las excusas y no siga todo igual al final del día, sino que podamos cambiar realmente las cosas. Creo que eso es mayoritario en la sociedad y que unas primarias abiertas en las que pueda votar todo el mundo, proponemos que sea el 14 y el 15 porque no hay tiempo que perder, la verdad, los tiempos son ajustados, pues que todo el mundo pueda votar esa candidatura y ser parte de ella."
+   "text": "Una candidatura que se vote en primarias donde pueda participar todo el mundo, por supuesto formaciones políticas, toda la gente que quiera participar, la gente que se está movilizando en estos días por millones en todas las plazas, en todas las calles de nuestro país y que podamos construir una candidatura que represente a esa mayoría social que está urgida para que acabe el negocio de la vivienda, para que bajemos el precio de los alquileres, Para que tengamos paz, para que tengamos trabajo y más tiempo para estar con nuestras familias, para que, como te decía, también baje el precio de la energía de los alimentos, para que esas cosas pasen, para que ya se acaben las excusas y no siga todo igual al final del día, sino que podamos cambiar realmente las cosas. Creo que eso es mayoritario en la sociedad y que unas primarias abiertas en las que pueda votar todo el mundo, proponemos que sea el 14 y el 15 porque no hay tiempo que perder, la verdad, los tiempos son ajustados, pues que todo el mundo pueda votar esa candidatura y ser parte de ella.",
+   "marks": [
+    [
+     0,
+     78.7
+    ],
+    [
+     72,
+     81.9
+    ],
+    [
+     155,
+     85.9
+    ],
+    [
+     221,
+     89.0
+    ],
+    [
+     283,
+     92.5
+    ],
+    [
+     361,
+     97.3
+    ],
+    [
+     423,
+     100.4
+    ],
+    [
+     498,
+     104.7
+    ],
+    [
+     563,
+     108.4
+    ],
+    [
+     630,
+     111.0
+    ],
+    [
+     688,
+     114.7
+    ],
+    [
+     750,
+     118.5
+    ],
+    [
+     771,
+     119.3
+    ],
+    [
+     816,
+     121.7
+    ],
+    [
+     882,
+     124.4
+    ],
+    [
+     936,
+     127.0
+    ],
+    [
+     1003,
+     130.5
+    ]
+   ]
   },
   {
    "start": 133.89,
@@ -86,7 +234,17 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "¿Están en conversación ya con los partidos que forman parte de ese Frente Amplio?"
+   "text": "¿Están en conversación ya con los partidos que forman parte de ese Frente Amplio?",
+   "marks": [
+    [
+     0,
+     133.9
+    ],
+    [
+     67,
+     136.6
+    ]
+   ]
   },
   {
    "start": 138.15,
@@ -94,7 +252,41 @@
    "label": "SPEAKER_01",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "Siempre lo hemos estado, pero de verdad también creo que hay que salir ya de esa dinámica, de ese bucle eterno. Claro que estamos en contacto y ahora lo importante, además de que estemos en contacto, es que podamos construir una candidatura. Yo creo que la forma de que eso salga bien es unas primarias y que todo el mundo pueda votar los días 14 y 15 de octubre."
+   "text": "Siempre lo hemos estado, pero de verdad también creo que hay que salir ya de esa dinámica, de ese bucle eterno. Claro que estamos en contacto y ahora lo importante, además de que estemos en contacto, es que podamos construir una candidatura. Yo creo que la forma de que eso salga bien es unas primarias y que todo el mundo pueda votar los días 14 y 15 de octubre.",
+   "marks": [
+    [
+     0,
+     138.2
+    ],
+    [
+     65,
+     141.8
+    ],
+    [
+     112,
+     147.7
+    ],
+    [
+     130,
+     148.2
+    ],
+    [
+     200,
+     151.3
+    ],
+    [
+     242,
+     153.4
+    ],
+    [
+     266,
+     154.3
+    ],
+    [
+     323,
+     157.6
+    ]
+   ]
   },
   {
    "start": 159.59,
@@ -102,7 +294,13 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Irene Montero, Podemos, muchas gracias, buenos días."
+   "text": "Irene Montero, Podemos, muchas gracias, buenos días.",
+   "marks": [
+    [
+     0,
+     159.6
+    ]
+   ]
   },
   {
    "start": 162.23,
@@ -110,7 +308,21 @@
    "label": "SPEAKER_01",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "Muchas gracias a ti, Aimar. Que tengáis buen día. Y a trabajar."
+   "text": "Muchas gracias a ti, Aimar. Que tengáis buen día. Y a trabajar.",
+   "marks": [
+    [
+     0,
+     162.2
+    ],
+    [
+     28,
+     163.7
+    ],
+    [
+     50,
+     164.5
+    ]
+   ]
   },
   {
    "start": 166.09,
@@ -118,7 +330,29 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "En ello llevamos desde las 6 de la mañana cotizando. Señora Montero, mil gracias. Buenos días. Venga, muchas gracias."
+   "text": "En ello llevamos desde las 6 de la mañana cotizando. Señora Montero, mil gracias. Buenos días. Venga, muchas gracias.",
+   "marks": [
+    [
+     0,
+     166.1
+    ],
+    [
+     53,
+     169.7
+    ],
+    [
+     69,
+     170.6
+    ],
+    [
+     82,
+     170.9
+    ],
+    [
+     95,
+     171.7
+    ]
+   ]
   },
   {
    "start": 172.79,
@@ -126,7 +360,17 @@
    "label": "SPEAKER_03",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "Para no perderte ningún episodio, síguenos en la aplicación o la web de la SER, Podium Podcast o tu plataforma de audio favorita."
+   "text": "Para no perderte ningún episodio, síguenos en la aplicación o la web de la SER, Podium Podcast o tu plataforma de audio favorita.",
+   "marks": [
+    [
+     0,
+     172.8
+    ],
+    [
+     69,
+     176.4
+    ]
+   ]
   },
   {
    "start": 192.23,
@@ -134,7 +378,29 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Delta Deals. Tijdelijk met 1G glasvezel de eerste 14 maanden voor maar 30 euro per maand. Check delta.nl. Delta, aan alles gedacht."
+   "text": "Delta Deals. Tijdelijk met 1G glasvezel de eerste 14 maanden voor maar 30 euro per maand. Check delta.nl. Delta, aan alles gedacht.",
+   "marks": [
+    [
+     0,
+     192.2
+    ],
+    [
+     13,
+     192.8
+    ],
+    [
+     71,
+     196.3
+    ],
+    [
+     90,
+     197.5
+    ],
+    [
+     106,
+     198.6
+    ]
+   ]
   }
  ]
 }

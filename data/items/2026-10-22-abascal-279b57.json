@@ -14,7 +14,7 @@
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
   "voiceprint_threshold": 0.65,
-  "processed_at": "2026-10-25T20:11:44+00:00",
+  "processed_at": "2026-10-25T20:59:32+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -40,7 +40,13 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Presidente, Santiago Abascal, hola, muy buenos días."
+   "text": "Presidente, Santiago Abascal, hola, muy buenos días.",
+   "marks": [
+    [
+     0,
+     0.0
+    ]
+   ]
   },
   {
    "start": 5.19,
@@ -48,7 +54,13 @@
    "label": "SPEAKER_01",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Hola, muy buenos días, ¿cómo estáis?"
+   "text": "Hola, muy buenos días, ¿cómo estáis?",
+   "marks": [
+    [
+     0,
+     5.2
+    ]
+   ]
   },
   {
    "start": 6.67,
@@ -56,7 +68,17 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "¿Dónde está hoy? ¿Dónde se va a liar hoy?"
+   "text": "¿Dónde está hoy? ¿Dónde se va a liar hoy?",
+   "marks": [
+    [
+     0,
+     6.7
+    ],
+    [
+     17,
+     7.5
+    ]
+   ]
   },
   {
    "start": 11.13,
@@ -64,7 +86,41 @@
    "label": "SPEAKER_01",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Pues espero que en ningún sitio. Yo ahora mismo estoy en Reynosa, que hemos parado aquí en la carretera para poder atender esta comunicación, y vamos rumbo a Burgos y esta tarde a Segovia, donde esperamos poder hacer la declaración a los medios en Burgos y un mítin con simpatizantes en Segovia y poder contar nuestras ideas, que es lo que nos gustaría en vez de tener que estar hablando de la violencia."
+   "text": "Pues espero que en ningún sitio. Yo ahora mismo estoy en Reynosa, que hemos parado aquí en la carretera para poder atender esta comunicación, y vamos rumbo a Burgos y esta tarde a Segovia, donde esperamos poder hacer la declaración a los medios en Burgos y un mítin con simpatizantes en Segovia y poder contar nuestras ideas, que es lo que nos gustaría en vez de tener que estar hablando de la violencia.",
+   "marks": [
+    [
+     0,
+     11.1
+    ],
+    [
+     33,
+     12.8
+    ],
+    [
+     66,
+     14.7
+    ],
+    [
+     142,
+     18.2
+    ],
+    [
+     205,
+     22.2
+    ],
+    [
+     266,
+     25.5
+    ],
+    [
+     336,
+     29.6
+    ],
+    [
+     394,
+     31.5
+    ]
+   ]
   },
   {
    "start": 31.83,
@@ -72,7 +128,37 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Bueno, fue tremendo lo que ocurrió ayer, tanto en La Coruña como en Avilés. Hemos tenido al representante del sindicato de policía, os voy a contar la cantidad de policías heridos, cómo se acosó a dos chavales porque llevaban la bandera de España. Bueno, ¿cómo lo vivió usted? ¿Qué pasa, Sánchez?"
+   "text": "Bueno, fue tremendo lo que ocurrió ayer, tanto en La Coruña como en Avilés. Hemos tenido al representante del sindicato de policía, os voy a contar la cantidad de policías heridos, cómo se acosó a dos chavales porque llevaban la bandera de España. Bueno, ¿cómo lo vivió usted? ¿Qué pasa, Sánchez?",
+   "marks": [
+    [
+     0,
+     31.8
+    ],
+    [
+     65,
+     37.4
+    ],
+    [
+     76,
+     39.9
+    ],
+    [
+     139,
+     44.2
+    ],
+    [
+     201,
+     50.0
+    ],
+    [
+     248,
+     54.8
+    ],
+    [
+     277,
+     56.7
+    ]
+   ]
   },
   {
    "start": 89.08,
@@ -80,7 +166,85 @@
    "label": "SPEAKER_01",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "y personas que acaban agrediendo incluso a la propia policía. Yo hoy quiero mandar un saludo a los policías por su trabajo, por proteger el ejercicio de nuestra libertad, pero un reproche total al delegado del gobierno, al ministro interior y al presidente del gobierno, porque están queriendo que esto ocurra. Quieren que en torno a Vox se hable de la violencia, de la violencia que Vox ni practica ni promueve, sino que únicamente padece, y lo hacen porque quieren que haya una cortina de humo. No quieren que se puedan defender nuestras ideas y a la vez no quieren que se hable de los casos de corrupción que continuamos conociendo todos los días, como las noticias de Delsi, Zapatero y de las que van surgiendo. El ejercicio de la violencia que es facilitada por el gobierno por permitir esas contramanifestaciones a escasos metros de nuestros actos, solo es una cortina de humo para que no se hable de lo que está pasando en España y de lo que les ocurre a los españoles."
+   "text": "y personas que acaban agrediendo incluso a la propia policía. Yo hoy quiero mandar un saludo a los policías por su trabajo, por proteger el ejercicio de nuestra libertad, pero un reproche total al delegado del gobierno, al ministro interior y al presidente del gobierno, porque están queriendo que esto ocurra. Quieren que en torno a Vox se hable de la violencia, de la violencia que Vox ni practica ni promueve, sino que únicamente padece, y lo hacen porque quieren que haya una cortina de humo. No quieren que se puedan defender nuestras ideas y a la vez no quieren que se hable de los casos de corrupción que continuamos conociendo todos los días, como las noticias de Delsi, Zapatero y de las que van surgiendo. El ejercicio de la violencia que es facilitada por el gobierno por permitir esas contramanifestaciones a escasos metros de nuestros actos, solo es una cortina de humo para que no se hable de lo que está pasando en España y de lo que les ocurre a los españoles.",
+   "marks": [
+    [
+     0,
+     89.1
+    ],
+    [
+     62,
+     91.7
+    ],
+    [
+     69,
+     91.8
+    ],
+    [
+     137,
+     96.0
+    ],
+    [
+     210,
+     100.9
+    ],
+    [
+     294,
+     104.2
+    ],
+    [
+     311,
+     104.9
+    ],
+    [
+     350,
+     107.1
+    ],
+    [
+     418,
+     111.0
+    ],
+    [
+     488,
+     115.1
+    ],
+    [
+     497,
+     115.5
+    ],
+    [
+     550,
+     119.1
+    ],
+    [
+     608,
+     121.1
+    ],
+    [
+     688,
+     125.6
+    ],
+    [
+     716,
+     127.5
+    ],
+    [
+     749,
+     129.5
+    ],
+    [
+     836,
+     133.6
+    ],
+    [
+     895,
+     136.9
+    ],
+    [
+     945,
+     138.5
+    ]
+   ]
   },
   {
    "start": 139.5,
@@ -88,7 +252,21 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "¿Le preocupa lo que pueda pasar? Porque ahora estamos todavía en pre-campaña electoral y todavía quedan muchos días de campaña."
+   "text": "¿Le preocupa lo que pueda pasar? Porque ahora estamos todavía en pre-campaña electoral y todavía quedan muchos días de campaña.",
+   "marks": [
+    [
+     0,
+     139.5
+    ],
+    [
+     33,
+     142.0
+    ],
+    [
+     68,
+     143.7
+    ]
+   ]
   },
   {
    "start": 151.01,
@@ -96,7 +274,121 @@
    "label": "SPEAKER_01",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Pues sí, me preocupa. De hecho, inmediatamente después del adelanto de las elecciones, yo comparecí públicamente para advertir de que creía que este iba a ser una campaña sucia y una campaña de violencia Y para pedirle a nuestros militantes que de ninguna manera cayeran en las provocaciones. Lo hice públicamente y desgraciadamente estoy acertando, pero lo sé porque lo hemos padecido en otras elecciones y me preocupa lo que pueda ocurrir porque ha ocurrido en otras. En Sestao a una diputada de Vox le dieron una pedrada en la cabeza, que en su momento el señor Echenique de Podemos dijo que la sangre que brotaba de su cabeza era ketchup. Después en Vallecas también varios diputados fueron heridos y muchos de los asistentes. En Cataluña nos ha ocurrido lo mismo. Las carpas informativas de Vox son asaltadas violentamente en muchas ocasiones y hemos visto cómo se ha iniciado esta campaña. Yo imagino que es lo que tienen preparado porque tienen otros modelos, el modelo de la Francia en llamas y el modelo de asaltar las ciudades. Lo que ayer ocurrió en torno al acto de Vox por parte de esos autodenominados antifascistas y después en Avilés, por cierto, donde tuvimos un acto absolutamente multitudinario con 2.000 personas y que fue hostigado por un pequeño grupo que después se dedicó a perseguir a las personas, pues me parece que es la antesala de lo que nos espera en esta campaña electoral."
+   "text": "Pues sí, me preocupa. De hecho, inmediatamente después del adelanto de las elecciones, yo comparecí públicamente para advertir de que creía que este iba a ser una campaña sucia y una campaña de violencia Y para pedirle a nuestros militantes que de ninguna manera cayeran en las provocaciones. Lo hice públicamente y desgraciadamente estoy acertando, pero lo sé porque lo hemos padecido en otras elecciones y me preocupa lo que pueda ocurrir porque ha ocurrido en otras. En Sestao a una diputada de Vox le dieron una pedrada en la cabeza, que en su momento el señor Echenique de Podemos dijo que la sangre que brotaba de su cabeza era ketchup. Después en Vallecas también varios diputados fueron heridos y muchos de los asistentes. En Cataluña nos ha ocurrido lo mismo. Las carpas informativas de Vox son asaltadas violentamente en muchas ocasiones y hemos visto cómo se ha iniciado esta campaña. Yo imagino que es lo que tienen preparado porque tienen otros modelos, el modelo de la Francia en llamas y el modelo de asaltar las ciudades. Lo que ayer ocurrió en torno al acto de Vox por parte de esos autodenominados antifascistas y después en Avilés, por cierto, donde tuvimos un acto absolutamente multitudinario con 2.000 personas y que fue hostigado por un pequeño grupo que después se dedicó a perseguir a las personas, pues me parece que es la antesala de lo que nos espera en esta campaña electoral.",
+   "marks": [
+    [
+     0,
+     151.0
+    ],
+    [
+     22,
+     152.5
+    ],
+    [
+     75,
+     156.1
+    ],
+    [
+     153,
+     160.2
+    ],
+    [
+     211,
+     164.0
+    ],
+    [
+     293,
+     168.7
+    ],
+    [
+     371,
+     173.8
+    ],
+    [
+     441,
+     176.9
+    ],
+    [
+     470,
+     178.5
+    ],
+    [
+     502,
+     180.9
+    ],
+    [
+     559,
+     183.7
+    ],
+    [
+     623,
+     187.5
+    ],
+    [
+     643,
+     189.3
+    ],
+    [
+     705,
+     193.4
+    ],
+    [
+     731,
+     194.6
+    ],
+    [
+     769,
+     196.3
+    ],
+    [
+     773,
+     196.5
+    ],
+    [
+     856,
+     201.8
+    ],
+    [
+     896,
+     203.2
+    ],
+    [
+     917,
+     204.7
+    ],
+    [
+     991,
+     208.0
+    ],
+    [
+     1038,
+     211.2
+    ],
+    [
+     1050,
+     212.2
+    ],
+    [
+     1116,
+     215.8
+    ],
+    [
+     1199,
+     220.2
+    ],
+    [
+     1268,
+     224.1
+    ],
+    [
+     1332,
+     227.3
+    ],
+    [
+     1387,
+     229.2
+    ]
+   ]
   },
   {
    "start": 229.75,
@@ -104,7 +396,49 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Madre mía. Señora Abascal, estábamos hablando hace dos minutos de la ley de nietas y de que el Constitucional, bueno, por fin ha rechazado ese recurso. ¿Qué cree que se puede hacer? Porque si los consulados y exteriores no ha mandado la lista de las personas que no tendrían derecho a ese voto, esas personas están en este momento... ¿Qué pueden votar?"
+   "text": "Madre mía. Señora Abascal, estábamos hablando hace dos minutos de la ley de nietas y de que el Constitucional, bueno, por fin ha rechazado ese recurso. ¿Qué cree que se puede hacer? Porque si los consulados y exteriores no ha mandado la lista de las personas que no tendrían derecho a ese voto, esas personas están en este momento... ¿Qué pueden votar?",
+   "marks": [
+    [
+     0,
+     229.8
+    ],
+    [
+     11,
+     233.1
+    ],
+    [
+     73,
+     238.3
+    ],
+    [
+     139,
+     241.8
+    ],
+    [
+     152,
+     243.2
+    ],
+    [
+     182,
+     246.1
+    ],
+    [
+     207,
+     248.7
+    ],
+    [
+     266,
+     254.1
+    ],
+    [
+     334,
+     260.2
+    ],
+    [
+     339,
+     262.2
+    ]
+   ]
   },
   {
    "start": 264.19,
@@ -112,7 +446,109 @@
    "label": "SPEAKER_01",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "¿En el censo? Bueno, pues yo creo que los tribunales tendrán que actuar contra aquellos que no quieren cumplir las sentencias de los tribunales y las instrucciones de los jueces en estos momentos, pero a mí esta pregunta que me hace me lleva a reflexionar sobre las palabras que el otro día dijo el presidente del gobierno, que iban a continuar gobernando cuatro años más de una manera o de otra. ¿Cuál es la manera? Pues la manera parece que es la de hacer trampas, no obedecer a los jueces y son maneras que, pues muy peligrosas, que ni siquiera sigue Cándido Conde Pulpido, que parece que en esta ocasión no ha querido dar la razón al presidente del gobierno, que ha utilizado al defensor del pueblo como defensor del gobierno en un nuevo intento de trampa con la cuestión de los nietos y por hablar de maneras, pues, y porque me han preguntado antes por la violencia, también tengo que decir que tienen maneras que parece que no gustan ni siquiera a los narcos. Gracias a todos los que les han dicho que ellos no matan jueces. Yo creo que es una situación muy preocupante, pero espero que los tribunales actúen para que las disposiciones de los mismos sean respetadas por las autoridades y por el gobierno, y para que las personas que no tienen derecho a voto en España no puedan ejercerlo, por supuesto."
+   "text": "¿En el censo? Bueno, pues yo creo que los tribunales tendrán que actuar contra aquellos que no quieren cumplir las sentencias de los tribunales y las instrucciones de los jueces en estos momentos, pero a mí esta pregunta que me hace me lleva a reflexionar sobre las palabras que el otro día dijo el presidente del gobierno, que iban a continuar gobernando cuatro años más de una manera o de otra. ¿Cuál es la manera? Pues la manera parece que es la de hacer trampas, no obedecer a los jueces y son maneras que, pues muy peligrosas, que ni siquiera sigue Cándido Conde Pulpido, que parece que en esta ocasión no ha querido dar la razón al presidente del gobierno, que ha utilizado al defensor del pueblo como defensor del gobierno en un nuevo intento de trampa con la cuestión de los nietos y por hablar de maneras, pues, y porque me han preguntado antes por la violencia, también tengo que decir que tienen maneras que parece que no gustan ni siquiera a los narcos. Gracias a todos los que les han dicho que ellos no matan jueces. Yo creo que es una situación muy preocupante, pero espero que los tribunales actúen para que las disposiciones de los mismos sean respetadas por las autoridades y por el gobierno, y para que las personas que no tienen derecho a voto en España no puedan ejercerlo, por supuesto.",
+   "marks": [
+    [
+     0,
+     264.2
+    ],
+    [
+     14,
+     265.3
+    ],
+    [
+     65,
+     267.5
+    ],
+    [
+     144,
+     272.2
+    ],
+    [
+     207,
+     275.9
+    ],
+    [
+     275,
+     279.1
+    ],
+    [
+     335,
+     281.4
+    ],
+    [
+     397,
+     285.4
+    ],
+    [
+     403,
+     285.8
+    ],
+    [
+     417,
+     286.4
+    ],
+    [
+     458,
+     287.8
+    ],
+    [
+     520,
+     292.3
+    ],
+    [
+     595,
+     296.2
+    ],
+    [
+     663,
+     300.6
+    ],
+    [
+     733,
+     304.0
+    ],
+    [
+     792,
+     307.4
+    ],
+    [
+     858,
+     310.9
+    ],
+    [
+     930,
+     313.6
+    ],
+    [
+     966,
+     314.9
+    ],
+    [
+     990,
+     315.1
+    ],
+    [
+     1031,
+     317.3
+    ],
+    [
+     1046,
+     318.1
+    ],
+    [
+     1124,
+     321.6
+    ],
+    [
+     1198,
+     326.4
+    ],
+    [
+     1259,
+     328.8
+    ]
+   ]
   },
   {
    "start": 332.25,
@@ -120,7 +556,33 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "¿Cómo llevan las negociaciones? Le he preguntado hace un momento a Borja Semper, se ha salido por la tangente y dice, yo no llevo este asunto. ¿Cómo llevan las negociaciones con el Partido Popular para el Senado?"
+   "text": "¿Cómo llevan las negociaciones? Le he preguntado hace un momento a Borja Semper, se ha salido por la tangente y dice, yo no llevo este asunto. ¿Cómo llevan las negociaciones con el Partido Popular para el Senado?",
+   "marks": [
+    [
+     0,
+     332.2
+    ],
+    [
+     32,
+     333.9
+    ],
+    [
+     73,
+     335.6
+    ],
+    [
+     130,
+     338.5
+    ],
+    [
+     143,
+     339.7
+    ],
+    [
+     205,
+     343.0
+    ]
+   ]
   },
   {
    "start": 346.97,
@@ -128,7 +590,81 @@
    "label": "SPEAKER_01",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Bueno, yo tampoco llevo este asunto, como el señor siempre. Lo cierto es que estamos en comunicación. No, estoy bromeando, estoy bromeando. Pero también me voy a salir por la tangente, pero lo voy a hacer por prudencia y por responsabilidad. Nosotros no queremos dar el espectáculo que ha dado la extrema izquierda y todo lo que rodea a Sánchez en esos procesos de negociación, En los que se han matado entre ellos mismos, nosotros lo que queremos es resolver un problema ante esa coalición de los extremistas en España. Y lo que puedo decir es que haremos todo lo poco o lo mucho que esté en nuestra mano y que los españoles no tengan ninguna duda de eso. Pero seguimos hablando y esperamos a tiempo poder dar una noticia, pero no queremos adelantar acontecimientos."
+   "text": "Bueno, yo tampoco llevo este asunto, como el señor siempre. Lo cierto es que estamos en comunicación. No, estoy bromeando, estoy bromeando. Pero también me voy a salir por la tangente, pero lo voy a hacer por prudencia y por responsabilidad. Nosotros no queremos dar el espectáculo que ha dado la extrema izquierda y todo lo que rodea a Sánchez en esos procesos de negociación, En los que se han matado entre ellos mismos, nosotros lo que queremos es resolver un problema ante esa coalición de los extremistas en España. Y lo que puedo decir es que haremos todo lo poco o lo mucho que esté en nuestra mano y que los españoles no tengan ninguna duda de eso. Pero seguimos hablando y esperamos a tiempo poder dar una noticia, pero no queremos adelantar acontecimientos.",
+   "marks": [
+    [
+     0,
+     347.0
+    ],
+    [
+     60,
+     349.3
+    ],
+    [
+     70,
+     349.9
+    ],
+    [
+     102,
+     352.1
+    ],
+    [
+     140,
+     354.1
+    ],
+    [
+     153,
+     354.7
+    ],
+    [
+     205,
+     356.2
+    ],
+    [
+     242,
+     358.1
+    ],
+    [
+     286,
+     359.9
+    ],
+    [
+     345,
+     363.8
+    ],
+    [
+     409,
+     367.9
+    ],
+    [
+     481,
+     372.9
+    ],
+    [
+     521,
+     375.2
+    ],
+    [
+     545,
+     377.0
+    ],
+    [
+     601,
+     380.5
+    ],
+    [
+     657,
+     382.5
+    ],
+    [
+     662,
+     382.6
+    ],
+    [
+     732,
+     388.4
+    ]
+   ]
   },
   {
    "start": 389.81,
@@ -136,7 +672,53 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Por cierto, dice, se han matado, bueno, se han matado relativamente porque van juntos en las listas PSOE y Frente Abierto en el Senado y además ayer mismo ya hemos tenido otra noticia que me gustaría analizar con usted y si esto también puede ser algo que va a ocurrir. Frente Amplio y PSOE en Teruel han decidido, o sea, ha decidido Junta que no va, que sus votos va a pedir que sean para el PSOE. ¿Esto puede ocurrir en otras provincias? ¿Esto puede movilizar muchos escaños?"
+   "text": "Por cierto, dice, se han matado, bueno, se han matado relativamente porque van juntos en las listas PSOE y Frente Abierto en el Senado y además ayer mismo ya hemos tenido otra noticia que me gustaría analizar con usted y si esto también puede ser algo que va a ocurrir. Frente Amplio y PSOE en Teruel han decidido, o sea, ha decidido Junta que no va, que sus votos va a pedir que sean para el PSOE. ¿Esto puede ocurrir en otras provincias? ¿Esto puede movilizar muchos escaños?",
+   "marks": [
+    [
+     0,
+     389.8
+    ],
+    [
+     75,
+     394.4
+    ],
+    [
+     135,
+     402.9
+    ],
+    [
+     200,
+     406.9
+    ],
+    [
+     259,
+     410.9
+    ],
+    [
+     270,
+     412.4
+    ],
+    [
+     322,
+     416.4
+    ],
+    [
+     376,
+     422.1
+    ],
+    [
+     399,
+     424.7
+    ],
+    [
+     440,
+     426.5
+    ],
+    [
+     446,
+     426.9
+    ]
+   ]
   },
   {
    "start": 431.56,
@@ -144,7 +726,33 @@
    "label": "SPEAKER_01",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Bueno, tengo duda. De hecho, ha puesto como ejemplo una provincia en la que creo que esa decisión no va a tener ningún efecto y creo francamente que Vox va a estar representado en Teruel y también creo que lo va a estar el Partido Popular Y la izquierda no va a conseguir sumar más escaños."
+   "text": "Bueno, tengo duda. De hecho, ha puesto como ejemplo una provincia en la que creo que esa decisión no va a tener ningún efecto y creo francamente que Vox va a estar representado en Teruel y también creo que lo va a estar el Partido Popular Y la izquierda no va a conseguir sumar más escaños.",
+   "marks": [
+    [
+     0,
+     431.6
+    ],
+    [
+     19,
+     433.0
+    ],
+    [
+     69,
+     434.7
+    ],
+    [
+     126,
+     437.3
+    ],
+    [
+     189,
+     441.3
+    ],
+    [
+     244,
+     443.4
+    ]
+   ]
   },
   {
    "start": 446.2,
@@ -152,7 +760,13 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Yo creo que hay mucha desesperación"
+   "text": "Yo creo que hay mucha desesperación",
+   "marks": [
+    [
+     0,
+     446.2
+    ]
+   ]
   },
   {
    "start": 448.92,
@@ -160,7 +774,25 @@
    "label": "SPEAKER_01",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "en el gobierno, en las medidas que están tomando de coaliciones, y creo que también hay mucha desesperación por lo que está ocurriendo en la calle, precisamente. Creo que todo son muestras de desesperación."
+   "text": "en el gobierno, en las medidas que están tomando de coaliciones, y creo que también hay mucha desesperación por lo que está ocurriendo en la calle, precisamente. Creo que todo son muestras de desesperación.",
+   "marks": [
+    [
+     0,
+     448.9
+    ],
+    [
+     67,
+     453.7
+    ],
+    [
+     138,
+     456.0
+    ],
+    [
+     162,
+     456.9
+    ]
+   ]
   },
   {
    "start": 459.58,
@@ -168,7 +800,33 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Sí, pero ¿está preocupado por el resultado electoral? Porque las encuestas dan una mayoría holgada de PSOE, PP... Partido Popular, digo, PSOE, digo, Vox y Partido Popular, pero no sé si usted está tan seguro o tan tranquilo."
+   "text": "Sí, pero ¿está preocupado por el resultado electoral? Porque las encuestas dan una mayoría holgada de PSOE, PP... Partido Popular, digo, PSOE, digo, Vox y Partido Popular, pero no sé si usted está tan seguro o tan tranquilo.",
+   "marks": [
+    [
+     0,
+     459.6
+    ],
+    [
+     54,
+     464.7
+    ],
+    [
+     79,
+     466.4
+    ],
+    [
+     114,
+     470.7
+    ],
+    [
+     153,
+     473.6
+    ],
+    [
+     210,
+     480.8
+    ]
+   ]
   },
   {
    "start": 484.41,
@@ -176,7 +834,49 @@
    "label": "SPEAKER_01",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "No, no, yo no estoy ni seguro ni tranquilo y estoy ocupado y estoy preocupado y lo he venido diciendo estos días. Es verdad que las encuestas en estos momentos ofrecen una mayoría de cambio realmente amplia, que coincide con la respuesta que durante estos años los españoles están dando a todas las decisiones del gobierno, Ángeles No sé qué es lo que va a hacer Pedro Sánchez, pero creo que su desesperación va a llevarle a hacer cosas que van a ser un peligro para los españoles, en modo de trampas y en modo de violencia."
+   "text": "No, no, yo no estoy ni seguro ni tranquilo y estoy ocupado y estoy preocupado y lo he venido diciendo estos días. Es verdad que las encuestas en estos momentos ofrecen una mayoría de cambio realmente amplia, que coincide con la respuesta que durante estos años los españoles están dando a todas las decisiones del gobierno, Ángeles No sé qué es lo que va a hacer Pedro Sánchez, pero creo que su desesperación va a llevarle a hacer cosas que van a ser un peligro para los españoles, en modo de trampas y en modo de violencia.",
+   "marks": [
+    [
+     0,
+     484.4
+    ],
+    [
+     59,
+     487.5
+    ],
+    [
+     114,
+     489.9
+    ],
+    [
+     124,
+     490.4
+    ],
+    [
+     200,
+     494.3
+    ],
+    [
+     275,
+     498.6
+    ],
+    [
+     342,
+     532.1
+    ],
+    [
+     395,
+     533.9
+    ],
+    [
+     454,
+     537.2
+    ],
+    [
+     514,
+     539.6
+    ]
+   ]
   },
   {
    "start": 541.51,
@@ -184,7 +884,37 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Santiago Abascal, estábamos hablando ahora también de la visita de Milei y de cómo usted estaba en Galicia y en Asturias, el presidente del Partido Popular estaba en Sevilla, Núñez Feijóo. No sé si esto ha sido intencionado o voluntario. Es verdad que usted entró en una conferencia. Pero, hombre, este acto supongo que se sabría hace mucho tiempo."
+   "text": "Santiago Abascal, estábamos hablando ahora también de la visita de Milei y de cómo usted estaba en Galicia y en Asturias, el presidente del Partido Popular estaba en Sevilla, Núñez Feijóo. No sé si esto ha sido intencionado o voluntario. Es verdad que usted entró en una conferencia. Pero, hombre, este acto supongo que se sabría hace mucho tiempo.",
+   "marks": [
+    [
+     0,
+     541.5
+    ],
+    [
+     75,
+     545.6
+    ],
+    [
+     140,
+     552.8
+    ],
+    [
+     189,
+     557.9
+    ],
+    [
+     206,
+     560.0
+    ],
+    [
+     238,
+     562.5
+    ],
+    [
+     284,
+     567.3
+    ]
+   ]
   },
   {
    "start": 571.91,
@@ -192,7 +922,81 @@
    "label": "SPEAKER_01",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "O que estaba en el extranjero. Bueno, la verdad es que no sé, no, no, no, yo no sé si lo sabíamos hace mucho tiempo, no. Lo que sí sabemos es que tenemos una campaña electoral y esa es nuestra absoluta prioridad. A mí la verdad que me ha hecho mucha gracia estas elucubraciones sobre que no queríamos vernos. De hecho ayer tuvimos una comunicación con él en la que él precisamente estaba en mi despacho. No hay ningún tipo de cálculo, si yo llego a estar en Madrid habría estado con Javier Milei, pero tengo una prioridad en estos momentos que es recorrer España y ofrecer el programa político de Vox a los españoles. Igual que Javier Milei tiene una prioridad que son los argentinos y por lo tanto ningún problema ni ningún drama con eso."
+   "text": "O que estaba en el extranjero. Bueno, la verdad es que no sé, no, no, no, yo no sé si lo sabíamos hace mucho tiempo, no. Lo que sí sabemos es que tenemos una campaña electoral y esa es nuestra absoluta prioridad. A mí la verdad que me ha hecho mucha gracia estas elucubraciones sobre que no queríamos vernos. De hecho ayer tuvimos una comunicación con él en la que él precisamente estaba en mi despacho. No hay ningún tipo de cálculo, si yo llego a estar en Madrid habría estado con Javier Milei, pero tengo una prioridad en estos momentos que es recorrer España y ofrecer el programa político de Vox a los españoles. Igual que Javier Milei tiene una prioridad que son los argentinos y por lo tanto ningún problema ni ningún drama con eso.",
+   "marks": [
+    [
+     0,
+     571.9
+    ],
+    [
+     31,
+     573.6
+    ],
+    [
+     58,
+     574.8
+    ],
+    [
+     109,
+     578.7
+    ],
+    [
+     121,
+     579.3
+    ],
+    [
+     176,
+     581.5
+    ],
+    [
+     213,
+     583.4
+    ],
+    [
+     235,
+     584.4
+    ],
+    [
+     309,
+     588.1
+    ],
+    [
+     312,
+     588.5
+    ],
+    [
+     381,
+     591.3
+    ],
+    [
+     404,
+     593.1
+    ],
+    [
+     441,
+     595.0
+    ],
+    [
+     508,
+     598.2
+    ],
+    [
+     576,
+     601.2
+    ],
+    [
+     618,
+     603.5
+    ],
+    [
+     647,
+     604.6
+    ],
+    [
+     715,
+     608.8
+    ]
+   ]
   },
   {
    "start": 610.29,
@@ -200,7 +1004,37 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "No le quiero entretener mucho porque sé que tiene ahí la carretera, que se ha parado para hablar con nosotros y se lo agradezco. Pero le podía decir a Milei, con el que tiene una buena relación, hombre, que no es educado venir a un país e insultar tan descaradamente al presidente del país. Podría decir, mire, pues para insultar al presidente ya estamos los españoles, ¿no?"
+   "text": "No le quiero entretener mucho porque sé que tiene ahí la carretera, que se ha parado para hablar con nosotros y se lo agradezco. Pero le podía decir a Milei, con el que tiene una buena relación, hombre, que no es educado venir a un país e insultar tan descaradamente al presidente del país. Podría decir, mire, pues para insultar al presidente ya estamos los españoles, ¿no?",
+   "marks": [
+    [
+     0,
+     610.3
+    ],
+    [
+     68,
+     614.5
+    ],
+    [
+     129,
+     617.0
+    ],
+    [
+     185,
+     620.8
+    ],
+    [
+     248,
+     624.7
+    ],
+    [
+     291,
+     628.9
+    ],
+    [
+     330,
+     630.9
+    ]
+   ]
   },
   {
    "start": 636.03,
@@ -208,7 +1042,49 @@
    "label": "SPEAKER_01",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Bueno, es que no sería exacto hacer esa petición porque por el hecho de que llama a dictadora Sánchez a decir que estamos ante un insulto me parece un excesivo. Yo le he llamado autócrata en sede parlamentaria, le he llamado aprendiz de tirano porque le he visto cómo actúa, he visto cómo asalta las instituciones, le he visto también cómo da instrucciones a la presidenta del Congreso para que amordace a la oposición, para que elimine del diario de sesiones nuestras palabras, nuestras reflexiones, para que elimine del diario de sesiones palabras dichas en boca de Vox, La diplomacia"
+   "text": "Bueno, es que no sería exacto hacer esa petición porque por el hecho de que llama a dictadora Sánchez a decir que estamos ante un insulto me parece un excesivo. Yo le he llamado autócrata en sede parlamentaria, le he llamado aprendiz de tirano porque le he visto cómo actúa, he visto cómo asalta las instituciones, le he visto también cómo da instrucciones a la presidenta del Congreso para que amordace a la oposición, para que elimine del diario de sesiones nuestras palabras, nuestras reflexiones, para que elimine del diario de sesiones palabras dichas en boca de Vox, La diplomacia",
+   "marks": [
+    [
+     0,
+     636.0
+    ],
+    [
+     63,
+     640.3
+    ],
+    [
+     127,
+     642.4
+    ],
+    [
+     161,
+     643.8
+    ],
+    [
+     191,
+     645.4
+    ],
+    [
+     263,
+     648.6
+    ],
+    [
+     335,
+     652.6
+    ],
+    [
+     406,
+     655.7
+    ],
+    [
+     488,
+     659.5
+    ],
+    [
+     565,
+     663.2
+    ]
+   ]
   },
   {
    "start": 676.95,
@@ -216,7 +1092,25 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "es una cosa, se pueden decir las cosas de otra manera, incluso con la prensa. Yo no creo que haya estado Milé en esta ocasión muy afortunado, pero bueno, usted no estaba aquí."
+   "text": "es una cosa, se pueden decir las cosas de otra manera, incluso con la prensa. Yo no creo que haya estado Milé en esta ocasión muy afortunado, pero bueno, usted no estaba aquí.",
+   "marks": [
+    [
+     0,
+     677.0
+    ],
+    [
+     63,
+     680.3
+    ],
+    [
+     78,
+     681.9
+    ],
+    [
+     118,
+     684.0
+    ]
+   ]
   },
   {
    "start": 688.01,
@@ -224,7 +1118,25 @@
    "label": "SPEAKER_01",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Sí, tiene razón que la diplomacia es importante y además yo, a pesar de la contundencia de mis afirmaciones en general, procuro mantenerla. Pero claro, el señor Óscar Puente llamó drogadicto al presidente de Argentina."
+   "text": "Sí, tiene razón que la diplomacia es importante y además yo, a pesar de la contundencia de mis afirmaciones en general, procuro mantenerla. Pero claro, el señor Óscar Puente llamó drogadicto al presidente de Argentina.",
+   "marks": [
+    [
+     0,
+     688.0
+    ],
+    [
+     63,
+     693.6
+    ],
+    [
+     140,
+     697.8
+    ],
+    [
+     145,
+     697.9
+    ]
+   ]
   },
   {
    "start": 701.85,
@@ -232,7 +1144,13 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Estas cosas tienen consecuencias."
+   "text": "Estas cosas tienen consecuencias.",
+   "marks": [
+    [
+     0,
+     701.9
+    ]
+   ]
   },
   {
    "start": 704.33,
@@ -240,7 +1158,21 @@
    "label": "SPEAKER_01",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Muy mal, es verdad. Sí, pero una cosa es una descalificación gratuita y la otra es una consideración política que se puede sostener."
+   "text": "Muy mal, es verdad. Sí, pero una cosa es una descalificación gratuita y la otra es una consideración política que se puede sostener.",
+   "marks": [
+    [
+     0,
+     704.3
+    ],
+    [
+     20,
+     705.6
+    ],
+    [
+     70,
+     708.6
+    ]
+   ]
   },
   {
    "start": 712.73,
@@ -248,7 +1180,29 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Me voy a ir ahora a la Asamblea de Madrid, creo que se está liando en las puertas. Están las calles muy movidas. ¿Esto es casualidad, Santiago?"
+   "text": "Me voy a ir ahora a la Asamblea de Madrid, creo que se está liando en las puertas. Están las calles muy movidas. ¿Esto es casualidad, Santiago?",
+   "marks": [
+    [
+     0,
+     712.7
+    ],
+    [
+     52,
+     715.5
+    ],
+    [
+     83,
+     718.0
+    ],
+    [
+     113,
+     720.2
+    ],
+    [
+     119,
+     720.8
+    ]
+   ]
   },
   {
    "start": 725.25,
@@ -256,7 +1210,57 @@
    "label": "SPEAKER_01",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "No, yo creo que no es casualidad. No es casualidad tampoco la convocatoria de huelga el día 29 por parte de unos sindicatos que han estado callados como muertos frente al gobierno durante ocho años y por parte de una izquierda que ahora quiere acusar a otras fuerzas políticas a la oposición del problema de la vivienda. El 74% se ha encarecido la venta de viviendas en España con Pedro Sánchez, un 40% el alquiler porque han hecho unas políticas absolutamente desastrosas y porque han permitido entrar en España a 5 millones de personas en 5 años sin que se haya construido prácticamente vivienda en España. Gracias,"
+   "text": "No, yo creo que no es casualidad. No es casualidad tampoco la convocatoria de huelga el día 29 por parte de unos sindicatos que han estado callados como muertos frente al gobierno durante ocho años y por parte de una izquierda que ahora quiere acusar a otras fuerzas políticas a la oposición del problema de la vivienda. El 74% se ha encarecido la venta de viviendas en España con Pedro Sánchez, un 40% el alquiler porque han hecho unas políticas absolutamente desastrosas y porque han permitido entrar en España a 5 millones de personas en 5 años sin que se haya construido prácticamente vivienda en España. Gracias,",
+   "marks": [
+    [
+     0,
+     725.2
+    ],
+    [
+     34,
+     728.0
+    ],
+    [
+     62,
+     729.2
+    ],
+    [
+     128,
+     733.1
+    ],
+    [
+     200,
+     737.1
+    ],
+    [
+     267,
+     740.9
+    ],
+    [
+     321,
+     743.0
+    ],
+    [
+     328,
+     744.3
+    ],
+    [
+     396,
+     747.1
+    ],
+    [
+     473,
+     751.4
+    ],
+    [
+     538,
+     754.3
+    ],
+    [
+     609,
+     773.7
+    ]
+   ]
   },
   {
    "start": 774.19,
@@ -264,7 +1268,29 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Santiago Abascal, muchas gracias de verdad por haberse parado en la carretera, va camino de Burgos, así que le deseo que sea más tranquilo que lo que fue ayer tanto en Galicia como en Asturias. Un saludo y muchísimas gracias."
+   "text": "Santiago Abascal, muchas gracias de verdad por haberse parado en la carretera, va camino de Burgos, así que le deseo que sea más tranquilo que lo que fue ayer tanto en Galicia como en Asturias. Un saludo y muchísimas gracias.",
+   "marks": [
+    [
+     0,
+     774.2
+    ],
+    [
+     79,
+     777.8
+    ],
+    [
+     139,
+     784.9
+    ],
+    [
+     194,
+     788.0
+    ],
+    [
+     197,
+     788.5
+    ]
+   ]
   },
   {
    "start": 790.11,
@@ -272,7 +1298,21 @@
    "label": "SPEAKER_01",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Yo también lo deseo, ojalá pueda hablar de lo que importa a los españoles y no de la violencia. Muchísimas gracias."
+   "text": "Yo también lo deseo, ojalá pueda hablar de lo que importa a los españoles y no de la violencia. Muchísimas gracias.",
+   "marks": [
+    [
+     0,
+     790.1
+    ],
+    [
+     60,
+     793.6
+    ],
+    [
+     96,
+     795.4
+    ]
+   ]
   },
   {
    "start": 797.25,
@@ -280,7 +1320,21 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Ojalá eso y en toda esta campaña que ya se está poniendo muy fea. Un beso, muchas gracias."
+   "text": "Ojalá eso y en toda esta campaña que ya se está poniendo muy fea. Un beso, muchas gracias.",
+   "marks": [
+    [
+     0,
+     797.2
+    ],
+    [
+     57,
+     800.5
+    ],
+    [
+     66,
+     801.0
+    ]
+   ]
   }
  ]
 }

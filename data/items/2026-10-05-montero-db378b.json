@@ -14,7 +14,7 @@
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
   "voiceprint_threshold": 0.65,
-  "processed_at": "2026-10-25T20:11:20+00:00",
+  "processed_at": "2026-10-25T20:59:08+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -47,7 +47,41 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "de Podemos, Irene Montero. Buenas tardes, Irene Montero. ¿Qué tal? Buenas tardes, Esther. ¿Qué es lo primero que ha pensado esta mañana cuando ha anunciado el presidente del Gobierno la disolución de las cámaras y la convocatoria anticipada?"
+   "text": "de Podemos, Irene Montero. Buenas tardes, Irene Montero. ¿Qué tal? Buenas tardes, Esther. ¿Qué es lo primero que ha pensado esta mañana cuando ha anunciado el presidente del Gobierno la disolución de las cámaras y la convocatoria anticipada?",
+   "marks": [
+    [
+     0,
+     0.0
+    ],
+    [
+     27,
+     1.6
+    ],
+    [
+     57,
+     5.1
+    ],
+    [
+     67,
+     5.7
+    ],
+    [
+     82,
+     6.2
+    ],
+    [
+     90,
+     6.6
+    ],
+    [
+     146,
+     8.8
+    ],
+    [
+     217,
+     11.3
+    ]
+   ]
   },
   {
    "start": 15.93,
@@ -55,7 +89,17 @@
    "label": "SPEAKER_02",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "Bueno, que menos bajar el precio del alquiler, Pedro Sánchez sigue siendo capaz de cualquier cosa, ¿no?"
+   "text": "Bueno, que menos bajar el precio del alquiler, Pedro Sánchez sigue siendo capaz de cualquier cosa, ¿no?",
+   "marks": [
+    [
+     0,
+     15.9
+    ],
+    [
+     74,
+     19.9
+    ]
+   ]
   },
   {
    "start": 23.11,
@@ -63,7 +107,17 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Una treta, entiende, entonces. ¿Qué es esta convocatoria anticipada?"
+   "text": "Una treta, entiende, entonces. ¿Qué es esta convocatoria anticipada?",
+   "marks": [
+    [
+     0,
+     23.1
+    ],
+    [
+     31,
+     24.9
+    ]
+   ]
   },
   {
    "start": 29.0,
@@ -71,7 +125,73 @@
    "label": "SPEAKER_02",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "No, no, lo digo porque al final las elecciones nos presentamos para hacer cosas. No solo para decirlas o para ponerlas en los programas, entonces, bueno, pues yo creo que ahora si hay algo que está marcando el debate político en España y que le ha permitido a Pedro Sánchez creer que este es un buen momento para el PSOE para convocar las elecciones, adelantarlas, es precisamente que hay una inmensa mayoría social que quiere que se baje el precio de los alquileres, que se prohíba la compra para especular o que se expropie a los fondos buitre. Y bueno, me hubiese gustado mucho que antes de convocar las elecciones presentase un real decreto tomando todas estas medidas y dejándolas un mesecito en vigor con los alquileres un 40% más bajos, expropiando las viviendas y prohibiendo la venta para especular, a ver si así iba un poquito mejor la economía en nuestro país, sobre todo la de las familias."
+   "text": "No, no, lo digo porque al final las elecciones nos presentamos para hacer cosas. No solo para decirlas o para ponerlas en los programas, entonces, bueno, pues yo creo que ahora si hay algo que está marcando el debate político en España y que le ha permitido a Pedro Sánchez creer que este es un buen momento para el PSOE para convocar las elecciones, adelantarlas, es precisamente que hay una inmensa mayoría social que quiere que se baje el precio de los alquileres, que se prohíba la compra para especular o que se expropie a los fondos buitre. Y bueno, me hubiese gustado mucho que antes de convocar las elecciones presentase un real decreto tomando todas estas medidas y dejándolas un mesecito en vigor con los alquileres un 40% más bajos, expropiando las viviendas y prohibiendo la venta para especular, a ver si así iba un poquito mejor la economía en nuestro país, sobre todo la de las familias.",
+   "marks": [
+    [
+     0,
+     29.0
+    ],
+    [
+     68,
+     33.7
+    ],
+    [
+     81,
+     35.4
+    ],
+    [
+     137,
+     38.1
+    ],
+    [
+     198,
+     42.3
+    ],
+    [
+     260,
+     45.4
+    ],
+    [
+     321,
+     48.2
+    ],
+    [
+     409,
+     54.3
+    ],
+    [
+     472,
+     57.3
+    ],
+    [
+     532,
+     60.4
+    ],
+    [
+     547,
+     61.0
+    ],
+    [
+     603,
+     65.0
+    ],
+    [
+     686,
+     69.5
+    ],
+    [
+     744,
+     73.6
+    ],
+    [
+     818,
+     77.5
+    ],
+    [
+     883,
+     81.4
+    ]
+   ]
   },
   {
    "start": 82.1,
@@ -79,7 +199,21 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "¿No les sirve a Podemos la fórmula que ha encontrado el gobierno para aprobar los decretos y que entren en vigor en el plazo de breves semanas, aprobándose en la diputación permanente?"
+   "text": "¿No les sirve a Podemos la fórmula que ha encontrado el gobierno para aprobar los decretos y que entren en vigor en el plazo de breves semanas, aprobándose en la diputación permanente?",
+   "marks": [
+    [
+     0,
+     82.1
+    ],
+    [
+     65,
+     86.5
+    ],
+    [
+     125,
+     90.0
+    ]
+   ]
   },
   {
    "start": 96.19,
@@ -87,7 +221,77 @@
    "label": "SPEAKER_02",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "Bueno, esos decretos han sido definidos por el propio sindicato de inquilinas como migajas, como una trampa, como medidas que no van a solucionar el problema de la vivienda. Y la gente lo que está pidiendo en las calles es que se acabe con el negocio de la especulación. Entonces, yo creo que lo suyo hubiese sido, si realmente hay un compromiso, y ante una convocatoria electoral utilizar por última vez ese gobierno, antes de que veamos qué pasa con las elecciones, utilizar ese gobierno para hacer algo que es urgente en España, que es bajar el precio de los alquileres y que la vivienda sea un derecho y que se deje, por tanto, de poder comprar para hacer negocio en lugar de para vivir. Gracias a todos por su participación. No hay que elegirles, forzarles a hacerlo con una acampada, sino que estén ahí, les mandemos ahí, les pongamos ahí para que lo hagan."
+   "text": "Bueno, esos decretos han sido definidos por el propio sindicato de inquilinas como migajas, como una trampa, como medidas que no van a solucionar el problema de la vivienda. Y la gente lo que está pidiendo en las calles es que se acabe con el negocio de la especulación. Entonces, yo creo que lo suyo hubiese sido, si realmente hay un compromiso, y ante una convocatoria electoral utilizar por última vez ese gobierno, antes de que veamos qué pasa con las elecciones, utilizar ese gobierno para hacer algo que es urgente en España, que es bajar el precio de los alquileres y que la vivienda sea un derecho y que se deje, por tanto, de poder comprar para hacer negocio en lugar de para vivir. Gracias a todos por su participación. No hay que elegirles, forzarles a hacerlo con una acampada, sino que estén ahí, les mandemos ahí, les pongamos ahí para que lo hagan.",
+   "marks": [
+    [
+     0,
+     96.2
+    ],
+    [
+     78,
+     99.9
+    ],
+    [
+     146,
+     104.5
+    ],
+    [
+     174,
+     105.7
+    ],
+    [
+     206,
+     107.4
+    ],
+    [
+     257,
+     109.9
+    ],
+    [
+     271,
+     110.7
+    ],
+    [
+     332,
+     115.2
+    ],
+    [
+     409,
+     120.3
+    ],
+    [
+     481,
+     124.5
+    ],
+    [
+     545,
+     127.7
+    ],
+    [
+     606,
+     130.8
+    ],
+    [
+     668,
+     134.1
+    ],
+    [
+     692,
+     137.7
+    ],
+    [
+     730,
+     165.4
+    ],
+    [
+     733,
+     165.4
+    ],
+    [
+     805,
+     168.9
+    ]
+   ]
   },
   {
    "start": 172.37,
@@ -95,7 +299,53 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Bueno, pues vamos a intentar que nos arroje luz sobre la izquierda, la izquierda del Partido Socialista, como nos proponíamos al principio de este duplex. Porque todo el mundo habla de que está dispuesto a hacer lo que sea necesario para frenar a la ultraderecha, pero luego cuando descendemos de las palabras a los hechos parece que nadie se baja de su posición de máximos. Sumar ya ha dicho esta mañana que no acepta la convocatoria de unas primarias abiertas a la ciudadanía, que es la propuesta de Podemos para buscar un candidato a esa candidatura unitaria."
+   "text": "Bueno, pues vamos a intentar que nos arroje luz sobre la izquierda, la izquierda del Partido Socialista, como nos proponíamos al principio de este duplex. Porque todo el mundo habla de que está dispuesto a hacer lo que sea necesario para frenar a la ultraderecha, pero luego cuando descendemos de las palabras a los hechos parece que nadie se baja de su posición de máximos. Sumar ya ha dicho esta mañana que no acepta la convocatoria de unas primarias abiertas a la ciudadanía, que es la propuesta de Podemos para buscar un candidato a esa candidatura unitaria.",
+   "marks": [
+    [
+     0,
+     172.4
+    ],
+    [
+     68,
+     175.8
+    ],
+    [
+     147,
+     179.9
+    ],
+    [
+     155,
+     180.9
+    ],
+    [
+     212,
+     183.8
+    ],
+    [
+     282,
+     187.2
+    ],
+    [
+     348,
+     191.2
+    ],
+    [
+     375,
+     192.6
+    ],
+    [
+     409,
+     195.1
+    ],
+    [
+     483,
+     200.0
+    ],
+    [
+     553,
+     204.1
+    ]
+   ]
   },
   {
    "start": 208.39,
@@ -103,7 +353,93 @@
    "label": "SPEAKER_02",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "Yo es que creo que es la única manera de que las cosas salgan bien. Lo que estamos viendo en las calles que está sirviendo para poner los debates en el centro, por ejemplo, el de acabar con el negocio de la vivienda, es el desborde. El desborde es que de repente hay una acampada en Sol que no cabe un alfiler, que está más llena que el 15M, es que se multiplican las acampadas por las principales ciudades del Estado, es que hay movilizaciones masivas y la forma de que ese desborde también tenga un correlato en la campaña electoral es que la gente pueda participar, es que podamos entre todos y todas elegir a esa candidatura y que por supuesto se puedan presentar todas las opciones que ahora están encima de la mesa, Creo que poder votar entre el 14 y el 15, nosotros ya hemos lanzado hoy ese proceso de primarias para que se pueda presentar quien quiera, votamos el 14 y el 15 de octubre y de verdad creo que es la forma de que salgan bien las cosas y así vamos a intentar convencer a todo el mundo, también a toda la gente que estos días está saliendo a las calles y que necesita tener una candidatura y elegir una candidatura que represente a esa mayoría social."
+   "text": "Yo es que creo que es la única manera de que las cosas salgan bien. Lo que estamos viendo en las calles que está sirviendo para poner los debates en el centro, por ejemplo, el de acabar con el negocio de la vivienda, es el desborde. El desborde es que de repente hay una acampada en Sol que no cabe un alfiler, que está más llena que el 15M, es que se multiplican las acampadas por las principales ciudades del Estado, es que hay movilizaciones masivas y la forma de que ese desborde también tenga un correlato en la campaña electoral es que la gente pueda participar, es que podamos entre todos y todas elegir a esa candidatura y que por supuesto se puedan presentar todas las opciones que ahora están encima de la mesa, Creo que poder votar entre el 14 y el 15, nosotros ya hemos lanzado hoy ese proceso de primarias para que se pueda presentar quien quiera, votamos el 14 y el 15 de octubre y de verdad creo que es la forma de que salgan bien las cosas y así vamos a intentar convencer a todo el mundo, también a toda la gente que estos días está saliendo a las calles y que necesita tener una candidatura y elegir una candidatura que represente a esa mayoría social.",
+   "marks": [
+    [
+     0,
+     208.4
+    ],
+    [
+     49,
+     210.3
+    ],
+    [
+     68,
+     211.2
+    ],
+    [
+     113,
+     213.7
+    ],
+    [
+     179,
+     217.5
+    ],
+    [
+     233,
+     219.9
+    ],
+    [
+     245,
+     220.1
+    ],
+    [
+     299,
+     222.7
+    ],
+    [
+     352,
+     225.5
+    ],
+    [
+     430,
+     229.3
+    ],
+    [
+     501,
+     234.7
+    ],
+    [
+     572,
+     240.2
+    ],
+    [
+     635,
+     243.9
+    ],
+    [
+     710,
+     247.3
+    ],
+    [
+     760,
+     280.1
+    ],
+    [
+     828,
+     283.6
+    ],
+    [
+     886,
+     286.6
+    ],
+    [
+     941,
+     289.7
+    ],
+    [
+     999,
+     292.8
+    ],
+    [
+     1061,
+     295.2
+    ],
+    [
+     1134,
+     299.9
+    ]
+   ]
   },
   {
    "start": 301.25,
@@ -111,7 +447,29 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Pero entiendo entonces, señora Montero, que si el Frente Amplio se niega a esas primarias, como ya ha dicho esta mañana, ¿Podemos va a presentar una candidatura única a las elecciones generales? ¿No va a entrar en una candidatura unitaria?"
+   "text": "Pero entiendo entonces, señora Montero, que si el Frente Amplio se niega a esas primarias, como ya ha dicho esta mañana, ¿Podemos va a presentar una candidatura única a las elecciones generales? ¿No va a entrar en una candidatura unitaria?",
+   "marks": [
+    [
+     0,
+     301.2
+    ],
+    [
+     73,
+     305.5
+    ],
+    [
+     135,
+     308.9
+    ],
+    [
+     195,
+     312.0
+    ],
+    [
+     211,
+     312.8
+    ]
+   ]
   },
   {
    "start": 314.83,
@@ -119,7 +477,37 @@
    "label": "SPEAKER_02",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "Podemos se va a presentar en una candidatura que salga de unas primarias abiertas como hemos hecho siempre. Es que de verdad que no se me ocurre otra forma de poder hacer las cosas bien y de que todo el mundo pueda tener su sitio y de que todo el mundo pueda participar en construir y en elegir esa candidatura en igualdad de condiciones."
+   "text": "Podemos se va a presentar en una candidatura que salga de unas primarias abiertas como hemos hecho siempre. Es que de verdad que no se me ocurre otra forma de poder hacer las cosas bien y de que todo el mundo pueda tener su sitio y de que todo el mundo pueda participar en construir y en elegir esa candidatura en igualdad de condiciones.",
+   "marks": [
+    [
+     0,
+     314.8
+    ],
+    [
+     63,
+     317.7
+    ],
+    [
+     108,
+     319.9
+    ],
+    [
+     132,
+     321.1
+    ],
+    [
+     188,
+     324.2
+    ],
+    [
+     239,
+     326.3
+    ],
+    [
+     311,
+     329.4
+    ]
+   ]
   },
   {
    "start": 332.23,
@@ -127,7 +515,33 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Bueno, yo entiendo que lo que está diciendo es que efectivamente si esas primarias abiertas no se celebran para elegir candidato con todo el resto de formaciones que se van a presentar en ese Frente Amplio, ustedes irán en solitario a las elecciones. Aunque no quiere decirlo explícitamente, entiendo que esa es la conclusión inmediata."
+   "text": "Bueno, yo entiendo que lo que está diciendo es que efectivamente si esas primarias abiertas no se celebran para elegir candidato con todo el resto de formaciones que se van a presentar en ese Frente Amplio, ustedes irán en solitario a las elecciones. Aunque no quiere decirlo explícitamente, entiendo que esa es la conclusión inmediata.",
+   "marks": [
+    [
+     0,
+     332.2
+    ],
+    [
+     68,
+     335.4
+    ],
+    [
+     141,
+     338.9
+    ],
+    [
+     207,
+     342.3
+    ],
+    [
+     251,
+     344.7
+    ],
+    [
+     292,
+     346.3
+    ]
+   ]
   },
   {
    "start": 350.29,
@@ -135,7 +549,81 @@
    "label": "SPEAKER_02",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "Es que esas primarias se van a celebrar, Esther. Vamos a empezar ahora el proceso. Va a haber un tiempo para hacer inscripciones y que no solo se pueda inscribir gente de Podemos, que se pueda inscribir cualquiera. Y vamos a votar los días 14 y 15 de octubre para conformar esa candidatura. Esas primarias se van a hacer. Yo creo que tenemos tiempo de explicar y convencer de que de verdad, no sé si hay una forma mejor, si hay alguna, pues que nos la digan. Pero yo de verdad creo que no hay otra forma mejor de que nos podamos poner todo el mundo de acuerdo que queremos eso, poder tener una candidatura que represente a una mayoría social para acabar con la especulación inmobiliaria y para bajar el precio de las cosas."
+   "text": "Es que esas primarias se van a celebrar, Esther. Vamos a empezar ahora el proceso. Va a haber un tiempo para hacer inscripciones y que no solo se pueda inscribir gente de Podemos, que se pueda inscribir cualquiera. Y vamos a votar los días 14 y 15 de octubre para conformar esa candidatura. Esas primarias se van a hacer. Yo creo que tenemos tiempo de explicar y convencer de que de verdad, no sé si hay una forma mejor, si hay alguna, pues que nos la digan. Pero yo de verdad creo que no hay otra forma mejor de que nos podamos poner todo el mundo de acuerdo que queremos eso, poder tener una candidatura que represente a una mayoría social para acabar con la especulación inmobiliaria y para bajar el precio de las cosas.",
+   "marks": [
+    [
+     0,
+     350.3
+    ],
+    [
+     49,
+     352.6
+    ],
+    [
+     65,
+     353.6
+    ],
+    [
+     83,
+     355.1
+    ],
+    [
+     131,
+     357.5
+    ],
+    [
+     193,
+     360.1
+    ],
+    [
+     215,
+     360.9
+    ],
+    [
+     251,
+     363.8
+    ],
+    [
+     291,
+     366.4
+    ],
+    [
+     322,
+     367.8
+    ],
+    [
+     325,
+     367.9
+    ],
+    [
+     391,
+     372.1
+    ],
+    [
+     445,
+     375.1
+    ],
+    [
+     459,
+     375.8
+    ],
+    [
+     498,
+     377.2
+    ],
+    [
+     560,
+     380.7
+    ],
+    [
+     635,
+     384.9
+    ],
+    [
+     710,
+     389.8
+    ]
+   ]
   },
   {
    "start": 391.57,
@@ -143,7 +631,21 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "Señora Montero, ¿hay alguna posibilidad de que a partir del 29 de noviembre haya un gobierno progresista de izquierdas si las diferentes fuerzas se presentan a las elecciones por separado?"
+   "text": "Señora Montero, ¿hay alguna posibilidad de que a partir del 29 de noviembre haya un gobierno progresista de izquierdas si las diferentes fuerzas se presentan a las elecciones por separado?",
+   "marks": [
+    [
+     0,
+     391.6
+    ],
+    [
+     66,
+     396.9
+    ],
+    [
+     148,
+     403.5
+    ]
+   ]
   },
   {
    "start": 405.53,
@@ -151,7 +653,77 @@
    "label": "SPEAKER_02",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "A ver, yo me quiero presentar precisamente para eso, quiero que haya un gobierno que, lo quieras llamar como lo quieras llamar, baje el precio de la vivienda, que prohíba la venta para especular, que garantice que se acabó con el negocio de la vivienda, que baje el precio de los alimentos, que no gaste un euro más en armas, que lo lleve a sanidad y educación, que cuide el planeta y que haga una apuesta fuerte por las políticas de protección del planeta, de cuidado de nuestros bomberos, ¡Gracias! Y eso es una realidad que nos está demostrando que la gente tiene muchas ganas de pelear y de hacer cosas muy difíciles como es acampar, dormir en una plaza y luego irte a tu trabajo, dedicar un montón de tiempo a la militancia, que la gente está muy dispuesta a hacer muchas cosas para que las cosas cambien y no para que al final por cualquier excusa todo siga igual. Entonces, esa energía se tiene que ver también en las elecciones generales."
+   "text": "A ver, yo me quiero presentar precisamente para eso, quiero que haya un gobierno que, lo quieras llamar como lo quieras llamar, baje el precio de la vivienda, que prohíba la venta para especular, que garantice que se acabó con el negocio de la vivienda, que baje el precio de los alimentos, que no gaste un euro más en armas, que lo lleve a sanidad y educación, que cuide el planeta y que haga una apuesta fuerte por las políticas de protección del planeta, de cuidado de nuestros bomberos, ¡Gracias! Y eso es una realidad que nos está demostrando que la gente tiene muchas ganas de pelear y de hacer cosas muy difíciles como es acampar, dormir en una plaza y luego irte a tu trabajo, dedicar un montón de tiempo a la militancia, que la gente está muy dispuesta a hacer muchas cosas para que las cosas cambien y no para que al final por cualquier excusa todo siga igual. Entonces, esa energía se tiene que ver también en las elecciones generales.",
+   "marks": [
+    [
+     0,
+     405.5
+    ],
+    [
+     69,
+     412.2
+    ],
+    [
+     136,
+     416.3
+    ],
+    [
+     210,
+     421.0
+    ],
+    [
+     266,
+     423.5
+    ],
+    [
+     326,
+     426.7
+    ],
+    [
+     385,
+     430.6
+    ],
+    [
+     458,
+     435.3
+    ],
+    [
+     501,
+     468.2
+    ],
+    [
+     527,
+     470.0
+    ],
+    [
+     592,
+     474.3
+    ],
+    [
+     658,
+     478.8
+    ],
+    [
+     715,
+     481.9
+    ],
+    [
+     783,
+     485.8
+    ],
+    [
+     837,
+     488.4
+    ],
+    [
+     871,
+     490.0
+    ],
+    [
+     910,
+     492.4
+    ]
+   ]
   },
   {
    "start": 493.93,
@@ -159,7 +731,61 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "Se lo pregunto, señora Montero, porque da la sensación, a lo mejor es solo un palpito mío, pero da la sensación de que todas esas cosas que usted quiere o que desde Podemos quieren, también las quieren otros grupos de izquierdas. Y que las sensaciones de que no se terminan de poner de acuerdo más por unas guerras partidistas o por luchas de egos o por confrontaciones o vaya usted a saber, pero no porque no tengan las mismas ideas como para ir de una manera conjunta a unas elecciones. Y también da la sensación de que en la calle lo que se piensa es que si la izquierda va atomizada, digamos, no va a haber manera de poder gobernar o de poder conseguir un gobierno progresista."
+   "text": "Se lo pregunto, señora Montero, porque da la sensación, a lo mejor es solo un palpito mío, pero da la sensación de que todas esas cosas que usted quiere o que desde Podemos quieren, también las quieren otros grupos de izquierdas. Y que las sensaciones de que no se terminan de poner de acuerdo más por unas guerras partidistas o por luchas de egos o por confrontaciones o vaya usted a saber, pero no porque no tengan las mismas ideas como para ir de una manera conjunta a unas elecciones. Y también da la sensación de que en la calle lo que se piensa es que si la izquierda va atomizada, digamos, no va a haber manera de poder gobernar o de poder conseguir un gobierno progresista.",
+   "marks": [
+    [
+     0,
+     493.9
+    ],
+    [
+     67,
+     498.7
+    ],
+    [
+     125,
+     501.6
+    ],
+    [
+     194,
+     504.5
+    ],
+    [
+     230,
+     506.3
+    ],
+    [
+     262,
+     508.2
+    ],
+    [
+     329,
+     512.9
+    ],
+    [
+     392,
+     518.2
+    ],
+    [
+     450,
+     521.6
+    ],
+    [
+     489,
+     523.3
+    ],
+    [
+     518,
+     524.8
+    ],
+    [
+     564,
+     527.4
+    ],
+    [
+     636,
+     532.8
+    ]
+   ]
   },
   {
    "start": 536.72,
@@ -167,7 +793,89 @@
    "label": "SPEAKER_02",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "A ver, yo creo que hay gente que piensa muchas cosas distintas. Habrá gente que vea más diferencias entre diferentes grupos, otra que menos, pero yo de verdad creo que hay que salir ya de ese bucle y de esa dinámica. Precisamente porque la gente nos está pidiendo que vayamos con toda la fuerza posible, yo creo que la manera de que podamos participar todas en igualdad de condiciones y que podamos participar un montón de gente en elegir esa candidatura es que haya unas primarias abiertas y por eso hemos ofrecido, esta mañana lo hice en cuanto convocó el presidente, unas primarias abiertas para votar los días 14 y 15 y creo que esa es la clave de que podamos responder a esa demanda que efectivamente existe en un sector muy importante de la población y que nos tiene que llevar a cumplir el objetivo, que es que estas elecciones sirvan para hacer política, para bajar el precio de los alquileres, para expropiar las viviendas a los fondos buitres, para bajar el precio de los huevos y de los tomates, para bajar el precio de la luz y de la calefacción, para que en definitiva podamos tener una mejor vida de lo que tenemos ahora, que la gente se le va el sueldo entre el alquiler y la compra, Y señora"
+   "text": "A ver, yo creo que hay gente que piensa muchas cosas distintas. Habrá gente que vea más diferencias entre diferentes grupos, otra que menos, pero yo de verdad creo que hay que salir ya de ese bucle y de esa dinámica. Precisamente porque la gente nos está pidiendo que vayamos con toda la fuerza posible, yo creo que la manera de que podamos participar todas en igualdad de condiciones y que podamos participar un montón de gente en elegir esa candidatura es que haya unas primarias abiertas y por eso hemos ofrecido, esta mañana lo hice en cuanto convocó el presidente, unas primarias abiertas para votar los días 14 y 15 y creo que esa es la clave de que podamos responder a esa demanda que efectivamente existe en un sector muy importante de la población y que nos tiene que llevar a cumplir el objetivo, que es que estas elecciones sirvan para hacer política, para bajar el precio de los alquileres, para expropiar las viviendas a los fondos buitres, para bajar el precio de los huevos y de los tomates, para bajar el precio de la luz y de la calefacción, para que en definitiva podamos tener una mejor vida de lo que tenemos ahora, que la gente se le va el sueldo entre el alquiler y la compra, Y señora",
+   "marks": [
+    [
+     0,
+     536.7
+    ],
+    [
+     64,
+     540.4
+    ],
+    [
+     141,
+     544.4
+    ],
+    [
+     192,
+     546.7
+    ],
+    [
+     217,
+     547.8
+    ],
+    [
+     264,
+     550.8
+    ],
+    [
+     326,
+     554.5
+    ],
+    [
+     399,
+     557.8
+    ],
+    [
+     467,
+     561.8
+    ],
+    [
+     537,
+     565.8
+    ],
+    [
+     614,
+     569.6
+    ],
+    [
+     656,
+     572.6
+    ],
+    [
+     730,
+     576.8
+    ],
+    [
+     794,
+     582.0
+    ],
+    [
+     868,
+     585.5
+    ],
+    [
+     938,
+     589.3
+    ],
+    [
+     998,
+     592.7
+    ],
+    [
+     1059,
+     595.7
+    ],
+    [
+     1121,
+     599.6
+    ],
+    [
+     1177,
+     601.8
+    ]
+   ]
   },
   {
    "start": 604.2,
@@ -175,7 +883,29 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "Montero, teniendo en cuenta que parece que la situación actual es de que hay dos bloques tremendamente marcados, la situación de todos estos grupos políticos a la izquierda del PSOE con respecto al PSOE, o por lo menos personalizado en el caso de Podemos, ¿debe ser que el Partido Socialista es un aliado o es un rival?"
+   "text": "Montero, teniendo en cuenta que parece que la situación actual es de que hay dos bloques tremendamente marcados, la situación de todos estos grupos políticos a la izquierda del PSOE con respecto al PSOE, o por lo menos personalizado en el caso de Podemos, ¿debe ser que el Partido Socialista es un aliado o es un rival?",
+   "marks": [
+    [
+     0,
+     604.2
+    ],
+    [
+     69,
+     612.9
+    ],
+    [
+     148,
+     618.3
+    ],
+    [
+     210,
+     621.0
+    ],
+    [
+     273,
+     624.7
+    ]
+   ]
   },
   {
    "start": 631.68,
@@ -183,7 +913,85 @@
    "label": "SPEAKER_02",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "Depende de lo grande que sea la acampada de la Puerta del Sol, yo creo. No, mira, yo creo que mis adversarios o nuestros adversarios son los que se están llevando beneficios récord, como las empresas de distribución de alimentos, las energéticas, que de verdad se están llenando los bolsillos con beneficios récord. La banca 35.000 millones y todavía le debe 100.000 al pueblo español y siguen haciendo beneficios récord a costa de que esté subiendo el precio de la gasolina, el precio de la energía, el precio de los alimentos, el precio de las casas. Esos son nuestros adversarios. Honestamente creo que el PSOE poco va a ayudar a la hora de la verdad a enfrentarse a esos poderosos, pero los adversarios están muy claros. Y sobre todo, si hay movilizaciones fuertes y hay una acampada en sol en la que no cabe un alfiler, ya verás cómo se pueden cambiar las cosas en España, le apetezca más o menos al Partido Socialista."
+   "text": "Depende de lo grande que sea la acampada de la Puerta del Sol, yo creo. No, mira, yo creo que mis adversarios o nuestros adversarios son los que se están llevando beneficios récord, como las empresas de distribución de alimentos, las energéticas, que de verdad se están llenando los bolsillos con beneficios récord. La banca 35.000 millones y todavía le debe 100.000 al pueblo español y siguen haciendo beneficios récord a costa de que esté subiendo el precio de la gasolina, el precio de la energía, el precio de los alimentos, el precio de las casas. Esos son nuestros adversarios. Honestamente creo que el PSOE poco va a ayudar a la hora de la verdad a enfrentarse a esos poderosos, pero los adversarios están muy claros. Y sobre todo, si hay movilizaciones fuertes y hay una acampada en sol en la que no cabe un alfiler, ya verás cómo se pueden cambiar las cosas en España, le apetezca más o menos al Partido Socialista.",
+   "marks": [
+    [
+     0,
+     631.7
+    ],
+    [
+     58,
+     634.3
+    ],
+    [
+     72,
+     636.6
+    ],
+    [
+     121,
+     639.7
+    ],
+    [
+     200,
+     644.4
+    ],
+    [
+     279,
+     648.5
+    ],
+    [
+     316,
+     650.1
+    ],
+    [
+     351,
+     652.2
+    ],
+    [
+     421,
+     657.6
+    ],
+    [
+     479,
+     661.0
+    ],
+    [
+     542,
+     664.9
+    ],
+    [
+     553,
+     665.5
+    ],
+    [
+     584,
+     667.6
+    ],
+    [
+     619,
+     669.6
+    ],
+    [
+     670,
+     672.4
+    ],
+    [
+     725,
+     676.0
+    ],
+    [
+     742,
+     678.1
+    ],
+    [
+     805,
+     681.7
+    ],
+    [
+     867,
+     684.8
+    ]
+   ]
   },
   {
    "start": 689.06,
@@ -191,7 +999,17 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "Bueno, entiendo que una de cal y una de arena, aliado y rival, dependiendo del momento, pero muchísimas gracias, señora Montero, muy buenas tardes."
+   "text": "Bueno, entiendo que una de cal y una de arena, aliado y rival, dependiendo del momento, pero muchísimas gracias, señora Montero, muy buenas tardes.",
+   "marks": [
+    [
+     0,
+     689.1
+    ],
+    [
+     56,
+     691.7
+    ]
+   ]
   },
   {
    "start": 695.8,
@@ -199,7 +1017,17 @@
    "label": "SPEAKER_02",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "Buenas tardes, gracias. Nada, que tengas buena tarde."
+   "text": "Buenas tardes, gracias. Nada, que tengas buena tarde.",
+   "marks": [
+    [
+     0,
+     695.8
+    ],
+    [
+     24,
+     697.3
+    ]
+   ]
   }
  ]
 }

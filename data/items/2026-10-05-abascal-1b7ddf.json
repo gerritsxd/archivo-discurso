@@ -14,7 +14,7 @@
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
   "voiceprint_threshold": 0.65,
-  "processed_at": "2026-10-25T20:11:19+00:00",
+  "processed_at": "2026-10-25T20:59:07+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -68,7 +68,13 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Santiago Abascal, presidente de Vox, buenos días."
+   "text": "Santiago Abascal, presidente de Vox, buenos días.",
+   "marks": [
+    [
+     0,
+     20.4
+    ]
+   ]
   },
   {
    "start": 22.33,
@@ -76,7 +82,13 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Muy buenos días."
+   "text": "Muy buenos días.",
+   "marks": [
+    [
+     0,
+     22.3
+    ]
+   ]
   },
   {
    "start": 23.19,
@@ -84,7 +96,21 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Día oportuno para tenerle hoy en el plató de Espejo Público. Tengo que aclarar que esta entrevista lleva cerrada desde hace ya varios días."
+   "text": "Día oportuno para tenerle hoy en el plató de Espejo Público. Tengo que aclarar que esta entrevista lleva cerrada desde hace ya varios días.",
+   "marks": [
+    [
+     0,
+     23.2
+    ],
+    [
+     61,
+     25.9
+    ],
+    [
+     67,
+     26.0
+    ]
+   ]
   },
   {
    "start": 30.17,
@@ -92,7 +118,13 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Efectivamente, desde hace varios días."
+   "text": "Efectivamente, desde hace varios días.",
+   "marks": [
+    [
+     0,
+     30.2
+    ]
+   ]
   },
   {
    "start": 31.45,
@@ -100,7 +132,13 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "¿Ha coincidido?"
+   "text": "¿Ha coincidido?",
+   "marks": [
+    [
+     0,
+     31.4
+    ]
+   ]
   },
   {
    "start": 32.31,
@@ -108,7 +146,13 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Me alegro mucho de poder estar hoy aquí."
+   "text": "Me alegro mucho de poder estar hoy aquí.",
+   "marks": [
+    [
+     0,
+     32.3
+    ]
+   ]
   },
   {
    "start": 34.11,
@@ -116,7 +160,29 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Igualmente. Bueno, Sánchez convoca elecciones. ¿Se le está usted poniendo cara de vicepresidente? Llevamos toda la mañana preguntándonoslo."
+   "text": "Igualmente. Bueno, Sánchez convoca elecciones. ¿Se le está usted poniendo cara de vicepresidente? Llevamos toda la mañana preguntándonoslo.",
+   "marks": [
+    [
+     0,
+     34.1
+    ],
+    [
+     12,
+     34.8
+    ],
+    [
+     47,
+     37.8
+    ],
+    [
+     82,
+     39.1
+    ],
+    [
+     98,
+     39.6
+    ]
+   ]
   },
   {
    "start": 43.95,
@@ -124,7 +190,65 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "La verdad es que creo que no debo empezar la entrevista sin señalar que vamos a ir a votar en España España con Ceuta invadida y con un candidato al servicio de los intereses de Marruecos, que se llama Pedro Sánchez. Y en unas elecciones que, a pesar de lo que digan las encuestas, van a ser muy inciertas. Yo ya he aprendido a no ponerme en posiciones inadecuadas y a no vender la piel del oso antes de cazarlo, porque ya ocurrió en el año 23, las encuestas decían lo mismo que hoy, y Sánchez logró formar una mayoría con todos sus cómplices, que nos ha llevado hasta donde estamos. Por lo tanto, yo hace mucho tiempo que ya no hago elucubraciones sobre el futuro."
+   "text": "La verdad es que creo que no debo empezar la entrevista sin señalar que vamos a ir a votar en España España con Ceuta invadida y con un candidato al servicio de los intereses de Marruecos, que se llama Pedro Sánchez. Y en unas elecciones que, a pesar de lo que digan las encuestas, van a ser muy inciertas. Yo ya he aprendido a no ponerme en posiciones inadecuadas y a no vender la piel del oso antes de cazarlo, porque ya ocurrió en el año 23, las encuestas decían lo mismo que hoy, y Sánchez logró formar una mayoría con todos sus cómplices, que nos ha llevado hasta donde estamos. Por lo tanto, yo hace mucho tiempo que ya no hago elucubraciones sobre el futuro.",
+   "marks": [
+    [
+     0,
+     44.0
+    ],
+    [
+     60,
+     47.1
+    ],
+    [
+     118,
+     50.5
+    ],
+    [
+     189,
+     53.8
+    ],
+    [
+     217,
+     56.1
+    ],
+    [
+     251,
+     58.0
+    ],
+    [
+     307,
+     60.4
+    ],
+    [
+     310,
+     60.6
+    ],
+    [
+     372,
+     65.9
+    ],
+    [
+     434,
+     69.9
+    ],
+    [
+     494,
+     73.8
+    ],
+    [
+     563,
+     77.5
+    ],
+    [
+     584,
+     78.1
+    ],
+    [
+     626,
+     80.2
+    ]
+   ]
   },
   {
    "start": 82.71,
@@ -132,7 +256,21 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "¿Usted se reúne con la dirección al salir de este plató? Entiendo que todavía no han tenido oportunidad de ganar."
+   "text": "¿Usted se reúne con la dirección al salir de este plató? Entiendo que todavía no han tenido oportunidad de ganar.",
+   "marks": [
+    [
+     0,
+     82.7
+    ],
+    [
+     57,
+     85.5
+    ],
+    [
+     66,
+     85.7
+    ]
+   ]
   },
   {
    "start": 88.35,
@@ -140,7 +278,29 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Normalmente me reúno a esta hora un poco antes y lo había suspendido para poder estar aquí, pero volveré después, les he pedido que esperen para comenzar a trabajar ya, para ponernos manos a la obra en una tarea que yo creo que es imprescindible para la inmensa mayoría de los españoles."
+   "text": "Normalmente me reúno a esta hora un poco antes y lo había suspendido para poder estar aquí, pero volveré después, les he pedido que esperen para comenzar a trabajar ya, para ponernos manos a la obra en una tarea que yo creo que es imprescindible para la inmensa mayoría de los españoles.",
+   "marks": [
+    [
+     0,
+     88.3
+    ],
+    [
+     58,
+     92.3
+    ],
+    [
+     132,
+     95.6
+    ],
+    [
+     199,
+     99.5
+    ],
+    [
+     262,
+     101.9
+    ]
+   ]
   },
   {
    "start": 102.65,
@@ -148,7 +308,25 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "¿Las tenía usted todas o esta mañana quería que Pedro Sánchez podría en el último momento convocar a todo el mundo para darnos a entender que íbamos a elecciones y luego sorprendernos con esas decisiones que a veces nos comunica de he decidido quedarme?"
+   "text": "¿Las tenía usted todas o esta mañana quería que Pedro Sánchez podría en el último momento convocar a todo el mundo para darnos a entender que íbamos a elecciones y luego sorprendernos con esas decisiones que a veces nos comunica de he decidido quedarme?",
+   "marks": [
+    [
+     0,
+     102.7
+    ],
+    [
+     69,
+     106.7
+    ],
+    [
+     129,
+     112.5
+    ],
+    [
+     208,
+     117.0
+    ]
+   ]
   },
   {
    "start": 119.67,
@@ -156,7 +334,49 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Yo hace mucho tiempo que intento, o he evitado ponerme en la cabeza de un personaje psicopático que puede hacer cualquier tipo de cosa. Yo estaba preparado tanto para afrontar unas elecciones como para escuchar una playlist de Pedro Sánchez. Es capaz de cualquier cosa. Él ha intentado generar la atención en esta ocasión para convocar elecciones, de lo cual me alegro profundamente porque hace mucho tiempo que la reclamamos y sobre todo la reclaman los españoles, pero realmente no había pensado demasiado en qué podía hacer."
+   "text": "Yo hace mucho tiempo que intento, o he evitado ponerme en la cabeza de un personaje psicopático que puede hacer cualquier tipo de cosa. Yo estaba preparado tanto para afrontar unas elecciones como para escuchar una playlist de Pedro Sánchez. Es capaz de cualquier cosa. Él ha intentado generar la atención en esta ocasión para convocar elecciones, de lo cual me alegro profundamente porque hace mucho tiempo que la reclamamos y sobre todo la reclaman los españoles, pero realmente no había pensado demasiado en qué podía hacer.",
+   "marks": [
+    [
+     0,
+     119.7
+    ],
+    [
+     61,
+     123.5
+    ],
+    [
+     136,
+     126.7
+    ],
+    [
+     215,
+     130.4
+    ],
+    [
+     242,
+     131.6
+    ],
+    [
+     270,
+     133.1
+    ],
+    [
+     286,
+     135.0
+    ],
+    [
+     359,
+     138.1
+    ],
+    [
+     434,
+     141.3
+    ],
+    [
+     511,
+     145.7
+    ]
+   ]
   },
   {
    "start": 146.75,
@@ -164,7 +384,29 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Estaban siendo ustedes muy prudentes, tanto en Vox como en el Partido Popular, posiblemente escarmentados por convocatorias anteriores. Vamos a recordar si le parece las palabras que Sánchez les ha dedicado a ustedes, a la oposición, en esa comparecencia desde la Moncloa."
+   "text": "Estaban siendo ustedes muy prudentes, tanto en Vox como en el Partido Popular, posiblemente escarmentados por convocatorias anteriores. Vamos a recordar si le parece las palabras que Sánchez les ha dedicado a ustedes, a la oposición, en esa comparecencia desde la Moncloa.",
+   "marks": [
+    [
+     0,
+     146.8
+    ],
+    [
+     70,
+     149.3
+    ],
+    [
+     136,
+     152.8
+    ],
+    [
+     166,
+     154.4
+    ],
+    [
+     234,
+     157.8
+    ]
+   ]
   },
   {
    "start": 161.59,
@@ -172,7 +414,53 @@
    "label": "SPEAKER_00",
    "person": "sanchez",
    "name": "Pedro Sánchez (PSOE)",
-   "text": "Ha llegado, por tanto, el momento de que los españoles y españolas decidáis qué futuro queréis para vosotros mismos y para vuestro país. Ahora depende de vosotros y de vosotras. Si preferís tener un gobierno que trabaje por el interés de la mayoría social o preferís entregaros o entregar las riendas del país a una coalición ultraderechista La política derechista que no ha propuesto nada y cuyo único objetivo es derogar y recortar los derechos y las libertades que hemos venido construyendo durante estos últimos ocho años para beneficiar a los de siempre, a una minoría privilegiada."
+   "text": "Ha llegado, por tanto, el momento de que los españoles y españolas decidáis qué futuro queréis para vosotros mismos y para vuestro país. Ahora depende de vosotros y de vosotras. Si preferís tener un gobierno que trabaje por el interés de la mayoría social o preferís entregaros o entregar las riendas del país a una coalición ultraderechista La política derechista que no ha propuesto nada y cuyo único objetivo es derogar y recortar los derechos y las libertades que hemos venido construyendo durante estos últimos ocho años para beneficiar a los de siempre, a una minoría privilegiada.",
+   "marks": [
+    [
+     0,
+     161.6
+    ],
+    [
+     67,
+     165.4
+    ],
+    [
+     137,
+     171.7
+    ],
+    [
+     143,
+     172.3
+    ],
+    [
+     178,
+     174.7
+    ],
+    [
+     212,
+     176.3
+    ],
+    [
+     280,
+     180.6
+    ],
+    [
+     365,
+     183.6
+    ],
+    [
+     425,
+     188.4
+    ],
+    [
+     508,
+     192.2
+    ],
+    [
+     574,
+     196.3
+    ]
+   ]
   },
   {
    "start": 198.26,
@@ -180,7 +468,21 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Este es el planteamiento binario que hacía, el progreso o la otra derecha. ¿Qué responde usted?"
+   "text": "Este es el planteamiento binario que hacía, el progreso o la otra derecha. ¿Qué responde usted?",
+   "marks": [
+    [
+     0,
+     198.3
+    ],
+    [
+     66,
+     201.0
+    ],
+    [
+     75,
+     201.6
+    ]
+   ]
   },
   {
    "start": 202.28,
@@ -188,7 +490,121 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "En primer lugar, que si durante esta legislatura ha habido algún beneficiado, han sido precisamente las minorías privilegiadas, las minorías territoriales que siempre se han privilegiado de la debilidad de los partidos nacionales, tanto del Partido Socialista como del Partido Popular, y los fondos, los fondos que han sido los grandes beneficiados de estos años de legislatura. Porque precisamente ahora vamos a las elecciones con la vivienda como debate principal. Pero lo cierto es que desde que Sánchez llegó al poder en el año 2018, la vivienda se ha encarecido en un 74% en las compras y en un 40% en el alquiler. Es decir, es el culpable, punto. Él lo puede contar como quiera, de hecho ha pintado un cuadro de color rosa que no se compadece con la realidad de las familias españolas y de muchísimos españoles que no llegan a final de mes. ¿Por qué no puede salir a la calle? ¿Por qué Pedro Sánchez no puede caminar por la calle tranquilamente? ¿Por qué los españoles no le reconocen a este señor, a su majestad Sánchez, lo bien que lo ha hecho? Los españoles no saben qué es lo que está pasando, los españoles no saben que no pueden llenar la nevera, que no pueden comprar casa, los jóvenes acaso no saben que se tienen que ir fuera de su propio país. Yo creo que esa es la realidad."
+   "text": "En primer lugar, que si durante esta legislatura ha habido algún beneficiado, han sido precisamente las minorías privilegiadas, las minorías territoriales que siempre se han privilegiado de la debilidad de los partidos nacionales, tanto del Partido Socialista como del Partido Popular, y los fondos, los fondos que han sido los grandes beneficiados de estos años de legislatura. Porque precisamente ahora vamos a las elecciones con la vivienda como debate principal. Pero lo cierto es que desde que Sánchez llegó al poder en el año 2018, la vivienda se ha encarecido en un 74% en las compras y en un 40% en el alquiler. Es decir, es el culpable, punto. Él lo puede contar como quiera, de hecho ha pintado un cuadro de color rosa que no se compadece con la realidad de las familias españolas y de muchísimos españoles que no llegan a final de mes. ¿Por qué no puede salir a la calle? ¿Por qué Pedro Sánchez no puede caminar por la calle tranquilamente? ¿Por qué los españoles no le reconocen a este señor, a su majestad Sánchez, lo bien que lo ha hecho? Los españoles no saben qué es lo que está pasando, los españoles no saben que no pueden llenar la nevera, que no pueden comprar casa, los jóvenes acaso no saben que se tienen que ir fuera de su propio país. Yo creo que esa es la realidad.",
+   "marks": [
+    [
+     0,
+     202.3
+    ],
+    [
+     78,
+     207.8
+    ],
+    [
+     170,
+     212.2
+    ],
+    [
+     249,
+     216.0
+    ],
+    [
+     319,
+     219.7
+    ],
+    [
+     379,
+     222.4
+    ],
+    [
+     405,
+     223.6
+    ],
+    [
+     467,
+     227.1
+    ],
+    [
+     475,
+     227.7
+    ],
+    [
+     532,
+     230.2
+    ],
+    [
+     584,
+     234.0
+    ],
+    [
+     620,
+     236.4
+    ],
+    [
+     633,
+     237.1
+    ],
+    [
+     653,
+     238.5
+    ],
+    [
+     697,
+     241.1
+    ],
+    [
+     756,
+     244.6
+    ],
+    [
+     831,
+     248.2
+    ],
+    [
+     847,
+     256.7
+    ],
+    [
+     883,
+     263.0
+    ],
+    [
+     952,
+     266.4
+    ],
+    [
+     957,
+     266.6
+    ],
+    [
+     1019,
+     272.6
+    ],
+    [
+     1053,
+     274.4
+    ],
+    [
+     1080,
+     275.8
+    ],
+    [
+     1141,
+     277.8
+    ],
+    [
+     1208,
+     280.7
+    ],
+    [
+     1260,
+     282.7
+    ],
+    [
+     1263,
+     283.1
+    ]
+   ]
   },
   {
    "start": 284.38,
@@ -196,7 +612,21 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Se queja de que la oposición la ha deshumanizado, pero curiosamente se vende como alguien de la calle, como alguien que está próximo a las necesidades del pueblo."
+   "text": "Se queja de que la oposición la ha deshumanizado, pero curiosamente se vende como alguien de la calle, como alguien que está próximo a las necesidades del pueblo.",
+   "marks": [
+    [
+     0,
+     284.4
+    ],
+    [
+     71,
+     288.5
+    ],
+    [
+     135,
+     291.1
+    ]
+   ]
   },
   {
    "start": 292.36,
@@ -204,7 +634,21 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "¿Qué pasa con el pueblo? Pues en cosas bastante inaceptables, sin asumir ninguna responsabilidad también en Valencia con las inundaciones."
+   "text": "¿Qué pasa con el pueblo? Pues en cosas bastante inaceptables, sin asumir ninguna responsabilidad también en Valencia con las inundaciones.",
+   "marks": [
+    [
+     0,
+     292.4
+    ],
+    [
+     25,
+     322.4
+    ],
+    [
+     73,
+     325.7
+    ]
+   ]
   },
   {
    "start": 329.22,
@@ -212,7 +656,13 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Es un accidente en el cual habrá que depurar responsabilidades posiblemente."
+   "text": "Es un accidente en el cual habrá que depurar responsabilidades posiblemente.",
+   "marks": [
+    [
+     0,
+     329.2
+    ]
+   ]
   },
   {
    "start": 333.06,
@@ -220,7 +670,13 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Sí, pero él es un experto en echar culpas."
+   "text": "Sí, pero él es un experto en echar culpas.",
+   "marks": [
+    [
+     0,
+     333.1
+    ]
+   ]
   },
   {
    "start": 335.16,
@@ -228,7 +684,13 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Pero hablar de crimen, eso son palabras mayores."
+   "text": "Pero hablar de crimen, eso son palabras mayores.",
+   "marks": [
+    [
+     0,
+     335.2
+    ]
+   ]
   },
   {
    "start": 338.28,
@@ -236,7 +698,13 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Bueno, yo creo que cuando..."
+   "text": "Bueno, yo creo que cuando...",
+   "marks": [
+    [
+     0,
+     338.3
+    ]
+   ]
   },
   {
    "start": 339.2,
@@ -244,7 +712,21 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Porque usted ha acusado directamente a Oscar Puente de asesinato, a este gobierno de asesinos. ¿Cree que esa acusación se puede hacer?"
+   "text": "Porque usted ha acusado directamente a Oscar Puente de asesinato, a este gobierno de asesinos. ¿Cree que esa acusación se puede hacer?",
+   "marks": [
+    [
+     0,
+     339.2
+    ],
+    [
+     73,
+     342.7
+    ],
+    [
+     95,
+     344.4
+    ]
+   ]
   },
   {
    "start": 347.48,
@@ -252,7 +734,73 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Yo creo que se debe hacer. Yo creo que cuando el dinero que iba destinado a las vías se ha gastado en mantener a chicas de compañía, por decirlo suavemente, estamos ante un auténtico crimen. Yo creo que cuando se toman decisiones ideológicas para no construir las infraestructuras hidráulicas como en Valencia y se producen inundaciones en lugares donde ya se habían producido hace muchísimo tiempo, porque se han paralizado las obras por parte de este gobierno y muere gente, se puede hablar de crimen. No es simplemente una decisión política. Yo lo que digo es que la corrupción mata. La corrupción en Adamuz, la corrupción en Valencia y, por supuesto, también la corrupción en torno a Ceuta y a la relación que el señor Sánchez tiene con Marruecos en estos momentos."
+   "text": "Yo creo que se debe hacer. Yo creo que cuando el dinero que iba destinado a las vías se ha gastado en mantener a chicas de compañía, por decirlo suavemente, estamos ante un auténtico crimen. Yo creo que cuando se toman decisiones ideológicas para no construir las infraestructuras hidráulicas como en Valencia y se producen inundaciones en lugares donde ya se habían producido hace muchísimo tiempo, porque se han paralizado las obras por parte de este gobierno y muere gente, se puede hablar de crimen. No es simplemente una decisión política. Yo lo que digo es que la corrupción mata. La corrupción en Adamuz, la corrupción en Valencia y, por supuesto, también la corrupción en torno a Ceuta y a la relación que el señor Sánchez tiene con Marruecos en estos momentos.",
+   "marks": [
+    [
+     0,
+     347.5
+    ],
+    [
+     27,
+     349.3
+    ],
+    [
+     56,
+     350.3
+    ],
+    [
+     113,
+     353.4
+    ],
+    [
+     191,
+     358.1
+    ],
+    [
+     194,
+     358.2
+    ],
+    [
+     281,
+     362.4
+    ],
+    [
+     357,
+     365.8
+    ],
+    [
+     435,
+     369.1
+    ],
+    [
+     496,
+     372.1
+    ],
+    [
+     504,
+     372.4
+    ],
+    [
+     545,
+     374.0
+    ],
+    [
+     563,
+     374.7
+    ],
+    [
+     587,
+     376.1
+    ],
+    [
+     638,
+     379.8
+    ],
+    [
+     698,
+     382.8
+    ]
+   ]
   },
   {
    "start": 387.12,
@@ -260,7 +808,49 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Le voy a preguntar por Ceuta enseguida, pero por no dejar el tema de la vivienda, ¿sabe usted que ahora hay mucha expectación con la posibilidad de que Pedro Sánchez decida colar el decreto que no pudo aprobar a través de la Diputación Permanente una vez disueltas las Cortes? Nos decía un magistrado que eso sería un fraude de ley, sería una treta, porque estaría burlando la voluntad, la soberanía popular. ¿Cuenta con ello? ¿Le preocupa que ocurra?"
+   "text": "Le voy a preguntar por Ceuta enseguida, pero por no dejar el tema de la vivienda, ¿sabe usted que ahora hay mucha expectación con la posibilidad de que Pedro Sánchez decida colar el decreto que no pudo aprobar a través de la Diputación Permanente una vez disueltas las Cortes? Nos decía un magistrado que eso sería un fraude de ley, sería una treta, porque estaría burlando la voluntad, la soberanía popular. ¿Cuenta con ello? ¿Le preocupa que ocurra?",
+   "marks": [
+    [
+     0,
+     387.1
+    ],
+    [
+     61,
+     389.2
+    ],
+    [
+     130,
+     394.8
+    ],
+    [
+     197,
+     398.1
+    ],
+    [
+     269,
+     401.7
+    ],
+    [
+     277,
+     402.4
+    ],
+    [
+     333,
+     405.3
+    ],
+    [
+     409,
+     410.0
+    ],
+    [
+     417,
+     410.5
+    ],
+    [
+     427,
+     411.2
+    ]
+   ]
   },
   {
    "start": 412.68,
@@ -268,7 +858,73 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Yo cuento con cualquier cosa, no solo respecto a esa votación en la Diputación Permanente del Congreso, sino respecto al proceso electoral y a los intentos de Sánchez de hacer cualquier tipo de trampa. Yo estoy preparado para cualquier circunstancia porque me temo lo peor de Pedro Sánchez. El magistrado ha sido muy claro, he hablado de fraude de ley, creo que ha sido prudente, Yo creo que estamos ante una ilegalidad manifiesta. Cuando el Congreso de los Diputados, reunido en la forma más representativa que puede ser el Congreso de los Diputados, reunido en pleno, vota en contra de unos decretos, no puede uno reunir una pequeña comisión, una parte pequeña del Congreso de los Diputados, para torcer esa decisión. Yo creo que es una ilegalidad, pero Sánchez seguro que está dispuesto a cometerla y además seguro que tiene la ayuda de un tribunal constitucional que hace tiempo que ha asaltado, como muchas otras instituciones."
+   "text": "Yo cuento con cualquier cosa, no solo respecto a esa votación en la Diputación Permanente del Congreso, sino respecto al proceso electoral y a los intentos de Sánchez de hacer cualquier tipo de trampa. Yo estoy preparado para cualquier circunstancia porque me temo lo peor de Pedro Sánchez. El magistrado ha sido muy claro, he hablado de fraude de ley, creo que ha sido prudente, Yo creo que estamos ante una ilegalidad manifiesta. Cuando el Congreso de los Diputados, reunido en la forma más representativa que puede ser el Congreso de los Diputados, reunido en pleno, vota en contra de unos decretos, no puede uno reunir una pequeña comisión, una parte pequeña del Congreso de los Diputados, para torcer esa decisión. Yo creo que es una ilegalidad, pero Sánchez seguro que está dispuesto a cometerla y además seguro que tiene la ayuda de un tribunal constitucional que hace tiempo que ha asaltado, como muchas otras instituciones.",
+   "marks": [
+    [
+     0,
+     412.7
+    ],
+    [
+     65,
+     416.5
+    ],
+    [
+     143,
+     420.4
+    ],
+    [
+     202,
+     423.7
+    ],
+    [
+     211,
+     424.0
+    ],
+    [
+     291,
+     427.8
+    ],
+    [
+     353,
+     430.7
+    ],
+    [
+     420,
+     434.6
+    ],
+    [
+     432,
+     435.3
+    ],
+    [
+     493,
+     440.5
+    ],
+    [
+     570,
+     443.2
+    ],
+    [
+     635,
+     447.2
+    ],
+    [
+     710,
+     452.8
+    ],
+    [
+     720,
+     453.3
+    ],
+    [
+     780,
+     455.9
+    ],
+    [
+     843,
+     460.8
+    ]
+   ]
   },
   {
    "start": 464.36,
@@ -276,7 +932,37 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "El tribunal constitucional se tiene que pronunciar ahora sobre la malversación, de tal manera que la amnistía también incluya ese delito y eso facilitaría la vuelta de Puigdemont, el regreso del prófugo nueve años después a nuestro país. ¿Hasta qué punto usted se esperaba que el propio Puigdemont, que a cambio de la amnistía acabó haciendo presidente a Pedro Sánchez, fuese también su verdugo?"
+   "text": "El tribunal constitucional se tiene que pronunciar ahora sobre la malversación, de tal manera que la amnistía también incluya ese delito y eso facilitaría la vuelta de Puigdemont, el regreso del prófugo nueve años después a nuestro país. ¿Hasta qué punto usted se esperaba que el propio Puigdemont, que a cambio de la amnistía acabó haciendo presidente a Pedro Sánchez, fuese también su verdugo?",
+   "marks": [
+    [
+     0,
+     464.4
+    ],
+    [
+     83,
+     469.5
+    ],
+    [
+     155,
+     475.0
+    ],
+    [
+     224,
+     480.2
+    ],
+    [
+     238,
+     482.3
+    ],
+    [
+     299,
+     486.8
+    ],
+    [
+     370,
+     491.4
+    ]
+   ]
   },
   {
    "start": 493.46,
@@ -284,7 +970,73 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Realmente me ocurre lo mismo que con Pedro Sánchez. Yo soy incapaz de ponerme en la cabeza de señores como esos, tanto de Pedro Sánchez como de Puigdemont. Yo soy incapaz de ponerme en la cabeza de un tipo como Sánchez, que tiene a todo su entorno imputado o en prisión, al entorno familiar y político, y ha permanecido en el poder todo este tiempo, y también soy incapaz de ponerme en la cabeza de un señor que sale huyendo en un maletero después de intentar dar un golpe de Estado. Son personajes que no tienen nada que ver con mi manera de vivir y de entender la política, y por lo tanto no pierdo el tiempo en tratar de interpretarlos. Nunca sé qué es lo que van a hacer y me limito a responder a las decisiones una vez que las han tomado."
+   "text": "Realmente me ocurre lo mismo que con Pedro Sánchez. Yo soy incapaz de ponerme en la cabeza de señores como esos, tanto de Pedro Sánchez como de Puigdemont. Yo soy incapaz de ponerme en la cabeza de un tipo como Sánchez, que tiene a todo su entorno imputado o en prisión, al entorno familiar y político, y ha permanecido en el poder todo este tiempo, y también soy incapaz de ponerme en la cabeza de un señor que sale huyendo en un maletero después de intentar dar un golpe de Estado. Son personajes que no tienen nada que ver con mi manera de vivir y de entender la política, y por lo tanto no pierdo el tiempo en tratar de interpretarlos. Nunca sé qué es lo que van a hacer y me limito a responder a las decisiones una vez que las han tomado.",
+   "marks": [
+    [
+     0,
+     493.5
+    ],
+    [
+     52,
+     495.7
+    ],
+    [
+     67,
+     497.1
+    ],
+    [
+     128,
+     499.3
+    ],
+    [
+     156,
+     500.5
+    ],
+    [
+     195,
+     502.7
+    ],
+    [
+     257,
+     506.7
+    ],
+    [
+     323,
+     510.6
+    ],
+    [
+     386,
+     512.7
+    ],
+    [
+     448,
+     515.9
+    ],
+    [
+     484,
+     517.4
+    ],
+    [
+     513,
+     518.7
+    ],
+    [
+     566,
+     520.8
+    ],
+    [
+     624,
+     523.6
+    ],
+    [
+     640,
+     524.2
+    ],
+    [
+     680,
+     526.2
+    ]
+   ]
   },
   {
    "start": 529.4,
@@ -292,7 +1044,53 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Nos hemos desayunado esta mañana con una nubión de encuestas. Ninguna le daría a Pedro Sánchez la posibilidad de volver a gobernar, de reeditar un pacto con las izquierdas. Y de hecho todas coinciden en que la derecha, hablo de PP y Vox, pueden sumar mayoría absoluta. Gran avance de Vox que hasta podría duplicar sus resultados rozando en algunos casos el 20% de los votos. ¿Confía en que este escenario se pueda mantener de aquí a 54 días?"
+   "text": "Nos hemos desayunado esta mañana con una nubión de encuestas. Ninguna le daría a Pedro Sánchez la posibilidad de volver a gobernar, de reeditar un pacto con las izquierdas. Y de hecho todas coinciden en que la derecha, hablo de PP y Vox, pueden sumar mayoría absoluta. Gran avance de Vox que hasta podría duplicar sus resultados rozando en algunos casos el 20% de los votos. ¿Confía en que este escenario se pueda mantener de aquí a 54 días?",
+   "marks": [
+    [
+     0,
+     529.4
+    ],
+    [
+     62,
+     533.0
+    ],
+    [
+     73,
+     533.6
+    ],
+    [
+     144,
+     536.3
+    ],
+    [
+     173,
+     538.4
+    ],
+    [
+     207,
+     540.4
+    ],
+    [
+     269,
+     546.8
+    ],
+    [
+     274,
+     547.3
+    ],
+    [
+     348,
+     551.5
+    ],
+    [
+     375,
+     554.0
+    ],
+    [
+     405,
+     555.2
+    ]
+   ]
   },
   {
    "start": 557.56,
@@ -300,7 +1098,17 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "¿Qué opinas de las encuestas? No llego."
+   "text": "¿Qué opinas de las encuestas? No llego.",
+   "marks": [
+    [
+     0,
+     557.6
+    ],
+    [
+     30,
+     587.6
+    ]
+   ]
   },
   {
    "start": 588.42,
@@ -308,7 +1116,25 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Déjeme que le interrumpa en este momento porque sale Núñez Feijóo para valorar precisamente la convocatoria electoral por parte de Pedro Sánchez esta mañana. Es una convocatoria de urgencia que hace el líder del Partido Popular. Le escuchamos."
+   "text": "Déjeme que le interrumpa en este momento porque sale Núñez Feijóo para valorar precisamente la convocatoria electoral por parte de Pedro Sánchez esta mañana. Es una convocatoria de urgencia que hace el líder del Partido Popular. Le escuchamos.",
+   "marks": [
+    [
+     0,
+     588.4
+    ],
+    [
+     71,
+     591.1
+    ],
+    [
+     158,
+     595.8
+    ],
+    [
+     229,
+     600.5
+    ]
+   ]
   },
   {
    "start": 601.1,
@@ -316,7 +1142,13 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Muy buenos días a todos."
+   "text": "Muy buenos días a todos.",
+   "marks": [
+    [
+     0,
+     601.1
+    ]
+   ]
   },
   {
    "start": 602.9,
@@ -324,7 +1156,13 @@
    "label": "SPEAKER_04",
    "person": "feijoo",
    "name": "Alberto Núñez Feijóo (PP)",
-   "text": "Gracias por su presencia."
+   "text": "Gracias por su presencia.",
+   "marks": [
+    [
+     0,
+     602.9
+    ]
+   ]
   },
   {
    "start": 605.82,
@@ -332,7 +1170,13 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Por fin."
+   "text": "Por fin.",
+   "marks": [
+    [
+     0,
+     605.8
+    ]
+   ]
   },
   {
    "start": 608.16,
@@ -340,7 +1184,385 @@
    "label": "SPEAKER_04",
    "person": "feijoo",
    "name": "Alberto Núñez Feijóo (PP)",
-   "text": "Por fin España dirá lo que piensa. Por fin volverá a hablar a la mayoría. Por fin decidirán los españoles. No unos pocos, no uno solo, todos los españoles. Por fin podemos cerrar este tiempo y abrir otro mejor. Por fin puede irse quien nunca debió llegar tan lejos. Por fin votaremos y por fin España podrá elegir el país que quiere ser. Es la única buena noticia que Sánchez podía dar a estas alturas y no son unas elecciones más. La disyuntiva del 29 de noviembre es algo más que escoger entre dos partidos. Se trata de elegir entre un proyecto de ambición personalista o un proyecto de país. Esto no va sencillamente de que el PP le gane al PSOE. No son unas elecciones como las anteriores en democracia. Esto va de que España le gane a Sánchez y a lo que representa. De que la nación y la democracia venzan a quien más daño le han causado. Esa es la elección entre la corrupción y la decencia, entre la decadencia y la prosperidad, entre un gobierno que solo aspira a sobrevivir y un país que piensa en su futuro. La pregunta que le propongo a los ciudadanos es si quieren cuatro años más de lo que estamos viviendo o si quieren dar una oportunidad al cambio. España lleva demasiado tiempo atrapada en una gran mentira que lo ha ensuciado todo. Hemos sufrido una política sin escrúpulos, una ambición de poder sin límites, un gobierno dispuesto a cualquier cosa con tal de resistir. Desde el primer día hasta el último se ha corrompido la verdad, se han corrompido las instituciones y la gestión del dinero público y se ha corrompido la confianza del país. 6. Se ha perdido todo tipo de respeto, la mínima higiene que debe existir en cualquier democracia. Se ha perseguido al crítico, ya fuese político, periodista, miembro de las fuerzas y cuerpos de seguridad del Estado, juez o ciudadano de a pie. Y se ha despreciado la convivencia como nunca antes. Se ha levantado un muro entre españoles. Como mantener el poder ha sido el único fin, los ciudadanos han sido rehenes y el dinero que tributan, con el fruto de su esfuerzo, un recurso del que apropiarse. Por eso las dificultades de los españoles se han acumulado durante estos años. El Estado ha dispuesto de más recursos que nunca y, sin embargo, hoy, ocho años después, el coste de la vida es insoportable. La vivienda está inalcanzable. Faltan médicos y sobran huelgas. Empeora el nivel educativo. Las infraestructuras son decadentes. La inmigración está descontrolada. La mayor recaudación de impuestos no ha servido ni siquiera para atender, como es debido, el ataque a la integridad territorial de nuestra nación en la ciudad de Ceuta. Esta vez no es un problema de dinero, sino de mal uso. Todo se gestiona peor que antes, simplemente porque todo está al servicio de un proyecto personal. Ante una situación como esta el cambio empieza por decir la verdad. Y la verdad es que ojalá el próximo gobierno solo tuviera que resolver un gran problema, pero tendrá que afrontar muchos y muy profundos. Los retos de la siguiente legislatura solo son comparables con los que España tuvo que afrontar hace 50 años. La verdad, también a reconocer quien ha creado los problemas está incapacitado para resolverlos. Si ocho años no han sido suficientes, ¿para qué quieren cuatro años más? Y la verdad es finalmente afirmar que el daño ha sido descomunal, pero no ha sido irreversible. Las elecciones nos dan la oportunidad de decir lo que pensamos sobre todo lo que ha ocurrido. Sobre los engaños, los privilegios, las excusas, las subidas hacia adelante, y, por último, las maniobras más egoístas y retorcidas que hemos visto hasta los últimos días."
+   "text": "Por fin España dirá lo que piensa. Por fin volverá a hablar a la mayoría. Por fin decidirán los españoles. No unos pocos, no uno solo, todos los españoles. Por fin podemos cerrar este tiempo y abrir otro mejor. Por fin puede irse quien nunca debió llegar tan lejos. Por fin votaremos y por fin España podrá elegir el país que quiere ser. Es la única buena noticia que Sánchez podía dar a estas alturas y no son unas elecciones más. La disyuntiva del 29 de noviembre es algo más que escoger entre dos partidos. Se trata de elegir entre un proyecto de ambición personalista o un proyecto de país. Esto no va sencillamente de que el PP le gane al PSOE. No son unas elecciones como las anteriores en democracia. Esto va de que España le gane a Sánchez y a lo que representa. De que la nación y la democracia venzan a quien más daño le han causado. Esa es la elección entre la corrupción y la decencia, entre la decadencia y la prosperidad, entre un gobierno que solo aspira a sobrevivir y un país que piensa en su futuro. La pregunta que le propongo a los ciudadanos es si quieren cuatro años más de lo que estamos viviendo o si quieren dar una oportunidad al cambio. España lleva demasiado tiempo atrapada en una gran mentira que lo ha ensuciado todo. Hemos sufrido una política sin escrúpulos, una ambición de poder sin límites, un gobierno dispuesto a cualquier cosa con tal de resistir. Desde el primer día hasta el último se ha corrompido la verdad, se han corrompido las instituciones y la gestión del dinero público y se ha corrompido la confianza del país. 6. Se ha perdido todo tipo de respeto, la mínima higiene que debe existir en cualquier democracia. Se ha perseguido al crítico, ya fuese político, periodista, miembro de las fuerzas y cuerpos de seguridad del Estado, juez o ciudadano de a pie. Y se ha despreciado la convivencia como nunca antes. Se ha levantado un muro entre españoles. Como mantener el poder ha sido el único fin, los ciudadanos han sido rehenes y el dinero que tributan, con el fruto de su esfuerzo, un recurso del que apropiarse. Por eso las dificultades de los españoles se han acumulado durante estos años. El Estado ha dispuesto de más recursos que nunca y, sin embargo, hoy, ocho años después, el coste de la vida es insoportable. La vivienda está inalcanzable. Faltan médicos y sobran huelgas. Empeora el nivel educativo. Las infraestructuras son decadentes. La inmigración está descontrolada. La mayor recaudación de impuestos no ha servido ni siquiera para atender, como es debido, el ataque a la integridad territorial de nuestra nación en la ciudad de Ceuta. Esta vez no es un problema de dinero, sino de mal uso. Todo se gestiona peor que antes, simplemente porque todo está al servicio de un proyecto personal. Ante una situación como esta el cambio empieza por decir la verdad. Y la verdad es que ojalá el próximo gobierno solo tuviera que resolver un gran problema, pero tendrá que afrontar muchos y muy profundos. Los retos de la siguiente legislatura solo son comparables con los que España tuvo que afrontar hace 50 años. La verdad, también a reconocer quien ha creado los problemas está incapacitado para resolverlos. Si ocho años no han sido suficientes, ¿para qué quieren cuatro años más? Y la verdad es finalmente afirmar que el daño ha sido descomunal, pero no ha sido irreversible. Las elecciones nos dan la oportunidad de decir lo que pensamos sobre todo lo que ha ocurrido. Sobre los engaños, los privilegios, las excusas, las subidas hacia adelante, y, por último, las maniobras más egoístas y retorcidas que hemos visto hasta los últimos días.",
+   "marks": [
+    [
+     0,
+     608.2
+    ],
+    [
+     35,
+     610.4
+    ],
+    [
+     60,
+     611.8
+    ],
+    [
+     74,
+     613.0
+    ],
+    [
+     107,
+     615.1
+    ],
+    [
+     125,
+     616.9
+    ],
+    [
+     156,
+     619.2
+    ],
+    [
+     193,
+     621.3
+    ],
+    [
+     211,
+     622.5
+    ],
+    [
+     259,
+     625.5
+    ],
+    [
+     266,
+     626.0
+    ],
+    [
+     322,
+     630.0
+    ],
+    [
+     338,
+     632.5
+    ],
+    [
+     386,
+     635.8
+    ],
+    [
+     432,
+     639.5
+    ],
+    [
+     450,
+     640.8
+    ],
+    [
+     510,
+     644.5
+    ],
+    [
+     513,
+     645.3
+    ],
+    [
+     586,
+     649.2
+    ],
+    [
+     595,
+     650.4
+    ],
+    [
+     641,
+     653.0
+    ],
+    [
+     650,
+     653.8
+    ],
+    [
+     708,
+     657.6
+    ],
+    [
+     713,
+     658.1
+    ],
+    [
+     759,
+     660.9
+    ],
+    [
+     771,
+     661.7
+    ],
+    [
+     823,
+     665.4
+    ],
+    [
+     844,
+     667.0
+    ],
+    [
+     885,
+     673.0
+    ],
+    [
+     958,
+     677.5
+    ],
+    [
+     1018,
+     681.5
+    ],
+    [
+     1084,
+     686.8
+    ],
+    [
+     1141,
+     690.5
+    ],
+    [
+     1164,
+     693.2
+    ],
+    [
+     1223,
+     696.8
+    ],
+    [
+     1249,
+     698.3
+    ],
+    [
+     1296,
+     701.1
+    ],
+    [
+     1370,
+     705.2
+    ],
+    [
+     1387,
+     706.9
+    ],
+    [
+     1429,
+     710.2
+    ],
+    [
+     1504,
+     714.6
+    ],
+    [
+     1561,
+     717.9
+    ],
+    [
+     1564,
+     719.4
+    ],
+    [
+     1567,
+     720.0
+    ],
+    [
+     1635,
+     725.1
+    ],
+    [
+     1660,
+     726.1
+    ],
+    [
+     1720,
+     731.2
+    ],
+    [
+     1785,
+     735.3
+    ],
+    [
+     1805,
+     736.2
+    ],
+    [
+     1851,
+     739.5
+    ],
+    [
+     1858,
+     740.1
+    ],
+    [
+     1899,
+     744.2
+    ],
+    [
+     1922,
+     746.1
+    ],
+    [
+     1981,
+     750.9
+    ],
+    [
+     2046,
+     755.6
+    ],
+    [
+     2062,
+     756.6
+    ],
+    [
+     2121,
+     759.8
+    ],
+    [
+     2141,
+     761.0
+    ],
+    [
+     2190,
+     766.5
+    ],
+    [
+     2250,
+     770.8
+    ],
+    [
+     2267,
+     771.8
+    ],
+    [
+     2298,
+     774.6
+    ],
+    [
+     2331,
+     777.1
+    ],
+    [
+     2339,
+     777.8
+    ],
+    [
+     2359,
+     779.2
+    ],
+    [
+     2396,
+     781.6
+    ],
+    [
+     2431,
+     786.4
+    ],
+    [
+     2434,
+     787.0
+    ],
+    [
+     2510,
+     792.9
+    ],
+    [
+     2580,
+     797.7
+    ],
+    [
+     2600,
+     799.2
+    ],
+    [
+     2638,
+     804.3
+    ],
+    [
+     2655,
+     807.1
+    ],
+    [
+     2707,
+     811.0
+    ],
+    [
+     2754,
+     814.4
+    ],
+    [
+     2778,
+     816.0
+    ],
+    [
+     2822,
+     818.4
+    ],
+    [
+     2837,
+     819.6
+    ],
+    [
+     2911,
+     824.5
+    ],
+    [
+     2960,
+     827.7
+    ],
+    [
+     2976,
+     828.8
+    ],
+    [
+     3056,
+     833.8
+    ],
+    [
+     3070,
+     835.8
+    ],
+    [
+     3121,
+     839.0
+    ],
+    [
+     3167,
+     841.9
+    ],
+    [
+     3205,
+     844.9
+    ],
+    [
+     3240,
+     850.0
+    ],
+    [
+     3274,
+     852.9
+    ],
+    [
+     3336,
+     857.4
+    ],
+    [
+     3340,
+     857.7
+    ],
+    [
+     3410,
+     861.9
+    ],
+    [
+     3430,
+     863.3
+    ],
+    [
+     3483,
+     868.1
+    ],
+    [
+     3562,
+     872.2
+    ]
+   ]
   },
   {
    "start": 875.96,
@@ -348,7 +1570,21 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Pues esta es la radiografía que hace Núñez Feijóo, muy distinta, evidentemente, de esa complaciente que escuchábamos a Pedro Sánchez a eso de las nueve de la mañana."
+   "text": "Pues esta es la radiografía que hace Núñez Feijóo, muy distinta, evidentemente, de esa complaciente que escuchábamos a Pedro Sánchez a eso de las nueve de la mañana.",
+   "marks": [
+    [
+     0,
+     876.0
+    ],
+    [
+     80,
+     879.8
+    ],
+    [
+     146,
+     882.7
+    ]
+   ]
   },
   {
    "start": 884.66,
@@ -356,7 +1592,13 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Menos mal."
+   "text": "Menos mal.",
+   "marks": [
+    [
+     0,
+     884.7
+    ]
+   ]
   },
   {
    "start": 886.6,
@@ -364,7 +1606,29 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Efectivamente no coincide en nada. Posiblemente usted está más de acuerdo con el diagnóstico que hacía el líder del Partido Popular, ¿no? No sé si difieren algo."
+   "text": "Efectivamente no coincide en nada. Posiblemente usted está más de acuerdo con el diagnóstico que hacía el líder del Partido Popular, ¿no? No sé si difieren algo.",
+   "marks": [
+    [
+     0,
+     886.6
+    ],
+    [
+     35,
+     888.4
+    ],
+    [
+     78,
+     890.8
+    ],
+    [
+     138,
+     894.0
+    ],
+    [
+     144,
+     894.2
+    ]
+   ]
   },
   {
    "start": 895.7,
@@ -372,7 +1636,33 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Evidentemente, en una gran parte del diagnóstico estamos de acuerdo, probablemente no en las soluciones que son necesarias para reconstruir España. Pero bueno, pecata minuta al lado de lo que tenemos enfrente y al lado de las elecciones que afrontamos el 29 de noviembre con un candidato marroquí en España."
+   "text": "Evidentemente, en una gran parte del diagnóstico estamos de acuerdo, probablemente no en las soluciones que son necesarias para reconstruir España. Pero bueno, pecata minuta al lado de lo que tenemos enfrente y al lado de las elecciones que afrontamos el 29 de noviembre con un candidato marroquí en España.",
+   "marks": [
+    [
+     0,
+     895.7
+    ],
+    [
+     86,
+     899.9
+    ],
+    [
+     148,
+     903.5
+    ],
+    [
+     167,
+     906.1
+    ],
+    [
+     222,
+     908.5
+    ],
+    [
+     297,
+     911.9
+    ]
+   ]
   },
   {
    "start": 914.57,
@@ -380,7 +1670,13 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "¿Cómo?"
+   "text": "¿Cómo?",
+   "marks": [
+    [
+     0,
+     914.6
+    ]
+   ]
   },
   {
    "start": 915.49,
@@ -388,7 +1684,13 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Lo había dicho antes, estaba usted despistada porque..."
+   "text": "Lo había dicho antes, estaba usted despistada porque...",
+   "marks": [
+    [
+     0,
+     915.5
+    ]
+   ]
   },
   {
    "start": 918.59,
@@ -396,7 +1698,25 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Pues sí, perdóneme. Sí, yo creo que Pedro Sánchez... ¿Usted cree que Pedro Sánchez es un candidato de Marruecos en nuestro país?"
+   "text": "Pues sí, perdóneme. Sí, yo creo que Pedro Sánchez... ¿Usted cree que Pedro Sánchez es un candidato de Marruecos en nuestro país?",
+   "marks": [
+    [
+     0,
+     918.6
+    ],
+    [
+     20,
+     919.4
+    ],
+    [
+     53,
+     920.5
+    ],
+    [
+     69,
+     921.0
+    ]
+   ]
   },
   {
    "start": 923.05,
@@ -404,7 +1724,45 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Es el candidato marroquí en España, la demostración es lo que ha ocurrido en Ceuta, la incapacidad de defender nuestra frontera, la incapacidad de devolver a todos los que han entrado ilegalmente en una invasión que forma parte de una guerra híbrida, la incapacidad de reprochar a Marruecos esa acción o esa inacción en un momento en el que los propios ministros marroquíes reclamaban Ceuta y Melilla como parte de Marruecos, la incapacidad de Sánchez para mostrar un mínimo de fortaleza ante Marruecos cuando era capaz de enfrentarse a Italia o muchos países de la Unión Europea o a Estados Unidos."
+   "text": "Es el candidato marroquí en España, la demostración es lo que ha ocurrido en Ceuta, la incapacidad de defender nuestra frontera, la incapacidad de devolver a todos los que han entrado ilegalmente en una invasión que forma parte de una guerra híbrida, la incapacidad de reprochar a Marruecos esa acción o esa inacción en un momento en el que los propios ministros marroquíes reclamaban Ceuta y Melilla como parte de Marruecos, la incapacidad de Sánchez para mostrar un mínimo de fortaleza ante Marruecos cuando era capaz de enfrentarse a Italia o muchos países de la Unión Europea o a Estados Unidos.",
+   "marks": [
+    [
+     0,
+     923.0
+    ],
+    [
+     65,
+     925.8
+    ],
+    [
+     147,
+     928.8
+    ],
+    [
+     216,
+     933.1
+    ],
+    [
+     291,
+     936.7
+    ],
+    [
+     345,
+     940.6
+    ],
+    [
+     429,
+     944.9
+    ],
+    [
+     510,
+     949.2
+    ],
+    [
+     572,
+     951.2
+    ]
+   ]
   },
   {
    "start": 960.55,
@@ -412,7 +1770,17 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "La necesidad de llevarse bien con un vecino siempre complicado del que dependemos en política migratoria y no solo migratoria, también en yihadismo."
+   "text": "La necesidad de llevarse bien con un vecino siempre complicado del que dependemos en política migratoria y no solo migratoria, también en yihadismo.",
+   "marks": [
+    [
+     0,
+     960.5
+    ],
+    [
+     71,
+     965.0
+    ]
+   ]
   },
   {
    "start": 968.23,
@@ -420,7 +1788,85 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "La necesidad de llevarse bien con un vecino complicado, pero un vecino se puede compartir pidiendo pocas cosas. En primer lugar, que no nos invadan. Yo pido poco y a partir de ahí podemos hablar. El problema es que Marruecos nos ha invadido, el problema es que Marruecos reclama parte de nuestro territorio. ¿Por qué Sánchez está haciendo eso? No lo sabemos, pero yo espero que lo sepamos en algún momento. Hace mucho tiempo que se habla de algún tipo de chantaje al gobierno de España a través de Pedro Sánchez por el pinchazo de sus teléfonos, pero hemos visto también la capacidad de Marruecos de influir en decisiones del Parlamento Europeo y como el lobby marroquí estaba presente, junto con el de otros países árabes, comprando a eurodiputados en el Parlamento Europeo. No sé cuál es el motivo, pero algún día lo sabremos."
+   "text": "La necesidad de llevarse bien con un vecino complicado, pero un vecino se puede compartir pidiendo pocas cosas. En primer lugar, que no nos invadan. Yo pido poco y a partir de ahí podemos hablar. El problema es que Marruecos nos ha invadido, el problema es que Marruecos reclama parte de nuestro territorio. ¿Por qué Sánchez está haciendo eso? No lo sabemos, pero yo espero que lo sepamos en algún momento. Hace mucho tiempo que se habla de algún tipo de chantaje al gobierno de España a través de Pedro Sánchez por el pinchazo de sus teléfonos, pero hemos visto también la capacidad de Marruecos de influir en decisiones del Parlamento Europeo y como el lobby marroquí estaba presente, junto con el de otros países árabes, comprando a eurodiputados en el Parlamento Europeo. No sé cuál es el motivo, pero algún día lo sabremos.",
+   "marks": [
+    [
+     0,
+     968.2
+    ],
+    [
+     71,
+     971.5
+    ],
+    [
+     112,
+     974.5
+    ],
+    [
+     140,
+     975.6
+    ],
+    [
+     149,
+     976.8
+    ],
+    [
+     196,
+     982.5
+    ],
+    [
+     199,
+     983.0
+    ],
+    [
+     271,
+     985.7
+    ],
+    [
+     308,
+     987.4
+    ],
+    [
+     344,
+     988.9
+    ],
+    [
+     347,
+     989.3
+    ],
+    [
+     407,
+     992.7
+    ],
+    [
+     412,
+     993.1
+    ],
+    [
+     476,
+     996.7
+    ],
+    [
+     535,
+     999.0
+    ],
+    [
+     611,
+     1003.0
+    ],
+    [
+     693,
+     1007.5
+    ],
+    [
+     767,
+     1011.4
+    ],
+    [
+     776,
+     1011.9
+    ]
+   ]
   },
   {
    "start": 1015.41,
@@ -428,7 +1874,37 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "¿Qué haría usted en Ceuta si le hubiese pillado ese ataque a la soberanía nacional? Porque el propio Pedro Sánchez reconoció eso de entrada, luego derivó y dijo que solo era una crisis migratoria. ¿Qué hubiese hecho? ¿Cuál hubiese sido su reacción?"
+   "text": "¿Qué haría usted en Ceuta si le hubiese pillado ese ataque a la soberanía nacional? Porque el propio Pedro Sánchez reconoció eso de entrada, luego derivó y dijo que solo era una crisis migratoria. ¿Qué hubiese hecho? ¿Cuál hubiese sido su reacción?",
+   "marks": [
+    [
+     0,
+     1015.4
+    ],
+    [
+     61,
+     1019.8
+    ],
+    [
+     84,
+     1020.8
+    ],
+    [
+     141,
+     1023.4
+    ],
+    [
+     197,
+     1026.3
+    ],
+    [
+     210,
+     1027.0
+    ],
+    [
+     217,
+     1027.4
+    ]
+   ]
   },
   {
    "start": 1029.45,
@@ -436,7 +1912,45 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Bueno, desde hace mucho tiempo lo contrario, porque cuando uno tiene noticias de lo que puede pasar, Defender las fronteras es bueno para todo, para nuestra integridad territorial y para la seguridad de las personas a las que se les impide entrar. Yo creo que es muy sencillo, pero el gobierno, y lo dijo Sánchez en sede parlamentaria, tomó la decisión de no defender la frontera y de dejar pasar a todos los que entraban por encima de nuestros policías, de nuestros guardias y por todas"
+   "text": "Bueno, desde hace mucho tiempo lo contrario, porque cuando uno tiene noticias de lo que puede pasar, Defender las fronteras es bueno para todo, para nuestra integridad territorial y para la seguridad de las personas a las que se les impide entrar. Yo creo que es muy sencillo, pero el gobierno, y lo dijo Sánchez en sede parlamentaria, tomó la decisión de no defender la frontera y de dejar pasar a todos los que entraban por encima de nuestros policías, de nuestros guardias y por todas",
+   "marks": [
+    [
+     0,
+     1029.5
+    ],
+    [
+     78,
+     1033.4
+    ],
+    [
+     144,
+     1066.3
+    ],
+    [
+     218,
+     1069.5
+    ],
+    [
+     248,
+     1071.0
+    ],
+    [
+     277,
+     1072.2
+    ],
+    [
+     344,
+     1075.3
+    ],
+    [
+     405,
+     1078.9
+    ],
+    [
+     478,
+     1082.7
+    ]
+   ]
   },
   {
    "start": 1083.03,
@@ -444,7 +1958,37 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "las líneas. El gobierno es que en el momento en el que baja los brazos la gendarmería marroquí, poco se puede hacer desde el lado español ¿Qué piensa el gobierno español? Porque si hubiesen evitado la entrada de cientos de personas, se calcula que hasta 72.000, posiblemente eso hubiese generado una tragedia mayor."
+   "text": "las líneas. El gobierno es que en el momento en el que baja los brazos la gendarmería marroquí, poco se puede hacer desde el lado español ¿Qué piensa el gobierno español? Porque si hubiesen evitado la entrada de cientos de personas, se calcula que hasta 72.000, posiblemente eso hubiese generado una tragedia mayor.",
+   "marks": [
+    [
+     0,
+     1083.0
+    ],
+    [
+     12,
+     1083.1
+    ],
+    [
+     55,
+     1084.6
+    ],
+    [
+     125,
+     1089.2
+    ],
+    [
+     171,
+     1089.8
+    ],
+    [
+     201,
+     1091.7
+    ],
+    [
+     275,
+     1096.3
+    ]
+   ]
   },
   {
    "start": 1098.69,
@@ -452,7 +1996,45 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "No, no estoy de acuerdo. Yo creo que nosotros tenemos medios militares, medios policiales y medios políticos para defender nuestra frontera y el gobierno, por la razón que todavía desconocemos, decidió que no se pudiese defender. Entender, yo creo que el gobierno vive como pez en el agua en todo tipo de crisis y de conflictos, tiene una gran capacidad para echar la culpa a los demás y por lo tanto nunca vamos a saber qué es lo que hay detrás de las intenciones de un gobierno como el que ha presidido Pedro Sánchez."
+   "text": "No, no estoy de acuerdo. Yo creo que nosotros tenemos medios militares, medios policiales y medios políticos para defender nuestra frontera y el gobierno, por la razón que todavía desconocemos, decidió que no se pudiese defender. Entender, yo creo que el gobierno vive como pez en el agua en todo tipo de crisis y de conflictos, tiene una gran capacidad para echar la culpa a los demás y por lo tanto nunca vamos a saber qué es lo que hay detrás de las intenciones de un gobierno como el que ha presidido Pedro Sánchez.",
+   "marks": [
+    [
+     0,
+     1098.7
+    ],
+    [
+     25,
+     1099.6
+    ],
+    [
+     72,
+     1102.1
+    ],
+    [
+     155,
+     1107.0
+    ],
+    [
+     230,
+     1111.0
+    ],
+    [
+     289,
+     1115.9
+    ],
+    [
+     354,
+     1119.2
+    ],
+    [
+     407,
+     1122.1
+    ],
+    [
+     465,
+     1124.8
+    ]
+   ]
   },
   {
    "start": 1126.29,
@@ -460,7 +2042,41 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Es muy difícil psicoanalizar a Pedro Sánchez, pero hay quien dice que le interesa cronificar la crisis de Ceuta porque eso da alas precisamente a su formación, a Vox. Vox, no sé si comparte esta lectura, lo que vemos es que hoy la playa del trampolín en principio va a ser desafiada, la de Benítez también, no sé si coincidiendo con la visita de los Reyes se quiere dejar por lo menos las playas expeditas, ¿no?"
+   "text": "Es muy difícil psicoanalizar a Pedro Sánchez, pero hay quien dice que le interesa cronificar la crisis de Ceuta porque eso da alas precisamente a su formación, a Vox. Vox, no sé si comparte esta lectura, lo que vemos es que hoy la playa del trampolín en principio va a ser desafiada, la de Benítez también, no sé si coincidiendo con la visita de los Reyes se quiere dejar por lo menos las playas expeditas, ¿no?",
+   "marks": [
+    [
+     0,
+     1126.3
+    ],
+    [
+     70,
+     1129.2
+    ],
+    [
+     144,
+     1133.8
+    ],
+    [
+     167,
+     1135.4
+    ],
+    [
+     204,
+     1138.0
+    ],
+    [
+     264,
+     1140.2
+    ],
+    [
+     329,
+     1146.0
+    ],
+    [
+     385,
+     1148.5
+    ]
+   ]
   },
   {
    "start": 1150.81,
@@ -468,7 +2084,17 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Bueno, esa teoría de la conspiración, de que Sánchez quiere engordar a Vox de alguna manera, pues yo creo que es..."
+   "text": "Bueno, esa teoría de la conspiración, de que Sánchez quiere engordar a Vox de alguna manera, pues yo creo que es...",
+   "marks": [
+    [
+     0,
+     1150.8
+    ],
+    [
+     71,
+     1155.6
+    ]
+   ]
   },
   {
    "start": 1157.57,
@@ -476,7 +2102,17 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Sí, para dividir a la derecha y para debilitar al PP una vez sabe que no va a poder ganar las elecciones."
+   "text": "Sí, para dividir a la derecha y para debilitar al PP una vez sabe que no va a poder ganar las elecciones.",
+   "marks": [
+    [
+     0,
+     1157.6
+    ],
+    [
+     57,
+     1160.0
+    ]
+   ]
   },
   {
    "start": 1161.35,
@@ -484,7 +2120,65 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Pero precisamente esas encuestas por las que me preguntan permanentemente lo que demuestran es que si hay alguna posibilidad, y esas encuestas se cumplen, de que Pedro Sánchez abandone el poder es precisamente gracias al crecimiento de Vox. El Partido Popular está en la misma posición en todas esas proyecciones que hace tres años y sin embargo Vox, según esas encuestas, tiene un crecimiento que es precisamente el que facilitaría que Pedro Sánchez no gane las elecciones y no pueda volver a sumar. Dicho lo cual, yo sigo desconfiando de esas encuestas y creo que los españoles que nos escuchan deben saber la importancia de ir a votar y además de ir a votar presencialmente. Yo les animo a que no voten por correo, les animo a que voten en la urna."
+   "text": "Pero precisamente esas encuestas por las que me preguntan permanentemente lo que demuestran es que si hay alguna posibilidad, y esas encuestas se cumplen, de que Pedro Sánchez abandone el poder es precisamente gracias al crecimiento de Vox. El Partido Popular está en la misma posición en todas esas proyecciones que hace tres años y sin embargo Vox, según esas encuestas, tiene un crecimiento que es precisamente el que facilitaría que Pedro Sánchez no gane las elecciones y no pueda volver a sumar. Dicho lo cual, yo sigo desconfiando de esas encuestas y creo que los españoles que nos escuchan deben saber la importancia de ir a votar y además de ir a votar presencialmente. Yo les animo a que no voten por correo, les animo a que voten en la urna.",
+   "marks": [
+    [
+     0,
+     1161.3
+    ],
+    [
+     81,
+     1164.9
+    ],
+    [
+     155,
+     1168.5
+    ],
+    [
+     233,
+     1172.0
+    ],
+    [
+     241,
+     1172.4
+    ],
+    [
+     295,
+     1175.0
+    ],
+    [
+     362,
+     1179.3
+    ],
+    [
+     443,
+     1183.6
+    ],
+    [
+     501,
+     1187.2
+    ],
+    [
+     507,
+     1187.5
+    ],
+    [
+     570,
+     1190.5
+    ],
+    [
+     638,
+     1193.3
+    ],
+    [
+     678,
+     1195.0
+    ],
+    [
+     697,
+     1196.1
+    ]
+   ]
   },
   {
    "start": 1198.67,
@@ -492,7 +2186,13 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "¿No se fía usted del voto por correo?"
+   "text": "¿No se fía usted del voto por correo?",
+   "marks": [
+    [
+     0,
+     1198.7
+    ]
+   ]
   },
   {
    "start": 1199.45,
@@ -500,7 +2200,37 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Yo en estos momentos no me fío absolutamente de nada que pueda hacer Pedro Sánchez, un señor que parece que va a convocar la Diputación Permanente para aprobar los decretos que el propio Congreso ha tumbado. Un señor que tiene a todo su entorno en la cárcel. Yo creo que Sánchez es capaz de cualquier cosa y por lo tanto mi responsabilidad Es decir, a los españoles que voten con seguridad."
+   "text": "Yo en estos momentos no me fío absolutamente de nada que pueda hacer Pedro Sánchez, un señor que parece que va a convocar la Diputación Permanente para aprobar los decretos que el propio Congreso ha tumbado. Un señor que tiene a todo su entorno en la cárcel. Yo creo que Sánchez es capaz de cualquier cosa y por lo tanto mi responsabilidad Es decir, a los españoles que voten con seguridad.",
+   "marks": [
+    [
+     0,
+     1199.5
+    ],
+    [
+     63,
+     1202.4
+    ],
+    [
+     125,
+     1204.5
+    ],
+    [
+     208,
+     1208.6
+    ],
+    [
+     259,
+     1210.8
+    ],
+    [
+     262,
+     1210.9
+    ],
+    [
+     321,
+     1213.1
+    ]
+   ]
   },
   {
    "start": 1217.75,
@@ -508,7 +2238,49 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Me hablaba usted de las elecciones de julio del 23. Efectivamente, las encuestas dibujaban un panorama que luego no se cumplió. Sánchez consiguió movilizar a un electorado de izquierdas que hasta entonces parecía que era abstencionista o lo había sido durante las elecciones municipales y autonómicas de mayo. Y parte de esa movilización tuvo que ver con usted, con Vox, con esos pactos de gobierno Y con algunos perfiles que le permitieron al Partido Socialista decir eso de que viene la ultraderecha, que viene la ultraderecha, el espantajo."
+   "text": "Me hablaba usted de las elecciones de julio del 23. Efectivamente, las encuestas dibujaban un panorama que luego no se cumplió. Sánchez consiguió movilizar a un electorado de izquierdas que hasta entonces parecía que era abstencionista o lo había sido durante las elecciones municipales y autonómicas de mayo. Y parte de esa movilización tuvo que ver con usted, con Vox, con esos pactos de gobierno Y con algunos perfiles que le permitieron al Partido Socialista decir eso de que viene la ultraderecha, que viene la ultraderecha, el espantajo.",
+   "marks": [
+    [
+     0,
+     1217.8
+    ],
+    [
+     52,
+     1220.5
+    ],
+    [
+     71,
+     1221.2
+    ],
+    [
+     128,
+     1224.0
+    ],
+    [
+     156,
+     1225.7
+    ],
+    [
+     236,
+     1232.2
+    ],
+    [
+     310,
+     1235.2
+    ],
+    [
+     371,
+     1238.2
+    ],
+    [
+     441,
+     1248.1
+    ],
+    [
+     513,
+     1251.4
+    ]
+   ]
   },
   {
    "start": 1253.33,
@@ -516,7 +2288,81 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Yo creo que a eso contribuyó no solo Pedro Sánchez, por supuesto, sino muchos medios de la derecha que contribuyeron a la demonización de Vox, Muchos medios supuestamente seguidos, escuchados, o leídos o vistos por votantes de la derecha que encontraron una demonización permanente de Vox, que yo creo que fue patrocinada por el Partido Popular también. Y además creo que el Partido Popular cometió un gran error en aquella elección que fue precisamente dar las elecciones por ganadas. Ya empezaron a hablar de pactos de Estado posteriores a las elecciones, se los ofrecieron en el debate electoral el señor Feijóo a Pedro Sánchez Sánchez y ya estaban prácticamente repartiéndose los ministerios. Eso también llevó a la desmovilización probablemente de una parte de la derecha, que en el mes de julio quizá no acudió a votar y se quedó tranquilamente en las playas porque fue confundida por sus propios líderes. Y yo creo que eso hay que señalarlo también."
+   "text": "Yo creo que a eso contribuyó no solo Pedro Sánchez, por supuesto, sino muchos medios de la derecha que contribuyeron a la demonización de Vox, Muchos medios supuestamente seguidos, escuchados, o leídos o vistos por votantes de la derecha que encontraron una demonización permanente de Vox, que yo creo que fue patrocinada por el Partido Popular también. Y además creo que el Partido Popular cometió un gran error en aquella elección que fue precisamente dar las elecciones por ganadas. Ya empezaron a hablar de pactos de Estado posteriores a las elecciones, se los ofrecieron en el debate electoral el señor Feijóo a Pedro Sánchez Sánchez y ya estaban prácticamente repartiéndose los ministerios. Eso también llevó a la desmovilización probablemente de una parte de la derecha, que en el mes de julio quizá no acudió a votar y se quedó tranquilamente en las playas porque fue confundida por sus propios líderes. Y yo creo que eso hay que señalarlo también.",
+   "marks": [
+    [
+     0,
+     1253.3
+    ],
+    [
+     66,
+     1257.2
+    ],
+    [
+     138,
+     1260.9
+    ],
+    [
+     224,
+     1267.9
+    ],
+    [
+     297,
+     1272.4
+    ],
+    [
+     354,
+     1275.1
+    ],
+    [
+     368,
+     1275.8
+    ],
+    [
+     437,
+     1278.1
+    ],
+    [
+     486,
+     1280.3
+    ],
+    [
+     511,
+     1281.3
+    ],
+    [
+     582,
+     1284.7
+    ],
+    [
+     652,
+     1289.6
+    ],
+    [
+     697,
+     1291.3
+    ],
+    [
+     753,
+     1293.4
+    ],
+    [
+     807,
+     1295.8
+    ],
+    [
+     872,
+     1298.8
+    ],
+    [
+     912,
+     1300.5
+    ],
+    [
+     934,
+     1301.2
+    ]
+   ]
   },
   {
    "start": 1302.13,
@@ -524,7 +2370,17 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Le quiero preguntar enseguida por Mare Carmen, que por cierto comparte con usted apellido, Mare Carmen Abascal."
+   "text": "Le quiero preguntar enseguida por Mare Carmen, que por cierto comparte con usted apellido, Mare Carmen Abascal.",
+   "marks": [
+    [
+     0,
+     1302.1
+    ],
+    [
+     75,
+     1305.4
+    ]
+   ]
   },
   {
    "start": 1307.33,
@@ -532,7 +2388,17 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Eso he visto, sí, sí. En"
+   "text": "Eso he visto, sí, sí. En",
+   "marks": [
+    [
+     0,
+     1307.3
+    ],
+    [
+     22,
+     1308.0
+    ]
+   ]
   },
   {
    "start": 1308.41,
@@ -540,7 +2406,13 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "40 segundos."
+   "text": "40 segundos.",
+   "marks": [
+    [
+     0,
+     1308.4
+    ]
+   ]
   },
   {
    "start": 1309.35,
@@ -548,7 +2420,13 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Fenomenal."
+   "text": "Fenomenal.",
+   "marks": [
+    [
+     0,
+     1309.3
+    ]
+   ]
   },
   {
    "start": 1315.7,
@@ -556,7 +2434,25 @@
    "label": "SPEAKER_03",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "¿Sabes que en 1843 se encendieron las primeras farolas de Barcelona? En Barcelona, llevamos más de 180 años trabajando para hacerte la vida más fácil cada día."
+   "text": "¿Sabes que en 1843 se encendieron las primeras farolas de Barcelona? En Barcelona, llevamos más de 180 años trabajando para hacerte la vida más fácil cada día.",
+   "marks": [
+    [
+     0,
+     1315.7
+    ],
+    [
+     69,
+     1319.8
+    ],
+    [
+     72,
+     1320.0
+    ],
+    [
+     144,
+     1333.5
+    ]
+   ]
   },
   {
    "start": 1336.92,
@@ -564,7 +2460,33 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "De aprovechar la fuerza del agua para generar energía, a aprovechar los residuos orgánicos de vacas como esta para generar gas verde. Más de 180 años buscando otras energías más sostenibles cada día. Naturgy, cada día, every day."
+   "text": "De aprovechar la fuerza del agua para generar energía, a aprovechar los residuos orgánicos de vacas como esta para generar gas verde. Más de 180 años buscando otras energías más sostenibles cada día. Naturgy, cada día, every day.",
+   "marks": [
+    [
+     0,
+     1336.9
+    ],
+    [
+     72,
+     1342.8
+    ],
+    [
+     134,
+     1347.2
+    ],
+    [
+     141,
+     1347.7
+    ],
+    [
+     200,
+     1353.1
+    ],
+    [
+     219,
+     1354.5
+    ]
+   ]
   },
   {
    "start": 1365.8,
@@ -572,7 +2494,25 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Ya es casualidad, decíamos que Mari Carmen, la bandera de las movilizaciones sobre la vivienda, y que de alguna manera ha sido el detonante de este adelanto electoral, se pide igual que usted, no son familia que sepamos, ¿no?"
+   "text": "Ya es casualidad, decíamos que Mari Carmen, la bandera de las movilizaciones sobre la vivienda, y que de alguna manera ha sido el detonante de este adelanto electoral, se pide igual que usted, no son familia que sepamos, ¿no?",
+   "marks": [
+    [
+     0,
+     1365.8
+    ],
+    [
+     77,
+     1369.6
+    ],
+    [
+     140,
+     1373.9
+    ],
+    [
+     208,
+     1377.6
+    ]
+   ]
   },
   {
    "start": 1379.68,
@@ -580,7 +2520,33 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Bueno, no que yo sepa, pero bueno, no sé si es casualidad o no, porque de hecho le llamaron Paquita. Cuando se dirigían a ella, uno de esos actores dedicados a la política le llamó Paquita y le corrigieron y dijeron, no, es Mari Carmen. Carlos"
+   "text": "Bueno, no que yo sepa, pero bueno, no sé si es casualidad o no, porque de hecho le llamaron Paquita. Cuando se dirigían a ella, uno de esos actores dedicados a la política le llamó Paquita y le corrigieron y dijeron, no, es Mari Carmen. Carlos",
+   "marks": [
+    [
+     0,
+     1379.7
+    ],
+    [
+     58,
+     1382.7
+    ],
+    [
+     101,
+     1386.0
+    ],
+    [
+     122,
+     1387.2
+    ],
+    [
+     189,
+     1390.9
+    ],
+    [
+     237,
+     1392.3
+    ]
+   ]
   },
   {
    "start": 1392.44,
@@ -588,7 +2554,13 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Bardem, ¿no?"
+   "text": "Bardem, ¿no?",
+   "marks": [
+    [
+     0,
+     1392.4
+    ]
+   ]
   },
   {
    "start": 1393.0,
@@ -596,7 +2568,41 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Sí, pero luego resulta que también había una paquita, que era la segunda. Es decir, había una lista ya preparada de maricarmenes, paquitas y personas elegidas por quienes querían organizar este lío. ¿Y por qué querían organizar este lío? Cuando en España hay desde hace mucho tiempo 90 desahucios diarios."
+   "text": "Sí, pero luego resulta que también había una paquita, que era la segunda. Es decir, había una lista ya preparada de maricarmenes, paquitas y personas elegidas por quienes querían organizar este lío. ¿Y por qué querían organizar este lío? Cuando en España hay desde hace mucho tiempo 90 desahucios diarios.",
+   "marks": [
+    [
+     0,
+     1393.0
+    ],
+    [
+     65,
+     1395.9
+    ],
+    [
+     74,
+     1396.2
+    ],
+    [
+     141,
+     1400.5
+    ],
+    [
+     199,
+     1404.4
+    ],
+    [
+     218,
+     1404.9
+    ],
+    [
+     238,
+     1405.9
+    ],
+    [
+     286,
+     1408.7
+    ]
+   ]
   },
   {
    "start": 1410.16,
@@ -604,7 +2610,17 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "24.000 al año. Claro."
+   "text": "24.000 al año. Claro.",
+   "marks": [
+    [
+     0,
+     1410.2
+    ],
+    [
+     15,
+     1411.3
+    ]
+   ]
   },
   {
    "start": 1411.56,
@@ -612,7 +2628,21 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "¿Por qué querían hacerlo? Porque en España, y concretamente en Ceuta, hay 80.000 españoles amenazados de desahucio."
+   "text": "¿Por qué querían hacerlo? Porque en España, y concretamente en Ceuta, hay 80.000 españoles amenazados de desahucio.",
+   "marks": [
+    [
+     0,
+     1411.6
+    ],
+    [
+     26,
+     1412.6
+    ],
+    [
+     74,
+     1415.4
+    ]
+   ]
   },
   {
    "start": 1417.64,
@@ -620,7 +2650,21 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Me está diciendo que se eligió Mari Carmen con la intención de crear una cortina de humo para que no se hablase de Ceuta y poner el foco en la vivienda."
+   "text": "Me está diciendo que se eligió Mari Carmen con la intención de crear una cortina de humo para que no se hablase de Ceuta y poner el foco en la vivienda.",
+   "marks": [
+    [
+     0,
+     1417.6
+    ],
+    [
+     63,
+     1420.1
+    ],
+    [
+     121,
+     1422.3
+    ]
+   ]
   },
   {
    "start": 1424.18,
@@ -628,7 +2672,41 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Mari Carmen y todas las que han ido eligiendo, todo ha sido algo absolutamente diseñado, algo orgánico de movimientos de izquierda y de extrema izquierda, incluso los que hoy están de manera ilegal en Sol, incomodando a los viandantes, a los turistas, a los comerciantes, y está siendo permitido tanto por la delegación del gobierno, por el ayuntamiento, que no está moviendo un dedo para recuperar la normalidad y para recuperar el espacio público para todos los madrileños. La competencia de"
+   "text": "Mari Carmen y todas las que han ido eligiendo, todo ha sido algo absolutamente diseñado, algo orgánico de movimientos de izquierda y de extrema izquierda, incluso los que hoy están de manera ilegal en Sol, incomodando a los viandantes, a los turistas, a los comerciantes, y está siendo permitido tanto por la delegación del gobierno, por el ayuntamiento, que no está moviendo un dedo para recuperar la normalidad y para recuperar el espacio público para todos los madrileños. La competencia de",
+   "marks": [
+    [
+     0,
+     1424.2
+    ],
+    [
+     60,
+     1425.9
+    ],
+    [
+     144,
+     1431.1
+    ],
+    [
+     218,
+     1435.2
+    ],
+    [
+     286,
+     1439.4
+    ],
+    [
+     362,
+     1442.0
+    ],
+    [
+     433,
+     1445.2
+    ],
+    [
+     476,
+     1446.8
+    ]
+   ]
   },
   {
    "start": 1446.76,
@@ -636,7 +2714,17 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "la Policía Municipal, ¿no? Lo digo por el Ayuntamiento."
+   "text": "la Policía Municipal, ¿no? Lo digo por el Ayuntamiento.",
+   "marks": [
+    [
+     0,
+     1446.8
+    ],
+    [
+     27,
+     1447.8
+    ]
+   ]
   },
   {
    "start": 1448.84,
@@ -644,7 +2732,25 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Bueno, yo creo que la ocupación del espacio público sí es competencia de los ayuntamientos, pero yo creo que hay competencias compartidas en este caso, tanto del Ayuntamiento como de la delegación del Gobierno, y yo espero que hagan algo pronto."
+   "text": "Bueno, yo creo que la ocupación del espacio público sí es competencia de los ayuntamientos, pero yo creo que hay competencias compartidas en este caso, tanto del Ayuntamiento como de la delegación del Gobierno, y yo espero que hagan algo pronto.",
+   "marks": [
+    [
+     0,
+     1448.8
+    ],
+    [
+     70,
+     1452.5
+    ],
+    [
+     146,
+     1455.3
+    ],
+    [
+     216,
+     1458.6
+    ]
+   ]
   },
   {
    "start": 1460.34,
@@ -652,7 +2758,33 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Me dice que se ha elegido Mari Carmen como se podía haber elegido Paquita para, digamos, crear el marco, poner el foco y que estemos hablando de la vivienda y no de Ceuta, pero ¿reconocerá que tenemos un problema gravísimo con la vivienda? Es decir, que no es un problema prefabricado."
+   "text": "Me dice que se ha elegido Mari Carmen como se podía haber elegido Paquita para, digamos, crear el marco, poner el foco y que estemos hablando de la vivienda y no de Ceuta, pero ¿reconocerá que tenemos un problema gravísimo con la vivienda? Es decir, que no es un problema prefabricado.",
+   "marks": [
+    [
+     0,
+     1460.3
+    ],
+    [
+     58,
+     1462.5
+    ],
+    [
+     125,
+     1466.7
+    ],
+    [
+     193,
+     1470.5
+    ],
+    [
+     240,
+     1472.5
+    ],
+    [
+     260,
+     1473.2
+    ]
+   ]
   },
   {
    "start": 1475.22,
@@ -660,7 +2792,125 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "No solo lo reconozco, sino que precisamente nosotros llevamos dos años hablando de nuestro programa de vivienda. Tuvieron el otro día aquí la posibilidad de entrevistar a nuestro portavoz en materia de vivienda, Carlos Hernández Quero. Y nosotros tenemos unas posiciones muy claras en materia de vivienda. Y hablamos de la realidad, hablamos a los españoles como adultos. Hay una ley de la oferta y de la demanda y lo que no puede ocurrir en España es que entren en cinco años cinco millones de personas y que a la vez solo se construyan 400.000 viviendas en todo ese tiempo, porque lo que va a ocurrir es que la vivienda se va a encarecer. Lo que no podemos asumir es unos decretos que lo que van a hacer es que muchos propietarios saquen las viviendas inmediatamente de Idealista o de las plataformas en las que van a alquilarlo porque tienen miedo a las decisiones que va a tomar el gobierno y eso a quién perjudica, pues a los más vulnerables, a los que no van a poder alquilar. A nosotros no solo nos preocupan los desahuciados, los que pierden su casa, los 24.000 al año, Nos preocupan también los millones que no pueden acceder a una vivienda en estos momentos, especialmente los jóvenes. Y eso es muy difícil de resolver y no se puede resolver de un plumazo. Pero desde luego las políticas de este gobierno lo que han hecho y van a seguir haciendo si continúan es encarecer tanto la vivienda como el alquiler."
+   "text": "No solo lo reconozco, sino que precisamente nosotros llevamos dos años hablando de nuestro programa de vivienda. Tuvieron el otro día aquí la posibilidad de entrevistar a nuestro portavoz en materia de vivienda, Carlos Hernández Quero. Y nosotros tenemos unas posiciones muy claras en materia de vivienda. Y hablamos de la realidad, hablamos a los españoles como adultos. Hay una ley de la oferta y de la demanda y lo que no puede ocurrir en España es que entren en cinco años cinco millones de personas y que a la vez solo se construyan 400.000 viviendas en todo ese tiempo, porque lo que va a ocurrir es que la vivienda se va a encarecer. Lo que no podemos asumir es unos decretos que lo que van a hacer es que muchos propietarios saquen las viviendas inmediatamente de Idealista o de las plataformas en las que van a alquilarlo porque tienen miedo a las decisiones que va a tomar el gobierno y eso a quién perjudica, pues a los más vulnerables, a los que no van a poder alquilar. A nosotros no solo nos preocupan los desahuciados, los que pierden su casa, los 24.000 al año, Nos preocupan también los millones que no pueden acceder a una vivienda en estos momentos, especialmente los jóvenes. Y eso es muy difícil de resolver y no se puede resolver de un plumazo. Pero desde luego las políticas de este gobierno lo que han hecho y van a seguir haciendo si continúan es encarecer tanto la vivienda como el alquiler.",
+   "marks": [
+    [
+     0,
+     1475.2
+    ],
+    [
+     80,
+     1479.3
+    ],
+    [
+     113,
+     1480.6
+    ],
+    [
+     154,
+     1482.3
+    ],
+    [
+     236,
+     1487.1
+    ],
+    [
+     306,
+     1490.2
+    ],
+    [
+     308,
+     1490.6
+    ],
+    [
+     372,
+     1493.8
+    ],
+    [
+     380,
+     1494.4
+    ],
+    [
+     425,
+     1497.1
+    ],
+    [
+     492,
+     1501.2
+    ],
+    [
+     546,
+     1504.6
+    ],
+    [
+     606,
+     1507.0
+    ],
+    [
+     641,
+     1508.3
+    ],
+    [
+     666,
+     1509.3
+    ],
+    [
+     720,
+     1511.7
+    ],
+    [
+     806,
+     1516.0
+    ],
+    [
+     872,
+     1519.1
+    ],
+    [
+     927,
+     1521.7
+    ],
+    [
+     983,
+     1524.0
+    ],
+    [
+     985,
+     1524.1
+    ],
+    [
+     1059,
+     1527.7
+    ],
+    [
+     1120,
+     1531.6
+    ],
+    [
+     1196,
+     1534.2
+    ],
+    [
+     1198,
+     1534.6
+    ],
+    [
+     1255,
+     1538.2
+    ],
+    [
+     1267,
+     1538.7
+    ],
+    [
+     1322,
+     1540.8
+    ],
+    [
+     1388,
+     1544.9
+    ]
+   ]
   },
   {
    "start": 1546.5,
@@ -668,7 +2918,41 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Pero fíjese que pone usted el foco en la inmigración y es verdad, dado la población de este país, ahora somos 47 millones, 5 millones más desde que gobierna Pedro Sánchez. El caso es que si queremos que se construya vivienda necesitamos esa mano de obra. Otra cosa es que este gobierno esté construyendo menos vivienda pública que cualquier otro y que efectivamente haya fallado en esta asignatura."
+   "text": "Pero fíjese que pone usted el foco en la inmigración y es verdad, dado la población de este país, ahora somos 47 millones, 5 millones más desde que gobierna Pedro Sánchez. El caso es que si queremos que se construya vivienda necesitamos esa mano de obra. Otra cosa es que este gobierno esté construyendo menos vivienda pública que cualquier otro y que efectivamente haya fallado en esta asignatura.",
+   "marks": [
+    [
+     0,
+     1546.5
+    ],
+    [
+     58,
+     1548.8
+    ],
+    [
+     125,
+     1553.0
+    ],
+    [
+     172,
+     1554.8
+    ],
+    [
+     190,
+     1557.0
+    ],
+    [
+     255,
+     1560.9
+    ],
+    [
+     265,
+     1561.7
+    ],
+    [
+     346,
+     1565.5
+    ]
+   ]
   },
   {
    "start": 1568.56,
@@ -676,7 +2960,49 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Yo creo que de estas políticas de vivienda y de estas políticas de inmigración masiva hay dos grupos principalmente convertidos en víctimas. Los españoles, muy especialmente los españoles vulnerables y también los inmigrantes legales que han venido legalmente pidiendo permiso, Ángeles Vienen a trabajar, bueno, sí, unos vienen a trabajar, otros no. Yo creo que en esto hay que ser muy preciso. Hay un 15% de españoles en paro, pero hay un 15% de inmigrantes legales en paro."
+   "text": "Yo creo que de estas políticas de vivienda y de estas políticas de inmigración masiva hay dos grupos principalmente convertidos en víctimas. Los españoles, muy especialmente los españoles vulnerables y también los inmigrantes legales que han venido legalmente pidiendo permiso, Ángeles Vienen a trabajar, bueno, sí, unos vienen a trabajar, otros no. Yo creo que en esto hay que ser muy preciso. Hay un 15% de españoles en paro, pero hay un 15% de inmigrantes legales en paro.",
+   "marks": [
+    [
+     0,
+     1568.6
+    ],
+    [
+     64,
+     1570.8
+    ],
+    [
+     141,
+     1576.1
+    ],
+    [
+     156,
+     1576.9
+    ],
+    [
+     242,
+     1581.9
+    ],
+    [
+     328,
+     1615.5
+    ],
+    [
+     350,
+     1617.1
+    ],
+    [
+     382,
+     1618.0
+    ],
+    [
+     395,
+     1620.0
+    ],
+    [
+     437,
+     1621.8
+    ]
+   ]
   },
   {
    "start": 1624.96,
@@ -684,7 +3010,21 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "¿Se replanteará Vox la famosa paguita, es decir, el ingreso mínimo vital, de tal manera que, por ejemplo, su cobro vaya asociado a la búsqueda activa de trabajo?"
+   "text": "¿Se replanteará Vox la famosa paguita, es decir, el ingreso mínimo vital, de tal manera que, por ejemplo, su cobro vaya asociado a la búsqueda activa de trabajo?",
+   "marks": [
+    [
+     0,
+     1625.0
+    ],
+    [
+     74,
+     1628.4
+    ],
+    [
+     134,
+     1631.3
+    ]
+   ]
   },
   {
    "start": 1632.62,
@@ -692,7 +3032,37 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Bueno, yo creo que todo hay que replantearlo con este gobierno, absolutamente todo. Y hay que conocer bien los datos, porque nosotros estamos en la oposición y no confiamos en los datos que ofrece el gobierno. Cuando lleguemos tendremos que comprobar exactamente esas circunstancias, levantar las alfombras, ver cuáles son los números del país, pero si llegamos, porque yo insisto, no podemos ponernos en esa tesitura."
+   "text": "Bueno, yo creo que todo hay que replantearlo con este gobierno, absolutamente todo. Y hay que conocer bien los datos, porque nosotros estamos en la oposición y no confiamos en los datos que ofrece el gobierno. Cuando lleguemos tendremos que comprobar exactamente esas circunstancias, levantar las alfombras, ver cuáles son los números del país, pero si llegamos, porque yo insisto, no podemos ponernos en esa tesitura.",
+   "marks": [
+    [
+     0,
+     1632.6
+    ],
+    [
+     78,
+     1635.5
+    ],
+    [
+     84,
+     1636.0
+    ],
+    [
+     145,
+     1638.2
+    ],
+    [
+     210,
+     1640.8
+    ],
+    [
+     312,
+     1645.8
+    ],
+    [
+     382,
+     1649.7
+    ]
+   ]
   },
   {
    "start": 1651.94,
@@ -700,7 +3070,49 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "En esta desconfianza que está usted pidiendo a los españoles que vayan a votar, que no lo hagan por correo, ustedes han llevado al Supremo la ley de nietos, que de momento está paralizada cautelarmente a la espera de ver qué pasa con esas nacionalizaciones por parte de ciudadanos, sobre todo de Iberoamérica. ¿Qué va a ocurrir ahora, una vez se convocan elecciones el 29 de noviembre? ¿Cómo afecta eso? ¿Qué pasa con el censo?"
+   "text": "En esta desconfianza que está usted pidiendo a los españoles que vayan a votar, que no lo hagan por correo, ustedes han llevado al Supremo la ley de nietos, que de momento está paralizada cautelarmente a la espera de ver qué pasa con esas nacionalizaciones por parte de ciudadanos, sobre todo de Iberoamérica. ¿Qué va a ocurrir ahora, una vez se convocan elecciones el 29 de noviembre? ¿Cómo afecta eso? ¿Qué pasa con el censo?",
+   "marks": [
+    [
+     0,
+     1651.9
+    ],
+    [
+     71,
+     1654.3
+    ],
+    [
+     131,
+     1658.8
+    ],
+    [
+     204,
+     1664.6
+    ],
+    [
+     270,
+     1670.1
+    ],
+    [
+     310,
+     1672.7
+    ],
+    [
+     343,
+     1674.2
+    ],
+    [
+     386,
+     1677.4
+    ],
+    [
+     404,
+     1678.3
+    ],
+    [
+     414,
+     1679.8
+    ]
+   ]
   },
   {
    "start": 1711.46,
@@ -708,7 +3120,57 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "¿Quién iba a hacer eso en Cuba? ¿Quién iba a hacerlo en Venezuela? Los socios de Sánchez. ¿Quién iba a hacerlo en Brasil? El socio de Sánchez. ¿Quién iba a hacerlo en México? El socio de Sánchez. Eso también está cambiando porque parece que en Brasil se han celebrado elecciones y va a haber un cambio pronto."
+   "text": "¿Quién iba a hacer eso en Cuba? ¿Quién iba a hacerlo en Venezuela? Los socios de Sánchez. ¿Quién iba a hacerlo en Brasil? El socio de Sánchez. ¿Quién iba a hacerlo en México? El socio de Sánchez. Eso también está cambiando porque parece que en Brasil se han celebrado elecciones y va a haber un cambio pronto.",
+   "marks": [
+    [
+     0,
+     1711.5
+    ],
+    [
+     32,
+     1712.6
+    ],
+    [
+     56,
+     1713.2
+    ],
+    [
+     67,
+     1713.7
+    ],
+    [
+     90,
+     1714.8
+    ],
+    [
+     122,
+     1716.1
+    ],
+    [
+     125,
+     1716.5
+    ],
+    [
+     143,
+     1717.2
+    ],
+    [
+     175,
+     1718.2
+    ],
+    [
+     187,
+     1718.7
+    ],
+    [
+     196,
+     1719.2
+    ],
+    [
+     258,
+     1722.1
+    ]
+   ]
   },
   {
    "start": 1723.12,
@@ -716,7 +3178,13 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "La primera vuelta ha ganado el hijo"
+   "text": "La primera vuelta ha ganado el hijo",
+   "marks": [
+    [
+     0,
+     1723.1
+    ]
+   ]
   },
   {
    "start": 1724.06,
@@ -724,7 +3192,13 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "de"
+   "text": "de",
+   "marks": [
+    [
+     0,
+     1724.1
+    ]
+   ]
   },
   {
    "start": 1724.06,
@@ -732,7 +3206,25 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Bolsonaro, veremos qué pasa dentro de 25 días en la segunda vuelta. ¿Qué tal se lleva usted ahora con Feijóo? ¿Cómo está la relación? Porque ha tenido sus más y sus menos, ¿no?"
+   "text": "Bolsonaro, veremos qué pasa dentro de 25 días en la segunda vuelta. ¿Qué tal se lleva usted ahora con Feijóo? ¿Cómo está la relación? Porque ha tenido sus más y sus menos, ¿no?",
+   "marks": [
+    [
+     0,
+     1724.1
+    ],
+    [
+     68,
+     1727.3
+    ],
+    [
+     110,
+     1729.1
+    ],
+    [
+     134,
+     1729.9
+    ]
+   ]
   },
   {
    "start": 1732.3,
@@ -740,7 +3232,17 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Yo voy a contestar esta pregunta, pero es un poco como del corazón."
+   "text": "Yo voy a contestar esta pregunta, pero es un poco como del corazón.",
+   "marks": [
+    [
+     0,
+     1732.3
+    ],
+    [
+     59,
+     1736.2
+    ]
+   ]
   },
   {
    "start": 1736.48,
@@ -748,7 +3250,21 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "No, no, no, perdónenme, no es del corazón, porque ustedes en el pasado se han lanzado muchos dardos y eso ha imposibilitado algún acuerdo, ahora se supone que están mejor."
+   "text": "No, no, no, perdónenme, no es del corazón, porque ustedes en el pasado se han lanzado muchos dardos y eso ha imposibilitado algún acuerdo, ahora se supone que están mejor.",
+   "marks": [
+    [
+     0,
+     1736.5
+    ],
+    [
+     64,
+     1739.4
+    ],
+    [
+     139,
+     1742.5
+    ]
+   ]
   },
   {
    "start": 1743.78,
@@ -756,7 +3272,29 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Nunca han sido personales, son dardos políticos, el señor Feijóo y yo tenemos una relación cordial, una relación de adultos, yo creo que ambos sabemos que España necesita un cambio radical en estos momentos, pero tenemos posiciones distintas, nos respetamos, hablamos con normalidad y nuestros partidos gobiernan en cuatro regiones."
+   "text": "Nunca han sido personales, son dardos políticos, el señor Feijóo y yo tenemos una relación cordial, una relación de adultos, yo creo que ambos sabemos que España necesita un cambio radical en estos momentos, pero tenemos posiciones distintas, nos respetamos, hablamos con normalidad y nuestros partidos gobiernan en cuatro regiones.",
+   "marks": [
+    [
+     0,
+     1743.8
+    ],
+    [
+     70,
+     1747.8
+    ],
+    [
+     143,
+     1750.6
+    ],
+    [
+     221,
+     1755.1
+    ],
+    [
+     316,
+     1761.9
+    ]
+   ]
   },
   {
    "start": 1763.4,
@@ -764,7 +3302,17 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "¿Qué os habéis llamado esta mañana? Bueno, yo la"
+   "text": "¿Qué os habéis llamado esta mañana? Bueno, yo la",
+   "marks": [
+    [
+     0,
+     1763.4
+    ],
+    [
+     36,
+     1764.6
+    ]
+   ]
   },
   {
    "start": 1766.08,
@@ -772,7 +3320,77 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "verdad que estas cosas no las cuento. Pero gobernamos en cuatro regiones. Sí, ¿no? Bueno, que lo interprete cada uno como quiera. ¿Un mensaje? Yo soy muy prudente con las conversaciones privadas que mantengo con la gente, entonces no digo cuando hablo que hablo exactamente. Creo que debe ser así, que así se construyen las relaciones de confianza como las que estamos intentando construir en cuatro regiones. Hemos demostrado los españoles que nos podemos poner de acuerdo. Es verdad que las cosas que se están haciendo en esos lugares están muy lejos de las que a nosotros nos gustaría, pero ahora llegamos a un buen momento para que los españoles, si quieren más de Vox, nos den un mayor respaldo y se podrán hacer más cosas y cambiar cosas con más contundencia."
+   "text": "verdad que estas cosas no las cuento. Pero gobernamos en cuatro regiones. Sí, ¿no? Bueno, que lo interprete cada uno como quiera. ¿Un mensaje? Yo soy muy prudente con las conversaciones privadas que mantengo con la gente, entonces no digo cuando hablo que hablo exactamente. Creo que debe ser así, que así se construyen las relaciones de confianza como las que estamos intentando construir en cuatro regiones. Hemos demostrado los españoles que nos podemos poner de acuerdo. Es verdad que las cosas que se están haciendo en esos lugares están muy lejos de las que a nosotros nos gustaría, pero ahora llegamos a un buen momento para que los españoles, si quieren más de Vox, nos den un mayor respaldo y se podrán hacer más cosas y cambiar cosas con más contundencia.",
+   "marks": [
+    [
+     0,
+     1766.1
+    ],
+    [
+     38,
+     1769.6
+    ],
+    [
+     74,
+     1771.2
+    ],
+    [
+     83,
+     1772.1
+    ],
+    [
+     130,
+     1775.3
+    ],
+    [
+     143,
+     1776.3
+    ],
+    [
+     215,
+     1782.2
+    ],
+    [
+     275,
+     1784.6
+    ],
+    [
+     289,
+     1785.8
+    ],
+    [
+     357,
+     1788.7
+    ],
+    [
+     410,
+     1791.5
+    ],
+    [
+     445,
+     1792.7
+    ],
+    [
+     475,
+     1794.2
+    ],
+    [
+     506,
+     1795.2
+    ],
+    [
+     566,
+     1797.6
+    ],
+    [
+     636,
+     1800.7
+    ],
+    [
+     700,
+     1804.4
+    ]
+   ]
   },
   {
    "start": 1807.56,
@@ -780,7 +3398,37 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Una de las preguntas que se supone que está haciendo Delzano este fin de semana en el CIS Express es, del 0 al 10, si el 0 sería la extrema izquierda y el 10 sería la extrema derecha, ¿dónde se ubica usted? ¿Dónde se posiciona? ¿Dónde se ubica Santiago Abascal?"
+   "text": "Una de las preguntas que se supone que está haciendo Delzano este fin de semana en el CIS Express es, del 0 al 10, si el 0 sería la extrema izquierda y el 10 sería la extrema derecha, ¿dónde se ubica usted? ¿Dónde se posiciona? ¿Dónde se ubica Santiago Abascal?",
+   "marks": [
+    [
+     0,
+     1807.6
+    ],
+    [
+     66,
+     1809.7
+    ],
+    [
+     115,
+     1814.4
+    ],
+    [
+     167,
+     1817.0
+    ],
+    [
+     207,
+     1819.0
+    ],
+    [
+     228,
+     1820.0
+    ],
+    [
+     244,
+     1820.6
+    ]
+   ]
   },
   {
    "start": 1822.06,
@@ -788,7 +3436,89 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Hace mucho tiempo, yo creo que lo he contado aquí, yo no me identifico con esos planteamientos. La gente no va por la calle diciendo, soy de derecha, soy de izquierda, hay gente que lo dice. O soy conservador, soy liberal, soy socialdemócrata. La mayor parte de la gente responde a posiciones concretas. Es decir, defiende su libertad, la democracia, la unidad de su nación, las fronteras, la seguridad en las calles. Yo defiendo todo eso. Yo no me estoy dirigiendo a la derecha. No me estoy dirigiendo al centro. Me estoy dirigiendo a todos los españoles. Muchos de los que nos votan votaron a la izquierda en su momento. Creo que esas categorías son categorías viejas. Es evidente que yo no dejo de decir esto por ningún tipo de complejo, porque digo cosas muy contundentes."
+   "text": "Hace mucho tiempo, yo creo que lo he contado aquí, yo no me identifico con esos planteamientos. La gente no va por la calle diciendo, soy de derecha, soy de izquierda, hay gente que lo dice. O soy conservador, soy liberal, soy socialdemócrata. La mayor parte de la gente responde a posiciones concretas. Es decir, defiende su libertad, la democracia, la unidad de su nación, las fronteras, la seguridad en las calles. Yo defiendo todo eso. Yo no me estoy dirigiendo a la derecha. No me estoy dirigiendo al centro. Me estoy dirigiendo a todos los españoles. Muchos de los que nos votan votaron a la izquierda en su momento. Creo que esas categorías son categorías viejas. Es evidente que yo no dejo de decir esto por ningún tipo de complejo, porque digo cosas muy contundentes.",
+   "marks": [
+    [
+     0,
+     1822.1
+    ],
+    [
+     57,
+     1824.7
+    ],
+    [
+     96,
+     1826.9
+    ],
+    [
+     124,
+     1828.2
+    ],
+    [
+     191,
+     1832.0
+    ],
+    [
+     244,
+     1834.8
+    ],
+    [
+     265,
+     1835.5
+    ],
+    [
+     304,
+     1838.4
+    ],
+    [
+     351,
+     1842.2
+    ],
+    [
+     418,
+     1845.5
+    ],
+    [
+     440,
+     1846.7
+    ],
+    [
+     480,
+     1849.1
+    ],
+    [
+     514,
+     1850.7
+    ],
+    [
+     546,
+     1851.7
+    ],
+    [
+     557,
+     1852.2
+    ],
+    [
+     611,
+     1854.1
+    ],
+    [
+     623,
+     1854.8
+    ],
+    [
+     671,
+     1857.0
+    ],
+    [
+     687,
+     1858.1
+    ],
+    [
+     748,
+     1862.3
+    ]
+   ]
   },
   {
    "start": 1863.78,
@@ -796,7 +3526,13 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Por complejo no, pero por estrategia electoral tal vez sí."
+   "text": "Por complejo no, pero por estrategia electoral tal vez sí.",
+   "marks": [
+    [
+     0,
+     1863.8
+    ]
+   ]
   },
   {
    "start": 1865.88,
@@ -804,7 +3540,25 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "No, lo digo con absoluta franqueza. Me parece que eso no define lo que piensa una persona. De verdad, defender..."
+   "text": "No, lo digo con absoluta franqueza. Me parece que eso no define lo que piensa una persona. De verdad, defender...",
+   "marks": [
+    [
+     0,
+     1865.9
+    ],
+    [
+     36,
+     1868.2
+    ],
+    [
+     64,
+     1869.6
+    ],
+    [
+     91,
+     1871.4
+    ]
+   ]
   },
   {
    "start": 1872.54,
@@ -812,7 +3566,17 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "O sea, no se ubica usted en el 8, en el 9, en el 10..."
+   "text": "O sea, no se ubica usted en el 8, en el 9, en el 10...",
+   "marks": [
+    [
+     0,
+     1872.5
+    ],
+    [
+     43,
+     1874.2
+    ]
+   ]
   },
   {
    "start": 1874.7,
@@ -820,7 +3584,17 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "No, no, yo entiendo que los sociólogos y los sociólogos... Da un notable alto, un excelente..."
+   "text": "No, no, yo entiendo que los sociólogos y los sociólogos... Da un notable alto, un excelente...",
+   "marks": [
+    [
+     0,
+     1874.7
+    ],
+    [
+     59,
+     1877.6
+    ]
+   ]
   },
   {
    "start": 1878.46,
@@ -828,7 +3602,13 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Venga, en comportamiento..."
+   "text": "Venga, en comportamiento...",
+   "marks": [
+    [
+     0,
+     1878.5
+    ]
+   ]
   },
   {
    "start": 1880.08,
@@ -836,7 +3616,41 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "No, no. No, ahí me doy un notable alto. No, realmente yo creo que eso no aporta nada de un político. Entiendo que los sociólogos, y yo soy sociólogo, lo pregunten para intentar hacerse una idea, pero las cosas que defendemos realmente son de derechas, de izquierdas, yo creo que son de sentido común."
+   "text": "No, no. No, ahí me doy un notable alto. No, realmente yo creo que eso no aporta nada de un político. Entiendo que los sociólogos, y yo soy sociólogo, lo pregunten para intentar hacerse una idea, pero las cosas que defendemos realmente son de derechas, de izquierdas, yo creo que son de sentido común.",
+   "marks": [
+    [
+     0,
+     1880.1
+    ],
+    [
+     8,
+     1880.6
+    ],
+    [
+     40,
+     1882.7
+    ],
+    [
+     57,
+     1883.7
+    ],
+    [
+     101,
+     1887.7
+    ],
+    [
+     118,
+     1888.2
+    ],
+    [
+     195,
+     1891.7
+    ],
+    [
+     270,
+     1895.7
+    ]
+   ]
   },
   {
    "start": 1897.48,
@@ -844,7 +3658,17 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Quiere pescar en todos los caladeros y de ahí que no se quiera definir."
+   "text": "Quiere pescar en todos los caladeros y de ahí que no se quiera definir.",
+   "marks": [
+    [
+     0,
+     1897.5
+    ],
+    [
+     56,
+     1899.8
+    ]
+   ]
   },
   {
    "start": 1900.76,
@@ -852,7 +3676,85 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Pero eso, no, no, pero yo me defino con mis posiciones muy contundentes. Nosotros estamos planteando, por ejemplo, en materia migratoria, Las repatriaciones de los que entran ilegalmente, las deportaciones de los delincuentes y la remigración de los que están aquí sin trabajar y viviendo la ayuda que necesitan los españoles. Es un mensaje muy contundente. Eso es de derechas o de izquierdas. Sé que mucha gente de izquierdas nos vota precisamente por eso. Y luego gente que de verdad en su vida diaria no va pensando como los políticos o como los catedráticos de pensamiento político. La gente no va con unas orejeras y con unos esquemas tan estrechos como los que a veces tienen los políticos y que les llevan a tomar decisiones tan injustas. Creo que la ideologización ha causado un gran daño a la sociedad española."
+   "text": "Pero eso, no, no, pero yo me defino con mis posiciones muy contundentes. Nosotros estamos planteando, por ejemplo, en materia migratoria, Las repatriaciones de los que entran ilegalmente, las deportaciones de los delincuentes y la remigración de los que están aquí sin trabajar y viviendo la ayuda que necesitan los españoles. Es un mensaje muy contundente. Eso es de derechas o de izquierdas. Sé que mucha gente de izquierdas nos vota precisamente por eso. Y luego gente que de verdad en su vida diaria no va pensando como los políticos o como los catedráticos de pensamiento político. La gente no va con unas orejeras y con unos esquemas tan estrechos como los que a veces tienen los políticos y que les llevan a tomar decisiones tan injustas. Creo que la ideologización ha causado un gran daño a la sociedad española.",
+   "marks": [
+    [
+     0,
+     1900.8
+    ],
+    [
+     59,
+     1903.5
+    ],
+    [
+     73,
+     1904.2
+    ],
+    [
+     160,
+     1908.8
+    ],
+    [
+     243,
+     1912.5
+    ],
+    [
+     302,
+     1914.6
+    ],
+    [
+     327,
+     1915.7
+    ],
+    [
+     358,
+     1917.0
+    ],
+    [
+     377,
+     1917.7
+    ],
+    [
+     394,
+     1918.5
+    ],
+    [
+     449,
+     1920.4
+    ],
+    [
+     458,
+     1921.9
+    ],
+    [
+     504,
+     1923.6
+    ],
+    [
+     577,
+     1928.8
+    ],
+    [
+     587,
+     1929.2
+    ],
+    [
+     640,
+     1934.4
+    ],
+    [
+     702,
+     1937.3
+    ],
+    [
+     746,
+     1939.1
+    ],
+    [
+     776,
+     1941.1
+    ]
+   ]
   },
   {
    "start": 1943.2,
@@ -860,7 +3762,29 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Pues señor Abascal, yo creo que ya la próxima entrevista será campaña electoral. Pues será un placer estar aquí. Muchísimas gracias por acompañarnos esta mañana."
+   "text": "Pues señor Abascal, yo creo que ya la próxima entrevista será campaña electoral. Pues será un placer estar aquí. Muchísimas gracias por acompañarnos esta mañana.",
+   "marks": [
+    [
+     0,
+     1943.2
+    ],
+    [
+     70,
+     1946.3
+    ],
+    [
+     81,
+     1946.8
+    ],
+    [
+     113,
+     1948.0
+    ],
+    [
+     154,
+     1949.0
+    ]
+   ]
   },
   {
    "start": 1949.78,
@@ -868,7 +3792,17 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Muchas gracias. Hasta la próxima."
+   "text": "Muchas gracias. Hasta la próxima.",
+   "marks": [
+    [
+     0,
+     1949.8
+    ],
+    [
+     16,
+     1950.3
+    ]
+   ]
   },
   {
    "start": 1951.14,
@@ -876,7 +3810,25 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Bueno, pues Sánchez ha estado muy pendiente de los partidos a la izquierda del Partido Socialista. Todas las encuestas dicen que ese espacio se desploma y sobre todo, Lorena, el problema que tiene ahora Sumar."
+   "text": "Bueno, pues Sánchez ha estado muy pendiente de los partidos a la izquierda del Partido Socialista. Todas las encuestas dicen que ese espacio se desploma y sobre todo, Lorena, el problema que tiene ahora Sumar.",
+   "marks": [
+    [
+     0,
+     1951.1
+    ],
+    [
+     65,
+     1955.7
+    ],
+    [
+     99,
+     1957.0
+    ],
+    [
+     144,
+     1959.3
+    ]
+   ]
   }
  ]
 }

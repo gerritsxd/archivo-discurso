@@ -14,7 +14,7 @@
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
   "voiceprint_threshold": 0.65,
-  "processed_at": "2026-10-25T20:11:52+00:00",
+  "processed_at": "2026-10-25T20:59:40+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -47,7 +47,13 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "¿Qué te parece?"
+   "text": "¿Qué te parece?",
+   "marks": [
+    [
+     0,
+     0.0
+    ]
+   ]
   },
   {
    "start": 1.18,
@@ -55,7 +61,21 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Una catalana y un andaluz que se ven en Bilbao. ¿Qué te parece la cita?"
+   "text": "Una catalana y un andaluz que se ven en Bilbao. ¿Qué te parece la cita?",
+   "marks": [
+    [
+     0,
+     1.2
+    ],
+    [
+     48,
+     3.6
+    ],
+    [
+     56,
+     3.8
+    ]
+   ]
   },
   {
    "start": 4.62,
@@ -63,7 +83,17 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Me parece maravilloso, ¿no? Me parece que..."
+   "text": "Me parece maravilloso, ¿no? Me parece que...",
+   "marks": [
+    [
+     0,
+     4.6
+    ],
+    [
+     28,
+     6.6
+    ]
+   ]
   },
   {
    "start": 7.86,
@@ -71,7 +101,13 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Es maravilloso."
+   "text": "Es maravilloso.",
+   "marks": [
+    [
+     0,
+     7.9
+    ]
+   ]
   },
   {
    "start": 10.36,
@@ -79,7 +115,29 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Yo creo que hay una derechuza por ahí que tiene una idea de país muy pequeño donde no cabe casi nadie y luego está esta España diversa, maravillosa, plurinacional, donde cabemos todas y además alegres. O sea, qué bien estar aquí."
+   "text": "Yo creo que hay una derechuza por ahí que tiene una idea de país muy pequeño donde no cabe casi nadie y luego está esta España diversa, maravillosa, plurinacional, donde cabemos todas y además alegres. O sea, qué bien estar aquí.",
+   "marks": [
+    [
+     0,
+     10.4
+    ],
+    [
+     57,
+     14.9
+    ],
+    [
+     115,
+     17.6
+    ],
+    [
+     202,
+     22.2
+    ],
+    [
+     204,
+     22.4
+    ]
+   ]
   },
   {
    "start": 23.66,
@@ -87,7 +145,21 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Así somos, cabemos todas y nos cabe tela, las dos cosas. Bueno, estamos en directo, no crean que jugamos, 12 y 3, 4 minutitos."
+   "text": "Así somos, cabemos todas y nos cabe tela, las dos cosas. Bueno, estamos en directo, no crean que jugamos, 12 y 3, 4 minutitos.",
+   "marks": [
+    [
+     0,
+     23.7
+    ],
+    [
+     57,
+     28.6
+    ],
+    [
+     64,
+     29.0
+    ]
+   ]
   },
   {
    "start": 32.54,
@@ -95,7 +167,17 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "A esta hora, tienes que reconocer que te estaba escuchando llorar por el amor por Pedro Sánchez."
+   "text": "A esta hora, tienes que reconocer que te estaba escuchando llorar por el amor por Pedro Sánchez.",
+   "marks": [
+    [
+     0,
+     32.5
+    ],
+    [
+     70,
+     36.4
+    ]
+   ]
   },
   {
    "start": 37.78,
@@ -103,7 +185,17 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Bueno, ya es una cosa que igual ha quedado atrás, pero bueno, hablaremos."
+   "text": "Bueno, ya es una cosa que igual ha quedado atrás, pero bueno, hablaremos.",
+   "marks": [
+    [
+     0,
+     37.8
+    ],
+    [
+     62,
+     40.2
+    ]
+   ]
   },
   {
    "start": 40.68,
@@ -111,7 +203,17 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Hombre, yo diría que siendo la hora que es, el amor verdadero claramente está aquí y con toda esta gente que está..."
+   "text": "Hombre, yo diría que siendo la hora que es, el amor verdadero claramente está aquí y con toda esta gente que está...",
+   "marks": [
+    [
+     0,
+     40.7
+    ],
+    [
+     62,
+     43.1
+    ]
+   ]
   },
   {
    "start": 47.3,
@@ -119,7 +221,21 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "¿Cómo es lo de mí, Ada? Miren, vamos a empezar precisamente por ahí."
+   "text": "¿Cómo es lo de mí, Ada? Miren, vamos a empezar precisamente por ahí.",
+   "marks": [
+    [
+     0,
+     47.3
+    ],
+    [
+     24,
+     49.1
+    ],
+    [
+     64,
+     51.8
+    ]
+   ]
   },
   {
    "start": 52.46,
@@ -127,7 +243,13 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Por el amor verdadero."
+   "text": "Por el amor verdadero.",
+   "marks": [
+    [
+     0,
+     52.5
+    ]
+   ]
   },
   {
    "start": 53.72,
@@ -135,7 +257,25 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Bueno, vamos a ver, creo que tú también estabas muy pendiente, no puede ser de otra manera, de la entrevista en la revuelta de Pedro Sánchez. Hazme una valoración, un poquito de balance de esa entrevista."
+   "text": "Bueno, vamos a ver, creo que tú también estabas muy pendiente, no puede ser de otra manera, de la entrevista en la revuelta de Pedro Sánchez. Hazme una valoración, un poquito de balance de esa entrevista.",
+   "marks": [
+    [
+     0,
+     53.7
+    ],
+    [
+     66,
+     56.2
+    ],
+    [
+     127,
+     59.5
+    ],
+    [
+     142,
+     61.4
+    ]
+   ]
   },
   {
    "start": 64.56,
@@ -143,7 +283,25 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Pues hay una cosa que me ha llamado mucho la atención, que no me la esperaba, que me ha sorprendido muchísimo. Pedro Sánchez ha pedido el voto por Frente Amplio."
+   "text": "Pues hay una cosa que me ha llamado mucho la atención, que no me la esperaba, que me ha sorprendido muchísimo. Pedro Sánchez ha pedido el voto por Frente Amplio.",
+   "marks": [
+    [
+     0,
+     64.6
+    ],
+    [
+     59,
+     67.0
+    ],
+    [
+     111,
+     69.8
+    ],
+    [
+     128,
+     70.7
+    ]
+   ]
   },
   {
    "start": 72.32,
@@ -151,7 +309,13 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "A ver, cuéntame eso porque no lo tengo yo tan claro."
+   "text": "A ver, cuéntame eso porque no lo tengo yo tan claro.",
+   "marks": [
+    [
+     0,
+     72.3
+    ]
+   ]
   },
   {
    "start": 74.54,
@@ -159,7 +323,53 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "No, no, yo no me lo esperaba para nada, ha sido una sorpresa. Pues porque le han preguntado cuáles eran las medidas más destacadas, que para él eran más importantes de todo este último mandato, y ha dicho la subida del salario mínimo, la reforma laboral y los últimos decretos que se aprobaron para el derecho a la vivienda. Entonces, todos impulsados desde el espacio de Sumar, a la izquierda del Partido Socialista, y que ahora impulsa el Frente Amplio. O sea que Pedro Sánchez apuesta por el Frente Amplio, claramente."
+   "text": "No, no, yo no me lo esperaba para nada, ha sido una sorpresa. Pues porque le han preguntado cuáles eran las medidas más destacadas, que para él eran más importantes de todo este último mandato, y ha dicho la subida del salario mínimo, la reforma laboral y los últimos decretos que se aprobaron para el derecho a la vivienda. Entonces, todos impulsados desde el espacio de Sumar, a la izquierda del Partido Socialista, y que ahora impulsa el Frente Amplio. O sea que Pedro Sánchez apuesta por el Frente Amplio, claramente.",
+   "marks": [
+    [
+     0,
+     74.5
+    ],
+    [
+     52,
+     76.5
+    ],
+    [
+     62,
+     77.1
+    ],
+    [
+     132,
+     80.9
+    ],
+    [
+     196,
+     85.1
+    ],
+    [
+     260,
+     89.3
+    ],
+    [
+     325,
+     91.9
+    ],
+    [
+     335,
+     92.4
+    ],
+    [
+     406,
+     96.9
+    ],
+    [
+     456,
+     99.5
+    ],
+    [
+     472,
+     100.3
+    ]
+   ]
   },
   {
    "start": 103.78,
@@ -167,7 +377,29 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Estamos viendo muchos cruces de petición de voto entre la guasa y los extraños. Hoy Felipe González ha reconocido que va a votar en blanco. Ha dicho que en blanco es positivo."
+   "text": "Estamos viendo muchos cruces de petición de voto entre la guasa y los extraños. Hoy Felipe González ha reconocido que va a votar en blanco. Ha dicho que en blanco es positivo.",
+   "marks": [
+    [
+     0,
+     103.8
+    ],
+    [
+     66,
+     113.5
+    ],
+    [
+     80,
+     114.3
+    ],
+    [
+     132,
+     116.5
+    ],
+    [
+     140,
+     117.3
+    ]
+   ]
   },
   {
    "start": 120.13,
@@ -175,7 +407,13 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Bueno, podría ser peor, ¿no?"
+   "text": "Bueno, podría ser peor, ¿no?",
+   "marks": [
+    [
+     0,
+     120.1
+    ]
+   ]
   },
   {
    "start": 121.89,
@@ -183,7 +421,13 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Podría ser peor."
+   "text": "Podría ser peor.",
+   "marks": [
+    [
+     0,
+     121.9
+    ]
+   ]
   },
   {
    "start": 122.69,
@@ -191,7 +435,13 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Podría ser peor."
+   "text": "Podría ser peor.",
+   "marks": [
+    [
+     0,
+     122.7
+    ]
+   ]
   },
   {
    "start": 123.35,
@@ -199,7 +449,13 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Pero es verdad que hay como un cruce de peticiones de voto."
+   "text": "Pero es verdad que hay como un cruce de peticiones de voto.",
+   "marks": [
+    [
+     0,
+     123.3
+    ]
+   ]
   },
   {
    "start": 125.41,
@@ -207,7 +463,13 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "A ver, pero"
+   "text": "A ver, pero",
+   "marks": [
+    [
+     0,
+     125.4
+    ]
+   ]
   },
   {
    "start": 125.67,
@@ -215,7 +477,17 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Felipe González no nos sorprende, digamos. No, hombre, cada vez menos."
+   "text": "Felipe González no nos sorprende, digamos. No, hombre, cada vez menos.",
+   "marks": [
+    [
+     0,
+     125.7
+    ],
+    [
+     43,
+     127.7
+    ]
+   ]
   },
   {
    "start": 128.79,
@@ -223,7 +495,13 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Cada vez menos, ¿no?"
+   "text": "Cada vez menos, ¿no?",
+   "marks": [
+    [
+     0,
+     128.8
+    ]
+   ]
   },
   {
    "start": 129.73,
@@ -231,7 +509,41 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "El otro día lo decía, digo, Aznar dijo que si ganaba Pedro Sánchez llegaría a la República a España. Gracias a todos los que nos han dado la gana, así de sencillo, pero nos queda todavía muchas semanas, Yolanda, los convenceremos de aquí hasta que empiece la campaña. Yo tengo la suerte de conocerte. Nos cruzamos hace ya bastantes años en un late night donde te entrevisté como activista."
+   "text": "El otro día lo decía, digo, Aznar dijo que si ganaba Pedro Sánchez llegaría a la República a España. Gracias a todos los que nos han dado la gana, así de sencillo, pero nos queda todavía muchas semanas, Yolanda, los convenceremos de aquí hasta que empiece la campaña. Yo tengo la suerte de conocerte. Nos cruzamos hace ya bastantes años en un late night donde te entrevisté como activista.",
+   "marks": [
+    [
+     0,
+     129.7
+    ],
+    [
+     59,
+     132.4
+    ],
+    [
+     101,
+     135.7
+    ],
+    [
+     125,
+     154.9
+    ],
+    [
+     187,
+     164.9
+    ],
+    [
+     268,
+     168.6
+    ],
+    [
+     301,
+     171.1
+    ],
+    [
+     337,
+     173.7
+    ]
+   ]
   },
   {
    "start": 177.61,
@@ -239,7 +551,13 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Sí, me acuerdo."
+   "text": "Sí, me acuerdo.",
+   "marks": [
+    [
+     0,
+     177.6
+    ]
+   ]
   },
   {
    "start": 178.65,
@@ -247,7 +565,41 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Formabas parte de La Paz, de la plataforma de afectados por la hipoteca. La gran lucha de aquel momento era la dación en pago. En aquel momento, si no podías hacer frente a la hipoteca, se quedaban con la vivienda y te quedabas con la deuda entera. Sí, sí. Aquella guerra la ganasteis."
+   "text": "Formabas parte de La Paz, de la plataforma de afectados por la hipoteca. La gran lucha de aquel momento era la dación en pago. En aquel momento, si no podías hacer frente a la hipoteca, se quedaban con la vivienda y te quedabas con la deuda entera. Sí, sí. Aquella guerra la ganasteis.",
+   "marks": [
+    [
+     0,
+     178.7
+    ],
+    [
+     63,
+     181.2
+    ],
+    [
+     73,
+     182.2
+    ],
+    [
+     127,
+     186.2
+    ],
+    [
+     189,
+     189.3
+    ],
+    [
+     249,
+     192.6
+    ],
+    [
+     253,
+     192.9
+    ],
+    [
+     257,
+     193.2
+    ]
+   ]
   },
   {
    "start": 194.99,
@@ -255,7 +607,25 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "No del todo, sigue peleándose. La legislación hipotecaria, se consiguieron excepciones, se consiguieron negociaciones, se consiguieron muchas cosas, pero la legislación hipotecaria todavía no es decente en este país, todavía queda por conseguir."
+   "text": "No del todo, sigue peleándose. La legislación hipotecaria, se consiguieron excepciones, se consiguieron negociaciones, se consiguieron muchas cosas, pero la legislación hipotecaria todavía no es decente en este país, todavía queda por conseguir.",
+   "marks": [
+    [
+     0,
+     195.0
+    ],
+    [
+     31,
+     197.8
+    ],
+    [
+     91,
+     201.7
+    ],
+    [
+     192,
+     205.6
+    ]
+   ]
   },
   {
    "start": 208.07,
@@ -263,7 +633,25 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Vamos a tomarnos ese momento donde nos citábamos para vernos una segunda vez. Vamos a verlo. El Tribunal"
+   "text": "Vamos a tomarnos ese momento donde nos citábamos para vernos una segunda vez. Vamos a verlo. El Tribunal",
+   "marks": [
+    [
+     0,
+     208.1
+    ],
+    [
+     73,
+     211.5
+    ],
+    [
+     78,
+     211.9
+    ],
+    [
+     93,
+     212.4
+    ]
+   ]
   },
   {
    "start": 214.15,
@@ -271,7 +659,29 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "Superior de Justicia de Andalucía anima a los juzgados de Andalucía a paralizar todos los desahucios. Esto es otra gran victoria, es una pequeña victoria, ¿se quedará en agua de borraja? ¿En qué quedará todo esto?"
+   "text": "Superior de Justicia de Andalucía anima a los juzgados de Andalucía a paralizar todos los desahucios. Esto es otra gran victoria, es una pequeña victoria, ¿se quedará en agua de borraja? ¿En qué quedará todo esto?",
+   "marks": [
+    [
+     0,
+     214.2
+    ],
+    [
+     70,
+     218.4
+    ],
+    [
+     102,
+     220.8
+    ],
+    [
+     145,
+     223.8
+    ],
+    [
+     187,
+     226.8
+    ]
+   ]
   },
   {
    "start": 228.05,
@@ -279,7 +689,89 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "No, pues esto es lo que te estoy diciendo, esto se va a acabar haciendo, se van a acabar pagando los desahucios porque la sociedad, el Estado español ha dicho basta ya, basta de pisotear nuestros derechos y eso primero fue con las plataformas que se han ido generando desde la propia sociedad civil con las personas afectadas, pero cada vez más colectivos se han ido sumando Y el Poder Judicial, que además es un poder que desde luego normalmente es muy prudente, que no hace posicionamientos fuertes, los jueces están hartos de ver cómo con la ley actual tienen que cometer injusticias cada día flagrantes. Entonces el Poder Judicial ha hecho un paso adelante y lleva ya tiempo denunciando que hay que cambiar esta ley. Y también el Poder Judicial, no solo nosotros, ha dicho que la ley que acaba de aprobar el Partido Popular no va a resolver el problema, incluso lo va a complicar. Entonces los jueces, una vez más, igual que la sociedad civil, van muy por delante del gobierno, No se ha dado una solución política, pero se está dando una solución en la calle y se está dando una solución en los juzgados."
+   "text": "No, pues esto es lo que te estoy diciendo, esto se va a acabar haciendo, se van a acabar pagando los desahucios porque la sociedad, el Estado español ha dicho basta ya, basta de pisotear nuestros derechos y eso primero fue con las plataformas que se han ido generando desde la propia sociedad civil con las personas afectadas, pero cada vez más colectivos se han ido sumando Y el Poder Judicial, que además es un poder que desde luego normalmente es muy prudente, que no hace posicionamientos fuertes, los jueces están hartos de ver cómo con la ley actual tienen que cometer injusticias cada día flagrantes. Entonces el Poder Judicial ha hecho un paso adelante y lleva ya tiempo denunciando que hay que cambiar esta ley. Y también el Poder Judicial, no solo nosotros, ha dicho que la ley que acaba de aprobar el Partido Popular no va a resolver el problema, incluso lo va a complicar. Entonces los jueces, una vez más, igual que la sociedad civil, van muy por delante del gobierno, No se ha dado una solución política, pero se está dando una solución en la calle y se está dando una solución en los juzgados.",
+   "marks": [
+    [
+     0,
+     228.1
+    ],
+    [
+     54,
+     230.7
+    ],
+    [
+     122,
+     232.9
+    ],
+    [
+     196,
+     236.5
+    ],
+    [
+     258,
+     239.8
+    ],
+    [
+     337,
+     243.1
+    ],
+    [
+     400,
+     246.1
+    ],
+    [
+     468,
+     249.3
+    ],
+    [
+     542,
+     253.3
+    ],
+    [
+     608,
+     256.5
+    ],
+    [
+     620,
+     256.9
+    ],
+    [
+     691,
+     260.9
+    ],
+    [
+     721,
+     262.0
+    ],
+    [
+     753,
+     263.3
+    ],
+    [
+     812,
+     265.0
+    ],
+    [
+     874,
+     267.5
+    ],
+    [
+     885,
+     268.0
+    ],
+    [
+     948,
+     270.4
+    ],
+    [
+     1009,
+     273.4
+    ],
+    [
+     1068,
+     276.2
+    ]
+   ]
   },
   {
    "start": 277.83,
@@ -287,7 +779,45 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "Bueno, espero recibirte pronto aquí en la semana más larga con un libro el doble, el triple o cuatro veces más gordo que este. Que sea Seguimos Podiendo y que en vez de una pequeña gran victoria sea sin ese matiz de la pequeña, sino que sea con esa gran victoria. Ada, muchas gracias por estar hoy aquí con nosotros y gracias por dar ese mensaje de que sí, de que se puede. Muchas gracias."
+   "text": "Bueno, espero recibirte pronto aquí en la semana más larga con un libro el doble, el triple o cuatro veces más gordo que este. Que sea Seguimos Podiendo y que en vez de una pequeña gran victoria sea sin ese matiz de la pequeña, sino que sea con esa gran victoria. Ada, muchas gracias por estar hoy aquí con nosotros y gracias por dar ese mensaje de que sí, de que se puede. Muchas gracias.",
+   "marks": [
+    [
+     0,
+     277.8
+    ],
+    [
+     66,
+     281.5
+    ],
+    [
+     127,
+     284.6
+    ],
+    [
+     186,
+     288.1
+    ],
+    [
+     245,
+     291.4
+    ],
+    [
+     264,
+     293.2
+    ],
+    [
+     316,
+     296.1
+    ],
+    [
+     367,
+     299.6
+    ],
+    [
+     374,
+     299.9
+    ]
+   ]
   },
   {
    "start": 305.02,
@@ -295,7 +825,17 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Estamos muy optimistas ahí. Estábamos muy jóvenes"
+   "text": "Estamos muy optimistas ahí. Estábamos muy jóvenes",
+   "marks": [
+    [
+     0,
+     305.0
+    ],
+    [
+     28,
+     306.2
+    ]
+   ]
   },
   {
    "start": 307.2,
@@ -303,7 +843,13 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "los dos."
+   "text": "los dos.",
+   "marks": [
+    [
+     0,
+     307.2
+    ]
+   ]
   },
   {
    "start": 307.82,
@@ -311,7 +857,13 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Estábamos muy jóvenes, estamos mejor ahora, estamos mejor."
+   "text": "Estábamos muy jóvenes, estamos mejor ahora, estamos mejor.",
+   "marks": [
+    [
+     0,
+     307.8
+    ]
+   ]
   },
   {
    "start": 310.52,
@@ -319,7 +871,13 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "¿Verdad?"
+   "text": "¿Verdad?",
+   "marks": [
+    [
+     0,
+     310.5
+    ]
+   ]
   },
   {
    "start": 311.0,
@@ -327,7 +885,13 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Yo creo que hemos mejorado bien."
+   "text": "Yo creo que hemos mejorado bien.",
+   "marks": [
+    [
+     0,
+     311.0
+    ]
+   ]
   },
   {
    "start": 311.96,
@@ -335,7 +899,41 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Yo no sé cuántos años hace, pero hace 30 kilos. En mi caso hace 30 kilos. Yo por años me lío, pero por kilos como los árboles, me voy viendo los anillitos del cinturón y sé cuánto hace, si mucho o poco. Estabas ahí muy optimista, decías, los jueces van por delante."
+   "text": "Yo no sé cuántos años hace, pero hace 30 kilos. En mi caso hace 30 kilos. Yo por años me lío, pero por kilos como los árboles, me voy viendo los anillitos del cinturón y sé cuánto hace, si mucho o poco. Estabas ahí muy optimista, decías, los jueces van por delante.",
+   "marks": [
+    [
+     0,
+     312.0
+    ],
+    [
+     48,
+     314.1
+    ],
+    [
+     54,
+     314.7
+    ],
+    [
+     74,
+     318.8
+    ],
+    [
+     109,
+     322.4
+    ],
+    [
+     173,
+     325.8
+    ],
+    [
+     203,
+     327.3
+    ],
+    [
+     242,
+     329.3
+    ]
+   ]
   },
   {
    "start": 331.54,
@@ -343,7 +941,69 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "La ciudadanía sobre todo. ¿Cómo lo ves? Bueno, eso sigue siendo la verdad. O sea, que la ciudadanía es la que marca el camino y marca el rumbo. Yo con la plataforma Afectas por la Hipoteca es donde he aprendido la mejor política de mi vida y que luego me ha sido muy útil también cuando he entrado en la institución. Y eso de las pequeñas grandes victorias que mencionábamos, para mí es uno de los grandes aprendizajes. O sea, empezamos siendo poquísima gente, no se hablaba del tema, se culpabilizaba desde los medios de comunicación a la gente hipotecada que había sido estafada por los bancos."
+   "text": "La ciudadanía sobre todo. ¿Cómo lo ves? Bueno, eso sigue siendo la verdad. O sea, que la ciudadanía es la que marca el camino y marca el rumbo. Yo con la plataforma Afectas por la Hipoteca es donde he aprendido la mejor política de mi vida y que luego me ha sido muy útil también cuando he entrado en la institución. Y eso de las pequeñas grandes victorias que mencionábamos, para mí es uno de los grandes aprendizajes. O sea, empezamos siendo poquísima gente, no se hablaba del tema, se culpabilizaba desde los medios de comunicación a la gente hipotecada que había sido estafada por los bancos.",
+   "marks": [
+    [
+     0,
+     331.5
+    ],
+    [
+     26,
+     333.0
+    ],
+    [
+     40,
+     334.0
+    ],
+    [
+     67,
+     335.2
+    ],
+    [
+     75,
+     335.6
+    ],
+    [
+     126,
+     337.2
+    ],
+    [
+     144,
+     338.4
+    ],
+    [
+     189,
+     340.3
+    ],
+    [
+     246,
+     343.2
+    ],
+    [
+     304,
+     344.9
+    ],
+    [
+     317,
+     346.3
+    ],
+    [
+     384,
+     350.1
+    ],
+    [
+     420,
+     351.4
+    ],
+    [
+     461,
+     353.2
+    ],
+    [
+     535,
+     357.4
+    ]
+   ]
   },
   {
    "start": 360.34,
@@ -351,7 +1011,17 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Ayer cuando decían, no os metáis en hipoteca, que estáis viviendo por encima de vuestras posibilidades, alquilar, que hay que alquilar, pero"
+   "text": "Ayer cuando decían, no os metáis en hipoteca, que estáis viviendo por encima de vuestras posibilidades, alquilar, que hay que alquilar, pero",
+   "marks": [
+    [
+     0,
+     360.3
+    ],
+    [
+     70,
+     363.3
+    ]
+   ]
   },
   {
    "start": 367.24,
@@ -359,7 +1029,29 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "alquilar era tirar el dinero, también te decían. Y ahora cuando alquilan te dicen, ¿por qué no te metiste en la hipoteca? ¿Por qué no lo metiste tú?"
+   "text": "alquilar era tirar el dinero, también te decían. Y ahora cuando alquilan te dicen, ¿por qué no te metiste en la hipoteca? ¿Por qué no lo metiste tú?",
+   "marks": [
+    [
+     0,
+     367.2
+    ],
+    [
+     49,
+     369.6
+    ],
+    [
+     73,
+     370.5
+    ],
+    [
+     122,
+     371.8
+    ],
+    [
+     131,
+     371.9
+    ]
+   ]
   },
   {
    "start": 372.4,
@@ -367,7 +1059,13 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "¿Para qué me echaste cuenta?"
+   "text": "¿Para qué me echaste cuenta?",
+   "marks": [
+    [
+     0,
+     372.4
+    ]
+   ]
   },
   {
    "start": 373.76,
@@ -375,7 +1073,21 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Porque es una estafa infinita, porque al final los más ricos se hagan más ricos siempre y el resto de la gente de mayoría trabajadora tenga que dar casi todo su salario a la vivienda."
+   "text": "Porque es una estafa infinita, porque al final los más ricos se hagan más ricos siempre y el resto de la gente de mayoría trabajadora tenga que dar casi todo su salario a la vivienda.",
+   "marks": [
+    [
+     0,
+     373.8
+    ],
+    [
+     64,
+     376.3
+    ],
+    [
+     122,
+     378.7
+    ]
+   ]
   },
   {
    "start": 382.58,
@@ -383,7 +1095,13 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Ayer eras activista."
+   "text": "Ayer eras activista.",
+   "marks": [
+    [
+     0,
+     382.6
+    ]
+   ]
   },
   {
    "start": 383.42,
@@ -391,7 +1109,37 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Ayer activista y ahí te digo, aprendí que las pequeñas grandes victorias permiten conseguir grandes victorias. Y la otra gran verdad es que la ciudadanía marca el camino, como está pasando ahora con Mari Carmen, que en paz descansa y desde aquí todo mi reconocimiento a esta mujer increíble, porque lo ha dado todo por el derecho a la vivienda, ha dado su vida por el derecho a la vivienda."
+   "text": "Ayer activista y ahí te digo, aprendí que las pequeñas grandes victorias permiten conseguir grandes victorias. Y la otra gran verdad es que la ciudadanía marca el camino, como está pasando ahora con Mari Carmen, que en paz descansa y desde aquí todo mi reconocimiento a esta mujer increíble, porque lo ha dado todo por el derecho a la vivienda, ha dado su vida por el derecho a la vivienda.",
+   "marks": [
+    [
+     0,
+     383.4
+    ],
+    [
+     73,
+     387.0
+    ],
+    [
+     111,
+     389.2
+    ],
+    [
+     143,
+     390.8
+    ],
+    [
+     216,
+     394.4
+    ],
+    [
+     281,
+     398.5
+    ],
+    [
+     345,
+     402.6
+    ]
+   ]
   },
   {
    "start": 404.24,
@@ -399,7 +1147,37 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "¿Qué caldo se tiene que dar para que, habiendo miles de casos como el de Mari Carmen, igual de dramático, alguien se convierta en símbolo? Hay un tempo que hace que, no se sabe muy bien por qué, haya una última gota. Igual es igual de gota que las demás, pero hay una última gota que hace que todo rebose."
+   "text": "¿Qué caldo se tiene que dar para que, habiendo miles de casos como el de Mari Carmen, igual de dramático, alguien se convierta en símbolo? Hay un tempo que hace que, no se sabe muy bien por qué, haya una última gota. Igual es igual de gota que las demás, pero hay una última gota que hace que todo rebose.",
+   "marks": [
+    [
+     0,
+     404.2
+    ],
+    [
+     62,
+     408.8
+    ],
+    [
+     130,
+     413.7
+    ],
+    [
+     139,
+     414.3
+    ],
+    [
+     186,
+     417.5
+    ],
+    [
+     217,
+     419.4
+    ],
+    [
+     244,
+     420.4
+    ]
+   ]
   },
   {
    "start": 422.34,
@@ -407,7 +1185,145 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Bueno, es que llevamos ya muchos años de la gente moviéndose, de la gente... Ahí empezamos la campaña Stop Desahucios. Cuando paramos el primer desahucio en Tarragona, parecía imposible, por eso, porque la gente, encima de ser estafada, encima sentía vergüenza. de salir públicamente a denunciarlo. Era muy difícil que alguien convocara a la gente para parar un desahucio. Paramos el primero en Tarragona, en el 2010 creo recordar, y de ese primer desahucio paramos otro, y luego otro, y luego fueron cientos. Y de ahí se generó una campaña de stop desahucios que ahora el sindicato de inquilinas ha tomado el relevo. Y son miles los desahucios que ha parado la ciudadanía en toda España gracias a una campaña que empezó con un desahucio que paramos en Tarragona. Y ahí se demuestra el poder de la gente. Y con todo eso que se va acumulando, con toda esa energía, que hay mucho sufrimiento, hay mucho dolor, pero también hay mucha lucha, hay mucha solidaridad, hay muchas acciones colectivas que consiguen resultados concretos, como es parar desahucios, obligar a los caseros a negociar, con todo eso se van sucediendo muchos casos y es verdad que no sabes por qué hay un día que, bueno, sí que habían motivos. En el caso de Mari Carmen eran 87 años toda la vida pagando, toda la vida viviendo en la misma casa y que unos desalmados, tanto el fondo inversor propietario como la jueza, que no pudieran realmente entender que esa mujer no tenía que salir de su casa y que se hiciera el desahucio. Pues claro, se convirtió en un símbolo."
+   "text": "Bueno, es que llevamos ya muchos años de la gente moviéndose, de la gente... Ahí empezamos la campaña Stop Desahucios. Cuando paramos el primer desahucio en Tarragona, parecía imposible, por eso, porque la gente, encima de ser estafada, encima sentía vergüenza. de salir públicamente a denunciarlo. Era muy difícil que alguien convocara a la gente para parar un desahucio. Paramos el primero en Tarragona, en el 2010 creo recordar, y de ese primer desahucio paramos otro, y luego otro, y luego fueron cientos. Y de ahí se generó una campaña de stop desahucios que ahora el sindicato de inquilinas ha tomado el relevo. Y son miles los desahucios que ha parado la ciudadanía en toda España gracias a una campaña que empezó con un desahucio que paramos en Tarragona. Y ahí se demuestra el poder de la gente. Y con todo eso que se va acumulando, con toda esa energía, que hay mucho sufrimiento, hay mucho dolor, pero también hay mucha lucha, hay mucha solidaridad, hay muchas acciones colectivas que consiguen resultados concretos, como es parar desahucios, obligar a los caseros a negociar, con todo eso se van sucediendo muchos casos y es verdad que no sabes por qué hay un día que, bueno, sí que habían motivos. En el caso de Mari Carmen eran 87 años toda la vida pagando, toda la vida viviendo en la misma casa y que unos desalmados, tanto el fondo inversor propietario como la jueza, que no pudieran realmente entender que esa mujer no tenía que salir de su casa y que se hiciera el desahucio. Pues claro, se convirtió en un símbolo.",
+   "marks": [
+    [
+     0,
+     422.3
+    ],
+    [
+     65,
+     424.8
+    ],
+    [
+     77,
+     425.2
+    ],
+    [
+     119,
+     427.3
+    ],
+    [
+     144,
+     428.1
+    ],
+    [
+     223,
+     431.5
+    ],
+    [
+     262,
+     434.2
+    ],
+    [
+     299,
+     435.9
+    ],
+    [
+     307,
+     436.4
+    ],
+    [
+     373,
+     440.0
+    ],
+    [
+     381,
+     440.4
+    ],
+    [
+     441,
+     444.6
+    ],
+    [
+     510,
+     448.4
+    ],
+    [
+     512,
+     448.8
+    ],
+    [
+     573,
+     451.1
+    ],
+    [
+     618,
+     453.2
+    ],
+    [
+     645,
+     455.0
+    ],
+    [
+     710,
+     458.1
+    ],
+    [
+     764,
+     460.2
+    ],
+    [
+     773,
+     461.3
+    ],
+    [
+     805,
+     462.5
+    ],
+    [
+     827,
+     463.6
+    ],
+    [
+     901,
+     466.1
+    ],
+    [
+     981,
+     470.7
+    ],
+    [
+     1068,
+     474.7
+    ],
+    [
+     1134,
+     478.5
+    ],
+    [
+     1188,
+     481.4
+    ],
+    [
+     1211,
+     482.7
+    ],
+    [
+     1245,
+     483.9
+    ],
+    [
+     1306,
+     487.3
+    ],
+    [
+     1378,
+     493.0
+    ],
+    [
+     1447,
+     497.7
+    ],
+    [
+     1495,
+     499.6
+    ],
+    [
+     1507,
+     499.9
+    ]
+   ]
   },
   {
    "start": 500.84,
@@ -415,7 +1331,49 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Y ese símbolo hace que se ponga la vivienda, creo que donde debía estar, en el primer tema. No es un problema, es el problema y eso hace que Ada Colau, que del activismo pasó a la Alcaldía de Barcelona, a la política en activo y que estaba, podemos decir, retirada o al menos había dado un paso al lado, vuelva a la política en activo y a día de hoy eres la candidata de una fuerza como Frente Amplio. ¿Quién levanta el teléfono? ¿Cómo será esa llamada de te convocamos?"
+   "text": "Y ese símbolo hace que se ponga la vivienda, creo que donde debía estar, en el primer tema. No es un problema, es el problema y eso hace que Ada Colau, que del activismo pasó a la Alcaldía de Barcelona, a la política en activo y que estaba, podemos decir, retirada o al menos había dado un paso al lado, vuelva a la política en activo y a día de hoy eres la candidata de una fuerza como Frente Amplio. ¿Quién levanta el teléfono? ¿Cómo será esa llamada de te convocamos?",
+   "marks": [
+    [
+     0,
+     500.8
+    ],
+    [
+     60,
+     503.3
+    ],
+    [
+     92,
+     505.8
+    ],
+    [
+     117,
+     507.5
+    ],
+    [
+     177,
+     511.4
+    ],
+    [
+     241,
+     514.5
+    ],
+    [
+     304,
+     517.8
+    ],
+    [
+     355,
+     520.9
+    ],
+    [
+     402,
+     528.1
+    ],
+    [
+     430,
+     529.3
+    ]
+   ]
   },
   {
    "start": 534.08,
@@ -423,7 +1381,37 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Bueno, pues es verdad, del activismo y el paso a la alcaldía, ahí tengo el orgullo de poder decir que, entre otras cosas, hicimos el parque de vivienda municipal más grande de todo el Estado. Hoy Barcelona es la ciudad de todo el Estado que tiene el parque público más grande porque doblamos el parque público, hicimos miles de viviendas, les expropiamos viviendas a los fondos buitres, Agradecimientos a los fundos buitres ¡Gracias!"
+   "text": "Bueno, pues es verdad, del activismo y el paso a la alcaldía, ahí tengo el orgullo de poder decir que, entre otras cosas, hicimos el parque de vivienda municipal más grande de todo el Estado. Hoy Barcelona es la ciudad de todo el Estado que tiene el parque público más grande porque doblamos el parque público, hicimos miles de viviendas, les expropiamos viviendas a los fondos buitres, Agradecimientos a los fundos buitres ¡Gracias!",
+   "marks": [
+    [
+     0,
+     534.1
+    ],
+    [
+     62,
+     537.3
+    ],
+    [
+     130,
+     541.3
+    ],
+    [
+     192,
+     544.3
+    ],
+    [
+     196,
+     544.4
+    ],
+    [
+     257,
+     546.7
+    ],
+    [
+     339,
+     551.3
+    ]
+   ]
   },
   {
    "start": 613.68,
@@ -431,7 +1419,49 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "de Abeja, para llamar la atención, para tener repercusión en medios, para hacer ruido, de eso va también muchas veces, tener hueco en los medios. ¿A quién vas a escrachear? ¿A quién vamos a ver ahora cuando te veamos llegar al mítin, al acto político que está sucediendo ahí? No sé si vamos a ver ahora, ya estamos llegando. ¿Sabes a quién es uno de los protagonistas de ese acto?"
+   "text": "de Abeja, para llamar la atención, para tener repercusión en medios, para hacer ruido, de eso va también muchas veces, tener hueco en los medios. ¿A quién vas a escrachear? ¿A quién vamos a ver ahora cuando te veamos llegar al mítin, al acto político que está sucediendo ahí? No sé si vamos a ver ahora, ya estamos llegando. ¿Sabes a quién es uno de los protagonistas de ese acto?",
+   "marks": [
+    [
+     0,
+     613.7
+    ],
+    [
+     74,
+     618.8
+    ],
+    [
+     138,
+     622.1
+    ],
+    [
+     146,
+     623.1
+    ],
+    [
+     173,
+     624.7
+    ],
+    [
+     200,
+     625.5
+    ],
+    [
+     271,
+     631.0
+    ],
+    [
+     276,
+     632.3
+    ],
+    [
+     325,
+     635.0
+    ],
+    [
+     332,
+     635.4
+    ]
+   ]
   },
   {
    "start": 638.42,
@@ -439,7 +1469,13 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "A ver, cuéntame."
+   "text": "A ver, cuéntame.",
+   "marks": [
+    [
+     0,
+     638.4
+    ]
+   ]
   },
   {
    "start": 639.5,
@@ -447,7 +1483,13 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Pues es Ada Colau, haciéndole"
+   "text": "Pues es Ada Colau, haciéndole",
+   "marks": [
+    [
+     0,
+     639.5
+    ]
+   ]
   },
   {
    "start": 641.48,
@@ -455,7 +1497,13 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "escrache a Urtasun."
+   "text": "escrache a Urtasun.",
+   "marks": [
+    [
+     0,
+     641.5
+    ]
+   ]
   },
   {
    "start": 642.98,
@@ -463,7 +1511,17 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Muy bien. Y a día de hoy eres su jefa."
+   "text": "Muy bien. Y a día de hoy eres su jefa.",
+   "marks": [
+    [
+     0,
+     643.0
+    ],
+    [
+     10,
+     644.2
+    ]
+   ]
   },
   {
    "start": 646.74,
@@ -471,7 +1529,89 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Sí, este era un acto de iniciativa. Fuimos a todos los partidos. Pero sí, en este caso es un acto de iniciativa y podríamos decir que sí, que estaba Ernest Hurtasón. Y claro, además yo también. Una vez que tú entras a la institución tienes que asumir que tengas más o menos responsabilidad, pero tienes responsabilidad. Entonces te pueden hacer scratches, te pueden hacer manifestaciones y es bueno, no te tiene que molestar ni te tiene que asustar. O sea, si tú eres una fuerza progresista que sabe que la ciudadanía es el motor de cambio, que te vengan a manifestarse, que te vengan a hacer escraches, esa es la manera de que empujen y que haya un contrapoder que contrarreste la fuerza de los poderosos de verdad, que son los que tienen el dinero, que están todo el día haciendo presión en los juzgados, en los medios de comunicación y necesitamos que haya una ciudadanía movilizada. Entonces, aunque gobierne la izquierda, la ciudadanía debe seguir movilizada porque se necesita ese contrapoder siempre."
+   "text": "Sí, este era un acto de iniciativa. Fuimos a todos los partidos. Pero sí, en este caso es un acto de iniciativa y podríamos decir que sí, que estaba Ernest Hurtasón. Y claro, además yo también. Una vez que tú entras a la institución tienes que asumir que tengas más o menos responsabilidad, pero tienes responsabilidad. Entonces te pueden hacer scratches, te pueden hacer manifestaciones y es bueno, no te tiene que molestar ni te tiene que asustar. O sea, si tú eres una fuerza progresista que sabe que la ciudadanía es el motor de cambio, que te vengan a manifestarse, que te vengan a hacer escraches, esa es la manera de que empujen y que haya un contrapoder que contrarreste la fuerza de los poderosos de verdad, que son los que tienen el dinero, que están todo el día haciendo presión en los juzgados, en los medios de comunicación y necesitamos que haya una ciudadanía movilizada. Entonces, aunque gobierne la izquierda, la ciudadanía debe seguir movilizada porque se necesita ese contrapoder siempre.",
+   "marks": [
+    [
+     0,
+     646.7
+    ],
+    [
+     36,
+     648.0
+    ],
+    [
+     65,
+     649.6
+    ],
+    [
+     124,
+     654.5
+    ],
+    [
+     166,
+     657.6
+    ],
+    [
+     194,
+     659.6
+    ],
+    [
+     255,
+     662.7
+    ],
+    [
+     320,
+     665.1
+    ],
+    [
+     345,
+     666.1
+    ],
+    [
+     416,
+     669.4
+    ],
+    [
+     450,
+     671.4
+    ],
+    [
+     472,
+     672.3
+    ],
+    [
+     541,
+     675.4
+    ],
+    [
+     608,
+     678.3
+    ],
+    [
+     666,
+     681.1
+    ],
+    [
+     733,
+     684.1
+    ],
+    [
+     797,
+     686.9
+    ],
+    [
+     875,
+     690.5
+    ],
+    [
+     887,
+     691.0
+    ],
+    [
+     971,
+     694.4
+    ]
+   ]
   },
   {
    "start": 696.22,
@@ -479,7 +1619,21 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Ya que estamos en un lugar donde el secreto de confesión te lo puedo guardar con toda tranquilidad, ¿qué pecados crees que tienen algunos compañeros de esta orden, de la izquierda y el progresismo?"
+   "text": "Ya que estamos en un lugar donde el secreto de confesión te lo puedo guardar con toda tranquilidad, ¿qué pecados crees que tienen algunos compañeros de esta orden, de la izquierda y el progresismo?",
+   "marks": [
+    [
+     0,
+     696.2
+    ],
+    [
+     60,
+     701.2
+    ],
+    [
+     138,
+     708.2
+    ]
+   ]
   },
   {
    "start": 716.76,
@@ -487,7 +1641,13 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Esto se pone peligroso, ¿verdad?"
+   "text": "Esto se pone peligroso, ¿verdad?",
+   "marks": [
+    [
+     0,
+     716.8
+    ]
+   ]
   },
   {
    "start": 719.44,
@@ -495,7 +1655,29 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Compañeros, ¿quién será el primero al que hay que adjudicarle? No, ya te digo yo que no lo estamos viendo en los monitores. Pues, Gabriel Rufián, ¿qué pecado crees que...?"
+   "text": "Compañeros, ¿quién será el primero al que hay que adjudicarle? No, ya te digo yo que no lo estamos viendo en los monitores. Pues, Gabriel Rufián, ¿qué pecado crees que...?",
+   "marks": [
+    [
+     0,
+     719.4
+    ],
+    [
+     63,
+     724.2
+    ],
+    [
+     70,
+     725.0
+    ],
+    [
+     124,
+     728.0
+    ],
+    [
+     130,
+     728.4
+    ]
+   ]
   },
   {
    "start": 734.26,
@@ -503,7 +1685,25 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Pecado a Gabriel, se me ocurre que diría el de la gula, porque es como que nos ha puesto la miel en los labios durante más de un año hablando y hablando y prometiendo la unidad de la izquierda y al final se ha ido a cenar solo."
+   "text": "Pecado a Gabriel, se me ocurre que diría el de la gula, porque es como que nos ha puesto la miel en los labios durante más de un año hablando y hablando y prometiendo la unidad de la izquierda y al final se ha ido a cenar solo.",
+   "marks": [
+    [
+     0,
+     734.3
+    ],
+    [
+     56,
+     740.6
+    ],
+    [
+     111,
+     744.6
+    ],
+    [
+     177,
+     748.0
+    ]
+   ]
   },
   {
    "start": 750.92,
@@ -511,7 +1711,53 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "La gula para Gabriel. Siguiente, compañeros. Yolanda Díaz. Mónica García. Vale, pues entonces estáis poniendo cosas detrás y delante. Mónica García. Nos volvemos, nos volvemos. Como si fuera el año 87. Mónica García."
+   "text": "La gula para Gabriel. Siguiente, compañeros. Yolanda Díaz. Mónica García. Vale, pues entonces estáis poniendo cosas detrás y delante. Mónica García. Nos volvemos, nos volvemos. Como si fuera el año 87. Mónica García.",
+   "marks": [
+    [
+     0,
+     750.9
+    ],
+    [
+     22,
+     756.0
+    ],
+    [
+     45,
+     761.2
+    ],
+    [
+     59,
+     763.5
+    ],
+    [
+     74,
+     764.5
+    ],
+    [
+     85,
+     765.3
+    ],
+    [
+     134,
+     768.3
+    ],
+    [
+     149,
+     769.5
+    ],
+    [
+     167,
+     771.1
+    ],
+    [
+     177,
+     771.7
+    ],
+    [
+     202,
+     773.9
+    ]
+   ]
   },
   {
    "start": 775.92,
@@ -519,7 +1765,25 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Yo la verdad es que con mujeres no me gusta hablar de pecados, porque suficiente tenemos las mujeres que estamos en una situación de exposición pública de la República, con lo que nos llegan a decir que entre mujeres feministas la verdad no me gusta hablar de pecados."
+   "text": "Yo la verdad es que con mujeres no me gusta hablar de pecados, porque suficiente tenemos las mujeres que estamos en una situación de exposición pública de la República, con lo que nos llegan a decir que entre mujeres feministas la verdad no me gusta hablar de pecados.",
+   "marks": [
+    [
+     0,
+     775.9
+    ],
+    [
+     54,
+     778.4
+    ],
+    [
+     133,
+     782.0
+    ],
+    [
+     199,
+     786.0
+    ]
+   ]
   },
   {
    "start": 790.18,
@@ -527,7 +1791,41 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Está librada de la mitad ahora, ha hecho ahí. A ver, compañeros, vayamos al siguiente hombre porque es que me ha dicho ahí una... Me la se ha quitado a la mitad, se ha quitado a la mitad. Bueno, pues Irene Montero, después tenemos pregunta para ella. Vamos al siguiente hombre, compañeros."
+   "text": "Está librada de la mitad ahora, ha hecho ahí. A ver, compañeros, vayamos al siguiente hombre porque es que me ha dicho ahí una... Me la se ha quitado a la mitad, se ha quitado a la mitad. Bueno, pues Irene Montero, después tenemos pregunta para ella. Vamos al siguiente hombre, compañeros.",
+   "marks": [
+    [
+     0,
+     790.2
+    ],
+    [
+     46,
+     793.1
+    ],
+    [
+     65,
+     794.3
+    ],
+    [
+     130,
+     799.1
+    ],
+    [
+     178,
+     800.8
+    ],
+    [
+     188,
+     802.6
+    ],
+    [
+     251,
+     805.2
+    ],
+    [
+     257,
+     805.5
+    ]
+   ]
   },
   {
    "start": 806.94,
@@ -535,7 +1833,13 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Venga."
+   "text": "Venga.",
+   "marks": [
+    [
+     0,
+     806.9
+    ]
+   ]
   },
   {
    "start": 808.84,
@@ -543,7 +1847,17 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Pablo Iglesias, me dicen que va a aparecer de aquí a 20 minutos en la pantalla."
+   "text": "Pablo Iglesias, me dicen que va a aparecer de aquí a 20 minutos en la pantalla.",
+   "marks": [
+    [
+     0,
+     808.8
+    ],
+    [
+     56,
+     811.7
+    ]
+   ]
   },
   {
    "start": 815.58,
@@ -551,7 +1865,13 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Un pecado para Pablo Iglesias, ay, pues que no sé,"
+   "text": "Un pecado para Pablo Iglesias, ay, pues que no sé,",
+   "marks": [
+    [
+     0,
+     815.6
+    ]
+   ]
   },
   {
    "start": 827.06,
@@ -559,7 +1879,17 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "No le digan al chiquillo que lo pasan muy malamente los dueños de los bares."
+   "text": "No le digan al chiquillo que lo pasan muy malamente los dueños de los bares.",
+   "marks": [
+    [
+     0,
+     827.1
+    ],
+    [
+     63,
+     829.4
+    ]
+   ]
   },
   {
    "start": 829.98,
@@ -567,7 +1897,25 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "¿Cómo? No sé, porque pueden ser solo los pecados capitales o pecados en general. No, todo lo que tú quieras."
+   "text": "¿Cómo? No sé, porque pueden ser solo los pecados capitales o pecados en general. No, todo lo que tú quieras.",
+   "marks": [
+    [
+     0,
+     830.0
+    ],
+    [
+     7,
+     832.1
+    ],
+    [
+     69,
+     836.0
+    ],
+    [
+     81,
+     836.8
+    ]
+   ]
   },
   {
    "start": 836.92,
@@ -575,7 +1923,13 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Pecados, nos cabe todo."
+   "text": "Pecados, nos cabe todo.",
+   "marks": [
+    [
+     0,
+     836.9
+    ]
+   ]
   },
   {
    "start": 839.14,
@@ -583,7 +1937,41 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Ya. No, hombre, lo he visto un poco exhibicionista, como he ido explicando, que no entraría en el Frente Amplio. Yo lo he visto que iba por los platós y iba explicándolo así como muy... con un cierto exhibicionismo, ¿no? Podríamos decir."
+   "text": "Ya. No, hombre, lo he visto un poco exhibicionista, como he ido explicando, que no entraría en el Frente Amplio. Yo lo he visto que iba por los platós y iba explicándolo así como muy... con un cierto exhibicionismo, ¿no? Podríamos decir.",
+   "marks": [
+    [
+     0,
+     839.1
+    ],
+    [
+     4,
+     840.5
+    ],
+    [
+     64,
+     843.7
+    ],
+    [
+     113,
+     845.9
+    ],
+    [
+     128,
+     846.3
+    ],
+    [
+     186,
+     850.5
+    ],
+    [
+     190,
+     851.0
+    ],
+    [
+     221,
+     852.2
+    ]
+   ]
   },
   {
    "start": 853.02,
@@ -591,7 +1979,13 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Gula, exhibicionismo y vamos con Pedro Sánchez."
+   "text": "Gula, exhibicionismo y vamos con Pedro Sánchez.",
+   "marks": [
+    [
+     0,
+     853.0
+    ]
+   ]
   },
   {
    "start": 859.98,
@@ -599,7 +1993,57 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Aquí lo tengo claro, ¿eh? La pereza. La pereza porque en vivienda, desde que tengo recuerdos, desde los inicios de los 2000 que empecé a hacer política, el Partido Socialista y Pedro Sánchez hablan y hablan de que van a hacer cosas en materia de vivienda y no hay manera. O sea, que tiene una pereza claramente, que dura años y que tiene que haber una ciudadanía organizada y movilizada para conseguir que el Partido Socialista finalmente apruebe decretos que apliquen el derecho a la vivienda. Así que la pereza y en mayúscula."
+   "text": "Aquí lo tengo claro, ¿eh? La pereza. La pereza porque en vivienda, desde que tengo recuerdos, desde los inicios de los 2000 que empecé a hacer política, el Partido Socialista y Pedro Sánchez hablan y hablan de que van a hacer cosas en materia de vivienda y no hay manera. O sea, que tiene una pereza claramente, que dura años y que tiene que haber una ciudadanía organizada y movilizada para conseguir que el Partido Socialista finalmente apruebe decretos que apliquen el derecho a la vivienda. Así que la pereza y en mayúscula.",
+   "marks": [
+    [
+     0,
+     860.0
+    ],
+    [
+     26,
+     863.6
+    ],
+    [
+     37,
+     865.5
+    ],
+    [
+     67,
+     867.2
+    ],
+    [
+     135,
+     870.8
+    ],
+    [
+     207,
+     875.0
+    ],
+    [
+     260,
+     878.1
+    ],
+    [
+     272,
+     878.4
+    ],
+    [
+     326,
+     882.6
+    ],
+    [
+     402,
+     887.1
+    ],
+    [
+     482,
+     891.2
+    ],
+    [
+     495,
+     891.7
+    ]
+   ]
   },
   {
    "start": 894.34,
@@ -607,7 +2051,21 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Y el último, o la última, a ver si hace una excepción, Ada Colau. ¿Qué pecado confiesa Ada Colau?"
+   "text": "Y el último, o la última, a ver si hace una excepción, Ada Colau. ¿Qué pecado confiesa Ada Colau?",
+   "marks": [
+    [
+     0,
+     894.3
+    ],
+    [
+     55,
+     899.0
+    ],
+    [
+     66,
+     899.8
+    ]
+   ]
   },
   {
    "start": 901.62,
@@ -615,7 +2073,17 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Hombre, si puedo elegirlo yo para mí misma, yo elijo la lujuria, es el mejor, ¿no?"
+   "text": "Hombre, si puedo elegirlo yo para mí misma, yo elijo la lujuria, es el mejor, ¿no?",
+   "marks": [
+    [
+     0,
+     901.6
+    ],
+    [
+     65,
+     905.9
+    ]
+   ]
   },
   {
    "start": 908.42,
@@ -623,7 +2091,13 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Y que sea lo que Dios quiera."
+   "text": "Y que sea lo que Dios quiera.",
+   "marks": [
+    [
+     0,
+     908.4
+    ]
+   ]
   }
  ]
 }

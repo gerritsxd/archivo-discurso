@@ -14,7 +14,7 @@
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
   "voiceprint_threshold": 0.65,
-  "processed_at": "2026-10-25T20:11:50+00:00",
+  "processed_at": "2026-10-25T20:59:38+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -47,7 +47,17 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Feijóo ya no pide un pacto para que gobierne el más votado. Si hace falta, gobernará con Vox."
+   "text": "Feijóo ya no pide un pacto para que gobierne el más votado. Si hace falta, gobernará con Vox.",
+   "marks": [
+    [
+     0,
+     0.1
+    ],
+    [
+     60,
+     3.3
+    ]
+   ]
   },
   {
    "start": 5.5,
@@ -55,7 +65,17 @@
    "label": "SPEAKER_02",
    "person": "feijoo",
    "name": "Alberto Núñez Feijóo (PP)",
-   "text": "Si los españoles me mandan completar la mayoría con la tercera fuerza política de mi país, oiga, yo soy un demócrata."
+   "text": "Si los españoles me mandan completar la mayoría con la tercera fuerza política de mi país, oiga, yo soy un demócrata.",
+   "marks": [
+    [
+     0,
+     5.5
+    ],
+    [
+     70,
+     10.9
+    ]
+   ]
   },
   {
    "start": 13.92,
@@ -63,7 +83,29 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Feijóo y Abascal de momento hablan de cómo conseguir una mayoría en el Senado. En un hipotético gobierno, avisa, habrá menos ministerios. El de Igualdad..."
+   "text": "Feijóo y Abascal de momento hablan de cómo conseguir una mayoría en el Senado. En un hipotético gobierno, avisa, habrá menos ministerios. El de Igualdad...",
+   "marks": [
+    [
+     0,
+     13.9
+    ],
+    [
+     68,
+     17.4
+    ],
+    [
+     79,
+     18.0
+    ],
+    [
+     138,
+     21.8
+    ],
+    [
+     144,
+     22.1
+    ]
+   ]
   },
   {
    "start": 22.8,
@@ -71,7 +113,25 @@
    "label": "SPEAKER_02",
    "person": "feijoo",
    "name": "Alberto Núñez Feijóo (PP)",
-   "text": "Lo voy a meter dentro de otros ministerios. Le voy a decir a la ministra o el ministro que lleve Igualdad que se encargue de otras cosas."
+   "text": "Lo voy a meter dentro de otros ministerios. Le voy a decir a la ministra o el ministro que lleve Igualdad que se encargue de otras cosas.",
+   "marks": [
+    [
+     0,
+     22.8
+    ],
+    [
+     44,
+     24.6
+    ],
+    [
+     59,
+     25.1
+    ],
+    [
+     122,
+     27.6
+    ]
+   ]
   },
   {
    "start": 28.2,
@@ -79,7 +139,25 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Reabrirá el debate sobre el aborto de menores de 16 y 17 años que ahora pueden hacerlo sin el consentimiento de sus padres. Estas palabras..."
+   "text": "Reabrirá el debate sobre el aborto de menores de 16 y 17 años que ahora pueden hacerlo sin el consentimiento de sus padres. Estas palabras...",
+   "marks": [
+    [
+     0,
+     28.2
+    ],
+    [
+     57,
+     31.6
+    ],
+    [
+     124,
+     35.2
+    ],
+    [
+     130,
+     35.7
+    ]
+   ]
   },
   {
    "start": 36.38,
@@ -87,7 +165,17 @@
    "label": "SPEAKER_02",
    "person": "feijoo",
    "name": "Alberto Núñez Feijóo (PP)",
-   "text": "Como no voy a ser feminista si me he criado en mi casa con muchas más mujeres que hombres."
+   "text": "Como no voy a ser feminista si me he criado en mi casa con muchas más mujeres que hombres.",
+   "marks": [
+    [
+     0,
+     36.4
+    ],
+    [
+     50,
+     40.5
+    ]
+   ]
   },
   {
    "start": 43.04,
@@ -95,7 +183,37 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Han hecho saltar al presidente del gobierno que le dice que criarse entre mujeres no le hace feminista. Lecciones que, contesta Feijóo, no va a aceptar y le acusa de hacer carrera política con el dinero de la prostitución. Solo se compromete a subirlo si lo acepta la patronal."
+   "text": "Han hecho saltar al presidente del gobierno que le dice que criarse entre mujeres no le hace feminista. Lecciones que, contesta Feijóo, no va a aceptar y le acusa de hacer carrera política con el dinero de la prostitución. Solo se compromete a subirlo si lo acepta la patronal.",
+   "marks": [
+    [
+     0,
+     43.0
+    ],
+    [
+     68,
+     46.5
+    ],
+    [
+     104,
+     48.8
+    ],
+    [
+     142,
+     50.9
+    ],
+    [
+     203,
+     54.3
+    ],
+    [
+     223,
+     58.2
+    ],
+    [
+     268,
+     60.5
+    ]
+   ]
   },
   {
    "start": 61.16,
@@ -103,7 +221,17 @@
    "label": "SPEAKER_02",
    "person": "feijoo",
    "name": "Alberto Núñez Feijóo (PP)",
-   "text": "El compromiso del Partido Popular es reunirme con los sindicatos y con los agentes sociales y pactar el salario mínimo."
+   "text": "El compromiso del Partido Popular es reunirme con los sindicatos y con los agentes sociales y pactar el salario mínimo.",
+   "marks": [
+    [
+     0,
+     61.2
+    ],
+    [
+     71,
+     64.2
+    ]
+   ]
   },
   {
    "start": 66.34,
@@ -111,7 +239,21 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Pero el gobierno ve una trampa. Dice que la patronal solo ha estado a favor de subirlo una vez en los últimos ocho años."
+   "text": "Pero el gobierno ve una trampa. Dice que la patronal solo ha estado a favor de subirlo una vez en los últimos ocho años.",
+   "marks": [
+    [
+     0,
+     66.3
+    ],
+    [
+     32,
+     68.0
+    ],
+    [
+     61,
+     69.5
+    ]
+   ]
   },
   {
    "start": 72.98,
@@ -119,7 +261,17 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "Si lo dejáramos en la mano de la patronal no subiría el salario mínimo, es evidente."
+   "text": "Si lo dejáramos en la mano de la patronal no subiría el salario mínimo, es evidente.",
+   "marks": [
+    [
+     0,
+     73.0
+    ],
+    [
+     56,
+     75.6
+    ]
+   ]
   },
   {
    "start": 76.8,
@@ -127,7 +279,17 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Y recuerdan que el salario mínimo está exento de pagar IRPF después de este lapsus."
+   "text": "Y recuerdan que el salario mínimo está exento de pagar IRPF después de este lapsus.",
+   "marks": [
+    [
+     0,
+     76.8
+    ],
+    [
+     68,
+     80.6
+    ]
+   ]
   },
   {
    "start": 81.78,
@@ -135,7 +297,33 @@
    "label": "SPEAKER_02",
    "person": "feijoo",
    "name": "Alberto Núñez Feijóo (PP)",
-   "text": "¿El salario mínimo está exento? No, no. ¿De IRPF? No, no. Yo estaba exento antes."
+   "text": "¿El salario mínimo está exento? No, no. ¿De IRPF? No, no. Yo estaba exento antes.",
+   "marks": [
+    [
+     0,
+     81.8
+    ],
+    [
+     32,
+     83.3
+    ],
+    [
+     40,
+     83.9
+    ],
+    [
+     50,
+     84.7
+    ],
+    [
+     58,
+     85.2
+    ],
+    [
+     61,
+     85.4
+    ]
+   ]
   },
   {
    "start": 86.72,
@@ -143,7 +331,25 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Volvió a mentir. El salario mínimo en España no tributa. Aunque en la misma entrevista Feijóo ha rectificado."
+   "text": "Volvió a mentir. El salario mínimo en España no tributa. Aunque en la misma entrevista Feijóo ha rectificado.",
+   "marks": [
+    [
+     0,
+     86.7
+    ],
+    [
+     17,
+     88.0
+    ],
+    [
+     57,
+     91.0
+    ],
+    [
+     67,
+     91.4
+    ]
+   ]
   }
  ]
 }

@@ -43,6 +43,19 @@ def load(p):
     return json.loads(Path(p).read_text(encoding="utf-8"))
 
 
+def marks(words, starts, lead):
+    """[[character offset in the turn text, second], ...] at every sentence start and every
+    12 words, from Whisper's word timestamps: lets any quote inside a long turn link to the
+    right second of the source instead of the start of the turn."""
+    out, off = [], -lead
+    for i, (wd, st) in enumerate(zip(words, starts)):
+        prev = words[i - 1].rstrip() if i else ""
+        if i == 0 or prev.endswith((".", "?", "!", "…")) or i % 12 == 0:
+            out.append([max(0, off + len(wd) - len(wd.lstrip())), round(st, 1)])
+        off += len(wd)
+    return out
+
+
 def assemble(iid, meta, w):
     tr, di, ident = load(w / "transcript.json"), load(w / "diarization.json"), load(w / "identity.json")
     words = clean([x for s in tr["segments"] for x in s.get("words", [])])  # drop Whisper artefacts
@@ -58,13 +71,15 @@ def assemble(iid, meta, w):
     speakers = ident["speakers"]
     turns = []
     for b in sm:
-        text = "".join(b[2]).strip()
+        raw = "".join(b[2])
+        text = raw.strip()
         if not text:
             continue
         s = speakers.get(b[0], {})
         turns.append({
             "start": round(b[1], 2), "end": round(end_of[b[3][-1]], 2),
             "label": b[0], "person": s.get("person"), "name": s.get("name", b[0]), "text": text,
+            "marks": marks(b[2], b[3], len(raw) - len(raw.lstrip())),
         })
     return {
         "id": iid,

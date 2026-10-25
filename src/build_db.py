@@ -14,6 +14,9 @@ import sqlite3
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from marks import time_at  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 
 SCHEMA = """
@@ -27,7 +30,7 @@ CREATE TABLE speakers (
 );
 CREATE TABLE turns (
   id INTEGER PRIMARY KEY, item_id TEXT, idx INTEGER, start REAL, end REAL,
-  label TEXT, person TEXT, name TEXT, text TEXT
+  label TEXT, person TEXT, name TEXT, text TEXT, marks TEXT
 );
 CREATE INDEX turns_item ON turns(item_id, idx);
 CREATE INDEX turns_person ON turns(person);
@@ -56,12 +59,11 @@ def quote_candidates(turn, people):
     names = [w for w in p.get("match", []) + [p.get("role", "")] if w]
     give_away = re.compile(r"(" + "|".join(map(re.escape, names)) + r")") if names else None
     sents = [s.strip() for s in SENT.split(turn["text"]) if s.strip()]
-    words_total = max(1, len(turn["text"].split()))
-    dur = max(0.0, turn["end"] - turn["start"])
-    offsets, pos = [], 0  # word offset of each sentence, to estimate its start time
+    offsets, pos = [], 0  # character offset of each sentence: its second comes from the word marks
     for s in sents:
-        offsets.append(pos)
-        pos += len(s.split())
+        pos = turn["text"].find(s, pos)
+        offsets.append(max(pos, 0))
+        pos = max(pos, 0) + len(s)
     out, i = [], 0
     while i < len(sents):
         step = 1
@@ -74,7 +76,7 @@ def quote_candidates(turn, people):
                 break
             if n >= 12 and chunk[:1].isupper():
                 if not (give_away and give_away.search(chunk)):
-                    out.append((round(turn["start"] + dur * offsets[i] / words_total, 1), chunk, n))
+                    out.append((round(time_at(turn.get("marks"), offsets[i], turn["start"]), 1), chunk, n))
                 step = span
                 break
         i += step
@@ -110,10 +112,11 @@ def main():
                     and people[s["person"]].get("kind") == "candidate":
                 matched.add(lab)
         for idx, t in enumerate(it.get("turns", [])):
-            cur = db.execute("INSERT INTO turns (item_id, idx, start, end, label, person, name, text) "
-                             "VALUES (?,?,?,?,?,?,?,?)", (
+            cur = db.execute("INSERT INTO turns (item_id, idx, start, end, label, person, name, text, marks) "
+                             "VALUES (?,?,?,?,?,?,?,?,?)", (
                                  it["id"], idx, t["start"], t["end"], t["label"],
-                                 t.get("person") if t["label"] in matched else None, t.get("name"), t["text"]))
+                                 t.get("person") if t["label"] in matched else None, t.get("name"), t["text"],
+                                 json.dumps(t.get("marks") or [])))
             n_turns += 1
             if t["label"] in matched:
                 for start, text, words in quote_candidates(t, people):
@@ -121,7 +124,9 @@ def main():
                                "VALUES (?,?,?,?,?,?)", (it["id"], cur.lastrowid, t["person"], start, text, words))
                     n_quotes += 1
         n_items += 1
-    db.execute("INSERT INTO turns_fts(rowid, text) SELECT id, text FROM turns WHERE person IS NOT NULL")
+    # every turn is indexed (interviewers and unidentified speakers too): the API searches candidates
+    # by default and everything with ?all=1
+    db.execute("INSERT INTO turns_fts(rowid, text) SELECT id, text FROM turns")
 
     # content scores from score_quotes.py (cached by text), so a rebuild keeps them
     cache_f = Path(args.db).parent / "quote_scores.json"

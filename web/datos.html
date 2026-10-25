@@ -1,0 +1,31 @@
+<article class="prose">
+<p class="kicker">Datos abiertos</p>
+<h1>Todo, sin filtrar.</h1>
+<p class="lede">Lo que ves en la web es una selección. Aquí está la base de datos entera, para que cualquiera pueda comprobar, corregir o reutilizar el trabajo.</p>
+
+<h2>Descargas</h2>
+<p>Se regeneran cada vez que se actualiza el archivo. Licencia <a href="https://creativecommons.org/licenses/by/4.0/deed.es">CC BY 4.0</a>: puedes usarlos para lo que quieras citando «Archivo del discurso político».</p>
+<ul class="dl">
+  <li><a href="datos/archivo.sqlite.gz"><strong>archivo.sqlite.gz</strong></a>: la base de datos completa (SQLite). Todas las intervenciones de todas las apariciones, <strong>también las de periodistas y hablantes sin identificar</strong>, con la decisión de la huella de voz y su similitud; las frases del juego con su puntuación; todas las afirmaciones extraídas, ataques, posibles contradicciones, comprobaciones de atribución y tono.</li>
+  <li><a href="datos/claims.csv"><strong>claims.csv</strong></a>: las afirmaciones (promesas, cifras, ataques, posturas) en una hoja de cálculo, con enlace a la fuente en el segundo exacto.</li>
+  <li><a href="datos/items.tar.gz"><strong>items.tar.gz</strong></a>: un JSON por aparición, tal como lo produce la cadena de procesado.</li>
+  <li><a href="datos/review/"><strong>review/</strong></a>: las revisiones humanas: contradicciones descartadas y por qué, y la muestra de atribución revisada frase a frase.</li>
+  <li><a href="datos/LEEME.txt"><strong>LEEME.txt</strong></a>: qué significa cada tabla y cada columna.</li>
+</ul>
+
+<h2>API</h2>
+<p>Una API de solo lectura en <code>https://gerritsxd.com/discurso/api/</code>, en JSON:</p>
+<ul>
+  <li><code>search?q=vivienda&amp;person=feijoo&amp;all=1</code>: búsqueda de texto completo (<code>all=1</code> incluye a todos los hablantes)</li>
+  <li><code>claims?type=promesa&amp;topic=vivienda&amp;person=sanchez</code>, <code>contradictions</code>, <code>attacks</code>, <code>tone</code>, <code>analysis</code></li>
+  <li><code>item/&lt;id&gt;</code>: una aparición completa; <code>stats</code></li>
+</ul>
+
+<h2>Qué no se publica</h2>
+<ul>
+  <li>Audio y vídeo: son de sus autores; cada frase enlaza al original.</li>
+  <li>Las huellas de voz: son datos biométricos.</li>
+  <li>Las respuestas del juego de hoy (las de días pasados sí).</li>
+</ul>
+<p>El código que genera todo esto, incluidas las instrucciones exactas que recibe el modelo de lenguaje, está en <a href="https://github.com/gerritsxd/archivo-discurso">GitHub</a>.</p>
+</article>

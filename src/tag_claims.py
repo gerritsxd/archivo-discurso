@@ -22,6 +22,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import llm  # noqa: E402
+from marks import time_at  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 DB = ROOT / "data" / "archivo.db"
@@ -83,11 +84,11 @@ def main():
     args = ap.parse_args()
     db = sqlite3.connect(DB)
     people = {r[0]: r[1] for r in db.execute("SELECT DISTINCT person, name FROM turns WHERE person IS NOT NULL")}
-    turns = db.execute("SELECT id, item_id, person, name, start, end, text FROM turns "
+    turns = db.execute("SELECT id, item_id, person, name, start, end, text, marks FROM turns "
                        "WHERE person IS NOT NULL AND length(text) > 60").fetchall()
     cache = json.loads(CACHE.read_text(encoding="utf-8")) if CACHE.exists() else {}
     jobs = {}
-    for tid, iid, person, name, st, en, text in turns:
+    for tid, iid, person, name, st, en, text, mk in turns:
         for off, c in chunks(text):
             k = hashlib.sha1((person + c).encode()).hexdigest()[:16]
             if k not in cache:
@@ -111,8 +112,9 @@ def main():
     db.execute("""CREATE TABLE claims (id INTEGER PRIMARY KEY, item_id TEXT, turn_id INTEGER, person TEXT,
         start REAL, type TEXT, topic TEXT, target TEXT, insult INTEGER, summary TEXT, quote TEXT, entities TEXT)""")
     rows, dropped = [], 0
-    for tid, iid, person, name, st, en, text in turns:
+    for tid, iid, person, name, st, en, text, mk in turns:
         ntext = norm(text)
+        mk = json.loads(mk or "[]")
         for off, c in chunks(text):
             k = hashlib.sha1((person + c).encode()).hexdigest()[:16]
             for a in cache.get(k) or []:
@@ -125,8 +127,10 @@ def main():
                 if typ not in TYPES or pos < 0:   # quote not in the transcript: never publish it
                     dropped += 1
                     continue
-                # approximate second: position of the quote inside the turn
-                t = st + (en - st) * pos / max(len(ntext), 1)
+                # second of the quote: exact from the word marks when its start is found verbatim,
+                # else by its position inside the turn
+                raw = text.find(q[:30])
+                t = time_at(mk, raw, st) if raw >= 0 and mk else st + (en - st) * pos / max(len(ntext), 1)
                 topic = a.get("tema") if a.get("tema") in TOPICS else "otros"
                 rows.append((iid, tid, person, round(t, 1), typ, topic, str(a.get("objetivo") or "")[:80],
                              1 if a.get("insulto") is True else 0, str(a.get("resumen") or "")[:300], q,

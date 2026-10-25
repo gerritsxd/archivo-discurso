@@ -87,7 +87,7 @@
   function readForm() {
     return {
       q: $("q").value.trim(), c: $("c").value, desde: $("desde").value, hasta: $("hasta").value,
-      medio: $("medio").value, tipo: $("tipo").value
+      medio: $("medio").value, tipo: $("tipo").value, todo: $("todo") && $("todo").checked ? "1" : ""
     };
   }
   function writeUrl(f) {
@@ -98,6 +98,7 @@
   }
   function fromUrl() {
     var p = new URLSearchParams(location.search);
+    if ($("todo")) $("todo").checked = p.get("todo") === "1";
     ["q", "c", "desde", "hasta", "medio", "tipo"].forEach(function (k) {
       var v = p.get(k);
       if (v != null && $(k)) $(k).value = v;
@@ -117,7 +118,8 @@
     }
     var my = ++runId;
     status.textContent = "Buscando…";
-    if (!apiDown && !f.medio && !f.tipo) runApi(f, 0, my);
+    if (f.todo && apiDown) { status.textContent = "Buscar en todas las intervenciones necesita el servidor, que no responde ahora."; return; }
+    if (f.todo || (!apiDown && !f.medio && !f.tipo)) runApi(f, 0, my);
     else runStatic(f, my);
   }
 
@@ -126,6 +128,7 @@
     var p = new URLSearchParams();
     if (f.q) p.set("q", f.q);
     if (f.c) p.set("person", f.c);
+    if (f.todo) p.set("all", "1");
     if (f.desde) p.set("from", f.desde);
     if (f.hasta) p.set("to", f.hasta);
     p.set("limit", API_PAGE);
@@ -160,7 +163,9 @@
     // long turns: show a window around the first match
     if (text.length <= 480) return { text: text, cut: false };
     var n = norm(text), at = -1;
-    terms.forEach(function (t) { var i = n.indexOf(t); if (i >= 0 && (at < 0 || i < at)) at = i; });
+    // the whole query first, then the longest words ("autónomos" before "que"), like the server's link time
+    [terms.join(" ")].concat(terms.slice().sort(function (x, y) { return y.length - x.length; }))
+      .some(function (t) { at = n.indexOf(t); return at >= 0; });
     if (at < 0) at = 0;
     var a = Math.max(0, at - 180), b = Math.min(text.length, at + 300);
     if (a > 0) { var sp = text.indexOf(" ", a); if (sp > 0 && sp < at) a = sp + 1; }
@@ -186,8 +191,8 @@
     li.appendChild(bq);
     var who = el("p", "who");
     var pid = String(r.person || "");
-    var a = el("a", null, names[pid] || pid);
-    a.href = "c/" + encodeURIComponent(pid) + ".html";
+    var a = el(pid ? "a" : "span", null, names[pid] || String(r.name || "Hablante sin identificar"));
+    if (pid) a.href = "c/" + encodeURIComponent(pid) + ".html";
     who.appendChild(a);
     li.appendChild(who);
     li.appendChild(el("p", "src", [dateEs(r.date), r.outlet].filter(Boolean).join(" · ")));
@@ -196,7 +201,7 @@
     var exact = href && /([?&]|#)t=\d/.test(href);
     if (href) {
       var s = el("a", null, exact
-        ? "Escuchar en la fuente (min " + clock(r.start) + (sn.cut ? ", inicio de la intervención" : "") + ")"
+        ? "Escuchar en la fuente (min " + clock(r.start) + ")"
         : "Abrir la fuente y buscar el min " + clock(r.start));
       s.href = href; s.rel = "noopener noreferrer"; s.target = "_blank";
       links.appendChild(s);

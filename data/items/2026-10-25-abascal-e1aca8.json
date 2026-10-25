@@ -14,7 +14,7 @@
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
   "voiceprint_threshold": 0.65,
-  "processed_at": "2026-10-25T20:11:55+00:00",
+  "processed_at": "2026-10-25T20:59:43+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -33,7 +33,105 @@
    "label": "SPEAKER_00",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Yo creo firmemente que este gobierno es capaz de cualquier cosa. Y cuando digo cualquier cosa podéis imaginaros lo peor. Creo que ni siquiera imaginando lo peor vais a ser capaces de meteros en la cabeza de un tipo como Sánchez, que no tiene absolutamente ningún límite moral y ningún escrúpulo. Con la cual no nos dirigimos a la derecha, no nos dirigimos a los que fueron votantes de Vox, A los que fueron votantes del PP, nos dirigimos a todos, a los que votaron a Vox, al PP, al PSOE, a Podemos, nosotros no tenemos ningún reproche que hacer a ningún español votase lo que votase en el pasado. Lo que tenemos que hacer es ofrecer a todos ellos y por supuesto a la gente que hace mucho que se abstiene porque no se siente representada por este sistema político y a los que tenemos que respetar en su indignación porque tienen una gigantesca parte de razón. Yo a ellos también les quiero pedir que nos den una oportunidad para cambiar las cosas y para levantar banderas que no son ideológicas, que son banderas del sentido común, que son principios que a todos nos han enseñado en nuestras casas, que eran de unas ideas o de otras, pero que son comunes a la sociedad española y que son los que hoy están en riesgo."
+   "text": "Yo creo firmemente que este gobierno es capaz de cualquier cosa. Y cuando digo cualquier cosa podéis imaginaros lo peor. Creo que ni siquiera imaginando lo peor vais a ser capaces de meteros en la cabeza de un tipo como Sánchez, que no tiene absolutamente ningún límite moral y ningún escrúpulo. Con la cual no nos dirigimos a la derecha, no nos dirigimos a los que fueron votantes de Vox, A los que fueron votantes del PP, nos dirigimos a todos, a los que votaron a Vox, al PP, al PSOE, a Podemos, nosotros no tenemos ningún reproche que hacer a ningún español votase lo que votase en el pasado. Lo que tenemos que hacer es ofrecer a todos ellos y por supuesto a la gente que hace mucho que se abstiene porque no se siente representada por este sistema político y a los que tenemos que respetar en su indignación porque tienen una gigantesca parte de razón. Yo a ellos también les quiero pedir que nos den una oportunidad para cambiar las cosas y para levantar banderas que no son ideológicas, que son banderas del sentido común, que son principios que a todos nos han enseñado en nuestras casas, que eran de unas ideas o de otras, pero que son comunes a la sociedad española y que son los que hoy están en riesgo.",
+   "marks": [
+    [
+     0,
+     8.5
+    ],
+    [
+     65,
+     12.7
+    ],
+    [
+     67,
+     13.0
+    ],
+    [
+     121,
+     16.5
+    ],
+    [
+     142,
+     17.5
+    ],
+    [
+     204,
+     20.8
+    ],
+    [
+     276,
+     24.4
+    ],
+    [
+     296,
+     26.1
+    ],
+    [
+     339,
+     29.2
+    ],
+    [
+     396,
+     33.0
+    ],
+    [
+     457,
+     37.0
+    ],
+    [
+     519,
+     42.3
+    ],
+    [
+     586,
+     45.7
+    ],
+    [
+     597,
+     46.3
+    ],
+    [
+     647,
+     48.5
+    ],
+    [
+     704,
+     51.1
+    ],
+    [
+     771,
+     54.1
+    ],
+    [
+     849,
+     58.4
+    ],
+    [
+     859,
+     58.7
+    ],
+    [
+     907,
+     60.4
+    ],
+    [
+     978,
+     63.8
+    ],
+    [
+     1054,
+     67.6
+    ],
+    [
+     1115,
+     70.1
+    ],
+    [
+     1177,
+     72.9
+    ]
+   ]
   }
  ]
 }

@@ -14,7 +14,7 @@
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
   "voiceprint_threshold": 0.65,
-  "processed_at": "2026-10-25T20:11:56+00:00",
+  "processed_at": "2026-10-25T20:59:43+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -40,7 +40,25 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Ellos trabajan mucho este mecanismo de deshumanizar a los palestinos, son números, 10, 20, 300, cuando la gente escucha, bueno, hoy ya no mueren 400, mueren dos personas y dicen, menos mal, es que no es menos mal,"
+   "text": "Ellos trabajan mucho este mecanismo de deshumanizar a los palestinos, son números, 10, 20, 300, cuando la gente escucha, bueno, hoy ya no mueren 400, mueren dos personas y dicen, menos mal, es que no es menos mal,",
+   "marks": [
+    [
+     0,
+     0.0
+    ],
+    [
+     83,
+     4.3
+    ],
+    [
+     145,
+     10.0
+    ],
+    [
+     203,
+     14.3
+    ]
+   ]
   },
   {
    "start": 15.1,
@@ -48,7 +66,13 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "es terrible igualmente,"
+   "text": "es terrible igualmente,",
+   "marks": [
+    [
+     0,
+     15.1
+    ]
+   ]
   },
   {
    "start": 17.4,
@@ -56,7 +80,77 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "entonces tenemos que seguir presionando para ello. Y la verdad, consiguieron tener un bloqueo mediático total sobre lo que pasa ahí, desde el alto de fuego, consiguieron desviar la atención con el tema de Irán y otros asuntos, y consiguieron también un poco que las personas que salieron en las manifestaciones masivas, que no están implicadas en activismo, militancia y tal, que viven el día a día, Ya no podían seguir en silencio en frente a todos los crímenes en pensar que ya está, que hay proceso de paz, que está todo controlado y no es nuevo este mecanismo. Si volvemos atrás, los propios acuerdos de Oslo, de paz, es el mismo mecanismo. Se anunció el acuerdo de Oslo por todo lo que hizo durante la primera entifada. El propio Rabin, que fue premiado con el premio de Nobel por haber firmado los acuerdos de paz, triplicó el número de colonos y asentamientos en Cisjordania."
+   "text": "entonces tenemos que seguir presionando para ello. Y la verdad, consiguieron tener un bloqueo mediático total sobre lo que pasa ahí, desde el alto de fuego, consiguieron desviar la atención con el tema de Irán y otros asuntos, y consiguieron también un poco que las personas que salieron en las manifestaciones masivas, que no están implicadas en activismo, militancia y tal, que viven el día a día, Ya no podían seguir en silencio en frente a todos los crímenes en pensar que ya está, que hay proceso de paz, que está todo controlado y no es nuevo este mecanismo. Si volvemos atrás, los propios acuerdos de Oslo, de paz, es el mismo mecanismo. Se anunció el acuerdo de Oslo por todo lo que hizo durante la primera entifada. El propio Rabin, que fue premiado con el premio de Nobel por haber firmado los acuerdos de paz, triplicó el número de colonos y asentamientos en Cisjordania.",
+   "marks": [
+    [
+     0,
+     17.4
+    ],
+    [
+     51,
+     20.0
+    ],
+    [
+     83,
+     23.2
+    ],
+    [
+     147,
+     28.1
+    ],
+    [
+     212,
+     33.7
+    ],
+    [
+     288,
+     40.4
+    ],
+    [
+     371,
+     46.9
+    ],
+    [
+     423,
+     50.5
+    ],
+    [
+     486,
+     54.3
+    ],
+    [
+     543,
+     59.4
+    ],
+    [
+     565,
+     61.4
+    ],
+    [
+     617,
+     65.3
+    ],
+    [
+     645,
+     67.2
+    ],
+    [
+     679,
+     70.1
+    ],
+    [
+     725,
+     72.2
+    ],
+    [
+     746,
+     73.9
+    ],
+    [
+     813,
+     77.4
+    ]
+   ]
   },
   {
    "start": 83.6,
@@ -64,7 +158,13 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "Buenas Saif, ¿cómo estás?"
+   "text": "Buenas Saif, ¿cómo estás?",
+   "marks": [
+    [
+     0,
+     83.6
+    ]
+   ]
   },
   {
    "start": 111.02,
@@ -72,7 +172,13 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Bien, un poco cansado."
+   "text": "Bien, un poco cansado.",
+   "marks": [
+    [
+     0,
+     111.0
+    ]
+   ]
   },
   {
    "start": 113.34,
@@ -80,7 +186,13 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "De tantos viajes, ¿no?"
+   "text": "De tantos viajes, ¿no?",
+   "marks": [
+    [
+     0,
+     113.3
+    ]
+   ]
   },
   {
    "start": 115.02,
@@ -88,7 +200,29 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "De tantos viajes y no he podido parar desde la primavera. Bueno, realmente desde el año pasado llevamos a un ritmo, pero bueno, es lo que hay que hacer ahora. Total."
+   "text": "De tantos viajes y no he podido parar desde la primavera. Bueno, realmente desde el año pasado llevamos a un ritmo, pero bueno, es lo que hay que hacer ahora. Total.",
+   "marks": [
+    [
+     0,
+     115.0
+    ],
+    [
+     58,
+     119.3
+    ],
+    [
+     65,
+     119.5
+    ],
+    [
+     131,
+     123.9
+    ],
+    [
+     159,
+     124.7
+    ]
+   ]
   },
   {
    "start": 125.64,
@@ -96,7 +230,101 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "Saif, tú eres uno de los impulsores de la Global Sumud Flotilla, primero de la Marcha Gaza, después de la primera edición, también de la segunda edición. Te has hecho muy conocido en nuestro país porque fuiste junto a Tiago Ávila, una de las dos personas que estuvo más tiempo secuestrada por el Estado terrorista de Israel en la última flotilla, la que se produjo en la primavera del año 2026. En 2016 estuvimos muy preocupadas por ti, tengo que decirlo, porque a pesar de que tienes nacionalidad española, todo el mundo sabe que eso para el Estado genocida no significa absolutamente nada. Tu vida estuvo en riesgo, yo lo pienso así. Yo quería hacer esta entrevista para, en primer lugar, darte las gracias por tu compromiso, por todo lo que nos has enseñado tú y lo que nos ha enseñado tu pueblo, la importancia de resistir incluso en los momentos más difíciles. Y a mí me gustaría mucho que la gente te conociera un poquito más. Así que, en primer lugar, quería preguntarte cómo empiezas tú a tomar conciencia de lo que le están haciendo a tu pueblo y a luchar por sus derechos."
+   "text": "Saif, tú eres uno de los impulsores de la Global Sumud Flotilla, primero de la Marcha Gaza, después de la primera edición, también de la segunda edición. Te has hecho muy conocido en nuestro país porque fuiste junto a Tiago Ávila, una de las dos personas que estuvo más tiempo secuestrada por el Estado terrorista de Israel en la última flotilla, la que se produjo en la primavera del año 2026. En 2016 estuvimos muy preocupadas por ti, tengo que decirlo, porque a pesar de que tienes nacionalidad española, todo el mundo sabe que eso para el Estado genocida no significa absolutamente nada. Tu vida estuvo en riesgo, yo lo pienso así. Yo quería hacer esta entrevista para, en primer lugar, darte las gracias por tu compromiso, por todo lo que nos has enseñado tú y lo que nos ha enseñado tu pueblo, la importancia de resistir incluso en los momentos más difíciles. Y a mí me gustaría mucho que la gente te conociera un poquito más. Así que, en primer lugar, quería preguntarte cómo empiezas tú a tomar conciencia de lo que le están haciendo a tu pueblo y a luchar por sus derechos.",
+   "marks": [
+    [
+     0,
+     125.6
+    ],
+    [
+     65,
+     129.6
+    ],
+    [
+     134,
+     133.6
+    ],
+    [
+     154,
+     135.4
+    ],
+    [
+     203,
+     138.3
+    ],
+    [
+     266,
+     142.8
+    ],
+    [
+     337,
+     146.4
+    ],
+    [
+     395,
+     150.2
+    ],
+    [
+     398,
+     150.5
+    ],
+    [
+     471,
+     154.5
+    ],
+    [
+     540,
+     158.6
+    ],
+    [
+     592,
+     162.3
+    ],
+    [
+     618,
+     163.7
+    ],
+    [
+     636,
+     165.3
+    ],
+    [
+     684,
+     167.7
+    ],
+    [
+     748,
+     171.5
+    ],
+    [
+     803,
+     174.7
+    ],
+    [
+     866,
+     178.2
+    ],
+    [
+     873,
+     179.1
+    ],
+    [
+     933,
+     182.0
+    ],
+    [
+     937,
+     182.1
+    ],
+    [
+     1014,
+     187.2
+    ],
+    [
+     1065,
+     189.9
+    ]
+   ]
   },
   {
    "start": 191.58,
@@ -104,7 +332,77 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Bueno, yo nací en Palestina, nací en un campo de refugiados. Mis dos padres son militantes, los dos fueron, bueno, pasaron muchos años en los cárceles israelíes. Yo recuerdo la primera entifada de niño, cogiendo el vestido de mi madre mientras que ella lideraba las manifestaciones de las mujeres y tal, yendo con ella que estaba dando clases a las personas mayores para que abren. Entonces crecí en un ambiente muy involucrado en la sociedad palestina, muchas actividades en los campos de refugiados, también mi padre trabajaba en el comité popular del campo de refugiados de Askar para hacer servicios y ayudar a las personas. Crescí en los movimientos juveniles en Palestina. En 2000 fui disparado en la cara en una manifestación en apoyo a los presos palestinos que estaban en huelga pocos meses antes del inicio de la segunda intifada."
+   "text": "Bueno, yo nací en Palestina, nací en un campo de refugiados. Mis dos padres son militantes, los dos fueron, bueno, pasaron muchos años en los cárceles israelíes. Yo recuerdo la primera entifada de niño, cogiendo el vestido de mi madre mientras que ella lideraba las manifestaciones de las mujeres y tal, yendo con ella que estaba dando clases a las personas mayores para que abren. Entonces crecí en un ambiente muy involucrado en la sociedad palestina, muchas actividades en los campos de refugiados, también mi padre trabajaba en el comité popular del campo de refugiados de Askar para hacer servicios y ayudar a las personas. Crescí en los movimientos juveniles en Palestina. En 2000 fui disparado en la cara en una manifestación en apoyo a los presos palestinos que estaban en huelga pocos meses antes del inicio de la segunda intifada.",
+   "marks": [
+    [
+     0,
+     191.6
+    ],
+    [
+     61,
+     196.0
+    ],
+    [
+     65,
+     196.4
+    ],
+    [
+     138,
+     204.1
+    ],
+    [
+     162,
+     206.3
+    ],
+    [
+     215,
+     209.8
+    ],
+    [
+     289,
+     214.0
+    ],
+    [
+     349,
+     218.9
+    ],
+    [
+     382,
+     220.3
+    ],
+    [
+     428,
+     224.9
+    ],
+    [
+     510,
+     229.0
+    ],
+    [
+     577,
+     233.1
+    ],
+    [
+     629,
+     237.8
+    ],
+    [
+     643,
+     239.1
+    ],
+    [
+     679,
+     241.6
+    ],
+    [
+     715,
+     245.6
+    ],
+    [
+     788,
+     250.5
+    ]
+   ]
   },
   {
    "start": 253.52,
@@ -112,7 +410,13 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "Vamos, que casi te matan."
+   "text": "Vamos, que casi te matan.",
+   "marks": [
+    [
+     0,
+     253.5
+    ]
+   ]
   },
   {
    "start": 254.56,
@@ -120,7 +424,121 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Sí, sí. Entonces, para mí cuando llegué aquí, no es que tuve que iniciar un ciclo de activismo, era seguir trabajando por Palestina, por la libertad de mi pueblo, de otra forma. Y la verdad aprendí mucho aquí, aprendí de las otras causas que existen, de las otras luchas, aprendí también de cómo nuestra lucha diaria aquí por trabajo, por cómo los políticos y los gobiernos nos implican en los crímenes que pasan fuera de nuestro territorio. Muchas veces pensamos lo que pasa en Congo, lo que pasa en Sudán, lo que pasa en Palestina, en el Líbano, en Cuba, en Venezuela, no tiene nada que ver con nosotros, que está lejos, pero lo que aprendí en mis años aquí que no lo es, que es una estructura de represión que nos impacta y tiene los mismos mecanismos de represión, puede ser más violenta o menos en un sitio u otro, pero al final es un concepto común. Y ahora, cuando yo llegué aquí, la verdad, la sensación de pensar en el futuro no lo tenía, porque en Palestina la segunda entifada era disparar y matar. Salimos de una manifestación en Nablus y volvemos con 50 muertos o más. Y llegué aquí para empezar a ver cómo la gente piensa en el futuro, cómo ve el mundo de otra manera. Y lo que tengo hoy es muy diferente la motivación al que yo tenía hace 15 años o algo así, por ejemplo, o 20 años cuando llegué."
+   "text": "Sí, sí. Entonces, para mí cuando llegué aquí, no es que tuve que iniciar un ciclo de activismo, era seguir trabajando por Palestina, por la libertad de mi pueblo, de otra forma. Y la verdad aprendí mucho aquí, aprendí de las otras causas que existen, de las otras luchas, aprendí también de cómo nuestra lucha diaria aquí por trabajo, por cómo los políticos y los gobiernos nos implican en los crímenes que pasan fuera de nuestro territorio. Muchas veces pensamos lo que pasa en Congo, lo que pasa en Sudán, lo que pasa en Palestina, en el Líbano, en Cuba, en Venezuela, no tiene nada que ver con nosotros, que está lejos, pero lo que aprendí en mis años aquí que no lo es, que es una estructura de represión que nos impacta y tiene los mismos mecanismos de represión, puede ser más violenta o menos en un sitio u otro, pero al final es un concepto común. Y ahora, cuando yo llegué aquí, la verdad, la sensación de pensar en el futuro no lo tenía, porque en Palestina la segunda entifada era disparar y matar. Salimos de una manifestación en Nablus y volvemos con 50 muertos o más. Y llegué aquí para empezar a ver cómo la gente piensa en el futuro, cómo ve el mundo de otra manera. Y lo que tengo hoy es muy diferente la motivación al que yo tenía hace 15 años o algo así, por ejemplo, o 20 años cuando llegué.",
+   "marks": [
+    [
+     0,
+     254.6
+    ],
+    [
+     8,
+     257.3
+    ],
+    [
+     61,
+     264.5
+    ],
+    [
+     137,
+     269.9
+    ],
+    [
+     178,
+     272.6
+    ],
+    [
+     198,
+     275.3
+    ],
+    [
+     264,
+     279.7
+    ],
+    [
+     339,
+     287.5
+    ],
+    [
+     407,
+     294.7
+    ],
+    [
+     442,
+     296.4
+    ],
+    [
+     479,
+     299.4
+    ],
+    [
+     537,
+     302.0
+    ],
+    [
+     597,
+     305.0
+    ],
+    [
+     660,
+     308.7
+    ],
+    [
+     717,
+     312.1
+    ],
+    [
+     792,
+     316.9
+    ],
+    [
+     840,
+     319.8
+    ],
+    [
+     856,
+     323.4
+    ],
+    [
+     912,
+     328.1
+    ],
+    [
+     971,
+     331.6
+    ],
+    [
+     1010,
+     337.4
+    ],
+    [
+     1049,
+     339.3
+    ],
+    [
+     1082,
+     342.8
+    ],
+    [
+     1109,
+     344.7
+    ],
+    [
+     1161,
+     347.8
+    ],
+    [
+     1183,
+     351.2
+    ],
+    [
+     1219,
+     355.3
+    ],
+    [
+     1274,
+     360.5
+    ]
+   ]
   },
   {
    "start": 362.68,
@@ -128,7 +546,13 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "Tengo tres niños, como sabes,"
+   "text": "Tengo tres niños, como sabes,",
+   "marks": [
+    [
+     0,
+     362.7
+    ]
+   ]
   },
   {
    "start": 364.98,
@@ -136,7 +560,17 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "y no quiero nada más en esta vida, es tener un futuro más seguro para ellos, un"
+   "text": "y no quiero nada más en esta vida, es tener un futuro más seguro para ellos, un",
+   "marks": [
+    [
+     0,
+     365.0
+    ],
+    [
+     54,
+     371.8
+    ]
+   ]
   },
   {
    "start": 373.12,
@@ -144,7 +578,13 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "futuro más justo."
+   "text": "futuro más justo.",
+   "marks": [
+    [
+     0,
+     373.1
+    ]
+   ]
   },
   {
    "start": 374.98,
@@ -152,7 +592,13 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Entonces también tengo una motivación más allá."
+   "text": "Entonces también tengo una motivación más allá.",
+   "marks": [
+    [
+     0,
+     375.0
+    ]
+   ]
   },
   {
    "start": 379.58,
@@ -160,7 +606,33 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "¿Vosotros lanzáis esta iniciativa de la Global Sumo Flotilla? ¿Cuál es el objetivo? Cuando empezáis con este, que entiendo que tiene como objetivo romper el bloqueo al criminal al que están sometiendo a la Franja de Gaza."
+   "text": "¿Vosotros lanzáis esta iniciativa de la Global Sumo Flotilla? ¿Cuál es el objetivo? Cuando empezáis con este, que entiendo que tiene como objetivo romper el bloqueo al criminal al que están sometiendo a la Franja de Gaza.",
+   "marks": [
+    [
+     0,
+     379.6
+    ],
+    [
+     62,
+     383.0
+    ],
+    [
+     74,
+     383.8
+    ],
+    [
+     84,
+     384.3
+    ],
+    [
+     154,
+     389.0
+    ],
+    [
+     216,
+     392.0
+    ]
+   ]
   },
   {
    "start": 392.28,
@@ -168,7 +640,85 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Sí, tenemos, como cualquier actividad, hay diferentes objetivos. Nuestro objetivo de poder llegar a las propias playas de Gaza es una parte de una serie de objetivos en el contexto que estamos viviendo hoy del genocidio, de la complicidad de los diferentes países que mantienen el genocidio. Entonces, primero utilizar los mecanismos de privilegio europeo blanco que tenemos para enfrentar a los crímenes de Israel, para exponer la complejidad de Grecia que hemos visto, la complejidad de Italia, la complejidad de la Unión Europea en general, forma parte de ello. Estuvimos ahora charlando antes de empezar sobre cómo silenciaron la comunicación, las noticias sobre Palestina. Entonces volver a poner Palestina sobre la mesa, utilizar lo que pasa con nosotros para exponer lo que pasa en los cárceles palestinos, las violaciones que comete Israel, todo esto forma parte de los objetivos. Hemos visto hace dos días que la Fiscalía Italiana anunció que va a abrir investigación sobre diferentes responsables israelíes."
+   "text": "Sí, tenemos, como cualquier actividad, hay diferentes objetivos. Nuestro objetivo de poder llegar a las propias playas de Gaza es una parte de una serie de objetivos en el contexto que estamos viviendo hoy del genocidio, de la complicidad de los diferentes países que mantienen el genocidio. Entonces, primero utilizar los mecanismos de privilegio europeo blanco que tenemos para enfrentar a los crímenes de Israel, para exponer la complejidad de Grecia que hemos visto, la complejidad de Italia, la complejidad de la Unión Europea en general, forma parte de ello. Estuvimos ahora charlando antes de empezar sobre cómo silenciaron la comunicación, las noticias sobre Palestina. Entonces volver a poner Palestina sobre la mesa, utilizar lo que pasa con nosotros para exponer lo que pasa en los cárceles palestinos, las violaciones que comete Israel, todo esto forma parte de los objetivos. Hemos visto hace dos días que la Fiscalía Italiana anunció que va a abrir investigación sobre diferentes responsables israelíes.",
+   "marks": [
+    [
+     0,
+     392.3
+    ],
+    [
+     65,
+     398.7
+    ],
+    [
+     91,
+     403.1
+    ],
+    [
+     147,
+     407.8
+    ],
+    [
+     221,
+     413.6
+    ],
+    [
+     292,
+     419.1
+    ],
+    [
+     302,
+     419.5
+    ],
+    [
+     390,
+     427.7
+    ],
+    [
+     458,
+     431.9
+    ],
+    [
+     532,
+     435.8
+    ],
+    [
+     565,
+     439.6
+    ],
+    [
+     608,
+     441.6
+    ],
+    [
+     678,
+     447.2
+    ],
+    [
+     696,
+     448.0
+    ],
+    [
+     766,
+     453.4
+    ],
+    [
+     841,
+     458.2
+    ],
+    [
+     889,
+     461.4
+    ],
+    [
+     910,
+     462.3
+    ],
+    [
+     983,
+     467.6
+    ]
+   ]
   },
   {
    "start": 469.6,
@@ -176,7 +726,13 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "Entonces, también, exactamente,"
+   "text": "Entonces, también, exactamente,",
+   "marks": [
+    [
+     0,
+     469.6
+    ]
+   ]
   },
   {
    "start": 473.02,
@@ -184,7 +740,41 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "lo que pasó en Turquía, el orden de detención, ahora esta semana se van a llevar a juicio a Netanyahu y diferentes políticos israelíes, representantes del gobierno. Yo creo que todo eso trabajó porque sentimos que tenemos que forzar una actuación por parte de los gobiernos, cuando es su obligación proteger a las personas, los civiles, es su obligación imponer los derechos humanos, es su obligación varar los crímenes, el genocidio, que no solamente en Palestina, en diferentes sitios."
+   "text": "lo que pasó en Turquía, el orden de detención, ahora esta semana se van a llevar a juicio a Netanyahu y diferentes políticos israelíes, representantes del gobierno. Yo creo que todo eso trabajó porque sentimos que tenemos que forzar una actuación por parte de los gobiernos, cuando es su obligación proteger a las personas, los civiles, es su obligación imponer los derechos humanos, es su obligación varar los crímenes, el genocidio, que no solamente en Palestina, en diferentes sitios.",
+   "marks": [
+    [
+     0,
+     473.0
+    ],
+    [
+     65,
+     477.7
+    ],
+    [
+     136,
+     484.3
+    ],
+    [
+     165,
+     485.3
+    ],
+    [
+     214,
+     492.5
+    ],
+    [
+     285,
+     499.1
+    ],
+    [
+     362,
+     504.8
+    ],
+    [
+     439,
+     509.6
+    ]
+   ]
   },
   {
    "start": 513.06,
@@ -192,7 +782,21 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "¿Cómo viviste todo el proceso de participar en la flotilla? ¿Tú personalmente, el secuestro, todo lo que os pasó en las cárceles israelíes?"
+   "text": "¿Cómo viviste todo el proceso de participar en la flotilla? ¿Tú personalmente, el secuestro, todo lo que os pasó en las cárceles israelíes?",
+   "marks": [
+    [
+     0,
+     513.1
+    ],
+    [
+     60,
+     517.8
+    ],
+    [
+     79,
+     518.7
+    ]
+   ]
   },
   {
    "start": 523.1,
@@ -200,7 +804,17 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Sí, yo sabía desde el año pasado que ya se han fijado bastante en mi"
+   "text": "Sí, yo sabía desde el año pasado que ya se han fijado bastante en mi",
+   "marks": [
+    [
+     0,
+     523.1
+    ],
+    [
+     54,
+     527.2
+    ]
+   ]
   },
   {
    "start": 528.18,
@@ -208,7 +822,13 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "participación."
+   "text": "participación.",
+   "marks": [
+    [
+     0,
+     528.2
+    ]
+   ]
   },
   {
    "start": 529.0,
@@ -216,7 +836,53 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Hubo una campaña de difamación y acusación falsa desde el año pasado. Entonces, sabiendo cómo funciona el Estado terrorista, cómo actúan contra los palestinos, No era estratégico para mí llegar hasta RATCAP porque me voy a perder todo lo que aporto al espacio y al movimiento y el trabajo que puede hacer. Entonces no planificaba ir hasta el final pero quería participar con los compañeros, quería las acciones en mar que hemos hecho desde cuando salimos de Barcelona hacia Italia para también exponer la ruta del genocidio. Entonces, a mí me sorprendió la intercepción, la verdad, no estuve"
+   "text": "Hubo una campaña de difamación y acusación falsa desde el año pasado. Entonces, sabiendo cómo funciona el Estado terrorista, cómo actúan contra los palestinos, No era estratégico para mí llegar hasta RATCAP porque me voy a perder todo lo que aporto al espacio y al movimiento y el trabajo que puede hacer. Entonces no planificaba ir hasta el final pero quería participar con los compañeros, quería las acciones en mar que hemos hecho desde cuando salimos de Barcelona hacia Italia para también exponer la ruta del genocidio. Entonces, a mí me sorprendió la intercepción, la verdad, no estuve",
+   "marks": [
+    [
+     0,
+     529.0
+    ],
+    [
+     70,
+     535.9
+    ],
+    [
+     160,
+     542.9
+    ],
+    [
+     223,
+     549.0
+    ],
+    [
+     281,
+     552.9
+    ],
+    [
+     306,
+     554.0
+    ],
+    [
+     353,
+     557.3
+    ],
+    [
+     428,
+     563.6
+    ],
+    [
+     505,
+     568.4
+    ],
+    [
+     525,
+     570.6
+    ],
+    [
+     582,
+     574.4
+    ]
+   ]
   },
   {
    "start": 575.54,
@@ -224,7 +890,13 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "preparado para ello."
+   "text": "preparado para ello.",
+   "marks": [
+    [
+     0,
+     575.5
+    ]
+   ]
   },
   {
    "start": 576.34,
@@ -232,7 +904,13 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Bueno, es que"
+   "text": "Bueno, es que",
+   "marks": [
+    [
+     0,
+     576.3
+    ]
+   ]
   },
   {
    "start": 576.34,
@@ -240,7 +918,41 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "se metieron hasta la cocina de Europa, claro, o sea, yo creo que no sé si todo el mundo es consciente de que metieron a la Armada israelí hasta el corazón de Europa para secuestrar un barco con ayuda humanitaria. O sea, que es una violación del derecho internacional que cada vez va a más, ¿no? Cada vez rompe más líneas rojas."
+   "text": "se metieron hasta la cocina de Europa, claro, o sea, yo creo que no sé si todo el mundo es consciente de que metieron a la Armada israelí hasta el corazón de Europa para secuestrar un barco con ayuda humanitaria. O sea, que es una violación del derecho internacional que cada vez va a más, ¿no? Cada vez rompe más líneas rojas.",
+   "marks": [
+    [
+     0,
+     576.3
+    ],
+    [
+     61,
+     579.9
+    ],
+    [
+     118,
+     583.0
+    ],
+    [
+     184,
+     586.9
+    ],
+    [
+     213,
+     588.8
+    ],
+    [
+     253,
+     590.7
+    ],
+    [
+     295,
+     593.3
+    ],
+    [
+     314,
+     595.0
+    ]
+   ]
   },
   {
    "start": 595.74,
@@ -248,7 +960,17 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Sí, y nos hizo preguntar de una manera seria sobre la soberanía de nuestro mar, sobre la participación de los países europeos en el"
+   "text": "Sí, y nos hizo preguntar de una manera seria sobre la soberanía de nuestro mar, sobre la participación de los países europeos en el",
+   "marks": [
+    [
+     0,
+     595.7
+    ],
+    [
+     64,
+     601.0
+    ]
+   ]
   },
   {
    "start": 607.46,
@@ -256,7 +978,13 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "genocidio de una manera activa,"
+   "text": "genocidio de una manera activa,",
+   "marks": [
+    [
+     0,
+     607.5
+    ]
+   ]
   },
   {
    "start": 609.02,
@@ -264,7 +992,33 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "porque es que no están en la zona de combate, como ellas anuncian, cerca de Gaza, que es una zona más bloqueada, sino han llegado a mil kilómetros lejos de Palestina. Entonces, y sin ninguna causa, porque nosotros estuvimos yendo a Grecia, sin ninguna actuación por nuestra parte que les impacta a ellos."
+   "text": "porque es que no están en la zona de combate, como ellas anuncian, cerca de Gaza, que es una zona más bloqueada, sino han llegado a mil kilómetros lejos de Palestina. Entonces, y sin ninguna causa, porque nosotros estuvimos yendo a Grecia, sin ninguna actuación por nuestra parte que les impacta a ellos.",
+   "marks": [
+    [
+     0,
+     609.0
+    ],
+    [
+     57,
+     612.4
+    ],
+    [
+     122,
+     619.4
+    ],
+    [
+     167,
+     623.6
+    ],
+    [
+     198,
+     626.1
+    ],
+    [
+     280,
+     632.4
+    ]
+   ]
   },
   {
    "start": 634.52,
@@ -272,7 +1026,13 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "Totalmente."
+   "text": "Totalmente.",
+   "marks": [
+    [
+     0,
+     634.5
+    ]
+   ]
   },
   {
    "start": 635.28,
@@ -280,7 +1040,17 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Y además nos hemos realizado llamadas a Grecia solicitando ayuda y protección y no actuaron."
+   "text": "Y además nos hemos realizado llamadas a Grecia solicitando ayuda y protección y no actuaron.",
+   "marks": [
+    [
+     0,
+     635.3
+    ],
+    [
+     78,
+     642.9
+    ]
+   ]
   },
   {
    "start": 643.88,
@@ -288,7 +1058,13 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "No hubo respuesta."
+   "text": "No hubo respuesta.",
+   "marks": [
+    [
+     0,
+     643.9
+    ]
+   ]
   },
   {
    "start": 645.32,
@@ -296,7 +1072,49 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Entraron con nosotros en el barco, en aguas territoriales para desembarcar al resto de las personas. Salieron de las aguas territoriales conmigo y con Thiago secuestrados, otro tipo de violación, y luego nos cambiaron de barco en mitad del mar a otro barco militar para llevarnos a la cárcel. Yo, el primer pensamiento que tuve, que ya está, que no voy a salir, al día siguiente, yo, fue el día 29 por la noche, la intercepción de nuestro barco, el día siguiente, el día 30, el cumpleaños de mi hija."
+   "text": "Entraron con nosotros en el barco, en aguas territoriales para desembarcar al resto de las personas. Salieron de las aguas territoriales conmigo y con Thiago secuestrados, otro tipo de violación, y luego nos cambiaron de barco en mitad del mar a otro barco militar para llevarnos a la cárcel. Yo, el primer pensamiento que tuve, que ya está, que no voy a salir, al día siguiente, yo, fue el día 29 por la noche, la intercepción de nuestro barco, el día siguiente, el día 30, el cumpleaños de mi hija.",
+   "marks": [
+    [
+     0,
+     645.3
+    ],
+    [
+     78,
+     649.5
+    ],
+    [
+     101,
+     650.3
+    ],
+    [
+     151,
+     653.6
+    ],
+    [
+     227,
+     660.1
+    ],
+    [
+     285,
+     665.8
+    ],
+    [
+     293,
+     666.2
+    ],
+    [
+     349,
+     672.8
+    ],
+    [
+     402,
+     677.7
+    ],
+    [
+     471,
+     681.3
+    ]
+   ]
   },
   {
    "start": 682.84,
@@ -304,7 +1122,17 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "¿El 30 de? El"
+   "text": "¿El 30 de? El",
+   "marks": [
+    [
+     0,
+     682.8
+    ],
+    [
+     11,
+     683.8
+    ]
+   ]
   },
   {
    "start": 684.22,
@@ -312,7 +1140,13 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "30 de abril."
+   "text": "30 de abril.",
+   "marks": [
+    [
+     0,
+     684.2
+    ]
+   ]
   },
   {
    "start": 684.94,
@@ -320,7 +1154,13 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "El 30 de abril es el cumpleaños de mi hija también."
+   "text": "El 30 de abril es el cumpleaños de mi hija también.",
+   "marks": [
+    [
+     0,
+     684.9
+    ]
+   ]
   },
   {
    "start": 687.66,
@@ -328,7 +1168,21 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Pues fíjate, entonces este para mí, no sé si es un proceso psicológico, pero lo que más me ha afectado, es decir, estuve en un momento de shock porque"
+   "text": "Pues fíjate, entonces este para mí, no sé si es un proceso psicológico, pero lo que más me ha afectado, es decir, estuve en un momento de shock porque",
+   "marks": [
+    [
+     0,
+     687.7
+    ],
+    [
+     59,
+     693.6
+    ],
+    [
+     124,
+     697.9
+    ]
+   ]
   },
   {
    "start": 700.28,
@@ -336,7 +1190,13 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "no lo esperaba,"
+   "text": "no lo esperaba,",
+   "marks": [
+    [
+     0,
+     700.3
+    ]
+   ]
   },
   {
    "start": 701.66,
@@ -344,7 +1204,33 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "pero lo que más me impactó y la verdad ya llevé varios días pensando en ello, es que voy a perder su cumpleaños, no voy a poder hablar con ella, por la mañana estuve hablando con ella, Yo les dije que les iba a llamar mañana por su cumple y tal, entonces la verdad es lo que más me dolió durante todo el tiempo, es sentir que le tradicioné, he faltado una"
+   "text": "pero lo que más me impactó y la verdad ya llevé varios días pensando en ello, es que voy a perder su cumpleaños, no voy a poder hablar con ella, por la mañana estuve hablando con ella, Yo les dije que les iba a llamar mañana por su cumple y tal, entonces la verdad es lo que más me dolió durante todo el tiempo, es sentir que le tradicioné, he faltado una",
+   "marks": [
+    [
+     0,
+     701.7
+    ],
+    [
+     55,
+     706.8
+    ],
+    [
+     116,
+     712.0
+    ],
+    [
+     179,
+     716.1
+    ],
+    [
+     232,
+     719.6
+    ],
+    [
+     288,
+     725.0
+    ]
+   ]
   },
   {
    "start": 733.22,
@@ -352,7 +1238,13 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "responsabilidad principal, que"
+   "text": "responsabilidad principal, que",
+   "marks": [
+    [
+     0,
+     733.2
+    ]
+   ]
   },
   {
    "start": 734.96,
@@ -360,7 +1252,101 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "no pude esperar en el día y ya es un día que le gusta celebrar y es un día muy alegre, entonces me faltó. Y luego en este proceso lo que más también pensaba con la gente es hacer llegar mensajes a mis hijos, porque una de las cosas es cierto que en el contexto grande viene la causa, el pueblo, la liberación, las otras causas, pero también hay algo muy personal, es dar ejemplo a mis niños, es qué futuro, qué querer y qué tipo de luchas, ¿Cómo enfrentar las injusticias y luchar por un mundo diferente? Entonces estuve comentando a mis compañeras que estaban conmigo, que conocen la familia y tal, que tienen que comunicar a mis hijos, que si yo me quedo mucho tiempo, que ellos no tienen que rendirse, todo ello. El barco para mí fue brutal porque ya me identificaron por nombre, me llevaron a un lado, Fue torturado en el propio barco, perdí la respiración durante un tiempo, me tenían que llevarme a médico. Pero luego también para mí se ve un poco el impacto de la solidaridad, porque primero cuando me llevaron a aislamiento dentro del barco, Aún después de un rato ya escuché los gritos de la gente y los golpes que daban en los contenedores y entendí que estaban ya actuando por mí y esto me ha dado mucha, mucha energía."
+   "text": "no pude esperar en el día y ya es un día que le gusta celebrar y es un día muy alegre, entonces me faltó. Y luego en este proceso lo que más también pensaba con la gente es hacer llegar mensajes a mis hijos, porque una de las cosas es cierto que en el contexto grande viene la causa, el pueblo, la liberación, las otras causas, pero también hay algo muy personal, es dar ejemplo a mis niños, es qué futuro, qué querer y qué tipo de luchas, ¿Cómo enfrentar las injusticias y luchar por un mundo diferente? Entonces estuve comentando a mis compañeras que estaban conmigo, que conocen la familia y tal, que tienen que comunicar a mis hijos, que si yo me quedo mucho tiempo, que ellos no tienen que rendirse, todo ello. El barco para mí fue brutal porque ya me identificaron por nombre, me llevaron a un lado, Fue torturado en el propio barco, perdí la respiración durante un tiempo, me tenían que llevarme a médico. Pero luego también para mí se ve un poco el impacto de la solidaridad, porque primero cuando me llevaron a aislamiento dentro del barco, Aún después de un rato ya escuché los gritos de la gente y los golpes que daban en los contenedores y entendí que estaban ya actuando por mí y esto me ha dado mucha, mucha energía.",
+   "marks": [
+    [
+     0,
+     735.0
+    ],
+    [
+     45,
+     738.1
+    ],
+    [
+     106,
+     743.1
+    ],
+    [
+     164,
+     747.2
+    ],
+    [
+     226,
+     752.3
+    ],
+    [
+     287,
+     756.7
+    ],
+    [
+     364,
+     762.1
+    ],
+    [
+     420,
+     767.9
+    ],
+    [
+     488,
+     773.0
+    ],
+    [
+     505,
+     773.9
+    ],
+    [
+     574,
+     777.9
+    ],
+    [
+     638,
+     781.7
+    ],
+    [
+     695,
+     784.6
+    ],
+    [
+     716,
+     787.5
+    ],
+    [
+     757,
+     790.4
+    ],
+    [
+     826,
+     795.2
+    ],
+    [
+     903,
+     800.1
+    ],
+    [
+     913,
+     802.1
+    ],
+    [
+     957,
+     806.5
+    ],
+    [
+     1039,
+     813.1
+    ],
+    [
+     1098,
+     817.9
+    ],
+    [
+     1160,
+     822.8
+    ],
+    [
+     1216,
+     826.7
+    ]
+   ]
   },
   {
    "start": 827.7,
@@ -368,7 +1354,13 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "Qué importante eso, qué importante."
+   "text": "Qué importante eso, qué importante.",
+   "marks": [
+    [
+     0,
+     827.7
+    ]
+   ]
   },
   {
    "start": 829.02,
@@ -376,7 +1368,33 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Es muy importante, es muy importante porque entré con una psicología diferente luego a la cárcel y lo que me comunicaba el cónsul ya desde el primer día me estaba, yo llegué el sábado a la cárcel Iniciaron el interrogatorio directamente al llegar y luego tuvieron que parar porque vino el cúnsul y ya me estaba diciendo lo que se está montando fuera."
+   "text": "Es muy importante, es muy importante porque entré con una psicología diferente luego a la cárcel y lo que me comunicaba el cónsul ya desde el primer día me estaba, yo llegué el sábado a la cárcel Iniciaron el interrogatorio directamente al llegar y luego tuvieron que parar porque vino el cúnsul y ya me estaba diciendo lo que se está montando fuera.",
+   "marks": [
+    [
+     0,
+     829.0
+    ],
+    [
+     79,
+     833.3
+    ],
+    [
+     133,
+     837.8
+    ],
+    [
+     189,
+     842.4
+    ],
+    [
+     274,
+     848.0
+    ],
+    [
+     330,
+     850.9
+    ]
+   ]
   },
   {
    "start": 852.08,
@@ -384,7 +1402,13 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "Y todas las movilizaciones,"
+   "text": "Y todas las movilizaciones,",
+   "marks": [
+    [
+     0,
+     852.1
+    ]
+   ]
   },
   {
    "start": 854.36,
@@ -392,7 +1416,33 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "prensa, el trabajo político y la presión política, entonces también un poco sentí que vale la pena, que el precio que estoy pagando Un poco está exponiendo las violaciones de Israel, está haciendo que se vuelva a poner Palestina sobre el mapa, sobre las noticias, y vale la pena. La verdad yo no pensaba que iba a salir."
+   "text": "prensa, el trabajo político y la presión política, entonces también un poco sentí que vale la pena, que el precio que estoy pagando Un poco está exponiendo las violaciones de Israel, está haciendo que se vuelva a poner Palestina sobre el mapa, sobre las noticias, y vale la pena. La verdad yo no pensaba que iba a salir.",
+   "marks": [
+    [
+     0,
+     854.4
+    ],
+    [
+     76,
+     860.1
+    ],
+    [
+     135,
+     866.4
+    ],
+    [
+     211,
+     870.5
+    ],
+    [
+     274,
+     876.5
+    ],
+    [
+     280,
+     876.8
+    ]
+   ]
   },
   {
    "start": 878.96,
@@ -400,7 +1450,17 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "Me imagino, claro. Muchas estuvimos muy preocupadas, efectivamente."
+   "text": "Me imagino, claro. Muchas estuvimos muy preocupadas, efectivamente.",
+   "marks": [
+    [
+     0,
+     879.0
+    ],
+    [
+     19,
+     881.7
+    ]
+   ]
   },
   {
    "start": 884.7,
@@ -408,7 +1468,57 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Yo tomé la decisión, tú sabes que desde el primer momento entré en huelga de hambre, Y luego tomé la decisión de entrar en huelga de sed porque sentí que fuera se está haciendo una batalla por solidaridad y yo tuve que escalar y tuve que hacer mi propia batalla contra lo que están haciendo y presionar hasta el máximo. Entonces tomé la decisión de iniciar huelga de sed y luego en los últimos dos o tres días dejé de hablar. Gracias a todos por su participación. Es amenazar a mis hijos, mi familia, a mi madre, que voy a quedar durante muchos años en la cárcel, que seguramente nunca voy a salir de ahí."
+   "text": "Yo tomé la decisión, tú sabes que desde el primer momento entré en huelga de hambre, Y luego tomé la decisión de entrar en huelga de sed porque sentí que fuera se está haciendo una batalla por solidaridad y yo tuve que escalar y tuve que hacer mi propia batalla contra lo que están haciendo y presionar hasta el máximo. Entonces tomé la decisión de iniciar huelga de sed y luego en los últimos dos o tres días dejé de hablar. Gracias a todos por su participación. Es amenazar a mis hijos, mi familia, a mi madre, que voy a quedar durante muchos años en la cárcel, que seguramente nunca voy a salir de ahí.",
+   "marks": [
+    [
+     0,
+     884.7
+    ],
+    [
+     64,
+     888.4
+    ],
+    [
+     123,
+     891.9
+    ],
+    [
+     189,
+     897.8
+    ],
+    [
+     247,
+     902.7
+    ],
+    [
+     320,
+     907.1
+    ],
+    [
+     382,
+     913.5
+    ],
+    [
+     426,
+     915.8
+    ],
+    [
+     442,
+     919.3
+    ],
+    [
+     464,
+     946.4
+    ],
+    [
+     506,
+     949.2
+    ],
+    [
+     568,
+     953.4
+    ]
+   ]
   },
   {
    "start": 957.14,
@@ -416,7 +1526,13 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "Auténtica gentuza, la verdad."
+   "text": "Auténtica gentuza, la verdad.",
+   "marks": [
+    [
+     0,
+     957.1
+    ]
+   ]
   },
   {
    "start": 959.48,
@@ -424,7 +1540,13 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Pero bueno, aquí estamos y seguimos."
+   "text": "Pero bueno, aquí estamos y seguimos.",
+   "marks": [
+    [
+     0,
+     959.5
+    ]
+   ]
   },
   {
    "start": 961.86,
@@ -432,7 +1554,29 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "Total, y seguimos, que yo creo que ese es el mensaje principal de tu trayectoria y de tu vida, que a pesar de las dificultades, a pesar del enorme precio que os hacen pagar por vuestra lucha, Ángeles Todo el uso de drones, de la militarización de las fronteras, bebe de ese laboratorio que es la Franja de Gaza, ¿no?"
+   "text": "Total, y seguimos, que yo creo que ese es el mensaje principal de tu trayectoria y de tu vida, que a pesar de las dificultades, a pesar del enorme precio que os hacen pagar por vuestra lucha, Ángeles Todo el uso de drones, de la militarización de las fronteras, bebe de ese laboratorio que es la Franja de Gaza, ¿no?",
+   "marks": [
+    [
+     0,
+     961.9
+    ],
+    [
+     63,
+     964.7
+    ],
+    [
+     114,
+     969.2
+    ],
+    [
+     185,
+     973.0
+    ],
+    [
+     251,
+     1005.9
+    ]
+   ]
   },
   {
    "start": 1009.62,
@@ -440,7 +1584,73 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Exacto, sí, sí, todas partes. Yo creo que es importante poder ya en nuestra sociedad construir una mentalidad de resiliencia, ¿no? Lo que decimos en Palestina, Sumud, decir lo que nos van a hacer, cómo nos oprimen, Es reflexionar y actuar de una manera más potente. Cuando me deportaron, llegué el domingo a Barcelona y ya desde el aeropuerto estuve diciendo a mi mujer que tengo que ir a Turquía, que tengo que volver con mis compañeros, que tengo que volver con las compañeras que estaban preparando los barcos. Y sentí una responsabilidad de seguir en este proceso. Yo creo que aquí también el apoyo de la familia es fundamental. La respuesta de mi"
+   "text": "Exacto, sí, sí, todas partes. Yo creo que es importante poder ya en nuestra sociedad construir una mentalidad de resiliencia, ¿no? Lo que decimos en Palestina, Sumud, decir lo que nos van a hacer, cómo nos oprimen, Es reflexionar y actuar de una manera más potente. Cuando me deportaron, llegué el domingo a Barcelona y ya desde el aeropuerto estuve diciendo a mi mujer que tengo que ir a Turquía, que tengo que volver con mis compañeros, que tengo que volver con las compañeras que estaban preparando los barcos. Y sentí una responsabilidad de seguir en este proceso. Yo creo que aquí también el apoyo de la familia es fundamental. La respuesta de mi",
+   "marks": [
+    [
+     0,
+     1009.6
+    ],
+    [
+     30,
+     1011.5
+    ],
+    [
+     65,
+     1014.8
+    ],
+    [
+     131,
+     1020.3
+    ],
+    [
+     146,
+     1020.9
+    ],
+    [
+     206,
+     1027.9
+    ],
+    [
+     266,
+     1034.4
+    ],
+    [
+     276,
+     1035.3
+    ],
+    [
+     350,
+     1040.4
+    ],
+    [
+     408,
+     1044.1
+    ],
+    [
+     479,
+     1046.9
+    ],
+    [
+     514,
+     1048.7
+    ],
+    [
+     555,
+     1051.7
+    ],
+    [
+     569,
+     1053.8
+    ],
+    [
+     617,
+     1056.5
+    ],
+    [
+     633,
+     1057.2
+    ]
+   ]
   },
   {
    "start": 1059.92,
@@ -448,7 +1658,13 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "mujer no es que hacerme"
+   "text": "mujer no es que hacerme",
+   "marks": [
+    [
+     0,
+     1059.9
+    ]
+   ]
   },
   {
    "start": 1061.78,
@@ -456,7 +1672,21 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "sentir culpable de haber estado lo que pasó conmigo, fue contundente, tú hagas lo que tienes que hacer y tener también, yo creo que tener este respaldo, este apoyo"
+   "text": "sentir culpable de haber estado lo que pasó conmigo, fue contundente, tú hagas lo que tienes que hacer y tener también, yo creo que tener este respaldo, este apoyo",
+   "marks": [
+    [
+     0,
+     1061.8
+    ],
+    [
+     73,
+     1066.9
+    ],
+    [
+     132,
+     1071.0
+    ]
+   ]
   },
   {
    "start": 1073.0,
@@ -464,7 +1694,17 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "Si no es imposible, por mi experiencia, si no tienes ese apoyo No,"
+   "text": "Si no es imposible, por mi experiencia, si no tienes ese apoyo No,",
+   "marks": [
+    [
+     0,
+     1073.0
+    ],
+    [
+     63,
+     1076.9
+    ]
+   ]
   },
   {
    "start": 1077.7,
@@ -472,7 +1712,49 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "no, es imposible, es imposible. Entonces, y luego volver a Turquía y fue un poco divertido porque empezaron a sacar los israelíes noticias que nos están esperando a mí y a Tiago cuando Tiago ya estaba en Brasil y que yo tampoco planificaba salir de Turquía. Desde luego, el principal plan ha sido quedarme en Turquía. Entonces también esto nos hace entender un poco cómo ellos crean narrativas falsas, cómo piensan que acusar, difamar y atacar a las personas son las formas de legitimizar."
+   "text": "no, es imposible, es imposible. Entonces, y luego volver a Turquía y fue un poco divertido porque empezaron a sacar los israelíes noticias que nos están esperando a mí y a Tiago cuando Tiago ya estaba en Brasil y que yo tampoco planificaba salir de Turquía. Desde luego, el principal plan ha sido quedarme en Turquía. Entonces también esto nos hace entender un poco cómo ellos crean narrativas falsas, cómo piensan que acusar, difamar y atacar a las personas son las formas de legitimizar.",
+   "marks": [
+    [
+     0,
+     1077.7
+    ],
+    [
+     32,
+     1079.6
+    ],
+    [
+     69,
+     1083.9
+    ],
+    [
+     143,
+     1089.3
+    ],
+    [
+     201,
+     1093.2
+    ],
+    [
+     258,
+     1098.1
+    ],
+    [
+     271,
+     1099.1
+    ],
+    [
+     318,
+     1103.5
+    ],
+    [
+     344,
+     1105.7
+    ],
+    [
+     419,
+     1113.1
+    ]
+   ]
   },
   {
    "start": 1121.08,
@@ -480,7 +1762,57 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "Yo creo que toda la construcción mediática, incluso de Israel como concepto, como si fuera una democracia, como si fuera la cuna de la defensa de los derechos LGTBI, toda una gran mentira internacional para justificar un genocidio y un intento de exterminio. Bueno, precisamente hablando de esto que lo comentábamos antes, yo creo que la operación mediática del falso alto al fuego, del mal llamado plan de paz, es una de las operaciones mediáticas internacionales más bestias que hemos vivido nunca, porque a pesar de eso siguen asesinando gente cada día en la franja de Gaza y en Cisjordania. ¿Cómo está la situación después de ese falso alto al fuego?"
+   "text": "Yo creo que toda la construcción mediática, incluso de Israel como concepto, como si fuera una democracia, como si fuera la cuna de la defensa de los derechos LGTBI, toda una gran mentira internacional para justificar un genocidio y un intento de exterminio. Bueno, precisamente hablando de esto que lo comentábamos antes, yo creo que la operación mediática del falso alto al fuego, del mal llamado plan de paz, es una de las operaciones mediáticas internacionales más bestias que hemos vivido nunca, porque a pesar de eso siguen asesinando gente cada día en la franja de Gaza y en Cisjordania. ¿Cómo está la situación después de ese falso alto al fuego?",
+   "marks": [
+    [
+     0,
+     1121.1
+    ],
+    [
+     77,
+     1127.9
+    ],
+    [
+     135,
+     1132.5
+    ],
+    [
+     218,
+     1137.8
+    ],
+    [
+     259,
+     1139.9
+    ],
+    [
+     296,
+     1141.6
+    ],
+    [
+     368,
+     1147.7
+    ],
+    [
+     422,
+     1151.2
+    ],
+    [
+     510,
+     1156.4
+    ],
+    [
+     572,
+     1160.6
+    ],
+    [
+     595,
+     1161.8
+    ],
+    [
+     640,
+     1164.5
+    ]
+   ]
   },
   {
    "start": 1166.12,
@@ -488,7 +1820,17 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Bueno, desde que anunciaron el alto fuego en octubre del año pasado Que"
+   "text": "Bueno, desde que anunciaron el alto fuego en octubre del año pasado Que",
+   "marks": [
+    [
+     0,
+     1166.1
+    ],
+    [
+     68,
+     1171.7
+    ]
+   ]
   },
   {
    "start": 1172.16,
@@ -496,7 +1838,17 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "es además fruto de esas movilizaciones masivas en todo el mundo De hecho"
+   "text": "es además fruto de esas movilizaciones masivas en todo el mundo De hecho",
+   "marks": [
+    [
+     0,
+     1172.2
+    ],
+    [
+     67,
+     1176.2
+    ]
+   ]
   },
   {
    "start": 1177.2,
@@ -504,7 +1856,25 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "el propio Trump lo dijo en una conferencia de prensa Dijo que él habló con Netanyahu y le comunicó que no pueden seguir más en este proceso Que ahora el mundo está en contra de Israel Y refieren seguramente a todas las movilizaciones que están"
+   "text": "el propio Trump lo dijo en una conferencia de prensa Dijo que él habló con Netanyahu y le comunicó que no pueden seguir más en este proceso Que ahora el mundo está en contra de Israel Y refieren seguramente a todas las movilizaciones que están",
+   "marks": [
+    [
+     0,
+     1177.2
+    ],
+    [
+     62,
+     1181.7
+    ],
+    [
+     124,
+     1186.4
+    ],
+    [
+     184,
+     1190.6
+    ]
+   ]
   },
   {
    "start": 1194.36,
@@ -512,7 +1882,13 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "saliendo"
+   "text": "saliendo",
+   "marks": [
+    [
+     0,
+     1194.4
+    ]
+   ]
   },
   {
    "start": 1194.84,
@@ -520,7 +1896,29 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Y que se tiene que hacer de otra forma. Y de inmediatamente se anuncia el alto de fuego y se anuncian las medidas que tomaron que directamente impactaron en la cobertura de noticias, en la situación en terreno."
+   "text": "Y que se tiene que hacer de otra forma. Y de inmediatamente se anuncia el alto de fuego y se anuncian las medidas que tomaron que directamente impactaron en la cobertura de noticias, en la situación en terreno.",
+   "marks": [
+    [
+     0,
+     1194.8
+    ],
+    [
+     40,
+     1197.0
+    ],
+    [
+     60,
+     1198.6
+    ],
+    [
+     118,
+     1203.9
+    ],
+    [
+     199,
+     1210.5
+    ]
+   ]
   },
   {
    "start": 1211.4,
@@ -528,7 +1926,13 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "Sí, la pérdida de foco total."
+   "text": "Sí, la pérdida de foco total.",
+   "marks": [
+    [
+     0,
+     1211.4
+    ]
+   ]
   },
   {
    "start": 1213.02,
@@ -536,7 +1940,77 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Sí, el terreno no cambió mucho. En terreno dibujaron una línea amarilla que es más que el 60% del terreno en Gaza, que eso ya lo tienen bajo su control, 100 personas. Y lo utilizan como un campamento militar para controlar. Van atacando de una manera diaria a las personas. Estamos hablando sobre más de 2.500 violaciones del alto de fuego desde octubre pasado hasta hoy y creo casi 3.000 personas asesinadas. Esta madrugada cuatro personas fueron asesinadas, casi a diario. Es cierto que no están matando a 300 personas al día, pero yo creo que no puede ser nuestro criterio cuánta gente muere por día. Yo creo que la vida de cada persona, que sea en Palestina o en otro sitio, es prioritaria."
+   "text": "Sí, el terreno no cambió mucho. En terreno dibujaron una línea amarilla que es más que el 60% del terreno en Gaza, que eso ya lo tienen bajo su control, 100 personas. Y lo utilizan como un campamento militar para controlar. Van atacando de una manera diaria a las personas. Estamos hablando sobre más de 2.500 violaciones del alto de fuego desde octubre pasado hasta hoy y creo casi 3.000 personas asesinadas. Esta madrugada cuatro personas fueron asesinadas, casi a diario. Es cierto que no están matando a 300 personas al día, pero yo creo que no puede ser nuestro criterio cuánta gente muere por día. Yo creo que la vida de cada persona, que sea en Palestina o en otro sitio, es prioritaria.",
+   "marks": [
+    [
+     0,
+     1213.0
+    ],
+    [
+     32,
+     1214.6
+    ],
+    [
+     72,
+     1216.9
+    ],
+    [
+     119,
+     1221.3
+    ],
+    [
+     167,
+     1224.8
+    ],
+    [
+     181,
+     1227.6
+    ],
+    [
+     224,
+     1229.7
+    ],
+    [
+     258,
+     1232.3
+    ],
+    [
+     274,
+     1233.0
+    ],
+    [
+     326,
+     1237.7
+    ],
+    [
+     384,
+     1242.5
+    ],
+    [
+     410,
+     1244.1
+    ],
+    [
+     475,
+     1249.1
+    ],
+    [
+     534,
+     1256.7
+    ],
+    [
+     599,
+     1261.8
+    ],
+    [
+     604,
+     1262.1
+    ],
+    [
+     652,
+     1264.3
+    ]
+   ]
   },
   {
    "start": 1267.8,
@@ -544,7 +2018,17 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "Totalmente. Y es irrepetible, además."
+   "text": "Totalmente. Y es irrepetible, además.",
+   "marks": [
+    [
+     0,
+     1267.8
+    ],
+    [
+     12,
+     1268.4
+    ]
+   ]
   },
   {
    "start": 1271.34,
@@ -552,7 +2036,25 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Ellos trabajan mucho este mecanismo de deshumanizar a los palestinos, son números, 10, 20, 300, cuando la gente escucha, bueno, hoy ya no mueren 400, mueren dos personas y dicen, menos mal, es que no es menos mal,"
+   "text": "Ellos trabajan mucho este mecanismo de deshumanizar a los palestinos, son números, 10, 20, 300, cuando la gente escucha, bueno, hoy ya no mueren 400, mueren dos personas y dicen, menos mal, es que no es menos mal,",
+   "marks": [
+    [
+     0,
+     1271.3
+    ],
+    [
+     83,
+     1276.1
+    ],
+    [
+     145,
+     1281.7
+    ],
+    [
+     203,
+     1286.0
+    ]
+   ]
   },
   {
    "start": 1286.82,
@@ -560,7 +2062,13 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "es terrible igualmente,"
+   "text": "es terrible igualmente,",
+   "marks": [
+    [
+     0,
+     1286.8
+    ]
+   ]
   },
   {
    "start": 1289.1,
@@ -568,7 +2076,77 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "entonces tenemos que seguir presionando para ello, Y la verdad, consiguieron tener un bloqueo mediático total sobre lo que pasa ahí, desde el alto de fuego, consiguieron desviar la atención con el tema de Irán y otros asuntos, y consiguieron también que las personas que salieron en las manifestaciones masivas, que no están implicadas en activismo, militancia y tal, que viven el día a día, No podían seguir en silencio en frente a todos los crímenes en pensar que ya está, que hay proceso de paz, que está todo controlado y no es nuevo este mecanismo. Si volvemos atrás, los propios acuerdos de Oslo, de paz, es el mismo mecanismo. Se anunció el acuerdo de Oslo por todo lo que hizo durante la primera entifada. El propio Rabin, que fue premiado con el premio de Nobel por haber firmado los acuerdos de paz, triplicó el número de colonos y asentamientos en Cisjordania. La gente piensa que la"
+   "text": "entonces tenemos que seguir presionando para ello, Y la verdad, consiguieron tener un bloqueo mediático total sobre lo que pasa ahí, desde el alto de fuego, consiguieron desviar la atención con el tema de Irán y otros asuntos, y consiguieron también que las personas que salieron en las manifestaciones masivas, que no están implicadas en activismo, militancia y tal, que viven el día a día, No podían seguir en silencio en frente a todos los crímenes en pensar que ya está, que hay proceso de paz, que está todo controlado y no es nuevo este mecanismo. Si volvemos atrás, los propios acuerdos de Oslo, de paz, es el mismo mecanismo. Se anunció el acuerdo de Oslo por todo lo que hizo durante la primera entifada. El propio Rabin, que fue premiado con el premio de Nobel por haber firmado los acuerdos de paz, triplicó el número de colonos y asentamientos en Cisjordania. La gente piensa que la",
+   "marks": [
+    [
+     0,
+     1289.1
+    ],
+    [
+     83,
+     1294.9
+    ],
+    [
+     147,
+     1299.8
+    ],
+    [
+     212,
+     1305.4
+    ],
+    [
+     287,
+     1313.1
+    ],
+    [
+     372,
+     1319.0
+    ],
+    [
+     431,
+     1323.7
+    ],
+    [
+     491,
+     1327.6
+    ],
+    [
+     554,
+     1333.1
+    ],
+    [
+     617,
+     1338.1
+    ],
+    [
+     634,
+     1338.9
+    ],
+    [
+     680,
+     1342.3
+    ],
+    [
+     714,
+     1343.9
+    ],
+    [
+     752,
+     1346.7
+    ],
+    [
+     819,
+     1350.9
+    ],
+    [
+     872,
+     1354.4
+    ],
+    [
+     892,
+     1356.1
+    ]
+   ]
   },
   {
    "start": 1356.68,
@@ -576,7 +2154,13 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "izquierda es israelí y"
+   "text": "izquierda es israelí y",
+   "marks": [
+    [
+     0,
+     1356.7
+    ]
+   ]
   },
   {
    "start": 1358.26,
@@ -584,7 +2168,17 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "que ellos traen la paz y no sé qué, pero ellos actúan de la misma forma en terreno."
+   "text": "que ellos traen la paz y no sé qué, pero ellos actúan de la misma forma en terreno.",
+   "marks": [
+    [
+     0,
+     1358.3
+    ],
+    [
+     54,
+     1361.2
+    ]
+   ]
   },
   {
    "start": 1362.58,
@@ -592,7 +2186,13 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "Bueno, es que el sionismo es..."
+   "text": "Bueno, es que el sionismo es...",
+   "marks": [
+    [
+     0,
+     1362.6
+    ]
+   ]
   },
   {
    "start": 1364.16,
@@ -600,7 +2200,49 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Exactamente. Y lo que estamos viendo hoy en Cisjordania nos tiene que preocupar mucho. Yo creo que nos vienen unos crímenes iguales al 1948. Están quemando los pueblos, quemando los coches, atacando a periodistas, atacando a las personas civiles que están yendo a la campaña de recogida de oliva, atacando a representantes de los consulados europeos como el francés, atacando a activistas internacionales. Ayer, 120 personas fueron detenidas porque están participando en campañas de recogida de"
+   "text": "Exactamente. Y lo que estamos viendo hoy en Cisjordania nos tiene que preocupar mucho. Yo creo que nos vienen unos crímenes iguales al 1948. Están quemando los pueblos, quemando los coches, atacando a periodistas, atacando a las personas civiles que están yendo a la campaña de recogida de oliva, atacando a representantes de los consulados europeos como el francés, atacando a activistas internacionales. Ayer, 120 personas fueron detenidas porque están participando en campañas de recogida de",
+   "marks": [
+    [
+     0,
+     1364.2
+    ],
+    [
+     13,
+     1364.9
+    ],
+    [
+     70,
+     1368.0
+    ],
+    [
+     87,
+     1368.8
+    ],
+    [
+     141,
+     1374.9
+    ],
+    [
+     225,
+     1379.8
+    ],
+    [
+     290,
+     1383.7
+    ],
+    [
+     376,
+     1389.5
+    ],
+    [
+     406,
+     1392.1
+    ],
+    [
+     471,
+     1396.6
+    ]
+   ]
   },
   {
    "start": 1397.8,
@@ -608,7 +2250,13 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "vida."
+   "text": "vida.",
+   "marks": [
+    [
+     0,
+     1397.8
+    ]
+   ]
   },
   {
    "start": 1398.2,
@@ -616,7 +2264,17 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Lo que quieren es no tener a nadie ahí que pueda comunicar lo que está pasando."
+   "text": "Lo que quieren es no tener a nadie ahí que pueda comunicar lo que está pasando.",
+   "marks": [
+    [
+     0,
+     1398.2
+    ],
+    [
+     59,
+     1401.6
+    ]
+   ]
   },
   {
    "start": 1402.58,
@@ -624,7 +2282,53 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "Bueno, yo creo que esto es más grave que lo que pasó hace un siglo y el holocausto, porque en ese momento la comunidad internacional pudo contar después que no sabían lo que estaba pasando. Pero es que hoy absolutamente nadie en el mundo puede decir que no saben lo que está pasando en Palestina, Que no saben el exterminio al que se ha intentado someter al pueblo de Palestina Porque ha sido un genocidio retransmitido en prime time Yo recuerdo muy poquito después del 7 de octubre, la primera vez que bombardearon un hospital Como hubo primero mensajes contradictorios, sobre si ellos mismos desmintieron, si habían sido ellos o no Acusaron a un grupo palestino"
+   "text": "Bueno, yo creo que esto es más grave que lo que pasó hace un siglo y el holocausto, porque en ese momento la comunidad internacional pudo contar después que no sabían lo que estaba pasando. Pero es que hoy absolutamente nadie en el mundo puede decir que no saben lo que está pasando en Palestina, Que no saben el exterminio al que se ha intentado someter al pueblo de Palestina Porque ha sido un genocidio retransmitido en prime time Yo recuerdo muy poquito después del 7 de octubre, la primera vez que bombardearon un hospital Como hubo primero mensajes contradictorios, sobre si ellos mismos desmintieron, si habían sido ellos o no Acusaron a un grupo palestino",
+   "marks": [
+    [
+     0,
+     1402.6
+    ],
+    [
+     53,
+     1405.5
+    ],
+    [
+     119,
+     1411.9
+    ],
+    [
+     190,
+     1416.4
+    ],
+    [
+     195,
+     1416.9
+    ],
+    [
+     257,
+     1420.3
+    ],
+    [
+     324,
+     1423.7
+    ],
+    [
+     388,
+     1426.5
+    ],
+    [
+     466,
+     1433.3
+    ],
+    [
+     533,
+     1439.4
+    ],
+    [
+     623,
+     1445.0
+    ]
+   ]
   },
   {
    "start": 1447.16,
@@ -632,7 +2336,13 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Un autoataque de jamás."
+   "text": "Un autoataque de jamás.",
+   "marks": [
+    [
+     0,
+     1447.2
+    ]
+   ]
   },
   {
    "start": 1448.84,
@@ -640,7 +2350,45 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "Y después, como no, la línea oficial del gobierno israelí fue que efectivamente estaban bombardeando hospitales porque parte de su objetivo era llevar la línea de lo posible más allá. Es decir, claro que si yo puedo bombardear hospitales, puedo bombardear población civil, puedo no respetar a las organizaciones sociales y lo voy a hacer. Es decir, han llevado el límite del horror mucho más lejos, que yo creo que es lo que ha perdido la humanidad en este envite."
+   "text": "Y después, como no, la línea oficial del gobierno israelí fue que efectivamente estaban bombardeando hospitales porque parte de su objetivo era llevar la línea de lo posible más allá. Es decir, claro que si yo puedo bombardear hospitales, puedo bombardear población civil, puedo no respetar a las organizaciones sociales y lo voy a hacer. Es decir, han llevado el límite del horror mucho más lejos, que yo creo que es lo que ha perdido la humanidad en este envite.",
+   "marks": [
+    [
+     0,
+     1448.8
+    ],
+    [
+     66,
+     1456.1
+    ],
+    [
+     154,
+     1461.2
+    ],
+    [
+     184,
+     1462.8
+    ],
+    [
+     210,
+     1464.3
+    ],
+    [
+     297,
+     1469.6
+    ],
+    [
+     339,
+     1471.5
+    ],
+    [
+     364,
+     1473.7
+    ],
+    [
+     421,
+     1476.5
+    ]
+   ]
   },
   {
    "start": 1479.66,
@@ -648,7 +2396,21 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Sí, pero ¿sabes lo que es también más peligroso en este contexto? Nos hacen acostumbrar como sociedad civil, como personas, a un nivel de violencia que luego cuando pasa aquí una violencia menor no reaccionamos."
+   "text": "Sí, pero ¿sabes lo que es también más peligroso en este contexto? Nos hacen acostumbrar como sociedad civil, como personas, a un nivel de violencia que luego cuando pasa aquí una violencia menor no reaccionamos.",
+   "marks": [
+    [
+     0,
+     1479.7
+    ],
+    [
+     66,
+     1485.9
+    ],
+    [
+     138,
+     1490.4
+    ]
+   ]
   },
   {
    "start": 1496.62,
@@ -656,7 +2418,13 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "Totalmente."
+   "text": "Totalmente.",
+   "marks": [
+    [
+     0,
+     1496.6
+    ]
+   ]
   },
   {
    "start": 1497.18,
@@ -664,7 +2432,13 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Lo que está"
+   "text": "Lo que está",
+   "marks": [
+    [
+     0,
+     1497.2
+    ]
+   ]
   },
   {
    "start": 1497.78,
@@ -672,7 +2446,13 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "pasando hoy en Francia, lo que"
+   "text": "pasando hoy en Francia, lo que",
+   "marks": [
+    [
+     0,
+     1497.8
+    ]
+   ]
   },
   {
    "start": 1499.78,
@@ -680,7 +2460,13 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "está pasando en Italia, lo que está pasando aquí contra los profesores"
+   "text": "está pasando en Italia, lo que está pasando aquí contra los profesores",
+   "marks": [
+    [
+     0,
+     1499.8
+    ]
+   ]
   },
   {
    "start": 1503.06,
@@ -688,7 +2474,13 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "estudiantes el otro día, y ayer contra los"
+   "text": "estudiantes el otro día, y ayer contra los",
+   "marks": [
+    [
+     0,
+     1503.1
+    ]
+   ]
   },
   {
    "start": 1505.94,
@@ -696,7 +2488,17 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "chavales, entonces nos hace pensar de una manera psicológica, no nos damos cuenta, pero pensamos, hombre, si ahí están bombardeando hospitales y"
+   "text": "chavales, entonces nos hace pensar de una manera psicológica, no nos damos cuenta, pero pensamos, hombre, si ahí están bombardeando hospitales y",
+   "marks": [
+    [
+     0,
+     1505.9
+    ],
+    [
+     75,
+     1511.6
+    ]
+   ]
   },
   {
    "start": 1516.38,
@@ -704,7 +2506,13 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "matando gente y tal,"
+   "text": "matando gente y tal,",
+   "marks": [
+    [
+     0,
+     1516.4
+    ]
+   ]
   },
   {
    "start": 1517.6,
@@ -712,7 +2520,33 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "vamos a quejar por algunas hostias que nos están dando. Por eso la conexión entre las violaciones que hace Israel y la complicidad de nuestros gobiernos es importante, porque la derecha siente que puede cometer más violencia, que puede violar más derechos y piensan que tienen derecho a hacerlo,"
+   "text": "vamos a quejar por algunas hostias que nos están dando. Por eso la conexión entre las violaciones que hace Israel y la complicidad de nuestros gobiernos es importante, porque la derecha siente que puede cometer más violencia, que puede violar más derechos y piensan que tienen derecho a hacerlo,",
+   "marks": [
+    [
+     0,
+     1517.6
+    ],
+    [
+     56,
+     1520.2
+    ],
+    [
+     64,
+     1522.9
+    ],
+    [
+     134,
+     1528.1
+    ],
+    [
+     215,
+     1534.7
+    ],
+    [
+     287,
+     1540.7
+    ]
+   ]
   },
   {
    "start": 1541.08,
@@ -720,7 +2554,13 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "que lo más"
+   "text": "que lo más",
+   "marks": [
+    [
+     0,
+     1541.1
+    ]
+   ]
   },
   {
    "start": 1542.02,
@@ -728,7 +2568,13 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "normal es hacerlo, como Israel lo puede hacer, nosotros también."
+   "text": "normal es hacerlo, como Israel lo puede hacer, nosotros también.",
+   "marks": [
+    [
+     0,
+     1542.0
+    ]
+   ]
   },
   {
    "start": 1545.48,
@@ -736,7 +2582,37 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "Yo creo que hay muchos dictadores y muchos regímenes totalitarios que han tomado buena nota de lo que ha pasado en Palestina. Pensaba en concreto en Marruecos, con todo lo que ha pasado en Ceuta y como no ha tenido ningún problema en usar a su propio pueblo como arma arrojadiza, con más de 100 muertos y con un nivel de violencia que igual hace unos años hubiera sido mucho más inaceptable."
+   "text": "Yo creo que hay muchos dictadores y muchos regímenes totalitarios que han tomado buena nota de lo que ha pasado en Palestina. Pensaba en concreto en Marruecos, con todo lo que ha pasado en Ceuta y como no ha tenido ningún problema en usar a su propio pueblo como arma arrojadiza, con más de 100 muertos y con un nivel de violencia que igual hace unos años hubiera sido mucho más inaceptable.",
+   "marks": [
+    [
+     0,
+     1545.5
+    ],
+    [
+     74,
+     1549.3
+    ],
+    [
+     126,
+     1553.1
+    ],
+    [
+     137,
+     1553.8
+    ],
+    [
+     197,
+     1557.1
+    ],
+    [
+     258,
+     1561.2
+    ],
+    [
+     318,
+     1565.3
+    ]
+   ]
   },
   {
    "start": 1568.88,
@@ -744,7 +2620,25 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Sí, pero también ayer anunciaron marruecos que compró el mecanismo de defensa que utiliza Israel contra los misiles, que también participa con su ejército en el ejército internacional de ocupación que van a mandar a Gaza, entonces esas son relaciones muy cómplices."
+   "text": "Sí, pero también ayer anunciaron marruecos que compró el mecanismo de defensa que utiliza Israel contra los misiles, que también participa con su ejército en el ejército internacional de ocupación que van a mandar a Gaza, entonces esas son relaciones muy cómplices.",
+   "marks": [
+    [
+     0,
+     1568.9
+    ],
+    [
+     78,
+     1576.9
+    ],
+    [
+     155,
+     1581.2
+    ],
+    [
+     222,
+     1586.8
+    ]
+   ]
   },
   {
    "start": 1592.08,
@@ -752,7 +2646,73 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "Yo creo que es una alianza internacional del terror, de la violencia y al final es la internacional fascista, yo creo. Y yo quería preguntarte, porque a pesar de lo que se ha dicho y a pesar de que la narrativa del gobierno español ha sido, entre comillas, de las mejores a nivel internacional, Luego, quienes hemos estado siguiendo el tema en detalle, hemos visto que por los puertos españoles han pasado gran parte de las armas, sobre todo a través del puerto de Algeciras, de Valencia, de Barcelona, y que sin ese punto logístico el genocidio lo habría tenido mucho más difícil. Esa relación se ha mantenido durante muchísimo tiempo. Yo quería preguntarte, si tú fueras el presidente del gobierno, te eligen mañana, Saif, ¿qué sería la primera cosa que harías, qué decisiones tomarías para frenar el genocidio, por supuesto, pero en general para beneficiar a la sociedad que vive en nuestro país?"
+   "text": "Yo creo que es una alianza internacional del terror, de la violencia y al final es la internacional fascista, yo creo. Y yo quería preguntarte, porque a pesar de lo que se ha dicho y a pesar de que la narrativa del gobierno español ha sido, entre comillas, de las mejores a nivel internacional, Luego, quienes hemos estado siguiendo el tema en detalle, hemos visto que por los puertos españoles han pasado gran parte de las armas, sobre todo a través del puerto de Algeciras, de Valencia, de Barcelona, y que sin ese punto logístico el genocidio lo habría tenido mucho más difícil. Esa relación se ha mantenido durante muchísimo tiempo. Yo quería preguntarte, si tú fueras el presidente del gobierno, te eligen mañana, Saif, ¿qué sería la primera cosa que harías, qué decisiones tomarías para frenar el genocidio, por supuesto, pero en general para beneficiar a la sociedad que vive en nuestro país?",
+   "marks": [
+    [
+     0,
+     1592.1
+    ],
+    [
+     69,
+     1597.5
+    ],
+    [
+     119,
+     1600.5
+    ],
+    [
+     131,
+     1602.4
+    ],
+    [
+     185,
+     1608.5
+    ],
+    [
+     257,
+     1612.6
+    ],
+    [
+     336,
+     1618.3
+    ],
+    [
+     406,
+     1622.1
+    ],
+    [
+     465,
+     1625.1
+    ],
+    [
+     536,
+     1629.5
+    ],
+    [
+     582,
+     1631.4
+    ],
+    [
+     611,
+     1633.6
+    ],
+    [
+     637,
+     1635.8
+    ],
+    [
+     691,
+     1640.0
+    ],
+    [
+     764,
+     1645.9
+    ],
+    [
+     844,
+     1650.4
+    ]
+   ]
   },
   {
    "start": 1653.98,
@@ -760,7 +2720,41 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Sí, yo creo que es una decisión, es una pregunta bastante complicada, ¿no? Porque hay que pensar en diferentes aspectos, pero si nos partimos de lo que ya íbamos explicando, la relación que existe entre lo que pasa afuera y lo que pasa aquí dentro y que tiene un impacto directo, yo creo que eso es fundamental para planificar nuestra política. Yo creo que lo que estamos perdiendo como humanidad es valores."
+   "text": "Sí, yo creo que es una decisión, es una pregunta bastante complicada, ¿no? Porque hay que pensar en diferentes aspectos, pero si nos partimos de lo que ya íbamos explicando, la relación que existe entre lo que pasa afuera y lo que pasa aquí dentro y que tiene un impacto directo, yo creo que eso es fundamental para planificar nuestra política. Yo creo que lo que estamos perdiendo como humanidad es valores.",
+   "marks": [
+    [
+     0,
+     1654.0
+    ],
+    [
+     70,
+     1660.6
+    ],
+    [
+     75,
+     1660.7
+    ],
+    [
+     142,
+     1668.1
+    ],
+    [
+     206,
+     1676.6
+    ],
+    [
+     260,
+     1679.5
+    ],
+    [
+     335,
+     1683.1
+    ],
+    [
+     345,
+     1684.1
+    ]
+   ]
   },
   {
    "start": 1689.3,
@@ -768,7 +2762,13 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "Total."
+   "text": "Total.",
+   "marks": [
+    [
+     0,
+     1689.3
+    ]
+   ]
   },
   {
    "start": 1689.98,
@@ -776,7 +2776,133 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Y luego, cómo traducir esos valores en acciones. Y luego buscamos muchas justificaciones, que el contexto político no permite, que el impacto... Pero ese es el problema. El problema es que cuando Trump decide que puede ocupar Greenland y que nadie dice nada, que Trump decide cambiar el nombre de una montaña, ¿sabes? Y a todo el mundo le parece bien el Golfo de México que se convierte en el de América. Entonces, enviar armas a un sitio, a otro, iniciar guerras en Irán y luego enfadar porque el resto de los países no quieren participar en esta guerra. Estamos en este contexto, en un contexto que los valores no significan mucho. Yo creo que la primera decisión es mantener nuestra soberanía, es decir, proteger nuestros valores, y proteger nuestros valores internamente y externamente. Todo lo que va en contra de los valores de nuestra sociedad, aquí tenemos una sociedad que luchó contra el fascismo, que sacrificó bastante para tener derechos, para tener libertades. Y no puede ser una moneda de cambio. Entonces yo creo que la primera decisión es los valores. ¿Qué representa nuestra sociedad? Y protegerlo. Que sea con Palestina, que sea dentro, que sea en Ceuta, que sea en todas partes, nuestra política interna y externa debe reflejar esos valores. Qué bonito, sí."
+   "text": "Y luego, cómo traducir esos valores en acciones. Y luego buscamos muchas justificaciones, que el contexto político no permite, que el impacto... Pero ese es el problema. El problema es que cuando Trump decide que puede ocupar Greenland y que nadie dice nada, que Trump decide cambiar el nombre de una montaña, ¿sabes? Y a todo el mundo le parece bien el Golfo de México que se convierte en el de América. Entonces, enviar armas a un sitio, a otro, iniciar guerras en Irán y luego enfadar porque el resto de los países no quieren participar en esta guerra. Estamos en este contexto, en un contexto que los valores no significan mucho. Yo creo que la primera decisión es mantener nuestra soberanía, es decir, proteger nuestros valores, y proteger nuestros valores internamente y externamente. Todo lo que va en contra de los valores de nuestra sociedad, aquí tenemos una sociedad que luchó contra el fascismo, que sacrificó bastante para tener derechos, para tener libertades. Y no puede ser una moneda de cambio. Entonces yo creo que la primera decisión es los valores. ¿Qué representa nuestra sociedad? Y protegerlo. Que sea con Palestina, que sea dentro, que sea en Ceuta, que sea en todas partes, nuestra política interna y externa debe reflejar esos valores. Qué bonito, sí.",
+   "marks": [
+    [
+     0,
+     1690.0
+    ],
+    [
+     49,
+     1695.1
+    ],
+    [
+     73,
+     1696.4
+    ],
+    [
+     145,
+     1701.1
+    ],
+    [
+     154,
+     1701.8
+    ],
+    [
+     170,
+     1703.0
+    ],
+    [
+     219,
+     1706.2
+    ],
+    [
+     287,
+     1711.2
+    ],
+    [
+     318,
+     1716.2
+    ],
+    [
+     346,
+     1718.4
+    ],
+    [
+     405,
+     1722.6
+    ],
+    [
+     472,
+     1730.0
+    ],
+    [
+     540,
+     1733.7
+    ],
+    [
+     556,
+     1734.9
+    ],
+    [
+     605,
+     1738.7
+    ],
+    [
+     634,
+     1742.1
+    ],
+    [
+     678,
+     1746.6
+    ],
+    [
+     775,
+     1753.4
+    ],
+    [
+     791,
+     1754.7
+    ],
+    [
+     834,
+     1757.4
+    ],
+    [
+     912,
+     1762.4
+    ],
+    [
+     975,
+     1766.7
+    ],
+    [
+     990,
+     1768.0
+    ],
+    [
+     1012,
+     1770.0
+    ],
+    [
+     1056,
+     1772.1
+    ],
+    [
+     1069,
+     1773.2
+    ],
+    [
+     1103,
+     1775.2
+    ],
+    [
+     1117,
+     1776.1
+    ],
+    [
+     1140,
+     1777.5
+    ],
+    [
+     1199,
+     1781.4
+    ],
+    [
+     1262,
+     1785.7
+    ]
+   ]
   },
   {
    "start": 1786.4,
@@ -784,7 +2910,93 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "De hecho, ahora que comentas esto de la guerra civil y de la lucha contra el fascismo en España, Yo recuerdo que cuando nos hacían entrevistas internacionales, al principio después del 7 de octubre, nos preguntaban por qué España había sido tan solidaria con el pueblo de Palestina. Yo tengo varias teorías sobre eso. Una, que creo que lleváis muchos años haciendo un trabajo de activismo para sostener esa movilización. Dos, que yo creo que por suerte el sionismo tiene una penetración escasa en el poder económico y mediático en España. Pero también yo creo que hay una especie de pozo en la sociedad española que sabe que en el peor momento posible para nuestro país la comunidad internacional nos dejó tirados. Y yo creo que ese aprendizaje, eso que está de alguna manera en nuestra historia como país, hace también que las causas justas en otro lugar nos hagan no podernos ser solidarios con quien está sufriendo también un abandono internacional. Yo creo que ahora no, ahora menos, pero que durante mucho tiempo claramente Israel iba ganando la narrativa contra el pueblo palestino."
+   "text": "De hecho, ahora que comentas esto de la guerra civil y de la lucha contra el fascismo en España, Yo recuerdo que cuando nos hacían entrevistas internacionales, al principio después del 7 de octubre, nos preguntaban por qué España había sido tan solidaria con el pueblo de Palestina. Yo tengo varias teorías sobre eso. Una, que creo que lleváis muchos años haciendo un trabajo de activismo para sostener esa movilización. Dos, que yo creo que por suerte el sionismo tiene una penetración escasa en el poder económico y mediático en España. Pero también yo creo que hay una especie de pozo en la sociedad española que sabe que en el peor momento posible para nuestro país la comunidad internacional nos dejó tirados. Y yo creo que ese aprendizaje, eso que está de alguna manera en nuestra historia como país, hace también que las causas justas en otro lugar nos hagan no podernos ser solidarios con quien está sufriendo también un abandono internacional. Yo creo que ahora no, ahora menos, pero que durante mucho tiempo claramente Israel iba ganando la narrativa contra el pueblo palestino.",
+   "marks": [
+    [
+     0,
+     1786.4
+    ],
+    [
+     58,
+     1789.8
+    ],
+    [
+     124,
+     1794.7
+    ],
+    [
+     215,
+     1800.2
+    ],
+    [
+     283,
+     1805.2
+    ],
+    [
+     318,
+     1807.0
+    ],
+    [
+     351,
+     1808.5
+    ],
+    [
+     421,
+     1813.3
+    ],
+    [
+     430,
+     1814.1
+    ],
+    [
+     497,
+     1818.2
+    ],
+    [
+     539,
+     1821.3
+    ],
+    [
+     564,
+     1822.5
+    ],
+    [
+     625,
+     1827.6
+    ],
+    [
+     701,
+     1831.6
+    ],
+    [
+     715,
+     1833.2
+    ],
+    [
+     762,
+     1836.9
+    ],
+    [
+     835,
+     1842.3
+    ],
+    [
+     903,
+     1847.0
+    ],
+    [
+     953,
+     1849.5
+    ],
+    [
+     981,
+     1850.7
+    ],
+    [
+     1061,
+     1855.6
+    ]
+   ]
   },
   {
    "start": 1858.58,
@@ -792,7 +3004,17 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Pero también cuando la comunidad internacional nos dejó aterrados aquí, la sociedad civil no."
+   "text": "Pero también cuando la comunidad internacional nos dejó aterrados aquí, la sociedad civil no.",
+   "marks": [
+    [
+     0,
+     1858.6
+    ],
+    [
+     84,
+     1863.5
+    ]
+   ]
   },
   {
    "start": 1864.52,
@@ -800,7 +3022,13 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "Entonces gente vino, las plegadas"
+   "text": "Entonces gente vino, las plegadas",
+   "marks": [
+    [
+     0,
+     1864.5
+    ]
+   ]
   },
   {
    "start": 1867.48,
@@ -808,7 +3036,13 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "vinieron de muchas partes del mundo para"
+   "text": "vinieron de muchas partes del mundo para",
+   "marks": [
+    [
+     0,
+     1867.5
+    ]
+   ]
   },
   {
    "start": 1869.62,
@@ -816,7 +3050,13 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "apoyar y para luchar."
+   "text": "apoyar y para luchar.",
+   "marks": [
+    [
+     0,
+     1869.6
+    ]
+   ]
   },
   {
    "start": 1871.18,
@@ -824,7 +3064,77 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Yo creo que esto es algo que la gente aquí le guarda muy cercano y sentimos que es un favor que hay que devolver al resto del mundo. Yo creo que estos ejemplos de lucha, no solamente aquí, con Sudáfrica, Cuba con todo lo que da al mundo, con médicos, incluso el apoyo a Sudáfrica contra el apartheid. Muchas luchas que hemos visto que cuando la sociedad civil a nivel internacional decide tomar un paso adelante y un poco exponer la complicidad de los políticos y cómo la comunidad internacional está fallando en aplicar sus propios valores, principios, acuerdos, derechos. La violación propia de nuestros gobiernos contra nuestros propios valores, constituciones y tal, es inmensa. Y la sociedad civil en algún momento es la que puede marcar el cambio. Yo creo que estamos en un momento muy importante."
+   "text": "Yo creo que esto es algo que la gente aquí le guarda muy cercano y sentimos que es un favor que hay que devolver al resto del mundo. Yo creo que estos ejemplos de lucha, no solamente aquí, con Sudáfrica, Cuba con todo lo que da al mundo, con médicos, incluso el apoyo a Sudáfrica contra el apartheid. Muchas luchas que hemos visto que cuando la sociedad civil a nivel internacional decide tomar un paso adelante y un poco exponer la complicidad de los políticos y cómo la comunidad internacional está fallando en aplicar sus propios valores, principios, acuerdos, derechos. La violación propia de nuestros gobiernos contra nuestros propios valores, constituciones y tal, es inmensa. Y la sociedad civil en algún momento es la que puede marcar el cambio. Yo creo que estamos en un momento muy importante.",
+   "marks": [
+    [
+     0,
+     1871.2
+    ],
+    [
+     53,
+     1874.7
+    ],
+    [
+     113,
+     1879.6
+    ],
+    [
+     133,
+     1880.8
+    ],
+    [
+     173,
+     1883.9
+    ],
+    [
+     238,
+     1889.5
+    ],
+    [
+     301,
+     1896.7
+    ],
+    [
+     315,
+     1898.1
+    ],
+    [
+     389,
+     1904.1
+    ],
+    [
+     452,
+     1910.4
+    ],
+    [
+     533,
+     1917.7
+    ],
+    [
+     574,
+     1919.8
+    ],
+    [
+     632,
+     1925.3
+    ],
+    [
+     683,
+     1929.2
+    ],
+    [
+     706,
+     1930.8
+    ],
+    [
+     754,
+     1933.1
+    ],
+    [
+     766,
+     1933.8
+    ]
+   ]
   },
   {
    "start": 1936.52,
@@ -832,7 +3142,13 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "Estamos en un momento histórico."
+   "text": "Estamos en un momento histórico.",
+   "marks": [
+    [
+     0,
+     1936.5
+    ]
+   ]
   },
   {
    "start": 1938.48,
@@ -840,7 +3156,21 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Yo creo que poner las violaciones que están pasando en Palestina a un lado, Estamos viendo un mundo que nos está llevando a un contexto violento terrible."
+   "text": "Yo creo que poner las violaciones que están pasando en Palestina a un lado, Estamos viendo un mundo que nos está llevando a un contexto violento terrible.",
+   "marks": [
+    [
+     0,
+     1938.5
+    ],
+    [
+     67,
+     1944.8
+    ],
+    [
+     127,
+     1951.1
+    ]
+   ]
   },
   {
    "start": 1953.94,
@@ -848,7 +3178,13 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "Sí, sí, totalmente."
+   "text": "Sí, sí, totalmente.",
+   "marks": [
+    [
+     0,
+     1953.9
+    ]
+   ]
   },
   {
    "start": 1955.42,
@@ -856,7 +3192,41 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Entonces, yo creo que hablamos mucho, ¿no? Hago esto por mis hijos, hago esto por el futuro, hago esto porque quiero tener una vida más digna y todo. Y debemos entender que hoy, hoy es el momento. Todo lo que nos llevamos hablando de ello teóricamente durante mucho tiempo, hoy es la batalla."
+   "text": "Entonces, yo creo que hablamos mucho, ¿no? Hago esto por mis hijos, hago esto por el futuro, hago esto porque quiero tener una vida más digna y todo. Y debemos entender que hoy, hoy es el momento. Todo lo que nos llevamos hablando de ello teóricamente durante mucho tiempo, hoy es la batalla.",
+   "marks": [
+    [
+     0,
+     1955.4
+    ],
+    [
+     43,
+     1957.8
+    ],
+    [
+     68,
+     1959.0
+    ],
+    [
+     132,
+     1962.6
+    ],
+    [
+     150,
+     1964.1
+    ],
+    [
+     188,
+     1969.0
+    ],
+    [
+     197,
+     1969.3
+    ],
+    [
+     266,
+     1974.9
+    ]
+   ]
   },
   {
    "start": 1978.36,
@@ -864,7 +3234,41 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "Yo creo que esto es súper importante porque a veces da la sensación de que en estos años en España se ha delegado en la política institucional, en un gobierno, como el hacer política. Y yo creo que la gente tiene que ser consciente que para frenar esta ola fascista internacional la gente tiene que hacer política en primera persona, o sea que nadie lo va a hacer por nosotras, que tenemos que movilizarnos y organizarnos."
+   "text": "Yo creo que esto es súper importante porque a veces da la sensación de que en estos años en España se ha delegado en la política institucional, en un gobierno, como el hacer política. Y yo creo que la gente tiene que ser consciente que para frenar esta ola fascista internacional la gente tiene que hacer política en primera persona, o sea que nadie lo va a hacer por nosotras, que tenemos que movilizarnos y organizarnos.",
+   "marks": [
+    [
+     0,
+     1978.4
+    ],
+    [
+     58,
+     1984.0
+    ],
+    [
+     117,
+     1987.2
+    ],
+    [
+     184,
+     1993.8
+    ],
+    [
+     189,
+     1994.5
+    ],
+    [
+     253,
+     1997.5
+    ],
+    [
+     334,
+     2001.3
+    ],
+    [
+     390,
+     2003.1
+    ]
+   ]
   },
   {
    "start": 2004.82,
@@ -872,7 +3276,13 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Exacto."
+   "text": "Exacto.",
+   "marks": [
+    [
+     0,
+     2004.8
+    ]
+   ]
   },
   {
    "start": 2006.04,
@@ -880,7 +3290,29 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "Pues Saif, yo personalmente quería darte de verdad de corazón las gracias por tu ejemplo, por tu ejemplo de compromiso y tu lucha, y que sepas que hemos aprendido mucho de vosotros Y que ojalá podamos tener un poquito de esa convicción profunda, de esos valores profundos que os mueve a ti y a tu pueblo."
+   "text": "Pues Saif, yo personalmente quería darte de verdad de corazón las gracias por tu ejemplo, por tu ejemplo de compromiso y tu lucha, y que sepas que hemos aprendido mucho de vosotros Y que ojalá podamos tener un poquito de esa convicción profunda, de esos valores profundos que os mueve a ti y a tu pueblo.",
+   "marks": [
+    [
+     0,
+     2006.0
+    ],
+    [
+     74,
+     2009.7
+    ],
+    [
+     133,
+     2014.1
+    ],
+    [
+     201,
+     2018.5
+    ],
+    [
+     276,
+     2022.6
+    ]
+   ]
   },
   {
    "start": 2024.66,
@@ -888,7 +3320,25 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Gracias y también quiero darte las gracias a ti y a todas las personas que llevan años trabajando por Palestina y que si no fuese por este trabajo, por esta movilización que se hizo en su momento, yo hubiera seguido ahí."
+   "text": "Gracias y también quiero darte las gracias a ti y a todas las personas que llevan años trabajando por Palestina y que si no fuese por este trabajo, por esta movilización que se hizo en su momento, yo hubiera seguido ahí.",
+   "marks": [
+    [
+     0,
+     2024.7
+    ],
+    [
+     58,
+     2028.0
+    ],
+    [
+     124,
+     2033.4
+    ],
+    [
+     188,
+     2037.6
+    ]
+   ]
   },
   {
    "start": 2040.7,
@@ -896,7 +3346,21 @@
    "label": "SPEAKER_00",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "Era lo mínimo que había que hacer. Muchas gracias. Gracias."
+   "text": "Era lo mínimo que había que hacer. Muchas gracias. Gracias.",
+   "marks": [
+    [
+     0,
+     2040.7
+    ],
+    [
+     35,
+     2042.5
+    ],
+    [
+     51,
+     2043.4
+    ]
+   ]
   }
  ]
 }

@@ -14,7 +14,7 @@
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
   "voiceprint_threshold": 0.65,
-  "processed_at": "2026-10-25T20:11:32+00:00",
+  "processed_at": "2026-10-25T20:59:20+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -180,7 +180,13 @@
    "label": "SPEAKER_18",
    "person": null,
    "name": "Hablante sin identificar 4",
-   "text": "Val, quan es voti al"
+   "text": "Val, quan es voti al",
+   "marks": [
+    [
+     0,
+     0.0
+    ]
+   ]
   },
   {
    "start": 1.72,
@@ -188,7 +194,33 @@
    "label": "SPEAKER_07",
    "person": null,
    "name": "Hablante sin identificar 9",
-   "text": "Congrés el traspàs de competències per immigració a la Generalitat de Catalunya, què votaran aquests sis diputats? Faran com quan Convergència i Unió votava l'avortament, per entendre'ns, que donava llibertat de vot? No en tinc ni idea, jo"
+   "text": "Congrés el traspàs de competències per immigració a la Generalitat de Catalunya, què votaran aquests sis diputats? Faran com quan Convergència i Unió votava l'avortament, per entendre'ns, que donava llibertat de vot? No en tinc ni idea, jo",
+   "marks": [
+    [
+     0,
+     1.7
+    ],
+    [
+     81,
+     8.4
+    ],
+    [
+     115,
+     10.9
+    ],
+    [
+     157,
+     13.9
+    ],
+    [
+     217,
+     16.1
+    ],
+    [
+     223,
+     16.6
+    ]
+   ]
   },
   {
    "start": 17.34,
@@ -196,7 +228,13 @@
    "label": "SPEAKER_05",
    "person": null,
    "name": "Hablante sin identificar 7",
-   "text": "faré les bases del"
+   "text": "faré les bases del",
+   "marks": [
+    [
+     0,
+     17.3
+    ]
+   ]
   },
   {
    "start": 18.16,
@@ -204,7 +242,13 @@
    "label": "SPEAKER_07",
    "person": null,
    "name": "Hablante sin identificar 9",
-   "text": "pacte, però jo et diré una cosa..."
+   "text": "pacte, però jo et diré una cosa...",
+   "marks": [
+    [
+     0,
+     18.2
+    ]
+   ]
   },
   {
    "start": 19.78,
@@ -212,7 +256,13 @@
    "label": "SPEAKER_05",
    "person": null,
    "name": "Hablante sin identificar 7",
-   "text": "Però un moment, tu"
+   "text": "Però un moment, tu",
+   "marks": [
+    [
+     0,
+     19.8
+    ]
+   ]
   },
   {
    "start": 19.8,
@@ -220,7 +270,13 @@
    "label": "SPEAKER_07",
    "person": null,
    "name": "Hablante sin identificar 9",
-   "text": "no creus que el votant d'Esquerra Republicana ha de saber que..."
+   "text": "no creus que el votant d'Esquerra Republicana ha de saber que...",
+   "marks": [
+    [
+     0,
+     19.8
+    ]
+   ]
   },
   {
    "start": 23.08,
@@ -228,7 +284,37 @@
    "label": "SPEAKER_05",
    "person": null,
    "name": "Hablante sin identificar 7",
-   "text": "El votant d'Esquerra Republicana ha de saber que el que crec que farà Esquerra Republicana és forçar Podemos a votar a favor. Ho tinc convençut, aquí hi ha un camí conjunt, home. No dubto que haurem... Doncs haver-ho fet la legislatura passada hi hauria unes competències."
+   "text": "El votant d'Esquerra Republicana ha de saber que el que crec que farà Esquerra Republicana és forçar Podemos a votar a favor. Ho tinc convençut, aquí hi ha un camí conjunt, home. No dubto que haurem... Doncs haver-ho fet la legislatura passada hi hauria unes competències.",
+   "marks": [
+    [
+     0,
+     23.1
+    ],
+    [
+     61,
+     25.4
+    ],
+    [
+     126,
+     27.9
+    ],
+    [
+     129,
+     28.3
+    ],
+    [
+     179,
+     30.9
+    ],
+    [
+     192,
+     32.3
+    ],
+    [
+     202,
+     32.3
+    ]
+   ]
   },
   {
    "start": 34.7,
@@ -236,7 +322,41 @@
    "label": "SPEAKER_06",
    "person": null,
    "name": "Hablante sin identificar 6",
-   "text": "Històricament, per exemple, a les europees, iniciativa que solia treure dos diputats, una anava a Europa amb el grup comunista i l'altra anava a Europa amb el grup verd. Sí, per això jo crec que no... No, però vull dir que no, que al final, quan fas coalicions que amplien el teu espai, bé, l'electorat d'Esquerra Republicana ja no hi ha..."
+   "text": "Històricament, per exemple, a les europees, iniciativa que solia treure dos diputats, una anava a Europa amb el grup comunista i l'altra anava a Europa amb el grup verd. Sí, per això jo crec que no... No, però vull dir que no, que al final, quan fas coalicions que amplien el teu espai, bé, l'electorat d'Esquerra Republicana ja no hi ha...",
+   "marks": [
+    [
+     0,
+     34.7
+    ],
+    [
+     86,
+     39.0
+    ],
+    [
+     143,
+     41.3
+    ],
+    [
+     170,
+     42.7
+    ],
+    [
+     195,
+     43.4
+    ],
+    [
+     201,
+     43.6
+    ],
+    [
+     250,
+     46.1
+    ],
+    [
+     326,
+     50.4
+    ]
+   ]
   },
   {
    "start": 50.84,
@@ -244,7 +364,21 @@
    "label": "SPEAKER_07",
    "person": null,
    "name": "Hablante sin identificar 9",
-   "text": "Un moment, Joan, un moment, em sembla molt bé, però el votant ja sabia, Quan passi això, sàpiga que el número 1 anirà a comunista i el número 2 anirà a aberts."
+   "text": "Un moment, Joan, un moment, em sembla molt bé, però el votant ja sabia, Quan passi això, sàpiga que el número 1 anirà a comunista i el número 2 anirà a aberts.",
+   "marks": [
+    [
+     0,
+     50.8
+    ],
+    [
+     62,
+     54.8
+    ],
+    [
+     120,
+     58.3
+    ]
+   ]
   },
   {
    "start": 59.84,
@@ -252,7 +386,57 @@
    "label": "SPEAKER_05",
    "person": null,
    "name": "Hablante sin identificar 7",
-   "text": "Com us passava Convergència i Unió amb això que dèieu abans de l'avortament, ho has dit tu, sí? Com us, no, com els. Com els passava, perdona, però vull dir que això passava amb Convergència i Unió. Però jo crec que no s'arribarà ni aquí, amb aquests temes, perquè estic convençut que si acaben 36 diputats, que seria un èxit per a Barcelona, hi haurà més unitat d'acció de la que et sembla. Podemos, amb el tema de l'autodeterminació, per exemple, no ha estat president, més bel·ligerant, dels partits espanyols, hem dit el contrari, és el que va donar suport."
+   "text": "Com us passava Convergència i Unió amb això que dèieu abans de l'avortament, ho has dit tu, sí? Com us, no, com els. Com els passava, perdona, però vull dir que això passava amb Convergència i Unió. Però jo crec que no s'arribarà ni aquí, amb aquests temes, perquè estic convençut que si acaben 36 diputats, que seria un èxit per a Barcelona, hi haurà més unitat d'acció de la que et sembla. Podemos, amb el tema de l'autodeterminació, per exemple, no ha estat president, més bel·ligerant, dels partits espanyols, hem dit el contrari, és el que va donar suport.",
+   "marks": [
+    [
+     0,
+     59.8
+    ],
+    [
+     63,
+     63.1
+    ],
+    [
+     96,
+     65.1
+    ],
+    [
+     117,
+     66.4
+    ],
+    [
+     191,
+     70.2
+    ],
+    [
+     199,
+     70.5
+    ],
+    [
+     243,
+     72.3
+    ],
+    [
+     318,
+     76.8
+    ],
+    [
+     374,
+     80.8
+    ],
+    [
+     392,
+     81.6
+    ],
+    [
+     440,
+     83.4
+    ],
+    [
+     522,
+     87.0
+    ]
+   ]
   },
   {
    "start": 89.42,
@@ -260,7 +444,13 @@
    "label": "SPEAKER_06",
    "person": null,
    "name": "Hablante sin identificar 6",
-   "text": "S"
+   "text": "S",
+   "marks": [
+    [
+     0,
+     89.4
+    ]
+   ]
   },
   {
    "start": 89.78,
@@ -268,7 +458,13 @@
    "label": "SPEAKER_07",
    "person": null,
    "name": "Hablante sin identificar 9",
-   "text": "'haurà de treballar això, s'haurà de"
+   "text": "'haurà de treballar això, s'haurà de",
+   "marks": [
+    [
+     0,
+     89.8
+    ]
+   ]
   },
   {
    "start": 91.02,
@@ -276,7 +472,13 @@
    "label": "SPEAKER_05",
    "person": null,
    "name": "Hablante sin identificar 7",
-   "text": "treballar, suposo, no?"
+   "text": "treballar, suposo, no?",
+   "marks": [
+    [
+     0,
+     91.0
+    ]
+   ]
   },
   {
    "start": 91.94,
@@ -284,7 +486,21 @@
    "label": "SPEAKER_07",
    "person": null,
    "name": "Hablante sin identificar 9",
-   "text": "És significatiu. En el fons, és una coalició que hi ha un partit que és independentista i un partit que no és"
+   "text": "És significatiu. En el fons, és una coalició que hi ha un partit que és independentista i un partit que no és",
+   "marks": [
+    [
+     0,
+     91.9
+    ],
+    [
+     17,
+     93.5
+    ],
+    [
+     58,
+     96.6
+    ]
+   ]
   },
   {
    "start": 98.76,
@@ -292,7 +508,41 @@
    "label": "SPEAKER_05",
    "person": null,
    "name": "Hablante sin identificar 7",
-   "text": "independentista. És una coalició per rascar els vots i impedir una majoria del PP-Vox. Jo t'ho diré ben clar perquè és aquesta coalició. Al final, no ens equivoquem, aquí no és una unitat orgànica, aquí és l'intent que PP-Vox no aconsegueixin amb els 176 diputats."
+   "text": "independentista. És una coalició per rascar els vots i impedir una majoria del PP-Vox. Jo t'ho diré ben clar perquè és aquesta coalició. Al final, no ens equivoquem, aquí no és una unitat orgànica, aquí és l'intent que PP-Vox no aconsegueixin amb els 176 diputats.",
+   "marks": [
+    [
+     0,
+     98.8
+    ],
+    [
+     17,
+     99.7
+    ],
+    [
+     75,
+     102.2
+    ],
+    [
+     87,
+     102.8
+    ],
+    [
+     127,
+     103.8
+    ],
+    [
+     137,
+     104.4
+    ],
+    [
+     198,
+     107.6
+    ],
+    [
+     255,
+     113.8
+    ]
+   ]
   },
   {
    "start": 115.44,
@@ -300,7 +550,141 @@
    "label": "SPEAKER_08",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "De tota manera, jo crec que el que està dient ara Belarra a l'entrevista no és cert. Ella està parlant que no li donen el pes que li correspon a Podemos. Parlàveu abans de les eleccions europees, que és cert que Irene Montero va tindre més vots que la candidatura de Sumar, Però el conjunt de l'estat espanyol, amb una candidata com era Estrella Galán, que no se la coneixia molt, ella va tindre més vots al conjunt de l'estat Irene Montero va quedar per darrere, que si no se'n recordem, de si acabó la fiesta del ultra Albice Pérez És a dir, ella també té un per relatiu i Podem ha passat de tindre amb Esquerra Unida en 2015 71 escons, 71 aspirar a tindre dos per Madrid El trajecte que ha fet fins ara, jo crec que ells sempre parlen de l'autocrítica de la resta, però no parlen de la seva. I a mi sí que em consta que Frente Amplio els ha oferit el número dos per Madrid. Vull dir, no és no tindre'ls en compte el pes que tenen, però ells el que volen, i bàsicament crec que haurien de ser honestos i dir-ho clarament, és que Irene Montero tinga llibertat i tindre més capacitat per influir en una pròpia legislatura que van a governar PP i Vox i no volen estar dintre d'un acord més ampli amb Sumar, Comuns, etc. Aleshores, que ho diuen clarament i no parlen que no estem negociant, no, vols maximitzar les teues oportunitats. I a més, vas a utilitzar a Gabriel Rufián com una persona que pot ser, et farà tindre més vots al conjunt de l'Estat. Però ja està, és que jo crec que estan mentint en tot aquest procediment i jo crec que no és just per a molta gent."
+   "text": "De tota manera, jo crec que el que està dient ara Belarra a l'entrevista no és cert. Ella està parlant que no li donen el pes que li correspon a Podemos. Parlàveu abans de les eleccions europees, que és cert que Irene Montero va tindre més vots que la candidatura de Sumar, Però el conjunt de l'estat espanyol, amb una candidata com era Estrella Galán, que no se la coneixia molt, ella va tindre més vots al conjunt de l'estat Irene Montero va quedar per darrere, que si no se'n recordem, de si acabó la fiesta del ultra Albice Pérez És a dir, ella també té un per relatiu i Podem ha passat de tindre amb Esquerra Unida en 2015 71 escons, 71 aspirar a tindre dos per Madrid El trajecte que ha fet fins ara, jo crec que ells sempre parlen de l'autocrítica de la resta, però no parlen de la seva. I a mi sí que em consta que Frente Amplio els ha oferit el número dos per Madrid. Vull dir, no és no tindre'ls en compte el pes que tenen, però ells el que volen, i bàsicament crec que haurien de ser honestos i dir-ho clarament, és que Irene Montero tinga llibertat i tindre més capacitat per influir en una pròpia legislatura que van a governar PP i Vox i no volen estar dintre d'un acord més ampli amb Sumar, Comuns, etc. Aleshores, que ho diuen clarament i no parlen que no estem negociant, no, vols maximitzar les teues oportunitats. I a més, vas a utilitzar a Gabriel Rufián com una persona que pot ser, et farà tindre més vots al conjunt de l'Estat. Però ja està, és que jo crec que estan mentint en tot aquest procediment i jo crec que no és just per a molta gent.",
+   "marks": [
+    [
+     0,
+     115.4
+    ],
+    [
+     58,
+     119.5
+    ],
+    [
+     85,
+     120.7
+    ],
+    [
+     113,
+     122.2
+    ],
+    [
+     154,
+     124.1
+    ],
+    [
+     176,
+     125.0
+    ],
+    [
+     245,
+     128.8
+    ],
+    [
+     311,
+     131.9
+    ],
+    [
+     375,
+     135.1
+    ],
+    [
+     433,
+     138.3
+    ],
+    [
+     492,
+     141.7
+    ],
+    [
+     549,
+     145.5
+    ],
+    [
+     605,
+     148.3
+    ],
+    [
+     667,
+     153.6
+    ],
+    [
+     724,
+     157.5
+    ],
+    [
+     786,
+     160.2
+    ],
+    [
+     795,
+     160.7
+    ],
+    [
+     837,
+     162.5
+    ],
+    [
+     877,
+     165.0
+    ],
+    [
+     893,
+     165.6
+    ],
+    [
+     947,
+     168.9
+    ],
+    [
+     1009,
+     172.1
+    ],
+    [
+     1084,
+     176.8
+    ],
+    [
+     1146,
+     181.2
+    ],
+    [
+     1199,
+     184.9
+    ],
+    [
+     1219,
+     187.2
+    ],
+    [
+     1269,
+     189.7
+    ],
+    [
+     1333,
+     194.0
+    ],
+    [
+     1342,
+     194.3
+    ],
+    [
+     1404,
+     197.4
+    ],
+    [
+     1451,
+     200.5
+    ],
+    [
+     1459,
+     201.0
+    ],
+    [
+     1524,
+     204.1
+    ]
+   ]
   },
   {
    "start": 205.86,
@@ -308,7 +692,21 @@
    "label": "SPEAKER_06",
    "person": null,
    "name": "Hablante sin identificar 6",
-   "text": "Però tothom vol maximitzar les seves possibilitats. Evidentment No només Podem, i Podem acaba de tenir un regal Però"
+   "text": "Però tothom vol maximitzar les seves possibilitats. Evidentment No només Podem, i Podem acaba de tenir un regal Però",
+   "marks": [
+    [
+     0,
+     205.9
+    ],
+    [
+     52,
+     207.9
+    ],
+    [
+     82,
+     209.6
+    ]
+   ]
   },
   {
    "start": 211.8,
@@ -316,7 +714,21 @@
    "label": "SPEAKER_08",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Colau s'ho ha fet enrere, Irene Montero no, Irene Montero no Jo crec que això perquè evidencia que ella vol ser diputada sí o sí, i ja està Jo"
+   "text": "Colau s'ho ha fet enrere, Irene Montero no, Irene Montero no Jo crec que això perquè evidencia que ella vol ser diputada sí o sí, i ja està Jo",
+   "marks": [
+    [
+     0,
+     211.8
+    ],
+    [
+     61,
+     214.4
+    ],
+    [
+     124,
+     218.0
+    ]
+   ]
   },
   {
    "start": 219.7,
@@ -324,7 +736,105 @@
    "label": "SPEAKER_06",
    "person": null,
    "name": "Hablante sin identificar 6",
-   "text": "no dic qui té raó o qui té moralment raó, però a les negociacions polítiques d'aquestes característiques i a més a més amb enemics íntims, perquè els enemics de veritat estan en el propi espai, en la política Doncs òbviament, de cop i volta, la Irene Montero i l'espai de Podem Podem que estava lluitant per sobreviure ha fet una jugada que jo crec que és, objectivament, des d'un punt de vista polític, ben concertada amb Esquerra Republicana i això li ha fet guanyar molt espai, molta força, això beneficia Podem i Esquerra Republicana contra el competidor de tots dos que en aquesta negociació l'ha afrontat de la pitjor manera possible que a mi se m'acudeix perquè, clar, des del moment en què vas dient tota l'estona que tu vols de candidat el Rufián i el Rufián és el candidat d'un altre partit, tu ja estàs, en aquestes negociacions, estàs absolutament venut I per tant, ara, amb independència de qui té raó moral, ens trobem davant d'una negociació, en l'últim moment, a cara de perro, que diuen en castellà, i que el que té les bones cartes és aquest espai. I això, amb independència del que pensi cadascú, de qui té raó o de què aniria bé, etcètera, etcètera. Això és una negociació política en què, de cop i volta, han canviat la correlació de forces gràcies a aquesta operació. Més elements, més elements."
+   "text": "no dic qui té raó o qui té moralment raó, però a les negociacions polítiques d'aquestes característiques i a més a més amb enemics íntims, perquè els enemics de veritat estan en el propi espai, en la política Doncs òbviament, de cop i volta, la Irene Montero i l'espai de Podem Podem que estava lluitant per sobreviure ha fet una jugada que jo crec que és, objectivament, des d'un punt de vista polític, ben concertada amb Esquerra Republicana i això li ha fet guanyar molt espai, molta força, això beneficia Podem i Esquerra Republicana contra el competidor de tots dos que en aquesta negociació l'ha afrontat de la pitjor manera possible que a mi se m'acudeix perquè, clar, des del moment en què vas dient tota l'estona que tu vols de candidat el Rufián i el Rufián és el candidat d'un altre partit, tu ja estàs, en aquestes negociacions, estàs absolutament venut I per tant, ara, amb independència de qui té raó moral, ens trobem davant d'una negociació, en l'últim moment, a cara de perro, que diuen en castellà, i que el que té les bones cartes és aquest espai. I això, amb independència del que pensi cadascú, de qui té raó o de què aniria bé, etcètera, etcètera. Això és una negociació política en què, de cop i volta, han canviat la correlació de forces gràcies a aquesta operació. Més elements, més elements.",
+   "marks": [
+    [
+     0,
+     219.7
+    ],
+    [
+     49,
+     222.6
+    ],
+    [
+     123,
+     226.1
+    ],
+    [
+     194,
+     229.9
+    ],
+    [
+     259,
+     235.1
+    ],
+    [
+     322,
+     238.3
+    ],
+    [
+     381,
+     241.0
+    ],
+    [
+     454,
+     245.7
+    ],
+    [
+     526,
+     249.8
+    ],
+    [
+     598,
+     254.0
+    ],
+    [
+     653,
+     256.8
+    ],
+    [
+     714,
+     259.1
+    ],
+    [
+     771,
+     261.8
+    ],
+    [
+     841,
+     264.5
+    ],
+    [
+     911,
+     268.2
+    ],
+    [
+     977,
+     274.1
+    ],
+    [
+     1030,
+     277.4
+    ],
+    [
+     1067,
+     281.7
+    ],
+    [
+     1097,
+     283.3
+    ],
+    [
+     1150,
+     286.5
+    ],
+    [
+     1170,
+     287.2
+    ],
+    [
+     1219,
+     289.0
+    ],
+    [
+     1290,
+     292.4
+    ],
+    [
+     1294,
+     292.8
+    ]
+   ]
   },
   {
    "start": 293.74,
@@ -332,7 +842,13 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "Per exemple, Emilio Delgado acaba"
+   "text": "Per exemple, Emilio Delgado acaba",
+   "marks": [
+    [
+     0,
+     293.7
+    ]
+   ]
   },
   {
    "start": 295.06,
@@ -340,7 +856,41 @@
    "label": "SPEAKER_17",
    "person": null,
    "name": "Hablante sin identificar 14",
-   "text": "de parlar a la SER, ha dit això Hi ha marge, hi ha temps, les portes estan obertes, les mans tendides i jo espero que aquest cap de setmana tinguem una bona notícia i es consumi el que tots volem, que és que hi ha una sola papeleta en totes les circunscricions Irene Montero, el país entero ha vist com tots els esforços que estan en la nostra mà s'han posat sobre la taula per acomodar totes les forces polítiques en aquesta llista Està la porta oberta És qui encapçalarà la llista de Frente"
+   "text": "de parlar a la SER, ha dit això Hi ha marge, hi ha temps, les portes estan obertes, les mans tendides i jo espero que aquest cap de setmana tinguem una bona notícia i es consumi el que tots volem, que és que hi ha una sola papeleta en totes les circunscricions Irene Montero, el país entero ha vist com tots els esforços que estan en la nostra mà s'han posat sobre la taula per acomodar totes les forces polítiques en aquesta llista Està la porta oberta És qui encapçalarà la llista de Frente",
+   "marks": [
+    [
+     0,
+     295.1
+    ],
+    [
+     48,
+     298.5
+    ],
+    [
+     114,
+     302.1
+    ],
+    [
+     178,
+     305.5
+    ],
+    [
+     232,
+     307.2
+    ],
+    [
+     303,
+     311.0
+    ],
+    [
+     359,
+     314.2
+    ],
+    [
+     433,
+     317.3
+    ]
+   ]
   },
   {
    "start": 321.0,
@@ -348,7 +898,13 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "Amplio, en aquest cas per Madrid"
+   "text": "Amplio, en aquest cas per Madrid",
+   "marks": [
+    [
+     0,
+     321.0
+    ]
+   ]
   },
   {
    "start": 322.42,
@@ -356,7 +912,45 @@
    "label": "SPEAKER_05",
    "person": null,
    "name": "Hablante sin identificar 7",
-   "text": "És un excel·lent deputat, és un excel·lent candidat per Madrid, eh? Sí, i tant. Però dit això, la meva sensació, si em puc equivocar, és que ara estem jugant aquell joc de, a veure, qui és el culpable? Sí, sí. Qui és l'assassí? I, per tant..."
+   "text": "És un excel·lent deputat, és un excel·lent candidat per Madrid, eh? Sí, i tant. Però dit això, la meva sensació, si em puc equivocar, és que ara estem jugant aquell joc de, a veure, qui és el culpable? Sí, sí. Qui és l'assassí? I, per tant...",
+   "marks": [
+    [
+     0,
+     322.4
+    ],
+    [
+     68,
+     325.7
+    ],
+    [
+     72,
+     325.9
+    ],
+    [
+     80,
+     326.2
+    ],
+    [
+     134,
+     331.0
+    ],
+    [
+     189,
+     334.3
+    ],
+    [
+     202,
+     335.4
+    ],
+    [
+     210,
+     336.0
+    ],
+    [
+     228,
+     336.9
+    ]
+   ]
   },
   {
    "start": 338.0,
@@ -364,7 +958,13 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "Nosaltres ho hem posat tot, no?"
+   "text": "Nosaltres ho hem posat tot, no?",
+   "marks": [
+    [
+     0,
+     338.0
+    ]
+   ]
   },
   {
    "start": 339.06,
@@ -372,7 +972,21 @@
    "label": "SPEAKER_05",
    "person": null,
    "name": "Hablante sin identificar 7",
-   "text": "Nosaltres també, no? Nosaltres també. Qui és l'assassí per reforçar el"
+   "text": "Nosaltres també, no? Nosaltres també. Qui és l'assassí per reforçar el",
+   "marks": [
+    [
+     0,
+     339.1
+    ],
+    [
+     21,
+     339.7
+    ],
+    [
+     38,
+     340.5
+    ]
+   ]
   },
   {
    "start": 343.06,
@@ -380,7 +994,13 @@
    "label": "SPEAKER_06",
    "person": null,
    "name": "Hablante sin identificar 6",
-   "text": "seu espai electoral i castigar l'altre?"
+   "text": "seu espai electoral i castigar l'altre?",
+   "marks": [
+    [
+     0,
+     343.1
+    ]
+   ]
   },
   {
    "start": 344.76,
@@ -388,7 +1008,13 @@
    "label": "SPEAKER_05",
    "person": null,
    "name": "Hablante sin identificar 7",
-   "text": "Qui fa per a caçar el projecte,"
+   "text": "Qui fa per a caçar el projecte,",
+   "marks": [
+    [
+     0,
+     344.8
+    ]
+   ]
   },
   {
    "start": 346.22,
@@ -396,7 +1022,13 @@
    "label": "SPEAKER_06",
    "person": null,
    "name": "Hablante sin identificar 6",
-   "text": "no?"
+   "text": "no?",
+   "marks": [
+    [
+     0,
+     346.2
+    ]
+   ]
   },
   {
    "start": 346.22,
@@ -404,7 +1036,13 @@
    "label": "SPEAKER_05",
    "person": null,
    "name": "Hablante sin identificar 7",
-   "text": "Correcte, estem jugant això, jo crec que estem jugant això allà."
+   "text": "Correcte, estem jugant això, jo crec que estem jugant això allà.",
+   "marks": [
+    [
+     0,
+     346.2
+    ]
+   ]
   },
   {
    "start": 348.54,
@@ -412,7 +1050,17 @@
    "label": "SPEAKER_06",
    "person": null,
    "name": "Hablante sin identificar 6",
-   "text": "O potser en paral·lel, jo crec que encara hi ha alguna possibilitat real"
+   "text": "O potser en paral·lel, jo crec que encara hi ha alguna possibilitat real",
+   "marks": [
+    [
+     0,
+     348.5
+    ],
+    [
+     68,
+     351.8
+    ]
+   ]
   },
   {
    "start": 352.18,
@@ -420,7 +1068,13 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "I en paral·lel tothom..."
+   "text": "I en paral·lel tothom...",
+   "marks": [
+    [
+     0,
+     352.2
+    ]
+   ]
   },
   {
    "start": 382.18,
@@ -428,7 +1082,13 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 21",
-   "text": "Fins demà!"
+   "text": "Fins demà!",
+   "marks": [
+    [
+     0,
+     382.2
+    ]
+   ]
   },
   {
    "start": 412.18,
@@ -436,7 +1096,61 @@
    "label": "SPEAKER_14",
    "person": null,
    "name": "Hablante sin identificar 17",
-   "text": "Doncs pel que fa a l'alta velocitat segueixen les afectacions, de fet encara avui hi ha algunes cancel·lacions, també retards i reprogramacions. Pel que fa a Rodalies, retards de 15 minuts de mitjana a l'ERA 2 Nord, la línia del Vallès Oriental i l'ERA 11, que és la que uneix Barcelona amb Portbou. D'altra banda, hi ha hagut un robatori de cable de coure aquest cop entre l'Hospitalet de l'Infant i l'Ammella de Mar, que provoca retards en els trens de mitjana i llarga distància entre Castelló i Tarragona. i, si heu d'agafar avui el tramvia de Barcelona, sapigueu que fins a dos quarts de tres de la tarda la T6 no circula entre Parc del Besòs i Estació de Sant Adrià."
+   "text": "Doncs pel que fa a l'alta velocitat segueixen les afectacions, de fet encara avui hi ha algunes cancel·lacions, també retards i reprogramacions. Pel que fa a Rodalies, retards de 15 minuts de mitjana a l'ERA 2 Nord, la línia del Vallès Oriental i l'ERA 11, que és la que uneix Barcelona amb Portbou. D'altra banda, hi ha hagut un robatori de cable de coure aquest cop entre l'Hospitalet de l'Infant i l'Ammella de Mar, que provoca retards en els trens de mitjana i llarga distància entre Castelló i Tarragona. i, si heu d'agafar avui el tramvia de Barcelona, sapigueu que fins a dos quarts de tres de la tarda la T6 no circula entre Parc del Besòs i Estació de Sant Adrià.",
+   "marks": [
+    [
+     0,
+     412.2
+    ],
+    [
+     66,
+     416.0
+    ],
+    [
+     145,
+     419.7
+    ],
+    [
+     149,
+     419.9
+    ],
+    [
+     203,
+     422.6
+    ],
+    [
+     257,
+     425.4
+    ],
+    [
+     300,
+     427.0
+    ],
+    [
+     318,
+     427.8
+    ],
+    [
+     375,
+     430.4
+    ],
+    [
+     439,
+     433.1
+    ],
+    [
+     510,
+     436.5
+    ],
+    [
+     572,
+     439.9
+    ],
+    [
+     619,
+     442.6
+    ]
+   ]
   },
   {
    "start": 445.8,
@@ -444,7 +1158,21 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "Com dèiem, d'aquí a pocs minuts, amb nosaltres tindrem Ada Colau. Però abans, de què més estarem pendents aquest matí? Redacció, Sílvia Solanes."
+   "text": "Com dèiem, d'aquí a pocs minuts, amb nosaltres tindrem Ada Colau. Però abans, de què més estarem pendents aquest matí? Redacció, Sílvia Solanes.",
+   "marks": [
+    [
+     0,
+     445.8
+    ],
+    [
+     66,
+     449.4
+    ],
+    [
+     119,
+     452.9
+    ]
+   ]
   },
   {
    "start": 454.1,
@@ -452,7 +1180,25 @@
    "label": "SPEAKER_12",
    "person": null,
    "name": "Hablante sin identificar 19",
-   "text": "Doncs mira, de dues notícies de Mossos que acabem de saber, per una banda han trobat un cos a Sitges que podria ser el d'un dels desapareguts pels aiguals. Redacció, Palforadada."
+   "text": "Doncs mira, de dues notícies de Mossos que acabem de saber, per una banda han trobat un cos a Sitges que podria ser el d'un dels desapareguts pels aiguals. Redacció, Palforadada.",
+   "marks": [
+    [
+     0,
+     454.1
+    ],
+    [
+     64,
+     456.5
+    ],
+    [
+     119,
+     459.6
+    ],
+    [
+     156,
+     461.6
+    ]
+   ]
   },
   {
    "start": 462.58,
@@ -460,7 +1206,49 @@
    "label": "SPEAKER_20",
    "person": null,
    "name": "Hablante sin identificar 18",
-   "text": "Una persona hauria donat l'avís d'un cos sorant ahir a la tarda, Un cos que estaria en avançat d'estat de descomposició, això fa que sigui complicat l'estat d'identificació, però els Mossos treballen amb la hipòtesi que sigui una de les dues persones que van desaparèixer pels aiguats de Principis de Més, el menor de 12 anys a Granollers o el d'un noi jopa a Pineda de Mar. D'altra banda, els Mossos han detingut a Tarragona els autors d'una detenció il·legal, agressió amb arma de foc i lesions greus que van passar el 7 de setembre."
+   "text": "Una persona hauria donat l'avís d'un cos sorant ahir a la tarda, Un cos que estaria en avançat d'estat de descomposició, això fa que sigui complicat l'estat d'identificació, però els Mossos treballen amb la hipòtesi que sigui una de les dues persones que van desaparèixer pels aiguats de Principis de Més, el menor de 12 anys a Granollers o el d'un noi jopa a Pineda de Mar. D'altra banda, els Mossos han detingut a Tarragona els autors d'una detenció il·legal, agressió amb arma de foc i lesions greus que van passar el 7 de setembre.",
+   "marks": [
+    [
+     0,
+     462.6
+    ],
+    [
+     55,
+     465.3
+    ],
+    [
+     121,
+     469.0
+    ],
+    [
+     190,
+     472.8
+    ],
+    [
+     255,
+     475.5
+    ],
+    [
+     321,
+     478.5
+    ],
+    [
+     370,
+     481.3
+    ],
+    [
+     375,
+     481.5
+    ],
+    [
+     437,
+     483.7
+    ],
+    [
+     503,
+     487.5
+    ]
+   ]
   },
   {
    "start": 489.54,
@@ -468,7 +1256,29 @@
    "label": "SPEAKER_12",
    "person": null,
    "name": "Hablante sin identificar 19",
-   "text": "Més coses avui a Barcelona, ple extraordinari de l'Ajuntament sobre el Libi, els habitatges turístics. i Sarenca d'aquí menys d'una hora, a les 10. Barcelona, Nascura, bon dia."
+   "text": "Més coses avui a Barcelona, ple extraordinari de l'Ajuntament sobre el Libi, els habitatges turístics. i Sarenca d'aquí menys d'una hora, a les 10. Barcelona, Nascura, bon dia.",
+   "marks": [
+    [
+     0,
+     489.5
+    ],
+    [
+     71,
+     492.8
+    ],
+    [
+     103,
+     494.6
+    ],
+    [
+     138,
+     495.8
+    ],
+    [
+     148,
+     496.2
+    ]
+   ]
   },
   {
    "start": 497.68,
@@ -476,7 +1286,41 @@
    "label": "SPEAKER_13",
    "person": null,
    "name": "Hablante sin identificar 20",
-   "text": "Bon dia. Si no hi ha cap sorpresa d'última hora, la modificació de les ordenances fiscals per encarir Líbia entre un 50 i un 150% als propietaris d'habitatges d'ús turístic tirarà endavant amb el suport del PSC, Barcelona en Comú i Esquerra. Tot seguit, quedarà en exposició pública durant 30 dies perquè s'hi puguin fer al·legacions i l'aprovació definitiva serà a finals d'any."
+   "text": "Bon dia. Si no hi ha cap sorpresa d'última hora, la modificació de les ordenances fiscals per encarir Líbia entre un 50 i un 150% als propietaris d'habitatges d'ús turístic tirarà endavant amb el suport del PSC, Barcelona en Comú i Esquerra. Tot seguit, quedarà en exposició pública durant 30 dies perquè s'hi puguin fer al·legacions i l'aprovació definitiva serà a finals d'any.",
+   "marks": [
+    [
+     0,
+     497.7
+    ],
+    [
+     9,
+     498.3
+    ],
+    [
+     52,
+     500.1
+    ],
+    [
+     122,
+     504.1
+    ],
+    [
+     189,
+     508.8
+    ],
+    [
+     242,
+     511.6
+    ],
+    [
+     254,
+     512.2
+    ],
+    [
+     321,
+     515.6
+    ]
+   ]
   },
   {
    "start": 518.76,
@@ -484,7 +1328,25 @@
    "label": "SPEAKER_12",
    "person": null,
    "name": "Hablante sin identificar 19",
-   "text": "I el BOE ja publica aquest matí la decisió del Tribunal Suprem Llei de nets De saber, els Estats Units plantegen utilitzar literalment la mare de totes les bombes en un possible atac a l'Iran. Redacció Francesc Soler."
+   "text": "I el BOE ja publica aquest matí la decisió del Tribunal Suprem Llei de nets De saber, els Estats Units plantegen utilitzar literalment la mare de totes les bombes en un possible atac a l'Iran. Redacció Francesc Soler.",
+   "marks": [
+    [
+     0,
+     518.8
+    ],
+    [
+     63,
+     551.8
+    ],
+    [
+     138,
+     554.6
+    ],
+    [
+     193,
+     557.3
+    ]
+   ]
   },
   {
    "start": 558.26,
@@ -492,7 +1354,33 @@
    "label": "SPEAKER_16",
    "person": null,
    "name": "Hablante sin identificar 12",
-   "text": "L'exèrcit nord-americà ha elaborat nous plans d'atac que passen per un possible ús d'aquesta bomba contra la infraestructura energètica i les instal·lacions nuclears de l'Iran. Segons la premsa nord-americana, s'utilitzaria en cas que Donald Trump ordeni reprendre les operacions de combat. La lletra petita."
+   "text": "L'exèrcit nord-americà ha elaborat nous plans d'atac que passen per un possible ús d'aquesta bomba contra la infraestructura energètica i les instal·lacions nuclears de l'Iran. Segons la premsa nord-americana, s'utilitzaria en cas que Donald Trump ordeni reprendre les operacions de combat. La lletra petita.",
+   "marks": [
+    [
+     0,
+     558.3
+    ],
+    [
+     64,
+     561.3
+    ],
+    [
+     138,
+     565.8
+    ],
+    [
+     177,
+     567.4
+    ],
+    [
+     211,
+     569.1
+    ],
+    [
+     291,
+     575.7
+    ]
+   ]
   },
   {
    "start": 580.47,
@@ -500,7 +1388,33 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "I cada dia a aquesta hora analitzem també la lletra petita de l'actualitat amb l'analista i divulgador Marc Vidal. Bon dia, Marc. Bon dia, Ricard. Diuen que la intel·ligència artificial necessitarà els treballadors amb més experiència."
+   "text": "I cada dia a aquesta hora analitzem també la lletra petita de l'actualitat amb l'analista i divulgador Marc Vidal. Bon dia, Marc. Bon dia, Ricard. Diuen que la intel·ligència artificial necessitarà els treballadors amb més experiència.",
+   "marks": [
+    [
+     0,
+     580.5
+    ],
+    [
+     62,
+     583.2
+    ],
+    [
+     115,
+     585.5
+    ],
+    [
+     130,
+     586.4
+    ],
+    [
+     147,
+     587.4
+    ],
+    [
+     219,
+     592.0
+    ]
+   ]
   },
   {
    "start": 593.29,
@@ -508,7 +1422,97 @@
    "label": "SPEAKER_03",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Poder. Als anys 60, el psicòleg Raymond Cattel va distingir dos tipus d'intel·ligències. La fluïda, que és calcular, memoritzar, resoldre problemes nous. Aquesta arriba al màxim passat els 20 anys i després va minvant. I la cristal·litzada, que és el criteri, el context, saber com funcionen les persones. Aquesta continua creixent durant dècades, fins ben entrats als 70 anys. Doncs bé, el que la IA fa millor és precisament allò fluid, processar, resumir i trobar patrons en segons. La màquina competeix amb la virtut dels joves, no amb la dels grans. Però la lletra petita ens diu que l'experiència que no s'actualitza no és intel·ligència, només és nostàlgia. I que les empreses fa anys que perjubilen gent quan el mercat comença a pagar el criteri i no la velocitat. Estem acomiadant a qui sap el per què de la màquina per quedar-nos amb qui només la sap fer anar. Nil"
+   "text": "Poder. Als anys 60, el psicòleg Raymond Cattel va distingir dos tipus d'intel·ligències. La fluïda, que és calcular, memoritzar, resoldre problemes nous. Aquesta arriba al màxim passat els 20 anys i després va minvant. I la cristal·litzada, que és el criteri, el context, saber com funcionen les persones. Aquesta continua creixent durant dècades, fins ben entrats als 70 anys. Doncs bé, el que la IA fa millor és precisament allò fluid, processar, resumir i trobar patrons en segons. La màquina competeix amb la virtut dels joves, no amb la dels grans. Però la lletra petita ens diu que l'experiència que no s'actualitza no és intel·ligència, només és nostàlgia. I que les empreses fa anys que perjubilen gent quan el mercat comença a pagar el criteri i no la velocitat. Estem acomiadant a qui sap el per què de la màquina per quedar-nos amb qui només la sap fer anar. Nil",
+   "marks": [
+    [
+     0,
+     593.3
+    ],
+    [
+     7,
+     593.8
+    ],
+    [
+     70,
+     597.1
+    ],
+    [
+     89,
+     598.0
+    ],
+    [
+     154,
+     601.5
+    ],
+    [
+     162,
+     602.0
+    ],
+    [
+     219,
+     604.7
+    ],
+    [
+     221,
+     605.0
+    ],
+    [
+     296,
+     608.2
+    ],
+    [
+     306,
+     608.9
+    ],
+    [
+     378,
+     612.6
+    ],
+    [
+     438,
+     616.3
+    ],
+    [
+     485,
+     618.7
+    ],
+    [
+     513,
+     620.0
+    ],
+    [
+     554,
+     622.1
+    ],
+    [
+     576,
+     622.9
+    ],
+    [
+     644,
+     626.1
+    ],
+    [
+     664,
+     627.5
+    ],
+    [
+     711,
+     629.8
+    ],
+    [
+     772,
+     633.1
+    ],
+    [
+     828,
+     636.0
+    ],
+    [
+     870,
+     637.9
+    ]
+   ]
   },
   {
    "start": 644.19,
@@ -516,7 +1520,29 @@
    "label": "SPEAKER_18",
    "person": null,
    "name": "Hablante sin identificar 4",
-   "text": "Cuit, pernil dolç, pernil de llorc, en dient de diferents maneres. Però si està fet sense presses i amb matèria primera de la millor qualitat, es diu La Selva. La Selva, la marca del bon pernil."
+   "text": "Cuit, pernil dolç, pernil de llorc, en dient de diferents maneres. Però si està fet sense presses i amb matèria primera de la millor qualitat, es diu La Selva. La Selva, la marca del bon pernil.",
+   "marks": [
+    [
+     0,
+     644.2
+    ],
+    [
+     67,
+     648.8
+    ],
+    [
+     72,
+     649.1
+    ],
+    [
+     133,
+     651.8
+    ],
+    [
+     160,
+     653.9
+    ]
+   ]
   },
   {
    "start": 657.11,
@@ -524,7 +1550,13 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 8",
-   "text": "L"
+   "text": "L",
+   "marks": [
+    [
+     0,
+     657.1
+    ]
+   ]
   },
   {
    "start": 657.41,
@@ -532,7 +1564,13 @@
    "label": "SPEAKER_18",
    "person": null,
    "name": "Hablante sin identificar 4",
-   "text": "'Enigmàrius, amb Màrius Serra."
+   "text": "'Enigmàrius, amb Màrius Serra.",
+   "marks": [
+    [
+     0,
+     657.4
+    ]
+   ]
   },
   {
    "start": 661.51,
@@ -540,7 +1578,49 @@
    "label": "SPEAKER_19",
    "person": null,
    "name": "Hablante sin identificar 13",
-   "text": "Ahir, enfilat com l'heura preferida del pastor, era en remat. En remat? Avui dijous, dia dels enigmàrius difícils. Grups socials que no suen de cintura cap amunt. De set lletres. Grups socials que no suen de cintura cap amunt. Set lletres."
+   "text": "Ahir, enfilat com l'heura preferida del pastor, era en remat. En remat? Avui dijous, dia dels enigmàrius difícils. Grups socials que no suen de cintura cap amunt. De set lletres. Grups socials que no suen de cintura cap amunt. Set lletres.",
+   "marks": [
+    [
+     0,
+     661.5
+    ],
+    [
+     62,
+     665.8
+    ],
+    [
+     65,
+     666.3
+    ],
+    [
+     72,
+     668.3
+    ],
+    [
+     115,
+     672.1
+    ],
+    [
+     141,
+     675.3
+    ],
+    [
+     163,
+     677.3
+    ],
+    [
+     179,
+     678.6
+    ],
+    [
+     205,
+     680.6
+    ],
+    [
+     227,
+     682.3
+    ]
+   ]
   },
   {
    "start": 684.47,
@@ -548,7 +1628,17 @@
    "label": "SPEAKER_18",
    "person": null,
    "name": "Hablante sin identificar 4",
-   "text": "Per participar, registreu-vos al web catradio.cat barra ennemàrius abans de les 10 ben tocades."
+   "text": "Per participar, registreu-vos al web catradio.cat barra ennemàrius abans de les 10 ben tocades.",
+   "marks": [
+    [
+     0,
+     684.5
+    ],
+    [
+     76,
+     689.4
+    ]
+   ]
   },
   {
    "start": 693.25,
@@ -556,7 +1646,45 @@
    "label": "SPEAKER_09",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "Aquest any fes les maletes una sola vegada i descobreix una destinació nova cada dia. Amb els creuers de Ractravel pots fer la reserva per només 100 euros, Estalviar-te fins a un 50% i gaudir d'ofertes com ara Nens Gratis o Grans Descomptes. A més a més, amb facilitats de finançament perquè comencis a planificar les vacances avui mateix. Rack Travel, viatges que surten rodons."
+   "text": "Aquest any fes les maletes una sola vegada i descobreix una destinació nova cada dia. Amb els creuers de Ractravel pots fer la reserva per només 100 euros, Estalviar-te fins a un 50% i gaudir d'ofertes com ara Nens Gratis o Grans Descomptes. A més a més, amb facilitats de finançament perquè comencis a planificar les vacances avui mateix. Rack Travel, viatges que surten rodons.",
+   "marks": [
+    [
+     0,
+     693.2
+    ],
+    [
+     71,
+     697.4
+    ],
+    [
+     86,
+     698.3
+    ],
+    [
+     135,
+     700.6
+    ],
+    [
+     185,
+     703.7
+    ],
+    [
+     242,
+     706.7
+    ],
+    [
+     248,
+     707.0
+    ],
+    [
+     327,
+     710.4
+    ],
+    [
+     340,
+     711.3
+    ]
+   ]
   },
   {
    "start": 716.27,
@@ -564,7 +1692,33 @@
    "label": "SPEAKER_11",
    "person": null,
    "name": "Hablante sin identificar 16",
-   "text": "Què passa quan un jugador i un venedor de l'11 es troben? Doncs que tu estàs tot el dia amb la il·lusió que et toqui el premi del cupó diari i en David del Gospigall que l'acompanya a tot arreu i el fa sentir-se més segur."
+   "text": "Què passa quan un jugador i un venedor de l'11 es troben? Doncs que tu estàs tot el dia amb la il·lusió que et toqui el premi del cupó diari i en David del Gospigall que l'acompanya a tot arreu i el fa sentir-se més segur.",
+   "marks": [
+    [
+     0,
+     716.3
+    ],
+    [
+     50,
+     719.1
+    ],
+    [
+     58,
+     719.7
+    ],
+    [
+     108,
+     721.7
+    ],
+    [
+     166,
+     724.7
+    ],
+    [
+     216,
+     727.0
+    ]
+   ]
   },
   {
    "start": 727.51,
@@ -572,7 +1726,13 @@
    "label": "SPEAKER_18",
    "person": null,
    "name": "Hablante sin identificar 4",
-   "text": "Només pel fet de comprar el cupó diari?"
+   "text": "Només pel fet de comprar el cupó diari?",
+   "marks": [
+    [
+     0,
+     727.5
+    ]
+   ]
   },
   {
    "start": 729.39,
@@ -580,7 +1740,25 @@
    "label": "SPEAKER_11",
    "person": null,
    "name": "Hablante sin identificar 16",
-   "text": "Pel fet de comprar-lo tu i tothom qui juga a les loteries de l'ONCE. Perquè així feu que les persones amb discapacitat tinguin més oportunitats."
+   "text": "Pel fet de comprar-lo tu i tothom qui juga a les loteries de l'ONCE. Perquè així feu que les persones amb discapacitat tinguin més oportunitats.",
+   "marks": [
+    [
+     0,
+     729.4
+    ],
+    [
+     49,
+     731.9
+    ],
+    [
+     69,
+     733.0
+    ],
+    [
+     119,
+     735.1
+    ]
+   ]
   },
   {
    "start": 736.79,
@@ -588,7 +1766,13 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 8",
-   "text": "Mira que bé."
+   "text": "Mira que bé.",
+   "marks": [
+    [
+     0,
+     736.8
+    ]
+   ]
   },
   {
    "start": 737.69,
@@ -596,7 +1780,21 @@
    "label": "SPEAKER_11",
    "person": null,
    "name": "Hablante sin identificar 16",
-   "text": "Quan et trobes amb un venedor de l'ONCE, sempre passen coses bones. Així doncs, juguis el que juguis, ben jugat."
+   "text": "Quan et trobes amb un venedor de l'ONCE, sempre passen coses bones. Així doncs, juguis el que juguis, ben jugat.",
+   "marks": [
+    [
+     0,
+     737.7
+    ],
+    [
+     61,
+     740.7
+    ],
+    [
+     68,
+     741.4
+    ]
+   ]
   },
   {
    "start": 744.05,
@@ -604,7 +1802,61 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 8",
-   "text": "ONCE. Juga responsablement i només si ets major d'edat. Quinze anys després, Cristiana Jatahi revisita La senyoreta Júlia, d'August Trimbey i la trasllada a la Catalunya d'avui. Júlia, quinze anys més tard, versiona l'original brasilera aquest cop amb Júlia Genís i Moha Amazian. Una història que parla d'intolerància, prejudicis i misogínia. Una història que encara avui ens continua interpel·lant. Del 22 d'octubre al 15 de novembre al Lliure de Gràcia."
+   "text": "ONCE. Juga responsablement i només si ets major d'edat. Quinze anys després, Cristiana Jatahi revisita La senyoreta Júlia, d'August Trimbey i la trasllada a la Catalunya d'avui. Júlia, quinze anys més tard, versiona l'original brasilera aquest cop amb Júlia Genís i Moha Amazian. Una història que parla d'intolerància, prejudicis i misogínia. Una història que encara avui ens continua interpel·lant. Del 22 d'octubre al 15 de novembre al Lliure de Gràcia.",
+   "marks": [
+    [
+     0,
+     744.0
+    ],
+    [
+     6,
+     744.5
+    ],
+    [
+     56,
+     746.7
+    ],
+    [
+     68,
+     747.1
+    ],
+    [
+     145,
+     751.7
+    ],
+    [
+     178,
+     753.2
+    ],
+    [
+     216,
+     755.2
+    ],
+    [
+     280,
+     758.0
+    ],
+    [
+     284,
+     758.4
+    ],
+    [
+     343,
+     761.4
+    ],
+    [
+     367,
+     762.4
+    ],
+    [
+     400,
+     764.0
+    ],
+    [
+     435,
+     765.9
+    ]
+   ]
   },
   {
    "start": 767.23,
@@ -612,7 +1864,33 @@
    "label": "SPEAKER_18",
    "person": null,
    "name": "Hablante sin identificar 4",
-   "text": "Informació al consumidor. Entre els vins Reserva de Valdepeñas, vostè pot comprar vin al Bali a 3,70 euros o Pata Negra a 2,55 euros, un 30% menys. Pata Negra, el vi Reserva Líder a Valdepeñas, un 30% menys."
+   "text": "Informació al consumidor. Entre els vins Reserva de Valdepeñas, vostè pot comprar vin al Bali a 3,70 euros o Pata Negra a 2,55 euros, un 30% menys. Pata Negra, el vi Reserva Líder a Valdepeñas, un 30% menys.",
+   "marks": [
+    [
+     0,
+     767.2
+    ],
+    [
+     26,
+     768.6
+    ],
+    [
+     82,
+     772.3
+    ],
+    [
+     123,
+     776.5
+    ],
+    [
+     148,
+     780.5
+    ],
+    [
+     180,
+     783.1
+    ]
+   ]
   },
   {
    "start": 787.07,
@@ -620,7 +1898,41 @@
    "label": "SPEAKER_15",
    "person": null,
    "name": "Hablante sin identificar 11",
-   "text": "Per tu, que sempre compres el mateix al supermercat. I per tu, que mires a veure si hi ha alguna novetat. Gaudeix a Capravo de l'oli d'oliva d'un grau olillant d'un litre per 3 euros amb 90. Vols estar-hi amb mi? Capravo."
+   "text": "Per tu, que sempre compres el mateix al supermercat. I per tu, que mires a veure si hi ha alguna novetat. Gaudeix a Capravo de l'oli d'oliva d'un grau olillant d'un litre per 3 euros amb 90. Vols estar-hi amb mi? Capravo.",
+   "marks": [
+    [
+     0,
+     787.1
+    ],
+    [
+     53,
+     790.3
+    ],
+    [
+     63,
+     791.2
+    ],
+    [
+     106,
+     793.7
+    ],
+    [
+     124,
+     794.6
+    ],
+    [
+     171,
+     796.8
+    ],
+    [
+     191,
+     798.6
+    ],
+    [
+     213,
+     800.2
+    ]
+   ]
   },
   {
    "start": 804.16,
@@ -628,7 +1940,25 @@
    "label": "SPEAKER_20",
    "person": null,
    "name": "Hablante sin identificar 18",
-   "text": "Avui a l'àgora del Matí de Catalunya Ràdio, el periodista Jofre Llombart, la periodista d'Infolibre Marta Montforte, el periodista i soci de la revista Alternatives Econòmiques Pere Rosinyol i l'expresident d'Esquerra i director d'Adelfi, Joan Puigcercó."
+   "text": "Avui a l'àgora del Matí de Catalunya Ràdio, el periodista Jofre Llombart, la periodista d'Infolibre Marta Montforte, el periodista i soci de la revista Alternatives Econòmiques Pere Rosinyol i l'expresident d'Esquerra i director d'Adelfi, Joan Puigcercó.",
+   "marks": [
+    [
+     0,
+     804.2
+    ],
+    [
+     64,
+     807.7
+    ],
+    [
+     141,
+     812.5
+    ],
+    [
+     220,
+     816.9
+    ]
+   ]
   },
   {
    "start": 819.92,
@@ -636,7 +1966,33 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "I ara mateix, segons fonts consultades a Esquerra Republicana, en aquest programa podem dir que la resposta a l'oferiment de Colau és que Esquerra representa un espai i una realitat molt diferent a la dels comuns i que els desitgem molta sort en el seu espai. Ada Colau, bon dia."
+   "text": "I ara mateix, segons fonts consultades a Esquerra Republicana, en aquest programa podem dir que la resposta a l'oferiment de Colau és que Esquerra representa un espai i una realitat molt diferent a la dels comuns i que els desitgem molta sort en el seu espai. Ada Colau, bon dia.",
+   "marks": [
+    [
+     0,
+     819.9
+    ],
+    [
+     82,
+     824.9
+    ],
+    [
+     138,
+     828.3
+    ],
+    [
+     206,
+     831.8
+    ],
+    [
+     260,
+     836.4
+    ],
+    [
+     264,
+     837.0
+    ]
+   ]
   },
   {
    "start": 838.12,
@@ -644,7 +2000,13 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Hola, molt bon dia."
+   "text": "Hola, molt bon dia.",
+   "marks": [
+    [
+     0,
+     838.1
+    ]
+   ]
   },
   {
    "start": 839.26,
@@ -652,7 +2014,13 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "Què respon vostè a aquesta resposta?"
+   "text": "Què respon vostè a aquesta resposta?",
+   "marks": [
+    [
+     0,
+     839.3
+    ]
+   ]
   },
   {
    "start": 842.52,
@@ -660,7 +2028,209 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Bé, aquesta resposta ve de diferents converses que s'han estat produint en els últims dies. Com sabeu, crec que a molts de nosaltres el que ens mou és que estem en un moment excepcional i que bàsicament a les properes eleccions ens hi juguem a aturar el feixisme. I per tant hem de fer un plantejament excepcional. És un moment de tenir mirada llarga, de tenir mirada generosa, de tenir mirada valenta, Fins aquí el programa d'avui. I som molta gent, inclòs jo, públicament, que l'hem animat a encapsular aquesta proposta a nivell estatal perquè el seu nivell de popularitat, el que va arribar, era un actiu que penso que s'ha de posar al servei de la causa. Ell, finalment, i aquesta proposta es podia fer, vull insistir en això, perquè vull ser molt respectuós amb els espais polítics, es podia fer sense abandonar Esquerra Republicana, es podia fer amb Esquerra Republicana. Però finalment ell va decidir que, igual que el seu partit, que no volia encarcelar aquesta proposta de candidatura única antifeixista. Això ha decebut a molta gent a l'Estat, com sabeu, però no podem aturar-nos i no podem abaixar els braços. I per tant seguim endavant amb la proposta de Front Ampli de candidatura única i també ens seguim parlant aquí a Catalunya. Aquí a Catalunya per què ha de ser impossible plantejar també una candidatura única antifeixista. Fins aquí el programa d'avui. Fins i tot els diputats i diputades poden anar en una mateixa llista, però després fins i tot es poden escriure a grups diferents dintre el Congrés i per tant mantenir la seva obediència al seu partit i la seva autonomia, però fer una llista conjunta per generar il·lusió i per demostrar unitat d'acti feixista i perquè no es perdi ni un sol vot d'esquerres, no? Doncs, bueno, d'això n'hem parlat els últims dies amb el Gabriel Rufián i jo mateixa estic disposada a empènyer aquesta idea. El que passa és que ahir jo li vaig demanar a la direcció del meu partit, de Comuns, que contactés amb la direcció d'Esquerra i la resposta va ser la mateixa que m'esteu donant vosaltres ara en públic, no? La resposta va ser no volem ni seure a parlar. I llavors, abans d'això, jo sí que puc animar molt a Gabriel Rufián a que faci la batalla dins del seu partit, perquè jo crec que ell té l'ascendència, ara té la força del suport popular Fins ara el que fa és tancar les portes de manera rotunda, com vosaltres mateixos heu dit."
+   "text": "Bé, aquesta resposta ve de diferents converses que s'han estat produint en els últims dies. Com sabeu, crec que a molts de nosaltres el que ens mou és que estem en un moment excepcional i que bàsicament a les properes eleccions ens hi juguem a aturar el feixisme. I per tant hem de fer un plantejament excepcional. És un moment de tenir mirada llarga, de tenir mirada generosa, de tenir mirada valenta, Fins aquí el programa d'avui. I som molta gent, inclòs jo, públicament, que l'hem animat a encapsular aquesta proposta a nivell estatal perquè el seu nivell de popularitat, el que va arribar, era un actiu que penso que s'ha de posar al servei de la causa. Ell, finalment, i aquesta proposta es podia fer, vull insistir en això, perquè vull ser molt respectuós amb els espais polítics, es podia fer sense abandonar Esquerra Republicana, es podia fer amb Esquerra Republicana. Però finalment ell va decidir que, igual que el seu partit, que no volia encarcelar aquesta proposta de candidatura única antifeixista. Això ha decebut a molta gent a l'Estat, com sabeu, però no podem aturar-nos i no podem abaixar els braços. I per tant seguim endavant amb la proposta de Front Ampli de candidatura única i també ens seguim parlant aquí a Catalunya. Aquí a Catalunya per què ha de ser impossible plantejar també una candidatura única antifeixista. Fins aquí el programa d'avui. Fins i tot els diputats i diputades poden anar en una mateixa llista, però després fins i tot es poden escriure a grups diferents dintre el Congrés i per tant mantenir la seva obediència al seu partit i la seva autonomia, però fer una llista conjunta per generar il·lusió i per demostrar unitat d'acti feixista i perquè no es perdi ni un sol vot d'esquerres, no? Doncs, bueno, d'això n'hem parlat els últims dies amb el Gabriel Rufián i jo mateixa estic disposada a empènyer aquesta idea. El que passa és que ahir jo li vaig demanar a la direcció del meu partit, de Comuns, que contactés amb la direcció d'Esquerra i la resposta va ser la mateixa que m'esteu donant vosaltres ara en públic, no? La resposta va ser no volem ni seure a parlar. I llavors, abans d'això, jo sí que puc animar molt a Gabriel Rufián a que faci la batalla dins del seu partit, perquè jo crec que ell té l'ascendència, ara té la força del suport popular Fins ara el que fa és tancar les portes de manera rotunda, com vosaltres mateixos heu dit.",
+   "marks": [
+    [
+     0,
+     842.5
+    ],
+    [
+     72,
+     846.4
+    ],
+    [
+     92,
+     848.3
+    ],
+    [
+     133,
+     852.9
+    ],
+    [
+     188,
+     856.8
+    ],
+    [
+     254,
+     860.2
+    ],
+    [
+     264,
+     861.0
+    ],
+    [
+     315,
+     863.3
+    ],
+    [
+     321,
+     863.6
+    ],
+    [
+     394,
+     867.6
+    ],
+    [
+     433,
+     898.1
+    ],
+    [
+     458,
+     903.0
+    ],
+    [
+     531,
+     907.0
+    ],
+    [
+     599,
+     912.0
+    ],
+    [
+     649,
+     913.8
+    ],
+    [
+     659,
+     915.0
+    ],
+    [
+     722,
+     918.3
+    ],
+    [
+     791,
+     921.4
+    ],
+    [
+     878,
+     924.6
+    ],
+    [
+     942,
+     928.8
+    ],
+    [
+     1014,
+     933.8
+    ],
+    [
+     1030,
+     934.6
+    ],
+    [
+     1085,
+     937.9
+    ],
+    [
+     1121,
+     939.4
+    ],
+    [
+     1148,
+     940.4
+    ],
+    [
+     1212,
+     945.4
+    ],
+    [
+     1245,
+     946.6
+    ],
+    [
+     1276,
+     948.7
+    ],
+    [
+     1343,
+     965.2
+    ],
+    [
+     1365,
+     978.9
+    ],
+    [
+     1373,
+     987.9
+    ],
+    [
+     1423,
+     991.1
+    ],
+    [
+     1487,
+     993.7
+    ],
+    [
+     1560,
+     997.4
+    ],
+    [
+     1624,
+     1001.2
+    ],
+    [
+     1693,
+     1005.6
+    ],
+    [
+     1736,
+     1007.6
+    ],
+    [
+     1750,
+     1008.3
+    ],
+    [
+     1808,
+     1010.1
+    ],
+    [
+     1862,
+     1013.3
+    ],
+    [
+     1875,
+     1013.9
+    ],
+    [
+     1928,
+     1016.9
+    ],
+    [
+     1993,
+     1020.0
+    ],
+    [
+     2056,
+     1022.6
+    ],
+    [
+     2068,
+     1023.3
+    ],
+    [
+     2115,
+     1026.3
+    ],
+    [
+     2168,
+     1029.9
+    ],
+    [
+     2233,
+     1033.7
+    ],
+    [
+     2287,
+     1036.5
+    ],
+    [
+     2345,
+     1047.8
+    ]
+   ]
   },
   {
    "start": 1050.18,
@@ -668,7 +2238,17 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "Però vostè, per exemple, no ha trucat a Oriol Junqueras a parlar d'això?"
+   "text": "Però vostè, per exemple, no ha trucat a Oriol Junqueras a parlar d'això?",
+   "marks": [
+    [
+     0,
+     1050.2
+    ],
+    [
+     65,
+     1052.2
+    ]
+   ]
   },
   {
    "start": 1054.04,
@@ -676,7 +2256,37 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Sí, hi ha hagut un contacte directe entre les direccions dels dos partits, sí, però la resposta, i tampoc no sorprèn perquè ho havien dit en públic, El que passa és que nosaltres ho hem volgut intentar fins al darrer moment i ahir mateix va haver-hi una trucada a la direcció per si es podia parlar, si es podia parlar, si hi havia alguna possibilitat de parlar, i la resposta va ser que no."
+   "text": "Sí, hi ha hagut un contacte directe entre les direccions dels dos partits, sí, però la resposta, i tampoc no sorprèn perquè ho havien dit en públic, El que passa és que nosaltres ho hem volgut intentar fins al darrer moment i ahir mateix va haver-hi una trucada a la direcció per si es podia parlar, si es podia parlar, si hi havia alguna possibilitat de parlar, i la resposta va ser que no.",
+   "marks": [
+    [
+     0,
+     1054.0
+    ],
+    [
+     66,
+     1056.7
+    ],
+    [
+     134,
+     1061.4
+    ],
+    [
+     193,
+     1064.6
+    ],
+    [
+     254,
+     1066.8
+    ],
+    [
+     312,
+     1070.9
+    ],
+    [
+     380,
+     1073.3
+    ]
+   ]
   },
   {
    "start": 1073.92,
@@ -684,7 +2294,13 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "Per tant, no té esperança, diguéssim, que demà això es pugui canviar?"
+   "text": "Per tant, no té esperança, diguéssim, que demà això es pugui canviar?",
+   "marks": [
+    [
+     0,
+     1073.9
+    ]
+   ]
   },
   {
    "start": 1079.38,
@@ -692,7 +2308,109 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Jo no he vingut a rendir-me. L'esperança no la podem perdre perquè és molt el que hi ha en joc, és molt el que hi ha en joc i per tant hem de treballar per aquesta candidatura única antifeixista i, evidentment, ho hem de fer a l'Estat, no? I després a Catalunya hauríem d'intentar-ho. Jo, en aquest sentit, insisteixo, animo a Gabriel Rufián a seguir-ho intentant amb el seu partit. Crec que Gabriel Rufián té prou ascendència, ha aconseguit una popularitat molt notòria, precisament defensant, aixecant aquesta bandera de la unitat antifeixista i crec que ell pot encara donar aquesta batalla. I si la fa, tindrà el meu suport, tindrà el meu suport. Això ho vull deixar molt clar. I, més enllà de Catalunya, evidentment, hem de seguir treballant per aquesta candidatura i es pot fer, queden dos dies, s'han fet moltes negociacions els darrers anys en poques hores i la gent ens ho està exigint, bàsicament, perquè, insisteixo, el que està en joc és que guanyi el feixisme i no ens ho perdonarem mai si no hem fet el màxim esforç per aconseguir-ho i és perfectament possible que aconseguim aquesta candidatura única que la gent al carrer ens està reclamant."
+   "text": "Jo no he vingut a rendir-me. L'esperança no la podem perdre perquè és molt el que hi ha en joc, és molt el que hi ha en joc i per tant hem de treballar per aquesta candidatura única antifeixista i, evidentment, ho hem de fer a l'Estat, no? I després a Catalunya hauríem d'intentar-ho. Jo, en aquest sentit, insisteixo, animo a Gabriel Rufián a seguir-ho intentant amb el seu partit. Crec que Gabriel Rufián té prou ascendència, ha aconseguit una popularitat molt notòria, precisament defensant, aixecant aquesta bandera de la unitat antifeixista i crec que ell pot encara donar aquesta batalla. I si la fa, tindrà el meu suport, tindrà el meu suport. Això ho vull deixar molt clar. I, més enllà de Catalunya, evidentment, hem de seguir treballant per aquesta candidatura i es pot fer, queden dos dies, s'han fet moltes negociacions els darrers anys en poques hores i la gent ens ho està exigint, bàsicament, perquè, insisteixo, el que està en joc és que guanyi el feixisme i no ens ho perdonarem mai si no hem fet el màxim esforç per aconseguir-ho i és perfectament possible que aconseguim aquesta candidatura única que la gent al carrer ens està reclamant.",
+   "marks": [
+    [
+     0,
+     1079.4
+    ],
+    [
+     29,
+     1081.0
+    ],
+    [
+     53,
+     1082.2
+    ],
+    [
+     104,
+     1084.6
+    ],
+    [
+     152,
+     1086.3
+    ],
+    [
+     227,
+     1091.9
+    ],
+    [
+     240,
+     1093.0
+    ],
+    [
+     285,
+     1096.1
+    ],
+    [
+     289,
+     1096.2
+    ],
+    [
+     364,
+     1099.3
+    ],
+    [
+     383,
+     1100.0
+    ],
+    [
+     431,
+     1103.1
+    ],
+    [
+     526,
+     1107.6
+    ],
+    [
+     595,
+     1111.9
+    ],
+    [
+     597,
+     1112.0
+    ],
+    [
+     651,
+     1114.4
+    ],
+    [
+     656,
+     1114.7
+    ],
+    [
+     682,
+     1115.9
+    ],
+    [
+     726,
+     1117.7
+    ],
+    [
+     796,
+     1122.1
+    ],
+    [
+     865,
+     1126.6
+    ],
+    [
+     935,
+     1130.8
+    ],
+    [
+     985,
+     1133.5
+    ],
+    [
+     1048,
+     1136.9
+    ],
+    [
+     1128,
+     1141.3
+    ]
+   ]
   },
   {
    "start": 1142.6,
@@ -700,7 +2418,17 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "Però si està en joc que aturar el feixisme, no entenc on està el problema amb les cicles i els noms."
+   "text": "Però si està en joc que aturar el feixisme, no entenc on està el problema amb les cicles i els noms.",
+   "marks": [
+    [
+     0,
+     1142.6
+    ],
+    [
+     57,
+     1145.3
+    ]
+   ]
   },
   {
    "start": 1148.8,
@@ -708,7 +2436,13 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Bé, jo crec que ha sigut molt clara en aquests dies."
+   "text": "Bé, jo crec que ha sigut molt clara en aquests dies.",
+   "marks": [
+    [
+     0,
+     1148.8
+    ]
+   ]
   },
   {
    "start": 1150.68,
@@ -716,7 +2450,25 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "Sí, vostè sí, però vull dir que no sé si li decepciona també el fet que es troben que al final això sembla més una batalla per veure qui és el gall del galliner que no tant la discussió de com conservem el galliner."
+   "text": "Sí, vostè sí, però vull dir que no sé si li decepciona també el fet que es troben que al final això sembla més una batalla per veure qui és el gall del galliner que no tant la discussió de com conservem el galliner.",
+   "marks": [
+    [
+     0,
+     1150.7
+    ],
+    [
+     55,
+     1152.9
+    ],
+    [
+     111,
+     1155.6
+    ],
+    [
+     168,
+     1158.2
+    ]
+   ]
   },
   {
    "start": 1161.3,
@@ -724,7 +2476,157 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Mira, jo vull ser molt respectuosa de totes les sigles, entenc que tothom ha de tenir un espai i un reconeixement, faltaria més, però és que això és perfectament factible en una llista unitària. Una llista unitària hi ha joc per tothom, es necessiten diversos lideratges, hi ha diferents maneres de reconèixer tant les sigles com les persones. Per tant, això no pot ser un problema. Si realment som conscients del moment històric que vivim i de la necessitat de posar l'objectiu principal per davant de qualsevol altre interès, ja sigui personal o partidista, era evident que la unitat antifeixista és perfectament possible. De fet, les dretes estan sent molt hàbils en unir-se i en coordinar-se per anar guanyant poder, no només a casa nostra, sinó arreu del món i estem veient de què són capaces. Vull dir que estem parlant que hi ha vides literalment en joc. Que si governa Vox en PP serà molta gent la que estarà en perill, seran les pensions que estaran en perill, serà l'educació pública la que estarà en perill, la sanitat pública, evidentment seria un retrocés en habitatge en lloc d'avançar com ens estan reclamant els carrers, seria una baixa del salari mínim, però serien també unes polítiques repressives contra les dones feministes, contra les persones migrants, contra el col·lectiu LGTBI. I, vull dir, que ens hi juguem la vida, literalment. I, aleshores, en un moment com aquest, que no siguem capaços de seure en una taula i posar-nos d'acord perquè hi hagi una candidatura única antifeixista, a mi em sembla, de veritat, impossible d'explicar-li a la ciutadania. I jo l'únic que puc comprometre és a fer el màxim esforç i posar el millor de mi mateixa i de totes les forces que estan impulsant el Frente Ampli perquè aquest acord sigui possible. I fins al darrer minut ho intentarem."
+   "text": "Mira, jo vull ser molt respectuosa de totes les sigles, entenc que tothom ha de tenir un espai i un reconeixement, faltaria més, però és que això és perfectament factible en una llista unitària. Una llista unitària hi ha joc per tothom, es necessiten diversos lideratges, hi ha diferents maneres de reconèixer tant les sigles com les persones. Per tant, això no pot ser un problema. Si realment som conscients del moment històric que vivim i de la necessitat de posar l'objectiu principal per davant de qualsevol altre interès, ja sigui personal o partidista, era evident que la unitat antifeixista és perfectament possible. De fet, les dretes estan sent molt hàbils en unir-se i en coordinar-se per anar guanyant poder, no només a casa nostra, sinó arreu del món i estem veient de què són capaces. Vull dir que estem parlant que hi ha vides literalment en joc. Que si governa Vox en PP serà molta gent la que estarà en perill, seran les pensions que estaran en perill, serà l'educació pública la que estarà en perill, la sanitat pública, evidentment seria un retrocés en habitatge en lloc d'avançar com ens estan reclamant els carrers, seria una baixa del salari mínim, però serien també unes polítiques repressives contra les dones feministes, contra les persones migrants, contra el col·lectiu LGTBI. I, vull dir, que ens hi juguem la vida, literalment. I, aleshores, en un moment com aquest, que no siguem capaços de seure en una taula i posar-nos d'acord perquè hi hagi una candidatura única antifeixista, a mi em sembla, de veritat, impossible d'explicar-li a la ciutadania. I jo l'únic que puc comprometre és a fer el màxim esforç i posar el millor de mi mateixa i de totes les forces que estan impulsant el Frente Ampli perquè aquest acord sigui possible. I fins al darrer minut ho intentarem.",
+   "marks": [
+    [
+     0,
+     1161.3
+    ],
+    [
+     67,
+     1164.6
+    ],
+    [
+     134,
+     1168.4
+    ],
+    [
+     195,
+     1170.9
+    ],
+    [
+     206,
+     1171.2
+    ],
+    [
+     278,
+     1176.9
+    ],
+    [
+     344,
+     1180.7
+    ],
+    [
+     354,
+     1181.2
+    ],
+    [
+     383,
+     1182.3
+    ],
+    [
+     421,
+     1183.9
+    ],
+    [
+     489,
+     1188.3
+    ],
+    [
+     564,
+     1192.8
+    ],
+    [
+     625,
+     1195.4
+    ],
+    [
+     644,
+     1196.1
+    ],
+    [
+     700,
+     1199.0
+    ],
+    [
+     764,
+     1201.8
+    ],
+    [
+     799,
+     1203.6
+    ],
+    [
+     826,
+     1204.8
+    ],
+    [
+     862,
+     1207.6
+    ],
+    [
+     884,
+     1209.3
+    ],
+    [
+     947,
+     1212.7
+    ],
+    [
+     1011,
+     1215.5
+    ],
+    [
+     1090,
+     1219.7
+    ],
+    [
+     1157,
+     1223.1
+    ],
+    [
+     1246,
+     1227.6
+    ],
+    [
+     1304,
+     1229.8
+    ],
+    [
+     1321,
+     1230.6
+    ],
+    [
+     1357,
+     1232.2
+    ],
+    [
+     1388,
+     1233.2
+    ],
+    [
+     1447,
+     1237.0
+    ],
+    [
+     1516,
+     1240.1
+    ],
+    [
+     1581,
+     1243.7
+    ],
+    [
+     1583,
+     1243.8
+    ],
+    [
+     1638,
+     1246.5
+    ],
+    [
+     1692,
+     1250.5
+    ],
+    [
+     1764,
+     1253.5
+    ],
+    [
+     1766,
+     1253.7
+    ]
+   ]
   },
   {
    "start": 1256.76,
@@ -732,7 +2634,25 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "Però, aleshores, a la inversa, per exemple, és a dir, Vostè es contempla en poder renunciar a presentar-se a Catalunya en favor d'això que diu vostè, de concentrar un vot en aquest cas d'Esquerra Republicana?"
+   "text": "Però, aleshores, a la inversa, per exemple, és a dir, Vostè es contempla en poder renunciar a presentar-se a Catalunya en favor d'això que diu vostè, de concentrar un vot en aquest cas d'Esquerra Republicana?",
+   "marks": [
+    [
+     0,
+     1256.8
+    ],
+    [
+     63,
+     1259.9
+    ],
+    [
+     129,
+     1262.9
+    ],
+    [
+     186,
+     1264.8
+    ]
+   ]
   },
   {
    "start": 1266.54,
@@ -740,7 +2660,113 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "A veure, jo crec que el que no hem de fer és premiar aquells que no volen acords, no? Vull dir que perquè algú no vol acord, aleshores els altres ens hem de retirar. Home, això em sembla que no respon a la realitat social i política del país. Però és el que demana vostè a Esquerra, no? Hem d'acordar que a les darreres eleccions, a Catalunya, la proposta d'Esquerra va aconseguir 7 diputats, La proposta de Comuns, que en aquell moment anava amb Sumar, va aconseguir 7 diputats i més vots que Esquerra. Ara és veritat que l'Adrià Rufián, com deia, ha tingut un lideratge molt important, però l'ha tingut precisament perquè ha defensat la unitat de les esquerres. Aleshores, jo crec que no es pot demanar que es defensi la unitat antifeixista demanant-hi als altres que desapareguin, sinó dient com ens ajuntem tots i tothom tindrà el seu paper, tots podem trobar el nostre encaix. Si a Catalunya es volgués fer una llista unitària antifeixista, tècnicament seria perfectament possible, sense que Esquerra perdés les seves sigles, sense que deixés de tenir grup propi, tècnicament és perfectament possible. La qüestió és que hi hagi voluntat política, però la voluntat política no passa per dir-li als altres desapareixeu, sinó com ens coordinem perquè tothom pugui tenir el seu espai."
+   "text": "A veure, jo crec que el que no hem de fer és premiar aquells que no volen acords, no? Vull dir que perquè algú no vol acord, aleshores els altres ens hem de retirar. Home, això em sembla que no respon a la realitat social i política del país. Però és el que demana vostè a Esquerra, no? Hem d'acordar que a les darreres eleccions, a Catalunya, la proposta d'Esquerra va aconseguir 7 diputats, La proposta de Comuns, que en aquell moment anava amb Sumar, va aconseguir 7 diputats i més vots que Esquerra. Ara és veritat que l'Adrià Rufián, com deia, ha tingut un lideratge molt important, però l'ha tingut precisament perquè ha defensat la unitat de les esquerres. Aleshores, jo crec que no es pot demanar que es defensi la unitat antifeixista demanant-hi als altres que desapareguin, sinó dient com ens ajuntem tots i tothom tindrà el seu paper, tots podem trobar el nostre encaix. Si a Catalunya es volgués fer una llista unitària antifeixista, tècnicament seria perfectament possible, sense que Esquerra perdés les seves sigles, sense que deixés de tenir grup propi, tècnicament és perfectament possible. La qüestió és que hi hagi voluntat política, però la voluntat política no passa per dir-li als altres desapareixeu, sinó com ens coordinem perquè tothom pugui tenir el seu espai.",
+   "marks": [
+    [
+     0,
+     1266.5
+    ],
+    [
+     45,
+     1269.5
+    ],
+    [
+     86,
+     1272.4
+    ],
+    [
+     111,
+     1273.3
+    ],
+    [
+     166,
+     1276.0
+    ],
+    [
+     177,
+     1276.7
+    ],
+    [
+     237,
+     1279.2
+    ],
+    [
+     243,
+     1279.4
+    ],
+    [
+     287,
+     1280.5
+    ],
+    [
+     292,
+     1280.6
+    ],
+    [
+     367,
+     1285.0
+    ],
+    [
+     437,
+     1288.2
+    ],
+    [
+     504,
+     1292.8
+    ],
+    [
+     562,
+     1295.6
+    ],
+    [
+     639,
+     1298.4
+    ],
+    [
+     664,
+     1300.2
+    ],
+    [
+     705,
+     1303.5
+    ],
+    [
+     784,
+     1307.8
+    ],
+    [
+     846,
+     1312.0
+    ],
+    [
+     882,
+     1313.6
+    ],
+    [
+     912,
+     1315.6
+    ],
+    [
+     1013,
+     1321.8
+    ],
+    [
+     1084,
+     1325.5
+    ],
+    [
+     1107,
+     1326.7
+    ],
+    [
+     1160,
+     1329.1
+    ],
+    [
+     1232,
+     1333.3
+    ]
+   ]
   },
   {
    "start": 1338.63,
@@ -748,7 +2774,25 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "Ahir vostè també va dir que es podria apartar fins i tot, o pot canviar el nom de la candidatura, si creu que això és un problema. Això entenc que era un missatge també..."
+   "text": "Ahir vostè també va dir que es podria apartar fins i tot, o pot canviar el nom de la candidatura, si creu que això és un problema. Això entenc que era un missatge també...",
+   "marks": [
+    [
+     0,
+     1338.6
+    ],
+    [
+     58,
+     1341.2
+    ],
+    [
+     115,
+     1344.2
+    ],
+    [
+     131,
+     1346.9
+    ]
+   ]
   },
   {
    "start": 1348.49,
@@ -756,7 +2800,169 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "El que crec que hauria de dir tothom, és a dir, que el problema no pot ser ni el nom d'una candidatura, ni tampoc qui en cap sala. És a dir, qui en cap sala ha de ser la persona que reuneixi més consens. Jo estic molt honrada i assumeixo la responsabilitat amb tot el coratge i amb tot l'entusiasme perquè les forces polítiques que estan impulsant actualment el front ampli Em van traslladar la proposta que pensaven que jo era la persona que reunia el millor perfil i el major consens i per tant assumeixo la responsabilitat amb tota la convicció. Però al mateix temps, en coherència amb el que estic defensant, que el que més importa és l'objectiu, evidentment que dic que si les forces que impulsen el front ampli i les que s'assumaran en les properes hores, perquè estic segura que arribaran noves forces a impulsar-se, a assumir-se aquesta candidatura única antifeixista, Si el conjunt de les forces trobéssim un altre perfil que reunís més consens, evidentment que li donaria suport, perquè el que és important aquí és l'objectiu principal. I em sembla lamentable que estiguin vivint en unes formes de fer política, diria una mica, no sé si dir antigues, si dir patriarcals, Fins demà! A organitzar-se, omplint les places per defensar el dret a l'habitatge, a organitzar-se per organitzar una vaga general. O sigui, a tota aquesta gent que està sortint al carrer, que s'està organitzant l'esquerra política, de veritat, i li fallarem? No serem capaços nosaltres d'organitzar-nos per poder traslladar les demandes del carrer a la institució amb la màxima unitat i la màxima contundència? A mi és que em sembla impensable fallar d'aquesta manera. i per tant fins al darrer minut del divendres defensaré que la coalició d'una candidatura única amb màxim respecte per totes les forces i que amb el seu reconeixement del pes específic que tinguin cada una puguin tenir el seu espai, el seu lloc, la seva veu, però tots units per aturar el feixisme i perquè no es perdi ni un sol vot d'esquerres. És que em sembla que és sentit comú."
+   "text": "El que crec que hauria de dir tothom, és a dir, que el problema no pot ser ni el nom d'una candidatura, ni tampoc qui en cap sala. És a dir, qui en cap sala ha de ser la persona que reuneixi més consens. Jo estic molt honrada i assumeixo la responsabilitat amb tot el coratge i amb tot l'entusiasme perquè les forces polítiques que estan impulsant actualment el front ampli Em van traslladar la proposta que pensaven que jo era la persona que reunia el millor perfil i el major consens i per tant assumeixo la responsabilitat amb tota la convicció. Però al mateix temps, en coherència amb el que estic defensant, que el que més importa és l'objectiu, evidentment que dic que si les forces que impulsen el front ampli i les que s'assumaran en les properes hores, perquè estic segura que arribaran noves forces a impulsar-se, a assumir-se aquesta candidatura única antifeixista, Si el conjunt de les forces trobéssim un altre perfil que reunís més consens, evidentment que li donaria suport, perquè el que és important aquí és l'objectiu principal. I em sembla lamentable que estiguin vivint en unes formes de fer política, diria una mica, no sé si dir antigues, si dir patriarcals, Fins demà! A organitzar-se, omplint les places per defensar el dret a l'habitatge, a organitzar-se per organitzar una vaga general. O sigui, a tota aquesta gent que està sortint al carrer, que s'està organitzant l'esquerra política, de veritat, i li fallarem? No serem capaços nosaltres d'organitzar-nos per poder traslladar les demandes del carrer a la institució amb la màxima unitat i la màxima contundència? A mi és que em sembla impensable fallar d'aquesta manera. i per tant fins al darrer minut del divendres defensaré que la coalició d'una candidatura única amb màxim respecte per totes les forces i que amb el seu reconeixement del pes específic que tinguin cada una puguin tenir el seu espai, el seu lloc, la seva veu, però tots units per aturar el feixisme i perquè no es perdi ni un sol vot d'esquerres. És que em sembla que és sentit comú.",
+   "marks": [
+    [
+     0,
+     1348.5
+    ],
+    [
+     52,
+     1351.0
+    ],
+    [
+     107,
+     1354.7
+    ],
+    [
+     131,
+     1356.6
+    ],
+    [
+     157,
+     1357.8
+    ],
+    [
+     204,
+     1360.6
+    ],
+    [
+     218,
+     1361.6
+    ],
+    [
+     286,
+     1366.3
+    ],
+    [
+     368,
+     1370.8
+    ],
+    [
+     431,
+     1374.1
+    ],
+    [
+     492,
+     1377.6
+    ],
+    [
+     549,
+     1380.6
+    ],
+    [
+     571,
+     1381.7
+    ],
+    [
+     636,
+     1384.4
+    ],
+    [
+     702,
+     1388.5
+    ],
+    [
+     762,
+     1391.0
+    ],
+    [
+     833,
+     1394.5
+    ],
+    [
+     915,
+     1399.4
+    ],
+    [
+     990,
+     1403.3
+    ],
+    [
+     1047,
+     1405.8
+    ],
+    [
+     1052,
+     1406.3
+    ],
+    [
+     1128,
+     1412.1
+    ],
+    [
+     1192,
+     1457.0
+    ],
+    [
+     1252,
+     1459.9
+    ],
+    [
+     1313,
+     1463.0
+    ],
+    [
+     1324,
+     1463.7
+    ],
+    [
+     1393,
+     1466.2
+    ],
+    [
+     1441,
+     1468.7
+    ],
+    [
+     1468,
+     1470.0
+    ],
+    [
+     1535,
+     1473.7
+    ],
+    [
+     1593,
+     1476.7
+    ],
+    [
+     1601,
+     1477.2
+    ],
+    [
+     1651,
+     1479.0
+    ],
+    [
+     1667,
+     1479.9
+    ],
+    [
+     1741,
+     1484.2
+    ],
+    [
+     1800,
+     1488.0
+    ],
+    [
+     1873,
+     1493.6
+    ],
+    [
+     1930,
+     1497.0
+    ],
+    [
+     1984,
+     1499.0
+    ],
+    [
+     1997,
+     1499.7
+    ]
+   ]
   },
   {
    "start": 1501.77,
@@ -764,7 +2970,17 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "Si vostè no aconsegueix que Podem vagi a la llista única, en aquest cas, vostè renunciarà a ser candidata?"
+   "text": "Si vostè no aconsegueix que Podem vagi a la llista única, en aquest cas, vostè renunciarà a ser candidata?",
+   "marks": [
+    [
+     0,
+     1501.8
+    ],
+    [
+     61,
+     1506.1
+    ]
+   ]
   },
   {
    "start": 1509.21,
@@ -772,7 +2988,89 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "No estic en aquesta hipòtesi, estic en la hipòtesi que Podem finalment s'asseurà. I aquí també sí que vull fer una crida a Gabriel Rufián, perquè jo sé que a Gabriel Rufián s'ho creu, el de la unitat de l'esquerra, i sé que li sap greu el fet que el no encapçalar la llista unitària a nivell estatal que se li va proposar, doncs això l'ha sabut a molta gent. Jo aquí sí que li demanaria, ell té ascendència. El que no s'entén gaire és que s'entén perfectament que el seu partit és Esquerra Republicana i que decideixi presentar-se només a Catalunya, encara que decideix molta gent, però s'entén i és respectable, però el que no s'entén és que si fa alguna acció de suport fora de Catalunya sigui per reforçar opcions que no volen la unitat, sinó que ara mateix suposen dividir i no unir. Aleshores jo aquí sí que faria una crida a que aquells que tenen ascendència per impulsar que hi hagi una candidatura única, doncs que la facin servir en aquest sentit i no en el contrari."
+   "text": "No estic en aquesta hipòtesi, estic en la hipòtesi que Podem finalment s'asseurà. I aquí també sí que vull fer una crida a Gabriel Rufián, perquè jo sé que a Gabriel Rufián s'ho creu, el de la unitat de l'esquerra, i sé que li sap greu el fet que el no encapçalar la llista unitària a nivell estatal que se li va proposar, doncs això l'ha sabut a molta gent. Jo aquí sí que li demanaria, ell té ascendència. El que no s'entén gaire és que s'entén perfectament que el seu partit és Esquerra Republicana i que decideixi presentar-se només a Catalunya, encara que decideix molta gent, però s'entén i és respectable, però el que no s'entén és que si fa alguna acció de suport fora de Catalunya sigui per reforçar opcions que no volen la unitat, sinó que ara mateix suposen dividir i no unir. Aleshores jo aquí sí que faria una crida a que aquells que tenen ascendència per impulsar que hi hagi una candidatura única, doncs que la facin servir en aquest sentit i no en el contrari.",
+   "marks": [
+    [
+     0,
+     1509.2
+    ],
+    [
+     71,
+     1513.1
+    ],
+    [
+     82,
+     1514.1
+    ],
+    [
+     123,
+     1516.7
+    ],
+    [
+     184,
+     1520.1
+    ],
+    [
+     231,
+     1522.7
+    ],
+    [
+     292,
+     1528.4
+    ],
+    [
+     347,
+     1531.1
+    ],
+    [
+     359,
+     1531.7
+    ],
+    [
+     408,
+     1534.1
+    ],
+    [
+     411,
+     1534.5
+    ],
+    [
+     467,
+     1537.5
+    ],
+    [
+     539,
+     1540.3
+    ],
+    [
+     613,
+     1543.5
+    ],
+    [
+     662,
+     1546.0
+    ],
+    [
+     730,
+     1550.2
+    ],
+    [
+     788,
+     1554.6
+    ],
+    [
+     798,
+     1555.0
+    ],
+    [
+     853,
+     1557.6
+    ],
+    [
+     926,
+     1562.1
+    ]
+   ]
   },
   {
    "start": 1567.52,
@@ -780,7 +3078,33 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "Volem què és el que passa. Queden encara unes hores per veure què és el que passa, però a hores d'ara és veritat que la sensació és que aquí no s'arribarà a un acord. En tot cas, com diu vostè, encara queden hores i per tant encara hi ha esperança"
+   "text": "Volem què és el que passa. Queden encara unes hores per veure què és el que passa, però a hores d'ara és veritat que la sensació és que aquí no s'arribarà a un acord. En tot cas, com diu vostè, encara queden hores i per tant encara hi ha esperança",
+   "marks": [
+    [
+     0,
+     1567.5
+    ],
+    [
+     27,
+     1568.8
+    ],
+    [
+     62,
+     1571.5
+    ],
+    [
+     113,
+     1573.6
+    ],
+    [
+     167,
+     1577.2
+    ],
+    [
+     225,
+     1579.5
+    ]
+   ]
   },
   {
    "start": 1581.0,
@@ -788,7 +3112,49 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "per part de l'esquerra. Hi ha esperança i sobretot hi ha responsabilitat i hi ha un mandat de la ciutadania. La ciutadania al carrer ho té claríssim, que si les forces polítiques d'esquerres no anem juntes, estarem obeint a altres interessos que no són els de la ciutadania. Per tant, jo insisteixo en aquest mandat, en aquest objectiu principal, en què el moment històric ho requereix i que tots hem de fer el màxim esforç perquè aquesta candidatura única antifeixista sigui possible."
+   "text": "per part de l'esquerra. Hi ha esperança i sobretot hi ha responsabilitat i hi ha un mandat de la ciutadania. La ciutadania al carrer ho té claríssim, que si les forces polítiques d'esquerres no anem juntes, estarem obeint a altres interessos que no són els de la ciutadania. Per tant, jo insisteixo en aquest mandat, en aquest objectiu principal, en què el moment històric ho requereix i que tots hem de fer el màxim esforç perquè aquesta candidatura única antifeixista sigui possible.",
+   "marks": [
+    [
+     0,
+     1581.0
+    ],
+    [
+     24,
+     1581.9
+    ],
+    [
+     57,
+     1583.6
+    ],
+    [
+     109,
+     1585.5
+    ],
+    [
+     126,
+     1586.4
+    ],
+    [
+     194,
+     1590.0
+    ],
+    [
+     260,
+     1594.2
+    ],
+    [
+     275,
+     1594.7
+    ],
+    [
+     336,
+     1598.6
+    ],
+    [
+     401,
+     1601.5
+    ]
+   ]
   },
   {
    "start": 1606.3,
@@ -796,7 +3162,17 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "Ada Colau, exalcaldessa de Barcelona, candidata al Front Ampli a les eleccions. Gràcies per acompanyar-nos."
+   "text": "Ada Colau, exalcaldessa de Barcelona, candidata al Front Ampli a les eleccions. Gràcies per acompanyar-nos.",
+   "marks": [
+    [
+     0,
+     1606.3
+    ],
+    [
+     80,
+     1609.4
+    ]
+   ]
   },
   {
    "start": 1610.86,
@@ -804,7 +3180,13 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Moltes gràcies, bon dia."
+   "text": "Moltes gràcies, bon dia.",
+   "marks": [
+    [
+     0,
+     1610.9
+    ]
+   ]
   },
   {
    "start": 1612.08,
@@ -812,7 +3194,69 @@
    "label": "SPEAKER_07",
    "person": null,
    "name": "Hablante sin identificar 9",
-   "text": "Xofra, ha fet una aposta molt forta, perquè aquestes mateixes paraules, si dissabte no s'ha aconseguit aquesta candidatura única, és mitja campanya. És a dir, haurem decebut a molta gent. Com et presentes a una campanya electoral dient que has decebut a molta gent? Per tant, vull pensar que potser encara hi ha alguna jugada mestra, alguna salamànica que algú s'està guardant per, al llarg del dia de demà, algú apareixi amb una fórmula màgica que concentri aquestes coses. Jo ho veig molt difícil, perquè és que, al final, la candidatura única vol dir que una de les dues paperetes desapareix. Esquerra diluïda dintre Front Ampli Front Ampli diluïda dintre d'Esquerra Republicana"
+   "text": "Xofra, ha fet una aposta molt forta, perquè aquestes mateixes paraules, si dissabte no s'ha aconseguit aquesta candidatura única, és mitja campanya. És a dir, haurem decebut a molta gent. Com et presentes a una campanya electoral dient que has decebut a molta gent? Per tant, vull pensar que potser encara hi ha alguna jugada mestra, alguna salamànica que algú s'està guardant per, al llarg del dia de demà, algú apareixi amb una fórmula màgica que concentri aquestes coses. Jo ho veig molt difícil, perquè és que, al final, la candidatura única vol dir que una de les dues paperetes desapareix. Esquerra diluïda dintre Front Ampli Front Ampli diluïda dintre d'Esquerra Republicana",
+   "marks": [
+    [
+     0,
+     1612.1
+    ],
+    [
+     75,
+     1617.4
+    ],
+    [
+     149,
+     1623.9
+    ],
+    [
+     152,
+     1624.3
+    ],
+    [
+     188,
+     1626.1
+    ],
+    [
+     211,
+     1627.4
+    ],
+    [
+     266,
+     1630.8
+    ],
+    [
+     281,
+     1632.2
+    ],
+    [
+     356,
+     1637.4
+    ],
+    [
+     413,
+     1640.9
+    ],
+    [
+     475,
+     1644.6
+    ],
+    [
+     486,
+     1645.1
+    ],
+    [
+     554,
+     1650.1
+    ],
+    [
+     596,
+     1653.0
+    ],
+    [
+     632,
+     1654.8
+    ]
+   ]
   },
   {
    "start": 1657.24,
@@ -820,7 +3264,17 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "Això ja queda clar que no, això no passarà El que no està clar és què passarà a Madrid Aquesta és l'equació"
+   "text": "Això ja queda clar que no, això no passarà El que no està clar és què passarà a Madrid Aquesta és l'equació",
+   "marks": [
+    [
+     0,
+     1657.2
+    ],
+    [
+     53,
+     1660.6
+    ]
+   ]
   },
   {
    "start": 1665.08,
@@ -828,7 +3282,29 @@
    "label": "SPEAKER_07",
    "person": null,
    "name": "Hablante sin identificar 9",
-   "text": "Dic jo I ara, perdoneu per la frivolitat Els que ens agrada el futbol Estic veient un moviment similar al que hi va haver aquest estiu amb Julián i l'Atlètic de Madrid És així, és a dir Ada Colau li està dient a Julián que li digui a l'Atlètic de Madrid que el deixi marxar."
+   "text": "Dic jo I ara, perdoneu per la frivolitat Els que ens agrada el futbol Estic veient un moviment similar al que hi va haver aquest estiu amb Julián i l'Atlètic de Madrid És així, és a dir Ada Colau li està dient a Julián que li digui a l'Atlètic de Madrid que el deixi marxar.",
+   "marks": [
+    [
+     0,
+     1665.1
+    ],
+    [
+     60,
+     1671.8
+    ],
+    [
+     122,
+     1675.2
+    ],
+    [
+     180,
+     1679.7
+    ],
+    [
+     232,
+     1683.2
+    ]
+   ]
   },
   {
    "start": 1685.04,
@@ -836,7 +3312,21 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "Aquest és el punt contradictori. És a dir, quan demana unitat, està demanant al mateix temps Rufián que es baralli amb el seu partit."
+   "text": "Aquest és el punt contradictori. És a dir, quan demana unitat, està demanant al mateix temps Rufián que es baralli amb el seu partit.",
+   "marks": [
+    [
+     0,
+     1685.0
+    ],
+    [
+     33,
+     1686.2
+    ],
+    [
+     68,
+     1687.7
+    ]
+   ]
   },
   {
    "start": 1690.72,
@@ -844,7 +3334,13 @@
    "label": "SPEAKER_05",
    "person": null,
    "name": "Hablante sin identificar 7",
-   "text": "Per tant, ha intentat separar el candidat del partit, no?"
+   "text": "Per tant, ha intentat separar el candidat del partit, no?",
+   "marks": [
+    [
+     0,
+     1690.7
+    ]
+   ]
   },
   {
    "start": 1695.7,
@@ -852,7 +3348,73 @@
    "label": "SPEAKER_07",
    "person": null,
    "name": "Hablante sin identificar 9",
-   "text": "Clar, aleshores és molt difícil. Eh, i crec que Rufián ara mateix està mirant front ampli com Julián s'està mirant els partits del Barça actualment. A mi m'agradaria estar allà amb els meus, és a dir, amb Esquerra Republicana, però m'agradaria estar allà. i, sí, home, ell ha dit que li encantaria que hi hagués una candidatura única a tot arreu. A tot arreu. Inclòs Catalunya. Ara t'ho explicaré. Inclòs Catalunya. Ara t'ho explicaré. Aleshores..."
+   "text": "Clar, aleshores és molt difícil. Eh, i crec que Rufián ara mateix està mirant front ampli com Julián s'està mirant els partits del Barça actualment. A mi m'agradaria estar allà amb els meus, és a dir, amb Esquerra Republicana, però m'agradaria estar allà. i, sí, home, ell ha dit que li encantaria que hi hagués una candidatura única a tot arreu. A tot arreu. Inclòs Catalunya. Ara t'ho explicaré. Inclòs Catalunya. Ara t'ho explicaré. Aleshores...",
+   "marks": [
+    [
+     0,
+     1695.7
+    ],
+    [
+     33,
+     1698.4
+    ],
+    [
+     66,
+     1702.0
+    ],
+    [
+     131,
+     1704.7
+    ],
+    [
+     149,
+     1705.5
+    ],
+    [
+     194,
+     1707.8
+    ],
+    [
+     256,
+     1711.5
+    ],
+    [
+     263,
+     1712.3
+    ],
+    [
+     328,
+     1715.0
+    ],
+    [
+     347,
+     1717.2
+    ],
+    [
+     360,
+     1718.4
+    ],
+    [
+     378,
+     1719.8
+    ],
+    [
+     387,
+     1720.2
+    ],
+    [
+     398,
+     1720.5
+    ],
+    [
+     416,
+     1721.2
+    ],
+    [
+     436,
+     1721.8
+    ]
+   ]
   },
   {
    "start": 1722.14,
@@ -860,7 +3422,53 @@
    "label": "SPEAKER_06",
    "person": null,
    "name": "Hablante sin identificar 6",
-   "text": "Que Rufián ha aconseguit els seus objectius. Efectivament. Els seus objectius són... Els meus amics a Madrid són Podemos. I tant. Aquests els he reforçat molt. Els meus enemics a Catalunya són comuns. Què vol dir, amics? Estem fent política."
+   "text": "Que Rufián ha aconseguit els seus objectius. Efectivament. Els seus objectius són... Els meus amics a Madrid són Podemos. I tant. Aquests els he reforçat molt. Els meus enemics a Catalunya són comuns. Què vol dir, amics? Estem fent política.",
+   "marks": [
+    [
+     0,
+     1722.1
+    ],
+    [
+     45,
+     1723.9
+    ],
+    [
+     59,
+     1724.5
+    ],
+    [
+     85,
+     1725.5
+    ],
+    [
+     122,
+     1727.3
+    ],
+    [
+     130,
+     1728.1
+    ],
+    [
+     145,
+     1728.7
+    ],
+    [
+     160,
+     1729.4
+    ],
+    [
+     201,
+     1731.0
+    ],
+    [
+     214,
+     1731.3
+    ],
+    [
+     221,
+     1731.6
+    ]
+   ]
   },
   {
    "start": 1732.58,
@@ -868,7 +3476,13 @@
    "label": "SPEAKER_07",
    "person": null,
    "name": "Hablante sin identificar 9",
-   "text": "No, amics."
+   "text": "No, amics.",
+   "marks": [
+    [
+     0,
+     1732.6
+    ]
+   ]
   },
   {
    "start": 1733.34,
@@ -876,7 +3490,13 @@
    "label": "SPEAKER_06",
    "person": null,
    "name": "Hablante sin identificar 6",
-   "text": "No, amics."
+   "text": "No, amics.",
+   "marks": [
+    [
+     0,
+     1733.3
+    ]
+   ]
   },
   {
    "start": 1735.56,
@@ -884,7 +3504,33 @@
    "label": "SPEAKER_07",
    "person": null,
    "name": "Hablante sin identificar 9",
-   "text": "Alguna cosa que em necessita. Agafeu les declaracions de quan, les declaracions i les declaracions i la conferència que fa a Madrid amb Emilio Delgado i Irene Montero, ell diu que el que vol és una única llista, per tant, objectius aconseguits, el 100% no, ah, i el 50% no però el 100% tampoc."
+   "text": "Alguna cosa que em necessita. Agafeu les declaracions de quan, les declaracions i les declaracions i la conferència que fa a Madrid amb Emilio Delgado i Irene Montero, ell diu que el que vol és una única llista, per tant, objectius aconseguits, el 100% no, ah, i el 50% no però el 100% tampoc.",
+   "marks": [
+    [
+     0,
+     1735.6
+    ],
+    [
+     30,
+     1737.8
+    ],
+    [
+     80,
+     1740.8
+    ],
+    [
+     143,
+     1747.7
+    ],
+    [
+     198,
+     1752.1
+    ],
+    [
+     263,
+     1757.7
+    ]
+   ]
   },
   {
    "start": 1759.78,
@@ -892,7 +3538,21 @@
    "label": "SPEAKER_06",
    "person": null,
    "name": "Hablante sin identificar 6",
-   "text": "Els reals sí, perquè la política no és el que un diu en una conferència un diu en una conferència coses El que transmet Gabriel"
+   "text": "Els reals sí, perquè la política no és el que un diu en una conferència un diu en una conferència coses El que transmet Gabriel",
+   "marks": [
+    [
+     0,
+     1759.8
+    ],
+    [
+     53,
+     1763.5
+    ],
+    [
+     120,
+     1768.7
+    ]
+   ]
   },
   {
    "start": 1768.98,
@@ -900,7 +3560,25 @@
    "label": "SPEAKER_07",
    "person": null,
    "name": "Hablante sin identificar 9",
-   "text": "Rufián és una única candidatura a tot arreu. Si aquest és l'objectiu, a Catalunya no s'ha aconseguit perquè n'hi haurà dues. Per tant, objectiu complert?"
+   "text": "Rufián és una única candidatura a tot arreu. Si aquest és l'objectiu, a Catalunya no s'ha aconseguit perquè n'hi haurà dues. Per tant, objectiu complert?",
+   "marks": [
+    [
+     0,
+     1769.0
+    ],
+    [
+     45,
+     1773.0
+    ],
+    [
+     59,
+     1773.9
+    ],
+    [
+     125,
+     1777.4
+    ]
+   ]
   },
   {
    "start": 1780.08,
@@ -908,7 +3586,65 @@
    "label": "SPEAKER_06",
    "person": null,
    "name": "Hablante sin identificar 6",
-   "text": "En la meva opinió, i em puc equivocar perquè jo no... Soc potser més cínic, diguem, en respecte a el que es diu políticament i el que es pretén amb el que es diu políticament, que no sempre és el mateix, crec que els objectius principals del Rufián estan aconseguits, que és ser un líder, per mi, per mi, me'n puc equivocar, ser un líder referent, un líder de l'esquerra, del conjunt de l'esquerra espanyola, promoure les seves afinitats polítiques, per no caure en que no estava parlant d'amiguitis, d'amiguetes, sinó polítiques a l'Espanya i debilitar els seus enemics polítics del mateix espai que competeixen per aquest espai a Catalunya, que són els comuns. Per tant, des d'aquest punt de vista, objectius aconseguits. Marta i Joan."
+   "text": "En la meva opinió, i em puc equivocar perquè jo no... Soc potser més cínic, diguem, en respecte a el que es diu políticament i el que es pretén amb el que es diu políticament, que no sempre és el mateix, crec que els objectius principals del Rufián estan aconseguits, que és ser un líder, per mi, per mi, me'n puc equivocar, ser un líder referent, un líder de l'esquerra, del conjunt de l'esquerra espanyola, promoure les seves afinitats polítiques, per no caure en que no estava parlant d'amiguitis, d'amiguetes, sinó polítiques a l'Espanya i debilitar els seus enemics polítics del mateix espai que competeixen per aquest espai a Catalunya, que són els comuns. Per tant, des d'aquest punt de vista, objectius aconseguits. Marta i Joan.",
+   "marks": [
+    [
+     0,
+     1780.1
+    ],
+    [
+     54,
+     1783.8
+    ],
+    [
+     58,
+     1784.2
+    ],
+    [
+     125,
+     1787.9
+    ],
+    [
+     180,
+     1789.9
+    ],
+    [
+     249,
+     1793.0
+    ],
+    [
+     307,
+     1795.9
+    ],
+    [
+     372,
+     1799.2
+    ],
+    [
+     454,
+     1804.3
+    ],
+    [
+     519,
+     1807.3
+    ],
+    [
+     591,
+     1812.6
+    ],
+    [
+     663,
+     1815.5
+    ],
+    [
+     724,
+     1818.5
+    ],
+    [
+     732,
+     1818.9
+    ]
+   ]
   },
   {
    "start": 1819.06,
@@ -916,7 +3652,213 @@
    "label": "SPEAKER_08",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Jo no coincidis per a res perquè jo estic convençuda que ell sí que vol que els comuns siguin a l'acord. Una altra cosa és que Esquerra Republicana no vulgui perquè, evidentment, això quines implicacions tindria per al partit i ho ha dit ben claret i a la proposta que li han fet els comuns ho han tornat a dir, no volem diluir-nos. Però que ell vulgui que els comuns estigueren, si és que no ho ha parat de dir, si és que ho ha dit a tot arreu, si és que ho ha intentat, i a veure, estem parlant que Rufián ha imposat que Podemos siga a la llista I això no és cert, això és una candidatura que a més s'ha pactat a les direccions de Podem i d'Esquerra Republicana, és a dir, amb el vist i plau de Junqueras, i que es porta parlant des d'abril, des de després de l'acte que van fer Rufián amb Montero, que després Ione Belarra va anar a parlar amb gent de la direcció d'Esquerra Republicana. No és una condició que Rufián hagi ficat per a quedar-se com a candidat d'Esquerra Republicana a Catalunya, i sigui ell aquesta condició indispensable per a repetir. Ell estava parlant d'altres coses, de llistes, de noms, etcètera, etcètera. És a dir, aquesta jugada té el vist i plau, sobretot, de llunqueres i de la direcció d'Esquerra Republicana. I ells no veuen tan clar que els comuns també siguen dins per les raons que siguin. I Rufián té un problema ara, i és, en qui va fer campanya? En Montero? Quan també suporta a Emilio Delgado i també ha estat parlant amb ell aquests dies, ell no ha volgut aquest escenari. i jo estic segura que avui o demà dirà alguna cosa que és necessària que la unitat a les Espanyes passi per Podemos però també per Frente Amplio perquè ara té un problema i és que no sap... O sigui, el que ella ha defensat fins ara que les esquerres siguin útils, vagin conjuntament, etcètera, no se va complir, o almenys no a tot arreu, no a totes les parts d'Espanya. I a banda, s'ha fet llist que ell també demanarà el vot en Euskadi cap a Bildu, en Galícia cap a... El Bloque El Venegar, etcètera, etcètera Això no implica suportar a Podemos a la resta de l'Estat perquè ahí en principi s'hi van en contra O sigui, sí que competiran contra el Venegar i contra Bildu Aleshores, jo no ho sé ben bé però la seua posició ara tampoc és gens fàcil, eh?"
+   "text": "Jo no coincidis per a res perquè jo estic convençuda que ell sí que vol que els comuns siguin a l'acord. Una altra cosa és que Esquerra Republicana no vulgui perquè, evidentment, això quines implicacions tindria per al partit i ho ha dit ben claret i a la proposta que li han fet els comuns ho han tornat a dir, no volem diluir-nos. Però que ell vulgui que els comuns estigueren, si és que no ho ha parat de dir, si és que ho ha dit a tot arreu, si és que ho ha intentat, i a veure, estem parlant que Rufián ha imposat que Podemos siga a la llista I això no és cert, això és una candidatura que a més s'ha pactat a les direccions de Podem i d'Esquerra Republicana, és a dir, amb el vist i plau de Junqueras, i que es porta parlant des d'abril, des de després de l'acte que van fer Rufián amb Montero, que després Ione Belarra va anar a parlar amb gent de la direcció d'Esquerra Republicana. No és una condició que Rufián hagi ficat per a quedar-se com a candidat d'Esquerra Republicana a Catalunya, i sigui ell aquesta condició indispensable per a repetir. Ell estava parlant d'altres coses, de llistes, de noms, etcètera, etcètera. És a dir, aquesta jugada té el vist i plau, sobretot, de llunqueres i de la direcció d'Esquerra Republicana. I ells no veuen tan clar que els comuns també siguen dins per les raons que siguin. I Rufián té un problema ara, i és, en qui va fer campanya? En Montero? Quan també suporta a Emilio Delgado i també ha estat parlant amb ell aquests dies, ell no ha volgut aquest escenari. i jo estic segura que avui o demà dirà alguna cosa que és necessària que la unitat a les Espanyes passi per Podemos però també per Frente Amplio perquè ara té un problema i és que no sap... O sigui, el que ella ha defensat fins ara que les esquerres siguin útils, vagin conjuntament, etcètera, no se va complir, o almenys no a tot arreu, no a totes les parts d'Espanya. I a banda, s'ha fet llist que ell també demanarà el vot en Euskadi cap a Bildu, en Galícia cap a... El Bloque El Venegar, etcètera, etcètera Això no implica suportar a Podemos a la resta de l'Estat perquè ahí en principi s'hi van en contra O sigui, sí que competiran contra el Venegar i contra Bildu Aleshores, jo no ho sé ben bé però la seua posició ara tampoc és gens fàcil, eh?",
+   "marks": [
+    [
+     0,
+     1819.1
+    ],
+    [
+     61,
+     1823.0
+    ],
+    [
+     105,
+     1824.8
+    ],
+    [
+     115,
+     1825.3
+    ],
+    [
+     204,
+     1828.9
+    ],
+    [
+     253,
+     1832.0
+    ],
+    [
+     307,
+     1834.3
+    ],
+    [
+     333,
+     1836.0
+    ],
+    [
+     368,
+     1837.9
+    ],
+    [
+     419,
+     1840.3
+    ],
+    [
+     462,
+     1842.0
+    ],
+    [
+     531,
+     1846.6
+    ],
+    [
+     579,
+     1849.1
+    ],
+    [
+     639,
+     1852.9
+    ],
+    [
+     694,
+     1855.9
+    ],
+    [
+     751,
+     1859.1
+    ],
+    [
+     813,
+     1862.8
+    ],
+    [
+     868,
+     1865.6
+    ],
+    [
+     891,
+     1866.9
+    ],
+    [
+     938,
+     1869.6
+    ],
+    [
+     1007,
+     1874.0
+    ],
+    [
+     1057,
+     1876.9
+    ],
+    [
+     1085,
+     1878.0
+    ],
+    [
+     1133,
+     1880.8
+    ],
+    [
+     1158,
+     1882.1
+    ],
+    [
+     1218,
+     1885.6
+    ],
+    [
+     1242,
+     1886.5
+    ],
+    [
+     1282,
+     1888.6
+    ],
+    [
+     1326,
+     1890.8
+    ],
+    [
+     1341,
+     1891.6
+    ],
+    [
+     1385,
+     1893.9
+    ],
+    [
+     1397,
+     1894.6
+    ],
+    [
+     1402,
+     1894.9
+    ],
+    [
+     1466,
+     1898.0
+    ],
+    [
+     1514,
+     1901.0
+    ],
+    [
+     1532,
+     1902.0
+    ],
+    [
+     1590,
+     1906.1
+    ],
+    [
+     1659,
+     1911.4
+    ],
+    [
+     1704,
+     1913.5
+    ],
+    [
+     1713,
+     1914.1
+    ],
+    [
+     1778,
+     1917.2
+    ],
+    [
+     1845,
+     1921.1
+    ],
+    [
+     1884,
+     1922.7
+    ],
+    [
+     1896,
+     1923.8
+    ],
+    [
+     1955,
+     1926.8
+    ],
+    [
+     1984,
+     1929.6
+    ],
+    [
+     2025,
+     1931.8
+    ],
+    [
+     2082,
+     1935.4
+    ],
+    [
+     2136,
+     1938.4
+    ],
+    [
+     2204,
+     1941.8
+    ],
+    [
+     2261,
+     1945.7
+    ]
+   ]
   },
   {
    "start": 1946.54,
@@ -924,7 +3866,89 @@
    "label": "SPEAKER_05",
    "person": null,
    "name": "Hablante sin identificar 7",
-   "text": "A mi, tornant a la senyora Colau hi ha una cosa que m'ha sobtat, no? Perquè ha dit, diu, la ciutadania demana aquest acord Bueno, serà la ciutadania que la vota amb ella en tot cas, perquè jo crec Jo conec molts militants i votants d'Esquerra Republicana que no es volen diluir i que són majoria. Per tant, aquí, quan es parla de ciutadania, s'ha d'anar amb més cura. I després també celebro que la senyora Colau hagi evolucionat, perquè la senyora Colau de 2019 no va tenir cap problema a saltar-se un cordó sanitari excepte els vots de Ciutadanos i del senyor Manuel Valls, d'infants de memòria, que va ser alcaldessa gràcies a aquests vots, quan el senyor Ernest Maragall va treure més vots que ella. Ha evolucionat tothom, Joan. Un moment, un moment, he evolucionat, però a vegades també cal tenir memòria, no canviar l'eix, és a dir, cal tenir memòria, perquè clar, és a dir, escolta, jo crec que hi ha coses que no es poden fer."
+   "text": "A mi, tornant a la senyora Colau hi ha una cosa que m'ha sobtat, no? Perquè ha dit, diu, la ciutadania demana aquest acord Bueno, serà la ciutadania que la vota amb ella en tot cas, perquè jo crec Jo conec molts militants i votants d'Esquerra Republicana que no es volen diluir i que són majoria. Per tant, aquí, quan es parla de ciutadania, s'ha d'anar amb més cura. I després també celebro que la senyora Colau hagi evolucionat, perquè la senyora Colau de 2019 no va tenir cap problema a saltar-se un cordó sanitari excepte els vots de Ciutadanos i del senyor Manuel Valls, d'infants de memòria, que va ser alcaldessa gràcies a aquests vots, quan el senyor Ernest Maragall va treure més vots que ella. Ha evolucionat tothom, Joan. Un moment, un moment, he evolucionat, però a vegades també cal tenir memòria, no canviar l'eix, és a dir, cal tenir memòria, perquè clar, és a dir, escolta, jo crec que hi ha coses que no es poden fer.",
+   "marks": [
+    [
+     0,
+     1946.5
+    ],
+    [
+     52,
+     1949.7
+    ],
+    [
+     69,
+     1950.4
+    ],
+    [
+     117,
+     1953.5
+    ],
+    [
+     177,
+     1956.3
+    ],
+    [
+     243,
+     1959.4
+    ],
+    [
+     297,
+     1962.4
+    ],
+    [
+     307,
+     1963.1
+    ],
+    [
+     362,
+     1966.1
+    ],
+    [
+     368,
+     1967.0
+    ],
+    [
+     438,
+     1969.8
+    ],
+    [
+     496,
+     1973.1
+    ],
+    [
+     562,
+     1977.1
+    ],
+    [
+     630,
+     1981.3
+    ],
+    [
+     698,
+     1983.7
+    ],
+    [
+     704,
+     1984.3
+    ],
+    [
+     733,
+     1985.4
+    ],
+    [
+     776,
+     1990.2
+    ],
+    [
+     834,
+     1994.1
+    ],
+    [
+     898,
+     1997.3
+    ]
+   ]
   },
   {
    "start": 1999.18,
@@ -932,7 +3956,17 @@
    "label": "SPEAKER_06",
    "person": null,
    "name": "Hablante sin identificar 6",
-   "text": "Però el senyor Rufián va fer campanya per Junts pel Sí, amb el senyor Mas..."
+   "text": "Però el senyor Rufián va fer campanya per Junts pel Sí, amb el senyor Mas...",
+   "marks": [
+    [
+     0,
+     1999.2
+    ],
+    [
+     60,
+     2001.5
+    ]
+   ]
   },
   {
    "start": 2002.08,
@@ -940,7 +3974,21 @@
    "label": "SPEAKER_05",
    "person": null,
    "name": "Hablante sin identificar 7",
-   "text": "No va fer campanya pel Manu del Baix ni per Ciutadanos, eh que no? Bueno, però sí, està clar, no, no, hi ha..."
+   "text": "No va fer campanya pel Manu del Baix ni per Ciutadanos, eh que no? Bueno, però sí, està clar, no, no, hi ha...",
+   "marks": [
+    [
+     0,
+     2002.1
+    ],
+    [
+     59,
+     2004.5
+    ],
+    [
+     67,
+     2004.7
+    ]
+   ]
   },
   {
    "start": 2006.84,
@@ -948,7 +3996,17 @@
    "label": "SPEAKER_06",
    "person": null,
    "name": "Hablante sin identificar 6",
-   "text": "Depèn de quin eix prevalgui en cada moment. Hi ha cordons..."
+   "text": "Depèn de quin eix prevalgui en cada moment. Hi ha cordons...",
+   "marks": [
+    [
+     0,
+     2006.8
+    ],
+    [
+     44,
+     2008.1
+    ]
+   ]
   },
   {
    "start": 2009.04,
@@ -956,7 +4014,77 @@
    "label": "SPEAKER_05",
    "person": null,
    "name": "Hablante sin identificar 7",
-   "text": "L'eix nacional explica moltes coses, l'eix social també. No, senzillament la voluntat de la ciutadana no explica moltes coses, que va acceptar els vots de l'altra dreta, és a dir, allà no va tenir manies, és a dir, aquí està molt bé que hagi evolucionat en aquest sentit. I finalment, el que és molt clar, és que jo crec que com més ens enditgem en el tema, estem veient que això és un problema espanyol. És un problema entre Podemos i els senyors de Sumar. I l'han de resoldre ells, és a dir, és que, vaja, que se seguin a Madrid i ho arreglin, és a dir, és que no entenc, perquè al final la pilota ha recutat a Catalunya. Els catalans ens demanen unes coses que dius, escolti, que es posin de cortells els espanyols."
+   "text": "L'eix nacional explica moltes coses, l'eix social també. No, senzillament la voluntat de la ciutadana no explica moltes coses, que va acceptar els vots de l'altra dreta, és a dir, allà no va tenir manies, és a dir, aquí està molt bé que hagi evolucionat en aquest sentit. I finalment, el que és molt clar, és que jo crec que com més ens enditgem en el tema, estem veient que això és un problema espanyol. És un problema entre Podemos i els senyors de Sumar. I l'han de resoldre ells, és a dir, és que, vaja, que se seguin a Madrid i ho arreglin, és a dir, és que no entenc, perquè al final la pilota ha recutat a Catalunya. Els catalans ens demanen unes coses que dius, escolti, que es posin de cortells els espanyols.",
+   "marks": [
+    [
+     0,
+     2009.0
+    ],
+    [
+     57,
+     2012.2
+    ],
+    [
+     74,
+     2013.1
+    ],
+    [
+     143,
+     2016.8
+    ],
+    [
+     191,
+     2019.1
+    ],
+    [
+     254,
+     2022.1
+    ],
+    [
+     272,
+     2022.6
+    ],
+    [
+     313,
+     2024.9
+    ],
+    [
+     371,
+     2028.3
+    ],
+    [
+     405,
+     2030.8
+    ],
+    [
+     436,
+     2032.6
+    ],
+    [
+     458,
+     2033.9
+    ],
+    [
+     489,
+     2035.1
+    ],
+    [
+     546,
+     2037.0
+    ],
+    [
+     600,
+     2039.7
+    ],
+    [
+     624,
+     2040.4
+    ],
+    [
+     670,
+     2043.1
+    ]
+   ]
   },
   {
    "start": 2046.44,
@@ -964,7 +4092,17 @@
    "label": "SPEAKER_07",
    "person": null,
    "name": "Hablante sin identificar 9",
-   "text": "És que, mira, sobre això que dius, tu que coneixes el barri de la Latina."
+   "text": "És que, mira, sobre això que dius, tu que coneixes el barri de la Latina.",
+   "marks": [
+    [
+     0,
+     2046.4
+    ],
+    [
+     60,
+     2051.5
+    ]
+   ]
   },
   {
    "start": 2052.3,
@@ -972,7 +4110,13 @@
    "label": "SPEAKER_06",
    "person": null,
    "name": "Hablante sin identificar 6",
-   "text": "Sí, clar."
+   "text": "Sí, clar.",
+   "marks": [
+    [
+     0,
+     2052.3
+    ]
+   ]
   },
   {
    "start": 2053.0,
@@ -980,7 +4124,121 @@
    "label": "SPEAKER_07",
    "person": null,
    "name": "Hablante sin identificar 9",
-   "text": "És a dir... Això és a Madrid? És Madrid, el Madrid... Xupi guai. Xupi guai i tal. Des modernos, des modernos, sí, sí. Se li està demanant a Gabriel Rufián que faci no sé quantes coses. Se li està demanant als 7 diputats de Junts que frenin ells solets el feixisme, que per cert el 2023 aquests 7 diputats de Junts van fer precisament frenar el feixisme perquè podien haver pactat aquí o allà i van preferir pactar per Pedro Sánchez, que això no s'oblida. S'està demanant que Catalunya faci tot de malabarismes i a la Latina guanya el PP i sumat amb Vox quasi arriba al 50%. Escolta, facin vostès la feina i deixin-nos en pau una miqueta també. És que se li posa una responsabilitat a Catalunya que fins i tot percentualment per població, que té un 16% de la població, tampoc li pertoca i tots els focus concentrats aquí. I ara resulta que si passa el feixisme és perquè Rufián no ha volgut diluir-se amb en comuns i els set diputats de Junts van votar un decret de no sé què, no sé quantos. Jo crec que també, algun dia també, els partits catalans tots haurem de dir, bueno, fins aquí, arribem fins aquí, perquè és que si no ens pesa una responsabilitat al damunt que tampoc ens correspon."
+   "text": "És a dir... Això és a Madrid? És Madrid, el Madrid... Xupi guai. Xupi guai i tal. Des modernos, des modernos, sí, sí. Se li està demanant a Gabriel Rufián que faci no sé quantes coses. Se li està demanant als 7 diputats de Junts que frenin ells solets el feixisme, que per cert el 2023 aquests 7 diputats de Junts van fer precisament frenar el feixisme perquè podien haver pactat aquí o allà i van preferir pactar per Pedro Sánchez, que això no s'oblida. S'està demanant que Catalunya faci tot de malabarismes i a la Latina guanya el PP i sumat amb Vox quasi arriba al 50%. Escolta, facin vostès la feina i deixin-nos en pau una miqueta també. És que se li posa una responsabilitat a Catalunya que fins i tot percentualment per població, que té un 16% de la població, tampoc li pertoca i tots els focus concentrats aquí. I ara resulta que si passa el feixisme és perquè Rufián no ha volgut diluir-se amb en comuns i els set diputats de Junts van votar un decret de no sé què, no sé quantos. Jo crec que també, algun dia també, els partits catalans tots haurem de dir, bueno, fins aquí, arribem fins aquí, perquè és que si no ens pesa una responsabilitat al damunt que tampoc ens correspon.",
+   "marks": [
+    [
+     0,
+     2053.0
+    ],
+    [
+     12,
+     2053.6
+    ],
+    [
+     30,
+     2054.4
+    ],
+    [
+     54,
+     2056.4
+    ],
+    [
+     59,
+     2056.8
+    ],
+    [
+     65,
+     2057.3
+    ],
+    [
+     82,
+     2059.1
+    ],
+    [
+     118,
+     2060.9
+    ],
+    [
+     121,
+     2061.0
+    ],
+    [
+     185,
+     2066.0
+    ],
+    [
+     245,
+     2070.8
+    ],
+    [
+     308,
+     2074.5
+    ],
+    [
+     385,
+     2077.8
+    ],
+    [
+     445,
+     2080.4
+    ],
+    [
+     455,
+     2081.5
+    ],
+    [
+     512,
+     2084.9
+    ],
+    [
+     566,
+     2088.0
+    ],
+    [
+     574,
+     2089.0
+    ],
+    [
+     625,
+     2092.0
+    ],
+    [
+     644,
+     2092.8
+    ],
+    [
+     694,
+     2096.6
+    ],
+    [
+     752,
+     2100.3
+    ],
+    [
+     821,
+     2104.4
+    ],
+    [
+     880,
+     2107.7
+    ],
+    [
+     936,
+     2112.0
+    ],
+    [
+     991,
+     2114.2
+    ],
+    [
+     1060,
+     2119.5
+    ],
+    [
+     1122,
+     2122.0
+    ]
+   ]
   },
   {
    "start": 2125.58,
@@ -988,7 +4246,25 @@
    "label": "SPEAKER_06",
    "person": null,
    "name": "Hablante sin identificar 6",
-   "text": "El districte de la Latina no és el barri de la Latina, o sigui, no és correcte el que dius, el barri de la Latina guanya l'esquerra, has de fer un esforç, que cap de les maneres, allà guanya l'esquerra."
+   "text": "El districte de la Latina no és el barri de la Latina, o sigui, no és correcte el que dius, el barri de la Latina guanya l'esquerra, has de fer un esforç, que cap de les maneres, allà guanya l'esquerra.",
+   "marks": [
+    [
+     0,
+     2125.6
+    ],
+    [
+     55,
+     2127.6
+    ],
+    [
+     107,
+     2130.9
+    ],
+    [
+     166,
+     2134.3
+    ]
+   ]
   },
   {
    "start": 2135.62,
@@ -996,7 +4272,13 @@
    "label": "SPEAKER_07",
    "person": null,
    "name": "Hablante sin identificar 9",
-   "text": "I Junts no"
+   "text": "I Junts no",
+   "marks": [
+    [
+     0,
+     2135.6
+    ]
+   ]
   },
   {
    "start": 2139.96,
@@ -1004,7 +4286,45 @@
    "label": "SPEAKER_06",
    "person": null,
    "name": "Hablante sin identificar 6",
-   "text": "va votar el Pedro Sánchez per frenar el feixisme. Va votar el Pedro Sánchez a canvi d'una amnistia perquè els altres volien que tots els de Junts estiguessin a la presó. Per tant, aquí era una cosa en què no va ser una solidaritat amb Espanya. Legítimament, només faltaria. Sí, però podia haver anat al voto vermell"
+   "text": "va votar el Pedro Sánchez per frenar el feixisme. Va votar el Pedro Sánchez a canvi d'una amnistia perquè els altres volien que tots els de Junts estiguessin a la presó. Per tant, aquí era una cosa en què no va ser una solidaritat amb Espanya. Legítimament, només faltaria. Sí, però podia haver anat al voto vermell",
+   "marks": [
+    [
+     0,
+     2140.0
+    ],
+    [
+     50,
+     2143.4
+    ],
+    [
+     62,
+     2144.0
+    ],
+    [
+     128,
+     2148.1
+    ],
+    [
+     170,
+     2149.7
+    ],
+    [
+     189,
+     2152.1
+    ],
+    [
+     244,
+     2155.6
+    ],
+    [
+     258,
+     2156.0
+    ],
+    [
+     274,
+     2156.5
+    ]
+   ]
   },
   {
    "start": 2159.4,
@@ -1012,7 +4332,13 @@
    "label": "SPEAKER_07",
    "person": null,
    "name": "Hablante sin identificar 9",
-   "text": "o podia haver anat al voto verd."
+   "text": "o podia haver anat al voto verd.",
+   "marks": [
+    [
+     0,
+     2159.4
+    ]
+   ]
   },
   {
    "start": 2160.5,
@@ -1020,7 +4346,37 @@
    "label": "SPEAKER_06",
    "person": null,
    "name": "Hablante sin identificar 6",
-   "text": "El botó verd implicava que et volien a la presó o a la clandestinitat, i el botó vermell que tu tornaves a un acte polític. Per tant, això no és una contribució a Espanya, només. És un interès polític superlegítim. D"
+   "text": "El botó verd implicava que et volien a la presó o a la clandestinitat, i el botó vermell que tu tornaves a un acte polític. Per tant, això no és una contribució a Espanya, només. És un interès polític superlegítim. D",
+   "marks": [
+    [
+     0,
+     2160.5
+    ],
+    [
+     52,
+     2165.9
+    ],
+    [
+     115,
+     2168.2
+    ],
+    [
+     124,
+     2168.7
+    ],
+    [
+     179,
+     2170.8
+    ],
+    [
+     182,
+     2171.1
+    ],
+    [
+     215,
+     2172.6
+    ]
+   ]
   },
   {
    "start": 2172.84,
@@ -1028,7 +4384,81 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "'això m'ha saludat aquesta hora l'expresident de la Generalitat, president Artur Mas. Què tal? Bon dia. Molt bon dia. No sé com es mira a vostè tot això que està passant a l'espai de l'esquerra del PSOE. Si s'ho mira també amb una certa... anava a dir nostàlgia, perquè clar, estem parlant d'uns líders a de colau, no? que vostè va patir en primera mà perquè en la crisi del 2008 vostè era el líder polític i Ada Colau era un altre tipus de líder polític. Per tant, va conèixer, diguéssim, de primera mà el que era aquest conflicte de lideratges de l'esquerra."
+   "text": "'això m'ha saludat aquesta hora l'expresident de la Generalitat, president Artur Mas. Què tal? Bon dia. Molt bon dia. No sé com es mira a vostè tot això que està passant a l'espai de l'esquerra del PSOE. Si s'ho mira també amb una certa... anava a dir nostàlgia, perquè clar, estem parlant d'uns líders a de colau, no? que vostè va patir en primera mà perquè en la crisi del 2008 vostè era el líder polític i Ada Colau era un altre tipus de líder polític. Per tant, va conèixer, diguéssim, de primera mà el que era aquest conflicte de lideratges de l'esquerra.",
+   "marks": [
+    [
+     0,
+     2172.8
+    ],
+    [
+     75,
+     2175.0
+    ],
+    [
+     86,
+     2175.5
+    ],
+    [
+     95,
+     2175.7
+    ],
+    [
+     104,
+     2176.4
+    ],
+    [
+     118,
+     2177.1
+    ],
+    [
+     128,
+     2177.4
+    ],
+    [
+     180,
+     2179.3
+    ],
+    [
+     204,
+     2183.0
+    ],
+    [
+     231,
+     2184.0
+    ],
+    [
+     240,
+     2184.5
+    ],
+    [
+     303,
+     2187.2
+    ],
+    [
+     319,
+     2188.2
+    ],
+    [
+     359,
+     2189.9
+    ],
+    [
+     413,
+     2193.9
+    ],
+    [
+     456,
+     2195.9
+    ],
+    [
+     479,
+     2197.4
+    ],
+    [
+     549,
+     2201.3
+    ]
+   ]
   },
   {
    "start": 2202.34,
@@ -1036,7 +4466,129 @@
    "label": "SPEAKER_21",
    "person": null,
    "name": "Hablante sin identificar 10",
-   "text": "Sí, però vaja, en a mi el que està passant em sona una mica a un dejadu. No és molt nou que Esquerra es negui a fer una operació conjunta a través d'una llista electoral, etc. etcètera, doncs no és res de nou. De fet, l'única vegada que això no va passar va ser ara fa 10-11 anys, el 2015, quan es va fer aquella coalició electoral que es deia Junts pel Sí, que tenia un objectiu que era el tema de la sobirania, de la independència, etcètera, etcètera, de Catalunya. Però va costar molt fer aquella coalició. Fins i tot en aquell moment àlgid en què ens hi jugàvem una cosa tan gran com aquella. Fins i tot en aquell moment va costar molt. i això sí que ho sé perquè hi vaig intervenir molt directament en aquell moment. Per tant, si en aquell moment, pel tema fins i tot de la independència, va costar tant fer una coalició electoral conjunta, imagini's ara que tot això està en un altre terreny. Per tant, per mi no és nou. No és nou el que està passant i el meu pronòstic és que d'aquí a demà, em sembla que s'acaba el termini, doncs d'aquí a demà veurem el front ampli per un costat i veurem Esquerra Republicana, per cert en Podemos, per un altre."
+   "text": "Sí, però vaja, en a mi el que està passant em sona una mica a un dejadu. No és molt nou que Esquerra es negui a fer una operació conjunta a través d'una llista electoral, etc. etcètera, doncs no és res de nou. De fet, l'única vegada que això no va passar va ser ara fa 10-11 anys, el 2015, quan es va fer aquella coalició electoral que es deia Junts pel Sí, que tenia un objectiu que era el tema de la sobirania, de la independència, etcètera, etcètera, de Catalunya. Però va costar molt fer aquella coalició. Fins i tot en aquell moment àlgid en què ens hi jugàvem una cosa tan gran com aquella. Fins i tot en aquell moment va costar molt. i això sí que ho sé perquè hi vaig intervenir molt directament en aquell moment. Per tant, si en aquell moment, pel tema fins i tot de la independència, va costar tant fer una coalició electoral conjunta, imagini's ara que tot això està en un altre terreny. Per tant, per mi no és nou. No és nou el que està passant i el meu pronòstic és que d'aquí a demà, em sembla que s'acaba el termini, doncs d'aquí a demà veurem el front ampli per un costat i veurem Esquerra Republicana, per cert en Podemos, per un altre.",
+   "marks": [
+    [
+     0,
+     2202.3
+    ],
+    [
+     51,
+     2206.4
+    ],
+    [
+     73,
+     2209.4
+    ],
+    [
+     104,
+     2212.3
+    ],
+    [
+     171,
+     2217.7
+    ],
+    [
+     176,
+     2218.2
+    ],
+    [
+     210,
+     2221.1
+    ],
+    [
+     226,
+     2223.0
+    ],
+    [
+     275,
+     2227.7
+    ],
+    [
+     339,
+     2231.8
+    ],
+    [
+     396,
+     2235.2
+    ],
+    [
+     468,
+     2238.6
+    ],
+    [
+     476,
+     2239.7
+    ],
+    [
+     510,
+     2241.3
+    ],
+    [
+     544,
+     2242.8
+    ],
+    [
+     597,
+     2245.6
+    ],
+    [
+     602,
+     2246.0
+    ],
+    [
+     641,
+     2247.3
+    ],
+    [
+     655,
+     2248.4
+    ],
+    [
+     722,
+     2252.7
+    ],
+    [
+     726,
+     2253.1
+    ],
+    [
+     779,
+     2255.8
+    ],
+    [
+     864,
+     2260.3
+    ],
+    [
+     899,
+     2262.8
+    ],
+    [
+     919,
+     2263.8
+    ],
+    [
+     927,
+     2264.2
+    ],
+    [
+     966,
+     2266.9
+    ],
+    [
+     1020,
+     2270.2
+    ],
+    [
+     1078,
+     2273.4
+    ],
+    [
+     1147,
+     2277.5
+    ]
+   ]
   },
   {
    "start": 2278.34,
@@ -1044,7 +4596,41 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "Això és el que veurem. I vostè creu que el moment que viu Espanya és aquest? És un moment en què cal unir esforços a l'esquerra? És a dir, que va de feixisme o no feixisme? No, jo crec que va de moltes altres coses."
+   "text": "Això és el que veurem. I vostè creu que el moment que viu Espanya és aquest? És un moment en què cal unir esforços a l'esquerra? És a dir, que va de feixisme o no feixisme? No, jo crec que va de moltes altres coses.",
+   "marks": [
+    [
+     0,
+     2278.3
+    ],
+    [
+     23,
+     2279.3
+    ],
+    [
+     54,
+     2280.3
+    ],
+    [
+     77,
+     2281.6
+    ],
+    [
+     115,
+     2284.2
+    ],
+    [
+     129,
+     2285.4
+    ],
+    [
+     163,
+     2287.1
+    ],
+    [
+     173,
+     2289.5
+    ]
+   ]
   },
   {
    "start": 2291.98,
@@ -1052,7 +4638,133 @@
    "label": "SPEAKER_21",
    "person": null,
    "name": "Hablante sin identificar 10",
-   "text": "Va de moltes altres coses. Però això també hi és, evidentment, no? Això també hi és. Les enquestes anuncien una majoria entre el PP i Vox, que de fet ja s'ha produït en molts altres territoris de l'estat espanyol, i moltes altres comunitats. Aquesta fórmula ja existeix. I bé, això, doncs, d'alguna manera té implicacions, això és evident. I per Catalunya, moltes. Perquè és molt conegut que quan Vox arriba a tenir la clau d'un govern o d'una majoria parlamentària, les primeres condicions que posen normalment són condicions que, des d'una àptica catalana, no ens convenen gens. Això és evident Ara, mirem-nos-ho també des d'un altre punt de vista Des del punt de vista de quines equacions queden després d'aquestes properes eleccions També sembla molt difícil repetir una coalició com la que es va fer ara fa 3 anys i mig enrere Entorn de Pedro Sánchez Molt difícil perquè, fixi's una cosa, aquesta coalició que va servir per investir un president del govern La pregunta per mi és, ha servit per governar? Per investir un president va servir, això és evident. Pedro Sánchez és president del govern espanyol, acaba de convocar unes eleccions, i ha estat tres anys i mig més, però ha servit per governar? Quants pressupostos s'han aprovat a Espanya en aquests últims tres o quatre anys? Ni un. Hi ha hagut un bloqueig parlamentari."
+   "text": "Va de moltes altres coses. Però això també hi és, evidentment, no? Això també hi és. Les enquestes anuncien una majoria entre el PP i Vox, que de fet ja s'ha produït en molts altres territoris de l'estat espanyol, i moltes altres comunitats. Aquesta fórmula ja existeix. I bé, això, doncs, d'alguna manera té implicacions, això és evident. I per Catalunya, moltes. Perquè és molt conegut que quan Vox arriba a tenir la clau d'un govern o d'una majoria parlamentària, les primeres condicions que posen normalment són condicions que, des d'una àptica catalana, no ens convenen gens. Això és evident Ara, mirem-nos-ho també des d'un altre punt de vista Des del punt de vista de quines equacions queden després d'aquestes properes eleccions També sembla molt difícil repetir una coalició com la que es va fer ara fa 3 anys i mig enrere Entorn de Pedro Sánchez Molt difícil perquè, fixi's una cosa, aquesta coalició que va servir per investir un president del govern La pregunta per mi és, ha servit per governar? Per investir un president va servir, això és evident. Pedro Sánchez és president del govern espanyol, acaba de convocar unes eleccions, i ha estat tres anys i mig més, però ha servit per governar? Quants pressupostos s'han aprovat a Espanya en aquests últims tres o quatre anys? Ni un. Hi ha hagut un bloqueig parlamentari.",
+   "marks": [
+    [
+     0,
+     2292.0
+    ],
+    [
+     27,
+     2294.4
+    ],
+    [
+     67,
+     2296.8
+    ],
+    [
+     85,
+     2297.9
+    ],
+    [
+     132,
+     2300.7
+    ],
+    [
+     182,
+     2303.8
+    ],
+    [
+     242,
+     2307.6
+    ],
+    [
+     261,
+     2308.5
+    ],
+    [
+     271,
+     2309.9
+    ],
+    [
+     331,
+     2315.8
+    ],
+    [
+     340,
+     2316.1
+    ],
+    [
+     365,
+     2318.3
+    ],
+    [
+     401,
+     2320.6
+    ],
+    [
+     452,
+     2325.8
+    ],
+    [
+     537,
+     2333.2
+    ],
+    [
+     581,
+     2335.6
+    ],
+    [
+     607,
+     2340.6
+    ],
+    [
+     658,
+     2343.2
+    ],
+    [
+     737,
+     2350.5
+    ],
+    [
+     801,
+     2355.5
+    ],
+    [
+     856,
+     2358.6
+    ],
+    [
+     929,
+     2363.1
+    ],
+    [
+     995,
+     2367.1
+    ],
+    [
+     1009,
+     2369.7
+    ],
+    [
+     1063,
+     2372.0
+    ],
+    [
+     1069,
+     2372.3
+    ],
+    [
+     1147,
+     2375.8
+    ],
+    [
+     1206,
+     2382.5
+    ],
+    [
+     1275,
+     2384.9
+    ],
+    [
+     1288,
+     2387.1
+    ],
+    [
+     1295,
+     2387.6
+    ]
+   ]
   },
   {
    "start": 2389.61,
@@ -1060,7 +4772,13 @@
    "label": "SPEAKER_16",
    "person": null,
    "name": "Hablante sin identificar 12",
-   "text": "Zero, ni un."
+   "text": "Zero, ni un.",
+   "marks": [
+    [
+     0,
+     2389.6
+    ]
+   ]
   },
   {
    "start": 2391.01,
@@ -1068,7 +4786,13 @@
    "label": "SPEAKER_03",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "És a dir,"
+   "text": "És a dir,",
+   "marks": [
+    [
+     0,
+     2391.0
+    ]
+   ]
   },
   {
    "start": 2391.37,
@@ -1076,7 +4800,85 @@
    "label": "SPEAKER_21",
    "person": null,
    "name": "Hablante sin identificar 10",
-   "text": "la principal eina, la principal llei que s'ha d'aprovar en una legislatura, La que sigui, que és el pressupost, que és el quadre de comandament, no se n'ha aprovat ni un. Per tant, es pot parlar seriosament que això serveix per governar. Ja no dic per aturar no sé què, sinó que parlem per resoldre problemes quan resulta que després això és gairebé impossible d'encaixar perquè hi ha tantes veus diferents en una coalició d'aquestes característiques, I tant divergents que lligar tot això no lliga, a l'hora de la veritat. Lliga per temes molt puntuals, va lligar per aprovar la llei de l'amnistia, per exemple, que no és un tema menor. Ha lligat per alguna cosa més, però en general, i s'ha anat veient al llarg d'aquests últims tres anys i mig, Per això que us comento, de dir, bé, si del que es tracta és de governar, de transformar la realitat, de millorar les coses, de planificar el futur, de gestionar bé, si es tracta d'això, doncs escolti'm, això la veritat és que no ha funcionat."
+   "text": "la principal eina, la principal llei que s'ha d'aprovar en una legislatura, La que sigui, que és el pressupost, que és el quadre de comandament, no se n'ha aprovat ni un. Per tant, es pot parlar seriosament que això serveix per governar. Ja no dic per aturar no sé què, sinó que parlem per resoldre problemes quan resulta que després això és gairebé impossible d'encaixar perquè hi ha tantes veus diferents en una coalició d'aquestes característiques, I tant divergents que lligar tot això no lliga, a l'hora de la veritat. Lliga per temes molt puntuals, va lligar per aprovar la llei de l'amnistia, per exemple, que no és un tema menor. Ha lligat per alguna cosa més, però en general, i s'ha anat veient al llarg d'aquests últims tres anys i mig, Per això que us comento, de dir, bé, si del que es tracta és de governar, de transformar la realitat, de millorar les coses, de planificar el futur, de gestionar bé, si es tracta d'això, doncs escolti'm, això la veritat és que no ha funcionat.",
+   "marks": [
+    [
+     0,
+     2391.4
+    ],
+    [
+     59,
+     2394.7
+    ],
+    [
+     122,
+     2398.8
+    ],
+    [
+     171,
+     2403.2
+    ],
+    [
+     181,
+     2403.9
+    ],
+    [
+     238,
+     2407.3
+    ],
+    [
+     248,
+     2408.1
+    ],
+    [
+     314,
+     2411.7
+    ],
+    [
+     385,
+     2418.8
+    ],
+    [
+     470,
+     2425.6
+    ],
+    [
+     524,
+     2432.1
+    ],
+    [
+     588,
+     2436.2
+    ],
+    [
+     638,
+     2438.6
+    ],
+    [
+     648,
+     2439.3
+    ],
+    [
+     705,
+     2443.9
+    ],
+    [
+     761,
+     2446.4
+    ],
+    [
+     812,
+     2449.2
+    ],
+    [
+     890,
+     2455.2
+    ],
+    [
+     957,
+     2459.0
+    ]
+   ]
   },
   {
    "start": 2460.73,
@@ -1084,7 +4886,17 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "I li va sorprendre que Pedro Sánchez avancés eleccions després del no de Junts als decrets d'habitatge?"
+   "text": "I li va sorprendre que Pedro Sánchez avancés eleccions després del no de Junts als decrets d'habitatge?",
+   "marks": [
+    [
+     0,
+     2460.7
+    ],
+    [
+     70,
+     2463.5
+    ]
+   ]
   },
   {
    "start": 2466.63,
@@ -1092,7 +4904,241 @@
    "label": "SPEAKER_21",
    "person": null,
    "name": "Hablante sin identificar 10",
-   "text": "Jo crec que, és una intuïció meva personal, és que ell ja estava buscant algun motiu per poder convocar les eleccions. Ja l'estava buscant, el que passa és que necessitava un terreny de joc favorable, i tots els que tenia li eren completament desfavorables. El front judicial, completament desfavorable, té la dona per allà, pendent d'un judici popular, té el germà que ja ha estat condemnat, Té tot l'embolica enorme del president Rodríguez Zapatero Té l'altre embolic enorme de la Leire i companyia I de les actuacions del PSOE en aquest sentit Té l'embolic també molt gran dels principals líders del Partit Socialista Que estan tots en processos judicials per temes de possibles casos de corrupció Tot això li és molt desfavorable Té ceuta d'aquest estiu, que és un terreny absolutament desfavorable per ell. Per tant, ell, lògicament, no podia convocar unes eleccions en aquest terreny de joc, tan enfangat per tot arreu i tan inclinat en contra seva. Per primera vegada, amb el tema de l'habitatge, deu haver notat, suposo, que no hi havia tan fang en el terreny... El momentum. El momentum, clar, no hi havia tan fang en el terreny i que el terreny estava una mica menys inclinat en contra seu. i aleshores ha dit bé, doncs em tiro a la piscina. El que no sé és si hi haurà molta aigua en aquesta piscina, però ell s'hi ha tirat. I va trobar vostè encertada la posició de Junts sobre aquests decrets? Miri, jo procuro no opinar sobre una votació concreta, no de Junts, sinó en general de ningú, perquè crec que la meva funció a hores d'ara no és aquesta. I el tema de l'habitatge, més enllà de les càrregues ideològiques, i de les conveniències d'aquestes càrregues ideològiques des d'un punt de vista electoral, Si de debò el volem abordar, si realment es volen trobar solucions, i no només quedar bé, i no només quedar bé, aleshores les coses no es poden plantejar com s'estan plantejant. Perquè, fem-nos les preguntes correctes en aquest tema. Falten milers de pisos, sí o no? Sí. La resposta és sí, tothom ho sap. Segona pregunta, qui els construirà aquests pisos nous? nous? Els construiran els ajuntaments? Els construiran els governs? Tothom sap la resposta. La resposta és no. Per tant, si falten milers i milers de pisos, i algú els ha de construir, i aquest algú no seran els governs, que el que poden fer millor és posar el sol a disposició i no empipar des d'un punt de vista burocràtic, això"
+   "text": "Jo crec que, és una intuïció meva personal, és que ell ja estava buscant algun motiu per poder convocar les eleccions. Ja l'estava buscant, el que passa és que necessitava un terreny de joc favorable, i tots els que tenia li eren completament desfavorables. El front judicial, completament desfavorable, té la dona per allà, pendent d'un judici popular, té el germà que ja ha estat condemnat, Té tot l'embolica enorme del president Rodríguez Zapatero Té l'altre embolic enorme de la Leire i companyia I de les actuacions del PSOE en aquest sentit Té l'embolic també molt gran dels principals líders del Partit Socialista Que estan tots en processos judicials per temes de possibles casos de corrupció Tot això li és molt desfavorable Té ceuta d'aquest estiu, que és un terreny absolutament desfavorable per ell. Per tant, ell, lògicament, no podia convocar unes eleccions en aquest terreny de joc, tan enfangat per tot arreu i tan inclinat en contra seva. Per primera vegada, amb el tema de l'habitatge, deu haver notat, suposo, que no hi havia tan fang en el terreny... El momentum. El momentum, clar, no hi havia tan fang en el terreny i que el terreny estava una mica menys inclinat en contra seu. i aleshores ha dit bé, doncs em tiro a la piscina. El que no sé és si hi haurà molta aigua en aquesta piscina, però ell s'hi ha tirat. I va trobar vostè encertada la posició de Junts sobre aquests decrets? Miri, jo procuro no opinar sobre una votació concreta, no de Junts, sinó en general de ningú, perquè crec que la meva funció a hores d'ara no és aquesta. I el tema de l'habitatge, més enllà de les càrregues ideològiques, i de les conveniències d'aquestes càrregues ideològiques des d'un punt de vista electoral, Si de debò el volem abordar, si realment es volen trobar solucions, i no només quedar bé, i no només quedar bé, aleshores les coses no es poden plantejar com s'estan plantejant. Perquè, fem-nos les preguntes correctes en aquest tema. Falten milers de pisos, sí o no? Sí. La resposta és sí, tothom ho sap. Segona pregunta, qui els construirà aquests pisos nous? nous? Els construiran els ajuntaments? Els construiran els governs? Tothom sap la resposta. La resposta és no. Per tant, si falten milers i milers de pisos, i algú els ha de construir, i aquest algú no seran els governs, que el que poden fer millor és posar el sol a disposició i no empipar des d'un punt de vista burocràtic, això",
+   "marks": [
+    [
+     0,
+     2466.6
+    ],
+    [
+     58,
+     2471.3
+    ],
+    [
+     119,
+     2477.0
+    ],
+    [
+     131,
+     2477.8
+    ],
+    [
+     201,
+     2480.8
+    ],
+    [
+     258,
+     2483.8
+    ],
+    [
+     277,
+     2485.1
+    ],
+    [
+     354,
+     2490.6
+    ],
+    [
+     411,
+     2495.7
+    ],
+    [
+     483,
+     2500.3
+    ],
+    [
+     547,
+     2505.4
+    ],
+    [
+     621,
+     2511.4
+    ],
+    [
+     691,
+     2517.6
+    ],
+    [
+     759,
+     2523.3
+    ],
+    [
+     812,
+     2525.9
+    ],
+    [
+     839,
+     2527.5
+    ],
+    [
+     911,
+     2531.4
+    ],
+    [
+     956,
+     2534.4
+    ],
+    [
+     976,
+     2535.6
+    ],
+    [
+     1036,
+     2540.2
+    ],
+    [
+     1071,
+     2541.7
+    ],
+    [
+     1084,
+     2542.3
+    ],
+    [
+     1103,
+     2543.2
+    ],
+    [
+     1155,
+     2544.9
+    ],
+    [
+     1201,
+     2547.2
+    ],
+    [
+     1220,
+     2548.2
+    ],
+    [
+     1252,
+     2551.9
+    ],
+    [
+     1268,
+     2553.0
+    ],
+    [
+     1326,
+     2555.4
+    ],
+    [
+     1336,
+     2556.7
+    ],
+    [
+     1390,
+     2559.0
+    ],
+    [
+     1407,
+     2563.7
+    ],
+    [
+     1465,
+     2569.6
+    ],
+    [
+     1525,
+     2573.1
+    ],
+    [
+     1561,
+     2575.3
+    ],
+    [
+     1574,
+     2584.5
+    ],
+    [
+     1651,
+     2590.5
+    ],
+    [
+     1722,
+     2595.2
+    ],
+    [
+     1789,
+     2600.5
+    ],
+    [
+     1851,
+     2606.6
+    ],
+    [
+     1897,
+     2609.5
+    ],
+    [
+     1917,
+     2610.8
+    ],
+    [
+     1953,
+     2612.7
+    ],
+    [
+     1986,
+     2615.1
+    ],
+    [
+     1990,
+     2615.6
+    ],
+    [
+     2024,
+     2618.0
+    ],
+    [
+     2049,
+     2619.4
+    ],
+    [
+     2080,
+     2620.9
+    ],
+    [
+     2086,
+     2621.6
+    ],
+    [
+     2119,
+     2624.0
+    ],
+    [
+     2139,
+     2625.2
+    ],
+    [
+     2148,
+     2626.9
+    ],
+    [
+     2172,
+     2628.2
+    ],
+    [
+     2191,
+     2630.3
+    ],
+    [
+     2204,
+     2631.0
+    ],
+    [
+     2265,
+     2634.8
+    ],
+    [
+     2322,
+     2637.7
+    ],
+    [
+     2376,
+     2642.2
+    ]
+   ]
   },
   {
    "start": 2644.93,
@@ -1100,7 +5146,13 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "sí que ho poden fer."
+   "text": "sí que ho poden fer.",
+   "marks": [
+    [
+     0,
+     2644.9
+    ]
+   ]
   },
   {
    "start": 2645.61,
@@ -1108,7 +5160,13 @@
    "label": "SPEAKER_21",
    "person": null,
    "name": "Hablante sin identificar 10",
-   "text": "Això sí que ho poden fer Hi"
+   "text": "Això sí que ho poden fer Hi",
+   "marks": [
+    [
+     0,
+     2645.6
+    ]
+   ]
   },
   {
    "start": 2646.79,
@@ -1116,7 +5174,13 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "ha pisos que podrien dedicar-se exclusivament a l'habitatge"
+   "text": "ha pisos que podrien dedicar-se exclusivament a l'habitatge",
+   "marks": [
+    [
+     0,
+     2646.8
+    ]
+   ]
   },
   {
    "start": 2649.99,
@@ -1124,7 +5188,309 @@
    "label": "SPEAKER_21",
    "person": null,
    "name": "Hablante sin identificar 10",
-   "text": "Ja hi arribaré Amb les preguntes aquestes que jo volia fer Però estem en aquesta ara Qui ho farà això? Ho faran les cooperatives Ho faran els constructors, els promotors Qui ho ha fet sempre Però perquè ho facin Tu els has de facilitar el terreny de joc Amb disposició de sol Apte per construir Amb agilitat administrativa En aquest país en la majoria dels ajuntaments Pots trigar més d'un any a tenir una llicència d'obres. Més d'un any. Bé, tercera pregunta. Més enllà dels pisos que s'hagin de construir, que ja he fet la reflexió que havia de fer, no? Dels que hi ha ara, qui els té els pisos? Qui els té? Qui són els propietaris dels pisos? Els ajuntaments? No. La Generalitat? No. L'Estat espanyol? No. El Consell Comarcal de no sé on? Tampoc. Aquests no són els propietaris. Qui té els pisos? Qui ha invertit en pisos? Que poden ser grans fons, com es diu moltes vegades, o poden ser, que és la majoria dels casos, petits propietaris que durant anys i panys van pensar que invertir en algun pis podia ser un bon estalvi. I per cert, dit entre parèntesi, tot el sistema de l'estat espanyol i també Catalunya afavoria que s'invertís en això, en pedres, que es deia. Per tant, ara no podem mirar cap a un altre costat. Sí, amb el totxo, amb les pedres, perquè era una inversió segura, etcètera, etcètera. Bé, i ara resulta que tot això, doncs, se'ls està dient, que ho tinc tot això, doncs, no va, hem de canviar-ho. I aleshores, l'última reflexió és, si, a part dels que s'han de construir nous, vostè vol que els que ja hi ha ara es mobilitzin millor en el mercat, doncs el que ha de fer és no només castigar els propietaris que tenen aquests virus, Per què no els posaran al mercat? Els trobaran? Què és el que està passant? Vostè el que ha de fer és estimular-los. I si vostè vol limitar una mica les rentes als lloguers, que això es pot entendre en llocs que es diu que estan molt tensionats, i és veritat, i en col·lectius que tenen molt difícil l'accés a l'habitatge, jo no li dic que no es puguin limitar les rentes. Però si vostè limita les rentes amb gent que ha invertit lliurement en això, el que ha de fer després és ajudar-los en altres terrenys, amb seguretat jurídica, amb què cobraran el lloguer, I amb estímuls fiscals. I no estem fent això. S'està fent exactament al revés. Per tant, el tema no és la votació aquella. El tema és, molt més de fons, s'estan fent les polítiques que toca, pragmàtiques, per intentar resoldre aquest tema de veritat, de debò, sabent que és una llosa enorme que tenim a sobre, perquè hi haurà milers de persones que ho tindran molt complicat per tenir un habitatge. Volem fer això o volem que això serveixi per la lluita partidista i per la càrrega"
+   "text": "Ja hi arribaré Amb les preguntes aquestes que jo volia fer Però estem en aquesta ara Qui ho farà això? Ho faran les cooperatives Ho faran els constructors, els promotors Qui ho ha fet sempre Però perquè ho facin Tu els has de facilitar el terreny de joc Amb disposició de sol Apte per construir Amb agilitat administrativa En aquest país en la majoria dels ajuntaments Pots trigar més d'un any a tenir una llicència d'obres. Més d'un any. Bé, tercera pregunta. Més enllà dels pisos que s'hagin de construir, que ja he fet la reflexió que havia de fer, no? Dels que hi ha ara, qui els té els pisos? Qui els té? Qui són els propietaris dels pisos? Els ajuntaments? No. La Generalitat? No. L'Estat espanyol? No. El Consell Comarcal de no sé on? Tampoc. Aquests no són els propietaris. Qui té els pisos? Qui ha invertit en pisos? Que poden ser grans fons, com es diu moltes vegades, o poden ser, que és la majoria dels casos, petits propietaris que durant anys i panys van pensar que invertir en algun pis podia ser un bon estalvi. I per cert, dit entre parèntesi, tot el sistema de l'estat espanyol i també Catalunya afavoria que s'invertís en això, en pedres, que es deia. Per tant, ara no podem mirar cap a un altre costat. Sí, amb el totxo, amb les pedres, perquè era una inversió segura, etcètera, etcètera. Bé, i ara resulta que tot això, doncs, se'ls està dient, que ho tinc tot això, doncs, no va, hem de canviar-ho. I aleshores, l'última reflexió és, si, a part dels que s'han de construir nous, vostè vol que els que ja hi ha ara es mobilitzin millor en el mercat, doncs el que ha de fer és no només castigar els propietaris que tenen aquests virus, Per què no els posaran al mercat? Els trobaran? Què és el que està passant? Vostè el que ha de fer és estimular-los. I si vostè vol limitar una mica les rentes als lloguers, que això es pot entendre en llocs que es diu que estan molt tensionats, i és veritat, i en col·lectius que tenen molt difícil l'accés a l'habitatge, jo no li dic que no es puguin limitar les rentes. Però si vostè limita les rentes amb gent que ha invertit lliurement en això, el que ha de fer després és ajudar-los en altres terrenys, amb seguretat jurídica, amb què cobraran el lloguer, I amb estímuls fiscals. I no estem fent això. S'està fent exactament al revés. Per tant, el tema no és la votació aquella. El tema és, molt més de fons, s'estan fent les polítiques que toca, pragmàtiques, per intentar resoldre aquest tema de veritat, de debò, sabent que és una llosa enorme que tenim a sobre, perquè hi haurà milers de persones que ho tindran molt complicat per tenir un habitatge. Volem fer això o volem que això serveixi per la lluita partidista i per la càrrega",
+   "marks": [
+    [
+     0,
+     2650.0
+    ],
+    [
+     64,
+     2653.2
+    ],
+    [
+     103,
+     2655.0
+    ],
+    [
+     129,
+     2656.9
+    ],
+    [
+     196,
+     2662.9
+    ],
+    [
+     254,
+     2667.4
+    ],
+    [
+     333,
+     2673.7
+    ],
+    [
+     394,
+     2677.4
+    ],
+    [
+     425,
+     2679.1
+    ],
+    [
+     439,
+     2681.2
+    ],
+    [
+     451,
+     2682.1
+    ],
+    [
+     461,
+     2683.4
+    ],
+    [
+     515,
+     2686.1
+    ],
+    [
+     556,
+     2687.6
+    ],
+    [
+     568,
+     2688.2
+    ],
+    [
+     598,
+     2690.7
+    ],
+    [
+     610,
+     2692.8
+    ],
+    [
+     618,
+     2693.3
+    ],
+    [
+     646,
+     2694.5
+    ],
+    [
+     663,
+     2695.5
+    ],
+    [
+     667,
+     2696.9
+    ],
+    [
+     683,
+     2698.4
+    ],
+    [
+     687,
+     2699.6
+    ],
+    [
+     695,
+     2700.2
+    ],
+    [
+     705,
+     2701.1
+    ],
+    [
+     709,
+     2702.4
+    ],
+    [
+     742,
+     2704.3
+    ],
+    [
+     750,
+     2705.5
+    ],
+    [
+     761,
+     2706.0
+    ],
+    [
+     782,
+     2706.9
+    ],
+    [
+     800,
+     2707.8
+    ],
+    [
+     826,
+     2709.2
+    ],
+    [
+     887,
+     2713.1
+    ],
+    [
+     957,
+     2717.4
+    ],
+    [
+     1015,
+     2723.3
+    ],
+    [
+     1028,
+     2724.2
+    ],
+    [
+     1079,
+     2727.4
+    ],
+    [
+     1147,
+     2731.6
+    ],
+    [
+     1171,
+     2733.0
+    ],
+    [
+     1204,
+     2734.4
+    ],
+    [
+     1223,
+     2735.4
+    ],
+    [
+     1264,
+     2737.4
+    ],
+    [
+     1309,
+     2739.7
+    ],
+    [
+     1335,
+     2741.3
+    ],
+    [
+     1395,
+     2744.6
+    ],
+    [
+     1421,
+     2746.2
+    ],
+    [
+     1456,
+     2747.8
+    ],
+    [
+     1511,
+     2751.1
+    ],
+    [
+     1563,
+     2754.9
+    ],
+    [
+     1619,
+     2759.9
+    ],
+    [
+     1690,
+     2764.1
+    ],
+    [
+     1704,
+     2764.9
+    ],
+    [
+     1732,
+     2766.5
+    ],
+    [
+     1748,
+     2767.1
+    ],
+    [
+     1773,
+     2768.1
+    ],
+    [
+     1805,
+     2769.8
+    ],
+    [
+     1868,
+     2773.4
+    ],
+    [
+     1933,
+     2776.4
+    ],
+    [
+     1988,
+     2779.3
+    ],
+    [
+     2029,
+     2780.8
+    ],
+    [
+     2050,
+     2781.8
+    ],
+    [
+     2113,
+     2785.3
+    ],
+    [
+     2179,
+     2788.5
+    ],
+    [
+     2242,
+     2793.7
+    ],
+    [
+     2247,
+     2794.2
+    ],
+    [
+     2264,
+     2795.0
+    ],
+    [
+     2297,
+     2796.4
+    ],
+    [
+     2310,
+     2797.2
+    ],
+    [
+     2341,
+     2798.9
+    ],
+    [
+     2365,
+     2800.0
+    ],
+    [
+     2445,
+     2806.0
+    ],
+    [
+     2509,
+     2809.6
+    ],
+    [
+     2570,
+     2812.7
+    ],
+    [
+     2617,
+     2814.9
+    ],
+    [
+     2640,
+     2816.6
+    ]
+   ]
   },
   {
    "start": 2823.47,
@@ -1132,7 +5498,57 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "Estàvem en un moment en què la desigualtat és creixent, per tant, cal corregir com sigui aquesta desigualtat, perquè cada vegada veiem com hi ha gent més rica i gent més pobra, i això genera també una fractura social molt important, on la classe mitjana queda descomposada. El Fons Monetari Internacional diu que Espanya creixerà més que ningú, per exemple, però el que veiem és que cada vegada la gent que va al mercat té més dificultat per viure. La inflació està a un 5% a Espanya, un 4,9% a Catalunya. Sí, però, senyor Ostrell, fem-nos també"
+   "text": "Estàvem en un moment en què la desigualtat és creixent, per tant, cal corregir com sigui aquesta desigualtat, perquè cada vegada veiem com hi ha gent més rica i gent més pobra, i això genera també una fractura social molt important, on la classe mitjana queda descomposada. El Fons Monetari Internacional diu que Espanya creixerà més que ningú, per exemple, però el que veiem és que cada vegada la gent que va al mercat té més dificultat per viure. La inflació està a un 5% a Espanya, un 4,9% a Catalunya. Sí, però, senyor Ostrell, fem-nos també",
+   "marks": [
+    [
+     0,
+     2823.5
+    ],
+    [
+     66,
+     2825.3
+    ],
+    [
+     142,
+     2827.9
+    ],
+    [
+     197,
+     2830.1
+    ],
+    [
+     274,
+     2834.8
+    ],
+    [
+     277,
+     2835.1
+    ],
+    [
+     358,
+     2837.5
+    ],
+    [
+     410,
+     2839.2
+    ],
+    [
+     449,
+     2841.7
+    ],
+    [
+     471,
+     2842.4
+    ],
+    [
+     506,
+     2844.3
+    ],
+    [
+     516,
+     2844.9
+    ]
+   ]
   },
   {
    "start": 2846.07,
@@ -1140,7 +5556,137 @@
    "label": "SPEAKER_21",
    "person": null,
    "name": "Hablante sin identificar 10",
-   "text": "l'altra pregunta, a part d'aquesta dels que guanyen molts diners, I ara també, i segurament de manera creixent, i si ens ho mirem a la llengua internacional encara més, però fent-nos l'altra pregunta, com a conseqüència de la inflació d'aquests últims anys, que és el que castiga molt a la gent més modesta, etcètera, etcètera, com a conseqüència d'això, l'Estat, les administracions públiques, han cobrat un munt d'impostos. i no els han corregit. És a dir, si a vostè jo li milloro el salari, però per una altra banda, perquè vostè puja una mica el seu salari i jo li aplico un tipus impositiu de l'IRPF una mica més alt, vostè què ha guanyat? Si el cost de la vida puja, jo he perdut. Si el cost de la vida puja, vostè ha perdut, però li han pujat el salari. Fixi's, tot això està passant... S'han de pujar més els salaris, doncs. D'acord, s'han de pujar més els salaris, però si ens han de pujar més els salaris, no ens fem trampes al solidari. Aleshores vol dir que quan anem a qualsevol lloc hem d'estar disposats a pagar més Perquè si aquell que ens presta un servei o ens ven un producte ha de pagar més el salari Cosa que jo puc entendre i justifico Nosaltres consumidors o usuaris, quan anem a qualsevol lloc A prendre'ns un tallat o a comprar una barra de pa Doncs haurem de pagar més per això Una cosa va amb l'altra Miracles no se'n fan amb tot això Això són faves comptades Això ho sabem tots o ho hauríem de saber tots No,"
+   "text": "l'altra pregunta, a part d'aquesta dels que guanyen molts diners, I ara també, i segurament de manera creixent, i si ens ho mirem a la llengua internacional encara més, però fent-nos l'altra pregunta, com a conseqüència de la inflació d'aquests últims anys, que és el que castiga molt a la gent més modesta, etcètera, etcètera, com a conseqüència d'això, l'Estat, les administracions públiques, han cobrat un munt d'impostos. i no els han corregit. És a dir, si a vostè jo li milloro el salari, però per una altra banda, perquè vostè puja una mica el seu salari i jo li aplico un tipus impositiu de l'IRPF una mica més alt, vostè què ha guanyat? Si el cost de la vida puja, jo he perdut. Si el cost de la vida puja, vostè ha perdut, però li han pujat el salari. Fixi's, tot això està passant... S'han de pujar més els salaris, doncs. D'acord, s'han de pujar més els salaris, però si ens han de pujar més els salaris, no ens fem trampes al solidari. Aleshores vol dir que quan anem a qualsevol lloc hem d'estar disposats a pagar més Perquè si aquell que ens presta un servei o ens ven un producte ha de pagar més el salari Cosa que jo puc entendre i justifico Nosaltres consumidors o usuaris, quan anem a qualsevol lloc A prendre'ns un tallat o a comprar una barra de pa Doncs haurem de pagar més per això Una cosa va amb l'altra Miracles no se'n fan amb tot això Això són faves comptades Això ho sabem tots o ho hauríem de saber tots No,",
+   "marks": [
+    [
+     0,
+     2846.1
+    ],
+    [
+     66,
+     2850.7
+    ],
+    [
+     124,
+     2855.6
+    ],
+    [
+     191,
+     2859.5
+    ],
+    [
+     262,
+     2864.5
+    ],
+    [
+     328,
+     2870.8
+    ],
+    [
+     406,
+     2875.2
+    ],
+    [
+     426,
+     2878.0
+    ],
+    [
+     449,
+     2879.8
+    ],
+    [
+     459,
+     2880.2
+    ],
+    [
+     514,
+     2882.9
+    ],
+    [
+     570,
+     2885.7
+    ],
+    [
+     630,
+     2888.9
+    ],
+    [
+     646,
+     2889.8
+    ],
+    [
+     680,
+     2891.8
+    ],
+    [
+     688,
+     2892.5
+    ],
+    [
+     738,
+     2894.5
+    ],
+    [
+     762,
+     2897.0
+    ],
+    [
+     795,
+     2898.4
+    ],
+    [
+     801,
+     2898.6
+    ],
+    [
+     834,
+     2899.7
+    ],
+    [
+     858,
+     2901.0
+    ],
+    [
+     917,
+     2902.8
+    ],
+    [
+     949,
+     2904.1
+    ],
+    [
+     981,
+     2905.7
+    ],
+    [
+     1042,
+     2908.9
+    ],
+    [
+     1099,
+     2911.1
+    ],
+    [
+     1159,
+     2914.9
+    ],
+    [
+     1232,
+     2919.0
+    ],
+    [
+     1286,
+     2922.1
+    ],
+    [
+     1341,
+     2925.0
+    ],
+    [
+     1396,
+     2928.6
+    ]
+   ]
   },
   {
    "start": 2930.99,
@@ -1148,7 +5694,17 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "anyora, la política de la primera línia No No. Per què m"
+   "text": "anyora, la política de la primera línia No No. Per què m",
+   "marks": [
+    [
+     0,
+     2931.0
+    ],
+    [
+     47,
+     2934.0
+    ]
+   ]
   },
   {
    "start": 2934.55,
@@ -1156,7 +5712,13 @@
    "label": "SPEAKER_21",
    "person": null,
    "name": "Hablante sin identificar 10",
-   "text": "'ho pregunta?"
+   "text": "'ho pregunta?",
+   "marks": [
+    [
+     0,
+     2934.6
+    ]
+   ]
   },
   {
    "start": 2935.21,
@@ -1164,7 +5726,17 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "No, perquè es publiquen notícies... Home, si l'anyorès"
+   "text": "No, perquè es publiquen notícies... Home, si l'anyorès",
+   "marks": [
+    [
+     0,
+     2935.2
+    ],
+    [
+     36,
+     2937.1
+    ]
+   ]
   },
   {
    "start": 2937.09,
@@ -1172,7 +5744,17 @@
    "label": "SPEAKER_21",
    "person": null,
    "name": "Hablante sin identificar 10",
-   "text": "hauria dit que si fa un temps enrere ser candidat a l'alcaldia de Barcelona, hi vaig dir que no."
+   "text": "hauria dit que si fa un temps enrere ser candidat a l'alcaldia de Barcelona, hi vaig dir que no.",
+   "marks": [
+    [
+     0,
+     2937.1
+    ],
+    [
+     53,
+     2939.4
+    ]
+   ]
   },
   {
    "start": 2943.07,
@@ -1180,7 +5762,25 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "Sempre surt, però el seu nom sempre acaba apareixent. El confidencial, per exemple, l'altre dia publicava que Junts ja ha ofert tancar la llista del 29 de novembre a Barcelona."
+   "text": "Sempre surt, però el seu nom sempre acaba apareixent. El confidencial, per exemple, l'altre dia publicava que Junts ja ha ofert tancar la llista del 29 de novembre a Barcelona.",
+   "marks": [
+    [
+     0,
+     2943.1
+    ],
+    [
+     54,
+     2946.4
+    ],
+    [
+     75,
+     2947.3
+    ],
+    [
+     138,
+     2949.2
+    ]
+   ]
   },
   {
    "start": 2951.17,
@@ -1188,7 +5788,41 @@
    "label": "SPEAKER_21",
    "person": null,
    "name": "Hablante sin identificar 10",
-   "text": "Mentida. Mentida. En aquest cas no és que no sigui veritat, és que és mentida. Ni me n'han parlat, vaja. Ni me n'han parlat. Però no, no ho enyoro, no ho enyoro."
+   "text": "Mentida. Mentida. En aquest cas no és que no sigui veritat, és que és mentida. Ni me n'han parlat, vaja. Ni me n'han parlat. Però no, no ho enyoro, no ho enyoro.",
+   "marks": [
+    [
+     0,
+     2951.2
+    ],
+    [
+     9,
+     2951.4
+    ],
+    [
+     18,
+     2951.7
+    ],
+    [
+     63,
+     2954.1
+    ],
+    [
+     79,
+     2955.9
+    ],
+    [
+     105,
+     2957.3
+    ],
+    [
+     112,
+     2957.8
+    ],
+    [
+     125,
+     2958.6
+    ]
+   ]
   },
   {
    "start": 2960.67,
@@ -1196,7 +5830,13 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "Ha parlat per sol les darreres hores"
+   "text": "Ha parlat per sol les darreres hores",
+   "marks": [
+    [
+     0,
+     2960.7
+    ]
+   ]
   },
   {
    "start": 2989.15,
@@ -1204,7 +5844,205 @@
    "label": "SPEAKER_21",
    "person": null,
    "name": "Hablante sin identificar 10",
-   "text": "Carles Puigdemont A curt termini, a llarg termini no ho sé, ja es veurà, però a curt termini, que vol dir d'aquí al 29 de novembre, en aquestes eleccions, jo crec que Junts té una oportunitat, perquè hi ha un espai gran de catalanitat, de defensa dels interessos de Catalunya, de veu pròpia de Catalunya a Madrid, que crec que el que està passant per part d'altres formacions polítiques li deixen un espai lliure a Junts que és un molt bon terreny de joc, crec. Per exemple, clar, hi haurà gent que dirà, home, per aturar el PP hem de votar els socialistes, però, de fet, una vegada els socialistes ja siguin a Madrid, parlo ara del PSC, quedarà dintre del PSOE, que és on són. Ara no parlo de Catalunya, però des del punt de vista de l'estructura de l'estat espanyol, el PSC i el PSOE a Madrid és un grup, no hi ha una veu pròpia catalana per part del PSC diferenciada del PSOE, no existeix. Si vostè mira altres formacions, doncs bé, aquest front ampli, etcètera, això és tot un revolutum tan immens que el problema que tenen és el que s'està veient, és com s'aclaren entre ells quatre cosetes fonamentals o mínimes, ja es veurà. Per això, des del punt de vista del que estem parlant, del concepte de la catalanitat o de la defensa dels interessos dels catalans, independentment de la seva ideologia, no servirà de gaire cosa. Esquerra, que sí que evidentment té veu pròpia, fa una aliança amb Podemos. I jo vull recordar que Podemos ha estat el partit que en aquests últims mesos es va oposar frontalment i va ser l'únic d'aquesta coalició gran a transferir a Catalunya les competències en matèria d'immigració. Dient la bestiesa tan enorme que els Mossos d'Esquadra podien actuar de manera xenòfoba o racista, que és una bestiesa monumental, se'n poden dir de bestieses, però tan grans com aquesta costen de superar, però van utilitzar aquest argument, tots aquests progressistes anava a dir de Podemos, tots aquests van utilitzar aquest argument. Resultat final Aventi la possible majoria per culpa de Podemos, doncs això no va passar Bé, Esquerra ha triat aquest terreny de joc, jo personalment no ho entenc, perquè si tu vols subratllar la teva veu pròpia doncs vas tu sol no cal fer operacions amb Podemos però bé, des del punt de vista de Junts això també deixa un terreny de joc obert i jo crec que molt interessant i des del punt de vista del PP i companyia i Vox, per suposat La última cosa que es pot esperar és que quan estiguin a Madrid tinguin una agenda pro-catalana. És l'última cosa que es pot esperar. Per tant, hi ha un terreny de joc molt interessant."
+   "text": "Carles Puigdemont A curt termini, a llarg termini no ho sé, ja es veurà, però a curt termini, que vol dir d'aquí al 29 de novembre, en aquestes eleccions, jo crec que Junts té una oportunitat, perquè hi ha un espai gran de catalanitat, de defensa dels interessos de Catalunya, de veu pròpia de Catalunya a Madrid, que crec que el que està passant per part d'altres formacions polítiques li deixen un espai lliure a Junts que és un molt bon terreny de joc, crec. Per exemple, clar, hi haurà gent que dirà, home, per aturar el PP hem de votar els socialistes, però, de fet, una vegada els socialistes ja siguin a Madrid, parlo ara del PSC, quedarà dintre del PSOE, que és on són. Ara no parlo de Catalunya, però des del punt de vista de l'estructura de l'estat espanyol, el PSC i el PSOE a Madrid és un grup, no hi ha una veu pròpia catalana per part del PSC diferenciada del PSOE, no existeix. Si vostè mira altres formacions, doncs bé, aquest front ampli, etcètera, això és tot un revolutum tan immens que el problema que tenen és el que s'està veient, és com s'aclaren entre ells quatre cosetes fonamentals o mínimes, ja es veurà. Per això, des del punt de vista del que estem parlant, del concepte de la catalanitat o de la defensa dels interessos dels catalans, independentment de la seva ideologia, no servirà de gaire cosa. Esquerra, que sí que evidentment té veu pròpia, fa una aliança amb Podemos. I jo vull recordar que Podemos ha estat el partit que en aquests últims mesos es va oposar frontalment i va ser l'únic d'aquesta coalició gran a transferir a Catalunya les competències en matèria d'immigració. Dient la bestiesa tan enorme que els Mossos d'Esquadra podien actuar de manera xenòfoba o racista, que és una bestiesa monumental, se'n poden dir de bestieses, però tan grans com aquesta costen de superar, però van utilitzar aquest argument, tots aquests progressistes anava a dir de Podemos, tots aquests van utilitzar aquest argument. Resultat final Aventi la possible majoria per culpa de Podemos, doncs això no va passar Bé, Esquerra ha triat aquest terreny de joc, jo personalment no ho entenc, perquè si tu vols subratllar la teva veu pròpia doncs vas tu sol no cal fer operacions amb Podemos però bé, des del punt de vista de Junts això també deixa un terreny de joc obert i jo crec que molt interessant i des del punt de vista del PP i companyia i Vox, per suposat La última cosa que es pot esperar és que quan estiguin a Madrid tinguin una agenda pro-catalana. És l'última cosa que es pot esperar. Per tant, hi ha un terreny de joc molt interessant.",
+   "marks": [
+    [
+     0,
+     2989.2
+    ],
+    [
+     63,
+     2993.8
+    ],
+    [
+     116,
+     2996.2
+    ],
+    [
+     180,
+     3000.5
+    ],
+    [
+     252,
+     3006.8
+    ],
+    [
+     323,
+     3010.9
+    ],
+    [
+     390,
+     3015.1
+    ],
+    [
+     448,
+     3018.2
+    ],
+    [
+     462,
+     3019.6
+    ],
+    [
+     511,
+     3024.4
+    ],
+    [
+     572,
+     3030.2
+    ],
+    [
+     638,
+     3033.6
+    ],
+    [
+     678,
+     3039.3
+    ],
+    [
+     694,
+     3040.5
+    ],
+    [
+     752,
+     3043.5
+    ],
+    [
+     807,
+     3048.0
+    ],
+    [
+     870,
+     3053.4
+    ],
+    [
+     893,
+     3056.7
+    ],
+    [
+     943,
+     3060.3
+    ],
+    [
+     1009,
+     3064.9
+    ],
+    [
+     1061,
+     3067.8
+    ],
+    [
+     1132,
+     3073.2
+    ],
+    [
+     1136,
+     3073.3
+    ],
+    [
+     1200,
+     3078.5
+    ],
+    [
+     1281,
+     3082.2
+    ],
+    [
+     1329,
+     3086.2
+    ],
+    [
+     1346,
+     3087.0
+    ],
+    [
+     1405,
+     3090.4
+    ],
+    [
+     1410,
+     3090.7
+    ],
+    [
+     1477,
+     3094.1
+    ],
+    [
+     1534,
+     3097.8
+    ],
+    [
+     1615,
+     3103.2
+    ],
+    [
+     1684,
+     3108.7
+    ],
+    [
+     1751,
+     3113.8
+    ],
+    [
+     1821,
+     3117.3
+    ],
+    [
+     1899,
+     3121.9
+    ],
+    [
+     1952,
+     3124.3
+    ],
+    [
+     1986,
+     3126.9
+    ],
+    [
+     2053,
+     3131.6
+    ],
+    [
+     2122,
+     3135.6
+    ],
+    [
+     2180,
+     3139.2
+    ],
+    [
+     2239,
+     3145.2
+    ],
+    [
+     2297,
+     3148.4
+    ],
+    [
+     2354,
+     3151.3
+    ],
+    [
+     2410,
+     3155.4
+    ],
+    [
+     2474,
+     3158.9
+    ],
+    [
+     2485,
+     3159.4
+    ],
+    [
+     2522,
+     3160.8
+    ],
+    [
+     2535,
+     3161.4
+    ]
+   ]
   },
   {
    "start": 3163.23,
@@ -1212,7 +6050,65 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "Tot això estem esperant que torni el president Puigdemont. Sembla que ho farà després de les eleccions perquè diu que no vol interferir o no vol tornar com a membre d'un partit, sinó com a president i que tingui un retorn, un valor més institucional. Però la repressió continua. Avui, de fet, coneixíem, ahir ho coneixíem, que el Tribunal de Comptes espanyol va decidir aplicar-li finalment l'amnistia a vostè i una altra trentena dels càrrecs per les despeses del procés. Expliqui'm què havia suposat a nivell més personal també a vostè durant tots aquests anys, que són moltíssims, aquesta amenaça d'haver de fer front entre tots aquests 4 bilions d'euros que li reclamaven."
+   "text": "Tot això estem esperant que torni el president Puigdemont. Sembla que ho farà després de les eleccions perquè diu que no vol interferir o no vol tornar com a membre d'un partit, sinó com a president i que tingui un retorn, un valor més institucional. Però la repressió continua. Avui, de fet, coneixíem, ahir ho coneixíem, que el Tribunal de Comptes espanyol va decidir aplicar-li finalment l'amnistia a vostè i una altra trentena dels càrrecs per les despeses del procés. Expliqui'm què havia suposat a nivell més personal també a vostè durant tots aquests anys, que són moltíssims, aquesta amenaça d'haver de fer front entre tots aquests 4 bilions d'euros que li reclamaven.",
+   "marks": [
+    [
+     0,
+     3163.2
+    ],
+    [
+     59,
+     3165.7
+    ],
+    [
+     73,
+     3166.0
+    ],
+    [
+     138,
+     3168.3
+    ],
+    [
+     189,
+     3170.4
+    ],
+    [
+     251,
+     3174.9
+    ],
+    [
+     259,
+     3175.4
+    ],
+    [
+     279,
+     3176.1
+    ],
+    [
+     339,
+     3178.8
+    ],
+    [
+     410,
+     3181.7
+    ],
+    [
+     473,
+     3185.8
+    ],
+    [
+     484,
+     3186.3
+    ],
+    [
+     550,
+     3190.2
+    ],
+    [
+     621,
+     3194.2
+    ]
+   ]
   },
   {
    "start": 3197.61,
@@ -1220,7 +6116,65 @@
    "label": "SPEAKER_21",
    "person": null,
    "name": "Hablante sin identificar 10",
-   "text": "Miri, avui, que és 15 d'octubre, ho vull recordar, un dia assenyalat, perquè un dia com avui, fa molts anys enrere, van afusellar el president Lluís Companys. Avui, fa 11 anys, que jo sent president de la Generalitat, era un 15 d'octubre de l'any 2015, i ho recordo molt bé, vaig anar a declarar a la sala penal del Tribunal Superior de Justícia de Catalunya per haver organitzat la primera consulta sobiranista que va ser l'any 2014. Avui, exactament, dia per dia, fa 11 anys. I durant aquests 11 anys, evidentment, han passat moltes coses. Quan jo vaig anar a declarar aquell dia, el moviment sobiranista estava enfilat a dalt de tot."
+   "text": "Miri, avui, que és 15 d'octubre, ho vull recordar, un dia assenyalat, perquè un dia com avui, fa molts anys enrere, van afusellar el president Lluís Companys. Avui, fa 11 anys, que jo sent president de la Generalitat, era un 15 d'octubre de l'any 2015, i ho recordo molt bé, vaig anar a declarar a la sala penal del Tribunal Superior de Justícia de Catalunya per haver organitzat la primera consulta sobiranista que va ser l'any 2014. Avui, exactament, dia per dia, fa 11 anys. I durant aquests 11 anys, evidentment, han passat moltes coses. Quan jo vaig anar a declarar aquell dia, el moviment sobiranista estava enfilat a dalt de tot.",
+   "marks": [
+    [
+     0,
+     3197.6
+    ],
+    [
+     58,
+     3201.8
+    ],
+    [
+     130,
+     3207.7
+    ],
+    [
+     159,
+     3210.4
+    ],
+    [
+     199,
+     3213.9
+    ],
+    [
+     253,
+     3217.0
+    ],
+    [
+     306,
+     3221.0
+    ],
+    [
+     383,
+     3225.6
+    ],
+    [
+     435,
+     3229.4
+    ],
+    [
+     457,
+     3231.1
+    ],
+    [
+     478,
+     3233.1
+    ],
+    [
+     521,
+     3235.5
+    ],
+    [
+     542,
+     3236.3
+    ],
+    [
+     586,
+     3239.1
+    ]
+   ]
   },
   {
    "start": 3245.61,
@@ -1228,7 +6182,13 @@
    "label": "SPEAKER_18",
    "person": null,
    "name": "Hablante sin identificar 4",
-   "text": "I ara dóna la sensació que no existeix."
+   "text": "I ara dóna la sensació que no existeix.",
+   "marks": [
+    [
+     0,
+     3245.6
+    ]
+   ]
   },
   {
    "start": 3251.57,
@@ -1236,7 +6196,65 @@
    "label": "SPEAKER_21",
    "person": null,
    "name": "Hablante sin identificar 10",
-   "text": "Imagini's el que ha arribat a passar. D'estar a dalt de tot, hem passat pràcticament la no visibilització. I mentrestant, evidentment, han passat un munt de coses que ara no cal analitzar. Però vostè em deia, des d'un punt de vista personal, doncs jo vull fer abstracció del tema aquest personal, primer perquè això ha afectat a molta gent i segon per una altra raó, perquè quan tu et fiques en una operació d'aquesta magnitud, i ara ho hem vist, després d'aquest intent, has d'assumir les conseqüències de la teva aposta. Has d'assumir aquestes conseqüències. Són dures, molt, provoquen malestar, provoquen incertesa, provoquen atabalament, evidentment que sí, evidentment que sí,"
+   "text": "Imagini's el que ha arribat a passar. D'estar a dalt de tot, hem passat pràcticament la no visibilització. I mentrestant, evidentment, han passat un munt de coses que ara no cal analitzar. Però vostè em deia, des d'un punt de vista personal, doncs jo vull fer abstracció del tema aquest personal, primer perquè això ha afectat a molta gent i segon per una altra raó, perquè quan tu et fiques en una operació d'aquesta magnitud, i ara ho hem vist, després d'aquest intent, has d'assumir les conseqüències de la teva aposta. Has d'assumir aquestes conseqüències. Són dures, molt, provoquen malestar, provoquen incertesa, provoquen atabalament, evidentment que sí, evidentment que sí,",
+   "marks": [
+    [
+     0,
+     3251.6
+    ],
+    [
+     38,
+     3253.0
+    ],
+    [
+     56,
+     3254.1
+    ],
+    [
+     107,
+     3263.5
+    ],
+    [
+     146,
+     3265.0
+    ],
+    [
+     189,
+     3267.4
+    ],
+    [
+     203,
+     3267.8
+    ],
+    [
+     260,
+     3271.6
+    ],
+    [
+     335,
+     3275.4
+    ],
+    [
+     392,
+     3278.0
+    ],
+    [
+     455,
+     3282.7
+    ],
+    [
+     523,
+     3289.4
+    ],
+    [
+     561,
+     3291.0
+    ],
+    [
+     619,
+     3298.4
+    ]
+   ]
   },
   {
    "start": 3303.39,
@@ -1244,7 +6262,13 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "però n'has de fer abstracció d'això,"
+   "text": "però n'has de fer abstracció d'això,",
+   "marks": [
+    [
+     0,
+     3303.4
+    ]
+   ]
   },
   {
    "start": 3305.87,
@@ -1252,7 +6276,69 @@
    "label": "SPEAKER_21",
    "person": null,
    "name": "Hablante sin identificar 10",
-   "text": "n'has de fer una mica d'abstracció, perquè una de dos, si tu no estàs preparat per assumir les conseqüències del que et pugui passar en aquest terreny, no t'hi posis, perquè ningú t'obliga a posar-t'hi. Si t'hi poses has de ser conscient d'això. També és veritat que quan et fiques en una operació col·lectiva d'aquesta magnitud, que no és una operació individual, parlo del procés sobiranista, el que esperes és poder estar acompanyat en els moments més durs i més complicats. I això té lògica, perquè al final les persones que estan al davant d'una operació política, encara que ho puguin semblar, no són roques, no són pedres, ni són robots, són persones, com qualsevol altra, que tenen els seus sentiments, tenen les seves problemàtiques, tenen els seus dubtes, cometen els seus errors, etc."
+   "text": "n'has de fer una mica d'abstracció, perquè una de dos, si tu no estàs preparat per assumir les conseqüències del que et pugui passar en aquest terreny, no t'hi posis, perquè ningú t'obliga a posar-t'hi. Si t'hi poses has de ser conscient d'això. També és veritat que quan et fiques en una operació col·lectiva d'aquesta magnitud, que no és una operació individual, parlo del procés sobiranista, el que esperes és poder estar acompanyat en els moments més durs i més complicats. I això té lògica, perquè al final les persones que estan al davant d'una operació política, encara que ho puguin semblar, no són roques, no són pedres, ni són robots, són persones, com qualsevol altra, que tenen els seus sentiments, tenen les seves problemàtiques, tenen els seus dubtes, cometen els seus errors, etc.",
+   "marks": [
+    [
+     0,
+     3305.9
+    ],
+    [
+     55,
+     3308.6
+    ],
+    [
+     120,
+     3311.6
+    ],
+    [
+     181,
+     3314.9
+    ],
+    [
+     203,
+     3315.8
+    ],
+    [
+     228,
+     3317.5
+    ],
+    [
+     246,
+     3318.2
+    ],
+    [
+     289,
+     3320.5
+    ],
+    [
+     371,
+     3324.2
+    ],
+    [
+     443,
+     3330.0
+    ],
+    [
+     478,
+     3331.9
+    ],
+    [
+     506,
+     3335.3
+    ],
+    [
+     577,
+     3338.8
+    ],
+    [
+     637,
+     3343.1
+    ],
+    [
+     717,
+     3347.8
+    ]
+   ]
   },
   {
    "start": 3352.59,
@@ -1260,7 +6346,21 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "I han d'afrontar les seves circumstàncies. Vostè, per exemple, va haver d'afrontar una crisi econòmica amb unes mesures molt dràstiques."
+   "text": "I han d'afrontar les seves circumstàncies. Vostè, per exemple, va haver d'afrontar una crisi econòmica amb unes mesures molt dràstiques.",
+   "marks": [
+    [
+     0,
+     3352.6
+    ],
+    [
+     43,
+     3354.2
+    ],
+    [
+     72,
+     3354.8
+    ]
+   ]
   },
   {
    "start": 3357.73,
@@ -1268,7 +6368,13 @@
    "label": "SPEAKER_21",
    "person": null,
    "name": "Hablante sin identificar 10",
-   "text": "Exacte."
+   "text": "Exacte.",
+   "marks": [
+    [
+     0,
+     3357.7
+    ]
+   ]
   },
   {
    "start": 3358.21,
@@ -1276,7 +6382,21 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "Recordo un llibre que vam fer-li, La màscara de l'Artur, era? Que li va escriure la Pilar Rola?"
+   "text": "Recordo un llibre que vam fer-li, La màscara de l'Artur, era? Que li va escriure la Pilar Rola?",
+   "marks": [
+    [
+     0,
+     3358.2
+    ],
+    [
+     57,
+     3360.0
+    ],
+    [
+     62,
+     3360.2
+    ]
+   ]
   },
   {
    "start": 3361.45,
@@ -1284,7 +6404,13 @@
    "label": "SPEAKER_21",
    "person": null,
    "name": "Hablante sin identificar 10",
-   "text": "Sí, La màscara del..."
+   "text": "Sí, La màscara del...",
+   "marks": [
+    [
+     0,
+     3361.4
+    ]
+   ]
   },
   {
    "start": 3362.45,
@@ -1292,7 +6418,17 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "O una mica el que intentava era parlar de la persona que hi havia darrere d'aquest robot, no?"
+   "text": "O una mica el que intentava era parlar de la persona que hi havia darrere d'aquest robot, no?",
+   "marks": [
+    [
+     0,
+     3362.4
+    ],
+    [
+     57,
+     3365.2
+    ]
+   ]
   },
   {
    "start": 3366.67,
@@ -1300,7 +6436,177 @@
    "label": "SPEAKER_21",
    "person": null,
    "name": "Hablante sin identificar 10",
-   "text": "Per tant, bé, s'assumeixen les conseqüències i ja està, no? Però, esclar, fixi's, l'anàlisi que s'ha de fer des d'una òptica catalana, i sobretot per aquelles persones que van apostar més pel tema del procés, és que l'Estat, un Estat, però sobretot l'Estat espanyol, té molts mecanismes per organitzar la seva repressió. I un d'ells és ficar la gent a la presó, com ha passat. Un altre és forçar determinada gent a marxar del país per no anar a la presó. Un altre és, encara que sembli menor, però no ho és, quan et toca, és la persecució econòmica. Perquè és... Aquesta ja no t'afecta només a tu, aquesta t'afecta a tota la família. Bueno, doncs és així, això també ho han utilitzat. I ho han utilitzat, i aquesta és l'altra cosa que hem d'entendre pel futur, ho han utilitzat fins i tot durant més de dos anys havent aprovat al Parlament espanyol una llei d'amnistia. És a dir, que no només ho fan quan ho poden fer de motu propi, és que quan el Parlament del seu país, que és el Parlament espanyol, el Parlament fa lleis, quan el Parlament espanyol, que és el Parlament del seu país, els diu, Diu, escolti'm, la llei d'amnistia és aquesta, es neguen a aplicar-la i batallen fins a l'últim moment per no aplicar una llei aprovada pel Parlament del seu país. Això sona a Trump. El Trump no està d'acord amb un resultat electoral i organitza l'assalt del Capitoli. Doncs el sistema, una part, siguem justos, una part del sistema judicial espanyol fa això, no està d'acord amb la llei de l'amnistia i en lloc d'aplicar-la, perquè no tenen més remei, perquè és una llei d'obligat compliment, busquen tots els viaranys possibles per intentar no aplicar-la, fins que resulta que els europeus, els tribunals europeus li diuen, esgotim, no ens mereixi més, els interessos europeus no han quedat afectats i el Tribunal Constitucional Espanyol. Per 7 a 5, no ho oblidem, 7 a 5, i per tant amb una posició determinant del seu president, del conde Pompidou, també diu aplique-se la llei d'amnistia. Però fins que no han arribat en aquest punt, no han baixat el cap."
+   "text": "Per tant, bé, s'assumeixen les conseqüències i ja està, no? Però, esclar, fixi's, l'anàlisi que s'ha de fer des d'una òptica catalana, i sobretot per aquelles persones que van apostar més pel tema del procés, és que l'Estat, un Estat, però sobretot l'Estat espanyol, té molts mecanismes per organitzar la seva repressió. I un d'ells és ficar la gent a la presó, com ha passat. Un altre és forçar determinada gent a marxar del país per no anar a la presó. Un altre és, encara que sembli menor, però no ho és, quan et toca, és la persecució econòmica. Perquè és... Aquesta ja no t'afecta només a tu, aquesta t'afecta a tota la família. Bueno, doncs és així, això també ho han utilitzat. I ho han utilitzat, i aquesta és l'altra cosa que hem d'entendre pel futur, ho han utilitzat fins i tot durant més de dos anys havent aprovat al Parlament espanyol una llei d'amnistia. És a dir, que no només ho fan quan ho poden fer de motu propi, és que quan el Parlament del seu país, que és el Parlament espanyol, el Parlament fa lleis, quan el Parlament espanyol, que és el Parlament del seu país, els diu, Diu, escolti'm, la llei d'amnistia és aquesta, es neguen a aplicar-la i batallen fins a l'últim moment per no aplicar una llei aprovada pel Parlament del seu país. Això sona a Trump. El Trump no està d'acord amb un resultat electoral i organitza l'assalt del Capitoli. Doncs el sistema, una part, siguem justos, una part del sistema judicial espanyol fa això, no està d'acord amb la llei de l'amnistia i en lloc d'aplicar-la, perquè no tenen més remei, perquè és una llei d'obligat compliment, busquen tots els viaranys possibles per intentar no aplicar-la, fins que resulta que els europeus, els tribunals europeus li diuen, esgotim, no ens mereixi més, els interessos europeus no han quedat afectats i el Tribunal Constitucional Espanyol. Per 7 a 5, no ho oblidem, 7 a 5, i per tant amb una posició determinant del seu president, del conde Pompidou, també diu aplique-se la llei d'amnistia. Però fins que no han arribat en aquest punt, no han baixat el cap.",
+   "marks": [
+    [
+     0,
+     3366.7
+    ],
+    [
+     60,
+     3370.7
+    ],
+    [
+     66,
+     3371.1
+    ],
+    [
+     118,
+     3374.4
+    ],
+    [
+     192,
+     3378.1
+    ],
+    [
+     250,
+     3381.6
+    ],
+    [
+     321,
+     3387.5
+    ],
+    [
+     326,
+     3388.4
+    ],
+    [
+     377,
+     3391.9
+    ],
+    [
+     438,
+     3395.6
+    ],
+    [
+     455,
+     3397.2
+    ],
+    [
+     498,
+     3400.6
+    ],
+    [
+     550,
+     3403.6
+    ],
+    [
+     563,
+     3404.4
+    ],
+    [
+     617,
+     3408.1
+    ],
+    [
+     634,
+     3409.2
+    ],
+    [
+     685,
+     3412.0
+    ],
+    [
+     739,
+     3415.2
+    ],
+    [
+     800,
+     3420.5
+    ],
+    [
+     870,
+     3427.5
+    ],
+    [
+     918,
+     3430.3
+    ],
+    [
+     976,
+     3433.8
+    ],
+    [
+     1053,
+     3438.2
+    ],
+    [
+     1115,
+     3441.4
+    ],
+    [
+     1177,
+     3446.1
+    ],
+    [
+     1236,
+     3449.7
+    ],
+    [
+     1260,
+     3451.8
+    ],
+    [
+     1279,
+     3454.4
+    ],
+    [
+     1296,
+     3455.5
+    ],
+    [
+     1365,
+     3462.7
+    ],
+    [
+     1438,
+     3466.9
+    ],
+    [
+     1488,
+     3470.6
+    ],
+    [
+     1549,
+     3473.3
+    ],
+    [
+     1626,
+     3478.0
+    ],
+    [
+     1693,
+     3482.5
+    ],
+    [
+     1775,
+     3488.8
+    ],
+    [
+     1837,
+     3492.0
+    ],
+    [
+     1845,
+     3492.8
+    ],
+    [
+     1889,
+     3497.4
+    ],
+    [
+     1969,
+     3502.2
+    ],
+    [
+     1989,
+     3505.0
+    ],
+    [
+     2028,
+     3506.5
+    ]
+   ]
   },
   {
    "start": 3507.78,
@@ -1308,7 +6614,21 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "No s'està aplicant, és a dir, encara no hi ha l'aplicació. Sí, sí, encara no hi som."
+   "text": "No s'està aplicant, és a dir, encara no hi ha l'aplicació. Sí, sí, encara no hi som.",
+   "marks": [
+    [
+     0,
+     3507.8
+    ],
+    [
+     47,
+     3509.8
+    ],
+    [
+     59,
+     3512.2
+    ]
+   ]
   },
   {
    "start": 3513.64,
@@ -1316,7 +6636,37 @@
    "label": "SPEAKER_21",
    "person": null,
    "name": "Hablante sin identificar 10",
-   "text": "Imagini's, eh? Imagini's. I això, anem a prendre nota de tot això. Perquè si d'alguna cosa serveix, quan tu intentes un gran Tens un gran objectiu i no l'aconsegueixes, almenys tens l'obligació, pel futur, d'haver après què significa aquest camí i amb què et trobaràs."
+   "text": "Imagini's, eh? Imagini's. I això, anem a prendre nota de tot això. Perquè si d'alguna cosa serveix, quan tu intentes un gran Tens un gran objectiu i no l'aconsegueixes, almenys tens l'obligació, pel futur, d'haver après què significa aquest camí i amb què et trobaràs.",
+   "marks": [
+    [
+     0,
+     3513.6
+    ],
+    [
+     15,
+     3514.4
+    ],
+    [
+     26,
+     3514.8
+    ],
+    [
+     67,
+     3516.9
+    ],
+    [
+     130,
+     3520.9
+    ],
+    [
+     199,
+     3527.0
+    ],
+    [
+     259,
+     3533.8
+    ]
+   ]
   },
   {
    "start": 3534.78,
@@ -1324,7 +6674,29 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "Però això no és un èxit de la repressió? Hi ha dues ficcions. És a dir, aprendre el que m'està dient vostè no és l'èxit de..."
+   "text": "Però això no és un èxit de la repressió? Hi ha dues ficcions. És a dir, aprendre el que m'està dient vostè no és l'èxit de...",
+   "marks": [
+    [
+     0,
+     3534.8
+    ],
+    [
+     41,
+     3537.3
+    ],
+    [
+     52,
+     3537.6
+    ],
+    [
+     62,
+     3538.2
+    ],
+    [
+     110,
+     3539.9
+    ]
+   ]
   },
   {
    "start": 3540.72,
@@ -1332,7 +6704,89 @@
    "label": "SPEAKER_21",
    "person": null,
    "name": "Hablante sin identificar 10",
-   "text": "No, aprendre vol dir que 50 anys després de la mort del Franco i sent membres de la Unió Europea, Des de l'any 86, que vol dir 40 anys, 40 anys després de ser europeus, i 50 anys després d'empresar el Franco, l'estat espanyol s'ha comportat com s'ha comportat en aquests darrers anys, quan des de Catalunya se li va fer un pols democràtic. Equivocat o no? Hi haurà gent de tot. Jo penso que no, però hi haurà gent que dirà equivocat, d'acord. Però era un pols democràtic. Era un conflicte constitucional. I en lloc de tractar-lo de manera madura, com un estat evolucionat des d'un punt de vista democràtic i membre de la Unió Europea, doncs va reaccionar com va reaccionar. D'això n'hem de prendre nota, per no crear-nos ficcions que són miratges i no realitats. Marta Bonforte."
+   "text": "No, aprendre vol dir que 50 anys després de la mort del Franco i sent membres de la Unió Europea, Des de l'any 86, que vol dir 40 anys, 40 anys després de ser europeus, i 50 anys després d'empresar el Franco, l'estat espanyol s'ha comportat com s'ha comportat en aquests darrers anys, quan des de Catalunya se li va fer un pols democràtic. Equivocat o no? Hi haurà gent de tot. Jo penso que no, però hi haurà gent que dirà equivocat, d'acord. Però era un pols democràtic. Era un conflicte constitucional. I en lloc de tractar-lo de manera madura, com un estat evolucionat des d'un punt de vista democràtic i membre de la Unió Europea, doncs va reaccionar com va reaccionar. D'això n'hem de prendre nota, per no crear-nos ficcions que són miratges i no realitats. Marta Bonforte.",
+   "marks": [
+    [
+     0,
+     3540.7
+    ],
+    [
+     56,
+     3546.2
+    ],
+    [
+     111,
+     3550.4
+    ],
+    [
+     169,
+     3555.0
+    ],
+    [
+     227,
+     3558.6
+    ],
+    [
+     294,
+     3561.0
+    ],
+    [
+     340,
+     3566.3
+    ],
+    [
+     356,
+     3567.0
+    ],
+    [
+     378,
+     3568.1
+    ],
+    [
+     409,
+     3569.6
+    ],
+    [
+     443,
+     3571.4
+    ],
+    [
+     472,
+     3573.1
+    ],
+    [
+     476,
+     3573.5
+    ],
+    [
+     505,
+     3575.9
+    ],
+    [
+     547,
+     3578.1
+    ],
+    [
+     608,
+     3582.1
+    ],
+    [
+     674,
+     3585.7
+    ],
+    [
+     675,
+     3585.8
+    ],
+    [
+     734,
+     3591.4
+    ],
+    [
+     763,
+     3594.4
+    ]
+   ]
   },
   {
    "start": 3595.56,
@@ -1340,7 +6794,17 @@
    "label": "SPEAKER_08",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Sí, m'ha paregut molt interessant tot el que ha dit ara l'expresident"
+   "text": "Sí, m'ha paregut molt interessant tot el que ha dit ara l'expresident",
+   "marks": [
+    [
+     0,
+     3595.6
+    ],
+    [
+     56,
+     3598.8
+    ]
+   ]
   }
  ]
 }

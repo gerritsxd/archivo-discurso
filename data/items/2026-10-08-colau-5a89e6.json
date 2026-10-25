@@ -14,7 +14,7 @@
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
   "voiceprint_threshold": 0.65,
-  "processed_at": "2026-10-25T20:11:22+00:00",
+  "processed_at": "2026-10-25T20:59:10+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -96,7 +96,29 @@
    "label": "SPEAKER_03",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "Está aquí con nosotros en el plató de la hora de la 1, Ada Colau, exalcaldesa de Barcelona. Buen día, señora Colau, bienvenida, muy buenos días. ¿Qué pensó cuando supo de la muerte de Mari Carmen?"
+   "text": "Está aquí con nosotros en el plató de la hora de la 1, Ada Colau, exalcaldesa de Barcelona. Buen día, señora Colau, bienvenida, muy buenos días. ¿Qué pensó cuando supo de la muerte de Mari Carmen?",
+   "marks": [
+    [
+     0,
+     0.2
+    ],
+    [
+     52,
+     2.3
+    ],
+    [
+     92,
+     4.8
+    ],
+    [
+     132,
+     6.7
+    ],
+    [
+     145,
+     7.7
+    ]
+   ]
   },
   {
    "start": 10.92,
@@ -104,7 +126,97 @@
    "label": "SPEAKER_05",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "A ver, creo que lo que la mayoría del país, dolor y rabia, básicamente, antes que pensar ninguna palabra, dolor y rabia. Y desde luego expresar el más sentido pésamo a su familia, a sus personas queridas, al sindicato de inquilinas, a todas las personas que la han acompañado estos meses. Yo creo que claramente Mari Carmen ha marcado un antes y un después en este país y por lo tanto le debemos mucho y le debemos estar a la altura del ejemplo que ella nos ha dado, que con la fragilidad que tenía, con 87 años, con toda la angustia que supone estar meses y meses sin saber si te van a echar de tu casa, de toda la vida, donde lo único que había expresado era su deseo de morir en esa casa en la que había vivido toda su vida. Y puso el cuerpo, puso el cuerpo para decir, todo el mundo merece una vivienda digna y una vida digna, ¿no? Y poder morir en paz. Pues le debemos seguir esa lucha. Así que ahora habrá que sostener esas manifestaciones y esa propuesta de huelga general."
+   "text": "A ver, creo que lo que la mayoría del país, dolor y rabia, básicamente, antes que pensar ninguna palabra, dolor y rabia. Y desde luego expresar el más sentido pésamo a su familia, a sus personas queridas, al sindicato de inquilinas, a todas las personas que la han acompañado estos meses. Yo creo que claramente Mari Carmen ha marcado un antes y un después en este país y por lo tanto le debemos mucho y le debemos estar a la altura del ejemplo que ella nos ha dado, que con la fragilidad que tenía, con 87 años, con toda la angustia que supone estar meses y meses sin saber si te van a echar de tu casa, de toda la vida, donde lo único que había expresado era su deseo de morir en esa casa en la que había vivido toda su vida. Y puso el cuerpo, puso el cuerpo para decir, todo el mundo merece una vivienda digna y una vida digna, ¿no? Y poder morir en paz. Pues le debemos seguir esa lucha. Así que ahora habrá que sostener esas manifestaciones y esa propuesta de huelga general.",
+   "marks": [
+    [
+     0,
+     10.9
+    ],
+    [
+     52,
+     14.3
+    ],
+    [
+     121,
+     18.0
+    ],
+    [
+     129,
+     18.6
+    ],
+    [
+     195,
+     21.9
+    ],
+    [
+     265,
+     24.6
+    ],
+    [
+     289,
+     26.6
+    ],
+    [
+     338,
+     30.3
+    ],
+    [
+     388,
+     34.8
+    ],
+    [
+     449,
+     38.2
+    ],
+    [
+     507,
+     41.7
+    ],
+    [
+     569,
+     45.3
+    ],
+    [
+     616,
+     47.2
+    ],
+    [
+     679,
+     50.9
+    ],
+    [
+     728,
+     52.7
+    ],
+    [
+     730,
+     53.6
+    ],
+    [
+     794,
+     56.8
+    ],
+    [
+     836,
+     59.3
+    ],
+    [
+     853,
+     60.0
+    ],
+    [
+     858,
+     60.9
+    ],
+    [
+     892,
+     63.2
+    ],
+    [
+     916,
+     64.9
+    ]
+   ]
   },
   {
    "start": 68.62,
@@ -112,7 +224,41 @@
    "label": "SPEAKER_03",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "Con el desahucio de Mari Carmen vivimos prácticamente el minuto a minuto de algo que usted conoce bien, que es cómo se ejecuta, con qué violencia se ejecuta un desahucio. Con los vecinos intentando interponerse, con esa comitiva judicial que lleva, con la radial cortando la puerta y con los antidisturbios llegando hasta donde estaba Mari Carmen para decirle que le iba a sacar el SAMUR de allí, de su casa a la fuerza."
+   "text": "Con el desahucio de Mari Carmen vivimos prácticamente el minuto a minuto de algo que usted conoce bien, que es cómo se ejecuta, con qué violencia se ejecuta un desahucio. Con los vecinos intentando interponerse, con esa comitiva judicial que lleva, con la radial cortando la puerta y con los antidisturbios llegando hasta donde estaba Mari Carmen para decirle que le iba a sacar el SAMUR de allí, de su casa a la fuerza.",
+   "marks": [
+    [
+     0,
+     68.6
+    ],
+    [
+     73,
+     73.8
+    ],
+    [
+     132,
+     76.5
+    ],
+    [
+     171,
+     78.8
+    ],
+    [
+     216,
+     81.2
+    ],
+    [
+     284,
+     85.9
+    ],
+    [
+     364,
+     89.3
+    ],
+    [
+     410,
+     91.1
+    ]
+   ]
   },
   {
    "start": 91.3,
@@ -120,7 +266,185 @@
    "label": "SPEAKER_05",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Sí, sí, he vivido cientos de desahucios en mi vida, desde que empezamos, pues debía ser el 2009, cuando fundamos la plataforma Afectos por la Hipoteca, por el estallido de la burbuja inmobiliaria, y en ese momento el problema principal era el endeudamiento de miles de familias estafadas por los bancos. Pero entonces, una de las cosas que recuerdo muy bien es que cuando empezamos la campaña de estos desahucios, que no existía, Esa campaña la empezamos con un desahucio que paramos en una pequeña urbanización de Tarragona. Y costó muchísimo encontrar las fuerzas para parar ese primer desahucio, porque encima, además de toda la estafa, además de todo el dolor que había alrededor de esa situación tan angustiosa, que es perder el trabajo, perder la casa, descubrir algo que la gente no sabía, que es que mantenía la deuda aunque perdiera la casa, además de todo eso, hay el estigma social. Vivimos en una sociedad capitalista donde parece que el éxito de la gente se mide por el dinero. Entonces la gente afectada que había sido estafada y que estaba en una situación límite tenía más miedo del que dirán y de que se le señalara públicamente como alguien que había fracasado, tenía más miedo de ese estigma social que de pedir ayuda a los iguales que éramos la mayoría social. Y eso es lo que costó más de romper, esa vergüenza. La vergüenza se rompió cuando estalló la campaña Stop Desahucios primero en Cataluña, luego con el 15M se multiplicó en Madrid y en todo el Estado y ahí se acabó la vergüenza. Cuando decimos la vergüenza a cambio de bando efectivamente fue así, conseguimos que la vergüenza fuera de los bancos y no de las personas. Y es un orgullo ver cómo esa campaña sigue ahora, sobre todo con el liderazgo del sindicato de inquilinas, también con las PAS y otros movimientos que están en los barrios. Y es clave, es absolutamente clave, porque no puede ser que la mayoría social, que somos la gente trabajadora, nos avergoncemos de que estemos en un sistema que cada día genera más desigualdad, que los ricos sean más obscenamente ricos a costa de desahuciar a personas como Mari Carmen, o permitirme también que me acuerde de Olga, de Javier, que son dos personas que se suicidaron hace pocos días en la provincia de Barcelona, en el Hospitalet, por dos desahucios. Gracias a todos por su participación."
+   "text": "Sí, sí, he vivido cientos de desahucios en mi vida, desde que empezamos, pues debía ser el 2009, cuando fundamos la plataforma Afectos por la Hipoteca, por el estallido de la burbuja inmobiliaria, y en ese momento el problema principal era el endeudamiento de miles de familias estafadas por los bancos. Pero entonces, una de las cosas que recuerdo muy bien es que cuando empezamos la campaña de estos desahucios, que no existía, Esa campaña la empezamos con un desahucio que paramos en una pequeña urbanización de Tarragona. Y costó muchísimo encontrar las fuerzas para parar ese primer desahucio, porque encima, además de toda la estafa, además de todo el dolor que había alrededor de esa situación tan angustiosa, que es perder el trabajo, perder la casa, descubrir algo que la gente no sabía, que es que mantenía la deuda aunque perdiera la casa, además de todo eso, hay el estigma social. Vivimos en una sociedad capitalista donde parece que el éxito de la gente se mide por el dinero. Entonces la gente afectada que había sido estafada y que estaba en una situación límite tenía más miedo del que dirán y de que se le señalara públicamente como alguien que había fracasado, tenía más miedo de ese estigma social que de pedir ayuda a los iguales que éramos la mayoría social. Y eso es lo que costó más de romper, esa vergüenza. La vergüenza se rompió cuando estalló la campaña Stop Desahucios primero en Cataluña, luego con el 15M se multiplicó en Madrid y en todo el Estado y ahí se acabó la vergüenza. Cuando decimos la vergüenza a cambio de bando efectivamente fue así, conseguimos que la vergüenza fuera de los bancos y no de las personas. Y es un orgullo ver cómo esa campaña sigue ahora, sobre todo con el liderazgo del sindicato de inquilinas, también con las PAS y otros movimientos que están en los barrios. Y es clave, es absolutamente clave, porque no puede ser que la mayoría social, que somos la gente trabajadora, nos avergoncemos de que estemos en un sistema que cada día genera más desigualdad, que los ricos sean más obscenamente ricos a costa de desahuciar a personas como Mari Carmen, o permitirme también que me acuerde de Olga, de Javier, que son dos personas que se suicidaron hace pocos días en la provincia de Barcelona, en el Hospitalet, por dos desahucios. Gracias a todos por su participación.",
+   "marks": [
+    [
+     0,
+     91.3
+    ],
+    [
+     62,
+     95.9
+    ],
+    [
+     139,
+     100.2
+    ],
+    [
+     206,
+     104.3
+    ],
+    [
+     288,
+     108.3
+    ],
+    [
+     304,
+     110.6
+    ],
+    [
+     353,
+     112.7
+    ],
+    [
+     421,
+     115.0
+    ],
+    [
+     491,
+     120.9
+    ],
+    [
+     526,
+     123.4
+    ],
+    [
+     577,
+     127.1
+    ],
+    [
+     650,
+     131.0
+    ],
+    [
+     721,
+     133.9
+    ],
+    [
+     787,
+     137.4
+    ],
+    [
+     851,
+     140.5
+    ],
+    [
+     894,
+     143.2
+    ],
+    [
+     918,
+     144.6
+    ],
+    [
+     980,
+     147.5
+    ],
+    [
+     991,
+     148.5
+    ],
+    [
+     1048,
+     151.5
+    ],
+    [
+     1111,
+     155.4
+    ],
+    [
+     1186,
+     158.6
+    ],
+    [
+     1243,
+     162.5
+    ],
+    [
+     1281,
+     165.1
+    ],
+    [
+     1303,
+     166.3
+    ],
+    [
+     1333,
+     168.2
+    ],
+    [
+     1374,
+     171.7
+    ],
+    [
+     1450,
+     175.8
+    ],
+    [
+     1498,
+     179.0
+    ],
+    [
+     1509,
+     179.3
+    ],
+    [
+     1578,
+     181.8
+    ],
+    [
+     1639,
+     184.5
+    ],
+    [
+     1649,
+     185.7
+    ],
+    [
+     1705,
+     188.3
+    ],
+    [
+     1776,
+     191.3
+    ],
+    [
+     1822,
+     193.0
+    ],
+    [
+     1837,
+     194.2
+    ],
+    [
+     1911,
+     197.5
+    ],
+    [
+     1983,
+     201.9
+    ],
+    [
+     2058,
+     206.0
+    ],
+    [
+     2130,
+     210.5
+    ],
+    [
+     2190,
+     213.7
+    ],
+    [
+     2256,
+     217.4
+    ],
+    [
+     2288,
+     219.3
+    ]
+   ]
   },
   {
    "start": 254.24,
@@ -128,7 +452,33 @@
    "label": "SPEAKER_03",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "Asesinatos, la indignación, la rabia de los acampados en el sol estallaba a prácticamente unos centenares de metros a las puertas del Congreso. Durante toda la noche se han mantenido a las vigilias. ¿Cuál es la situación ahora mismo, María, allí en la Puerta del Sol?"
+   "text": "Asesinatos, la indignación, la rabia de los acampados en el sol estallaba a prácticamente unos centenares de metros a las puertas del Congreso. Durante toda la noche se han mantenido a las vigilias. ¿Cuál es la situación ahora mismo, María, allí en la Puerta del Sol?",
+   "marks": [
+    [
+     0,
+     254.2
+    ],
+    [
+     74,
+     258.8
+    ],
+    [
+     144,
+     262.1
+    ],
+    [
+     152,
+     262.6
+    ],
+    [
+     199,
+     264.8
+    ],
+    [
+     211,
+     266.4
+    ]
+   ]
   },
   {
    "start": 270.94,
@@ -136,7 +486,105 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Pues lo que nos dicen los acampados aquí es que van de la lástima, de la pena a la indignación. que tienen mucha, mucha rabia por lo que ha sucedido con Mari Carmen porque insisten, como veíamos en esa marcha hacia el Congreso, en que no son muertes, son asesinatos. Fue espontáneo. ¿Cómo se empezaron a mover desde la Puerta del Sol? Para quien no conozca, Madrid está apenas a unos cinco minutos caminando del Congreso. Fueron de forma pacífica, escoltados por la Policía Nacional, que fue cortando las calles, son calles que tienen tráfico de vehículos, y ahí lo que se produjo fue una sentada. Se leyeron poemas, por ejemplo, de Rafael Alberti y también se lloró mucho por Mari Carmen, se agitaron, ese gesto que ya estamos viendo mucho estos últimos días, las llaves de las casas, y dejaron un mensaje, la lucha sigue, Mari Carmen ha prendido una mecha, pero ellos van a seguir. Y así se ha tomado la noticia en el campamento de Sol, les hemos preguntado, nos decían que se lo fueron diciendo unos a otros hasta que todo el campamento ya sabía que había fallecido Mari Carmen."
+   "text": "Pues lo que nos dicen los acampados aquí es que van de la lástima, de la pena a la indignación. que tienen mucha, mucha rabia por lo que ha sucedido con Mari Carmen porque insisten, como veíamos en esa marcha hacia el Congreso, en que no son muertes, son asesinatos. Fue espontáneo. ¿Cómo se empezaron a mover desde la Puerta del Sol? Para quien no conozca, Madrid está apenas a unos cinco minutos caminando del Congreso. Fueron de forma pacífica, escoltados por la Policía Nacional, que fue cortando las calles, son calles que tienen tráfico de vehículos, y ahí lo que se produjo fue una sentada. Se leyeron poemas, por ejemplo, de Rafael Alberti y también se lloró mucho por Mari Carmen, se agitaron, ese gesto que ya estamos viendo mucho estos últimos días, las llaves de las casas, y dejaron un mensaje, la lucha sigue, Mari Carmen ha prendido una mecha, pero ellos van a seguir. Y así se ha tomado la noticia en el campamento de Sol, les hemos preguntado, nos decían que se lo fueron diciendo unos a otros hasta que todo el campamento ya sabía que había fallecido Mari Carmen.",
+   "marks": [
+    [
+     0,
+     270.9
+    ],
+    [
+     55,
+     275.2
+    ],
+    [
+     96,
+     278.7
+    ],
+    [
+     120,
+     280.2
+    ],
+    [
+     187,
+     283.3
+    ],
+    [
+     251,
+     287.7
+    ],
+    [
+     267,
+     289.1
+    ],
+    [
+     283,
+     290.2
+    ],
+    [
+     326,
+     292.3
+    ],
+    [
+     335,
+     292.6
+    ],
+    [
+     390,
+     296.0
+    ],
+    [
+     422,
+     298.1
+    ],
+    [
+     474,
+     300.8
+    ],
+    [
+     546,
+     304.4
+    ],
+    [
+     598,
+     308.2
+    ],
+    [
+     609,
+     308.9
+    ],
+    [
+     677,
+     313.9
+    ],
+    [
+     747,
+     319.0
+    ],
+    [
+     811,
+     323.0
+    ],
+    [
+     876,
+     326.4
+    ],
+    [
+     884,
+     326.8
+    ],
+    [
+     934,
+     329.9
+    ],
+    [
+     1003,
+     333.0
+    ],
+    [
+     1069,
+     336.3
+    ]
+   ]
   },
   {
    "start": 340.28,
@@ -144,7 +592,17 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 8",
-   "text": "Pero no, tristeza profunda y una rabia, es que hay que, se tiene que hacer justicia Porque"
+   "text": "Pero no, tristeza profunda y una rabia, es que hay que, se tiene que hacer justicia Porque",
+   "marks": [
+    [
+     0,
+     340.3
+    ],
+    [
+     59,
+     347.6
+    ]
+   ]
   },
   {
    "start": 348.96,
@@ -152,7 +610,25 @@
    "label": "SPEAKER_05",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "no ha tenido la oportunidad de volver a su casa y morir en ella, que es lo que deseaba, me parece que esto es para repensarlo Ha sido un símbolo de esta lucha, pienso que es importante, pues eso, luchar al final por un derecho"
+   "text": "no ha tenido la oportunidad de volver a su casa y morir en ella, que es lo que deseaba, me parece que esto es para repensarlo Ha sido un símbolo de esta lucha, pienso que es importante, pues eso, luchar al final por un derecho",
+   "marks": [
+    [
+     0,
+     349.0
+    ],
+    [
+     56,
+     352.6
+    ],
+    [
+     110,
+     356.4
+    ],
+    [
+     174,
+     360.2
+    ]
+   ]
   },
   {
    "start": 365.54,
@@ -160,7 +636,25 @@
    "label": "SPEAKER_03",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "Esta hora la indignación se está extendiendo por todas las acampadas activas que hay en nuestro país, acampadas por una vivienda digna. ¿Cómo despierta Barcelona, Bernat?"
+   "text": "Esta hora la indignación se está extendiendo por todas las acampadas activas que hay en nuestro país, acampadas por una vivienda digna. ¿Cómo despierta Barcelona, Bernat?",
+   "marks": [
+    [
+     0,
+     365.5
+    ],
+    [
+     77,
+     369.3
+    ],
+    [
+     136,
+     371.8
+    ],
+    [
+     152,
+     372.4
+    ]
+   ]
   },
   {
    "start": 375.74,
@@ -168,7 +662,57 @@
    "label": "SPEAKER_07",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "Pues con una mezcla de tristeza, de decepción, pero también de rabia, porque aquí consideran que la muerte de Maricarmen Abascal es culpa de un sistema que antepone el negocio a la vida de las personas, pero también de los gobiernos que dicen no han hecho lo suficiente. Ayer hicieron un minuto de silencio antes de la Asamblea de la Noche, con velas, también se vertieron lágrimas y hoy se plantean hacer algún otro acto de recuerdo que decidirán también en la Asamblea del Mediodía. Lo que sí que tienen claro es la misión que les encomendó la mujer de 87 años, que es el de seguir luchando. Y lo hacen mirando hacia una huelga general para bajar los alquileres, para los contratos de alquiler indefinido y para prohibir la especulación inmobiliaria."
+   "text": "Pues con una mezcla de tristeza, de decepción, pero también de rabia, porque aquí consideran que la muerte de Maricarmen Abascal es culpa de un sistema que antepone el negocio a la vida de las personas, pero también de los gobiernos que dicen no han hecho lo suficiente. Ayer hicieron un minuto de silencio antes de la Asamblea de la Noche, con velas, también se vertieron lágrimas y hoy se plantean hacer algún otro acto de recuerdo que decidirán también en la Asamblea del Mediodía. Lo que sí que tienen claro es la misión que les encomendó la mujer de 87 años, que es el de seguir luchando. Y lo hacen mirando hacia una huelga general para bajar los alquileres, para los contratos de alquiler indefinido y para prohibir la especulación inmobiliaria.",
+   "marks": [
+    [
+     0,
+     375.7
+    ],
+    [
+     70,
+     379.5
+    ],
+    [
+     141,
+     383.4
+    ],
+    [
+     203,
+     386.3
+    ],
+    [
+     271,
+     389.9
+    ],
+    [
+     334,
+     393.8
+    ],
+    [
+     406,
+     398.1
+    ],
+    [
+     475,
+     402.4
+    ],
+    [
+     485,
+     403.2
+    ],
+    [
+     533,
+     405.8
+    ],
+    [
+     594,
+     409.7
+    ],
+    [
+     665,
+     412.8
+    ]
+   ]
   },
   {
    "start": 419.76,
@@ -176,7 +720,17 @@
    "label": "SPEAKER_03",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "¿Hasta qué punto, señora Colau, ha sido decisiva la movilización ciudadana para demostrar que se puede empujar a los políticos a que tomen decisiones?"
+   "text": "¿Hasta qué punto, señora Colau, ha sido decisiva la movilización ciudadana para demostrar que se puede empujar a los políticos a que tomen decisiones?",
+   "marks": [
+    [
+     0,
+     419.8
+    ],
+    [
+     80,
+     423.0
+    ]
+   ]
   },
   {
    "start": 427.2,
@@ -184,7 +738,325 @@
    "label": "SPEAKER_05",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Bueno, yo creo que estos días y con el caso de Mari Carmen ha sido más que evidente, ¿no? Porque el caso de Mari Carmen no apareció de la nada. El caso de Mari Carmen ya llevaba tres intentos paralizados gracias a la movilización y se llevaba mucho tiempo interpelando a las administraciones. Por lo tanto, no se puede decir que fue una sorpresa o que no sabían. Se había advertido y se habían producido ya varias situaciones. Se conocía el caso, se conocía su edad, se conocía lo complejo que era que esta mujer fuera desahuciada de su casa. Era algo realmente ponerla en peligro directamente de vida y eso se había dicho. Por lo tanto, es verdad, hay unos grandes responsables que son los especuladores, que especulan sin límite y anteponen, como se decía, el negocio al derecho a la vivienda y a la vida digna de las personas, pero también, evidentemente, las administraciones. Yo creo que no hay que tener miedo de reconocer que ha habido un fracaso de todas las instituciones. Unas quizás más intencionadamente, otras menos intencionadamente, pero ha habido un fracaso general del sistema. Eso es así, es mejor nombrarlo para poderlo arreglar. Entonces, porque además recordemos, es que es Mari Carmen, pero es mucha más gente. Y los decretos que gracias a esa movilización que acompañó a Mari Carmen se consiguió, que el Partido Socialista llevaba meses teniéndolos en el cajón y no se los planteaba, El Partido Socialista movió su posición, llegaron esos decretos. Por desgracia, hubo una alianza de las derechas en el Congreso al servicio de los grandes especuladores que bloqueó esos decretos, pero en las horas que estuvieron efectivos se salvaron vidas, se paralizaron desahucios. Y ahora otra vez, por suerte, estos decretos se han vuelto a aprobar y van a la diputación permanente. Es que las semanas que pueden estar vigentes estos decretos afectan a millones de personas. O sea, estamos hablando de miles y miles de personas que no van a tener que pasar por la situación de Mari Carmen o de Olga o de Javier. ¿Estos decretos, señora Colau, son suficientes? No son suficientes. Hace falta medidas mucho más estructurales. Hace falta acabar con la especulación y directamente que las casas sean para vivir, no para especular. Porque no da para todo. Las viviendas tienen que ser para vivir, no para especular. Entonces hay que tomar medidas mucho más valientes y más estructurales, que evidentemente la derecha nunca va a apoyar, pero que al PSOE también le cuesta, porque el PSOE siempre ha tenido una relación muy cercana con el poder inmobiliario y conocemos bien al PSOE, tenemos una relación histórica de décadas, yo lo he tenido como activista y como alcaldesa y por lo tanto sé bien lo que digo. Pero eso se mueve con la presión de la calle y lo hemos visto ya en otras ocasiones y lo estamos viendo ahora. Entonces ahora, evidentemente, todo el apoyo a esa movilización, esa movilización tiene que continuar, esa movilización ha abierto una brecha y ha sido así a lo largo de la historia de la humanidad. Es decir, las instituciones, por definición, son conservadoras, tienden a repetir lo que ya existe, tienden a consolidar los límites que ya existen, tienden a plegarse a los grupos de interés, A los grandes poderes económicos, para que esos límites se muevan es fundamental la movilización ciudadana. Eso lo hemos visto en otras ocasiones cuando se han conquistado derechos en ámbito laboral o en otros ámbitos y lo estamos viendo con el tema de la vivienda. Entonces ahora mismo es la ciudadanía quien está liderando esto, todo el apoyo a esas movilizaciones, pero desde luego también exigir que hayan unas instituciones que reaccionan y respondan a la altura y que amplíen los límites porque lo que se ha hecho hasta ahora es evidentemente insuficiente."
+   "text": "Bueno, yo creo que estos días y con el caso de Mari Carmen ha sido más que evidente, ¿no? Porque el caso de Mari Carmen no apareció de la nada. El caso de Mari Carmen ya llevaba tres intentos paralizados gracias a la movilización y se llevaba mucho tiempo interpelando a las administraciones. Por lo tanto, no se puede decir que fue una sorpresa o que no sabían. Se había advertido y se habían producido ya varias situaciones. Se conocía el caso, se conocía su edad, se conocía lo complejo que era que esta mujer fuera desahuciada de su casa. Era algo realmente ponerla en peligro directamente de vida y eso se había dicho. Por lo tanto, es verdad, hay unos grandes responsables que son los especuladores, que especulan sin límite y anteponen, como se decía, el negocio al derecho a la vivienda y a la vida digna de las personas, pero también, evidentemente, las administraciones. Yo creo que no hay que tener miedo de reconocer que ha habido un fracaso de todas las instituciones. Unas quizás más intencionadamente, otras menos intencionadamente, pero ha habido un fracaso general del sistema. Eso es así, es mejor nombrarlo para poderlo arreglar. Entonces, porque además recordemos, es que es Mari Carmen, pero es mucha más gente. Y los decretos que gracias a esa movilización que acompañó a Mari Carmen se consiguió, que el Partido Socialista llevaba meses teniéndolos en el cajón y no se los planteaba, El Partido Socialista movió su posición, llegaron esos decretos. Por desgracia, hubo una alianza de las derechas en el Congreso al servicio de los grandes especuladores que bloqueó esos decretos, pero en las horas que estuvieron efectivos se salvaron vidas, se paralizaron desahucios. Y ahora otra vez, por suerte, estos decretos se han vuelto a aprobar y van a la diputación permanente. Es que las semanas que pueden estar vigentes estos decretos afectan a millones de personas. O sea, estamos hablando de miles y miles de personas que no van a tener que pasar por la situación de Mari Carmen o de Olga o de Javier. ¿Estos decretos, señora Colau, son suficientes? No son suficientes. Hace falta medidas mucho más estructurales. Hace falta acabar con la especulación y directamente que las casas sean para vivir, no para especular. Porque no da para todo. Las viviendas tienen que ser para vivir, no para especular. Entonces hay que tomar medidas mucho más valientes y más estructurales, que evidentemente la derecha nunca va a apoyar, pero que al PSOE también le cuesta, porque el PSOE siempre ha tenido una relación muy cercana con el poder inmobiliario y conocemos bien al PSOE, tenemos una relación histórica de décadas, yo lo he tenido como activista y como alcaldesa y por lo tanto sé bien lo que digo. Pero eso se mueve con la presión de la calle y lo hemos visto ya en otras ocasiones y lo estamos viendo ahora. Entonces ahora, evidentemente, todo el apoyo a esa movilización, esa movilización tiene que continuar, esa movilización ha abierto una brecha y ha sido así a lo largo de la historia de la humanidad. Es decir, las instituciones, por definición, son conservadoras, tienden a repetir lo que ya existe, tienden a consolidar los límites que ya existen, tienden a plegarse a los grupos de interés, A los grandes poderes económicos, para que esos límites se muevan es fundamental la movilización ciudadana. Eso lo hemos visto en otras ocasiones cuando se han conquistado derechos en ámbito laboral o en otros ámbitos y lo estamos viendo con el tema de la vivienda. Entonces ahora mismo es la ciudadanía quien está liderando esto, todo el apoyo a esas movilizaciones, pero desde luego también exigir que hayan unas instituciones que reaccionan y respondan a la altura y que amplíen los límites porque lo que se ha hecho hasta ahora es evidentemente insuficiente.",
+   "marks": [
+    [
+     0,
+     427.2
+    ],
+    [
+     52,
+     429.1
+    ],
+    [
+     90,
+     431.0
+    ],
+    [
+     113,
+     431.9
+    ],
+    [
+     144,
+     433.1
+    ],
+    [
+     170,
+     434.0
+    ],
+    [
+     249,
+     438.2
+    ],
+    [
+     293,
+     440.5
+    ],
+    [
+     325,
+     441.6
+    ],
+    [
+     363,
+     443.7
+    ],
+    [
+     384,
+     445.2
+    ],
+    [
+     427,
+     447.1
+    ],
+    [
+     458,
+     448.6
+    ],
+    [
+     519,
+     452.8
+    ],
+    [
+     543,
+     453.8
+    ],
+    [
+     597,
+     456.9
+    ],
+    [
+     624,
+     458.1
+    ],
+    [
+     653,
+     459.4
+    ],
+    [
+     733,
+     463.4
+    ],
+    [
+     797,
+     468.0
+    ],
+    [
+     881,
+     472.0
+    ],
+    [
+     936,
+     475.1
+    ],
+    [
+     982,
+     477.3
+    ],
+    [
+     1023,
+     480.1
+    ],
+    [
+     1095,
+     483.2
+    ],
+    [
+     1102,
+     483.5
+    ],
+    [
+     1149,
+     486.1
+    ],
+    [
+     1188,
+     488.6
+    ],
+    [
+     1233,
+     490.6
+    ],
+    [
+     1248,
+     492.0
+    ],
+    [
+     1320,
+     495.5
+    ],
+    [
+     1389,
+     499.2
+    ],
+    [
+     1472,
+     505.3
+    ],
+    [
+     1538,
+     510.0
+    ],
+    [
+     1615,
+     513.9
+    ],
+    [
+     1692,
+     517.9
+    ],
+    [
+     1700,
+     518.6
+    ],
+    [
+     1763,
+     521.5
+    ],
+    [
+     1795,
+     523.4
+    ],
+    [
+     1831,
+     525.0
+    ],
+    [
+     1887,
+     527.8
+    ],
+    [
+     1911,
+     528.4
+    ],
+    [
+     1963,
+     530.7
+    ],
+    [
+     2016,
+     533.0
+    ],
+    [
+     2024,
+     533.5
+    ],
+    [
+     2072,
+     535.9
+    ],
+    [
+     2092,
+     536.7
+    ],
+    [
+     2103,
+     537.1
+    ],
+    [
+     2136,
+     538.4
+    ],
+    [
+     2189,
+     540.8
+    ],
+    [
+     2239,
+     543.6
+    ],
+    [
+     2252,
+     544.3
+    ],
+    [
+     2263,
+     545.0
+    ],
+    [
+     2323,
+     547.6
+    ],
+    [
+     2399,
+     551.1
+    ],
+    [
+     2468,
+     553.8
+    ],
+    [
+     2537,
+     556.1
+    ],
+    [
+     2610,
+     560.2
+    ],
+    [
+     2680,
+     563.8
+    ],
+    [
+     2716,
+     565.0
+    ],
+    [
+     2728,
+     566.4
+    ],
+    [
+     2781,
+     568.5
+    ],
+    [
+     2827,
+     570.3
+    ],
+    [
+     2863,
+     572.1
+    ],
+    [
+     2947,
+     575.5
+    ],
+    [
+     2997,
+     578.5
+    ],
+    [
+     3026,
+     579.4
+    ],
+    [
+     3075,
+     581.5
+    ],
+    [
+     3151,
+     585.9
+    ],
+    [
+     3219,
+     591.0
+    ],
+    [
+     3288,
+     595.6
+    ],
+    [
+     3327,
+     597.2
+    ],
+    [
+     3372,
+     598.8
+    ],
+    [
+     3439,
+     602.5
+    ],
+    [
+     3485,
+     604.3
+    ],
+    [
+     3506,
+     605.0
+    ],
+    [
+     3571,
+     608.5
+    ],
+    [
+     3663,
+     613.0
+    ],
+    [
+     3723,
+     616.3
+    ]
+   ]
   },
   {
    "start": 618.58,
@@ -192,7 +1064,17 @@
    "label": "SPEAKER_03",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "Después de la muerte de Mari Carmen, esta misma noche han estallado las protestas en todo el país."
+   "text": "Después de la muerte de Mari Carmen, esta misma noche han estallado las protestas en todo el país.",
+   "marks": [
+    [
+     0,
+     618.6
+    ],
+    [
+     68,
+     622.3
+    ]
+   ]
   },
   {
    "start": 625.73,
@@ -200,7 +1082,33 @@
    "label": "SPEAKER_06",
    "person": null,
    "name": "Hablante sin identificar 7",
-   "text": "Eran las ocho y media de la tarde. La noticia coincidió con una asamblea en la acampada de Sol, en Madrid. Los teléfonos empezaron a sonar con el comunicado del sindicato de inquilinas y la noticia fue pasando de boca en boca."
+   "text": "Eran las ocho y media de la tarde. La noticia coincidió con una asamblea en la acampada de Sol, en Madrid. Los teléfonos empezaron a sonar con el comunicado del sindicato de inquilinas y la noticia fue pasando de boca en boca.",
+   "marks": [
+    [
+     0,
+     625.7
+    ],
+    [
+     35,
+     627.6
+    ],
+    [
+     60,
+     629.1
+    ],
+    [
+     107,
+     631.5
+    ],
+    [
+     131,
+     632.8
+    ],
+    [
+     198,
+     636.4
+    ]
+   ]
   },
   {
    "start": 638.23,
@@ -208,7 +1116,17 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 9",
-   "text": "Estábamos aquí haciendo turnos de mediación en la entrada y de repente ha venido una chica y nos lo ha contado."
+   "text": "Estábamos aquí haciendo turnos de mediación en la entrada y de repente ha venido una chica y nos lo ha contado.",
+   "marks": [
+    [
+     0,
+     638.2
+    ],
+    [
+     71,
+     641.3
+    ]
+   ]
   },
   {
    "start": 643.11,
@@ -216,7 +1134,53 @@
    "label": "SPEAKER_06",
    "person": null,
    "name": "Hablante sin identificar 7",
-   "text": "Todavía no me lo creo así. Está siendo un momento muy impactante. Cientos de personas salieron de la acampada en una marcha improvisada hacia el Congreso de los Diputados. La policía les cortó el paso a mitad de camino. Allí convocaron un minuto de silencio. Y una sentada pacífica en homenaje a Mari Carmen. Culpan a las instituciones por el fallecimiento."
+   "text": "Todavía no me lo creo así. Está siendo un momento muy impactante. Cientos de personas salieron de la acampada en una marcha improvisada hacia el Congreso de los Diputados. La policía les cortó el paso a mitad de camino. Allí convocaron un minuto de silencio. Y una sentada pacífica en homenaje a Mari Carmen. Culpan a las instituciones por el fallecimiento.",
+   "marks": [
+    [
+     0,
+     643.1
+    ],
+    [
+     27,
+     645.7
+    ],
+    [
+     66,
+     648.9
+    ],
+    [
+     142,
+     652.6
+    ],
+    [
+     172,
+     654.1
+    ],
+    [
+     203,
+     656.0
+    ],
+    [
+     220,
+     656.8
+    ],
+    [
+     259,
+     660.5
+    ],
+    [
+     273,
+     661.5
+    ],
+    [
+     309,
+     663.9
+    ],
+    [
+     343,
+     665.8
+    ]
+   ]
   },
   {
    "start": 666.83,
@@ -224,7 +1188,17 @@
    "label": "SPEAKER_03",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "Han propiciado que esto haya sido en parte un homicidio, porque Mari Carmen no ha muerto, la han matado el rentismo."
+   "text": "Han propiciado que esto haya sido en parte un homicidio, porque Mari Carmen no ha muerto, la han matado el rentismo.",
+   "marks": [
+    [
+     0,
+     666.8
+    ],
+    [
+     69,
+     670.0
+    ]
+   ]
   },
   {
    "start": 671.49,
@@ -232,7 +1206,21 @@
    "label": "SPEAKER_06",
    "person": null,
    "name": "Hablante sin identificar 7",
-   "text": "Los acampados, que llevan 12 noches en la plaza, aseguran que este final refuerza sus motivos. Están consternados pero prometen no rendirse"
+   "text": "Los acampados, que llevan 12 noches en la plaza, aseguran que este final refuerza sus motivos. Están consternados pero prometen no rendirse",
+   "marks": [
+    [
+     0,
+     671.5
+    ],
+    [
+     67,
+     674.9
+    ],
+    [
+     95,
+     676.6
+    ]
+   ]
   },
   {
    "start": 679.17,
@@ -240,7 +1228,13 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Maricarmen era un ejemplo de lucha"
+   "text": "Maricarmen era un ejemplo de lucha",
+   "marks": [
+    [
+     0,
+     679.2
+    ]
+   ]
   },
   {
    "start": 681.05,
@@ -248,7 +1242,17 @@
    "label": "SPEAKER_08",
    "person": null,
    "name": "Hablante sin identificar 6",
-   "text": "Yo creo que el mejor homenaje para ella es continuar esta lucha, continuar movilizándonos, luchar por una vivienda digna"
+   "text": "Yo creo que el mejor homenaje para ella es continuar esta lucha, continuar movilizándonos, luchar por una vivienda digna",
+   "marks": [
+    [
+     0,
+     681.0
+    ],
+    [
+     65,
+     684.4
+    ]
+   ]
   },
   {
    "start": 687.01,
@@ -256,7 +1260,21 @@
    "label": "SPEAKER_06",
    "person": null,
    "name": "Hablante sin identificar 7",
-   "text": "Vigilias en Madrid y en otras ciudades donde siguen dejando flores, velas y mensajes de duelo en recuerdo de Maricarmen Un símbolo ya de lucha por el derecho a una vivienda digna"
+   "text": "Vigilias en Madrid y en otras ciudades donde siguen dejando flores, velas y mensajes de duelo en recuerdo de Maricarmen Un símbolo ya de lucha por el derecho a una vivienda digna",
+   "marks": [
+    [
+     0,
+     687.0
+    ],
+    [
+     74,
+     691.5
+    ],
+    [
+     137,
+     695.2
+    ]
+   ]
   },
   {
    "start": 699.27,
@@ -264,7 +1282,45 @@
    "label": "SPEAKER_03",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "Yo la he presentado como exalcaldesa de Barcelona pero los que ya llevamos un ratito en esto la conocimos hace 20 años y no precisamente por su vinculación con la política. Me gustaría que viese unas imágenes, que es como realmente la conocimos a usted, una activista por la vivienda digna, muchas veces micrófono en mano. ¿Qué siente al ver estas imágenes? ¿Qué queda de esa Ada Colau de hace 20 años?"
+   "text": "Yo la he presentado como exalcaldesa de Barcelona pero los que ya llevamos un ratito en esto la conocimos hace 20 años y no precisamente por su vinculación con la política. Me gustaría que viese unas imágenes, que es como realmente la conocimos a usted, una activista por la vivienda digna, muchas veces micrófono en mano. ¿Qué siente al ver estas imágenes? ¿Qué queda de esa Ada Colau de hace 20 años?",
+   "marks": [
+    [
+     0,
+     699.3
+    ],
+    [
+     66,
+     702.5
+    ],
+    [
+     124,
+     705.2
+    ],
+    [
+     173,
+     707.7
+    ],
+    [
+     200,
+     708.7
+    ],
+    [
+     272,
+     712.8
+    ],
+    [
+     323,
+     716.6
+    ],
+    [
+     342,
+     717.8
+    ],
+    [
+     358,
+     718.5
+    ]
+   ]
   },
   {
    "start": 721.33,
@@ -272,7 +1328,169 @@
    "label": "SPEAKER_05",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Pues me reconozco plenamente. He sido más años activista que cargo institucional. Para mí es una forma de vivir, comprometerte con tu entorno y juntarte con los demás Para intentar mejorar la realidad y eso lo he hecho sobre todo en movimientos sociales y puntualmente hubo una situación concreta que me llevó a la Alcaldía de Barcelona, pero fruto de ese compromiso social. Y lo que siento es en parte la rabia que todavía tengamos que estar luchando por lo evidente, como es el derecho a la vivienda digna y frenar la especulación. Es una cierta rabia que hayan pasado tantos años y estemos viviendo lo que estamos viviendo, pero también ver que se consiguen avances y que temas que antes no se planteaban ahora se estén planteando, como es congelar los alquileres. Cuando llegamos a la Alcaldía de Barcelona fuimos la primera institución en el 2016 que le planteamos al Gobierno del Estado, que era el que tenía la competencia, que había que regular los alquileres porque era la próxima burbuja que venía. Evidentemente el Partido Popular nos ignoró completamente, pero luego llegó Pedro Sánchez. Y Pedro Sánchez me acuerdo que se comprometió conmigo en 2019 en hacer la primera regulación de los alquileres, de poner límite a las subidas de los alquileres, pero eso se dilató hasta el 2024, o sea, no puede ser que la política institucional sea tan lenta cuando literalmente hay vidas en juego, entonces yo creo que eso es lo que ahora ha estallado de lo que se ha hecho no es suficiente, hay que hacer mucho más, se puede hacer mucho más, y ahora las instituciones claramente tienen que ampliar los límites de la intervención y directamente, Es importante confrontar con los especuladores, o sea, no se puede estar de los dos lados al mismo tiempo, que yo creo que es algo que el Partido Socialista ha estado intentando hacer durante mucho tiempo, no decir que estaba con la gente que quería acceder a una vivienda digna, pero al mismo tiempo que la especulación no era mala, que se haga negocio con la vivienda, que eso es bueno para la economía del país, pues no, es malo para la gente y es malo para la economía del país, y por lo tanto la especulación se tiene que terminar directamente, y creo que ahora es un momento importantísimo histórico donde Mari Carmen, como decía, ha marcado un antes y un después."
+   "text": "Pues me reconozco plenamente. He sido más años activista que cargo institucional. Para mí es una forma de vivir, comprometerte con tu entorno y juntarte con los demás Para intentar mejorar la realidad y eso lo he hecho sobre todo en movimientos sociales y puntualmente hubo una situación concreta que me llevó a la Alcaldía de Barcelona, pero fruto de ese compromiso social. Y lo que siento es en parte la rabia que todavía tengamos que estar luchando por lo evidente, como es el derecho a la vivienda digna y frenar la especulación. Es una cierta rabia que hayan pasado tantos años y estemos viviendo lo que estamos viviendo, pero también ver que se consiguen avances y que temas que antes no se planteaban ahora se estén planteando, como es congelar los alquileres. Cuando llegamos a la Alcaldía de Barcelona fuimos la primera institución en el 2016 que le planteamos al Gobierno del Estado, que era el que tenía la competencia, que había que regular los alquileres porque era la próxima burbuja que venía. Evidentemente el Partido Popular nos ignoró completamente, pero luego llegó Pedro Sánchez. Y Pedro Sánchez me acuerdo que se comprometió conmigo en 2019 en hacer la primera regulación de los alquileres, de poner límite a las subidas de los alquileres, pero eso se dilató hasta el 2024, o sea, no puede ser que la política institucional sea tan lenta cuando literalmente hay vidas en juego, entonces yo creo que eso es lo que ahora ha estallado de lo que se ha hecho no es suficiente, hay que hacer mucho más, se puede hacer mucho más, y ahora las instituciones claramente tienen que ampliar los límites de la intervención y directamente, Es importante confrontar con los especuladores, o sea, no se puede estar de los dos lados al mismo tiempo, que yo creo que es algo que el Partido Socialista ha estado intentando hacer durante mucho tiempo, no decir que estaba con la gente que quería acceder a una vivienda digna, pero al mismo tiempo que la especulación no era mala, que se haga negocio con la vivienda, que eso es bueno para la economía del país, pues no, es malo para la gente y es malo para la economía del país, y por lo tanto la especulación se tiene que terminar directamente, y creo que ahora es un momento importantísimo histórico donde Mari Carmen, como decía, ha marcado un antes y un después.",
+   "marks": [
+    [
+     0,
+     721.3
+    ],
+    [
+     30,
+     722.9
+    ],
+    [
+     82,
+     728.5
+    ],
+    [
+     144,
+     732.4
+    ],
+    [
+     210,
+     736.9
+    ],
+    [
+     288,
+     740.5
+    ],
+    [
+     352,
+     743.6
+    ],
+    [
+     375,
+     746.4
+    ],
+    [
+     412,
+     749.6
+    ],
+    [
+     480,
+     752.4
+    ],
+    [
+     534,
+     754.9
+    ],
+    [
+     548,
+     756.1
+    ],
+    [
+     617,
+     758.3
+    ],
+    [
+     685,
+     762.7
+    ],
+    [
+     756,
+     765.8
+    ],
+    [
+     768,
+     767.4
+    ],
+    [
+     841,
+     770.3
+    ],
+    [
+     902,
+     773.2
+    ],
+    [
+     975,
+     776.1
+    ],
+    [
+     1009,
+     778.0
+    ],
+    [
+     1053,
+     779.7
+    ],
+    [
+     1100,
+     782.0
+    ],
+    [
+     1131,
+     783.3
+    ],
+    [
+     1200,
+     787.2
+    ],
+    [
+     1270,
+     791.2
+    ],
+    [
+     1322,
+     793.8
+    ],
+    [
+     1408,
+     798.4
+    ],
+    [
+     1459,
+     802.0
+    ],
+    [
+     1518,
+     804.2
+    ],
+    [
+     1592,
+     807.8
+    ],
+    [
+     1676,
+     813.0
+    ],
+    [
+     1737,
+     816.0
+    ],
+    [
+     1793,
+     817.9
+    ],
+    [
+     1873,
+     821.0
+    ],
+    [
+     1935,
+     823.6
+    ],
+    [
+     2001,
+     825.9
+    ],
+    [
+     2062,
+     828.3
+    ],
+    [
+     2111,
+     830.6
+    ],
+    [
+     2174,
+     833.5
+    ],
+    [
+     2259,
+     838.4
+    ]
+   ]
   },
   {
    "start": 841.15,
@@ -280,7 +1498,29 @@
    "label": "SPEAKER_03",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "Es que en los últimos días le hemos vuelto a usted a ver a usted en las calles de Barcelona, en concreto en el barrio de Gracia, intentando paralizar el desahucio de Silvia, si no me equivoco. No sé finalmente cómo acabó."
+   "text": "Es que en los últimos días le hemos vuelto a usted a ver a usted en las calles de Barcelona, en concreto en el barrio de Gracia, intentando paralizar el desahucio de Silvia, si no me equivoco. No sé finalmente cómo acabó.",
+   "marks": [
+    [
+     0,
+     841.1
+    ],
+    [
+     53,
+     843.5
+    ],
+    [
+     111,
+     845.8
+    ],
+    [
+     183,
+     848.5
+    ],
+    [
+     193,
+     849.2
+    ]
+   ]
   },
   {
    "start": 851.83,
@@ -288,7 +1528,189 @@
    "label": "SPEAKER_05",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Acabaron desahuciándola, era antes de los decretos, antes de que se aprobaran los decretos. Sí, a mí la verdad fue una situación muy dura porque yo llevaba tiempo sin ir a un desahucio porque soy muy consciente, como he sido activista muchos años, más que alcaldesa, Sé que el hecho de que hayan figuras vinculadas a la política, a partidos políticos, en un movimiento social, en una convocatoria social, es algo problemático porque normalmente acaparamos la atención de los medios de comunicación y desviamos el tema. Entonces, por eso intento ser discreta en situaciones así. Pero es que en este caso me encontré el desahucio al lado de mi casa. O sea, dejé a mi hijo en la escuela, en el barrio de Gracia, crucé la calle para ir a comprar el pan y me encontré con el desahucio de Silvia. Entonces hablé con las personas que había del sindicato de inquilinas y les dije yo no quiero aquí hacerme las fotografías ni nada, o sea que estoy aquí si soy útil, si queréis que me quede me quedo, si no me voy, pero es mi vecina, o sea que estoy dispuesta también a poner el cuerpo, entonces me llamaron porque desgraciadamente vivimos como una vez más, en este caso el gobierno de la Generalitat, no solo es el de Ayuso el que hace estas malas praxis, envió unas dotaciones totalmente fuera de lugar, pagadas con dinero público, Y que recordarlo, o sea, creo que eran como ocho furgonetas de antidisturbios para una concentración que éramos 20 o 30 personas de forma pacífica y nos sacó la policía por la fuerza y nos identificaron a todas como pasa desgraciadamente, pero espero que ahora deje de pasar con estos decretos. Ayer mismo en Barcelona, casi mil personas, cientos de personas, estuvieron todo un día entero, porque los decretos todavía no eran vigentes, y estuvieron todo un día entero y consiguieron paralizar un desahucio de varias familias en el barrio de San Andreu, demostrando una vez más que no hay que bajar la guardia y que es la ciudadanía organizada la que puede conseguirlo. Pero espero que a partir de hoy esos decretos efectivamente permitan que muchas personas no tengan que pasar por esa situación límite, ¿Por qué nadie tendría que pasar por esa situación donde te vengan tantos policías armados para sacar a gente indefensa, desarmada, de una vivienda que además en la mayoría de los casos los están pagando y que simplemente lo que quieren es poder vivir tranquilas y frente a ello lo que hay son grandes especuladores que quieren hacerse ricos sin límites. Entonces, esa barbaridad tiene que terminar."
+   "text": "Acabaron desahuciándola, era antes de los decretos, antes de que se aprobaran los decretos. Sí, a mí la verdad fue una situación muy dura porque yo llevaba tiempo sin ir a un desahucio porque soy muy consciente, como he sido activista muchos años, más que alcaldesa, Sé que el hecho de que hayan figuras vinculadas a la política, a partidos políticos, en un movimiento social, en una convocatoria social, es algo problemático porque normalmente acaparamos la atención de los medios de comunicación y desviamos el tema. Entonces, por eso intento ser discreta en situaciones así. Pero es que en este caso me encontré el desahucio al lado de mi casa. O sea, dejé a mi hijo en la escuela, en el barrio de Gracia, crucé la calle para ir a comprar el pan y me encontré con el desahucio de Silvia. Entonces hablé con las personas que había del sindicato de inquilinas y les dije yo no quiero aquí hacerme las fotografías ni nada, o sea que estoy aquí si soy útil, si queréis que me quede me quedo, si no me voy, pero es mi vecina, o sea que estoy dispuesta también a poner el cuerpo, entonces me llamaron porque desgraciadamente vivimos como una vez más, en este caso el gobierno de la Generalitat, no solo es el de Ayuso el que hace estas malas praxis, envió unas dotaciones totalmente fuera de lugar, pagadas con dinero público, Y que recordarlo, o sea, creo que eran como ocho furgonetas de antidisturbios para una concentración que éramos 20 o 30 personas de forma pacífica y nos sacó la policía por la fuerza y nos identificaron a todas como pasa desgraciadamente, pero espero que ahora deje de pasar con estos decretos. Ayer mismo en Barcelona, casi mil personas, cientos de personas, estuvieron todo un día entero, porque los decretos todavía no eran vigentes, y estuvieron todo un día entero y consiguieron paralizar un desahucio de varias familias en el barrio de San Andreu, demostrando una vez más que no hay que bajar la guardia y que es la ciudadanía organizada la que puede conseguirlo. Pero espero que a partir de hoy esos decretos efectivamente permitan que muchas personas no tengan que pasar por esa situación límite, ¿Por qué nadie tendría que pasar por esa situación donde te vengan tantos policías armados para sacar a gente indefensa, desarmada, de una vivienda que además en la mayoría de los casos los están pagando y que simplemente lo que quieren es poder vivir tranquilas y frente a ello lo que hay son grandes especuladores que quieren hacerse ricos sin límites. Entonces, esa barbaridad tiene que terminar.",
+   "marks": [
+    [
+     0,
+     851.8
+    ],
+    [
+     78,
+     854.3
+    ],
+    [
+     92,
+     855.5
+    ],
+    [
+     138,
+     859.0
+    ],
+    [
+     200,
+     861.3
+    ],
+    [
+     274,
+     865.5
+    ],
+    [
+     341,
+     868.6
+    ],
+    [
+     426,
+     874.0
+    ],
+    [
+     510,
+     877.9
+    ],
+    [
+     519,
+     878.5
+    ],
+    [
+     578,
+     882.5
+    ],
+    [
+     583,
+     882.9
+    ],
+    [
+     639,
+     884.8
+    ],
+    [
+     648,
+     885.2
+    ],
+    [
+     688,
+     886.9
+    ],
+    [
+     745,
+     890.5
+    ],
+    [
+     791,
+     893.0
+    ],
+    [
+     810,
+     894.4
+    ],
+    [
+     875,
+     897.7
+    ],
+    [
+     939,
+     902.7
+    ],
+    [
+     994,
+     905.5
+    ],
+    [
+     1050,
+     908.6
+    ],
+    [
+     1135,
+     914.0
+    ],
+    [
+     1195,
+     916.5
+    ],
+    [
+     1253,
+     919.7
+    ],
+    [
+     1330,
+     923.3
+    ],
+    [
+     1407,
+     927.5
+    ],
+    [
+     1473,
+     931.8
+    ],
+    [
+     1535,
+     935.5
+    ],
+    [
+     1609,
+     940.0
+    ],
+    [
+     1619,
+     940.6
+    ],
+    [
+     1695,
+     945.0
+    ],
+    [
+     1763,
+     949.0
+    ],
+    [
+     1841,
+     952.8
+    ],
+    [
+     1906,
+     955.7
+    ],
+    [
+     1968,
+     958.5
+    ],
+    [
+     1994,
+     960.0
+    ],
+    [
+     2031,
+     962.6
+    ],
+    [
+     2111,
+     966.4
+    ],
+    [
+     2186,
+     969.7
+    ],
+    [
+     2264,
+     975.0
+    ],
+    [
+     2325,
+     977.4
+    ],
+    [
+     2394,
+     981.8
+    ],
+    [
+     2465,
+     984.9
+    ],
+    [
+     2484,
+     986.0
+    ]
+   ]
   },
   {
    "start": 987.83,
@@ -296,7 +1718,29 @@
    "label": "SPEAKER_03",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "Y en este contexto, desahuciando ciudadanos, con medios de comunicación retransmitiéndolo en directo y con la mirada ya puesta en las elecciones del 29 de noviembre, elecciones generales, usted dice que se pone a disposición. ¿Qué significa eso, señora Colau?"
+   "text": "Y en este contexto, desahuciando ciudadanos, con medios de comunicación retransmitiéndolo en directo y con la mirada ya puesta en las elecciones del 29 de noviembre, elecciones generales, usted dice que se pone a disposición. ¿Qué significa eso, señora Colau?",
+   "marks": [
+    [
+     0,
+     987.8
+    ],
+    [
+     93,
+     993.7
+    ],
+    [
+     152,
+     996.5
+    ],
+    [
+     226,
+     1001.1
+    ],
+    [
+     231,
+     1001.8
+    ]
+   ]
   },
   {
    "start": 1003.79,
@@ -304,7 +1748,189 @@
    "label": "SPEAKER_05",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Bueno, como sabéis, yo dejé cargos institucionales hace ya más de dos años y me han propuesto en varias ocasiones asumir otra vez responsabilidades institucionales. He agradecido que me lo propusieran, pero lo he declinado. Creo que es bueno estar un tiempo fuera de la política institucional y tener el contacto con la realidad. Y siempre se puede hacer política desde otros lugares. Yo no he dejado nunca de hacer política, pero la institucional es solo una parte. Pero es eso, había decidido de momento alejarme de la política institucional por varios motivos personales y políticos, pero es verdad que estamos en un contexto histórico muy excepcional, estamos en un contexto histórico que creo que nos interpela a todas, donde vemos cómo aumentan los discursos de odio, cómo crece la extrema derecha, no sólo aquí, en el mundo entero, cómo eso tiene consecuencias en la vida de la gente, lo estamos viendo en Estados Unidos con un ICE que mata gente por la calle, algo que habría sido impensable hace unos años, el genocidio en Gaza, Mi ley cargándose todos los servicios públicos en Argentina, ahora Colombia, Chile, estamos viendo los efectos que tiene que gobierne la extrema derecha, que pone directamente en peligro la vida de miles de personas, de las mujeres feministas, de las personas LGTBI, de las personas migrantes, en ese contexto de discursos de odio, de auge de la extrema derecha, que también está pasando aquí, nosotros tenemos además esta crisis de la vivienda que explota y que hace que la vida de mucha gente esté al límite, y, frente a ello, la ciudadanía y la calle están pidiendo que haya una reacción y que haya una respuesta no solo institucional, pero también institucional. Y que en la izquierda, por fin, se organice para que haya una propuesta clara de consenso, de unidad, para que no haya más de una papeleta y se puedan aprovechar todos los votos y conseguir el máximo de diputados y diputadas y frenar, no resignarnos a que vaya a ganar la extrema derecha. Yo como persona de izquierda, como mujer feminista, me niego a ver encuestas que dan por hecho que en España, que considero que es un país valiente, que lo ha demostrado muchas veces a lo largo de su historia y que es un país progresista, me niego a resignarme a que aquí vaya a gobernar la extrema derecha. En esa situación excepcional se nos ha interpelado a muchas personas y también a mí se me ha interpelado, y yo he dicho desde hace días lo mismo, que es si estamos todas, pues yo también estaré, no puedo decir que no, evidentemente, pero tenemos que estar todas."
+   "text": "Bueno, como sabéis, yo dejé cargos institucionales hace ya más de dos años y me han propuesto en varias ocasiones asumir otra vez responsabilidades institucionales. He agradecido que me lo propusieran, pero lo he declinado. Creo que es bueno estar un tiempo fuera de la política institucional y tener el contacto con la realidad. Y siempre se puede hacer política desde otros lugares. Yo no he dejado nunca de hacer política, pero la institucional es solo una parte. Pero es eso, había decidido de momento alejarme de la política institucional por varios motivos personales y políticos, pero es verdad que estamos en un contexto histórico muy excepcional, estamos en un contexto histórico que creo que nos interpela a todas, donde vemos cómo aumentan los discursos de odio, cómo crece la extrema derecha, no sólo aquí, en el mundo entero, cómo eso tiene consecuencias en la vida de la gente, lo estamos viendo en Estados Unidos con un ICE que mata gente por la calle, algo que habría sido impensable hace unos años, el genocidio en Gaza, Mi ley cargándose todos los servicios públicos en Argentina, ahora Colombia, Chile, estamos viendo los efectos que tiene que gobierne la extrema derecha, que pone directamente en peligro la vida de miles de personas, de las mujeres feministas, de las personas LGTBI, de las personas migrantes, en ese contexto de discursos de odio, de auge de la extrema derecha, que también está pasando aquí, nosotros tenemos además esta crisis de la vivienda que explota y que hace que la vida de mucha gente esté al límite, y, frente a ello, la ciudadanía y la calle están pidiendo que haya una reacción y que haya una respuesta no solo institucional, pero también institucional. Y que en la izquierda, por fin, se organice para que haya una propuesta clara de consenso, de unidad, para que no haya más de una papeleta y se puedan aprovechar todos los votos y conseguir el máximo de diputados y diputadas y frenar, no resignarnos a que vaya a ganar la extrema derecha. Yo como persona de izquierda, como mujer feminista, me niego a ver encuestas que dan por hecho que en España, que considero que es un país valiente, que lo ha demostrado muchas veces a lo largo de su historia y que es un país progresista, me niego a resignarme a que aquí vaya a gobernar la extrema derecha. En esa situación excepcional se nos ha interpelado a muchas personas y también a mí se me ha interpelado, y yo he dicho desde hace días lo mismo, que es si estamos todas, pues yo también estaré, no puedo decir que no, evidentemente, pero tenemos que estar todas.",
+   "marks": [
+    [
+     0,
+     1003.8
+    ],
+    [
+     70,
+     1009.1
+    ],
+    [
+     148,
+     1013.8
+    ],
+    [
+     165,
+     1014.6
+    ],
+    [
+     224,
+     1017.0
+    ],
+    [
+     229,
+     1017.1
+    ],
+    [
+     295,
+     1022.4
+    ],
+    [
+     330,
+     1024.3
+    ],
+    [
+     364,
+     1025.9
+    ],
+    [
+     385,
+     1027.5
+    ],
+    [
+     431,
+     1029.4
+    ],
+    [
+     467,
+     1033.2
+    ],
+    [
+     498,
+     1035.3
+    ],
+    [
+     587,
+     1039.4
+    ],
+    [
+     664,
+     1044.0
+    ],
+    [
+     731,
+     1047.0
+    ],
+    [
+     805,
+     1050.9
+    ],
+    [
+     871,
+     1054.1
+    ],
+    [
+     932,
+     1056.5
+    ],
+    [
+     989,
+     1059.3
+    ],
+    [
+     1062,
+     1063.5
+    ],
+    [
+     1149,
+     1069.2
+    ],
+    [
+     1225,
+     1072.2
+    ],
+    [
+     1289,
+     1075.6
+    ],
+    [
+     1364,
+     1080.0
+    ],
+    [
+     1432,
+     1083.4
+    ],
+    [
+     1501,
+     1087.9
+    ],
+    [
+     1559,
+     1091.8
+    ],
+    [
+     1620,
+     1094.4
+    ],
+    [
+     1705,
+     1099.3
+    ],
+    [
+     1763,
+     1103.5
+    ],
+    [
+     1828,
+     1108.6
+    ],
+    [
+     1895,
+     1112.3
+    ],
+    [
+     1961,
+     1115.7
+    ],
+    [
+     1994,
+     1116.7
+    ],
+    [
+     2029,
+     1119.2
+    ],
+    [
+     2093,
+     1123.5
+    ],
+    [
+     2153,
+     1127.3
+    ],
+    [
+     2212,
+     1129.7
+    ],
+    [
+     2273,
+     1132.5
+    ],
+    [
+     2302,
+     1133.5
+    ],
+    [
+     2353,
+     1136.7
+    ],
+    [
+     2410,
+     1140.8
+    ],
+    [
+     2466,
+     1143.9
+    ],
+    [
+     2540,
+     1147.9
+    ]
+   ]
   },
   {
    "start": 1149.01,
@@ -312,7 +1938,33 @@
    "label": "SPEAKER_03",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "Se lo voy a preguntar directamente. Dígame, Apolau. Que la veo dar así un poquito de vuelta. Está dispuesta, ¿tiene usted ganas de ser la candidata del Frente Amplio a la presidencia del Gobierno de España?"
+   "text": "Se lo voy a preguntar directamente. Dígame, Apolau. Que la veo dar así un poquito de vuelta. Está dispuesta, ¿tiene usted ganas de ser la candidata del Frente Amplio a la presidencia del Gobierno de España?",
+   "marks": [
+    [
+     0,
+     1149.0
+    ],
+    [
+     36,
+     1150.2
+    ],
+    [
+     52,
+     1150.9
+    ],
+    [
+     67,
+     1151.8
+    ],
+    [
+     93,
+     1154.4
+    ],
+    [
+     135,
+     1157.5
+    ]
+   ]
   },
   {
    "start": 1161.37,
@@ -320,7 +1972,73 @@
    "label": "SPEAKER_05",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "A mí me honra profundamente que se piense en mí como persona candidata que puede ser de consenso para representar un Frente Amplio. Pero ahora mismo tenemos que concentrar todos nuestros esfuerzos en que ese Frente Amplio sea realmente amplio y sea una realidad. Es decir, me está preguntando, yo estoy disponible, si puedo ayudar, lo he dicho. ¿Le gustaría? Me gustaría ser útil, como me ha gustado toda mi vida en política, me ha gustado ser útil. Entonces, insisto, en un momento tan importante como este, que hay que hacer un Frente Amplio de las fuerzas de izquierdas, si yo puedo ser una persona de consenso que facilite que ese Frente Amplio sea más amplio de lo que soy, y quiero ser muy clara en esto, yo creo que para repetir las experiencias que ya se han hecho, yo no soy necesaria."
+   "text": "A mí me honra profundamente que se piense en mí como persona candidata que puede ser de consenso para representar un Frente Amplio. Pero ahora mismo tenemos que concentrar todos nuestros esfuerzos en que ese Frente Amplio sea realmente amplio y sea una realidad. Es decir, me está preguntando, yo estoy disponible, si puedo ayudar, lo he dicho. ¿Le gustaría? Me gustaría ser útil, como me ha gustado toda mi vida en política, me ha gustado ser útil. Entonces, insisto, en un momento tan importante como este, que hay que hacer un Frente Amplio de las fuerzas de izquierdas, si yo puedo ser una persona de consenso que facilite que ese Frente Amplio sea más amplio de lo que soy, y quiero ser muy clara en esto, yo creo que para repetir las experiencias que ya se han hecho, yo no soy necesaria.",
+   "marks": [
+    [
+     0,
+     1161.4
+    ],
+    [
+     61,
+     1166.4
+    ],
+    [
+     132,
+     1170.2
+    ],
+    [
+     137,
+     1170.7
+    ],
+    [
+     215,
+     1175.0
+    ],
+    [
+     263,
+     1177.7
+    ],
+    [
+     281,
+     1179.2
+    ],
+    [
+     345,
+     1181.6
+    ],
+    [
+     359,
+     1182.7
+    ],
+    [
+     416,
+     1185.6
+    ],
+    [
+     450,
+     1187.0
+    ],
+    [
+     487,
+     1189.4
+    ],
+    [
+     551,
+     1192.7
+    ],
+    [
+     618,
+     1195.8
+    ],
+    [
+     679,
+     1199.3
+    ],
+    [
+     736,
+     1202.7
+    ]
+   ]
   },
   {
    "start": 1204.93,
@@ -328,7 +2046,13 @@
    "label": "SPEAKER_03",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "¿A qué se refiere más amplio de lo que soy?"
+   "text": "¿A qué se refiere más amplio de lo que soy?",
+   "marks": [
+    [
+     0,
+     1204.9
+    ]
+   ]
   },
   {
    "start": 1206.79,
@@ -336,7 +2060,141 @@
    "label": "SPEAKER_05",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Pues que ya hemos tenido distintas experiencias políticas y en las últimas elecciones había más de una papeleta en las izquierdas, ¿Dónde la gente podía elegir? Y es legítimo. Pero para hacer eso ya hay gente dispuesta a hacerlo. Yo lo que estoy planteando es que hace falta un frente amplio donde la ciudadanía nos está pidiendo que no haya más de una papeleta, que haya una única, que además tiene que ser fácil porque hay un programa muy claro sobre la mesa en el que estamos todos de acuerdo, o sea, el derecho a la vivienda, medidas valientes, que no se trata solo de resistir a la extrema derecha, esto hay que decirlo con fuerza, Se trata de un proyecto ilusionante, transformador, que nos permita avanzar en derechos y libertades y en no retroceder. Y eso se concreta, por supuesto, en medidas valientes en vivienda, pero en la defensa de los servicios públicos y en muchas otras medidas, en la defensa de la paz en un mundo donde crece el belicismo, las guerras y los genocidios. O sea, hay un programa de mínimos que está muy claro y que es compartido por las fuerzas de izquierdas. Entonces, la gente, te lo dice en la calle, no puede entender que, o por egos, o por vetos cruzados, Por cosas del pasado me da igual, por diferencias que no son de programa puede haber más de una opción de izquierdas. Entonces yo insisto, si yo puedo ayudar, si puedo ser una persona de consenso para que haya efectivamente ese Frente Amplio que amplíe y sume a mucha más gente de la que está ahora mismo en la representación institucional, entonces yo estoy dispuesta porque creo que esa es la tarea urgente que hay que hacer ahora y hay muy poco tiempo para hacerlo."
+   "text": "Pues que ya hemos tenido distintas experiencias políticas y en las últimas elecciones había más de una papeleta en las izquierdas, ¿Dónde la gente podía elegir? Y es legítimo. Pero para hacer eso ya hay gente dispuesta a hacerlo. Yo lo que estoy planteando es que hace falta un frente amplio donde la ciudadanía nos está pidiendo que no haya más de una papeleta, que haya una única, que además tiene que ser fácil porque hay un programa muy claro sobre la mesa en el que estamos todos de acuerdo, o sea, el derecho a la vivienda, medidas valientes, que no se trata solo de resistir a la extrema derecha, esto hay que decirlo con fuerza, Se trata de un proyecto ilusionante, transformador, que nos permita avanzar en derechos y libertades y en no retroceder. Y eso se concreta, por supuesto, en medidas valientes en vivienda, pero en la defensa de los servicios públicos y en muchas otras medidas, en la defensa de la paz en un mundo donde crece el belicismo, las guerras y los genocidios. O sea, hay un programa de mínimos que está muy claro y que es compartido por las fuerzas de izquierdas. Entonces, la gente, te lo dice en la calle, no puede entender que, o por egos, o por vetos cruzados, Por cosas del pasado me da igual, por diferencias que no son de programa puede haber más de una opción de izquierdas. Entonces yo insisto, si yo puedo ayudar, si puedo ser una persona de consenso para que haya efectivamente ese Frente Amplio que amplíe y sume a mucha más gente de la que está ahora mismo en la representación institucional, entonces yo estoy dispuesta porque creo que esa es la tarea urgente que hay que hacer ahora y hay muy poco tiempo para hacerlo.",
+   "marks": [
+    [
+     0,
+     1206.8
+    ],
+    [
+     75,
+     1210.2
+    ],
+    [
+     147,
+     1213.6
+    ],
+    [
+     161,
+     1214.3
+    ],
+    [
+     176,
+     1215.1
+    ],
+    [
+     209,
+     1216.5
+    ],
+    [
+     230,
+     1217.6
+    ],
+    [
+     275,
+     1219.7
+    ],
+    [
+     342,
+     1223.7
+    ],
+    [
+     404,
+     1226.7
+    ],
+    [
+     464,
+     1229.5
+    ],
+    [
+     520,
+     1232.4
+    ],
+    [
+     587,
+     1236.2
+    ],
+    [
+     652,
+     1238.2
+    ],
+    [
+     740,
+     1242.8
+    ],
+    [
+     758,
+     1243.7
+    ],
+    [
+     812,
+     1246.0
+    ],
+    [
+     875,
+     1249.0
+    ],
+    [
+     933,
+     1251.6
+    ],
+    [
+     989,
+     1255.2
+    ],
+    [
+     1000,
+     1255.6
+    ],
+    [
+     1062,
+     1258.3
+    ],
+    [
+     1093,
+     1259.7
+    ],
+    [
+     1127,
+     1261.8
+    ],
+    [
+     1184,
+     1265.4
+    ],
+    [
+     1251,
+     1270.2
+    ],
+    [
+     1312,
+     1272.5
+    ],
+    [
+     1321,
+     1272.6
+    ],
+    [
+     1381,
+     1275.6
+    ],
+    [
+     1454,
+     1280.0
+    ],
+    [
+     1505,
+     1282.4
+    ],
+    [
+     1589,
+     1285.5
+    ],
+    [
+     1649,
+     1287.9
+    ]
+   ]
   },
   {
    "start": 1288.61,
@@ -344,7 +2202,13 @@
    "label": "SPEAKER_03",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "Es decir, en"
+   "text": "Es decir, en",
+   "marks": [
+    [
+     0,
+     1288.6
+    ]
+   ]
   },
   {
    "start": 1288.97,
@@ -352,7 +2216,205 @@
    "label": "SPEAKER_05",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "su visión del Frente Amplio estaría incluido Podemos. Podemos, estaría incluido Podemos y estaría incluido Compromís y La Cha y MES de Mallorca, o sea, mucha gente y cuanta más mejor, no sobra nadie y todo el mundo tiene que tener un papel, o sea, hay papel para todo el mundo porque más allá de las listas electorales, insisto, somos necesarias todas, creo que hay que aprender también de errores pasados y hay que decirlo tranquilamente, sin miedo, o sea, cuando hemos tenido proyectos muy centralizados en una única cara o en una única persona, aunque lo haya hecho muy bien, aunque haya hecho un gran esfuerzo, haya puesto todo su cuerpo, le agradecemos, Gracias a estas personas que hayan dado ese paso. Pero un único liderazgo no va a resolver esto. Necesitamos liderazgos colegiados, necesitamos varias caras que se pongan al frente, porque además si pones solo una cara, los adversarios ya han demostrado que tienen gran capacidad para hacer grandes campañas de desprestigio, de fake news, de acoso y derribo, de crellas, para intentar desanimarme e intentar desalentarte. ¿En qué caras estaría usted pensando? En cuantas más mejor, en todas las que puedan ayudar, en todas las que sean de consenso, aquí todo el mundo tiene que tener un papel, por eso le digo, las fuerzas que ahora están en la coalición que estaba bajo el paraguas de más, por supuesto, pero también tiene que estar Podemos, también tiene que estar MES, tiene que estar Compromís, tienen que estar todas las fuerzas que quieran, se tienen que sentar a la mesa, Y, insisto, desde el respeto, desde el reconocimiento mutuo y dándole papel a todo el mundo, ese Frente Amplio tiene que ser una realidad porque es lo que nos pide la calle. Y si falláramos en eso, también lo digo, es que creo que la ciudadanía tendría todo el derecho a enviarnos a todas a casa y decir, ustedes ya no dan más de sí, dejen paso. O sea, quien ahora esté en política institucional tiene que ser para ser generoso, para ser valiente y para estar dispuesto a hacer algo que trascienda lo que ya hemos hecho. Y para eso hay que ser más generosos, más abiertas y estar dispuestas a ir más allá de lo que tenemos ahora. Y eso quiere decir un Frente Amplio. Un Frente Amplio no tiene que ser una simple marca, tiene que ser una realidad. Y ese Frente Amplio se tiene que construir logrando que estemos toda la gente que pensamos que ese Frente Amplio es necesario. Y ahí hacen falta, insisto, muchas caras. Si una puede ser la mía porque es útil para el consenso, estoy dispuesta."
+   "text": "su visión del Frente Amplio estaría incluido Podemos. Podemos, estaría incluido Podemos y estaría incluido Compromís y La Cha y MES de Mallorca, o sea, mucha gente y cuanta más mejor, no sobra nadie y todo el mundo tiene que tener un papel, o sea, hay papel para todo el mundo porque más allá de las listas electorales, insisto, somos necesarias todas, creo que hay que aprender también de errores pasados y hay que decirlo tranquilamente, sin miedo, o sea, cuando hemos tenido proyectos muy centralizados en una única cara o en una única persona, aunque lo haya hecho muy bien, aunque haya hecho un gran esfuerzo, haya puesto todo su cuerpo, le agradecemos, Gracias a estas personas que hayan dado ese paso. Pero un único liderazgo no va a resolver esto. Necesitamos liderazgos colegiados, necesitamos varias caras que se pongan al frente, porque además si pones solo una cara, los adversarios ya han demostrado que tienen gran capacidad para hacer grandes campañas de desprestigio, de fake news, de acoso y derribo, de crellas, para intentar desanimarme e intentar desalentarte. ¿En qué caras estaría usted pensando? En cuantas más mejor, en todas las que puedan ayudar, en todas las que sean de consenso, aquí todo el mundo tiene que tener un papel, por eso le digo, las fuerzas que ahora están en la coalición que estaba bajo el paraguas de más, por supuesto, pero también tiene que estar Podemos, también tiene que estar MES, tiene que estar Compromís, tienen que estar todas las fuerzas que quieran, se tienen que sentar a la mesa, Y, insisto, desde el respeto, desde el reconocimiento mutuo y dándole papel a todo el mundo, ese Frente Amplio tiene que ser una realidad porque es lo que nos pide la calle. Y si falláramos en eso, también lo digo, es que creo que la ciudadanía tendría todo el derecho a enviarnos a todas a casa y decir, ustedes ya no dan más de sí, dejen paso. O sea, quien ahora esté en política institucional tiene que ser para ser generoso, para ser valiente y para estar dispuesto a hacer algo que trascienda lo que ya hemos hecho. Y para eso hay que ser más generosos, más abiertas y estar dispuestas a ir más allá de lo que tenemos ahora. Y eso quiere decir un Frente Amplio. Un Frente Amplio no tiene que ser una simple marca, tiene que ser una realidad. Y ese Frente Amplio se tiene que construir logrando que estemos toda la gente que pensamos que ese Frente Amplio es necesario. Y ahí hacen falta, insisto, muchas caras. Si una puede ser la mía porque es útil para el consenso, estoy dispuesta.",
+   "marks": [
+    [
+     0,
+     1289.0
+    ],
+    [
+     54,
+     1291.1
+    ],
+    [
+     88,
+     1292.5
+    ],
+    [
+     147,
+     1296.0
+    ],
+    [
+     206,
+     1300.7
+    ],
+    [
+     263,
+     1303.5
+    ],
+    [
+     335,
+     1306.7
+    ],
+    [
+     408,
+     1309.5
+    ],
+    [
+     488,
+     1313.9
+    ],
+    [
+     555,
+     1317.5
+    ],
+    [
+     620,
+     1319.4
+    ],
+    [
+     694,
+     1322.5
+    ],
+    [
+     709,
+     1323.2
+    ],
+    [
+     756,
+     1326.3
+    ],
+    [
+     848,
+     1331.6
+    ],
+    [
+     917,
+     1335.5
+    ],
+    [
+     998,
+     1339.3
+    ],
+    [
+     1081,
+     1351.3
+    ],
+    [
+     1119,
+     1353.3
+    ],
+    [
+     1150,
+     1355.1
+    ],
+    [
+     1213,
+     1357.6
+    ],
+    [
+     1270,
+     1359.7
+    ],
+    [
+     1333,
+     1363.1
+    ],
+    [
+     1410,
+     1366.6
+    ],
+    [
+     1481,
+     1369.7
+    ],
+    [
+     1541,
+     1373.0
+    ],
+    [
+     1616,
+     1377.1
+    ],
+    [
+     1683,
+     1380.2
+    ],
+    [
+     1712,
+     1381.2
+    ],
+    [
+     1736,
+     1382.4
+    ],
+    [
+     1799,
+     1385.2
+    ],
+    [
+     1857,
+     1389.4
+    ],
+    [
+     1884,
+     1391.1
+    ],
+    [
+     1911,
+     1392.5
+    ],
+    [
+     1987,
+     1397.0
+    ],
+    [
+     2052,
+     1399.9
+    ],
+    [
+     2059,
+     1400.2
+    ],
+    [
+     2112,
+     1404.4
+    ],
+    [
+     2168,
+     1407.8
+    ],
+    [
+     2170,
+     1407.9
+    ],
+    [
+     2205,
+     1409.0
+    ],
+    [
+     2235,
+     1409.8
+    ],
+    [
+     2285,
+     1412.2
+    ],
+    [
+     2298,
+     1412.9
+    ],
+    [
+     2367,
+     1416.0
+    ],
+    [
+     2412,
+     1418.2
+    ],
+    [
+     2440,
+     1419.2
+    ],
+    [
+     2454,
+     1419.8
+    ],
+    [
+     2498,
+     1422.3
+    ]
+   ]
   },
   {
    "start": 1424.11,
@@ -360,7 +2422,17 @@
    "label": "SPEAKER_03",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "Vamos a abrir nuestra conversación al resto de compañeros de la mesa. Carlos."
+   "text": "Vamos a abrir nuestra conversación al resto de compañeros de la mesa. Carlos.",
+   "marks": [
+    [
+     0,
+     1424.1
+    ],
+    [
+     70,
+     1427.8
+    ]
+   ]
   },
   {
    "start": 1428.03,
@@ -368,7 +2440,29 @@
    "label": "SPEAKER_09",
    "person": null,
    "name": "Hablante sin identificar 4",
-   "text": "Sí, dos cuestiones muy breves. Una es, si no lo he entendido mal, si hay más de una papeleta, usted no sería candidata. No se apunta a esa operación."
+   "text": "Sí, dos cuestiones muy breves. Una es, si no lo he entendido mal, si hay más de una papeleta, usted no sería candidata. No se apunta a esa operación.",
+   "marks": [
+    [
+     0,
+     1428.0
+    ],
+    [
+     31,
+     1430.0
+    ],
+    [
+     61,
+     1431.9
+    ],
+    [
+     120,
+     1434.8
+    ],
+    [
+     123,
+     1435.2
+    ]
+   ]
   },
   {
    "start": 1437.19,
@@ -376,7 +2470,25 @@
    "label": "SPEAKER_05",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Eso es lo que estoy diciendo. Estoy diciendo que para mí un Frente Amplio quiere decir que efectivamente suma la diversidad de las propuestas de izquierdas con un programa común."
+   "text": "Eso es lo que estoy diciendo. Estoy diciendo que para mí un Frente Amplio quiere decir que efectivamente suma la diversidad de las propuestas de izquierdas con un programa común.",
+   "marks": [
+    [
+     0,
+     1437.2
+    ],
+    [
+     30,
+     1438.1
+    ],
+    [
+     60,
+     1439.6
+    ],
+    [
+     142,
+     1444.4
+    ]
+   ]
   },
   {
    "start": 1446.01,
@@ -384,7 +2496,57 @@
    "label": "SPEAKER_09",
    "person": null,
    "name": "Hablante sin identificar 4",
-   "text": "Vale, y respecto a los desahucios, como en fin, con toda la experiencia que tiene, estamos hablando de 2009, 17 años después. ¿Cómo es posible desde el punto de vista político de presión social que se tumbaran esos decretos? ¿Cómo es posible, usted conoce bien Cataluña, que Junts no tuviera suficiente presión social como para que dijera bueno, yo no me puedo permitir el lujo de votar que no, me voy a abstener, incluso el PP, me voy a abstener por la presión social que hay? ¿Por qué esa presión social no es suficiente para romper eso?"
+   "text": "Vale, y respecto a los desahucios, como en fin, con toda la experiencia que tiene, estamos hablando de 2009, 17 años después. ¿Cómo es posible desde el punto de vista político de presión social que se tumbaran esos decretos? ¿Cómo es posible, usted conoce bien Cataluña, que Junts no tuviera suficiente presión social como para que dijera bueno, yo no me puedo permitir el lujo de votar que no, me voy a abstener, incluso el PP, me voy a abstener por la presión social que hay? ¿Por qué esa presión social no es suficiente para romper eso?",
+   "marks": [
+    [
+     0,
+     1446.0
+    ],
+    [
+     60,
+     1448.5
+    ],
+    [
+     126,
+     1452.2
+    ],
+    [
+     135,
+     1452.7
+    ],
+    [
+     201,
+     1456.1
+    ],
+    [
+     225,
+     1457.4
+    ],
+    [
+     281,
+     1460.5
+    ],
+    [
+     352,
+     1463.9
+    ],
+    [
+     404,
+     1466.5
+    ],
+    [
+     469,
+     1469.4
+    ],
+    [
+     478,
+     1470.2
+    ],
+    [
+     535,
+     1473.5
+    ]
+   ]
   },
   {
    "start": 1473.91,
@@ -392,7 +2554,213 @@
    "label": "SPEAKER_05",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Bueno, quizás en Cataluña lo de Junts nos sorprende un poco menos, porque Junts era Convergencia y Unión, que ha sido un partido siempre vinculado al negocio inmobiliario. De hecho, Junts nace como nombre porque Convergencia y Unión tenía tantos casos de corrupción que tuvo que liquidar el nombre, le embargaron la sede, tuvo un curso de acreedores y se tuvo que cambiar el nombre para intentar romper con su pasado de casos de corrupción, muchos de ellos vinculados a las comisiones y a la obra pública, por lo tanto, al negocio inmobiliario. Esos son los orígenes de Junts. Quiero decir que a mí, personalmente, como catalana, no me sorprende que Junts esté cerca de la patronal inmobiliaria. Me parece escandaloso que saliendo encuestas donde sus propios votantes estaban a favor de los decretos, aún así, imagínate si la presión de estos fondos de inversión tienen que ser fuertes, que aún así votaron en contra de esos decretos. Pero a mí me preocupa más que partidos que se llaman de izquierda, como es el Partido Socialista, lleven años, no meses, años poniendo excusas para no aprobar estas medidas. Porque estas medidas no se han propuesto ahora, llevan años proponiéndose, La regulación de los alquileres Ya estás poniendo un límite a un precio que ya es muy alto. De hecho, ahora ya no habría que pedir solo la congelación. Es que en las zonas tensionadas habría que pedir reducir los precios del alquiler, porque en algunos lugares, aunque congeles el precio, sigue siendo demasiado caro para la gente común. Entonces, el Partido Socialista es ese Partido Socialista que luego, cuando aprobó la regulación de los alquileres en 2024, fueron ellos quienes dejaron fuera los alquileres de temporada. Algo que se ha tenido que arreglar con los decretos ahora, años después, pero se lo dijimos, se lo dijimos de todas las maneras posibles, hicimos toda la presión para que los de temporada no se quedaran fuera de la regulación de precios. El Partido Socialista impuso, porque tiene gran depresión también del sector inmobiliario, entonces a mí lo que más me preocupa es que un partido que se llama progresista, y que lo es en algunos temas, No quiero hacer demagogia, pero en el de la vivienda el PSOE lleva fallando décadas, lleva décadas subvencionando la especulación y poniéndole alfombras rojas a la especulación y dejando a los inquilinos desamparados. Entonces, ahora está reaccionando ¿por qué? Por la presión de la calle, por la pura presión de la calle. Entonces, la clave es que esa presión de la calle continúe con toda su fuerza, porque solo así vamos a lograr que haya unas mayorías de izquierdas que efectivamente puedan cambiar la regulación sobre la vivienda."
+   "text": "Bueno, quizás en Cataluña lo de Junts nos sorprende un poco menos, porque Junts era Convergencia y Unión, que ha sido un partido siempre vinculado al negocio inmobiliario. De hecho, Junts nace como nombre porque Convergencia y Unión tenía tantos casos de corrupción que tuvo que liquidar el nombre, le embargaron la sede, tuvo un curso de acreedores y se tuvo que cambiar el nombre para intentar romper con su pasado de casos de corrupción, muchos de ellos vinculados a las comisiones y a la obra pública, por lo tanto, al negocio inmobiliario. Esos son los orígenes de Junts. Quiero decir que a mí, personalmente, como catalana, no me sorprende que Junts esté cerca de la patronal inmobiliaria. Me parece escandaloso que saliendo encuestas donde sus propios votantes estaban a favor de los decretos, aún así, imagínate si la presión de estos fondos de inversión tienen que ser fuertes, que aún así votaron en contra de esos decretos. Pero a mí me preocupa más que partidos que se llaman de izquierda, como es el Partido Socialista, lleven años, no meses, años poniendo excusas para no aprobar estas medidas. Porque estas medidas no se han propuesto ahora, llevan años proponiéndose, La regulación de los alquileres Ya estás poniendo un límite a un precio que ya es muy alto. De hecho, ahora ya no habría que pedir solo la congelación. Es que en las zonas tensionadas habría que pedir reducir los precios del alquiler, porque en algunos lugares, aunque congeles el precio, sigue siendo demasiado caro para la gente común. Entonces, el Partido Socialista es ese Partido Socialista que luego, cuando aprobó la regulación de los alquileres en 2024, fueron ellos quienes dejaron fuera los alquileres de temporada. Algo que se ha tenido que arreglar con los decretos ahora, años después, pero se lo dijimos, se lo dijimos de todas las maneras posibles, hicimos toda la presión para que los de temporada no se quedaran fuera de la regulación de precios. El Partido Socialista impuso, porque tiene gran depresión también del sector inmobiliario, entonces a mí lo que más me preocupa es que un partido que se llama progresista, y que lo es en algunos temas, No quiero hacer demagogia, pero en el de la vivienda el PSOE lleva fallando décadas, lleva décadas subvencionando la especulación y poniéndole alfombras rojas a la especulación y dejando a los inquilinos desamparados. Entonces, ahora está reaccionando ¿por qué? Por la presión de la calle, por la pura presión de la calle. Entonces, la clave es que esa presión de la calle continúe con toda su fuerza, porque solo así vamos a lograr que haya unas mayorías de izquierdas que efectivamente puedan cambiar la regulación sobre la vivienda.",
+   "marks": [
+    [
+     0,
+     1473.9
+    ],
+    [
+     67,
+     1476.6
+    ],
+    [
+     137,
+     1479.6
+    ],
+    [
+     172,
+     1481.5
+    ],
+    [
+     225,
+     1486.4
+    ],
+    [
+     291,
+     1489.7
+    ],
+    [
+     355,
+     1493.6
+    ],
+    [
+     420,
+     1496.0
+    ],
+    [
+     489,
+     1499.4
+    ],
+    [
+     545,
+     1501.7
+    ],
+    [
+     558,
+     1502.3
+    ],
+    [
+     577,
+     1503.2
+    ],
+    [
+     633,
+     1506.3
+    ],
+    [
+     696,
+     1509.2
+    ],
+    [
+     706,
+     1510.0
+    ],
+    [
+     787,
+     1514.6
+    ],
+    [
+     853,
+     1518.8
+    ],
+    [
+     920,
+     1523.8
+    ],
+    [
+     935,
+     1525.0
+    ],
+    [
+     981,
+     1526.9
+    ],
+    [
+     1056,
+     1531.1
+    ],
+    [
+     1109,
+     1534.9
+    ],
+    [
+     1133,
+     1535.6
+    ],
+    [
+     1216,
+     1568.7
+    ],
+    [
+     1270,
+     1571.4
+    ],
+    [
+     1276,
+     1571.8
+    ],
+    [
+     1336,
+     1574.1
+    ],
+    [
+     1405,
+     1578.5
+    ],
+    [
+     1486,
+     1581.9
+    ],
+    [
+     1522,
+     1584.7
+    ],
+    [
+     1561,
+     1586.3
+    ],
+    [
+     1640,
+     1589.1
+    ],
+    [
+     1710,
+     1593.8
+    ],
+    [
+     1719,
+     1594.4
+    ],
+    [
+     1788,
+     1597.3
+    ],
+    [
+     1856,
+     1601.1
+    ],
+    [
+     1919,
+     1604.1
+    ],
+    [
+     1948,
+     1605.4
+    ],
+    [
+     1996,
+     1608.1
+    ],
+    [
+     2067,
+     1611.2
+    ],
+    [
+     2129,
+     1613.6
+    ],
+    [
+     2191,
+     1616.6
+    ],
+    [
+     2280,
+     1622.6
+    ],
+    [
+     2354,
+     1626.0
+    ],
+    [
+     2368,
+     1626.8
+    ],
+    [
+     2412,
+     1628.5
+    ],
+    [
+     2433,
+     1629.2
+    ],
+    [
+     2473,
+     1631.2
+    ],
+    [
+     2495,
+     1632.0
+    ],
+    [
+     2559,
+     1635.7
+    ],
+    [
+     2624,
+     1638.5
+    ]
+   ]
   },
   {
    "start": 1641.21,
@@ -400,7 +2768,17 @@
    "label": "SPEAKER_03",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "Queda sitio para poquitas preguntas, os pido concreción. Señora Colau, usted también."
+   "text": "Queda sitio para poquitas preguntas, os pido concreción. Señora Colau, usted también.",
+   "marks": [
+    [
+     0,
+     1641.2
+    ],
+    [
+     57,
+     1644.7
+    ]
+   ]
   },
   {
    "start": 1647.61,
@@ -408,7 +2786,33 @@
    "label": "SPEAKER_08",
    "person": null,
    "name": "Hablante sin identificar 6",
-   "text": "Alcaldesa, buenos días. Voy a seguir intentándolo como lo hacía antes Silvia. ¿Ha hablado con la ministra Mónica García y están en sintonía en esa candidatura única liderada por usted? ¿Y si ha hablado con Irene Montero también?"
+   "text": "Alcaldesa, buenos días. Voy a seguir intentándolo como lo hacía antes Silvia. ¿Ha hablado con la ministra Mónica García y están en sintonía en esa candidatura única liderada por usted? ¿Y si ha hablado con Irene Montero también?",
+   "marks": [
+    [
+     0,
+     1647.6
+    ],
+    [
+     24,
+     1648.7
+    ],
+    [
+     78,
+     1651.7
+    ],
+    [
+     143,
+     1656.1
+    ],
+    [
+     185,
+     1660.8
+    ],
+    [
+     212,
+     1662.2
+    ]
+   ]
   },
   {
    "start": 1664.17,
@@ -416,7 +2820,225 @@
    "label": "SPEAKER_05",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Claro que ha hablado con Mónica García, claro que ha hablado con Irene Montero. O sea, sería absurdo que estemos diciendo que hay que hacer un Frente Amplio y no hablásemos entre nosotras, pues claro que hemos hablado, y mucha más gente, y con Antonio Maello, y con mucha más gente, hemos hablado estos días. Lo más importante es que hay una mesa de partidos que está trabajando en cómo conformar este Frente Amplio y hacerlo más amplio, y que ahí se ha extendido la mano para que todo el mundo se siente en pie de igualdad. Entonces, es verdad que es muy difícil cuando hay un debate tan encendido, y ahora además hay poco tiempo, Ángeles Barceló, Federico Jiménez Esa es la que se habla menos de reforzar los territorios. A mí me parece que es revolucionario una candidata por Barcelona al gobierno de España y que cambie un poco el mapa de la M30 permanente en el que hemos vivido siempre. ¿Eso tiene un futuro? ¿Cómo lo ve? Yo creo que todo esto son, sin querer quitar la importancia, pero son cuestiones secundarias, insisto, lo que está en juego es demasiado importante y es que se haga un frente realmente amplio, donde estemos todas, donde no queda nadie afuera que quiera estar, esa es la prioridad, que se ponga un programa potente, ilusionante, transformador, valiente, de consenso en el centro de esa propuesta, Un programa que pueda ilusionar y movilizar y luego que todas las caras se pongan a disposición de ese programa y de ese consenso y entre todos ver dónde es más útil cada una de las personas. Entonces la cuestión no es Barcelona o Madrid, la cuestión es que nos pongamos allí donde seamos más útiles para tejer un consenso que permita que el frente sea lo más amplio posible. Creo que soy muy clara. La prioridad es que haya un frente lo más amplio posible. Entonces, todo lo demás tiene que ser instrumental. Que si unos van por Barcelona, por Madrid, por Cáceres, si van en el 1, en el 2 o en el 3, que todo eso evidentemente es importante porque todo el mundo tiene que tener un lugar y tiene que sentirse reconocido, todas las fuerzas políticas, quiero decir, pero tiene que ser algo que esté al servicio del consenso para que haya un Frente Amplio donde pueda estar todo el mundo. Por eso yo ahora no hablaría de Barcelona o de Madrid o de números 1, 2 y 3. Lo importante es que en esa mesa de partidos se llegue a un acuerdo rápido porque queda una semana. Queda poquito tiempo, queda una semana. Ese es lo que tiene que centrar ahora todos nuestros esfuerzos."
+   "text": "Claro que ha hablado con Mónica García, claro que ha hablado con Irene Montero. O sea, sería absurdo que estemos diciendo que hay que hacer un Frente Amplio y no hablásemos entre nosotras, pues claro que hemos hablado, y mucha más gente, y con Antonio Maello, y con mucha más gente, hemos hablado estos días. Lo más importante es que hay una mesa de partidos que está trabajando en cómo conformar este Frente Amplio y hacerlo más amplio, y que ahí se ha extendido la mano para que todo el mundo se siente en pie de igualdad. Entonces, es verdad que es muy difícil cuando hay un debate tan encendido, y ahora además hay poco tiempo, Ángeles Barceló, Federico Jiménez Esa es la que se habla menos de reforzar los territorios. A mí me parece que es revolucionario una candidata por Barcelona al gobierno de España y que cambie un poco el mapa de la M30 permanente en el que hemos vivido siempre. ¿Eso tiene un futuro? ¿Cómo lo ve? Yo creo que todo esto son, sin querer quitar la importancia, pero son cuestiones secundarias, insisto, lo que está en juego es demasiado importante y es que se haga un frente realmente amplio, donde estemos todas, donde no queda nadie afuera que quiera estar, esa es la prioridad, que se ponga un programa potente, ilusionante, transformador, valiente, de consenso en el centro de esa propuesta, Un programa que pueda ilusionar y movilizar y luego que todas las caras se pongan a disposición de ese programa y de ese consenso y entre todos ver dónde es más útil cada una de las personas. Entonces la cuestión no es Barcelona o Madrid, la cuestión es que nos pongamos allí donde seamos más útiles para tejer un consenso que permita que el frente sea lo más amplio posible. Creo que soy muy clara. La prioridad es que haya un frente lo más amplio posible. Entonces, todo lo demás tiene que ser instrumental. Que si unos van por Barcelona, por Madrid, por Cáceres, si van en el 1, en el 2 o en el 3, que todo eso evidentemente es importante porque todo el mundo tiene que tener un lugar y tiene que sentirse reconocido, todas las fuerzas políticas, quiero decir, pero tiene que ser algo que esté al servicio del consenso para que haya un Frente Amplio donde pueda estar todo el mundo. Por eso yo ahora no hablaría de Barcelona o de Madrid o de números 1, 2 y 3. Lo importante es que en esa mesa de partidos se llegue a un acuerdo rápido porque queda una semana. Queda poquito tiempo, queda una semana. Ese es lo que tiene que centrar ahora todos nuestros esfuerzos.",
+   "marks": [
+    [
+     0,
+     1664.2
+    ],
+    [
+     65,
+     1666.8
+    ],
+    [
+     80,
+     1667.5
+    ],
+    [
+     134,
+     1670.2
+    ],
+    [
+     204,
+     1673.1
+    ],
+    [
+     266,
+     1675.7
+    ],
+    [
+     309,
+     1677.9
+    ],
+    [
+     334,
+     1679.9
+    ],
+    [
+     402,
+     1683.2
+    ],
+    [
+     464,
+     1686.5
+    ],
+    [
+     515,
+     1688.6
+    ],
+    [
+     525,
+     1689.3
+    ],
+    [
+     585,
+     1692.8
+    ],
+    [
+     666,
+     1725.4
+    ],
+    [
+     724,
+     1728.5
+    ],
+    [
+     726,
+     1728.6
+    ],
+    [
+     801,
+     1732.2
+    ],
+    [
+     850,
+     1735.3
+    ],
+    [
+     893,
+     1737.5
+    ],
+    [
+     915,
+     1738.8
+    ],
+    [
+     921,
+     1739.1
+    ],
+    [
+     928,
+     1740.0
+    ],
+    [
+     976,
+     1745.5
+    ],
+    [
+     1055,
+     1749.0
+    ],
+    [
+     1127,
+     1753.0
+    ],
+    [
+     1195,
+     1757.1
+    ],
+    [
+     1284,
+     1761.6
+    ],
+    [
+     1356,
+     1765.0
+    ],
+    [
+     1420,
+     1769.0
+    ],
+    [
+     1478,
+     1772.3
+    ],
+    [
+     1516,
+     1774.1
+    ],
+    [
+     1540,
+     1775.3
+    ],
+    [
+     1606,
+     1778.5
+    ],
+    [
+     1673,
+     1781.8
+    ],
+    [
+     1700,
+     1783.2
+    ],
+    [
+     1724,
+     1784.3
+    ],
+    [
+     1737,
+     1785.2
+    ],
+    [
+     1782,
+     1787.1
+    ],
+    [
+     1800,
+     1788.1
+    ],
+    [
+     1834,
+     1789.5
+    ],
+    [
+     1869,
+     1790.8
+    ],
+    [
+     1916,
+     1794.3
+    ],
+    [
+     1981,
+     1797.5
+    ],
+    [
+     2051,
+     1800.5
+    ],
+    [
+     2121,
+     1804.1
+    ],
+    [
+     2189,
+     1807.4
+    ],
+    [
+     2210,
+     1808.2
+    ],
+    [
+     2252,
+     1810.3
+    ],
+    [
+     2287,
+     1813.2
+    ],
+    [
+     2301,
+     1814.0
+    ],
+    [
+     2355,
+     1816.8
+    ],
+    [
+     2387,
+     1818.6
+    ],
+    [
+     2427,
+     1821.5
+    ],
+    [
+     2431,
+     1821.8
+    ]
+   ]
   },
   {
    "start": 1824.77,
@@ -424,7 +3046,29 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Yo voy a centrar nuestros esfuerzos en intentar conseguirlo. Usted ha hablado de renuncia de egos, de generosidad por todas las partes. Si Irene Montero no está en ese Frente Amplio, ¿usted qué hace?"
+   "text": "Yo voy a centrar nuestros esfuerzos en intentar conseguirlo. Usted ha hablado de renuncia de egos, de generosidad por todas las partes. Si Irene Montero no está en ese Frente Amplio, ¿usted qué hace?",
+   "marks": [
+    [
+     0,
+     1824.8
+    ],
+    [
+     61,
+     1829.2
+    ],
+    [
+     78,
+     1829.9
+    ],
+    [
+     136,
+     1832.9
+    ],
+    [
+     145,
+     1833.2
+    ]
+   ]
   },
   {
    "start": 1836.35,
@@ -432,7 +3076,17 @@
    "label": "SPEAKER_05",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Insiste, es que quiero salir de situarlo todo en el nombre de una persona, ni en el mío, ni en el de Irene"
+   "text": "Insiste, es que quiero salir de situarlo todo en el nombre de una persona, ni en el mío, ni en el de Irene",
+   "marks": [
+    [
+     0,
+     1836.3
+    ],
+    [
+     62,
+     1839.9
+    ]
+   ]
   },
   {
    "start": 1841.89,
@@ -440,7 +3094,13 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Montero."
+   "text": "Montero.",
+   "marks": [
+    [
+     0,
+     1841.9
+    ]
+   ]
   },
   {
    "start": 1842.55,
@@ -448,7 +3108,13 @@
    "label": "SPEAKER_05",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Son ustedes los"
+   "text": "Son ustedes los",
+   "marks": [
+    [
+     0,
+     1842.5
+    ]
+   ]
   },
   {
    "start": 1842.55,
@@ -456,7 +3122,17 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "que lo ponen en los nombres de las personas, o sea, más que nosotros."
+   "text": "que lo ponen en los nombres de las personas, o sea, más que nosotros.",
+   "marks": [
+    [
+     0,
+     1842.5
+    ],
+    [
+     56,
+     1845.0
+    ]
+   ]
   },
   {
    "start": 1844.97,
@@ -464,7 +3140,85 @@
    "label": "SPEAKER_05",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Claro, claro, a mí me gustaría, si me lo pregunta a mí, me gustaría un Frente Amplio donde tuviéramos a todas las caras, o sea, tuviéramos a caras, pues a Antonio Maello de Izquierda Unida, que tuviéramos a Mónica García y a personas de Más Madrid, que son muy válidas y están haciendo un gran trabajo en Madrid, a Mónica Oltra, aunque va a ser candidata a Valencia, Pero me encantaría que de alguna manera participe de ese Frente Amplio porque el tema estatal va a afectar también a los ayuntamientos y a las comunidades autónomas. Y evidentemente que me encantaría que Mónica Oltre y Compromís estén ahí. Me encantaría que estuviera Irene y Podemos. Me encantaría que estuviera, evidentemente, Alscomuns. Me gustaría que estuviera toda la gente, ¿no? Toda la gente. Toda la gente que pueda aportar a ese Frente Amplio y que pueda sumar para que no se pierdan votos Y que podamos hacer el mejor acuerdo posible, donde no se pierdan votos y todo el mundo tenga un papel, claro que me gustaría que estuviera todo el mundo."
+   "text": "Claro, claro, a mí me gustaría, si me lo pregunta a mí, me gustaría un Frente Amplio donde tuviéramos a todas las caras, o sea, tuviéramos a caras, pues a Antonio Maello de Izquierda Unida, que tuviéramos a Mónica García y a personas de Más Madrid, que son muy válidas y están haciendo un gran trabajo en Madrid, a Mónica Oltra, aunque va a ser candidata a Valencia, Pero me encantaría que de alguna manera participe de ese Frente Amplio porque el tema estatal va a afectar también a los ayuntamientos y a las comunidades autónomas. Y evidentemente que me encantaría que Mónica Oltre y Compromís estén ahí. Me encantaría que estuviera Irene y Podemos. Me encantaría que estuviera, evidentemente, Alscomuns. Me gustaría que estuviera toda la gente, ¿no? Toda la gente. Toda la gente que pueda aportar a ese Frente Amplio y que pueda sumar para que no se pierdan votos Y que podamos hacer el mejor acuerdo posible, donde no se pierdan votos y todo el mundo tenga un papel, claro que me gustaría que estuviera todo el mundo.",
+   "marks": [
+    [
+     0,
+     1845.0
+    ],
+    [
+     56,
+     1847.4
+    ],
+    [
+     123,
+     1850.8
+    ],
+    [
+     194,
+     1853.9
+    ],
+    [
+     257,
+     1857.3
+    ],
+    [
+     322,
+     1861.2
+    ],
+    [
+     390,
+     1863.7
+    ],
+    [
+     461,
+     1866.8
+    ],
+    [
+     533,
+     1869.7
+    ],
+    [
+     607,
+     1872.9
+    ],
+    [
+     652,
+     1875.5
+    ],
+    [
+     696,
+     1878.1
+    ],
+    [
+     707,
+     1879.0
+    ],
+    [
+     753,
+     1881.5
+    ],
+    [
+     768,
+     1882.3
+    ],
+    [
+     826,
+     1884.7
+    ],
+    [
+     887,
+     1889.0
+    ],
+    [
+     949,
+     1891.6
+    ],
+    [
+     1015,
+     1893.9
+    ]
+   ]
   },
   {
    "start": 1894.07,
@@ -472,7 +3226,13 @@
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "Pero si no estuviera, ¿se explicaría?"
+   "text": "Pero si no estuviera, ¿se explicaría?",
+   "marks": [
+    [
+     0,
+     1894.1
+    ]
+   ]
   },
   {
    "start": 1895.83,
@@ -480,7 +3240,69 @@
    "label": "SPEAKER_05",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "A ver, es que no puedo concebirlo. O sea, yo ahora mismo no puedo concebir que no esté alguien que dice que ve necesario el Frente Amplio, porque Irene Montero, igual que las otras representantes, ha dicho que ve necesario el Frente Amplio. Frente Amplio, pues alguien que ha dicho que es necesario el Frente Amplio lo que tiene que hacer es sentarse a la mesa y ponernos de acuerdo, porque insisto, las diferencias no serán programáticas, estoy segura que sobre el programa nos vamos a poner de acuerdo, entonces si no hay diferencias programáticas, la ciudadanía no entendería que si todos estamos de acuerdo en que ese Frente Amplio es necesario, no estemos ahí para hacer lo posible y que pongamos lo mejor de nosotras mismas con toda la generosidad y con toda la valentía, entonces yo espero que todo el mundo esté ahí."
+   "text": "A ver, es que no puedo concebirlo. O sea, yo ahora mismo no puedo concebir que no esté alguien que dice que ve necesario el Frente Amplio, porque Irene Montero, igual que las otras representantes, ha dicho que ve necesario el Frente Amplio. Frente Amplio, pues alguien que ha dicho que es necesario el Frente Amplio lo que tiene que hacer es sentarse a la mesa y ponernos de acuerdo, porque insisto, las diferencias no serán programáticas, estoy segura que sobre el programa nos vamos a poner de acuerdo, entonces si no hay diferencias programáticas, la ciudadanía no entendería que si todos estamos de acuerdo en que ese Frente Amplio es necesario, no estemos ahí para hacer lo posible y que pongamos lo mejor de nosotras mismas con toda la generosidad y con toda la valentía, entonces yo espero que todo el mundo esté ahí.",
+   "marks": [
+    [
+     0,
+     1895.8
+    ],
+    [
+     35,
+     1898.0
+    ],
+    [
+     57,
+     1898.5
+    ],
+    [
+     121,
+     1902.6
+    ],
+    [
+     200,
+     1906.2
+    ],
+    [
+     241,
+     1908.4
+    ],
+    [
+     273,
+     1909.4
+    ],
+    [
+     333,
+     1910.9
+    ],
+    [
+     400,
+     1914.0
+    ],
+    [
+     479,
+     1917.2
+    ],
+    [
+     554,
+     1920.1
+    ],
+    [
+     622,
+     1924.0
+    ],
+    [
+     689,
+     1927.2
+    ],
+    [
+     756,
+     1930.8
+    ],
+    [
+     820,
+     1933.6
+    ]
+   ]
   },
   {
    "start": 1933.85,
@@ -488,7 +3310,25 @@
    "label": "SPEAKER_03",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "Señora Colau, usted dice que ha hablado con Mónica García, con Irene Montero, ha hablado de programa político, habla de todas las caras que le gustaría que estuviesen, de las conversaciones, ¿cómo de Armada está su candidatura y cómo de Madura se están las negociaciones?"
+   "text": "Señora Colau, usted dice que ha hablado con Mónica García, con Irene Montero, ha hablado de programa político, habla de todas las caras que le gustaría que estuviesen, de las conversaciones, ¿cómo de Armada está su candidatura y cómo de Madura se están las negociaciones?",
+   "marks": [
+    [
+     0,
+     1933.8
+    ],
+    [
+     69,
+     1938.0
+    ],
+    [
+     140,
+     1941.7
+    ],
+    [
+     215,
+     1944.5
+    ]
+   ]
   },
   {
    "start": 1948.59,
@@ -496,7 +3336,65 @@
    "label": "SPEAKER_05",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Las negociaciones las están liderando los partidos políticos, yo no tengo ningún cargo ejecutivo, aparte de la política institucional dejé los cargos no solo institucionales sino también ejecutivos en los partidos porque creo que es saludable, soy una militante rasa ahora mismo. Y por lo tanto, claro que he ido hablando con gente para intentar facilitar consensos, pero quienes están trabajando en todo esto, en el programa, en los acuerdos y tal, son las personas representantes de las ejecutivas de los partidos, y así tiene que ser. Entonces, creo que se está avanzando, creo que hacía tiempo ya que habían conversaciones, por suerte, no se ha empezado de cero en los últimos días, y yo quiero confiar, insisto, en que el sentido común se imponga y que esas conversaciones den frutos en pocos días, eso confío."
+   "text": "Las negociaciones las están liderando los partidos políticos, yo no tengo ningún cargo ejecutivo, aparte de la política institucional dejé los cargos no solo institucionales sino también ejecutivos en los partidos porque creo que es saludable, soy una militante rasa ahora mismo. Y por lo tanto, claro que he ido hablando con gente para intentar facilitar consensos, pero quienes están trabajando en todo esto, en el programa, en los acuerdos y tal, son las personas representantes de las ejecutivas de los partidos, y así tiene que ser. Entonces, creo que se está avanzando, creo que hacía tiempo ya que habían conversaciones, por suerte, no se ha empezado de cero en los últimos días, y yo quiero confiar, insisto, en que el sentido común se imponga y que esas conversaciones den frutos en pocos días, eso confío.",
+   "marks": [
+    [
+     0,
+     1948.6
+    ],
+    [
+     81,
+     1952.8
+    ],
+    [
+     158,
+     1956.8
+    ],
+    [
+     244,
+     1960.7
+    ],
+    [
+     280,
+     1964.7
+    ],
+    [
+     306,
+     1966.0
+    ],
+    [
+     386,
+     1969.0
+    ],
+    [
+     450,
+     1972.7
+    ],
+    [
+     523,
+     1976.8
+    ],
+    [
+     538,
+     1979.6
+    ],
+    [
+     591,
+     1982.2
+    ],
+    [
+     661,
+     1984.8
+    ],
+    [
+     724,
+     1988.7
+    ],
+    [
+     792,
+     1992.2
+    ]
+   ]
   },
   {
    "start": 1993.85,
@@ -504,7 +3402,25 @@
    "label": "SPEAKER_03",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "Si todo fuese según a usted le gustaría que estuviese dispuesto, ¿cómo asumiría la candidatura del Frente Amplio para liderarlo? ¿En qué sentido cómo asumiría?"
+   "text": "Si todo fuese según a usted le gustaría que estuviese dispuesto, ¿cómo asumiría la candidatura del Frente Amplio para liderarlo? ¿En qué sentido cómo asumiría?",
+   "marks": [
+    [
+     0,
+     1993.8
+    ],
+    [
+     71,
+     1999.4
+    ],
+    [
+     129,
+     2002.9
+    ],
+    [
+     150,
+     2004.0
+    ]
+   ]
   },
   {
    "start": 2004.33,
@@ -512,7 +3428,153 @@
    "label": "SPEAKER_05",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "¿Con responsabilidad, con disposición, con energía? Hombre, por supuesto hay que ponerlo todo. Insisto, si es un momento histórico donde nos jugamos muchísimo, no solo frenar a la extrema derecha, sino avanzar en derechos y libertades, como es el tema de la vivienda, pues hay que hacerlo con valentía, con energía, con alegría también, porque nos quieren tristes. Yo creo que la extrema derecha insiste mucho para asustarnos, para que estemos tristes y aisladas en casa pensando que no hay nada que hacer. Pues se trata de darle la vuelta a eso y ver que cuando nos juntamos, como ha demostrado la gente en la calle, cuando nos juntamos cosas que nos decían que eran imposibles son posibles. Yo a lo largo de mi vida activista he visto varias veces eso. Y eso te da energía y fuerzas para decir lo que no podemos es bajar los brazos porque entonces sí que nos van a derrotar. Y somos muchas, somos una mayoría social. Yo creo que eso también el neoliberalismo nos ha ido dividiendo, nos ha ido aislando. Y tenemos que acordarnos que la mayoría de la gente somos gente trabajadora que paga sus impuestos, no somos rentistas ni especuladores, que la mayoría de la gente queremos vivir en paz, no queremos vivir en guerra, que la mayoría de la gente queremos unos buenos servicios públicos, bien dotados, con recursos, que funcionen y que lleguen a todo el mundo. Si la mayoría social quiere eso, no puede ser que no seamos capaces de organizarnos institucionalmente para hacerlo realidad. Entonces yo creo que la calle está marcando el camino, nos está recordando cuál es el sentido profundo de la política y hay que estar a la altura de ese momento y ponerse con todas las ganas y con toda la ilusión, claro que sí."
+   "text": "¿Con responsabilidad, con disposición, con energía? Hombre, por supuesto hay que ponerlo todo. Insisto, si es un momento histórico donde nos jugamos muchísimo, no solo frenar a la extrema derecha, sino avanzar en derechos y libertades, como es el tema de la vivienda, pues hay que hacerlo con valentía, con energía, con alegría también, porque nos quieren tristes. Yo creo que la extrema derecha insiste mucho para asustarnos, para que estemos tristes y aisladas en casa pensando que no hay nada que hacer. Pues se trata de darle la vuelta a eso y ver que cuando nos juntamos, como ha demostrado la gente en la calle, cuando nos juntamos cosas que nos decían que eran imposibles son posibles. Yo a lo largo de mi vida activista he visto varias veces eso. Y eso te da energía y fuerzas para decir lo que no podemos es bajar los brazos porque entonces sí que nos van a derrotar. Y somos muchas, somos una mayoría social. Yo creo que eso también el neoliberalismo nos ha ido dividiendo, nos ha ido aislando. Y tenemos que acordarnos que la mayoría de la gente somos gente trabajadora que paga sus impuestos, no somos rentistas ni especuladores, que la mayoría de la gente queremos vivir en paz, no queremos vivir en guerra, que la mayoría de la gente queremos unos buenos servicios públicos, bien dotados, con recursos, que funcionen y que lleguen a todo el mundo. Si la mayoría social quiere eso, no puede ser que no seamos capaces de organizarnos institucionalmente para hacerlo realidad. Entonces yo creo que la calle está marcando el camino, nos está recordando cuál es el sentido profundo de la política y hay que estar a la altura de ese momento y ponerse con todas las ganas y con toda la ilusión, claro que sí.",
+   "marks": [
+    [
+     0,
+     2004.3
+    ],
+    [
+     52,
+     2007.5
+    ],
+    [
+     89,
+     2008.8
+    ],
+    [
+     95,
+     2009.2
+    ],
+    [
+     163,
+     2012.3
+    ],
+    [
+     236,
+     2015.2
+    ],
+    [
+     293,
+     2017.6
+    ],
+    [
+     365,
+     2021.2
+    ],
+    [
+     373,
+     2021.6
+    ],
+    [
+     452,
+     2026.0
+    ],
+    [
+     507,
+     2028.3
+    ],
+    [
+     512,
+     2028.6
+    ],
+    [
+     563,
+     2030.5
+    ],
+    [
+     629,
+     2033.0
+    ],
+    [
+     693,
+     2036.2
+    ],
+    [
+     698,
+     2036.6
+    ],
+    [
+     755,
+     2038.9
+    ],
+    [
+     757,
+     2039.3
+    ],
+    [
+     814,
+     2042.1
+    ],
+    [
+     877,
+     2044.5
+    ],
+    [
+     919,
+     2046.6
+    ],
+    [
+     943,
+     2047.9
+    ],
+    [
+     1005,
+     2051.2
+    ],
+    [
+     1015,
+     2051.4
+    ],
+    [
+     1085,
+     2055.2
+    ],
+    [
+     1160,
+     2058.9
+    ],
+    [
+     1225,
+     2061.6
+    ],
+    [
+     1303,
+     2065.4
+    ],
+    [
+     1362,
+     2068.7
+    ],
+    [
+     1365,
+     2069.1
+    ],
+    [
+     1430,
+     2072.1
+    ],
+    [
+     1488,
+     2074.5
+    ],
+    [
+     1518,
+     2075.5
+    ],
+    [
+     1591,
+     2079.1
+    ],
+    [
+     1641,
+     2081.7
+    ],
+    [
+     1702,
+     2084.4
+    ]
+   ]
   },
   {
    "start": 2085.15,
@@ -520,7 +3582,21 @@
    "label": "SPEAKER_03",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "Señora Colau, gracias por habernos acompañado esta mañana en directo aquí en el plato de la hora de la 1. Gracias, buen día."
+   "text": "Señora Colau, gracias por habernos acompañado esta mañana en directo aquí en el plato de la hora de la 1. Gracias, buen día.",
+   "marks": [
+    [
+     0,
+     2085.2
+    ],
+    [
+     77,
+     2087.8
+    ],
+    [
+     106,
+     2089.1
+    ]
+   ]
   }
  ]
 }
