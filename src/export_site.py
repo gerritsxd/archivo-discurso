@@ -528,7 +528,7 @@ def build_analysis(ctx):
     opts = "".join(f'<option value="{esc(pid)}">{esc(people[pid]["name"])}</option>' for pid in ctx["candidates"])
     topics = "".join(f'<option value="{esc(t)}">{esc(t)}</option>' for t in TOPICS_ES)
     tabs = [("promesa", "Promesas"), ("ataque", "Ataques"), ("insulto", "Insultos"), ("dato", "Cifras"),
-            ("postura", "Posturas"), ("contradiccion", "Posibles contradicciones")]
+            ("postura", "Posturas"), ("contradiccion", "Posibles contradicciones"), ("tono", "Tono")]
     tabh = "".join(f'<button type="button" class="tab" data-v="{k}"{" aria-pressed=true" if i == 0 else ""}>{esc(t)}</button>'
                    for i, (k, t) in enumerate(tabs))
     body = f"""

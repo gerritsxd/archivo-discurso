@@ -313,3 +313,12 @@ section .search { margin-top: 1rem; }
 .tab { background: transparent; color: var(--ink); border: 1px solid var(--rule-strong); padding: 0.45rem 0.8rem; font: 400 0.875rem/1.2 var(--sans); }
 .tab:hover { background: var(--paper-2); }
 .tab[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.tbar { position: relative; height: 0.7rem; max-width: 28rem; background: var(--paper-2); border-radius: 2px; margin: 0.3rem 0 0.8rem; }
+.tbar-fill { position: absolute; top: 0; bottom: 0; background: var(--ink-2); border-radius: 2px; }
+.tbar-zero { position: absolute; top: -0.2rem; bottom: -0.2rem; width: 1px; background: var(--muted); }
+.tdays { display: flex; gap: 2px; align-items: center; height: 3rem; max-width: 28rem; margin: 0.3rem 0 0.5rem; }
+.tday { position: relative; flex: 1; height: 100%; display: flex; flex-direction: column; }
+.tday::before { content: ""; position: absolute; left: 0; right: 0; top: 50%; height: 1px; background: var(--rule); }
+.tday-pos, .tday-neg { position: absolute; left: 1px; right: 1px; background: var(--ink-2); border-radius: 2px; }
+.tday-pos { bottom: 50%; max-height: 50%; }
+.tday-neg { top: 50%; max-height: 50%; opacity: 0.55; }

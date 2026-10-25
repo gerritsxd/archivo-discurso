@@ -12,6 +12,7 @@ POST /api/guess {"date": "...", "n": 0, "guess": "abascal"}   -> answer + source
 GET  /api/claims?person=&type=promesa|dato|ataque|postura&topic=&insult=1&target=&q=&limit=&offset=
 GET  /api/contradictions[?person=]      possible contradictions (both quotes + sources)
 GET  /api/analysis                      counts per candidate: types, topics, attack targets, insults
+GET  /api/tone                          tone per candidate (-2..2, weighted by seconds), emotions, share on rivals
 """
 import argparse
 import json
@@ -137,6 +138,8 @@ class Handler(BaseHTTPRequestHandler):
                     return self.send(self.claims(db, q))
                 if path == "/api/contradictions":
                     return self.send(self.contradictions(db, q))
+                if path == "/api/tone":
+                    return self.send(self.tone(db))
                 if path == "/api/analysis":
                     return self.send(self.analysis(db))
                 if path == "/api/daily":
@@ -223,6 +226,25 @@ class Handler(BaseHTTPRequestHandler):
                 out.append({"person": x["person"], "topic": x["topic"], "kind": x["kind"], "explanation": x["explanation"],
                             "a": self.claim_json(a), "b": self.claim_json(b)})
         return {"total": len(out), "results": out}
+
+    def tone(self, db):
+        per = {}
+        for r in db.execute("SELECT person, SUM(seconds) s, SUM(tone*seconds)/SUM(seconds) t, "
+                            "SUM(rivals*seconds)/SUM(seconds) rv, COUNT(*) n FROM tone GROUP BY person"):
+            per[r["person"]] = {"seconds": round(r["s"]), "tone": round(r["t"], 2), "rivals": round(r["rv"]),
+                                "chunks": r["n"], "emotions": {}, "by_date": {}}
+        for r in db.execute("SELECT person, emotions, seconds FROM tone"):
+            e = per[r["person"]]["emotions"]
+            for x in json.loads(r["emotions"]):
+                e[x] = e.get(x, 0) + r["seconds"]
+        for p in per.values():
+            tot = sum(p["emotions"].values()) or 1
+            p["emotions"] = dict(sorted(((k, round(100 * v / tot)) for k, v in p["emotions"].items()),
+                                        key=lambda kv: -kv[1]))
+        for r in db.execute("SELECT person, date, SUM(tone*seconds)/SUM(seconds) t, SUM(seconds) s FROM tone "
+                            "GROUP BY person, date ORDER BY date"):
+            per[r["person"]]["by_date"][r["date"]] = {"tone": round(r["t"], 2), "seconds": round(r["s"])}
+        return {"per_person": per, "candidates": candidates()}
 
     def analysis(self, db):
         per = {}

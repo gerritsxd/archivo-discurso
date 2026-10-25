@@ -57,8 +57,56 @@
     else if (view !== "contradiccion") p.push("type=" + view);
     return p.join("&");
   }
+  function bar(value, min, max, label) {
+    // horizontal bar from the zero line; value in [min, max]
+    var wrap = el("div", "tbar"), zero = (0 - min) / (max - min) * 100;
+    var b = el("span", "tbar-fill");
+    var a = (Math.min(value, 0) - min) / (max - min) * 100, w = Math.abs(value) / (max - min) * 100;
+    b.style.left = a + "%"; b.style.width = Math.max(w, 0.6) + "%";
+    if (min < 0) { var z = el("span", "tbar-zero"); z.style.left = zero + "%"; wrap.appendChild(z); }
+    wrap.appendChild(b);
+    wrap.title = label;
+    return wrap;
+  }
+  function loadTone(my) {
+    fetch("api/tone").then(function (r) { return r.json(); }).then(function (d) {
+      if (my !== runId) return;
+      var only = $("c").value;
+      var rows = (d.candidates || []).filter(function (c) { return d.per_person[c.id] && (!only || only === c.id); });
+      rows.forEach(function (c) {
+        var p = d.per_person[c.id], li = el("li", "res");
+        li.appendChild(el("p", "who", c.name));
+        var t = p.tone.toLocaleString("es-ES", { minimumFractionDigits: 2 });
+        li.appendChild(el("p", "src", "Tono medio: " + t + " (de −2, muy negativo, a +2, muy positivo)"));
+        li.appendChild(bar(p.tone, -2, 2, "Tono " + t));
+        li.appendChild(el("p", "src", "Tiempo dedicado a hablar de rivales: " + p.rivals + " %"));
+        li.appendChild(bar(p.rivals, 0, 100, p.rivals + " % sobre rivales"));
+        var emo = Object.keys(p.emotions).slice(0, 4).map(function (k) { return k + " " + p.emotions[k] + " %"; });
+        li.appendChild(el("p", "src", "Emociones a las que apela: " + emo.join(" · ")));
+        var days = Object.keys(p.by_date);
+        if (days.length > 1) {
+          var tl = el("div", "tdays");
+          days.forEach(function (dd) {
+            var v = p.by_date[dd], cell = el("span", "tday");
+            var h = Math.abs(v.tone) / 2 * 50;
+            var f = el("span", v.tone < 0 ? "tday-neg" : "tday-pos");
+            f.style.height = Math.max(h, 2) + "%";
+            cell.appendChild(f);
+            cell.title = dateEs(dd) + ": tono " + v.tone.toLocaleString("es-ES") + " (" + Math.round(v.seconds / 60) + " min)";
+            tl.appendChild(cell);
+          });
+          li.appendChild(el("p", "src", "Tono por día (" + dateEs(days[0]) + " – " + dateEs(days[days.length - 1]) + "), pasa el ratón para ver cada día:"));
+          li.appendChild(tl);
+        }
+        list.appendChild(li);
+      });
+      status.textContent = "Tono de cada candidato, ponderado por minutos de voz. Valoración automática de cada fragmento de unos 2 minutos.";
+      moreBtn.hidden = true;
+    }).catch(function () { if (my === runId) status.textContent = "El servidor no responde. Prueba en un momento."; });
+  }
   function load(reset) {
     var my = ++runId;
+    if (view === "tono") { list.textContent = ""; status.textContent = "Cargando…"; return loadTone(my); }
     if (reset) { offset = 0; list.textContent = ""; }
     status.textContent = "Cargando…";
     var url = view === "contradiccion" ? "api/contradictions?" + params()
