@@ -18,6 +18,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import llm  # noqa: E402
 from tag_claims import chunks  # noqa: E402
+from marks import time_at  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 DB = ROOT / "data" / "archivo.db"
@@ -39,11 +40,11 @@ def main():
     ap.add_argument("--workers", type=int, default=10)
     args = ap.parse_args()
     db = sqlite3.connect(DB)
-    turns = db.execute("""SELECT t.id, t.item_id, t.person, t.name, t.start, t.end, t.text, i.date
+    turns = db.execute("""SELECT t.id, t.item_id, t.person, t.name, t.start, t.end, t.text, i.date, t.marks, i.kind
         FROM turns t JOIN items i ON i.id = t.item_id WHERE t.person IS NOT NULL AND length(t.text) > 60""").fetchall()
     cache = json.loads(CACHE.read_text(encoding="utf-8")) if CACHE.exists() else {}
     jobs = {}
-    for tid, iid, person, name, st, en, text, date in turns:
+    for tid, iid, person, name, st, en, text, date, mk, kind in turns:
         for off, c in chunks(text):
             k = hashlib.sha1((person + c).encode()).hexdigest()[:16]
             if k not in cache:
@@ -68,9 +69,10 @@ def main():
 
     db.execute("DROP TABLE IF EXISTS tone")
     db.execute("""CREATE TABLE tone (item_id TEXT, turn_id INTEGER, person TEXT, date TEXT, seconds REAL,
-        tone REAL, emotions TEXT, rivals REAL)""")
+        tone REAL, emotions TEXT, rivals REAL, kind TEXT, start REAL, excerpt TEXT)""")
     rows = []
-    for tid, iid, person, name, st, en, text, date in turns:
+    for tid, iid, person, name, st, en, text, date, mk, kind in turns:
+        mk = json.loads(mk or "[]")
         for off, c in chunks(text):
             r = cache.get(hashlib.sha1((person + c).encode()).hexdigest()[:16])
             try:
@@ -79,8 +81,9 @@ def main():
                 continue
             emos = [e for e in (r.get("emociones") or []) if e in EMOTIONS][:3]
             secs = (en - st) * len(c) / max(len(text), 1)   # weight: this chunk's share of the turn
-            rows.append((iid, tid, person, date, round(secs, 1), tone, json.dumps(emos, ensure_ascii=False), rivals))
-    db.executemany("INSERT INTO tone VALUES (?,?,?,?,?,?,?,?)", rows)
+            rows.append((iid, tid, person, date, round(secs, 1), tone, json.dumps(emos, ensure_ascii=False), rivals,
+                         kind, round(time_at(mk, off, st), 1), c[:420]))
+    db.executemany("INSERT INTO tone VALUES (?,?,?,?,?,?,?,?,?,?,?)", rows)
     db.commit()
     for r in db.execute("""SELECT person, ROUND(SUM(tone*seconds)/SUM(seconds),2), ROUND(SUM(rivals*seconds)/SUM(seconds))
                            FROM tone GROUP BY person"""):

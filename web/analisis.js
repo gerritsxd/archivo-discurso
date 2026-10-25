@@ -74,6 +74,43 @@
       if (my !== runId) return;
       var only = $("c").value;
       var rows = (d.candidates || []).filter(function (c) { return d.per_person[c.id] && (!only || only === c.id); });
+      var how = el("li", "res");
+      how.appendChild(el("p", "who", "Cómo se calcula"));
+      [
+        "1. Todo lo que dice cada candidato se corta en fragmentos de unos 2.500 caracteres (unos 2 minutos de habla).",
+        "2. Un modelo de lenguaje (DeepSeek) lee cada fragmento por separado y le pone una nota de −2 a +2: −2 muy negativo (denuncia, alarma, ataque), 0 neutro o informativo, +2 muy positivo (ilusión, orgullo, propuestas en positivo). Se le pide valorar el tono, no el tema: hablar de un problema proponiendo soluciones no cuenta como negativo.",
+        "3. También anota hasta tres emociones a las que apela el fragmento y qué parte (0–100 %) dedica a hablar de rivales frente a sus propias propuestas.",
+        "4. La media de cada candidato pondera cada fragmento por los minutos que dura, para que un fragmento corto no pese lo mismo que uno largo.",
+        "Ojo: el tono depende mucho del tipo de aparición (un mitin suele ser más duro que una entrevista) y cada candidato tiene una mezcla distinta; por eso se muestra también por tipo. Es una valoración automática: abajo tienes, para cada candidato, los fragmentos más negativos y más positivos para que puedas juzgar si la nota tiene sentido."
+      ].forEach(function (t) { how.appendChild(el("p", "src", t)); });
+      var gh = el("p", "src"), ga = el("a", null, "las instrucciones exactas que recibe el modelo");
+      ga.href = "https://github.com/gerritsxd/archivo-discurso/blob/main/src/tone.py";
+      gh.appendChild(document.createTextNode("Puedes leer ")); gh.appendChild(ga);
+      gh.appendChild(document.createTextNode(" y descargar la nota de cada fragmento en "));
+      var da = el("a", null, "Datos"); da.href = "datos.html"; gh.appendChild(da); gh.appendChild(document.createTextNode("."));
+      how.appendChild(gh);
+      list.appendChild(how);
+      var KIND = { rally: "mitin", interview: "entrevista", speech: "discurso", press_conf: "rueda de prensa", other: "otros" };
+      function examples(li, p) {
+        if (!p.examples) return;
+        [["negative", "Fragmentos más negativos"], ["positive", "Fragmentos más positivos"]].forEach(function (pair) {
+          var xs = p.examples[pair[0]] || [];
+          if (!xs.length) return;
+          var det = el("details", "tex");
+          det.appendChild(el("summary", null, pair[1]));
+          xs.forEach(function (x) {
+            var box = el("div", "ctx");
+            box.appendChild(el("p", "src", "Nota " + x.tone.toLocaleString("es-ES") + " · " + dateEs(x.date) + " · " + x.outlet));
+            box.appendChild(el("blockquote", "pull", x.excerpt + (x.excerpt.length >= 420 ? "…" : "")));
+            var links = el("p", "links");
+            var a = el("a", null, "transcripción (" + clock(x.start) + ")"); a.href = "a/" + encodeURIComponent(x.item_id) + ".html"; links.appendChild(a);
+            if (x.link) { var o = el("a", null, "fuente original"); o.href = x.link; o.rel = "noopener noreferrer"; o.target = "_blank"; links.appendChild(o); }
+            box.appendChild(links);
+            det.appendChild(box);
+          });
+          li.appendChild(det);
+        });
+      }
       rows.forEach(function (c) {
         var p = d.per_person[c.id], li = el("li", "res");
         li.appendChild(el("p", "who", c.name));
@@ -84,6 +121,12 @@
         li.appendChild(bar(p.rivals, 0, 100, p.rivals + " % sobre rivales"));
         var emo = Object.keys(p.emotions).slice(0, 4).map(function (k) { return k + " " + p.emotions[k] + " %"; });
         li.appendChild(el("p", "src", "Emociones a las que apela: " + emo.join(" · ")));
+        if (p.by_kind) {
+          var bk = Object.keys(p.by_kind).sort(function (x, y) { return p.by_kind[y].minutes - p.by_kind[x].minutes; })
+            .map(function (k) { return (KIND[k] || k) + " " + p.by_kind[k].tone.toLocaleString("es-ES") + " (" + p.by_kind[k].minutes + " min)"; });
+          li.appendChild(el("p", "src", "Por tipo de aparición: " + bk.join(" · ")));
+        }
+        li.appendChild(el("p", "src", "Base: " + Math.round(p.seconds / 60) + " minutos de voz en " + p.chunks + " fragmentos."));
         var days = Object.keys(p.by_date);
         if (days.length > 1) {
           var tl = el("div", "tdays");
@@ -99,9 +142,10 @@
           li.appendChild(el("p", "src", "Tono por día (" + dateEs(days[0]) + " – " + dateEs(days[days.length - 1]) + "), pasa el ratón para ver cada día:"));
           li.appendChild(tl);
         }
+        examples(li, p);
         list.appendChild(li);
       });
-      status.textContent = "Tono de cada candidato, ponderado por minutos de voz. Valoración automática de cada fragmento de unos 2 minutos.";
+      status.textContent = "";
       moreBtn.hidden = true;
     }).catch(function () { if (my === runId) status.textContent = "El servidor no responde. Prueba en un momento."; });
   }

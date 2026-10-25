@@ -291,6 +291,23 @@ class Handler(BaseHTTPRequestHandler):
         for r in db.execute("SELECT person, date, SUM(tone*seconds)/SUM(seconds) t, SUM(seconds) s FROM tone "
                             "GROUP BY person, date ORDER BY date"):
             per[r["person"]]["by_date"][r["date"]] = {"tone": round(r["t"], 2), "seconds": round(r["s"])}
+        cols = [c[1] for c in db.execute("PRAGMA table_info(tone)")]
+        if "excerpt" in cols:
+            for r in db.execute("SELECT person, kind, SUM(tone*seconds)/SUM(seconds) t, SUM(seconds) s FROM tone "
+                                "GROUP BY person, kind"):
+                per[r["person"]].setdefault("by_kind", {})[r["kind"] or "otro"] = {
+                    "tone": round(r["t"], 2), "minutes": round(r["s"] / 60)}
+            for pid in per:
+                ex = {}
+                for label, order in (("negative", "ASC"), ("positive", "DESC")):
+                    ex[label] = [{"tone": x["tone"], "excerpt": x["excerpt"], "date": x["date"], "outlet": x["outlet"],
+                                  "item_id": x["item_id"], "start": x["start"],
+                                  "link": source_link(x["url"], x["start"])}
+                                 for x in db.execute(
+                                     "SELECT t.tone, t.excerpt, t.date, t.item_id, t.start, i.outlet, i.url FROM tone t "
+                                     "JOIN items i ON i.id = t.item_id WHERE t.person = ? AND t.seconds >= 30 "
+                                     f"ORDER BY t.tone {order}, t.seconds DESC LIMIT 2", (pid,))]
+                per[pid]["examples"] = ex
         return {"per_person": per, "candidates": candidates()}
 
     def analysis(self, db):

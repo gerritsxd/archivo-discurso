@@ -386,3 +386,7 @@ section .search { margin-top: 1rem; }
 .search input { min-width: 0; flex: 1 1 auto; }
 .search button { flex: none; }
 .prose, .lede, .beta, .ht-x { overflow-wrap: anywhere; }
+
+.tex { margin: 0.4rem 0; }
+.tex summary { cursor: pointer; font: 600 0.875rem/1.6 var(--sans); }
+.tex .ctx { margin: 0.6rem 0; }
