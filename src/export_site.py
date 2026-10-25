@@ -298,7 +298,7 @@ def page(root, title, body, active="", desc="", body_attrs=""):
 <footer class="foot">
   <div class="wrap">
     <p>{esc(SITE_SUB)}. Textos y marcas de tiempo; el audio y el vídeo están en la fuente original, enlazada en cada cita.</p>
-    <p>Datos bajo licencia CC BY 4.0. <a href="{root}privacidad.html">Sin cookies, sin analítica, sin rastreo</a>. Generado el {esc(GENERATED)}. <a href="{root}como-funciona.html#correcciones">Comunicar un error</a>.</p>
+    <p><a href="https://github.com/gerritsxd/archivo-discurso">Código abierto en GitHub</a>. Datos bajo licencia CC BY 4.0. <a href="{root}privacidad.html">Sin cookies, sin analítica, sin rastreo</a>. Generado el {esc(GENERATED)}. <a href="{root}como-funciona.html#correcciones">Comunicar un error</a>.</p>
   </div>
 </footer>
 </body>
