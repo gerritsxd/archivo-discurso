@@ -1,0 +1,522 @@
+{
+ "id": "2026-10-22-abascal-2a93f9",
+ "date": "2026-10-22",
+ "expected_person": "Santiago Abascal",
+ "kind": "interview",
+ "outlet": "Cuatro (Horizonte) via VOX YouTube",
+ "title": "🔴 EXCLUSIVA: SANTIAGO ABASCAL denuncia en HORIZONTE la violencia contra VOX en precampaña",
+ "url": "https://www.youtube.com/watch?v=aB5wrRlOxBQ",
+ "language": "es",
+ "duration_s": 1241.58,
+ "sha256": "7527c9d238e3ca018b42655336f9006fd4d538e1c7d419308dd8078b79407f4f",
+ "fetched_at": "2026-10-25T09:33:02+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.55,
+  "processed_at": "2026-10-25T15:20:05+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_05": {
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "decision": "match",
+   "reason": "sim 0.90, next 0.42",
+   "talk_s": 725.9
+  },
+  "SPEAKER_03": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "unknown",
+   "reason": "best sim 0.51 < 0.55",
+   "talk_s": 38.9
+  },
+  "SPEAKER_02": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "unknown",
+   "reason": "best sim 0.50 < 0.55",
+   "talk_s": 71.1
+  },
+  "SPEAKER_04": {
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "decision": "too_short",
+   "reason": "only 18s of speech",
+   "talk_s": 18.4
+  },
+  "SPEAKER_01": {
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "decision": "unknown",
+   "reason": "best sim 0.33 < 0.55",
+   "talk_s": 244.8
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "decision": "unknown",
+   "reason": "best sim 0.25 < 0.55",
+   "talk_s": 75.3
+  }
+ },
+ "turns": [
+  {
+   "start": 0.34,
+   "end": 1.64,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Santiago Abascal, buenas noches."
+  },
+  {
+   "start": 2.72,
+   "end": 4.24,
+   "label": "SPEAKER_05",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Muy buenas noches, ¿cómo estáis?"
+  },
+  {
+   "start": 4.76,
+   "end": 6.78,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "En Avilés. ¿Cómo estás tú, lo primero?"
+  },
+  {
+   "start": 7.96,
+   "end": 27.68,
+   "label": "SPEAKER_05",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Bueno, yo desgraciadamente estoy acostumbrado a la par que he indignado de que esto siga ocurriendo. Yo estoy bien físicamente y lamento que algunos de los asistentes a los mítines de Vox no estén bien y lamento también que haya muchos policías heridos, tanto en La Coruña como en Avilés, en unos actos claramente organizados y permitidos por el gobierno."
+  },
+  {
+   "start": 28.36,
+   "end": 40.48,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "A ver, había un mitin en La Coruña, que era el primer sitio donde ha habido incidentes. Ahora vamos a hacer el repaso, Santiago, de todo lo que ha ido pasando. ¿Esto a qué hora era? ¿Ara por la mañana?"
+  },
+  {
+   "start": 41.94,
+   "end": 88.24,
+   "label": "SPEAKER_05",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "La Coruña ha sido hoy a las 12 de la mañana. Nosotros habíamos convocado una declaración a los medios de comunicación, una rueda de prensa, a la que han venido medio millar de simpatizantes de Vox, y a 60 metros de esa convocatoria la delegación del gobierno ha permitido una contramanifestación en la misma plaza. Y eso es lo llamativo. Bueno, debería ser llamativo, al menos, nosotros digo que estamos acostumbrados, porque nos ha venido pasando durante muchos actos electorales, y yo creo que estamos ante delitos electorales, tratando de impedir la celebración de los mismos, con decisiones tomadas por la administración. Yo creo que nadie se imagina que en un acto del Partido Socialista se convoque una contramanifestación en la misma plaza, a 50 metros o a 15 metros,"
+  },
+  {
+   "start": 96.3,
+   "end": 99.1,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Yolanda Díaz,"
+  },
+  {
+   "start": 99.1,
+   "end": 99.54,
+   "label": "SPEAKER_05",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Alberto"
+  },
+  {
+   "start": 99.1,
+   "end": 100.04,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Núñez Feijóo,"
+  },
+  {
+   "start": 100.04,
+   "end": 100.84,
+   "label": "SPEAKER_05",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Santiago"
+  },
+  {
+   "start": 100.04,
+   "end": 130.35,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Abascal, Ada Colau, Irene Montero, Frente Amplio, Junta Electoral Central, Tribunal Constitucional ¿Han intentado evitar el acto en cierto momento, de cierta forma? ¿Y luego han entrado los antidisturbios?"
+  },
+  {
+   "start": 132.41,
+   "end": 292.39,
+   "label": "SPEAKER_05",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Bueno, realmente han estado intentando impedir la celebración del acto durante todo el tiempo, con gritos perfectamente audibles que incomodaban la posibilidad de dirigirnos a nuestros simpatizantes y que lógicamente soliviantan los ánimos de alguien que ha ido a escuchar un acto político. Y eso se ha quedado únicamente en gritos inicialmente porque estaban entre ellos y nosotros los antidisturbios, protegiendo nuestro acto. Pero yo insisto, dando las gracias por supuesto a los miembros del Cuerpo Nacional de Policía que además han puesto en riesgo y han padecido su propia integridad física como consecuencia de estos eventos. Insisto en que esto ha ocurrido porque la delegación del gobierno quiere que ocurra. Hace unos días, cuando se convocaron las elecciones, yo advertí de que esta iba a ser una campaña de violencia, en la que el gobierno iba a utilizar a sus milicias para hostigar los actos políticos, animé a nuestros militantes a no caer en las provocaciones, lo hice públicamente, y lo cierto es que se está cumpliendo punto por punto lo que en ese momento predije. Insisto, no es nuevo, pero me da la sensación de que van a intentar que esta campaña sea permanentemente violenta. De alguna forma yo he comenzado la pre-campaña electoral hoy en La Coruña, después me he ido a Áviles y en ambos lugares ha habido problemas. Y había muchos simpatizantes de Vox. En Áviles había una plaza abarrotada con 2.000 simpatizantes de Vox y muy cerca a una calle había 200 tipos protestando que en cuanto nuestro acto ha terminado se han dedicado a ir a la caza de las personas que llevaban una bandera de España. Son grupos autodenominados antifascistas, también, según nos han informado los responsables de comunicación del partido de Asturias, con grupos de magrebíes. Es muy llamativo porque esto es algo que venimos viendo hace mucho tiempo en toda España. Esas protestas unen a esas personas. Y creo que en torno a la defensa de este gobierno se está uniendo todo tipo de extremismo. Y por eso yo me atrevo a llamarles las milicias de Pedro Sánchez, a las que hoy estaban en La Coruña, milicias de ultraizquierda, también me atrevo a llamar milicias de Pedro Sánchez, a quienes han entrado ilegalmente en Ceuta con la bajada de brazos de nuestro gobierno, y vemos que también hay milicias de los que pactan con este gobierno quemando los ayuntamientos en Francia, por gente que tiene relación con la banda terrorista ETA. Yo creo que estamos ante algo muy preocupante en toda Europa. Están atizando la violencia porque van a llegar grandes cambios políticos y tratan de impedirlo atemorizando a la gente. Es verdad que es muy incómodo para nosotros, pero bueno, yo también tengo que decirles que no vamos a dar un solo paso atrás, que desgraciadamente estamos acostumbrados y entre los nuestros hay gente muy valiente."
+  },
+  {
+   "start": 292.39,
+   "end": 294.33,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Yolanda"
+  },
+  {
+   "start": 294.33,
+   "end": 297.73,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Díaz, Alberto Núñez Feijóo,"
+  },
+  {
+   "start": 297.73,
+   "end": 302.01,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Santiago"
+  },
+  {
+   "start": 297.73,
+   "end": 310.47,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Abascal, Irene Montero, Frente Amplio, Junta"
+  },
+  {
+   "start": 310.47,
+   "end": 382.95,
+   "label": "SPEAKER_05",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Electoral Central, Tribunal Constitucional Es muy incómodo ver cómo la gente empieza a asustarse, a ponerse nerviosa. Insisto, se han lanzado adoquines en La Coruña, pero también se han lanzado volardos metálicos contra la policía y sillas, han destrozado un bar, han debido atacar también a la gente de los comercios, que andaba por allí y que les habrá mostrado su desacuerdo con la violencia. Es algo verdaderamente preocupante. Y, insisto, creo que se va a repetir lo llamativo, es que esto nunca le ocurre a otros partidos políticos, esto nunca le ocurre a los partidos de izquierda, nunca hay un evento contra ellos protestando que termina en violencia. Y también quiero decir algo, no va a haber ni una sola condena de los partidos de izquierda a estas agresiones contra los militantes de Vox y contra la policía. No va a haber ni una sola condena del gobierno por las agresiones contra la policía. Me parece que es muy llamativo y que claramente sirve para sostener la acusación que yo estoy haciendo, de que esas son las milicias y los aliados de Pedro Sánchez."
+  },
+  {
+   "start": 383.13,
+   "end": 407.69,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Bueno, es más, ha habido una contramanifestación después, cuando te has ido de A Coruña, una contramanifestación precisamente donde se ve a toda la gente con esas banderas rojas. Al parecer eran cachorros del Benegá, eso publicaba la prensa, y en vez de lo que iban era contra la policía. A Coruña responde masivamente a la violencia policial ejercida durante el acto de Vox en María Pita."
+  },
+  {
+   "start": 407.87,
+   "end": 412.71,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "O sea, diciendo que ha habido violencia policial. ¿Qué quiere decir, doctor Cabrera?"
+  },
+  {
+   "start": 412.87,
+   "end": 434.97,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Santiago, doctor Cabrera, al aparato. Muy buenas noches, ¿cómo estás? Santiago, miedo nunca. Y te voy a decir algo que nunca se dice en las mesas porque todo el mundo tiene miedo. El 29 de noviembre mi voto va a ser para ti. Y esto saldrá en las redes, en TikTok, dentro de 5 segundos. Pero que lo sepas. Y que lo sepa el resto de España."
+  },
+  {
+   "start": 435.83,
+   "end": 438.55,
+   "label": "SPEAKER_05",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Es un honor y espero no defraudarte. Al loro."
+  },
+  {
+   "start": 438.83,
+   "end": 446.63,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Mira, yo esto creo que es horizonte. Aquí el doctor Cabrera me dice, por favor, por favor, por favor. Bueno, pues vale. Doctor Cabrera, aquí me voy a votar."
+  },
+  {
+   "start": 446.63,
+   "end": 460.33,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Vamos a ver, cada uno votará lo que quiera, lo que no se puede aguantar es que a ningún partido político, ni a ti, ni a nadie del PP, ni a nadie de PSOE, ni a nadie de Sumar, ni a nadie, le tiren bolarras y le tiren pedradas."
+  },
+  {
+   "start": 460.33,
+   "end": 494.39,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Lo que pasa es que, como contaba Inda antes, esto viene de hace un tiempo, es decir, ha habido intentos violentos antes. Pero me gustaría preguntarte, ¿qué hecho diferencial ves tú en un día que desde luego, no sé si has vivido un día parecido, en dos poblaciones del norte de España, donde pasa esto? Es decir, ¿hay algún elemento en el tipo organizativo, en el tipo de personas, en el tipo de distribución, en el tipo de acción, que no se parece a algo que hayas visto antes? ¿Ha cambiado algo?"
+  },
+  {
+   "start": 520.22,
+   "end": 565.06,
+   "label": "SPEAKER_05",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Grupos también ideológicos y grupos de magrebíes. Eso es lo que nosotros hemos visto a lo largo de toda España. Es verdad que puede haber algunas diferencias en los lugares donde hay separatismo, como es el caso de Galicia, o en mi tierra, en el País Vasco, o en Cataluña. Pero no hay grandes diferencias y yo creo que sobre todo hay un, bueno, mi pregunta es por el hecho diferencial, un hilo conductor. Y es que todos, de una manera o de otra, a través de sus altavoces políticos, están sosteniendo a este gobierno. Yo creo que eso es lo que claramente les une. Todos se sienten beneficiados por este gobierno y evidentemente lo han sido porque se les permite hacer algo absolutamente intolerable como manifestarse delante del acto de un partido político para hostigar a la gente."
+  },
+  {
+   "start": 565.72,
+   "end": 591.78,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Hay que tomar medidas muy concretas. ¿Qué pasa? Quizá esto sea muy personal, no lo sé, pero me gustaría saberlo. Cuando tú ves que en un evento de este tipo empieza a haber una serie de movimientos, imagino que se produce una operación de blindaje, tomas alguna precaución, se para el acto, ha llegado a reventar el acto, se ha podido concluir, ¿qué medida se toma cuando uno se encuentra con una circunstancia que no es muy habitual, más que en un partido como el tuyo?"
+  },
+  {
+   "start": 592.34,
+   "end": 774.04,
+   "label": "SPEAKER_05",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Bueno, la verdad es que nosotros hemos podido siempre celebrar los actos, salvo hace unas semanas en Galicia, donde había un local reservado y un grupo de personas se puso delante del evento, se encadenó a las puertas e impidió la entrada de los militantes de Vox para celebrar ese acto. Es verdad que no ha ocurrido ningún acto en el que yo haya estado, a pesar de que muchos han sido hostigados violentamente. Recuerdo ahora mismo actos en Sestao, donde, por ejemplo, fueron agredidos algunos miembros de Vox. Una diputada nacional recibió una pedrada en la cabeza en el acto de Vallecas también. Nos lanzaron adoquines, palos y todo tipo de objetos. Y también algunos diputados fueron heridos, diputados y asistentes al acto, familias que iban con niños. Y nos ha ocurrido también en Cataluña, en distintos lugares. En el fondo, el gobierno, permitiendo estas cosas, lo que quiere es que a Vox se le vea envuelta en un clima de violencia. Ese es el objetivo, que lo que haya en torno a Vox sea violencia. Porque además ya van a ir los periodistas, en algún caso, como ha pasado hoy, os lo puedo contar, prácticamente a justificarla. A mí hoy me han hecho preguntas algunas periodistas que no se han identificado, prácticamente hablando mal de nuestros militantes y diciendo que por qué teníamos un problema con que hubiese gente manifestándose, a ver si no tenían derecho, que eran nuestros militantes los que más levantaban la voz y que ellos, que los periodistas no podían escucharme. La verdad que yo me he quedado perplejo con que fueran capaces de negar la violencia que había al otro lado por parte de personas encapuchadas. No hay ningún militante de Vox encapuchado nunca en ningún evento. Es más, si algún día ve alguno, os puedo asegurar, os lo prometo, que la capucha se la quito yo personalmente. Pero había un montón de gente encapuchada, embozada, con la cara tapada en frente. Es que eso no había ni que permitirlo. ¿Qué medidas habría que tomar desde el poder público? Pues cuando hay un señor con la cara tapada en una manifestación, se le identifica inmediatamente y se le obliga a que se destape. Es absolutamente intolerable que la gente vaya embozada por la calle. Yo creo que esa es una declaración de intenciones muy clara. Cuando uno se tapa la cara, creo que lo estabais además diciendo ahora mismo en la mesa, pero nosotros lo que intentamos hacer es desarrollar el acto. Yo en varias ocasiones, al menos ya en tres o cuatro en los últimos años, he tenido que bajar del atril después de dirigirme al jefe del dispositivo policial, que en eventos en los que había 500, 1000 personas de Vox, había 200 tipos o 100, increpando, impidiendo la celebración del acto. Y he tenido que pedir al jefe del dispositivo que actuara, que los alejara, porque yo denunciaba que estaban muy cerca. En cuatro ocasiones me he bajado del atril y he contado los pasos que había hasta los contramanifestantes. Y he contado 15, 20 pasos. O sea, estaban prácticamente encima de nosotros. Esto solo ocurre con el permiso deliberado del gobierno. Por eso acuso al delegado del gobierno, en Avilés, al delegado del gobierno de La Coruña, al ministro de Interior y al presidente del gobierno. Quieren que esto ocurra. Es una estrategia totalmente planificada."
+  },
+  {
+   "start": 776.66,
+   "end": 802.2,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Santiago, incidentes, las imágenes eran realmente preocupantes, había luego personas que iban con la bandera de España, les perseguían, yo viendo la imagen, tú igual la has visto en vivo, no lo sé, pero ese muchacho, si me lo podéis poner por favor Juan Málex, el chico sale, le tiran varias patadas abajo, yo no sé si el chaval cae, hay un lío serio, es decir, hay un lío serio,"
+  },
+  {
+   "start": 802.36,
+   "end": 806.08,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "porque él puede huir, ¿no? Son cinco o seis contra uno, que también está muy bien."
+  },
+  {
+   "start": 806.16,
+   "end": 813.32,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Primero el golpe es por la espalda, el golpe es a la nuca, un puñetazo en la nuca, ojo, ahí ven los sujetos, no sé si estos serán los detenidos o no."
+  },
+  {
+   "start": 814.04,
+   "end": 821.84,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Y a la zancadilla, que es lo que hacen siempre, lo hemos visto en Sol también, para que se caiga y puedan en el suelo, cuando una vez está en el suelo, darle de golpe."
+  },
+  {
+   "start": 821.98,
+   "end": 830.66,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Y a esto voy en el sentido, digamos, de aprender, ojalá yo decía, una llamada a la calma, no sé qué se puede decir cuando empieza a haber este tipo de acontecimientos."
+  },
+  {
+   "start": 830.66,
+   "end": 840.74,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Esto es muy fácil, lo ha explicado muy bien Santiago Abascal, es que la delegación del gobierno está promoviendo todo esto que está sucediendo. Es increíble que la delegación..."
+  },
+  {
+   "start": 840.74,
+   "end": 842.74,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Está promoviendo, dices tú, porque no pone suficientes medidas."
+  },
+  {
+   "start": 843.16,
+   "end": 884.98,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "No, es que tú no te vas a poder acercar a 20 metros del presidente del gobierno. Imposible, en un acto de Pedro Sánchez. Y están permitiendo que en un acto público de la tercera fuerza política de este país, de una fuerza democrática, haya una manifestación de radicales en la que saben que se puede montar y que van a eso. Y la delegación del gobierno eso lo permite porque es Vox. Si fuera una manifestación de un grupo de ultraderecha en un acto de Podemos, no lo permitiría. No estaría ni a 20, ni a 30, ni a 40, ni a 50 pasos. Y lo condenaríamos igual, si pasara, y hubiera radicales que"
+  },
+  {
+   "start": 884.98,
+   "end": 906.66,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "fueran a estar pasando en Madrid. Es que en Madrid la policía no le dejan actuar, y cuando actúa, el delegado del gobierno, que es Filo de Tarra, que ha elogiado a Abiel Duqueseta, les sanciona a los policías, cuando actúan, cuando actúan porque no tienen otra, y les prohíbe actuar, pero cuando actúan porque se ven impelidos, porque les atacan, abre investigaciones y sanciona a los policías. Es el mundo al revés."
+  },
+  {
+   "start": 907.64,
+   "end": 909.98,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Está reunido con los que hicieron los desgracias."
+  },
+  {
+   "start": 909.98,
+   "end": 919.0,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Exactamente, es decir, que en el gobierno están representados los jefes de los que alientan y hacen estos disturbios."
+  },
+  {
+   "start": 921.0,
+   "end": 925.32,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Luego vemos esos documentos que son muy interesantes. Déjame un dato solo de la delegación"
+  },
+  {
+   "start": 925.32,
+   "end": 926.26,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "del gobierno. Si quiero preguntar"
+  },
+  {
+   "start": 926.26,
+   "end": 926.8,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "una cosa, Abascal, dime."
+  },
+  {
+   "start": 927.04,
+   "end": 949.1,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "No robo más protagonismo. En Sol hemos visto cómo se ha permitido esa acampada de tiendas de campaña. Y han dicho que la delegación del gobierno lo protege para que no se desaloje. En Ferraz ha ido gente a poner una tienda de campaña para manifestarse y lo han levantado rápidamente."
+  },
+  {
+   "start": 949.38,
+   "end": 954.96,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "La policía de Marlaska les lanzaba gases lacrimógenos a"
+  },
+  {
+   "start": 954.96,
+   "end": 955.08,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "gente pacífica."
+  },
+  {
+   "start": 956.0,
+   "end": 956.1,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Don Jorge, solo un apunte."
+  },
+  {
+   "start": 956.94,
+   "end": 962.22,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Usted nunca roba protagonismo porque usted es un pilar de este programa. El programa es suyo tanto como nuestro. El protagonismo de Santiago"
+  },
+  {
+   "start": 962.04,
+   "end": 966.88,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Abascal, que es el favorito. Santiago... El de Iker, el mío ya sabe que es usted."
+  },
+  {
+   "start": 967.8,
+   "end": 1016.38,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Santiago, vamos a ver, menos mal un poquito de... porque vaya como está el tema. Y hablando muy seriamente ahora, de verdad. No sé si tenéis estudios, ya que os pasa esto, ya que ocurre esto que me parece una anomalía brutal, de quién puede estar moviendo en concreto, de alguna manera, o si vais a poder tener más encuentros con estas personas. Porque yo decía, viendo las imágenes, ¿son gente de Avilés? ¿Hay una parte de gente de Avilés? ¿Hay una parte de gente de Coruña? ¿Son grupos que vienen de España o son monitoreados por otros que vienen de otra parte? Porque esa coordinación, yo pregunto, oye, no lo sé, ¿son gente local que te vas a ir encontrando en diferentes sitios que no apuestan por tus ideas y quieren mostrar su rechazo de esta manera o son grupos que tienen una voz cantante y que van organizando esto y que por tanto te puedes encontrar con más incidentes en los próximos días?"
+  },
+  {
+   "start": 1018.92,
+   "end": 1164.82,
+   "label": "SPEAKER_05",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Realmente no lo sé, no sé si son grupos de las distintas zonas o si en algunos casos hay grupos itinerantes que tienen como misión entorpecer estos actos y no tenemos el gobierno para saberlo, si los españoles el día 29 de noviembre quieren que haya un cambio pues ahí me gustaría garantizar que estas cosas se van a saber en España, se va a saber quién está detrás de la violencia quién está detrás de la violencia contra los actos de Vox o de otras fuerzas políticas quién está detrás de la violencia contra los ceutíes y de haber permitido que se asaltara la frontera ¿Quién está detrás de la violencia que se ha practicado en Sol contra muchas personas? ¿Quién está detrás de haber permitido la ocupación del espacio público de manera ilegítima y una manifestación permanente en la Puerta del Sol? Que, como bien decíais, no se permitiría a nadie. Si ahora vamos a acampar en Colón, no nos lo permitirían. Y, sin embargo, la ocupación de la vía pública, que es competencia del Ayuntamiento y el derecho de manifestación, que está regulado a través de las leyes, La delegación del gobierno parece que es absoluto para algunos, y para otros no cabe ni siquiera el derecho a la libertad de expresión en actos electorales. Yo es lo más significativo que puedo decir, porque desconozco quiénes son esas personas. Sí veo sus banderas, sí puedo decir que hay una alianza islamo-izquierdista, sí puedo decir que estamos ante la extrema izquierda violenta de siempre, Ante grupos separatistas vascos, catalanes y gallegos, ante grupos proterroristas y también creo que hay conexiones con lo que está pasando en Francia. Insisto, creo que esta violencia es provocada y orquestada y que algunos nos quieren llevar a un camino muy peligroso, que es el de la Francia en llamas o el de la Venezuela arruinada, también utilizando la violencia. Cuando el otro día decía el presidente del gobierno, perdonad que insista en esta idea que creo que es importante, que van a seguir gobernando cuatro años de una manera o de otra. A mí me pareció muy inquietante escucharlo y me dio la sensación de que casi se regodeaba y disfrutaba cuando formulaba esa amenaza a los españoles. ¿Cuál es exactamente la manera? Pues bueno, ya hemos visto lo que había con la ley de nietos, de la que vais a hablar después, hemos visto lo que es la violencia, En la justicia hemos visto que son maneras que no tienen ni los narcos, porque los narcos les dijeron que ellos no eliminaban jueces. Eso es tremendo. Entonces, realmente, creo que hay muchos motivos para la preocupación, para el miedo y para que pase cualquier cosa en estas elecciones que van a intentar robar y adulterar."
+  },
+  {
+   "start": 1165.04,
+   "end": 1193.82,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Bueno, esperemos que no ocurran más incidentes porque no deseamos a ningún partido que tenga que haberlas así. Esto es alucinante, ¿no? Un poco irreal, pero iremos viendo la actualidad. Te agradecemos, Santiago Abascal, que en persona, con lo que has vivido hoy en dos localidades, yo creo que esto ha pasado muy pocas veces en la historia de la política, sinceramente, habría que verlo. Un mítin, doble mítin, ¿a cuánto está Viles de Coruña? ¿200 kilómetros? ¿Dónde está Cipanda? Y que haya movida en los dos sitios de esta manera, no sé."
+  },
+  {
+   "start": 1194.04,
+   "end": 1194.8,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Va a haber en todos"
+  },
+  {
+   "start": 1194.8,
+   "end": 1195.36,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "los mítin..."
+  },
+  {
+   "start": 1195.36,
+   "end": 1196.2,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Llamadas de"
+  },
+  {
+   "start": 1195.82,
+   "end": 1197.32,
+   "label": "SPEAKER_05",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Vox, por favor, a la calma,"
+  },
+  {
+   "start": 1197.32,
+   "end": 1197.42,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿no?"
+  },
+  {
+   "start": 1198.12,
+   "end": 1236.6,
+   "label": "SPEAKER_05",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Yo por supuesto hago un llamamiento a la calma y a no caer en las provocaciones, pero esto si me lo permites, lo que hace es por ejemplo tapar que Navilés, que es un feudo histórico de la izquierda, del Partido Socialista, hoy Vox ha tenido un evento multitudinario, con 2000 personas en una plaza, lo podéis ver en las imágenes, sin un solo autobús, gente que ha acudido espontáneamente a escuchar un evento político como puede acudir al del Partido Popular, al del Partido Socialista o a cualquier otro. La violencia, y que al final la noticia sea esa, sirve precisamente para que no se hable de esta gran afluencia a un evento político en un feudo histórico de la izquierda. Abascal, cuídese. Muchas gracias por vuestro interés."
+  },
+  {
+   "start": 1236.6,
+   "end": 1241.24,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Un abrazo. Bueno, era la noticia, fíjate que lo pensaba."
+  }
+ ]
+}

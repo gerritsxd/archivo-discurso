@@ -1,0 +1,5143 @@
+{
+ "id": "2026-10-22-sanchez-c383bb",
+ "date": "2026-10-22",
+ "expected_person": "Pedro Sánchez",
+ "kind": "interview",
+ "outlet": "TVE (La Revuelta) / RTVE Play",
+ "title": "La Revuelta 3x26: programa 22-10-2026 Pedro Sánchez",
+ "url": "https://www.rtve.es/play/videos/la-revuelta/programa-22-10-2026-pedro-sanchez/17279095/",
+ "language": "es",
+ "duration_s": 6172.84,
+ "sha256": "8c8216c494c7ea73a36682f3f24cae4135e1584a5101e1dd4820a923ba5b1493",
+ "fetched_at": "2026-10-25T09:32:13+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.55,
+  "processed_at": "2026-10-25T15:49:13+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_05": {
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "decision": "match",
+   "reason": "sim 0.79, next 0.22",
+   "talk_s": 2894.6
+  },
+  "SPEAKER_04": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "unknown",
+   "reason": "best sim 0.25 < 0.55",
+   "talk_s": 28.8
+  },
+  "SPEAKER_06": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "unknown",
+   "reason": "best sim 0.40 < 0.55",
+   "talk_s": 31.8
+  },
+  "SPEAKER_03": {
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "decision": "unknown",
+   "reason": "best sim 0.25 < 0.55",
+   "talk_s": 92.0
+  },
+  "SPEAKER_07": {
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "decision": "unknown",
+   "reason": "best sim 0.22 < 0.55",
+   "talk_s": 1986.6
+  },
+  "SPEAKER_02": {
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "decision": "unknown",
+   "reason": "best sim 0.28 < 0.55",
+   "talk_s": 321.6
+  },
+  "SPEAKER_08": {
+   "person": null,
+   "name": "Hablante sin identificar 6",
+   "decision": "unknown",
+   "reason": "best sim 0.23 < 0.55",
+   "talk_s": 49.0
+  },
+  "SPEAKER_01": {
+   "person": null,
+   "name": "Hablante sin identificar 7",
+   "decision": "too_short",
+   "reason": "only 15s of speech",
+   "talk_s": 15.3
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 8",
+   "decision": "too_short",
+   "reason": "only 4s of speech",
+   "talk_s": 4.2
+  }
+ },
+ "turns": [
+  {
+   "start": 1.31,
+   "end": 116.98,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Gracias por venir a todos, sentados, por favor, gracias. ¿Qué dicen? ¿Qué es? Hoy guapísimo, ¿eh? Perdón, perdón. Sergio, muchas gracias por venir a todos y a todas. Tenías que venir... Tenías que poner justo hoy en el sillón al más punky que ha venido aquí en..."
+  },
+  {
+   "start": 135.6,
+   "end": 138.42,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Es que hoy... Están hoy los de Horizonte que le explota la cabeza."
+  },
+  {
+   "start": 139.68,
+   "end": 142.02,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Sergio, hoy es que tengo que ir directamente con estas personas."
+  },
+  {
+   "start": 142.02,
+   "end": 148.3,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Oye, el primer día que empezamos muy bien, ya podría venir todos los jueves el presidente del gobierno, macho, para que empieces a tu hora, ¿eh?"
+  },
+  {
+   "start": 148.42,
+   "end": 156.64,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Bueno, últimamente he venido bastante bien para prepararme, para no... Claro, pero está esperando ahí, claro. Que me ha dicho mucha gente... Cada minuto que pase está esa persona esperando así, enfrente de un"
+  },
+  {
+   "start": 158.02,
+   "end": 159.86,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "muro, bueno, bueno, bueno."
+  },
+  {
+   "start": 164.85,
+   "end": 172.33,
+   "label": "SPEAKER_06",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "David, simplemente... ¿Perdón? El motivo es que es muy majo y que no le han dejado pasar una botella. Imagínate todo lo demás que ha pasado."
+  },
+  {
+   "start": 173.87,
+   "end": 196.87,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "La botella, claro, no se puede. Bueno, cualquier cosa, luego tú levanta la mano. Hombre mágico, no, porque yo creo que esto le puede interesar a los niños también, porque esto también, como sea España en los próximos años, interesa a la infancia también. Está jugando el futuro aquí. Y además se van a decir pocos, se van a decir caros. Tenemos, para entrevistas de Estado, tenemos la insignia que nos dieron al llegar a Retube, con la bandera de España."
+  },
+  {
+   "start": 197.93,
+   "end": 200.49,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Claro, oye, este programa es el jefe infiltrado, casi."
+  },
+  {
+   "start": 233.82,
+   "end": 265.02,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¡Gracias! El presidente del gobierno, Ricardo, por poco tiempo, según dicen la mayoría de las encuestas, pero luego hay otras, lo que ha sacado el CIS y tal, ha dicho que mayoría absoluta para él."
+  },
+  {
+   "start": 265.24,
+   "end": 268.72,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Depende, si lees solo lo que hay diario, vas jodido. Por eso, por eso."
+  },
+  {
+   "start": 269.14,
+   "end": 272.62,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Pero bueno, vamos a ver, vamos a ver qué pasa, claro, este hombre ha salido de unos enredos tremendos."
+  },
+  {
+   "start": 272.62,
+   "end": 274.34,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Le ha salido de varias veces, o sea que..."
+  },
+  {
+   "start": 274.34,
+   "end": 318.04,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Vamos a ver, vamos a ver, esto de cara a la población es emocionante, a ver qué pasa. Por lo pronto, hoy en la revuelta, nunca pensé que diría esto. Un aplauso democrático para el presidente del gobierno, Pedro Sánchez. El presidente del gobierno, ¿eh?"
+  },
+  {
+   "start": 318.28,
+   "end": 319.96,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Bueno, y dices tú por poco tiempo."
+  },
+  {
+   "start": 320.3,
+   "end": 325.08,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Bueno, he dicho según dicen, Pedro, según dicen la mayor parte de las encuestas."
+  },
+  {
+   "start": 325.44,
+   "end": 340.32,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Sí, pero luego me dicen a mí que esta televisión es mía. Ya, bueno. Menudo recibimiento, David. A ver. En todo caso te diré, yo tengo una queja formal que hacerte, porque claro, vas diciendo desde el principio de temporada, esta"
+  },
+  {
+   "start": 340.32,
+   "end": 340.92,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "es la última"
+  },
+  {
+   "start": 340.92,
+   "end": 347.78,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "temporada, yo aspiro a renovar cuatro años, si la revuelta quiere, pues cuatro años más en televisión."
+  },
+  {
+   "start": 353.42,
+   "end": 358.58,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Pero luego depende de otros muchos factores, vamos a ver, tú claro, tú ves el programa, ¿no? Lo verás de vez en cuando."
+  },
+  {
+   "start": 358.74,
+   "end": 360.72,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Sí, yo lo veo, lo que pasa es que con El Mago me voy a la cama."
+  },
+  {
+   "start": 361.88,
+   "end": 376.96,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "O sea que no lo veo entero. ¿Qué dirías o qué le dices a la gente que ha dicho, es que claro, saco el tema, el mal salseante desde el principio, ¿qué dirías a la gente que lleva tres años diciendo que me has puesto tú aquí, que esto estaba aquí porque tú me llamaste y tal? ¿Qué dirías? ¿Qué dirías?"
+  },
+  {
+   "start": 377.3,
+   "end": 393.54,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Esa gente es que le da igual lo que les diga, porque van a pensar que todo es mentira, pero oye, la televisión pública al final, yo muchas veces digo, oye, el servicio público de la televisión pública también es hacer reír con humor inteligente y hacer que la gente se vaya a la cama feliz, optimista, Y eso también hace falta en este país."
+  },
+  {
+   "start": 422.72,
+   "end": 439.02,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "El público elige hoy democráticamente, han elegido al más punky de Europa y han decidido que hoy es el día de ponerle aquí al chaval y lo han puesto aquí. ¿Tienes algún tipo de obsequio?"
+  },
+  {
+   "start": 439.94,
+   "end": 441.36,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Voy a pedir regalos al presidente de gobierno."
+  },
+  {
+   "start": 442.24,
+   "end": 443.38,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "A ver, claro, o sea..."
+  },
+  {
+   "start": 443.84,
+   "end": 446.38,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Sí, tengo dos, tengo dos. Hay uno que..."
+  },
+  {
+   "start": 446.38,
+   "end": 451.08,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Tiene dos, ¿eh? Nosotros hoy para el presidente no tenemos nada porque así empezó lo de Zapatero y fíjate la que se"
+  },
+  {
+   "start": 451.08,
+   "end": 451.36,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "me ha dado."
+  },
+  {
+   "start": 453.16,
+   "end": 456.66,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Este es para después. ¿Cuál primero? Este es para después."
+  },
+  {
+   "start": 458.44,
+   "end": 460.14,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "A ver, ya"
+  },
+  {
+   "start": 460.14,
+   "end": 479.96,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "es bastante evidente, pero... Es que el otro día, hablando con una persona que te conoce, me dijo, David tiene una obsesión, y es que se tira hasta altas horas de la madrugada jugando solo. Claro, eso a mí me mosqueó. Jugando solo hasta altas horas de la madrugada. ¿Por qué?"
+  },
+  {
+   "start": 480.0,
+   "end": 480.72,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Por qué te preocupó?"
+  },
+  {
+   "start": 480.72,
+   "end": 482.36,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Porque digo, a ver si no va a ser..."
+  },
+  {
+   "start": 482.36,
+   "end": 484.48,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "A ver si luego no rinde en el programa y no dice las cosas que tiene que decir."
+  },
+  {
+   "start": 485.34,
+   "end": 490.42,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Pensé mal. El caso es que luego me dijo, no, yo también comparto este hobby."
+  },
+  {
+   "start": 490.64,
+   "end": 498.2,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Yo he empezado a jugar al ajedrez hace un par de años, ahora para el último mes se para un poco porque me asorde el tiempo, pero me arrepiento de no haber empezado más de chaval porque es increíble esto."
+  },
+  {
+   "start": 498.28,
+   "end": 503.16,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "A mí me pasa lo mismo. Entonces, bueno, la verdad es que es un regalo muy especial."
+  },
+  {
+   "start": 503.62,
+   "end": 505.16,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Como ahora sea una pieza. ¿Por qué es una pieza artística?"
+  },
+  {
+   "start": 505.02,
+   "end": 511.06,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Porque es una pieza artística muy, muy, muy buena, de un tablero, bueno, pues de 50 centímetros."
+  },
+  {
+   "start": 512.02,
+   "end": 514.94,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "50 son los buenos, ¿no? De 50. Sí, más luego todo lo que son"
+  },
+  {
+   "start": 514.94,
+   "end": 516.44,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "las piezas que están aquí."
+  },
+  {
+   "start": 516.62,
+   "end": 528.52,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Ah, viene con piezas y todo, que tío, macho. Sí, está aquí, están aquí las piezas. A ver, coge el tablero y enseña las piezas, que se vea, ya que ha traído... Voy a regalo, cómo pesa, es de todo. Están aquí, las piezas están aquí. Ábrelo, a ver que se vea el regalito del presidente."
+  },
+  {
+   "start": 528.54,
+   "end": 531.08,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Es un juego que va a descargarse al rey, ya me veo mañana los titulares."
+  },
+  {
+   "start": 536.96,
+   "end": 541.34,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Es un juego, efectivamente,"
+  },
+  {
+   "start": 541.56,
+   "end": 543.18,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "que va a descargarse al rey."
+  },
+  {
+   "start": 543.66,
+   "end": 564.08,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Has visto lo que ha dicho Ricardo? La broma. ¿Viste lo que dijo el otro día Aznar? Que si ganabas tú, se instauraba la república. Y la gente diría, no tendremos esa suerte. Bueno, es que este hombre... Este hombre... Rubén está diciendo, ay Diosito, Nunca te pido nada, pero se le ha puesto la cresta para arriba."
+  },
+  {
+   "start": 564.56,
+   "end": 579.5,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Este hombre, la verdad es que lo de Aznar es tremendo, ¿no? Porque además no sé qué elecciones da o debe dar, porque realmente él tampoco cuando estuvo los ocho años y sobre todo cómo salió, está para dar lecciones, ¿no? O sea, que se recibe el mensaje, tú lo recibiste, pero claro, no habláis, ¿no?"
+  },
+  {
+   "start": 580.16,
+   "end": 582.0,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "O sea, tiene su móvil."
+  },
+  {
+   "start": 582.2,
+   "end": 603.06,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Un grupo de WhatsApp. Mira, os voy a contar una anécdota. Mira, cuando gané la moción de censura, la primera llamada, porque yo llegué allí y no había nadie, Yo entré en el Congreso, hicimos la moción de censura y salí elegido presidente del gobierno. No tuve ese periodo de transición que se tiene generalmente cuando cambian las administraciones."
+  },
+  {
+   "start": 603.1,
+   "end": 605.54,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Cuál es la moción de censura? Más rápido, más automático."
+  },
+  {
+   "start": 605.54,
+   "end": 609.88,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Es mucho más rápido. Entonces, el caso es que yo llego a Moncloa, ese fin de semana no había nadie."
+  },
+  {
+   "start": 611.3,
+   "end": 612.52,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Nadie, pero nadie, nadie. ¿Nadie, tío?"
+  },
+  {
+   "start": 613.84,
+   "end": 642.96,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Había funcionarios, funcionarias, pero poco... ¿Políticos? Y el caso es que recibo una llamada y la primera llamada que yo recibí de un expresidente del gobierno fue de José María Aznar, que te dijo, curioso, oye, me pongo a tu servicio, tal cual. ¡Han quitado la botella! ¿Te imaginas? Pero luego para nada, porque todo es mentira, vamos. No pone a mi servicio, para nada. Luego sí, luego he hablado algunas veces con ellos, por ejemplo, cuando empezó la invasión de Putin en Ucrania, hablé con todos ellos."
+  },
+  {
+   "start": 643.62,
+   "end": 644.16,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Y qué te dijeron?"
+  },
+  {
+   "start": 644.64,
+   "end": 656.06,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Bueno, pues hombre, yo les pregunté cómo lo veían. Y realmente he de decir que fallaron todos. Porque muchos de ellos, lo que me contaron fue, bueno, pues Ucrania va a caer en cuestión de semanas."
+  },
+  {
+   "start": 656.46,
+   "end": 657.74,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "No pensaban que iban a resistir, claro, claro."
+  },
+  {
+   "start": 658.16,
+   "end": 659.28,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Ya llevamos más de cuatro años."
+  },
+  {
+   "start": 659.5,
+   "end": 662.46,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Quién es el expresidente que te cae peor y por qué es Felipe González?"
+  },
+  {
+   "start": 667.86,
+   "end": 702.08,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Yo le digo muchas veces a Felipe, digo, mira, si yo me afilié al Partido Socialista por... Por ti, claro, eso pasa muchas veces, pero no se lo digo como un despechado, bueno, yo me gustó ese Felipe de los años 80, cuando yo era un chaval, probablemente por las cosas que también rememoro y evoco de esa época, pero ahora mismo, la verdad es que no me siento muy identificado con sus opiniones, ¿qué quieres que te diga? Bueno, dicho sin acritud. Sin acritud, sin acritud."
+  },
+  {
+   "start": 702.92,
+   "end": 714.3,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Se puede estar en desacuerdo. La entrevista, si quieres, ya nos sentamos. ¿Tú estás al tanto de que yo no tengo ninguna formación periodística? Leo el periódico de vez en cuando, pero tampoco estoy al tanto de todo. O sea, yo voy a hacer lo que pueda, Pedro."
+  },
+  {
+   "start": 714.4,
+   "end": 715.76,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Bueno, tenemos que"
+  },
+  {
+   "start": 715.76,
+   "end": 719.1,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "echar una partida de ajedrez. Había otro regalo, me has dicho antes. Tengo otro."
+  },
+  {
+   "start": 719.64,
+   "end": 725.12,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Este ya es un poco más peculiar. A ver, tú sabes que yo tengo... Perdón,"
+  },
+  {
+   "start": 725.12,
+   "end": 738.1,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿sabes que el otro día pensamos regalarte de verdad, pero sin broma? Bueno, con broma, tenía una broma. Un Nokia de estos antiguos anti-Pegasus, por si te venía bien, ¿sabes? Sí, sí, sí. Esto pasó, lo contasteis vosotros, ¿no? Que te habían hackeado."
+  },
+  {
+   "start": 738.18,
+   "end": 744.46,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Sí, me hackearon en el móvil. Me hackearon en el móvil y entonces..."
+  },
+  {
+   "start": 744.84,
+   "end": 747.44,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Cómo te enteras de eso? ¿Te sale notificación? Has sido hackeado por Israel."
+  },
+  {
+   "start": 747.44,
+   "end": 753.92,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "No, entonces, no, escucha, entonces, entonces, fue muy curioso porque pregunté a los de sistemas,"
+  },
+  {
+   "start": 754.02,
+   "end": 755.06,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "que es el departamento de"
+  },
+  {
+   "start": 755.06,
+   "end": 755.52,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Moncloa."
+  },
+  {
+   "start": 755.72,
+   "end": 759.46,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Los ingenieros informáticos. Los ingenieros informáticos y les pregunté, digo, ¿qué hacemos con los móviles?"
+  },
+  {
+   "start": 761.66,
+   "end": 764.44,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "¿Cómo podemos? Y me dio un truco súper importante."
+  },
+  {
+   "start": 764.54,
+   "end": 767.78,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Pero perdón, ¿esto antes o después de ser hackeado? Pues después de ser hackeado, sí, sí."
+  },
+  {
+   "start": 768.68,
+   "end": 779.82,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Bueno, por cierto, que hay mucho de eso que si me han robado datos y tal, lo único que tienen... ¿De Marruecos? Lo que tendrán, si es que me han robado algo, son fotos con mi familia."
+  },
+  {
+   "start": 780.28,
+   "end": 781.14,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Está feo eso también."
+  },
+  {
+   "start": 781.74,
+   "end": 796.22,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Pero a lo que voy. El caso es que si vosotros al día, cinco minutos, apagáis el móvil, eso hace que el móvil se proteja frente a los virus, porque los virus lo que hacen es, sobre todo, infiltrarse en la gente."
+  },
+  {
+   "start": 796.04,
+   "end": 797.04,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Mientras está funcionando, claro."
+  },
+  {
+   "start": 797.3,
+   "end": 800.0,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Y sobre todo en los móviles que tienen mucha actividad."
+  },
+  {
+   "start": 800.0,
+   "end": 800.0,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "de la Seguridad."
+  },
+  {
+   "start": 800.6,
+   "end": 810.12,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Entonces, si tú, por ejemplo, tienes una reunión, imagínate, ahora que estás en esta entrevista, y tú tienes el móvil apagado, eso suma para lo que... A Carlos"
+  },
+  {
+   "start": 810.12,
+   "end": 812.26,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Mazón no le hackean el móvil ni de coña, claro."
+  },
+  {
+   "start": 814.88,
+   "end": 819.42,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "La verdad es que le saca punta, ¿eh? Bueno, que tengo un regalo. A ver, a ver, regalo."
+  },
+  {
+   "start": 821.54,
+   "end": 823.62,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Pero necesito un micro. Siempre apagado."
+  },
+  {
+   "start": 823.82,
+   "end": 825.36,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Necesito un micro, necesito un micro."
+  },
+  {
+   "start": 825.7,
+   "end": 838.62,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Cómo un micro? Sí, bueno, un... ¿Un micro de mano? Sí. ¿Hay micro de mano por ahí? Toma, te doy este. ¿Te imaginas que ahora se pone a rapear? Mi próximo regalo es una canción que te he hecho, David. A ver. Una superestrella... El caso."
+  },
+  {
+   "start": 840.1,
+   "end": 841.78,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Bueno, bueno, bueno, bueno, bueno, bueno."
+  },
+  {
+   "start": 841.92,
+   "end": 843.06,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Muy guapo, eh."
+  },
+  {
+   "start": 843.88,
+   "end": 844.72,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Bueno, bueno, bueno."
+  },
+  {
+   "start": 850.36,
+   "end": 854.92,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "¿Ves qué bonito es? Vaya, guapo. Me mira con cara de desconfianza."
+  },
+  {
+   "start": 854.94,
+   "end": 858.4,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Es que claro, a este no le gusta que haya dos perros nuevos hoy aquí, claro."
+  },
+  {
+   "start": 858.62,
+   "end": 870.84,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "No te preocupes que ahora vengo contigo. Está. Bueno, el caso es que yo tengo dos perritas de agua y entonces, bueno, pues..."
+  },
+  {
+   "start": 871.58,
+   "end": 877.08,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Son muy bonitas y muy buen perro, pero también traicionero el perro de aguas, ¿eh? También te muerde, ¿eh? Bueno, ¿yo qué te he hecho para que te metas conmigo?"
+  },
+  {
+   "start": 877.86,
+   "end": 881.42,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Que si no voy a seguir presidente más tiempo, que si se mete con mis perros..."
+  },
+  {
+   "start": 881.42,
+   "end": 885.74,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Yo con el perro de agua, que a mí me mordió una una vez, o sea, que son... tienen nervios. ¿Qué harías tú?"
+  },
+  {
+   "start": 885.78,
+   "end": 887.04,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Son muy territoriales, eso sí."
+  },
+  {
+   "start": 887.2,
+   "end": 887.66,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Por eso, sí, sí."
+  },
+  {
+   "start": 887.84,
+   "end": 888.8,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Se los comían antes."
+  },
+  {
+   "start": 890.36,
+   "end": 890.94,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Déjale, déjale."
+  },
+  {
+   "start": 892.96,
+   "end": 896.7,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "¿Eso dónde lo has leído? Sí, en OK Diario lo leo yo todo. ¿En OK Diario?"
+  },
+  {
+   "start": 901.15,
+   "end": 901.89,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Bueno, si eso es OK Diario..."
+  },
+  {
+   "start": 902.71,
+   "end": 907.01,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "De hecho, he leído antes que en 1672 en Holanda se comieron a su primer ministro."
+  },
+  {
+   "start": 907.23,
+   "end": 907.55,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "¿Qué?"
+  },
+  {
+   "start": 909.37,
+   "end": 910.01,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Los holandeses, tío."
+  },
+  {
+   "start": 910.13,
+   "end": 920.97,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "¿Pueblos holandeses? Oye, puede haber perros de agua de diferente... Sí, sí, claro, claro. Además, también se ha aprovechado la culpa a un perro de agua. Siempre, siempre. Yo soy un perro de agua, si soy un Doberman. Exacto."
+  },
+  {
+   "start": 921.15,
+   "end": 927.91,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Perdón, antes de que te estemos interrumpiendo mucho con el regalo. ¿Le echas un ojo a qué diario y tal? ¿De vez en cuando por saber un poco qué se comenta?"
+  },
+  {
+   "start": 928.25,
+   "end": 929.93,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "¿Yo por qué me tengo que amargar la vida?"
+  },
+  {
+   "start": 930.45,
+   "end": 932.09,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Yo qué sé, por ver un poco... Nunca, ¿no?"
+  },
+  {
+   "start": 932.25,
+   "end": 944.07,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "No, yo leo las cabeceras más tradicionales. A mí me gusta leer en papel. ¿Estás suscrito al ABC? Como Florentino. Bueno, o sea, las administraciones están suscritas a todos estos..."
+  },
+  {
+   "start": 944.07,
+   "end": 947.13,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Tienes acceso a todo, te puedes conectar ahí, meterte a la vanguardia, leer los artículos."
+  },
+  {
+   "start": 947.17,
+   "end": 960.05,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "La vanguardia, el país, el diario también, Infolibre... Y el The Objective, y eso pues se lo dejo a la Secretaria de Estado de Comunicación y que ella me cuente qué dicen. Para que no"
+  },
+  {
+   "start": 960.05,
+   "end": 960.79,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "me voy a amargar la vida."
+  },
+  {
+   "start": 961.79,
+   "end": 962.71,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "El regalo, perdón."
+  },
+  {
+   "start": 962.71,
+   "end": 963.29,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Bueno, el regalo."
+  },
+  {
+   "start": 963.39,
+   "end": 974.07,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "El caso es que... El micro, ¿para qué lo quieres? Bueno, espérate, es que ahora me pides todo como... El caso es que, bueno, ellas tienen... Mis perras tienen una pelota en la cabeza, tanto el día con la pelota para arriba."
+  },
+  {
+   "start": 974.31,
+   "end": 974.81,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Siempre les pasa, claro."
+  },
+  {
+   "start": 974.99,
+   "end": 992.99,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Y entonces, bueno, pues algunas veces les doy algunos regalitos. Alguna galleta, alguna cosa de estas así para que se pongan contentas. Y bueno, pues mis colaboradores me quisieron regalar esto, que es un guardagalletas. ¿Un guardagalletas? Sí, y cuando lo vi, digo, esto para David. Ya lo pones donde tú quieras. Vale, lo ponemos, lo ponemos."
+  },
+  {
+   "start": 993.09,
+   "end": 994.67,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Pero así te acuerdas del perro. Sí, vale."
+  },
+  {
+   "start": 994.93,
+   "end": 1006.35,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Pero el caso es que me tienes que dar el micro y tú tienes que abrirlo, pero tienes que abrir la cabeza, ¿sabes? Joder. Sí, venga, la cabeza aquí."
+  },
+  {
+   "start": 1039.05,
+   "end": 1048.71,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¡Suscríbete al canal! Vale, ¿quieres ya entrevista canónica sentados, periodística, seria, tal?"
+  },
+  {
+   "start": 1048.93,
+   "end": 1052.51,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Todo lo que tú me digas, David. Siéntate, siéntate y hacemos ya una charla. Estás en tu casa."
+  },
+  {
+   "start": 1059.77,
+   "end": 1109.09,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Vale, vamos con el programa de la revuelta. Te sientes más protegido ahí, ¿no? Claro, es que, es verdad que... Es que le veo y digo... ¿Tiene nombre? ¿Eh? ¿Tiene nombre? No, es perro genérico porque además como lo vamos cambiando, ¿Qué nivel de dureza de incisividad quieres en la entrevista? ¿Puedo un poco modularla? Entre entrevistas cachondas, más a cara perro, valga la redundancia."
+  },
+  {
+   "start": 1109.73,
+   "end": 1114.37,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Lo que tú consideres, pero yo a tu disposición."
+  },
+  {
+   "start": 1114.79,
+   "end": 1116.03,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Es la telepública, Pedro."
+  },
+  {
+   "start": 1116.17,
+   "end": 1135.55,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Si yo digo algo van a pensar que soy un dictador. Ayer ya lo dijeron. Ayer lo dijeron, ¿no? Sí, me pongo a tu servicio. Lo dijo mi ley, ¿no? Vino a... Vino aquí a dar lecciones. Vino a España a insultar. Sí, pero además es que es increíble, ¿no? Porque viene un tipo que ha bajado el 40% al salario mínimo interprofesional a decirle A este país que lo ha subido un 66% en estos años."
+  },
+  {
+   "start": 1139.47,
+   "end": 1166.51,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Cosas veredes, amigo Sánchez. Yo aparte de eso, aparte de esas consideraciones, es verdad que, claro, presidente de gobierno extranjero, que viene independientemente de ideología de uno y otro y tal, que va a un país a insultar muy crudo, porque no es hacer una crítica a las políticas del presidente local, sino que viene a insultar, insulto crudo tal, Es como, joder, yo creo que habría mucha gente que debería, incluso aunque no sea de tu partido tal, que sería como, oye, en fin, mire un poquillo."
+  },
+  {
+   "start": 1167.15,
+   "end": 1178.95,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Bueno, pero al final todos tienen la... La pregunta es por qué se vienen aquí todos, ¿no? Ya, ya, aquí se juntan todos o miran a España, porque lo extraordinario no es tanto que avance la ultraderecha, tiene mucho que"
+  },
+  {
+   "start": 1178.95,
+   "end": 1179.63,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "ver con los algoritmos, ¿no?"
+  },
+  {
+   "start": 1181.31,
+   "end": 1189.49,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Sino lo extraordinario es tener un gobierno progresista que no solamente hace políticas diferentes, sino que además demuestra que funcionan. Estás en una isla, ¿eh?"
+  },
+  {
+   "start": 1189.95,
+   "end": 1193.19,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Estás en un fuerte con dos pistolas detrás de un... Yo también te digo una cosa."
+  },
+  {
+   "start": 1193.57,
+   "end": 1193.89,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Detrás de un"
+  },
+  {
+   "start": 1193.89,
+   "end": 1194.27,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "sector..."
+  },
+  {
+   "start": 1194.27,
+   "end": 1196.45,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Tiene su épica esto de ser la aldea gala, ¿no?"
+  },
+  {
+   "start": 1196.77,
+   "end": 1197.35,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Ya, ya, ya, ya."
+  },
+  {
+   "start": 1197.61,
+   "end": 1214.05,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Bueno, vamos a ver, vamos a ver. En todo caso, pues oye, se insultan pues... O sea, ya ellos, ¿no? Me llaman de todo, se acuerdan de mi madre, ¿no? Ya, ya, está feo, sí. Yo también me acuerdo de las suyas, cuando subo las pensiones o cuando subo el salario mínimo interprofesional. Vale."
+  },
+  {
+   "start": 1221.54,
+   "end": 1243.66,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Voy a intentar hacer entrevistas de telepública, que sea para todos y todas. Gracias a todas, que es lo que creo que tendría que ser la telepública además, para todos, para los que les gusta, para los que no y tal. Yo creo también que los gobiernos de hecho tendrían que ser para la gente que ha votado al presidente y para los que no también, la gente debería gobernar. ¿Tú qué medidas o qué cosas crees que has hecho en los últimos años que beneficien claramente a gente que sabes que no te vota? O sea, gente que está en contra de ti."
+  },
+  {
+   "start": 1243.94,
+   "end": 1294.86,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Mira, por ejemplo, las pensiones, el salario mínimo interprofesional, los permisos de paternidad y maternidad, Incluso el Real Decreto Ley que hemos llevado al Consejo de Ministros y que derivó al final en el anticipo electoral ¿Vos lo habéis metido ahí en la prórroga? Hay una institución que es la que cuando tú convocas elecciones gobierna el Congreso de los Diputados hasta que se forma el Congreso de la siguiente legislatura después del 29 de noviembre que se llama la Diputación Permanente, ahí hay una mayoría favorable a la convalidación de este Real Decreto Ley Eso se vale, se vale Pero por responder a tu pregunta, al final, cuando tú miras las encuestas, pues hay un porcentaje muy amplio también de votantes de la derecha y la ultraderecha que están a favor de la regulación pública del problema de la vivienda."
+  },
+  {
+   "start": 1295.04,
+   "end": 1296.62,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Lo dirán callados, en voz baja, sí, ¿no?"
+  },
+  {
+   "start": 1297.1,
+   "end": 1304.42,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Bueno, lo que pasa es que dicen, bueno, me da igual, yo sigo votando al PP o a Vox, aunque sea contra mis intereses, como creo que es. Sí, en esa parte."
+  },
+  {
+   "start": 1305.44,
+   "end": 1308.0,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Qué nota te pones a ti mismo en los últimos...?"
+  },
+  {
+   "start": 1308.0,
+   "end": 1308.98,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "No, eso yo no me pongo nota."
+  },
+  {
+   "start": 1309.24,
+   "end": 1309.98,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Cuánto es una notilla, Pedro?"
+  },
+  {
+   "start": 1310.06,
+   "end": 1310.98,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "No, que no, yo no me pongo nota."
+  },
+  {
+   "start": 1311.1,
+   "end": 1311.62,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Cuánto es una nota, hombre?"
+  },
+  {
+   "start": 1312.02,
+   "end": 1313.28,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Los puntos se los dejo a Tezanos."
+  },
+  {
+   "start": 1313.42,
+   "end": 1315.74,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Ponte, pero entonces él te va a poner un 10 sobre 10. Por supuesto."
+  },
+  {
+   "start": 1317.12,
+   "end": 1318.72,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "No, pero eso al"
+  },
+  {
+   "start": 1318.72,
+   "end": 1319.98,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "final es algo..."
+  },
+  {
+   "start": 1319.9,
+   "end": 1320.28,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "O sea, sensación"
+  },
+  {
+   "start": 1320.28,
+   "end": 1321.34,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "tuya, digo."
+  },
+  {
+   "start": 1321.52,
+   "end": 1348.76,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Yo creo que cuando uno sale fuera de España, yo creo que es un buen test, un buen termómetro para ver cómo ven a España. O sea, tú te vas a Alemania, te vas a Francia, te vas a Italia, te vas a Bruselas, y nosotros estamos concentrando el 85% de la creación de empleo de la zona euro. Estamos creciendo tres veces más que la zona euro. Y lo estamos haciendo no por primer año consecutivo, sino que llevamos desde después de la pandemia, desde el año 2021, creciendo a un ritmo muy superior a la zona euro."
+  },
+  {
+   "start": 1349.24,
+   "end": 1372.8,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Sabes que hay gente que percibe ese crecimiento, que es verdad que los datos son así, que percibe ese crecimiento macroeconómico como muy poco eficaz en cómo se traslada luego al día a día de las personas. Hay mucha gente como el país crece económicamente en teoría en cuanto a PIB y demás, pero luego has visto lo que está pasando, la gente no tiene para comprar una casa. ¿Qué es el tipo de dato económico? Que siendo real, igual no se consigue trasladar a la gente que tiene salarios bajos y que no puede..."
+  },
+  {
+   "start": 1373.24,
+   "end": 1416.1,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Bueno, pero tú para poder acceder a una vivienda o poder acceder a una hipoteca, lo primero necesitas un empleo. Hoy afortunadamente tenemos 22 millones y medio de personas trabajando y cotizando la seguridad social. De ellas, más de 10 millones son trabajadoras, son mujeres, que es el máximo histórico. En segundo lugar, necesitas un salario digno. Nosotros, en lo que compete al Gobierno de España, que son los sueldos de los funcionarios y también el salario mínimo interprofesional, lo hemos subido, el 66% en los últimos ocho años. Y además aprobamos una reforma laboral donde situamos la negociación colectiva entre la patronal y los sindicatos para que acuerden una subida salarial. Y es lo que yo estoy diciendo a la patronal, que se siente con los sindicatos y que aumente los salarios de la clase media trabajadora."
+  },
+  {
+   "start": 1416.24,
+   "end": 1419.24,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Esta reforma fue la que se aprobó porque se equivocó uno del PP, ¿no? Sí, sí."
+  },
+  {
+   "start": 1419.44,
+   "end": 1420.58,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Eso fue buenísimo."
+  },
+  {
+   "start": 1420.66,
+   "end": 1421.52,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Vaya fenómeno, ¿eh?"
+  },
+  {
+   "start": 1423.94,
+   "end": 1427.28,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Yo... Eso fue buenísimo. Primero porque..."
+  },
+  {
+   "start": 1427.28,
+   "end": 1434.56,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Cómo se llamaba Alberto...? No recuerdo. Alberto Casero, ¿puede ser? Líder de la clase obrera, ¿eh? El tío..."
+  },
+  {
+   "start": 1434.56,
+   "end": 1437.0,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "A más de tu tierra, yo creo que era de Trujillo."
+  },
+  {
+   "start": 1437.2,
+   "end": 1447.14,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Fue alcalde de Trujillo. No, pero Trujillo es de Extremadura. Ah, no, perdona, tú eres de Jaén. Sí, sí, tiene razón. Ese hombre, sin saberlo, se convirtió en un líder sindical. No, sí, total. Le falló el dedito..."
+  },
+  {
+   "start": 1447.14,
+   "end": 1449.7,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Pero fue todo como súper..."
+  },
+  {
+   "start": 1449.7,
+   "end": 1452.36,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Este, este. Vaya personaje, macho, vaya, vaya."
+  },
+  {
+   "start": 1453.3,
+   "end": 1475.78,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Ahí estás reflexionando sobre lo que ha hecho. Pero sabes que ahí lo que pasó es que hubo un problema de transfugismo de dos diputados de UPN, porque UPN había posicionado a favor de aprobar la reforma laboral. Estos dos diputados de Estrangis estuvieron hablando con el Partido Popular y nos llegó el queo de que iban a votar en contra."
+  },
+  {
+   "start": 1475.78,
+   "end": 1479.36,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Nos llegó el queo, vaya frase setentera. Nos llegó el queo cinco"
+  },
+  {
+   "start": 1479.36,
+   "end": 1480.64,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "minutos antes de"
+  },
+  {
+   "start": 1480.64,
+   "end": 1492.36,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "la votación, entonces pensábamos que la perdíamos, pero cuando empezamos a ver por qué este hombre lo que hizo fue votar telemáticamente, y se equivocó telemáticamente, que tiene más delito, porque si te equivocas"
+  },
+  {
+   "start": 1492.36,
+   "end": 1497.08,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "en directo, pero que te equivoques telemáticamente ya me parece la bomba. Tranquilo en tu casa ahí, ¿no?"
+  },
+  {
+   "start": 1497.28,
+   "end": 1498.68,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "No, muchas veces a mí me dicen..."
+  },
+  {
+   "start": 1498.68,
+   "end": 1501.02,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Tendría varias pestañas abiertas a la vez y igual..."
+  },
+  {
+   "start": 1502.08,
+   "end": 1507.26,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Eso ya, yo ya no me meto. En todo caso, a mí me dicen muchas veces que tengo una flor en el culo ese día."
+  },
+  {
+   "start": 1507.38,
+   "end": 1509.76,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Ese día la tuviste, ¿eh? Ese día la tuviste porque si no..."
+  },
+  {
+   "start": 1509.76,
+   "end": 1524.12,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Pero mira, muchas veces cuando me insultan, pues yo digo, pues si me insultan por estas cosas, pues bienvenido seas. Desde luego, reforma laboral que ha bajado la temporalidad y que ahora mismo tenemos contratos mucho más estables de lo que había antes, yo creo que eso es bueno para la clase trabajadora."
+  },
+  {
+   "start": 1524.42,
+   "end": 1536.73,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Cuáles son las...? Miguel... Lleva Miguel poniéndome todo el rato fotos, pero que no entiendo ni el chiste, porque son fotos de Pedro Sánchez."
+  },
+  {
+   "start": 1536.73,
+   "end": 1544.99,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 7",
+   "text": "Son fotos del invitado, yo siempre pongo fotos del invitado que sale muy guapo, mirad, mirad que foto... ¿Pero por qué no tienes ni chiste, Miguel?"
+  },
+  {
+   "start": 1548.61,
+   "end": 1580.78,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Pero por qué? ¿Qué estás haciendo? ¿Por qué? Hombre, muy descarado por parte de comunicación del gobierno. Yolanda Díaz, Alberto"
+  },
+  {
+   "start": 1575.1,
+   "end": 1580.78,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Núñez"
+  },
+  {
+   "start": 1580.78,
+   "end": 1593.14,
+   "label": "SPEAKER_08",
+   "person": null,
+   "name": "Hablante sin identificar 6",
+   "text": "Feijóo,"
+  },
+  {
+   "start": 1595.88,
+   "end": 1596.68,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Santiago Abascal, Irene Montero,"
+  },
+  {
+   "start": 1596.7,
+   "end": 1598.88,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Ione Belarra, Jorge"
+  },
+  {
+   "start": 1598.22,
+   "end": 1599.34,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Bustos, Federico Jiménez"
+  },
+  {
+   "start": 1599.92,
+   "end": 1601.22,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Dile, dile, que se vaya, que se vaya, Miguel."
+  },
+  {
+   "start": 1601.62,
+   "end": 1603.6,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 7",
+   "text": "¿Te parece si termino con un chiste de zapateros?"
+  },
+  {
+   "start": 1605.08,
+   "end": 1606.78,
+   "label": "SPEAKER_06",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "No, ponme esta foto mejor y ya."
+  },
+  {
+   "start": 1607.28,
+   "end": 1607.64,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 7",
+   "text": "Esta."
+  },
+  {
+   "start": 1607.98,
+   "end": 1608.24,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Cuál?"
+  },
+  {
+   "start": 1609.8,
+   "end": 1611.6,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 7",
+   "text": "Vale, esta, con esta foto terminamos."
+  },
+  {
+   "start": 1613.0,
+   "end": 1638.04,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Quítale, quítale, échale, échale. Pero si ese es Aznar, ese es Aznar. Ese es Aznar. Aznar es verdad que tenía mucho abdominal muy poderoso. Yo no se lo he tocado nunca, eh. Perdón, si tuvieses que decir, de entre los muchos que ha habido, que habrá habido, Los dos, tres peores errores que habéis cometido, que has cometido durante las dos legislaturas, claro, has tenido tiempo para hacer muchas cosas. ¿Qué dos o tres cosas crees que las hemos cagado más aquí con esto?"
+  },
+  {
+   "start": 1638.58,
+   "end": 1648.68,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "No, hombre, yo desde luego los casos de corrupción que he sufrido en mi partido con José Luis Ábalos, desde luego eso ha sido una decepción para mí doble, sin duda alguna, eso ha sido un error."
+  },
+  {
+   "start": 1651.48,
+   "end": 1663.02,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Luego, a ver, yo hay una... ¿Algo te viste venir algún día de verle algún comentario, algún gif en el grupo de todos que teníais un poco guarrete?"
+  },
+  {
+   "start": 1663.32,
+   "end": 1704.86,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "No, de verdad que no. Yo creo que ahí crees conocer a la gente y de repente se desvela una cara algunas veces en determinados colaboradores que te quedas helado. Y es el caso de Ábalos. Pero fíjate, yo cuando llegué al gobierno me pasaba una cosa muy curiosa, y es que por la mañana de repente pasaban cosas, decisiones que tomábamos que eran muy buenas, y por la tarde era todo lo contrario. Entonces al final acabas teniendo una experiencia de tejer y destejer, de hacer cosas bien y otras que a lo mejor cometes errores, que te llevan muchas veces a acabar el día en empate, donde tienes una sensación agridulce. Pero bueno, yo después de ocho años..."
+  },
+  {
+   "start": 1705.52,
+   "end": 1711.12,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Qué más dirías aparte de eso? Si hay alguna otra cosa que tú digas, esto no lo hemos hecho bien, habrá cosas que tú sabes que no habréis hecho bien, claro."
+  },
+  {
+   "start": 1711.96,
+   "end": 1723.62,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "A ver, errores hemos podido cometer, por ejemplo, en algunos debates parlamentarios, pero yo creo que el gobierno y el país... ¿Gestión de Ceuta?"
+  },
+  {
+   "start": 1724.22,
+   "end": 1724.94,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Qué dirías?"
+  },
+  {
+   "start": 1725.22,
+   "end": 1731.06,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "A ver, ahí el dilema, David, es..."
+  },
+  {
+   "start": 1731.06,
+   "end": 1737.78,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Desde fuera, como ciudadano, es uno de los casos en los que parece evidente que no se ha gestionado bien."
+  },
+  {
+   "start": 1737.96,
+   "end": 1759.4,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "No, pero en términos objetivos, sin duda alguna podríamos haberlo gestionado mejor, pero en términos objetivos, lo que es la inversión en frontera, tanto en Ceuta como en Melilla, durante estos últimos años hemos invertido millones de euros. Sí, pero fíjate luego, claro. Sí, claro, pero ahora voy a eso. En segundo lugar, hemos tratado de tener unas relaciones lo más constructivas posibles con el país vecino, en este caso con Marruecos."
+  },
+  {
+   "start": 1760.5,
+   "end": 1762.6,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Son liosos, ¿eh? La están liando, Pedro."
+  },
+  {
+   "start": 1762.6,
+   "end": 1769.8,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Pero la frontera con Ceuta y también con Melilla son probablemente de las más complicadas."
+  },
+  {
+   "start": 1769.98,
+   "end": 1771.24,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Hay mucha presión ahí, está claro."
+  },
+  {
+   "start": 1771.42,
+   "end": 1777.62,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Por el salto de renta per cápita que tienes, ten en cuenta que de un lado a otro de la frontera tienes una renta per cápita ocho veces superior."
+  },
+  {
+   "start": 1777.68,
+   "end": 1780.52,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Será de los sitios con un cambio más grande del mundo, yo creo, ¿no?"
+  },
+  {
+   "start": 1780.62,
+   "end": 1805.3,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Probablemente de las más complejas. Y aparte tú necesitas la cooperación, en este caso de Marruecos, para poder frenar en su parte esa llegada tan masiva. Y yo lo expliqué en el Congreso de los Diputados, por lo tanto no estoy desvelando nada. Cuando llegó ese día, el 30 y el 31 de julio, tanto ellos como nosotros tuvimos una decisión que tomar. Porque con esa avalancha de gente, ¿cómo lo repeles?"
+  },
+  {
+   "start": 1806.68,
+   "end": 1811.18,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Con chavales... Una vez que ya están viniendo y que están ahí, entiendo que es difícil,"
+  },
+  {
+   "start": 1811.18,
+   "end": 1811.38,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "¿Por qué es tan difícil"
+  },
+  {
+   "start": 1811.18,
+   "end": 1815.26,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "que vienen 80.000 personas si no te vas a poner a tomar medidas de fuerza más grandes?"
+  },
+  {
+   "start": 1815.42,
+   "end": 1828.64,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Claro, porque al final, desgraciadamente murieron 141 personas, muchas de ellas niños y niñas. Pero si hubiéramos hecho algo mucho más agresivo, pues muy probablemente estaríamos hablando de una cifra muy mayor."
+  },
+  {
+   "start": 1829.56,
+   "end": 1842.56,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Pero en la parte posterior, en el tiempo, no sé, yo alguna vez cuando veo hablar del tema, cuando veo gente de ahí y demás, Además, puede uno empatizar con, joder, mucho tiempo hasta que eso ha empezado a retomar un poco de normalidad."
+  },
+  {
+   "start": 1843.38,
+   "end": 1894.34,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Bueno, parece que ha sido hace mucho tiempo, pero ha sido hace poco más de dos meses. Ten en cuenta que nosotros en dos meses hemos habilitado 7.500 plazas para poder acoger a todas estas personas. Y en segundo lugar, bueno, desde el 10 de agosto, porque 9 de cada 10 salieron en los días posteriores al 30 y el 31 de julio, Más de 12.000 migrantes marroquíes han vuelto de manera voluntaria a Marruecos, porque como saben que si se les abre el expediente y se les deniega el permiso de protección internacional y tienen que retornar, van a tener difícil volver a intentarlo. Muchas veces ellos mismos salen. Entonces, bueno, es una situación difícil, compleja, la estamos gestionando bien. Y yo, además, siempre digo que la fortaleza del Estado no significa un trato inhumano a los migrantes que"
+  },
+  {
+   "start": 1894.34,
+   "end": 1896.52,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "llegan a nuestro"
+  },
+  {
+   "start": 1896.52,
+   "end": 1897.38,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "país."
+  },
+  {
+   "start": 1897.7,
+   "end": 1906.4,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "No tiene que ver con eso, pero es verdad que la gestión de inmigración y demás, que es de las cosas de los puntales más grandes en política en todo el mundo ahora mismo, Bueno,"
+  },
+  {
+   "start": 1906.48,
+   "end": 1912.7,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "pero se le da un significado por parte de la derecha a la ultraderecha absolutamente peyorativo."
+  },
+  {
+   "start": 1912.96,
+   "end": 1978.88,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Sí, esto que dices, efectivamente, de la ultraderecha se utiliza la inmigración a saco para justificar todo lo demás y se tiene ese trato xenófobo en mil sentidos. Pero desde la izquierda, desde los partidos de izquierda, creo que internacionalmente, mi sensación es como que hay un... O sea, cuesta entender que puede haber una queja sobre alguna cuestión de inmigración inmigratoria concreta sin que eso implique xenofobia. Es decir, hay consecuencias, o hay tanto eventos particulares o cosas concretas como consecuencias de una inmigración de un tipo u otro que pueden ser problemáticos y que hay gente que tanto a nivel personal como a nivel de gran escala le suponga problemas y eso no tiene por qué ser xenófobo en sí mismo. Hay muchas actitudes sobre la inmigración que son xenófobas. Pero sigo sin encontrar gente progresista o de izquierdas en puestos ejecutivos de poder que sea capaz de conciliar esas dos cosas Que se puede hablar de inmigración de una forma humana, por supuesto, y acogedora en ese sentido, y solidaria y demás Pero se pueden abordar algunos temas derivados de la inmigración negativos en algunas ocasiones sin que sea algo xenófobo o racista Y creo que la izquierda se hace tope con eso y creo que es muy autoconsciente de sí misma y es incapaz de gestionarlo bien Y no lo hacéis, no termina de hacerse en ese sentido Yo"
+  },
+  {
+   "start": 1978.88,
+   "end": 1989.06,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "a lo mejor lo hago sin éxito por lo que estás comentando, pero yo lo trato de hacer. Por ejemplo, hemos puesto en marcha un... ¿Cuál es el desafío principal que tenemos de la migración en nuestro país y en todas las"
+  },
+  {
+   "start": 1989.06,
+   "end": 1989.4,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "sociedades?"
+  },
+  {
+   "start": 1989.42,
+   "end": 2082.02,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "La integración. Es decir, la asimilación por parte de estos migrantes que llegan a nuestro país de nuestras culturas, de nuestra forma de vida, de nuestra forma de relacionarnos. Y eso son políticas de integración. Hemos puesto en marcha un plan de 500 millones de euros precisamente para esas políticas de integración. ¿Dónde tenemos la dificultad? Bueno, pues que en un Estado compuesto como el nuestro, donde los ayuntamientos y las comunidades autónomas tienen muchas competencias, esos recursos económicos se los damos a quienes tienen la capacidad y las competencias para hacer esas políticas de integración y no las hacen. Y al igual ocurre también con las fronteras. Yo en muchas ocasiones lo digo. La migración tiene distintas patas. Tiene, por un lado, luchar contra la migración irregular, porque además tenemos que hacerlo, porque trafican con seres humanos. Hay muchos jóvenes que mueren en el Atlántico o en el Mediterráneo consecuencia de estas mafias y el tráfico de seres humanos. Dos, tenemos que controlar las fronteras y tenemos que invertir en el control de las fronteras, que es lo que hemos hecho en Ceuta y Melilla. Tres, tenemos que impulsar las vías de migración regular, porque hay mano de obra. Seguro que luego vamos a hablar de vivienda. Lo tenía apuntado por aquí, si es posible que se acabe. ¿Dónde necesitamos una mano de obra, David? Necesitamos, precisamente, en la construcción, pues necesitamos migración. Y luego, finalmente, necesitamos, lógicamente, políticas de integración de esa migración. Porque, bueno, este es un país solidario, es un país acogedor, no olvida su historia ni su memoria. Hemos sido país migrante, pero, lógicamente, valoramos y mucho lo que representa la forma de ser español."
+  },
+  {
+   "start": 2082.3,
+   "end": 2084.2,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Sí, es verdad. Eso voy a decir. Sí, sí, claro."
+  },
+  {
+   "start": 2087.54,
+   "end": 2138.4,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Pero fíjate que cuando te vas a los datos, España es uno de los países más seguros del mundo. No es cierto, además, que hay una relación positiva entre la migración y la criminalidad. Es justo lo contrario, no la hay. Nosotros en estos últimos años, como consecuencia del crecimiento económico que hemos tenido, hemos recibido mucha migración porque necesitábamos esa mano de obra para impulsar esos sectores productivos y tenemos una de las tasas de criminalidad más bajas de Europa. Porque lo que pasó, lo que sabemos ahora mismo de esa crisis, es uno que se utilizó por parte de las redes sociales, no se sabe exactamente quién, si fue algo autónomo o fue algo indicado por terceros, a través de las redes sociales, bulos, desinformación, vinculadas, por ejemplo, con una sentencia del Tribunal Supremo que decía que si tú pasabas a nada,"
+  },
+  {
+   "start": 2138.58,
+   "end": 2139.94,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "el país..."
+  },
+  {
+   "start": 2140.24,
+   "end": 2169.28,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Ya era concejal. El país no podía ya expulsarte en frontera, que es como se dice técnicamente. Cosa que era mentira, tampoco el Tribunal Supremo dijo eso. Pero esa fe y esa desinformación se propagó como la pólvora por redes sociales de chavales jóvenes y de repente un día muy significativo para Marruecos, como era la fiesta del trono, donde prácticamente todas las fuerzas de seguridad estaban reforzando la seguridad del rey de Marruecos, pues fue utilizado para la avalancha que tuvimos en Ceuta."
+  },
+  {
+   "start": 2196.42,
+   "end": 2212.56,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Yolanda Díaz En tu ciudad, donde normalmente vas a darte una vuelta, de pronto hay 800 chavales, incluso aunque no te estén haciendo nada, que algunos sabrán que hacen cosas y otros que no. Bueno, evidentemente es como, joder, desde fuera, desde la península, lo ves más lejos, pero ellos yo entiendo que digan, tío, estamos hasta los huevos."
+  },
+  {
+   "start": 2213.62,
+   "end": 2227.7,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "¿Y estamos gestionándolo? ¿Estamos haciendo todo lo que es la filiación precisamente para dirimir cada expediente de cada ser humano, porque al final son personas, son seres humanos, si tienen derecho o no a la protección internacional?"
+  },
+  {
+   "start": 2227.7,
+   "end": 2230.88,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Sí, no se puede tratar como ganado de tos a bloque."
+  },
+  {
+   "start": 2231.14,
+   "end": 2260.1,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Pero es que algunas veces da la sensación, cuando escuchas algunos debates públicos, da la sensación de que detrás de esas personas no hubiera seres humanos. Y los hay, que tienen sus derechos. O al menos las grandes democracias, como es la española, tenemos que hacer valer también esos derechos. Y bueno, pues se está trabajando por parte de las fuerzas y cuerpos de seguridad del Estado y efectivamente se está acelerando lo que son los expedientes. Primero, para saber que en su amplísima mayoría son personas que no tienen el derecho a la protección internacional y que con toda seguridad volverán a Marruecos."
+  },
+  {
+   "start": 2260.26,
+   "end": 2262.9,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Bueno, mandamos un abrazo a la gente de Ceuta que está ahí en la última época."
+  },
+  {
+   "start": 2263.76,
+   "end": 2275.72,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Por cierto, diré que yo he sido el presidente del gobierno que más en ejercicio ha ido a... ¿Cómo, cómo? Que tengo que decir que yo he sido el presidente del gobierno en ejercicio que más veces ha ido a Ceuta y a Melilla. Vale."
+  },
+  {
+   "start": 2276.74,
+   "end": 2289.44,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Tienes partido de izquierda favorito? Yo tengo uno, sí. Quitando... Quitando el tuyo, más o menos. Pero bueno... ¿Cuál te gusta de los otros?"
+  },
+  {
+   "start": 2290.72,
+   "end": 2305.18,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "A mí, a ver, yo creo que durante estos ocho años he demostrado que me puedo entender con casi todos, ¿no? Con casi todos los partidos. Hay algunos que es muy difícil, otros que es imposible."
+  },
+  {
+   "start": 2306.34,
+   "end": 2307.48,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Con cuál imposible?"
+  },
+  {
+   "start": 2308.08,
+   "end": 2309.22,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Bueno, en serio,"
+  },
+  {
+   "start": 2309.3,
+   "end": 2316.92,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "con Vox no tengo nada. ¿No se va a pactar con Vox en principio? Nosotros desde luego no. ¿Imaginas que de repente hay"
+  },
+  {
+   "start": 2316.92,
+   "end": 2318.08,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "una coalición Vox-PSOE?"
+  },
+  {
+   "start": 2318.4,
+   "end": 2319.92,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "No, no, no, por favor, eso"
+  },
+  {
+   "start": 2319.92,
+   "end": 2320.54,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "suena..."
+  },
+  {
+   "start": 2320.54,
+   "end": 2326.78,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Qué prefieres? Que me gustan a mí muchos estos juegos. ¿Qué prefieres? ¿Viajar al pasado y pactar con Ciudadanos o al futuro y pactar con Vox?"
+  },
+  {
+   "start": 2327.54,
+   "end": 2330.58,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "No, pero yo creo que entre medias hay opciones mucho más interesantes, ¿no?"
+  },
+  {
+   "start": 2330.62,
+   "end": 2331.44,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "No, pero elige, elige."
+  },
+  {
+   "start": 2331.46,
+   "end": 2345.96,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Bueno, ya, pero es que me pones en una tesitura que vamos. No, pero yo creo que... Creo que hay buenos partidos, hay muy buenos políticos y políticas. Yo, por ejemplo, con Yolanda Díaz me he entendido. Muy bien, durante un año."
+  },
+  {
+   "start": 2345.96,
+   "end": 2351.92,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Ahora ya, ahora ya, no, ella está fuera, ¿no? Ahora, en la paella mixta, en el partido nuevo."
+  },
+  {
+   "start": 2352.2,
+   "end": 2361.04,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Yo tampoco lo entiendo, si me permites, yo tampoco lo entiendo, porque me parece que es una de las políticas mejor en forma que hay ahora mismo en todo, en toda la política española."
+  },
+  {
+   "start": 2361.06,
+   "end": 2387.94,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿A quién habrías puesto tú a liderar el Frente Amplio? Yo ya no me meto en esas, en esos jardines no me meto. ¿Te llegaste a creer cuando Rufián se tiró el rollo aquel que todos dijimos, joder, Rufián, qué tío, y luego Luz total? ¿Tú te lo llegaste a creer y dijiste, a ver si este va a venir desde Narnia a gobernarnos? ¿Cómo le han llamado el orden en Cataluña? ¿Pero dónde vas, Rufián? ¿Tú has visto lo que ponen las islas del partido? ¿Qué pone, Cataluña o España?"
+  },
+  {
+   "start": 2388.54,
+   "end": 2395.74,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Tú ya sabes que más sabe el perro por perro que por Sánchez. Yo sabía que eso no..."
+  },
+  {
+   "start": 2396.32,
+   "end": 2397.06,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Que no iba a tirar."
+  },
+  {
+   "start": 2397.2,
+   "end": 2397.42,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "No iba a volar, no."
+  },
+  {
+   "start": 2398.2,
+   "end": 2400.62,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Por qué? ¿Por qué creías? ¿Cuál es tu teoría de qué ha pasado?"
+  },
+  {
+   "start": 2400.62,
+   "end": 2421.06,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Porque al final, mira, Esquerra Republicana, Es un partido con el que nos hemos entendido y hemos sacado muchas cosas adelante, por ejemplo, la ley de vivienda. Bueno, pues es un partido independentista, es un partido de izquierdas, pero es un partido independentista. Yo no veía a Esquerra Republicana, otra cosa es Rufián, pero a Esquerra Republicana siguiendo esa estrategia."
+  },
+  {
+   "start": 2421.06,
+   "end": 2428.16,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Rufián, tú crees que igual es ya más de izquierdas que independentista, ¿no? Que ya le estás diciendo, pero si yo lo que quiero es estar aquí molando y tal, mejor más territorio que menos, claro."
+  },
+  {
+   "start": 2428.16,
+   "end": 2436.72,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "No, pero y Esquerra Republicana también ahora mismo creo que está más en defender las políticas progresistas e izquierdas que lo que es..."
+  },
+  {
+   "start": 2436.72,
+   "end": 2447.52,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Vaya movida tienen en Cataluña, ¿eh? O sea, quiero decir que a nivel político interno de Cataluña, claro, ahora si de pronto sale la Alianza Catalana, saca un 42%, estarán preocupados ahí, claro, también. Digo, los de Esquerra, claro."
+  },
+  {
+   "start": 2447.52,
+   "end": 2464.74,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "No deja de ser producto de la época que vive ahora mismo el mundo, de la ultraderecha, ya sea independentista o ultranacionalista, como es el caso de Vox, pues está avanzando. Y yo le echo mucho la culpa a los algoritmos."
+  },
+  {
+   "start": 2465.1,
+   "end": 2466.64,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Al algoritmo, ¿eh? Sí, sí, sí."
+  },
+  {
+   "start": 2466.64,
+   "end": 2469.64,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "A los rappers, hay muchos rappers ahora de ultraderecha, tío."
+  },
+  {
+   "start": 2469.8,
+   "end": 2470.96,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Los rappers. Joder, J.C."
+  },
+  {
+   "start": 2472.1,
+   "end": 2474.22,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Reyes dice que ha dejado la música por Pedro Sánchez, tío."
+  },
+  {
+   "start": 2474.34,
+   "end": 2475.34,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Yo lo veo, yo lo veo."
+  },
+  {
+   "start": 2475.34,
+   "end": 2476.96,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Que muchas gracias por otro lado."
+  },
+  {
+   "start": 2480.9,
+   "end": 2503.22,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Yo creo que nosotros, la sociedad en un conjunto. Los algoritmos, las redes sociales, dices. Bueno, pero sí, los algoritmos, porque al final los algoritmos son los que te dicen, los que te hacen un engagement de una manera u otra, los que te dirigen la conversación. Yo creo que hemos pecado muy de ingenuos pensando que la tecnología es neutra. Cuando tú te reúnes con los tecnoligarcas, esto yo he tenido ocasión."
+  },
+  {
+   "start": 2503.38,
+   "end": 2504.12,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Con quién has estado?"
+  },
+  {
+   "start": 2504.3,
+   "end": 2506.5,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "No te voy a decir, pero yo me he reunido con algunos de estos."
+  },
+  {
+   "start": 2506.5,
+   "end": 2510.56,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Has estado con Peter Thiel? ¿Este sabes quién es? No, ese no, ese no. Ojo, ¿eh?"
+  },
+  {
+   "start": 2510.56,
+   "end": 2514.7,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Es listo y zorrete, ¿eh? Y se va al Vaticano a hablar del anticristo."
+  },
+  {
+   "start": 2514.76,
+   "end": 2535.04,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Se va al Vaticano, tiene una mezcla increíble, pero bueno, la gente que no conoce es un tío que es mega multimillonario porque vendió Paypal y tal, y ahora el tío es como de estos... No sé si has visto que él y otros de este estilo, americanos y tal, hacen una cosa o propugnan una cosa que llaman la ilustración oscura. ¿Has visto esto? Sí, sí, sí. Dicen que la ilustración que hubo en Europa hace unos siglos, a raíz de los cuales surgieron muchas cosas, creo que positivas, ¡Gracias!"
+  },
+  {
+   "start": 2565.04,
+   "end": 2570.18,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "¿Qué pasa? Yo muchas veces cuando he hablado con algunos de estos tecnoligarcas y les he explicado las razones por las cuales..."
+  },
+  {
+   "start": 2570.18,
+   "end": 2573.16,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Dónde quedáis para esas cosas? ¿A un tipo de gruta? Sí, aquí al lado."
+  },
+  {
+   "start": 2573.3,
+   "end": 2575.08,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "¿En el tallatela? Sí, en el"
+  },
+  {
+   "start": 2575.08,
+   "end": 2575.58,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "tallatela."
+  },
+  {
+   "start": 2576.32,
+   "end": 2615.14,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "¿Y los más? ¿Qué? Sí, ahí en un menú de casa, ¿no? Nada, el caso es que te dicen, no, pero es que nosotros lo que hacemos es una plataforma, esto es neutro, los ciudadanos pueden explicar y decir todo lo que quieran, pero claro, es que en las plataformas tú no puedes decir todo lo que quieras. Tú lo que no puedes hacer es jugar con las imágenes de menores con contenidos sexuales, como ahora mismo permite la inteligencia artificial. Y hay sentencias que están ahora mismo saliendo en Estados Unidos, donde efectivamente se responsabiliza a estas plataformas de nada más y nada menos que suicidios de jóvenes y no tan jóvenes."
+  },
+  {
+   "start": 2615.14,
+   "end": 2632.76,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Y pasa cuando el otro día estuve viendo un reportaje sobre TikTok y demás y tal, que hace mucho oídos sordos cuando hay quejas sobre, bueno, pues niños o niñas que ponen vídeos bailando o ponen tal y esto, y hay gente que aprovecha eso, pues para, ya sabemos para qué. Bueno, tampoco están ellos muy pensando en defender eso porque necesitan más volumen de negocio."
+  },
+  {
+   "start": 2632.82,
+   "end": 2637.04,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "¿Qué herramientas tenemos desde el Estado? Pues herramientas tenemos la legislación"
+  },
+  {
+   "start": 2637.04,
+   "end": 2641.32,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "y la cooperación internacional. Y de respeto también a redes sociales y demás, ¿no?"
+  },
+  {
+   "start": 2641.36,
+   "end": 2657.32,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Claro, o sea, nosotros... Que es peligroso eso, es verdad que... Bueno, sobre todo lo que no puede ser es un estado fallido, lo que no puede ser es que tú, en el mundo off, es decir, en el que estamos, nosotros, en el físico, tengamos una serie de normas, de leyes, que tengamos que atacar, acatar, perdón, y que si tenemos que..."
+  },
+  {
+   "start": 2657.32,
+   "end": 2659.22,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Y que atacar, algunas leyes hay que atacarlas también, Pedro."
+  },
+  {
+   "start": 2659.34,
+   "end": 2660.9,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Y si tenemos que reformarlas..."
+  },
+  {
+   "start": 2660.9,
+   "end": 2661.7,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Le pudo el subconsciente."
+  },
+  {
+   "start": 2661.84,
+   "end": 2702.22,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Se reforman. Pero, coño, en el mundo digital necesitamos también esas normas. Ya, ya. Por ejemplo, el control en el acceso a las redes sociales de los menores, el que ellos mismos sean responsables también, hasta incluso con responsabilidad penal, de los algoritmos que desinforman o que no quitan contenidos que está contrastado, que son mentira o que son violentos y que incitan al odio. Hemos visto casos muy graves de conflictos internacionales donde estas plataformas han jugado, gracias al algoritmo, un papel perverso que ha costado vidas a miles de personas."
+  },
+  {
+   "start": 2702.48,
+   "end": 2726.78,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Sí, es verdad que las redes sociales durante unos cuantos años, hace una década y media cuando empezaron, tenían como muchas cosas buenas y las siguen teniendo, tienen unas cosas buenas, pero es verdad, para mí esto ya es opinión personal, para mí las malas se superponen a las buenas a lo bestia. El otro día vi una entrevista a María Risa, ¿sabes esta risa con doble E? No es María Risa porque es una cómica. Esta señora filipina, Nobel de la Paz."
+  },
+  {
+   "start": 2726.84,
+   "end": 2727.28,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Fantástica."
+  },
+  {
+   "start": 2728.4,
+   "end": 2761.38,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Y la tía decía, la tía hablaba del peligro que plantea esto y sacaba un concepto que me llamó la atención que decía que esto y otras cosas, pero las redes sociales y el algoritmo y tal, dice que hacía perder la realidad compartida. Es decir, Nati hablaba de, históricamente, gente ha podido diferir en su opinión sobre un hecho, pero el hecho era claro, es decir, está pasando esto, y luego tú puedes interpretarlo de una manera u otra, pero ahora es como, no hay una realidad compartida, no opinamos sobre un hecho que es objetivo, sino que ni siquiera los hechos valen, entonces decía, eso es terrorífico, eso es un manicomio, el mundo se convierte en un manicomio."
+  },
+  {
+   "start": 2761.38,
+   "end": 2779.06,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Eso pasa, por ejemplo, con la emergencia climática, que claramente los terraplanistas lo que dicen es que esos son inventos del globalismo, de élites, que lo único que quieren es ganar dinero con las renovables y realmente lo que están haciendo es defender un estatus quo que es injusto y que efectivamente es dañino para el planeta y la salud del planeta."
+  },
+  {
+   "start": 2780.26,
+   "end": 2807.96,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "En esto, perdón, yo echo de menos, aquí de nuevo te vuelvo a hablar como tal, antes que hablábamos de cosas en las que creo que tú dirás, me da exactamente igual, he echado de menos en estos años de gobierno progresista, digamos, medidas más tajantes relativo al cambio climático, porque creo que es lo más importante, o sea, porque es una cosa realmente fuerte. Pero estamos haciendo bastante, estamos haciendo bastante. Pero es que... Fíjate que, por ejemplo... Es que eso..."
+  },
+  {
+   "start": 2807.96,
+   "end": 2825.98,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Pero estamos haciendo bastante, porque fíjate, nosotros, ahora mismo España, a nivel de electrificación, estamos en torno al 20% de nuestra economía, un poquito más, tenemos el 60% de la generación eléctrica en nuestro país proviene de renovables, cuando estaba Mariano Rajoy le ponían el impuesto al sol."
+  },
+  {
+   "start": 2825.98,
+   "end": 2826.94,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Cómo le echo de menos, eh?"
+  },
+  {
+   "start": 2827.66,
+   "end": 2836.78,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Pues yo no le echo nada de menos, o sea, no me digas. De todas formas, volviendo un momento a la inteligencia artificial, porque me parece clave, porque yo conocí a esta mujer también."
+  },
+  {
+   "start": 2837.0,
+   "end": 2837.58,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Era muy gracioso."
+  },
+  {
+   "start": 2838.22,
+   "end": 2839.68,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Me conocí a esta mujer también y me pareció..."
+  },
+  {
+   "start": 2839.68,
+   "end": 2840.32,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿La conociste a esta señora?"
+  },
+  {
+   "start": 2840.84,
+   "end": 2840.9,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Sí, sí, sí."
+  },
+  {
+   "start": 2841.44,
+   "end": 2842.76,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Ella es premio Nobel."
+  },
+  {
+   "start": 2842.94,
+   "end": 2843.9,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Sí, fue opositora a"
+  },
+  {
+   "start": 2843.66,
+   "end": 2845.8,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Duterte en Filipinas y tal."
+  },
+  {
+   "start": 2846.02,
+   "end": 2916.56,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Sufrió la desinformación. Sí, sí. Muchísimo, fue muy grave. Pero volviendo a la conversación que tengo con estos tecnoligarcas, Yolanda Díaz. Suena a locura, pero que esta gente está en eso y por tanto yo creo que es muy importante el tener gobiernos que pongan pie en pared en esto, que utilicen todas las herramientas que tiene el Estado, la Unión Europea en nuestro caso y también a nivel multilateral para tener una tecnología al servicio de la gente y no la gente al servicio de la tecnología. La inteligencia artificial es una industria extractiva, extractiva, desde el punto de vista de los recursos naturales, la explotación laboral, hasta incluso los datos que tú o que yo cuando utilizamos el móvil estamos dando gratuitamente a compañías que lo utilizan luego para hacer negocio."
+  },
+  {
+   "start": 2917.16,
+   "end": 2918.6,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Lo usas, usas de vez en cuando."
+  },
+  {
+   "start": 2919.3,
+   "end": 2921.68,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Claro que utilizo la IA, por supuesto."
+  },
+  {
+   "start": 2921.74,
+   "end": 2924.44,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Yo dudo a veces. Y me ayuda, pero también"
+  },
+  {
+   "start": 2924.44,
+   "end": 2926.22,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "veo el peligro."
+  },
+  {
+   "start": 2926.34,
+   "end": 2930.36,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Hombre, claro, te hace más plano, te hace más inútil."
+  },
+  {
+   "start": 2930.36,
+   "end": 2936.78,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "A mí me ha dicho esa GPT que vote al PP, eh, cuidado, eh. Bueno, pero sabes que esa GPT no es..."
+  },
+  {
+   "start": 2936.78,
+   "end": 2937.88,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "o sea, es falible."
+  },
+  {
+   "start": 2938.18,
+   "end": 2945.08,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "No es infalible. Ah, falible, pensaba que... No, no, te quiero decir que puede equivocarse, puede equivocarse. Sí, sí, totalmente."
+  },
+  {
+   "start": 2945.88,
+   "end": 2951.08,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Pero qué razones... De todas formas... ¿Te lo desarrollaba? ¿Qué razones te daba? ¿Cómo te lo argumenta?"
+  },
+  {
+   "start": 2951.22,
+   "end": 2956.38,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Me ha dicho vota al PP, tío. Yo... No jodas. No sea así, yo pongo así un poco pues las características..."
+  },
+  {
+   "start": 2956.38,
+   "end": 2957.68,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Lo que tú piensas de las cosas, ¿no?"
+  },
+  {
+   "start": 2957.68,
+   "end": 2960.72,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "No, las características de vida y me dice que..."
+  },
+  {
+   "start": 2960.72,
+   "end": 2966.18,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Ah, bueno, es que tú que estás forrado por características de vida te interesa que gane el PP, claro. O sea, por supuesto te conoce, claro, claro. Sí, sí."
+  },
+  {
+   "start": 2966.26,
+   "end": 3010.0,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "De todas formas hay gente que puede pensar, oye, mira, Sánchez lleva ya gobernando ocho años. La que lleva dando de Pedro ocho años, la Virgen Santa, ¿eh? Sí, ocho años y tal, y ahora se presenta otra vez. Oye, pues en democracia la alternancia es interesante, eso es bueno, es sano. Pero el problema es que cuando metes en la ecuación a Vox, todo cambia. Ya no estamos hablando de alternancia, estamos hablando de involución. Hace varios días, no sé si habéis visto, por ejemplo, que en la Junta de Castilla y León han acordado el PP y Vox el censurar aquellas subvenciones a creaciones artísticas, a películas que ellos consideren ideologizadas. Claro, eso abre un campo. Porque, claro, ¿quién elige y quién decide qué es ideológico o no es ideológico? Ellos."
+  },
+  {
+   "start": 3010.26,
+   "end": 3010.78,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Ya, ya."
+  },
+  {
+   "start": 3010.78,
+   "end": 3034.5,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Eso se llama censura. Y eso no te lleva a una alternancia, te lleva a una involución. Mira, en el 90 aniversario de la muerte de Lorca, en el Ayuntamiento de Valladolid, acaban de suspender una obra de Lorca, de teatro, ese tipo de cosas, pues yo creo que no corresponden a la España del siglo XXI, desde luego, yo creo que no debemos permitir que avance el pasado."
+  },
+  {
+   "start": 3043.04,
+   "end": 3060.34,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Qué es eso, Miguel? La programación de Televisión Española en marzo, ¿no? ¿Qué crees que va a pasar? Pedro, yo sé que tú piensas que vas a ganar y que vas a tener más tiempo y demás."
+  },
+  {
+   "start": 3060.52,
+   "end": 3063.84,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "No solamente vamos a ganar, sino que vamos a ganar con más mayoría de la que hemos tenido."
+  },
+  {
+   "start": 3063.94,
+   "end": 3071.42,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Qué dices tú, hombre? ¿Qué dices tú? ¿Estás loco? ¿Estás loco, Pedro? ¿Cómo vais a ganar con más mayoría? ¡Entradas! ¡Entradas!"
+  },
+  {
+   "start": 3098.74,
+   "end": 3102.92,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Yo entiendo que la vida de un político es exigente, pero si me lo podéis hacer un poco más fácil."
+  },
+  {
+   "start": 3103.62,
+   "end": 3124.7,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Lo que decía es, poniéndote, yo sé que tú no vas a hablar de eso como una posibilidad realista porque piensas que vas a ganar y como candidato tienes que pensarlo. Vuelvo que hemos empezado el programa con eso, vuelvo a esto, como has hablado de Vox y ahora y tal. ¿Crees que si hubiese un gobierno de PP y Vox nos echarían a nosotros, o sea, lo que se ha hablado tanto últimamente? ¿Cuánto crees que tardarían en echar? ¿Cuál es tu opinión real, personal, de cuánto tardarían en echar?"
+  },
+  {
+   "start": 3124.78,
+   "end": 3127.5,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "A lo mejor el nombre lo conservan, pero a ti te cambian por Bertín Osborne."
+  },
+  {
+   "start": 3128.98,
+   "end": 3130.86,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Yo sé, mantienen lo mismo, ¿no?"
+  },
+  {
+   "start": 3132.62,
+   "end": 3137.48,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Yo creo que Griso se tendrá que quitar el bigote y dejarse patinar. Claro, claro."
+  },
+  {
+   "start": 3138.7,
+   "end": 3142.78,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "A mí me van a cambiar, porque yo sería el bajito de los morancos, yo creo."
+  },
+  {
+   "start": 3143.02,
+   "end": 3147.24,
+   "label": "SPEAKER_06",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Claro. Yo me he comprado un fachaleco, por si acaso. Sí, por supuesto, tiene que estar ahí."
+  },
+  {
+   "start": 3147.52,
+   "end": 3148.34,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Bueno, pero dime, dime opinión."
+  },
+  {
+   "start": 3148.34,
+   "end": 3149.64,
+   "label": "SPEAKER_06",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Y el turbante este, no sé yo."
+  },
+  {
+   "start": 3149.72,
+   "end": 3153.16,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "El turbante no creo que se pueda mantener, pero me va bien un tricornio también."
+  },
+  {
+   "start": 3154.86,
+   "end": 3160.96,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Dime, dime opinión en ese mundo, desde tu punto de vista teórico, Yo creo que es una pregunta que ellos tienen que responder, yo no, pero"
+  },
+  {
+   "start": 3160.96,
+   "end": 3178.8,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "bueno, yo te voy a hacer la reflexión. ¿Qué opinas? Si estos están suspendiendo obras de Lorca y dicen que van a recortar subvenciones a aquellas películas que consideren ideologizadas... Imagínate esto."
+  },
+  {
+   "start": 3179.14,
+   "end": 3181.06,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Si es que no quieren venir, Pedro, no quieren venir."
+  },
+  {
+   "start": 3181.14,
+   "end": 3182.14,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "No quieren venir, ¿sabes qué?"
+  },
+  {
+   "start": 3182.38,
+   "end": 3186.98,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "De para decir, joder, son un poco majetes, nos van a coger cariño y no nos van a echar, entonces no quieren venir para eso."
+  },
+  {
+   "start": 3186.98,
+   "end": 3204.66,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Ayer decía Marcos, no sé si lo viste, que hemos invitado a todos los candidatos, y tú has venido, creo que va a venir Colau, hoy he visto que ha puesto en Twitter que venía y demás, y ellos, PP y Vox, ni siquiera han contestado. Y decía Marcos ayer que cree que no quieren venir porque como saben que nos van a sacrificar para no cogernos cariño, previamente. Bueno, primero yo lo pondría..."
+  },
+  {
+   "start": 3206.4,
+   "end": 3206.72,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Totalmente."
+  },
+  {
+   "start": 3206.94,
+   "end": 3214.06,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Yo lo pondría... A ver, yo creo que la política tiene una magia, de verdad."
+  },
+  {
+   "start": 3214.24,
+   "end": 3218.48,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Es lo que opinamos las personas. La gente percibe la política como pura magia."
+  },
+  {
+   "start": 3218.68,
+   "end": 3222.68,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "No, pero lo tiene. Oye, hemos hecho grandes cosas por este país, o al menos eso es lo que yo entiendo."
+  },
+  {
+   "start": 3222.68,
+   "end": 3227.18,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Sí, la política debería tener una magia en cuanto a debería servir para ayudar a la gente."
+  },
+  {
+   "start": 3227.08,
+   "end": 3241.04,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "No, pero que tiene la magia siguiente. No sé por qué se tiene que jugar a lo determinista, a lo lineal. Esto ya está hecho. Bueno, pero si la gente todavía no ha hablado, no ha opinado, no ha decidido. No han votado. No hay una campaña en la que se contrasten proyectos políticos."
+  },
+  {
+   "start": 3241.04,
+   "end": 3254.3,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Y, perdón, y por terminar con la parte ya metaprograma, hablando de nosotros y demás, ¿cómo crees que...? Porque a mí me gustaría, igual que vienes tú, la verdad es que yo no voy a decir que necesito, pero me gustaría mucho que viniese Feijóo."
+  },
+  {
+   "start": 3255.86,
+   "end": 3261.88,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Pero si me pides que yo le llame, te digo que es la peor de las vías."
+  },
+  {
+   "start": 3261.9,
+   "end": 3276.62,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Cómo crees que le puedo convencer? Porque si no, claro, ellos, su intuyo y su estrategia es decir que no vienen porque esto es Telepedro, Y luego no venir y decir, ¿no lo veis? Han entrevistado a Pedro y a Colau. Pero claro, es trampa, el truco no vale porque le estamos invitando."
+  },
+  {
+   "start": 3277.5,
+   "end": 3288.64,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Yo tengo un truco para que venga Feijóo, que es anunciar que viene Ayuso, en 10 minutos lo tenemos en la puerta. Hombre, creo."
+  },
+  {
+   "start": 3291.82,
+   "end": 3296.64,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Así no viene, así no va a venir. Yo ahí de verdad que no te puedo aconsejar. Tú vas a ir al"
+  },
+  {
+   "start": 3296.64,
+   "end": 3297.72,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "hormiguero, te han invitado, ¿no?"
+  },
+  {
+   "start": 3298.12,
+   "end": 3300.64,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Yo iré al hormiguero y a donde haga falta. ¿Al Jordi Guayl vas a"
+  },
+  {
+   "start": 3300.64,
+   "end": 3301.3,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "ir también tú ahí?"
+  },
+  {
+   "start": 3301.5,
+   "end": 3304.06,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Eso ya lo responderé. Ah, vale, vale. Lo responderé."
+  },
+  {
+   "start": 3304.72,
+   "end": 3313.28,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Has estado una vez o dos veces en el hormiguero? En el hormiguero he estado una vez. Pones muy buen jamón, yo fui una vez, muy buen jamón al catering. Lo he hecho. ¿Te hizo el baile? ¿Tuviste que hacer el baile de TikTok?"
+  },
+  {
+   "start": 3315.38,
+   "end": 3320.76,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Bueno, yo... Hombre, está bien el programa, pero sin más. Está bien. Iré, iré, iré."
+  },
+  {
+   "start": 3322.38,
+   "end": 3325.72,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Oigo... Se oyen risas por ahí de fondo."
+  },
+  {
+   "start": 3326.22,
+   "end": 3328.82,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Eso es un fantasma de... Eso es un son de horizonte."
+  },
+  {
+   "start": 3330.74,
+   "end": 3343.2,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Me hizo mucha gracia Pablo Motos porque... Me hizo mucha gracia Pablo Motos, ¿eh? Sí, pero déjame terminar la frase. El caso es que, bueno, pues él, claro, lleva..."
+  },
+  {
+   "start": 3343.2,
+   "end": 3344.66,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "20 años, buen profesional, ¿eh?"
+  },
+  {
+   "start": 3344.74,
+   "end": 3382.94,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "En fin, el caso es que me llevó al programa y me dice, claro, es que tú vas diciendo que en este programa solamente hay gente de derechas y yo quiero demostrarte que en las tertulias que nosotros hacemos aquí en El Hormiguero hay gente de izquierdas también. Y entonces me pone a Rubén Amón y al Valls este, Juan del Valls, claro, y yo digo, esto es una broma, no, es que somos, muchas veces cuando salen estas manifestaciones que de repente ponen la alcachofa a alguien y dice, yo era votante socialista, yo era votante socialista, siempre ha votado al PP, y ahora estás en Vox, ¿no? Bueno, eso suena como creíble,"
+  },
+  {
+   "start": 3382.96,
+   "end": 3393.62,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿sabes? Es verdad que pasa esa transición, que creo que también eso es lo que implica que Vox tenga una intención de voto tan alta. Esa transición la hemos visto, creo que todo el mundo conocemos gente que votó hace 20 años. Mira a Jiménez"
+  },
+  {
+   "start": 3393.62,
+   "end": 3394.1,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Losantos."
+  },
+  {
+   "start": 3394.48,
+   "end": 3395.8,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Jiménez Losantos era medio comunista, ¿no?"
+  },
+  {
+   "start": 3395.88,
+   "end": 3400.28,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Bueno, más allá del comunismo. Más allá del comunismo. Sí, no sé qué hay, pero..."
+  },
+  {
+   "start": 3400.28,
+   "end": 3403.94,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Qué hay? Pues no sé, pero algo... Dímelo tú, Pedro, más allá."
+  },
+  {
+   "start": 3404.14,
+   "end": 3404.54,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "No sé, algo..."
+  },
+  {
+   "start": 3404.54,
+   "end": 3412.8,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Chaval este, Rubén, más allá del comunismo, este. Ha respondido. Pues de ahí venía... ¿Qué es que ha respondido? La anarquía. La anarquía, efectivamente, claro, por eso te lo decía."
+  },
+  {
+   "start": 3412.98,
+   "end": 3420.68,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Bueno, pues al final los extremos se tocan y Jiménez Losantos viene de ese mundo. Y luego, ¿qué crees? Y mira dónde ha acabado. ¿Qué crees que vio?"
+  },
+  {
+   "start": 3421.06,
+   "end": 3422.02,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Se le aparecería algo?"
+  },
+  {
+   "start": 3422.24,
+   "end": 3423.52,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "No le he seguido la trayectoria vital."
+  },
+  {
+   "start": 3424.36,
+   "end": 3433.38,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Crees que habrá un giro en los chavales ahora de 18, 20 años, 16, que son de extrema derecha o van a votar a extrema derecha y tal? ¿Crees que habrá un bucle y también dará la vuelta después? ¿O crees que será gente que se mantendrá en eso?"
+  },
+  {
+   "start": 3433.68,
+   "end": 3437.12,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Bueno, yo creo que muchas veces tendemos a generalizar y..."
+  },
+  {
+   "start": 3437.12,
+   "end": 3439.96,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "No, digo los que lo son, los que no son, que no es un porcentaje..."
+  },
+  {
+   "start": 3439.96,
+   "end": 3469.94,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "No, no, pero es verdad que hay chavales jóvenes que apuestan por Vox, hay chavales jóvenes que apuestan por Partido de Izquierda, también por el Partido Socialista. Digamos que su, y es lógico porque son jóvenes, su afiliación ideológica o su... Es visceral. Es más, bueno, pues está más fragmentada y bueno, pues esto sucede en todas las democracias, también en la nuestra, Pero hay muchos jóvenes que votan a los progresistas, a gente de izquierdas, muchos de ellos."
+  },
+  {
+   "start": 3470.08,
+   "end": 3480.32,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Hablando de jóvenes, ¿crees que en algún momento, digamos a medio plazo, ya no me voy a decir a corto, Pedro, la gente joven de España podrá tener acceso a la vivienda de una forma razonable, en algún momento más o menos cercano?"
+  },
+  {
+   "start": 3480.96,
+   "end": 3482.36,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Sí, a ver, ahí hay dos elementos."
+  },
+  {
+   "start": 3482.36,
+   "end": 3487.82,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Porque sin eso, todo lo demás es absurdo. Por poner una cifra, hay estudios"
+  },
+  {
+   "start": 3487.82,
+   "end": 3496.7,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "que te dicen que el 60% de la desigualdad que ahora mismo se sufre en España es como consecuencia de la imposibilidad de acceder a una vivienda. Entonces ahí tienes como dos pedales."
+  },
+  {
+   "start": 3496.82,
+   "end": 3503.18,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Os habéis esperado muy al final, Pedro. No, no, no. En octubre de 2026, Pedro. No, no, no. Déjame decirte."
+  },
+  {
+   "start": 3505.18,
+   "end": 3543.88,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Y además, fíjate, tú necesitas por un lado construir viviendas. Hay como dos pedales en esa bicicleta. Uno, la construcción de viviendas y dos, la regulación pública. En la construcción de viviendas, tú puedes construir muchas viviendas. Fíjate que antes de la crisis financiera, España construyó cuatro millones y medio de viviendas. Y el precio de la vivienda no paró de subir. Por tanto, esa ley de la oferta y la demanda de los mercados que nos enseñan la economía no es tan evidente. ¿Qué es la clave? La clave no es construir solamente el mayor número de viviendas posible. En estos últimos años se han construido un millón de viviendas. La clave es construir viviendas equibles."
+  },
+  {
+   "start": 3544.06,
+   "end": 3545.58,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Dónde están? ¿Dónde están construidas?"
+  },
+  {
+   "start": 3545.78,
+   "end": 3552.04,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Un millón, un millón de viviendas en total. En total. Digo también de mercado libre y de mercado protegido. ¡Vale!"
+  },
+  {
+   "start": 3553.02,
+   "end": 3557.06,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Me lo han protegido pocas, ¿no? Yo no veo... Es subjetivo, pero..."
+  },
+  {
+   "start": 3557.06,
+   "end": 3594.04,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "No, es subjetivo, porque ahora mismo, si comparamos con aquella época, es el 13% de ese millón de viviendas, el 13% son viviendas protegidas. En la época de la crisis financiera estamos hablando de que de esos 4 millones y medio, probablemente solamente el 5%, si no menos, eran de vivienda protegida. Con lo cual, no solamente tienes que construir más viviendas, sino que tienes que construir una vivienda asequible, en precio, para los jóvenes y no tan jóvenes. Y en el otro lado está la regulación. Nosotros aprobamos una ley de vivienda que las autonomías se niegan a aplicar, también muchísimos ayuntamientos, y aquellos que quieren las autonomías se lo deniegan."
+  },
+  {
+   "start": 3594.04,
+   "end": 3602.38,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Hay una diferencia grande entre las autonomías del PSOE y las autonomías del PP en ese sentido?"
+  },
+  {
+   "start": 3602.38,
+   "end": 3634.94,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Hay, por ejemplo, en Cataluña ahora mismo, en Barcelona, que se está aplicando la ley de vivienda, por ejemplo, en lo que son las zonas tensionadas, claramente la evolución del precio de la vivienda ahora mismo, del alquiler, es en incremento muy inferior a la que se está dando en Madrid, donde no se aplica ningún elemento de la ley de vivienda. Fíjate que este es el debate, pero el debate también es en este sentido muy ideológico, es decir, ¿queremos o no regular el sector de la vivienda? ¿Queremos o no intervenir un mercado que no funciona? Porque está claro que la demanda y la oferta no casan. Bueno, pues esto es el debate que hemos tenido durante estos últimos cuatro años."
+  },
+  {
+   "start": 3635.32,
+   "end": 3640.62,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Se debería poder intervenir desde un Estado soberano? ¿Se debería poder intervenir? Lo hemos hecho con la ley de vivienda, lo que pasa"
+  },
+  {
+   "start": 3640.62,
+   "end": 3649.04,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "es que son competencias que están compartidas con las comunidades autónomas y los ayuntamientos y las comunidades autónomas se niegan a hacerlo, las del PP con Vox. Fíjate que en este..."
+  },
+  {
+   "start": 3649.04,
+   "end": 3651.22,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿No hay cosa que pueda hacer el gobierno independientemente de eso?"
+  },
+  {
+   "start": 3651.24,
+   "end": 3722.02,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Claro, podemos construir como estamos haciendo, podemos también plantear a las Cortes Generales nueva legislación, que es lo que hemos hecho, por ejemplo, con estos reales decretos-leyes y, como consecuencia de la crisis que sufrió Mari Carmen y muchas de las personas que se están manifestando todavía aquí en Sol, espero que se convalide por las Cortes Generales. Y fíjate cuál es lo curioso de esto. Hay comunidades autónomas, la de Madrid, por ejemplo, la de Andalucía, la de Castilla y León, gobernadas por el PP y por Vox, que lo que han dicho es que vamos a recurrir estos reales decretos leyes ante el Constitucional. ¿Cuál es el motivo? Invasión de competencias. Entonces, claro, la cuestión aquí es que si en las Cortes Generales, en el Parlamento del próximo 29 de noviembre, no sale una mayoría mucho más amplia progresista, pues el gobierno tiene pocas herramientas para intervenir desde lo legal un mercado que claramente lo que necesita es una intervención importante por parte del sector público. Por eso, fíjate, este Real Decreto Ley que nos tumbaron y que derivó en el anticipo electoral, esto que dices que hemos llegado tarde, Nosotros lo hemos planteado durante... Que habéis llegado un poco tarde es evidente. Todo es insuficiente mientras exista este problema."
+  },
+  {
+   "start": 3722.1,
+   "end": 3749.08,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Claro, en la práctica la gente dirá... Perdón, una cosa rápido, porque creo que está guay el sentir de la gente en ese caso, que es inevitable... Es verdad que vosotros, en tu posición, es verdad que la gestión de los partidos de derecha de esto, como es más flagrantemente todavía negativa en este sentido, es verdad que eso parece que genera un escudo respecto a vuestra responsabilidad. Pero la gente tiene una decepción también respecto al Partido Socialista, Porque en la práctica, aunque digan, ok, Pedro, pero en la práctica estamos igual."
+  },
+  {
+   "start": 3749.6,
+   "end": 3766.86,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Bueno, pero fíjate, yo puedo compartir esa parte de tu análisis, pero también digo que en mi caso y en el de mi gobierno, nosotros no hemos reubido el debate. Y nosotros nos hemos arremangado y hemos dicho, vale, bien, pues el"
+  },
+  {
+   "start": 3766.86,
+   "end": 3767.3,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Parlamento"
+  },
+  {
+   "start": 3767.3,
+   "end": 3797.2,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Nacional va a tratar de intervenir aunque tengamos el sabotaje de estas comunidades autónomas, que se niegan a aplicar la ley de vivienda. Nosotros este Real Decreto Ley que derivó en el anticipo electoral y que ahora hemos vuelto a llevar a, en este caso, a la Diputación Permanente de las Cortes Generales, lo hemos presentado en cinco ocasiones a lo largo de esta legislatura y nos lo ha tumbado la mayoría de derechas del Congreso de los Diputados. ¿Cuál ha sido, digamos, la diferencia entre esas cinco veces y en esta ocasión? Bueno, pues evidentemente el desahucio de Mari Carmen y una manifestación masiva..."
+  },
+  {
+   "start": 3797.2,
+   "end": 3804.72,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Pero ya sabéis, ya había habido antes, o sea, que hay una parte en esto que como evidentemente hay cosas simbólicas que suponen un cambio de expresión. Pero claro, pero es un"
+  },
+  {
+   "start": 3804.72,
+   "end": 3805.7,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "detonante, es un punto de inflexión."
+  },
+  {
+   "start": 3805.9,
+   "end": 3818.32,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Sí, pero bueno, creo que algo como lo de Mari Carmen es algo que es un punto de inflexión para la gente en la calle, porque es verdad que a veces se necesita un símbolo, una cosa y tal, pero digamos que desde el Poder Ejecutivo, desde los gobiernos y demás, no deberíamos tener que esperar a"
+  },
+  {
+   "start": 3818.32,
+   "end": 3819.62,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "símbolos o a metáforas."
+  },
+  {
+   "start": 3822.1,
+   "end": 3823.0,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Y se ha hecho."
+  },
+  {
+   "start": 3823.76,
+   "end": 3843.94,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "De hecho, nosotros, como digo, ese Real Decreto Ley lo hemos llevado hasta en cinco ocasiones durante estos tres años y medio de legislatura y el Congreso nos lo ha tumbado. ¿Por qué? Porque al final hay una mayoría conservadora parlamentaria de PP, Vox y, en este caso, Junts per Catalunya, porque el PNV, hay que decirlo todo, ha sido favorable a este tipo de intervenciones."
+  },
+  {
+   "start": 3843.94,
+   "end": 3846.08,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "El único partido de derecha que ha"
+  },
+  {
+   "start": 3846.08,
+   "end": 3893.58,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "dicho que me parece razonable lo que se está planteando. Y luego también aquí hay como una falsa disyuntiva que se está planteando por parte de la derecha y la ultraderecha. Porque dicen, no, es que si se interviene, se interviene en detrimento de los pequeños propietarios y en favor de los inquilinos. Y no es cierto. Nosotros siempre hemos propuesto incentivos fiscales para los propietarios y también incentivos para los inquilinos. En definitiva, el problema no está tanto en los pequeños propietarios y en los inquilinos, sino en los aticazos o también en los fondos buitre. Y a esos es a los que hay que poner pie en pared con sus abusos y también con sus amenazas. Pero desde luego, si nosotros queremos llegar antes y más lejos en el tema de la vivienda, necesitamos una mayoría progresista en el Parlamento."
+  },
+  {
+   "start": 3893.62,
+   "end": 3896.88,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "A ti te gustaría que te votasen más que menos, ¿no? Si pudieses tener muchos votos te gustaría, ¿no?"
+  },
+  {
+   "start": 3896.94,
+   "end": 3899.6,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Desde luego para esto sí, porque es verdad que también nosotros..."
+  },
+  {
+   "start": 3899.6,
+   "end": 3906.54,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Cómo entrarías tú ahí con mayoría absoluta al Congreso? ¿Pedro un huevo fuera? No, pero por lo menos yo diría... Oye, yo por ejemplo vi una vez a..."
+  },
+  {
+   "start": 3907.74,
+   "end": 3914.04,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "El primer ministro británico que ganó con una supermayoría laborista. ¿Quién? Kirchner Starmer, que ha durado un"
+  },
+  {
+   "start": 3914.04,
+   "end": 3914.4,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "año el hombre."
+  },
+  {
+   "start": 3914.78,
+   "end": 3926.24,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Es de la paradoja de la política. Pero yo decía, si a mí me dieran durante un año 176 escaños, si con lo que tengo, que son 121, hemos hecho todo lo que hemos hecho..."
+  },
+  {
+   "start": 3926.24,
+   "end": 3927.14,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Tú crees 166?"
+  },
+  {
+   "start": 3927.86,
+   "end": 3928.26,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "176."
+  },
+  {
+   "start": 3928.8,
+   "end": 3946.0,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "176, la mayoría absoluta. Vaya hombre soñador, es fantasioso. No abandona la fantasía. Pero bueno, oye, yo creo que hay que ponerse un objetivo en la vida, ¿no? Pues si yo supiese vocalizar mejor, lo que sería también en ese día, increíble. No, te entiendo, si yo me quedo tú, por supuesto, querrás cuanto más mejor."
+  },
+  {
+   "start": 3946.2,
+   "end": 3999.9,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "No, hombre, pero sobre todo porque creo y comparto la preocupación por la vivienda, y comparto la urgencia, pero necesito herramientas para poder llevarlo a cabo. E insisto, por un lado tienes la construcción de vivienda, pero por otro lado tienes la regulación, y la regulación la aprueba el Parlamento. Y si no tienes una mayoría en el Parlamento que la saque adelante esa regulación, Es muy difícil resolver, por ejemplo, el tema de los apartamentos turísticos, la transparencia en los precios para no solamente estar mirando el precio a través de las plataformas digitales y mobiliarias, cómo regulamos el alquiler de las habitaciones, cómo regulamos también la alternativa habitacional a las personas que sufren problemas de exclusión social para que no deriven en desahucios. Todo eso exige de una mayoría que sea sensible a esa intervención pública, si no, es muy difícil desde el Poder Ejecutivo, Sobre todo cuando compartes esas competencias con otros gobiernos, en este caso, autonómicos y municipales, que claramente están en no hacer absolutamente nada."
+  },
+  {
+   "start": 4000.58,
+   "end": 4047.56,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Ahora que has dicho... Ibai, nos estamos empezando a encaminar a las preguntas clásicas, que van a estar muy guapas. Déjame beber algo de agua. Un poquito de agua, sí, sí. Pero se puede un poquito de chachara previa, ¿no? Podemos hablar un poquito más primero. Es que has dicho esto porque esto suena un poco al tema de... El otro día vino... No sé si lo viste, has dicho que... Es el programa de vez en cuando. No sé si viste que vino este abogado, Mariano Benítez de Lugo, que es un tío que ha luchado, fue como el primero que llevó a un fondo buitre a los tribunales, como que llevó todo el caso de corrupción con Rato y Rajoy y tales, entonces, bueno, es un tío que tiene casi 90 años. Y el tío habló mucho sobre la justicia, los jueces y demás y tal. ¿Cuál es tu relación actual, tanto política como personal, con los jueces en concreto, como con la justicia en general en España?"
+  },
+  {
+   "start": 4047.56,
+   "end": 4150.52,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "¿Qué opinan de la campaña? Precisamente para la reconciliación y la superación de conflictos como el que vivimos en 2017. Y yo muchas veces puedo decir, oye, entiendo que haya personas del mundo de la judicatura que se sientan incómodas porque una administración anterior derivó a la justicia un problema que era meramente político, pero eso no es la responsabilidad de mi gobierno, de la anterior en todo caso. Yo lo que he querido es devolver a la política la gestión de la política, en este caso en Cataluña. Y creo que ha sido reconocido precisamente por la propia sociedad que sufrió esta crisis territorial como es la catalana. Tenemos ahora mismo a un presidente como Salvador Illa liderando Cataluña. Entonces, bueno, pues yo creo que entiendo que puede haber esa discrepancia y que en democracia se tiene que dirimir por todos los estamentos que hay, Pues el Supremo, los recursos, el Tribunal Constitucional, el Europeo, bien. Pero sí se han traspasado líneas rojas que afectan a personas que yo quiero, que es mi mujer, que es Begoña Gómez, y que es mi hermano, que es David Sánchez. Y yo creo que eso me parece tremendamente injusto. Y desde luego yo voy a pelear siempre por la inocencia de dos personas que son inocentes, como es David y Begoña."
+  },
+  {
+   "start": 4158.95,
+   "end": 4198.35,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Él hablaba de una cosa, que los que no tenemos ni idea de leyes y tal, yo no lo había pensado y demás, pero que era un tema delicado porque es sutil, y en concreto para alguien como tú, que estás entre dos aguas en ese sentido. Él decía que no le parecía bien, porque es como una cosa que no se debería hacer, que el Poder Ejecutivo opine sobre el Poder Judicial. Insinuado, conociéndole el tipo de cosas que decía, yo le veía que en realidad él está de acuerdo con algunas cosas que se han dicho desde vuestro Ejecutivo sobre el Poder Judicial, Y el tío decía, esté yo o no de acuerdo con el tema, el Poder Ejecutivo no debería criticar al Poder Judicial. Es decir, cuando estéis fuera del Poder Ejecutivo sí, pero si no, no."
+  },
+  {
+   "start": 4198.47,
+   "end": 4250.17,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Bueno, pero yo, por ejemplo, ante una sentencia que yo considero injusta, como es, por ejemplo, la que se le hizo al anterior Fiscal General del Estado, Y, por otro lado, pues yo tengo no solamente la convicción, sino también el deber de fijar una posición con absoluto respeto, porque estamos efectivamente en una democracia con absoluto respeto, pero sí decir que no comparto esa decisión, que por supuesto se acata, se sustituye en este caso al que fue fiscal general, que fue un brillante fiscal general, y se acata la sentencia, pero por supuesto que no la compartimos. Y otro tanto ocurre con la sentencia, a mi juicio, nada acorde con la realidad y con la verdad, que ha sufrido mi hermano David Sánchez. Mi hermano es una persona que tiene tres carreras, David. Mi hermano se fue a trabajar, perdona, a estudiar. Más que tú, ¿eh? Sí, se fue a estudiar a San Petersburgo, a Rusia."
+  },
+  {
+   "start": 4250.43,
+   "end": 4253.57,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿A qué? De ahí se traería ideas, Pedro."
+  },
+  {
+   "start": 4253.99,
+   "end": 4255.79,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Composición, sí, totalmente."
+  },
+  {
+   "start": 4256.35,
+   "end": 4258.81,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "De ahí vino ya David. Totalmente. De ahí vino ya loco."
+  },
+  {
+   "start": 4258.81,
+   "end": 4265.21,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Totalmente. No, te diré una cosa, o sea, yo iba mucho a verle y allí, bueno, vivir allí no es lo mismo que ir de turismo, ¿no?"
+  },
+  {
+   "start": 4267.05,
+   "end": 4268.91,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "A ver, pero bueno, él es"
+  },
+  {
+   "start": 4268.91,
+   "end": 4292.27,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "una persona que habla muchos idiomas, que tiene una carrera de económicas aquí en España, que tiene una carrera de composición y dirección de orquesta en uno de los mejores conservatorios de música del mundo, como es el fundado por Rimsky-Korsakov en San Petersburgo, que ha trabajado en todo eso, Y de repente ahora se le sentencia y condena por ser el hermano del presidente del gobierno."
+  },
+  {
+   "start": 4292.39,
+   "end": 4301.01,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Perdón, ¿dices eso porque consideras que eso implica que no necesitaría un enchufe o una ayuda tal para algo?"
+  },
+  {
+   "start": 4301.09,
+   "end": 4307.63,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Es que no se dio. Pero incluso con lo de Begoña. Ella y yo nos conocimos con más..."
+  },
+  {
+   "start": 4307.63,
+   "end": 4322.25,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Eso ha sido difuso. Todo el caso de eso de la Complutense y toda esta movida, esto también es una cosa que desde fuera, cuando lo vemos y tal, ya independientemente de qué opinión... Pues te pierdes. Es verdad que es como, ¿pero qué ha hecho? O sea, creo que no está muy bien claro de qué se la... O sea, ¿qué ha hecho exactamente? ¿Ha pirateado el Word? ¿Qué ha hecho?"
+  },
+  {
+   "start": 4322.25,
+   "end": 4353.87,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Bueno, no, lo que se dice... No, pero un poco por compartir. O sea, Begoña y yo nos conocimos con 30, 31 años y entonces ella era una persona ya con una carrera profesional muy consolidada. Cuando, antes de ser secretario general yo del Partido Socialista en 2014, ella ya colaboraba con la Universidad Complutense y tenía su trabajo. En una empresa. Cuando yo llego a presidente del gobierno en 2018, ella, sin consultarme, dice, yo dejo mi puesto de trabajo en la empresa. Y continúo colaborando con la Complutense."
+  },
+  {
+   "start": 4354.11,
+   "end": 4355.01,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Sin consultarte, autónomamente."
+  },
+  {
+   "start": 4356.41,
+   "end": 4390.87,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Sigo colaborando con la Complutense, 15.000 euros brutos al año, cobrando. Ya me contarás. ¿Y cuál es la tesis de la judicatura en este caso, de quienes la llevan a juicio? A ver, yo también te digo una cosa. ¿Eso qué significa, entonces? Que la pareja de... Ya no digo un presidente del gobierno, sino..."
+  },
+  {
+   "start": 4390.87,
+   "end": 4391.67,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Sí, no puede hacer nada."
+  },
+  {
+   "start": 4391.91,
+   "end": 4421.15,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "No puede hacer nada. Es que yo no quiero tampoco ese país. Yo quiero un país que dentro de la legalidad, pues, una mujer pueda trabajar en todo lo que quiera y no tener que sacrificar su vida profesional por la vida profesional de su pareja. Eso hemos tenido ya muchos casos y de ahí viene también la causa feminista, la causa de la lucha por la igualdad entre hombres y mujeres. Entonces hay una visión, a mi juicio, bastante equivocada de lo que es la sociedad española y lo que debería ser la sociedad española."
+  },
+  {
+   "start": 4421.31,
+   "end": 4429.27,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Sí que es verdad que más allá del caso suyo concretitar, que como he dicho, he visto desde fuera, pero ¿de qué se le acusa? A su vez, esto que está diciendo no entro ahora en el caso..."
+  },
+  {
+   "start": 4429.27,
+   "end": 4431.01,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Pero la pena del telediario te la llevas puesta."
+  },
+  {
+   "start": 4431.31,
+   "end": 4451.77,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Total, total, lo sé, lo sé. Eso entiendo a lo que te refieres. Esto otro, es verdad que es un tema interesante porque a su vez sí que, de nuevo, no estoy hablando del caso concreto, sí que la gente cercana a alguien con tanto poder como un presidente evidentemente conlleva una influencia, porque sí, pero claro, cómo gestionar eso, a su vez tienen derecho a trabajar en lo que quieran."
+  },
+  {
+   "start": 4452.81,
+   "end": 4458.79,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Entre otras cosas es que mi mujer no es que tenga derecho a trabajar en lo que quiera, es que mi mujer dejó de trabajar."
+  },
+  {
+   "start": 4463.77,
+   "end": 4465.17,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Yolanda"
+  },
+  {
+   "start": 4465.17,
+   "end": 4466.17,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Díaz,"
+  },
+  {
+   "start": 4466.97,
+   "end": 4466.99,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Alberto"
+  },
+  {
+   "start": 4466.99,
+   "end": 4488.77,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Núñez Feijóo, Santiago Abascal, Ángeles Barceló, Federico Jiménez"
+  },
+  {
+   "start": 4488.79,
+   "end": 4501.03,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Me quedan pocas preguntas ya. La primera no es ni una pregunta, que es la ley Mordaza, Pedro. Lleváis mareando con eso años y no... Pero mira, el Gobierno, para"
+  },
+  {
+   "start": 4501.03,
+   "end": 4501.75,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "que lo sepan..."
+  },
+  {
+   "start": 4502.97,
+   "end": 4503.87,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Que lo sepa España."
+  },
+  {
+   "start": 4504.23,
+   "end": 4516.49,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Sí, o sea, el Gobierno hizo su tarea, el Parlamento no ha hecho su tarea y son los grupos parlamentarios los que se tienen que poner de acuerdo. Nosotros hemos llegado, hemos hecho un esfuerzo por intentar conciliar todas las..."
+  },
+  {
+   "start": 4516.75,
+   "end": 4521.75,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Quién votó que no en eso? ¿De los que en algunos casos, o sea, de los partidos que sí que se han agrupado para votar algunas cosas?"
+  },
+  {
+   "start": 4521.85,
+   "end": 4539.49,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Pero no es eso, no es que hayan votado que no, sino que simplemente no se ha logrado llegar a un acuerdo porque había algunos grupos de izquierdas que querían ir más lejos. Entonces, bueno, pues ahí no ha sido posible llegar al acuerdo, pero el gobierno sí llevó una propuesta de ley mordaza al Congreso de los Diputados."
+  },
+  {
+   "start": 4540.31,
+   "end": 4545.33,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Por tanto, quizás sí, quizás no, ya veremos en un futuro. Si te dan 180 votos, supongo que 180 caños sí, ¿no?"
+  },
+  {
+   "start": 4545.97,
+   "end": 4552.33,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "176. Yo de todas formas tampoco tengo ese ansia patrimonialista, si lo podemos compartir con otros grupos de izquierdas no tengo ningún problema."
+  },
+  {
+   "start": 4552.43,
+   "end": 4563.17,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Pero que haya una mayoría de izquierdas. Ansia patrimonialista, avaricia de escaños."
+  },
+  {
+   "start": 4563.59,
+   "end": 4575.49,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Bueno, ves tú, yo al final, fíjate, yo fui elegido presidente del gobierno en una moción de censura con ochenta y tantos escaños. Sí, sí, al límite. Al límite, y ahora pues bueno, a ver si podemos tener algunos más."
+  },
+  {
+   "start": 4616.43,
+   "end": 4627.01,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Banco de las Clásicas Vamos a descubrir en 2032 unos pendientes de oro buenos en una... Pedro, dilo aquí, que no nos llevemos luego un susto. Que no, que no."
+  },
+  {
+   "start": 4627.09,
+   "end": 4630.77,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Pero mira, en la última cumbre de la OTAN que se hizo en Ancara..."
+  },
+  {
+   "start": 4630.77,
+   "end": 4632.47,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Eso fue sospechoso, ¿eh, Pedro? ¿Qué opinas del tema?"
+  },
+  {
+   "start": 4633.65,
+   "end": 4638.11,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Bueno, él ha dicho que... De tu colegote. De José Luis, dices, de Zapatero."
+  },
+  {
+   "start": 4638.27,
+   "end": 4644.73,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Es verdad que independientemente de la parte judicial como evolucione eso, entiendes que la ciudadanía raro es, o sea, en plan, raro es."
+  },
+  {
+   "start": 4644.91,
+   "end": 4663.43,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Pero yo lo explico, mira, y además te pongo un caso que a mí me ha afectado. En la última cumbre de la OTAN, en Turquía, en Ankara, pues Erdogan, el presidente, nos regaló un revólver. Ya lo vi, un pistolón a cada uno. Un pistolón de los de Harry el Sucio. Sí, sí. ¿Qué has hecho con él? Bueno, pues yo, claro, es una cosa así."
+  },
+  {
+   "start": 4663.87,
+   "end": 4665.87,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "La lleva en la guantera, ¿la quieres sentir en el pecho?"
+  },
+  {
+   "start": 4667.27,
+   "end": 4685.17,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Y además, con tu nombre he puesto ahí en la... Con tu nombre, ¿eh? Y con las balas también. A ver, te las pego un par de tiros a una lata. No, no, no, no, porque además yo, vamos, entonces lo he dejado ahí, hay como un sitio en el Palacio de la Moncloa donde expresidentes han dejado regalos."
+  },
+  {
+   "start": 4685.17,
+   "end": 4702.17,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Entonces te estás anticipando a lo que tenía que ver Jesús Zapatero, que es decir, oye, esto es un regalo, a tenerlo aquí, que no es mío. Pues probablemente eso es al final lo que suceda, claro. Pero ya tarde, claro, porque ya si no lo puedes decir ahora, ah, perdón, sí, que lo tenía aquí, ah, no, no, es para vosotros. Bueno, pero al final muchas veces... La ha liado, la ha liado, Pedro, la ha liado."
+  },
+  {
+   "start": 4702.17,
+   "end": 4713.13,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Yo te digo, muchas veces los presidentes del gobierno no saben cuáles son los obsequios que el anfitrión o el líder que visita el país te da."
+  },
+  {
+   "start": 4713.35,
+   "end": 4718.03,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Yo creo que algo te huele ese, si tú abres la caja y brilla mucho..."
+  },
+  {
+   "start": 4718.95,
+   "end": 4732.11,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Desde luego yo te puedo decir que en lo que respecta a esta anécdota del pistolón este que nos regaló Erdogan, La verdad es que corrió como la pólvora entre todos los líderes en Turquía, que estábamos allí, de la OTAN."
+  },
+  {
+   "start": 4732.17,
+   "end": 4735.85,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Alguien se la llevó? Trump se la llevaría, supongo. Sí, sí, ahí en el cinturón,"
+  },
+  {
+   "start": 4735.85,
+   "end": 4736.29,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "puesta."
+  },
+  {
+   "start": 4738.43,
+   "end": 4746.47,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Fíjate, iba con la segunda pregunta, pero no he nombrado a Trump en toda la entrevista. ¿En qué punto están nuestras relaciones con la mayor potencia económica del mundo y en concreto con ese demonio?"
+  },
+  {
+   "start": 4746.73,
+   "end": 4747.63,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Progresamos adecuadamente."
+  },
+  {
+   "start": 4749.95,
+   "end": 4758.59,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Cómo le cogiste la mano? ¿Cómo le agarraste cuando te tiró él para un lado y tú para otro? Sí, sí, sí. ¿Cómo quería él echarte para acá? Sí, sí, él..."
+  },
+  {
+   "start": 4762.48,
+   "end": 4791.92,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Hay cosas así, un poco... De repente, pues, en esta cumbre de la OTAN, se reúne con el secretario general y de repente nos pone a escurrir a unos cuantos países, a nosotros también, porque no dijimos que sí a lo del 5% del gasto en defensa. Y entonces, bueno, pues, hace una rueda de prensa en la que dice que España es un mal aliado, que no sé qué, no sé cuántos... Y luego ya coincidimos y se me pone a hablar de golf. ¡Claro! ¡Claro!"
+  },
+  {
+   "start": 4793.56,
+   "end": 4809.16,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¡Claro! ¡Claro! ¡Claro!"
+  },
+  {
+   "start": 4817.96,
+   "end": 4820.78,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "¿Qué te pones ahí a discutir?"
+  },
+  {
+   "start": 4820.78,
+   "end": 4821.98,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Hay que separarlo, claro."
+  },
+  {
+   "start": 4822.78,
+   "end": 4838.82,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Pues oye, yo trato de tener las mejores relaciones posibles, pero evidentemente defendiendo la soberanía de mi país y lo que considero que es correcto para mi país. Es que tú fíjate, lo del 5% del gasto en defensa significa un ajuste de 60.000 millones de euros que tenemos que sacar"
+  },
+  {
+   "start": 4838.82,
+   "end": 4839.32,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "de algún lado."
+  },
+  {
+   "start": 4840.82,
+   "end": 4844.36,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "O impuestos, o rebajas las pensiones, o recortas el estado del bienestar."
+  },
+  {
+   "start": 4844.36,
+   "end": 4854.56,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Todo para guerras al azar luego, este caso en concreto, claro, él ha pedido que ayuden los demás porque ha decidido bombardear Irán y meter a todo el planeta en un jaleo brutal, claro, un jaleo brutal, eh."
+  },
+  {
+   "start": 4854.96,
+   "end": 4857.02,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Sí, sí, pero aparte que tiene difícil solución."
+  },
+  {
+   "start": 4857.48,
+   "end": 4868.82,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Yo creo que él, bueno, no es la primera vez, yo creo que él vive en una fantasía tan grande sobre sus capacidades que muchas veces no se ha dado cuenta o creo que seguramente ni piensa en lo que está haciendo. Creo que aquí él debe estar percibiendo que se ha equivocado, eh."
+  },
+  {
+   "start": 4869.14,
+   "end": 4869.76,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "¿Tú crees?"
+  },
+  {
+   "start": 4869.76,
+   "end": 4874.32,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Yo creo que sí, porque, o sea, creo que no lo va a decir, pero quiero decir, es que..."
+  },
+  {
+   "start": 4874.32,
+   "end": 4875.72,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Es bastante evidente."
+  },
+  {
+   "start": 4875.8,
+   "end": 4879.9,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Es como una cosa de, joder, has causado más, ni siquiera explica nada, no dice..."
+  },
+  {
+   "start": 4879.9,
+   "end": 4919.94,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Fíjate que cuando yo fui por primera vez a Ucrania, al mes, mes y medio del inicio de la invasión de Putin, y te conté la anécdota antes de los expresidentes de gobierno, que me dijeron que Ucrania iba a caer, y bueno, lleva ya cuatro años resistiendo a Rusia. Bueno, fui allí a una población y la traductora que iba conmigo y que me ayudaba a hablar un poco con los ciudadanos ucranianos, me dijo que uno de sus hijos estaba luchando en el frente y que en los primeros días de la invasión, los paracaidistas rusos que llegaron a Ucrania, que estaban en Kiev, en la capital, llevaban en sus mochilas los uniformes de gala."
+  },
+  {
+   "start": 4920.4,
+   "end": 4924.02,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Sí, como ya para darse la foto, para desfilar."
+  },
+  {
+   "start": 4924.24,
+   "end": 4927.98,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Putin realmente sí pensaba que Ucrania iba a caer en cuestión de semanas y"
+  },
+  {
+   "start": 4927.98,
+   "end": 4928.58,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "que iban a estar"
+  },
+  {
+   "start": 4928.58,
+   "end": 4952.52,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "desfilando por las avenidas de Kiev en cuestión de un mes. Yo creo que efectivamente cuando hablas de grandes superpotencias, como es el caso de Estados Unidos, o una potencia más mediana, pero con un poder nuclear muy importante como es el de Rusia, hay una cierta soberbia y una sobreestimación de sus capacidades y al final, a lo largo de la historia, a mí la Vietnam, por ejemplo, te demuestra que..."
+  },
+  {
+   "start": 4952.52,
+   "end": 4973.94,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Y siguen cayendo en la misma responsabilidad de jugar a esto, como si fuese un juego de mesa. A mí me siguen flipando líderes de este estilo que siguen implicando a seres humanos a saco en guerras y en muertes y tal, y esto por eso, por tablero de ajedrez, sin más. Es una cosa que... A ver, es que no voy a poner aquí ahora discusiones sobre la guerra y la paz, que son muy evidentes, pero es como... Madre mía, sigue pasando."
+  },
+  {
+   "start": 4973.94,
+   "end": 4987.52,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Pero tú fíjate que cuando tú coges el telediario de cualquier canal de televisión o coges los periódicos, prácticamente la guerra en Ucrania, que llevamos más de cuatro años, ya no está en nuestras conversaciones. No, claro, claro. Y hay muchísima gente que sigue muriendo. Sí, sí."
+  },
+  {
+   "start": 4989.2,
+   "end": 4990.08,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Irán, hablamos más"
+  },
+  {
+   "start": 4990.08,
+   "end": 5033.62,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "de Irán por el alza de los precios de la gasolina y del gasoil que por los muertos que está causando. El genocidio en Gaza ya no te digo, ¿no? Entonces yo creo que efectivamente la falta de empatía de muchos de estos dirigentes a mí me sobrecoge, porque realmente me parece toda una irresponsabilidad meter al mundo en una crisis humanitaria, bélica, energética y económica como la que ahora mismo tenemos abierta en Irán y en Ucrania. Para que os hagáis una idea, Europa, en lo que llevamos de meses de guerra, porque llevamos meses, no años, de guerra en Irán, ya hemos gastado más de 100.000 millones de euros. Nos ha costado más de 100.000 millones de euros."
+  },
+  {
+   "start": 5033.62,
+   "end": 5036.48,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "En consecuencia derivada de eso, ¿no? De lo que tiene que ver con los combustibles y demás."
+  },
+  {
+   "start": 5036.6,
+   "end": 5051.88,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Nosotros en España, pues oye, los decretos que hemos aprobado precisamente para cubrir el impacto en el precio de la gasolina, del gasoil, pues ya llevamos 12.000 millones de euros. O sea, que es una pasta, 12.000 millones de euros."
+  },
+  {
+   "start": 5052.94,
+   "end": 5054.6,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Y después de análisis"
+  },
+  {
+   "start": 5054.6,
+   "end": 5055.58,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "político, lo de"
+  },
+  {
+   "start": 5055.58,
+   "end": 5085.76,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "follar, Pedro, lo de follar. Bueno, no solamente se folla, también se hace el amor, ¿eh, David? Bueno, ya, ya, perdón, que yo soy a veces muy brusco con estas cosas. Hace el amor y no la guerra, tío. Hace el amor y no la guerra, eso es. Cuenta hacer el amor, por darle un toque más romántico, que yo te he visto últimamente que estás, digamos, estás sensible en ese aspecto, en lo romántico. Hacer el amor, ¿no? Unirse dos cuerpos en uno, que es lo más bello que existe, ¿no? Cuenta un punto."
+  },
+  {
+   "start": 5086.06,
+   "end": 5087.38,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Con el pistolón, 1,2."
+  },
+  {
+   "start": 5089.42,
+   "end": 5108.26,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Imagínate. El petting, 0,6. Claro, petting en Moncloa, imagínate. Detrás de un cuadro de Goya ahí. Hablando de Goya, ¿quieres ver tu...? ¿Qué te iba a decir? Haces la broma... Bueno, da igual."
+  },
+  {
+   "start": 5108.44,
+   "end": 5110.64,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Un beso en un mítin, ¿cuánto punto le metes?"
+  },
+  {
+   "start": 5110.8,
+   "end": 5114.26,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Un beso en un mítin, es que eso no es ni petting, eso es de tener 14 años, claro."
+  },
+  {
+   "start": 5114.26,
+   "end": 5116.4,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "No, pero eso ha tenido un impacto, una viralización y demás."
+  },
+  {
+   "start": 5117.56,
+   "end": 5120.54,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Sí, simbólicamente sí, simbólicamente sí, pero bueno. Pero dame, dame un dato real."
+  },
+  {
+   "start": 5120.54,
+   "end": 5121.28,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Pero ponme 10 puntos más."
+  },
+  {
+   "start": 5121.72,
+   "end": 5127.14,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Dame, dame un datillo. Eso, sexo, un punto, petición, 0,6, masturbación, 0,4, 0,5, perdón."
+  },
+  {
+   "start": 5127.26,
+   "end": 5129.26,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "No le quites, ¿que le estás quitando el IRPF o qué?"
+  },
+  {
+   "start": 5129.34,
+   "end": 5137.82,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Ya, ya, perdón. La paja presidencial, ¿eh? Joder, chaval. Suena el himno, ¿eh? Ya te digo."
+  },
+  {
+   "start": 5140.32,
+   "end": 5148.22,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Yo diré... Dame, dame un número, Pedro, ¿qué más te da? No, pero si no, hombre, ¿cómo que me vas? Esto se hace viral, si te digo números, vamos, esto se hace viral en las redes sociales, pero al instante, ¿no?"
+  },
+  {
+   "start": 5148.5,
+   "end": 5149.8,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Están a juicio y siguen follando."
+  },
+  {
+   "start": 5149.92,
+   "end": 5150.3,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Te diré..."
+  },
+  {
+   "start": 5152.22,
+   "end": 5155.54,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Están locos. Están locos."
+  },
+  {
+   "start": 5158.6,
+   "end": 5163.46,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Oye, yo te digo que tenemos una vida sexual activa y sana."
+  },
+  {
+   "start": 5170.26,
+   "end": 5200.54,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Cuánto afecta... Perdón, última pregunta de este tema ya, que es... ¿Por qué crees... Supongo que tú lo habrás analizado más que nadie. ¿Por qué crees que en una parte de la población despiertas como presidente un odio tan visceral? Ha habido muchos presidentes en España que han hecho tremendas cagadas y que han generado animadversión, pero en tu caso supongo que tenemos de acuerdo que genera una cosa muy puntiaguda, muy bestia. ¿Cómo lo analizas tú?"
+  },
+  {
+   "start": 5200.54,
+   "end": 5208.88,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Yo creo que es más el signo de los tiempos, ¿no? Yo creo que las redes sociales efectivamente polarizan mucho, contribuyen a la deshumanización del adversario político."
+  },
+  {
+   "start": 5209.38,
+   "end": 5210.9,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Eso es importante, sí, eso influye."
+  },
+  {
+   "start": 5210.9,
+   "end": 5216.26,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Yo, pues bueno, efectivamente soy presidente del gobierno, yo se lo digo mucho a mis hijas y a mi familia."
+  },
+  {
+   "start": 5216.5,
+   "end": 5218.46,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Les recuerda, no recordad, hijas, soy presidente del gobierno?"
+  },
+  {
+   "start": 5219.16,
+   "end": 5226.44,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "No, no, no, lo que les digo es, digo, afortunadamente esta responsabilidad, este puesto no es para toda la vida. Ya, ya. Pero cuatro años más, sí."
+  },
+  {
+   "start": 5235.54,
+   "end": 5252.98,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "No sé si quieres... Es verdad que siempre entra bien, es verdad que entra bien, sí. ¿Quieres antes de irte saludar...? Sí. Es que hoy, claro, como no sabíamos... Esta entrevista hoy contigo era rara y delicada porque nunca la hemos hecho con un... Bueno, vino el año pasado Rufián, pero fue de bromis, como luego ya se ha visto."
+  },
+  {
+   "start": 5253.02,
+   "end": 5253.52,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "¿Y qué tal con él?"
+  },
+  {
+   "start": 5253.86,
+   "end": 5306.24,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Bien, si es que él... El otro día dijo Jorge, no sé si escuchaste un chiste que hizo sobre Rufián. A mí me queda bien, Gabriel, pero el otro día Jorge estuvo hablando un rato El iPhone nuevo este que han sacado y que se dobla. Sí, pero bueno, pero que tampoco... Y Jorge dijo, asumo un chiste de Jorge, pero que creo que es una sensación que tiene alguna gente sobre Rufián, pobre, pero tal. Y dijo, Rufián es como el iPhone que se dobla, mola mucho, pero ¿para qué sirve? Es decir, es un poco a brocha gorda, pero más allá de lo que... Él es un muy buen parlamentario y sus votantes en ERC y tal le tendrán muy a tope, pero es verdad que, como lo que has dicho antes, creo que ilusiona una cierta parte del electorado estatal. Bueno, entiendo que haya gente que diga, ok, Gabriel, pero ¿y para qué nos ha valido?"
+  },
+  {
+   "start": 5306.36,
+   "end": 5310.08,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Pero bueno, él es el cabeza de lista de un partido independentista."
+  },
+  {
+   "start": 5310.26,
+   "end": 5310.88,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Ya, ya, por eso, claro."
+  },
+  {
+   "start": 5310.88,
+   "end": 5327.22,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Cierdas, pero independentista. Entonces, claro, tú imagínate. Yo muchas veces me he encontrado a... Me gusta, como he dicho antes, la montaña y entonces, pues alguna vez que voy al Pirineo catalán, pues en alguno de los hoteles me encuentro con algunos independentistas catalanes que me dicen, si no fuera independentista te votaba."
+  },
+  {
+   "start": 5327.58,
+   "end": 5328.24,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Claro, pero..."
+  },
+  {
+   "start": 5328.24,
+   "end": 5331.82,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Claro, es que para ellos, algunos es difícil votar a..."
+  },
+  {
+   "start": 5331.82,
+   "end": 5331.96,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Salirse de eso, claro."
+  },
+  {
+   "start": 5332.5,
+   "end": 5349.96,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Pero bueno, el caso es que Gabriel planteó un debate que yo creo que sí que está en la calle y además a pocos metros de aquí lo hay. Y es una unidad de fuerzas políticas de izquierdas, porque la gente está unida, y bueno, el planteo del debate. Pero bueno, dos no bailan si uno no quiere, ¿no? Y esto parece que ha"
+  },
+  {
+   "start": 5349.96,
+   "end": 5354.9,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "sido el caso, ¿no? Aquí no se sabe ni quién ha bailado, ni quién no quería, ni quién quería, ha sido como una pelea sin saber..."
+  },
+  {
+   "start": 5354.9,
+   "end": 5357.3,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Pero bueno, yo creo que ya esa es una página pasada."
+  },
+  {
+   "start": 5357.32,
+   "end": 5358.14,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Sí, da igual, sí que da igual."
+  },
+  {
+   "start": 5358.22,
+   "end": 5374.48,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Ahora yo creo que las izquierdas y los progresistas, oye, nos jugamos mucho en estas elecciones del 29 de noviembre. Creo que el país, con todos los problemas que tiene, y singularmente el de la vivienda... Hay problemas, ¿eh, Pedro? Sí, pero va razonablemente bien y nos merecemos cuatro años más de avance, ¿no?"
+  },
+  {
+   "start": 5381.4,
+   "end": 5390.04,
+   "label": "SPEAKER_06",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "David, David, perdona, que es que el punky se mea, porque como lo habéis quitado la botella, que se va a levantar."
+  },
+  {
+   "start": 5390.04,
+   "end": 5390.38,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Y qué hacemos?"
+  },
+  {
+   "start": 5390.88,
+   "end": 5394.54,
+   "label": "SPEAKER_06",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Quedan cinco minutos de programa, o sea, queda... Bueno, que vaya al baño porque no le disparen."
+  },
+  {
+   "start": 5396.8,
+   "end": 5416.36,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Claro, es verdad que ahora... No, y oye, me preguntabas por los... Sí, se levanta el punky y el servicio secreto. ¡Socomo! Vaya despliegue. Hoy que lo he visto un poco desde la ventana del camerino y no sé qué, claro, tú ya estás acostumbrado, pero el despliegue que implica un presidente de una nación, claro. Tú ya a todo el espectáculo de alrededor estás acostumbrado, pero es tremendo, claro."
+  },
+  {
+   "start": 5416.6,
+   "end": 5422.28,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Pero tampoco yo soy consciente de todo lo que mueves. Pero efectivamente son grandes profesionales, ¿no? Sí, sí."
+  },
+  {
+   "start": 5422.5,
+   "end": 5429.82,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Aquí han estado aquí un par de días, es verdad que han interferido poco en la ejecución del programa, pero bueno, han vigilado las partes de seguridad que hay que hacer."
+  },
+  {
+   "start": 5429.94,
+   "end": 5441.78,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Y se les puso en cuestión su profesionalidad Cuando el juez peinado le dijo que mi mujer no podía dársele el pasaporte para ir conmigo a la cumbre de la OTAN en Turquía porque si no se le podían colaborar en su vida."
+  },
+  {
+   "start": 5441.78,
+   "end": 5442.9,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Se escapaba de la policía, ¿no?"
+  },
+  {
+   "start": 5443.28,
+   "end": 5449.04,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Claro. ¿Sabes lo que les dije yo a ellos cuando ya regresábamos? ¿Qué le dijiste? No nos hemos escapado. Al final volviste, ¿no?"
+  },
+  {
+   "start": 5452.83,
+   "end": 5460.95,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Lo que te decía, como no sabíamos exactamente cómo ibas a la entrevista, cuánto tiempo íbamos a estar y tal, por si acaso, hoy venía otra persona con una..."
+  },
+  {
+   "start": 5460.95,
+   "end": 5461.91,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Yo la admiro mucho."
+  },
+  {
+   "start": 5480.37,
+   "end": 5486.83,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¡Suscríbete al canal!"
+  },
+  {
+   "start": 5506.16,
+   "end": 5516.98,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "¡Pedra! Antes de nada, me he vestido, esto es un homenaje a ti, porque sabía perfectamente, digo, cuando vas a los sitios como de... No, a mí me gusta ir de vaquero. De enrollado, siempre vas de vaquero."
+  },
+  {
+   "start": 5517.08,
+   "end": 5520.28,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Bueno, es que mi uniforme es el traje y la corbata, pero yo soy visto así."
+  },
+  {
+   "start": 5520.96,
+   "end": 5547.76,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Pero Peter, es que me he puesto para ti. Oye, oye, chicos, poco, poco habéis hablado de señoras. Las señoras, las señoras estamos de renuncias de los nabos hasta aquí. No, que las renuncias que tenemos que hacer. Que has hablado de Begoña, que es lo que a mí me... ¿No ha venido Begoña hoy?"
+  },
+  {
+   "start": 5547.9,
+   "end": 5549.32,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "No, hoy no ha venido, no ha venido. ¿Dónde está?"
+  },
+  {
+   "start": 5550.12,
+   "end": 5550.96,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "¿Por qué no ha venido?"
+  },
+  {
+   "start": 5551.04,
+   "end": 5552.3,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿No estará por ahí pireteando el Windows?"
+  },
+  {
+   "start": 5554.1,
+   "end": 5561.3,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Porque es que aparte, yo, superfan de Begoña, mucho mi cosa de las señoras y que tienes dos hijas."
+  },
+  {
+   "start": 5561.44,
+   "end": 5566.38,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Sí. Bueno, claro, pero sí, claro, Candela, sabes que eso pasa, ¿no? Hay hombres que tienen hijas, claro."
+  },
+  {
+   "start": 5566.48,
+   "end": 5581.58,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "No, no, pero perdona, lo digo porque cuando políticamente la cosa está un poquito tal, las minorías siempre salimos perdiendo y las mujeres las primeras. Yo ahora un poco de aterración, o sea, estoy un poco aterrada, entonces pienso, pues sí, Pedro... Perdón,"
+  },
+  {
+   "start": 5581.58,
+   "end": 5584.84,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Candela, porque es cierto, bueno, has oído ahora que he dicho que otros ya..."
+  },
+  {
+   "start": 5584.84,
+   "end": 5587.4,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Ay, te estoy tocando mucho, perdóname. No, no, no hay problema, es"
+  },
+  {
+   "start": 5587.4,
+   "end": 5587.5,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "todo lo que quiero."
+  },
+  {
+   "start": 5588.12,
+   "end": 5596.96,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "No, digo, es que ahora... A ver si van a... No, perdonadme. Es que les quiero yo tal, porque me da vergüenza, digo, a ver si va a venir un nacional que soy toco, ¿no?"
+  },
+  {
+   "start": 5598.36,
+   "end": 5606.94,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Perdón, Candela, que me viene bien, aunque no es lo que habíamos pensado y tal, este cruce y demás, pero ya que, bueno, opinión, lo has dicho, efectivamente, aquí el programa hay sobre dos internados, efectivamente, opinión... Sí, pero es que habéis hablado"
+  },
+  {
+   "start": 5606.94,
+   "end": 5608.66,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "muy poco de señoras."
+  },
+  {
+   "start": 5608.92,
+   "end": 5609.24,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Ok."
+  },
+  {
+   "start": 5609.68,
+   "end": 5611.88,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Esto poco. Y luego yo quería preguntarte una cosa..."
+  },
+  {
+   "start": 5611.64,
+   "end": 5612.82,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Pero di, di, di..."
+  },
+  {
+   "start": 5612.82,
+   "end": 5654.34,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "¿Puedo preguntar ya lo último antes de que tú irte? Y también de una cosa que él ha planteado al principio. ¿Haces terapia? ¿Cómo aguantas a este hombre? El apagón, chaval, el apagón."
+  },
+  {
+   "start": 5654.4,
+   "end": 5656.26,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Un volcán, un volcán en La Palma."
+  },
+  {
+   "start": 5656.4,
+   "end": 5667.54,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Te has comido un volcán. Pero, marica, ¿por qué quieres seguir? Y vengo, es que pienso en vengo. Pienso."
+  },
+  {
+   "start": 5668.94,
+   "end": 5672.02,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Aparte, también tengo que decir... Pero perdón, déjale que responda."
+  },
+  {
+   "start": 5672.14,
+   "end": 5684.54,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Pero es que como estaba ahí mucho tiempo, quiero decirlo todo y ya me contestas todo rápido. Porque también digo, en estos ocho años, tanta presión y tanta tal, ¿a ti te ha debido afectar? Porque hasta estás muchísimo más delgado."
+  },
+  {
+   "start": 5684.84,
+   "end": 5686.66,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "No, pero eso no tiene nada que ver con..."
+  },
+  {
+   "start": 5686.66,
+   "end": 5687.38,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "¿Es por la bici?"
+  },
+  {
+   "start": 5687.54,
+   "end": 5690.1,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Tiene que ver con el deporte, tiene que ver con..."
+  },
+  {
+   "start": 5690.1,
+   "end": 5694.52,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "¿Y no te estrellas con la bici? No, no le dejan, no, no. Ah, perdona, soy como tú, David."
+  },
+  {
+   "start": 5694.68,
+   "end": 5701.6,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "No, lo que hago, por ejemplo, bueno, lo voy a... es algo privado, pero yo lo que hago es meditación, sí que hago meditación."
+  },
+  {
+   "start": 5701.78,
+   "end": 5702.3,
+   "label": "SPEAKER_08",
+   "person": null,
+   "name": "Hablante sin identificar 6",
+   "text": "Ah, vale."
+  },
+  {
+   "start": 5702.66,
+   "end": 5718.38,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "¿Terapia no? ¿Terapia en plan ir así? Para, bueno, la terapia, hay mucha gente que se pone en manos de profesionales, de psicólogos, de terapias, pero no es mi caso, mi caso, yo hago, sí medito, es algo que, es una costumbre que llevo ya desde hace muchos años, y me ayuda a relativizar las cosas, y luego hay una cosa que me..."
+  },
+  {
+   "start": 5718.88,
+   "end": 5719.8,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "¿Pego te ayuda en esto?"
+  },
+  {
+   "start": 5719.98,
+   "end": 5732.98,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Mucho, mucho, pero, y te diré una cosa, o sea, al final a ti te habrá pasado, tú has, seguro que has pasado momentos muy difíciles en tu trayectoria artística, pero te gusta, te gusta lo que haces, a mí me gusta también la política y el cambiar las cosas."
+  },
+  {
+   "start": 5733.48,
+   "end": 5755.22,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Exacto, pero te gusta porque, un momento, te gusta porque tú socialmente quieres que todos los que te votemos trabajar para nosotros y para que todo nos vaya bien, o porque a ti te mola estar allí y tener a muchas gentes y mucha comida gratis, y mucho pistolón, y mucho vaquero, vaquero que casi es maya, ¿no?"
+  },
+  {
+   "start": 5756.56,
+   "end": 5759.44,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "¿Pero me queda bien o no? Super, super, super,"
+  },
+  {
+   "start": 5759.66,
+   "end": 5764.7,
+   "label": "SPEAKER_08",
+   "person": null,
+   "name": "Hablante sin identificar 6",
+   "text": "super, super, estábamos, gordo, estábamos las tías de atrás solo marujeando,"
+  },
+  {
+   "start": 5764.8,
+   "end": 5772.3,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "tipo, tú hablando de tus mierdacas, no, tal, igual, y nosotros, está bueno, no, pues está flaco, o sea, hemos dicho groserías tipo..."
+  },
+  {
+   "start": 5772.8,
+   "end": 5774.32,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Se han dicho groserías, sí. No lo voy a decir,"
+  },
+  {
+   "start": 5774.08,
+   "end": 5777.72,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "no lo voy a decir, no lo voy a decir por respeto también a Bego, pero hemos dicho..."
+  },
+  {
+   "start": 5778.96,
+   "end": 5780.58,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Ya dilo, ya claro, ya sí, ¿no?"
+  },
+  {
+   "start": 5780.74,
+   "end": 5782.62,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Bueno, que nos hemos fijado en todo de ti."
+  },
+  {
+   "start": 5811.0,
+   "end": 5812.4,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¡Gracias!"
+  },
+  {
+   "start": 5812.92,
+   "end": 5813.24,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Gracias."
+  },
+  {
+   "start": 5813.44,
+   "end": 5813.82,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "De las mejores actrices, ¿eh?"
+  },
+  {
+   "start": 5814.7,
+   "end": 5820.48,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Hemos hablado antes, ¿has escuchado? No sé si, claro, se ha hablado poco lo que ha dicho de mujeres, claro, no sé ninguno de nosotros, claro."
+  },
+  {
+   "start": 5820.84,
+   "end": 5824.38,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "¿Me puedo poner esto? Que también en vestuario hemos hablado de que nos estaba poniendo muy nerviosos."
+  },
+  {
+   "start": 5824.38,
+   "end": 5827.82,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Bueno, porque estaba ahí como podía. ¿Qué más, Candela? ¿Qué más? Antes de que se vaya y nos vayamos, ¿qué más?"
+  },
+  {
+   "start": 5828.04,
+   "end": 5828.54,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "¿Alguna otra apreciación sobre esto?"
+  },
+  {
+   "start": 5829.96,
+   "end": 5831.2,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿La entrevista? ¿Lo que ha dicho Pedro?"
+  },
+  {
+   "start": 5831.8,
+   "end": 5843.3,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Ha sido un poco rollo patatero, también os digo, porque... O sea, quiero decir, yo pensaba que ibais a estar un poquito más simpáticos y entiendo que esto es precampano. Esta es campaña."
+  },
+  {
+   "start": 5843.38,
+   "end": 5844.28,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "No, esto es pre-campaña."
+  },
+  {
+   "start": 5844.46,
+   "end": 5849.24,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "¿Y pre-campaña qué es? ¿Como premenopausia, digamos? Sí, algo así. Que es un poco..."
+  },
+  {
+   "start": 5849.24,
+   "end": 5857.96,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Llevamos cuatro años de pre-campaña. Exactamente. Claro, es bueno, como que empiezas a notar calores también. Claro, perdón, la diferencia, tú que no puedes decir, votadme a mí, eso es... Sí, o sea, el pedir"
+  },
+  {
+   "start": 5857.96,
+   "end": 5859.06,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "el voto se tiene"
+  },
+  {
+   "start": 5859.06,
+   "end": 5859.44,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "que hacer en los"
+  },
+  {
+   "start": 5859.44,
+   "end": 5859.86,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "últimos 15 días."
+  },
+  {
+   "start": 5859.98,
+   "end": 5865.74,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Pero es que te veo muy superflipado porque digo, es que en realidad eres un gran soñador porque dices, no solo voy a..."
+  },
+  {
+   "start": 5865.52,
+   "end": 5866.22,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Mayoría absoluta."
+  },
+  {
+   "start": 5866.84,
+   "end": 5870.76,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Quieres a 176, pero... Y lo vamos a... O sea, lo vais a conseguir."
+  },
+  {
+   "start": 5871.74,
+   "end": 5872.88,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "¿Y por qué no lo vamos a conseguir?"
+  },
+  {
+   "start": 5872.96,
+   "end": 5891.38,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Depende también de la gente, ¿no? Pero Candela, perdón, es que perdón, llevo intentando, una hora y media que estamos aquí ya, intentando la neutralidad, la imparcialidad, y tú, ¡qué guapo, lo vamos a conseguir! ¿Puede ser el presidente, por favor, Pedro? Claro que Candela, échame una mano, porque..."
+  },
+  {
+   "start": 5891.38,
+   "end": 5893.46,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "¿Pero tú qué quieres, que lo sea o que no lo sea, digamos?"
+  },
+  {
+   "start": 5893.68,
+   "end": 5894.24,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Yo no opino,"
+  },
+  {
+   "start": 5894.24,
+   "end": 5897.88,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "porque es la televisión pública. Es que, exacto, nosotros no podemos hablar, yo lo que sí que pienso..."
+  },
+  {
+   "start": 5897.88,
+   "end": 5898.82,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Pero tú sí, tú ya lo estás haciendo."
+  },
+  {
+   "start": 5898.82,
+   "end": 5909.76,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "No, no, yo no he dicho nada porque aparte, la manera de uno posicionarse en el mundo ya plantea, porque la política está en todo, se lo digo yo a mi niño de 14 años, que me ha dicho..."
+  },
+  {
+   "start": 5909.76,
+   "end": 5910.44,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Joder, vaya chapa para el niño."
+  },
+  {
+   "start": 5911.36,
+   "end": 5920.26,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Sí, bueno, me dice a veces, estoy de la política hasta aquí, digo, no, es que la política está en todos los actos, en bajar y que el desayuno te lo haga yo y tú te aproveches de esa situación."
+  },
+  {
+   "start": 5920.46,
+   "end": 5920.78,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Así es."
+  },
+  {
+   "start": 5923.42,
+   "end": 5944.88,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Por último, quiero decir que la gente, que seamos todos un poco más educados en la vida, sobre todo los políticos, que sois nuestro referente, y es como tener unos padres que se gritan y no se aman, no son un buen referente, nosotros lo mismo, o sea, si vosotros os insultáis unas faltadas de respeto que no capto nada, si las personas que nos dirigen son insultadores, no entendemos."
+  },
+  {
+   "start": 5976.81,
+   "end": 5977.35,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "¡Así es!"
+  },
+  {
+   "start": 5980.35,
+   "end": 5984.19,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Hay muchos matices. Ya, ya, ya. Pero de muchas cosas que él te ha planteado..."
+  },
+  {
+   "start": 5984.57,
+   "end": 5998.79,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Os lo prohíbe la Constitución. Tú puedes decir, oye, pues si en esto me equivoqué, yo lo he dicho claramente, ha habido errores que he cometido, pero hay otras, a lo mejor, decisiones que no es blanco o negro, que tienen sus matices, y bueno, pues en esta entrevista he intentado también incorporarlas."
+  },
+  {
+   "start": 5999.45,
+   "end": 6012.75,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "A nivel análisis del programa y tal, Pedro, esto que a la primera entrevista a un candidato, ¿cómo lo has visto tú? ¿Consejos para cuando venga Feijóo la semana que viene, si viene? Están empeñados en que yo convenza a Feijóo, que no, que esta no es la mía."
+  },
+  {
+   "start": 6012.67,
+   "end": 6015.97,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Ya le convenzo yo, ya le convenzo yo, le llamo."
+  },
+  {
+   "start": 6016.13,
+   "end": 6021.91,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Tú me entiendes, Candela, que estaría bien que hubiese una representación. Además, perdón... No, no, pero si no quieren ir, pues eso no significa"
+  },
+  {
+   "start": 6021.91,
+   "end": 6022.25,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "que nosotros no podamos venir."
+  },
+  {
+   "start": 6023.25,
+   "end": 6028.79,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Totalmente, no, claro, yo he dicho al principio, la primera vez cuando lo dijimos, dijimos, o vienen todos o no vienen ninguno. Luego nos dimos cuenta que era absurdo porque es un..."
+  },
+  {
+   "start": 6028.79,
+   "end": 6033.01,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Pero no hace falta que de los conservadores venga Feijóo, puede venir otro, de su equipo,"
+  },
+  {
+   "start": 6033.13,
+   "end": 6034.79,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "de su grupo... Que mande a alguien, claro. Que mande a"
+  },
+  {
+   "start": 6034.49,
+   "end": 6035.49,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "alguien. Yo soy vosotros."
+  },
+  {
+   "start": 6035.49,
+   "end": 6050.89,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Quién hay en el PP así que tenga que ser así? ¡Qué mal me ha visto Quiles! No lo sé, alguien... Oye, pues a lo mejor alguien que te da juego es Cayetana. Pero yo no soy la persona, ¿eh? Para convencer. Tú no le vas a convencer de nada, absolutamente, claro, claro. Ya está, claro, nos despedimos todos juntos, los tres aquí."
+  },
+  {
+   "start": 6051.33,
+   "end": 6052.91,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Pero ¿puedo decir una cosa? ¿Has estado bien?"
+  },
+  {
+   "start": 6053.59,
+   "end": 6054.53,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "He estado muy a gusto, sí."
+  },
+  {
+   "start": 6054.59,
+   "end": 6054.99,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "¿Has estado a gusto?"
+  },
+  {
+   "start": 6055.41,
+   "end": 6056.25,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "¿Ha sido incisivo?"
+  },
+  {
+   "start": 6056.87,
+   "end": 6066.57,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Ha sido incisivo, ¿eh? ¿Ha habido algún momento que has pensado, cómo me equivoqué al contratarlo? ¡Qué cabrón este! ¡Qué desgraciado! Pues no me dice... Bueno... Lo de Ceuta..."
+  },
+  {
+   "start": 6066.57,
+   "end": 6072.59,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "¿Tú te puedes imaginar que llego aquí y lo primero que me dice es, presidente, pero por pocos días? Bueno, porque, a ver..."
+  },
+  {
+   "start": 6072.59,
+   "end": 6073.77,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Ya os he oído, ya"
+  },
+  {
+   "start": 6073.77,
+   "end": 6074.21,
+   "label": "SPEAKER_05",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "os he oído."
+  },
+  {
+   "start": 6074.67,
+   "end": 6078.41,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Yo vengo muy emberrinchinada, no voy a poder contar mis cosas hoy. Las contaremos la semana que viene."
+  },
+  {
+   "start": 6078.31,
+   "end": 6079.19,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Vente el lunes, sí, sí."
+  },
+  {
+   "start": 6079.27,
+   "end": 6084.69,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "No, me voy a venir, me voy a venir. Vente el lunes. Sí, porque vengo yo con un berrinche. Mira qué pesadas. Que es que han hablado mucho los caballeros."
+  },
+  {
+   "start": 6084.69,
+   "end": 6085.45,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Han hablado mucho, perdón, sí."
+  },
+  {
+   "start": 6085.53,
+   "end": 6086.87,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Le iba a decir yo una cosa de señoras."
+  },
+  {
+   "start": 6086.87,
+   "end": 6088.47,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Una vez más los caballeros, pero bueno, lo contamos la semana que viene."
+  },
+  {
+   "start": 6088.53,
+   "end": 6089.27,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Sí, sí, lo contaremos."
+  },
+  {
+   "start": 6089.27,
+   "end": 6089.89,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Si esto está en tus puertas abiertas."
+  },
+  {
+   "start": 6089.89,
+   "end": 6091.53,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Lo contaremos, chicas, tranquila."
+  },
+  {
+   "start": 6091.57,
+   "end": 6111.32,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "No os preocupéis. Pedro, esto está hecho más o menos. Bueno, David. Nos vemos en las urnas, supongo. Yo sabes que yo igual... ¿Sabes que tengo que votar por correo? ¿Crees que llegará el...? Llegará... Porque parece ser de que hay unos duendes que cogen esos votos y los... Pero fíjate tú. Bueno, fíjate tú."
+  },
+  {
+   "start": 6111.54,
+   "end": 6114.54,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Ah, te faltaba lo de la ley de nietos, ¿no? Esto no lo has tocado, ¿no?"
+  },
+  {
+   "start": 6114.58,
+   "end": 6115.6,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "No lo he tocado, pero es que fíjate, nos echamos aquí."
+  },
+  {
+   "start": 6115.94,
+   "end": 6116.72,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Hay que dejarle que se"
+  },
+  {
+   "start": 6116.72,
+   "end": 6117.34,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "vaya el hombre que..."
+  },
+  {
+   "start": 6117.82,
+   "end": 6120.06,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Y ahora, ¿dónde te vas? Perdóname."
+  },
+  {
+   "start": 6137.16,
+   "end": 6167.18,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Yolanda Díaz ¡Gracias!"
+  }
+ ]
+}

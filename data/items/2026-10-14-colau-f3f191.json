@@ -1,0 +1,434 @@
+{
+ "id": "2026-10-14-colau-f3f191",
+ "date": "2026-10-14",
+ "expected_person": "Ada Colau",
+ "kind": "other",
+ "outlet": "3Cat - Els Matins",
+ "title": "Ada Colau, disposada a fer un pas al costat si \"es trobés algú encara de més consens\"",
+ "url": "https://www.3cat.cat/3cat/ada-colau-disposada-a-fer-un-pas-al-costat-si-es-trobes-algu-encara-de-mes-consens/video/6430196/",
+ "language": "ca",
+ "duration_s": 1209.07,
+ "sha256": "ed020e085a17cd572335f125ab03954ef4f51cb6ef671aef59c6d5867307f16b",
+ "fetched_at": "2026-10-25T17:13:06+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.55,
+  "processed_at": "2026-10-25T17:32:38+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_01": {
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "decision": "match",
+   "reason": "sim 0.82, next 0.37",
+   "talk_s": 618.8
+  },
+  "SPEAKER_02": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "unknown",
+   "reason": "best sim 0.32 < 0.55",
+   "talk_s": 164.5
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "unknown",
+   "reason": "best sim 0.22 < 0.55",
+   "talk_s": 46.6
+  },
+  "SPEAKER_05": {
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "decision": "unknown",
+   "reason": "best sim 0.37 < 0.55",
+   "talk_s": 127.6
+  },
+  "SPEAKER_04": {
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "decision": "unknown",
+   "reason": "best sim 0.24 < 0.55",
+   "talk_s": 94.7
+  },
+  "SPEAKER_03": {
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "decision": "unknown",
+   "reason": "best sim 0.22 < 0.55",
+   "talk_s": 65.4
+  }
+ },
+ "turns": [
+  {
+   "start": 0.0,
+   "end": 23.44,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "i Ciutadans. Bona tarda, Ada Colau, bon dia. Hola, Ada. Hola. Hola, ara et sento. Avui no et tinc aquí a la taula, com els dimecres acostuma a passar aquí a matins, sinó que et saludo ja en qualitat tu de candidata de Frontampli. Com estàs?"
+  },
+  {
+   "start": 25.92,
+   "end": 94.4,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Bé, són dies molt intensos, efectivament. Em sap greu no estar amb vosaltres, us trobo a faltar, perquè és una tertúlia realment molt agradable. i Ciutadans. Moltes gràcies per acompanyar-nos. Ha estat un gust participar-hi fins ara. Vivim temps excepcionals. S'ha precipitat una convocatòria electoral el 29 de novembre amb una situació crítica a diferents nivells, sobretot pel risc que guanyi l'extrema dreta i la dreta que pugui haver-hi el feixisme en aquest país, amb el retrocés de drets i llibertats que això suposaria, i també un esclat al carrer que reclama canvis estructurals, que defensa el dret a l'habitatge i altres drets i que s'acabi amb l'especulació. I en aquest context d'excepcionalitat ha sortit una corrent de fons molt important demanant que hi hagi una unitat de les esquerres per aturar el feixisme, per no resignar-nos a que això succeeixi el 29 de novembre. I per tant, molt honrada que el Front Ampli i les formacions polítiques que estan impulsant aquest Front Ampli m'hagin proposat com a candidata de consens i Ciutadans. Fem aquesta candidatura única de les esquerres, que és el que ens demana la gent."
+  },
+  {
+   "start": 94.62,
+   "end": 99.32,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Et queden tres dies per intentar fer-ho. Estàs portant les negociacions?"
+  },
+  {
+   "start": 101.8,
+   "end": 139.94,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Les negociacions es porten entre moltes persones. i Ciutadans. Hi ha moltes formacions polítiques que han de dialogar. Aquí entren les executives dels partits. Hi ha quatre formacions impulsant l'inici del front ampli, que són les formacions d'Izquierda Unida, de Mas Madrid, Movimiento Sumar i de Comuns. Però ja s'està parlant amb altres formacions i les converses estan molt avançades perquè en les properes hores puguin incorporar altres formacions de la Generalitat de Catalunya, la Generalitat de Catalunya i la Generalitat de Catalunya. Seguim amb la mà estesa per arribar a acords amb Esquerra Republicana i Podemos a nivell de l'Estat."
+  },
+  {
+   "start": 140.22,
+   "end": 164.76,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Som-hi. Per arribar a aquests acords amb Esquerra Republicana i Podem, què poseu damunt de la taula perquè aquesta negociació arribi a bon port? Què és el que voleu vosaltres? Que abans de les 12 de la nit del divendres, aquest divendres, que són tres dies només, es pugui registrar aquesta gran coalició de la unitat de les esquerres que busques?"
+  },
+  {
+   "start": 167.14,
+   "end": 240.16,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Exacte. És el que la gent ens està demanant de forma claríssima. Sabeu que molta gent, inclòs jo, ben animada a Gabriel Rufián, que crec que és una de les persones que s'ha fet més popular i Ciutadans. En els últims mesos, moltes persones vam animar a Gabriel Rufián a exercir aquest lideratge a nivell estatal. I aconseguir que hi hagués aquesta candidatura única, que serveix per multiplicar resultats, perquè no es perdin vots de les esquerres i que no hi hagi escons a les dretes. i Esquerra Republicana, i que es pugui guanyar un govern pro-racista i aturar el feixisme. Gabriel Rufián va liderar molt aquesta proposta i el vam animar a que ell encapçalés aquesta proposta a nivell estatal, però finalment ell va decidir quedar-se aquí a Catalunya amb Esquerra Republicana, és absolutament legítim, també és veritat que ha estat una mica decebedor per molta gent que esperava i confiava que ell encapçalaria aquesta proposta, però evidentment no podem defallir, i aquí som molta gent i hem de sumar entre totes, des de diferents llocs, i la Generalitat de Catalunya. Des del Front Ampli seguim construint aquesta unitat. És clau i ens demana la gent al carrer. Tothom ens demana que aneu junts."
+  },
+  {
+   "start": 240.66,
+   "end": 245.52,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Què fa que ara no pugueu anar junts? Quins són els obstacles? Quins són els molts de l'os?"
+  },
+  {
+   "start": 247.54,
+   "end": 283.12,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Les converses estan obertes. Jo no veig obstacles importants, perquè el programa el compartim. La voluntat d'aturar la dreta i l'extrema dreta la compartim. La voluntat de posar el dret a l'habitatge com la màxima de les prioritats, aturar l'especulació, El que hem de fer és fer fora els fons voltors, defensar els serveis públics, els drets i les llibertats, defensar les pensions que es volen carregar els de Vox, les baixes laborals i altres drets laborals que es vol carregar el PP. Aquest programa el compartim. Si compartim programa, no s'entén que no ens fiquem d'acord. i Ciutadans de la Generalitat de Catalunya."
+  },
+  {
+   "start": 282.8,
+   "end": 291.26,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Hi ha una qüestió de cadires de qui ocupar la candidatura, o no?"
+  },
+  {
+   "start": 293.68,
+   "end": 326.56,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "No, no pot ser una qüestió de cadires. Hi ha espai per a tothom, perquè hi hagi un lideratge molt coral. Hi ha moltes persones vàlides i totes són necessàries. i la Generalitat. És necessari el Gabriel Rufián, la Irene Montero, aquí estic per ajudar des del Front Ampli, igual que Emilio Delgado des de Madrid, que és un altre lideratge molt valuós i positiu que s'ha confirmat per encapçalar Madrid. Hi ha moltíssima gent arreu del territori, molt valida, la necessitem a tota. No hi ha un problema que no s'ha de fer. No hi ha un problema que no s'ha de fer."
+  },
+  {
+   "start": 327.16,
+   "end": 328.66,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Només hi ha un que pugui ser candidat."
+  },
+  {
+   "start": 329.84,
+   "end": 332.2,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "No sé si aquí hi ha"
+  },
+  {
+   "start": 332.2,
+   "end": 334.02,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "el problema."
+  },
+  {
+   "start": 336.6,
+   "end": 410.62,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "No, no. Jo crec que és un problema més global. És un problema més global d'acordar llistes en general i veure quin és l'encaix de tothom i que tothom tingui el seu paper. i la Generalitat de Catalunya. No crec que sigui un únic lloc el que sigui el problema. No crec que sigui aquest el problema. A mi m'han proposat com a candidata a la presidència per ser una persona de consens, perquè entenc que em considero una persona que puc ajudar a teixir aliances i que tinc una experiència tant com a activista com també a la institució, en la defensa del dret a l'habitatge, i em sento molt honrada i assumeixo que és de responsabilitat amb convicció per tirar endavant aquest projecte, Hi ha espai per a tothom. No pot ser el problema. Si en algun moment sumem moltes altres formacions al front ampli i es trobés una altra persona que fos de més consens, jo estaria encantada de recolzar-la. Igual que vaig recolzar en el seu moment a Gabriel Rufián i el vaig animar a fer el pas i malauradament no va voler. i la Generalitat de Catalunya, que es posa al servei del projecte, i el projecte és tenir una candidatura única d'esquerres que pugui derrotar el feixisme a les properes eleccions del 29 de novembre."
+  },
+  {
+   "start": 411.5,
+   "end": 417.4,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Si Rufián volgués encapsar la candidatura de Front Amplia, estaries disposada a cedir-li el lloc?"
+  },
+  {
+   "start": 420.44,
+   "end": 450.6,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "A veure, a Rufián li vam proposar i va dir que no. I va decebre moltíssima gent. Hi ha molta gent que esperava que Rufián fes aquest pas, En aquest cas va decidir quedar-se a Catalunya amb ERC, però això no vol dir que no pugui participar del projecte. I ell mateix ahir feia un tuit en aquest sentit, que encara es podien fer nous acords, i estic d'acord amb ell, encara es poden fer nous acords perquè puguem anar totes plegades en aquesta cita on ens hi juguem moltíssim."
+  },
+  {
+   "start": 456.98,
+   "end": 457.3,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "de la"
+  },
+  {
+   "start": 457.3,
+   "end": 551.64,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Unió Europea, Junts per Catalunya, Junts per Catalunya, Junts per Catalunya, Junts per Catalunya, Aquest corrent que hi ha hagut d'opinions arreu de l'Estat manifestant la decepció que tenien envers en Rufián perquè no abandonava ERC. Efectivament, el Rufián sempre ha dit que era militant d'ERC. i Esquerra Republicana. Ell ha actuat, ha fet tot el que ha pogut, però evidentment el que no ha fet és abandonar el seu partit, i el seu partit tenia un posicionament. Què hauria passat o què hauria pensat la gent si jo hagués manifestat a través del Twitter, per exemple, m'hagués atrasat al Gerardo Pizarro i li hagués dit Gerardo, fes el pas, vine a ERC. Hauria estat un insult a Comuns? Aquesta superioritat de dir que ens has decebut. Però si ell és militant d'ERC i ha manifestat que... Com podia ell, com se li pot exigir"
+  },
+  {
+   "start": 551.64,
+   "end": 551.76,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "i"
+  },
+  {
+   "start": 551.64,
+   "end": 551.76,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Ciutadans."
+  },
+  {
+   "start": 551.76,
+   "end": 553.7,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "I ara, com"
+  },
+  {
+   "start": 551.76,
+   "end": 576.28,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "es pot fer córrer l'enraonia que ha decebut si ell manifesta que és d'Esquerra Republicana? I el convidàveu a marxar d'Esquerra Republicana. Jo crec que això, èticament, ho dic amb el cor de la mà i amb dolor, crec que èticament això no és correcte. i Ciutadans de la República de Catalunya."
+  },
+  {
+   "start": 582.56,
+   "end": 586.94,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "S'ha tallat"
+  },
+  {
+   "start": 588.54,
+   "end": 602.64,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "just en el moment la connexió. Ens havíem quedat amb l'Ada Colau, que la tinc encara en línia. S'ha tallat just la connexió quan estaves respondent la pregunta que"
+  },
+  {
+   "start": 602.64,
+   "end": 603.56,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "deia el Joan Tardà."
+  },
+  {
+   "start": 604.02,
+   "end": 604.54,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Sí, endavant."
+  },
+  {
+   "start": 605.82,
+   "end": 703.5,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Sí, sí, em semblava molt important fer aquestes preguntes, i Esquerra Republicana, que és el que més ens agrada a la ciutadania, que és el que més ens agrada a la ciutadania, que és el que més ens agrada a la ciutadania, i Esquerra Republicana, però és que es poden fer acords i es poden fer coalicions sense que es perdin les sigles. Tots ho sabem, això. Per tant, màxim respecte a les sigles, màxim respecte a Esquerra Republicana i màxim respecte a que Gabriel Rufián decideixi quedar-se Esquerra Republicana. El tema és que tenim tots plegats una tasca més gran que nosaltres mateixos, que és aturar el feixisme a les properes eleccions del 29 de novembre. I amb això, Joan, sé que tu i jo estem totalment d'acord I jo t'agraeixo infinitament la tasca que portes de picar pedra durant anys pensant precisament que a Catalunya hem de fer una aliança les forces d'esquerres antifeixista. I el moment és ara, com diu Gabriel Rufián, el moment és ara, perquè a les properes eleccions les enquestes diuen que si les esquerres no anem unides pot guanyar el feixisme. Per tant, crec que estem dient exactament el mateix i tot des del màxim respecte a les sigles. i Ciutadans. Jo encara penso que és possible una entesa entre comuns i esquerra. Només faltaria si compartim el programa bàsic d'esquerres i sobiranistes."
+  },
+  {
+   "start": 718.14,
+   "end": 735.26,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "de la Unió Europea, Junts per Catalunya, Junts per Catalunya,"
+  },
+  {
+   "start": 734.82,
+   "end": 738.58,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Junts per Catalunya, Junts per Catalunya, i Ciutadans."
+  },
+  {
+   "start": 738.72,
+   "end": 747.36,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Hi ha tota la qüestió de les circumscripcions que tu apuntaves abans pel que fa als diputats que la porten."
+  },
+  {
+   "start": 749.82,
+   "end": 773.94,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "No és el cas. Jo no crec que Esquerra Republicana vulgui anar en coalició. i Ciutadans de la República Republicana. És impossible que hi hagi un acord que li faci perdre aquesta representació en les altres circunscripcions. Això és molt més important que altres."
+  },
+  {
+   "start": 775.2,
+   "end": 814.4,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Com que estic estorada, és un tema que em supera. És el que he dit abans. Un 10 per Pedro Sánchez, deixi un partit socialista que veurà de molt bo desencantat. Em sorprèn també el fet de poder fer aquests pactes amb Podemos pel part d'esquerra, un Podemos que va votar en contra del traspàs d'immigració. Jo voldria preguntar a Gabriel Rufián, o a Esquerra Republicana, Si no hi ha una coalició catalana, què votarem a Madrid? Són pactes que neixen morts. I més quan es ventilen els problemes a les televisions. Per mi això és carn perquè ningú es voti. de la Unión Europea, Comunidades, i l'Ajuntament de Madrid. D"
+  },
+  {
+   "start": 814.4,
+   "end": 816.44,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "'aquí fa uns mesos que no hem tingut ni un moment de reaccions. Tinc l'Ada Colau, que l'he recuperat."
+  },
+  {
+   "start": 818.24,
+   "end": 819.72,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Si vols, ja li faig la pregunta."
+  },
+  {
+   "start": 822.64,
+   "end": 823.08,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Bon dia, Ada."
+  },
+  {
+   "start": 824.32,
+   "end": 947.62,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "No et desitjaré sort, però sí salut i pocs vots. de la Unió Europea, Junts per Catalunya, Junts per Catalunya, Junts per Catalunya, Junts per Catalunya, Junts la pregunta que et faig és si et trobaràs còmode sent la candidata de Comuns, de Front Ampli, és a dir, la candidata de Sumar en favor de Pedro Sánchez. Perquè els comuns, el Partit del que pertanyes i el Front Ampli, bàsicament són els que han donat suport i han governat al costat de Pedro Sánchez al llarg dels últims anys. I, per tant, i Ciutadans de la Unió Europea. El que és normal és que com a candidat de sumar amb Pedro Sánchez, que és la raó de ser de la teva presentació, o una de les raons seria defensar l'acció que heu fet els comuns, el ministre Autarso, el ministre Subirats, que eren dels comuns, seguts al Consell de Ministres, normal seria que estiguéssiu aixecant aquesta bandera de la corresponsabilitat del que ha fet Pedro Sánchez La justícia ha de generar la poca governança i no pas generar aquesta por injustificada. Busqueu més. Em sembla que l'esquerra extrema ha substituït la lluita de classes del comunisme per l'odi social. Això no porta enlloc. i el Departament de Justícia. Són dos discursos de confronatió i odi, per un discurs de la il·lusió i que hi ha futur per resoldre prestacions de serveis públics, millorar l'educació, la sanitat, la generació de feina, etcètera. I baixar els impostos. Si es troba còmode, sent la candidata de sumar a Pedro Sánchez."
+  },
+  {
+   "start": 947.94,
+   "end": 949.4,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Aquesta és la pregunta de Colau."
+  },
+  {
+   "start": 950.68,
+   "end": 1060.12,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Alberto, de veritat, Que tu em diguis això, el que m'acabes de dir. Em sento molt còmode, efectivament, poder ajudar a empènyer una candidatura unitària que faci front al que representa el teu partit ara mateix, que és molt pitjor del que representava fa uns anys. Ho dic amb coses molt concretes. Vosaltres ja esteu governant amb Vox. Si vosaltres governessiu a la Moncloa, ho faríeu amb Abascal. I això significa perill directament la vida de milers i milers de persones. i la Generalitat de Catalunya. El president de partit ha dit que vol carregar-se les baixes mèdiques laborals, això és carregar-se drets laborals bàsics de la ciutadania. Diu que la gent no es pot posar malalta perquè si no pot perdre diners o pot perdre directament la feina. Però és que a més d'això aneu amb un soci de govern que directament vol perseguir els migrants com fa Trump pels carrers a Malais. S'està carregant les polítiques de defensa de les dones contra les violències ja està passant a les comunitats autònomes. Està privatitzant com està fent Ayuso la sanitat, l'educació, i ho vol privatitzar tot. Vol reduir les pensions. Això és el que suposeu? L'amenaça directa a la vida de la gent. Això no fa cap mena de gràcia. I evidentment que estic molt orgullosa de poder encapsular una candidatura que contribueixi a unir les esquerres, per no només revertir les polítiques que vosaltres ja esteu impulsant a moltes comunitats autònomes, sinó per impulsar polítiques valentes i transformadores, que, per exemple, acabant amb l'especulació immobiliària, recordo que el teu partit acaba de carregar-se dos decrets que salvava la vida de milers de persones, i acaba de passar això al Congrés, i hi ha milers de persones al carrer reclamant que es faci efectiu el dret a l'habitatge de Esquerra, Junta, Junta de Junts i Generalitat, Junts per Catalunya, Junta de Junts per Catalunya, Junta de Junts per Catalunya, Junta de Junts per Catalunya, Junta de Junts per Catalunya. I jo sóc molt orgullosa d'estar al costat de la taula."
+  },
+  {
+   "start": 1060.72,
+   "end": 1062.58,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Presse la veig candidata a ministra de vivenda."
+  },
+  {
+   "start": 1063.08,
+   "end": 1070.0,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Espero que no, perquè han acabat amb l'habitatge a Catalunya i Espanya."
+  },
+  {
+   "start": 1070.04,
+   "end": 1073.12,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "En queda poc temps, però l'atura breu."
+  },
+  {
+   "start": 1073.12,
+   "end": 1114.8,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Molt breu. Jo només vull preguntar, ja que us heu posat el nom de front, si heu mirat el text de l'acord del front d'esquerres que van fer els francesos. Els francesos en les últimes legislatives van fer un acord de formacions molt diverses i Ciutadans, amb què el candidat més mal posicionat de cada circunscripció electoral es retira en benefici de l'altra força per impedir així la majoria en l'assemblea nacional del regrupament nacional. I els hi va funcionar. Per tant, només la pregunta és, us heu llegit a l'acord del front d'esquerres francès?"
+  },
+  {
+   "start": 1116.7,
+   "end": 1186.02,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Sí, conec bé l'experiència francesa. Aquesta proposta va ser la que va encarcelar l'esquerra transformadora. I després Macron, de forma antidemocràtica, no els va deixar accedir a la presidència. Ara estem en una fase prèvia, que és que tota l'esquerra transformadora, que realment no només vol derrotar a la dreta i a l'extrema dreta, sinó més enllà, per exemple, en la defensa del dret a l'habitatge, cosa que el Partit Socialista ha fet a ronso durant tots aquests anys. i Ciutadans. I ara, si no hi ha hagut manera de fer mesures per defensar el dret de l'habitatge, aquesta esquerra transformadora, que no només vol resistir a la dreta i l'extrema dreta, sinó que a més vol avançar amb drets i llibertats, ens posem tots d'acord amb una candidatura unitària. Un cop passés aquest acord, que el termini s'acaba aquest divendres al vespre, si s'aconsegueix aquest acord d'unitat Aquest divendres, a partir d'aquí, s'haurà de seguir fent l'anàlisi de província per província, quines són les millors propostes, les possibilitats i tot plegat. Però ara mateix el que hem de concentrar les forces és que hi hagi aquesta unitat de les esquerres transformadores."
+  },
+  {
+   "start": 1186.68,
+   "end": 1202.52,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Ada Colau, candidata de Front Ampli, gràcies per aquesta entrevista. Ja deixes de ser tertuliana d'aquest programa. Per tant, suposo que ens veurem en alguna entrevista preelectoral. i Ciutadans de la Unió Europea. Gràcies per haver-nos acompanyat. Gràcies a vosaltres per haver-nos acompanyat."
+  },
+  {
+   "start": 1202.36,
+   "end": 1204.0,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Gràcies per haver-nos acompanyat."
+  },
+  {
+   "start": 1205.46,
+   "end": 1208.76,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Gràcies per haver-nos acompanyat."
+  }
+ ]
+}

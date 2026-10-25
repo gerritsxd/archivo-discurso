@@ -1,0 +1,379 @@
+{
+ "id": "2026-10-24-feijoo-c5104d",
+ "date": "2026-10-24",
+ "expected_person": "Alberto Núñez Feijóo",
+ "kind": "rally",
+ "outlet": "PP YouTube",
+ "title": "🔵 DIRECTO: Feijóo interviene en un acto en Vigo",
+ "url": "https://www.youtube.com/watch?v=IOdx2JDW8P8",
+ "language": "es",
+ "duration_s": 10205.15,
+ "sha256": "b8e6bbb58001e98135472de5770c758ba3481bb6ab6a088ff27858ab6a0c3567",
+ "fetched_at": "2026-10-25T09:35:47+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.55,
+  "processed_at": "2026-10-25T16:43:37+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_04": {
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "decision": "match",
+   "reason": "sim 0.86, next 0.45",
+   "talk_s": 1556.7
+  },
+  "SPEAKER_02": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "unknown",
+   "reason": "best sim 0.45 < 0.55",
+   "talk_s": 800.0
+  },
+  "SPEAKER_01": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "unknown",
+   "reason": "best sim 0.43 < 0.55",
+   "talk_s": 411.9
+  },
+  "SPEAKER_03": {
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "decision": "unknown",
+   "reason": "best sim 0.37 < 0.55",
+   "talk_s": 161.5
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "decision": "too_short",
+   "reason": "only 9s of speech",
+   "talk_s": 8.7
+  }
+ },
+ "turns": [
+  {
+   "start": 5975.73,
+   "end": 6510.9,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Gracias a los vigueses que estáis hoy aquí y gracias a todos los que habéis venido de otros sitios de la provincia, que sé que sois muchos. Muchísimas gracias. Gracias por llenar esta estación marítima y, sobre todo, gracias por demostrar la fortaleza del Partido Popular. Y pido disculpas a los que tienen que estar de pie y pido disculpas a los que no han podido entrar, pero hay que reconocer que el espacio es finito. Perfecto. Presidente Feijóo, menudo tirón, menudo poder de convocatoria. Y presidente Rueda, cada vez que vienes a Vigo está claro que el recinto se queda pequeño. Así que muchísimas gracias a los dos. Permitidme que empiece hoy felicitando a muchas personas, pero en concreto a cuatro. Quiero felicitar a todos aquellos que forman parte de las listas del Congreso y del Senado para estas elecciones, pero en concreto quiero felicitar a cuatro personas viguesas. Quiero empezar por felicitar a Julio García Comesaña, que encabeza la lista y estoy encantada con que Humbigues encabece esa lista por la provincia. También quiero felicitar a Irene Garrido, que va de número cuatro. Quiero felicitar a Mónica Domínguez, que va de número tres como senadora por la provincia. Y no quiero olvidarme de Monse Otero, que va como suplente también en las listas del Senado. Bueno, yo estoy segura de que haréis un papel fantástico representando los intereses de la provincia y representando los intereses de nuestra ciudad. Compañeros, compañeras, amigas y amigos, hoy es un buen día. Y es un buen día porque tenemos aquí al futuro presidente de España. España. Hoy Alberto Núñez Feijóo va a contarnos qué esperamos de esa España, cuál es la España que queremos. Una España con más vivienda, una España con más futuro para nuestros jóvenes y, desde luego, una España más segura y más íntegra. Y le agradezco de verdad, de corazón, que haya elegido Vigo para hacerlo, porque Alberto Núñez Feijóo conoce muy bien Vigo y sabe cuáles son nuestras necesidades. Y el día 29 de noviembre Vigo no te va a fallar, ya te lo puedo garantizar. Y lo noto, yo creo que lo notamos todos, lo notamos todos. Vas por la calle, todo el mundo te para, todo el mundo te va haciendo comentarios. La gente tiene ganas de votar. Y por fin vamos a votar. Así que vamos a echar al peor presidente del Gobierno de España. Y vamos a echar también al peor presidente del Gobierno que ha tenido esta ciudad. Porque en los últimos ocho años, ese presidente de España nos ha aislado a Vigo por tierra, por mar y por aire. Nos ha dejado empantanada la conexión entre España y Portugal. No nos da alternativa la Autovía 55, por llamarla algo. No tenemos Puerto Nodal. Está en cuadro el aeropuerto de Peinador. ¿Y qué ha sucedido con la vivienda? Pues que en estos ocho últimos años ni el gobierno de España ni el gobierno de esta ciudad han conseguido hacer ni una sola vivienda, cero viviendas. Así que Pedro Sánchez ha sido el peor presidente y por eso lo vamos a echar. Y perdonad mi triunfalismo, pero no queremos echarlo de cualquier manera. En Vigo no lo queremos echar de cualquier manera. Mira, Alberto, puede sonar un poco a justicia poética, pero que tú vayas a ser presidente del Gobierno, siendo el Partido Popular de Vigo la fuerza más votada en Vigo, para nosotros es todo un reto. Lo vamos a conseguir y lo vamos a conseguir por ti. No aspiramos a otra cosa. Esta ciudad te va a dar más votos que nunca para que seas presidente del gobierno y queremos apoyar y mejorar los resultados de la provincia y de nuestra ciudad. Decía que lo noto, y lo noto por los comentarios en la calle, pero también hay otros síntomas. Hay otros síntomas que son importantes y que los dan ellos mismos. No hay más que ver que el subdelegado del Gobierno ha salido corriendo y ya se ha incorporado en las listas al Congreso. O el delegado de la zona franca, que va a ir seguro en las listas municipales del 27 de mayo. Y tienen tan poca confianza en ellos mismos que han hecho ahí esa unión en el Senado. ¿Y sabéis quién la lidera? Claro, pues la lidera Carmela Silva, la cuñadísima, la amiga de Leire. Y el PSOE de Vigo, pues como vemos, se ha agenciado ya un sitio ante lo que les espera. Y el siguiente en salir, y os lo digo de corazón, tiene que ser el presidente del Club de Fans de Pedro Sánchez en Vigo. Tiene que salir de Vigo, porque es el primer defensor de Pedro Sánchez. Cuando se disolvieron las cortes y se convocaron elecciones, hice balance de lo que había hecho Pedro Sánchez en Vigo y ese presidente del Club de Fans fue el primero en salir, aplaudirle y apoyarle. Vigo tiene que saber eso, Vigo tenemos que contárselo porque el PSOE tiene en Vigo su mayor escuela, no nos podemos olvidar cuando el hermanísimo de Pedro Sánchez estaba haciendo ya sus artimañas, aquí teníamos enchufismo, teníamos enchufismos de familiares y no es que lo digamos nosotros, es que lo dice una sentencia y hay un señor en la cárcel por ese motivo. Es que Leire, Leire 10, la famosa fontanera, ya se paseaba por la provincia de Pontevedra con muchos abrazos por parte del PSOE de Vigo. Y lo que hay que decir es que lo que hay que tener claro es que la papeleta de este 29N es la misma papeleta del 23 de mayo del próximo año. Por eso, nuestro objetivo tiene que ser acabar con el PSOE ahora en el Gobierno y después acabar con el PSOE en la ciudad de Vigo. Y no vale relajarse. No vale relajarse. Sabemos lo que sucedió en las generales del año 2023. Lo tenemos ahí. Lo tenemos. Es un caramelo. No podemos desperdiciar esta oportunidad. Así que tenemos que dar lo mejor de nosotros en estas elecciones generales. En el Partido Popular de Vigo llevamos encadenando cuatro convocatorias electorales mejorando nuestros resultados. Y, sinceramente, yo no me conformo, Alberto, con que ganes en España. También tenemos que ganar en Vigo. Y para eso vamos a trabajar hasta el último minuto. Para eso vamos a trabajar hasta el último minuto. Vayamos a por ello. El 29 de noviembre Vigo tiene que darle a Alberto Núñez Feijóo la victoria. Vamos a por todas, por España, por la provincia y por Vigo."
+  },
+  {
+   "start": 6511.28,
+   "end": 6572.24,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Lo primero que tengo que decir en nombre de tanta gente de Vigo, de la provincia de Pontevedra, algunos que no son de la provincia de Pontevedra están por aquí, empezando por las candidaturas, es que cuando estamos a piques de empezar una campaña, cuando estamos a, para qué nos hicimos enganar en plena pre-campaña, Cuando decides hacer un acto, hay que hacerlo bien, hay que hacerlo demostrando fuerza, hay que hacerlo demostrando empuce, hay que hacerlo demostrando convicción, hay que empezar bien. Y, por lo tanto, empezamos muy bien."
+  },
+  {
+   "start": 6572.32,
+   "end": 6586.9,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Gracias a todos por demostrarlo en el momento en que falta. Muchísimas gracias. Y esto va a ser un"
+  },
+  {
+   "start": 6586.9,
+   "end": 6588.52,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "buen comienzo para todo lo"
+  },
+  {
+   "start": 6588.52,
+   "end": 6588.74,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "que viene después."
+  },
+  {
+   "start": 6589.68,
+   "end": 6634.1,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Y van a haber muchas cosas. Por supuesto, tenemos a Serais por delante. Después tenemos a los municipales, con todos los retos y todos los objetivos que nos hicimos marcar. En Vigo también, por supuesto. En Vigo no primero lugar. Con fuerza, con convicción, con valentía. Hay que ser muy valiente, muchas veces y siempre muy paciente para hacer política sana, política de verdad y política con principios aquí en Vigo. Y por lo tanto, como Luisa explicó perfectamente de qué va y todo esto, yo solo digo desde aquí, mucho ánimo, mucha fuerza y muchos"
+  },
+  {
+   "start": 6634.1,
+   "end": 6639.28,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "éxitos para los que tienen que vivir en vivo después de que Alberto César sea presidente del gobierno."
+  },
+  {
+   "start": 6639.28,
+   "end": 6719.04,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Gobierno, Alberto, estás en tu casa. El hogar en la casa siempre es importante, siempre da un pequeño plus. Y por lo tanto nos alegramos muchísimo de que a un mes de ese día decisivo, a un mes de ese día en el que todos decimos por fin, estés aquí, en tu casa. Porque también teníamos ganas de ver cómo estabas. Vemos en la televisión, hablamos frecuentemente, pero no es lo mismo que verte aquí, en un acto de tu partido en tu casa. Y, bueno, ahora veremos, hablará en cuanto a remate, no me quiero extender mucho, pero ya vendo entrar. Viendo, como se dice ahora, el lenguaje sexual, viendo comportarse, yo tengo que decir, y creo que coincido con mucha gente, que beso a Alberto en el momento en que tiene que estarlo, mejor que nunca, mejor que nunca, Alberto."
+  },
+  {
+   "start": 6719.28,
+   "end": 6741.14,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Alberto, y por lo tanto eso es necesario ahora mismo, es imprescindible, y está mejor que nunca, no es el momento, y está no"
+  },
+  {
+   "start": 6741.14,
+   "end": 6756.2,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "es el mejor momento para responder las cosas que hay que responder en un momento tan difícil, para responder ya a la gente, frente a un gobierno que se ocupa de todo menos de la gente, de sus preocupaciones, de lo que necesitan, de lo que ahora mismo ya se quita o no."
+  },
+  {
+   "start": 6756.2,
+   "end": 6757.98,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Todo eso tiene que acabar."
+  },
+  {
+   "start": 6758.74,
+   "end": 6827.28,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Por lo tanto, necesitamos un mejor candidato y también que sea, como digo, no un mejor momento. Y el mejor candidato necesita una gran candidatura. Y aquí están, la mayoría, por lo que pude ver, supongo que salvo algún, por lo que es esa, que no pudiera estar aquí, están aquí todos y todas. Una vez más, fijemos las candidaturas como hay que hacerlo. Marcelo, hablando entre nos, intentando escoger los mejores, sin discutir, sin dar espectáculos, para eso están nosotros. No tenemos que hacer las cosas bien, darle confianza a la gente, la gente tiene que ver que internamente también nos ordenamos. Y por lo tanto, gracias a los que están, esa estaban, gracias a los que entran por primera vez, gracias a la generosidad inmensa de los que dejan paso, creo que tenemos magníficos cabezas de lista en cada provincia, Tellado en Coruña, Paco en Lugo, Ana en Ourense y aquí efectivamente Julio García Comesaña."
+  },
+  {
+   "start": 6827.28,
+   "end": 6831.3,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Van a representar a muchísima gente."
+  },
+  {
+   "start": 6831.52,
+   "end": 6959.0,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Si me permitís, si me permitís exemplificar en dos, porque también, o caro Zonciño, algo me puede, a todos los que integran las listas del Congreso y del Senado, permítidme que me refiera a dos personas muy especiales. ¿Qué demuestra que en el Partido Popular de Galicia hay cantera? ¿Y qué demuestra que siempre tenemos jóvenes valores que incorporar? Porque la juventud no va con la edad, va con la firmeza, va con las ganas y va con la experiencia que te enriquece. Y por lo tanto, yo tengo que agradecerle a las dos personas de la cantera inmensa que tenemos, cuando Alberto la necesita, que representen a todos los demás. Yo me siento muy orgulloso de todos y de todas, pero ya digo que quiero nombrar especialmente a dos personas que me acompañaron, que me ayudaron y que me dieron todo. Voy a votar de menos que a partir de ahora Miguel Santalices ya no me mande a calar en el Parlamento. Y voy a votar de menos, voy a votar de menos, no tener que mandar calar a Fabiola en el Consejo de Asuntos de Galicia. Pero, pero que sepáis que un magnífico presidente del Parlamento y una magnífica consejera de Política Social dejan los puestos que tienen, no que estaban haciendo muy bien, para unirse al proyecto de Alberto Núñez Feijóo. Y con ellos íbamos todos. Y por lo tanto, lo único que vos decimos es buena suerte, buen trabajo en una sola condición, innegociable. No os esquecáis de nosotros porque nos pediremos muchas cosas cuando estéis en Madrid. Por lo tanto, mucha suerte y a seguir trabajando."
+  },
+  {
+   "start": 6964.0,
+   "end": 6966.08,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Y Alberto, ya"
+  },
+  {
+   "start": 6969.76,
+   "end": 7026.1,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "te digo que vemos TV. Gracias a todo el partido, a toda esta gente tan variada, de tantas orices, de tantas condiciones, todos estamos contigo. Estamos contigo, el Partido Popular de Galicia. Algunos dicen que somos una maquinaria, que se activa cuando llegan las campañas electorales. Se equivocan en una parte. Sí, somos una maquinaria que está siempre activada. Porque, al contrario de lo que ellos piensan cuando nos llaman maquinaria, que piensan que esto va a ir por interés, por manipulación, no por convicción, estamos siempre trabajando todos los días. Y, efectivamente, una maquinaria que no se activa, está activada siempre. Yo os pido que pasemos el acelerador. Alberto Núñez Feijóo, el Partido Popular de España, espera que el Partido Popular de Galicia cese una vez más el motor del cambio que tiene que vivir y os pido a toda esa maquinaria electoral que siempre trabaja por Galicia que lo demos"
+  },
+  {
+   "start": 7026.1,
+   "end": 7031.02,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "todo más que nunca. Y nos vamos a por todas en el mejor momento."
+  },
+  {
+   "start": 7036.32,
+   "end": 7107.6,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Hay tres razones para trabajar más que nunca. Muy sinceras, todo el mundo, o va, todo el mundo hoy es entender. La primera, por supuesto, es la que nos mueve siempre, que es Galicia. Galicia necesita un cambio. Ya hay mucho tiempo que necesita un cambio de gobierno en Madrid, pero ahora necesita más que nunca, ahora ya es inaplazable, absolutamente. Absolutamente. Queremos simplemente algo tan sincero como un gobierno que no discrimine, un gobierno que nos tenga en cuenta, como nos tiene que tener, como no está haciendo. Un gobierno que cumpla con sus compromisos. Estamos fartos de compromisos que no se cumplen, de promesas que se esquecen, de gente que gobierna pensando que la palabra no vale absolutamente nada. Simplemente que nos den la importancia que merecemos, ni más ni menos. No queremos más que a nadie. Yo lo repito muchísimas veces, mucha gente que está aquí, Montero es coitado de decir, pero es que es cierto. Y así tienen que funcionar las cosas. No queremos más que a nadie, pero, desde luego, no vamos a admitir menos. No vamos a admitir, no"
+  },
+  {
+   "start": 7110.03,
+   "end": 7130.93,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "vamos a admitir ningún euro menos, ningún derecho menos, ningún compromiso menos. Y volveremos a decir a veces que haga falta. O de todos, falas entre todos, y o de todos, repártese entre todos. Entre todos, a ver si se entera de una vez, que no se entera en ocho años."
+  },
+  {
+   "start": 7138.0,
+   "end": 7235.9,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "A los que sustentaron este disparate de ocho años, con la repercusión que tuvo en Galicia, A los partidos socialistas, los últimos moicanos que defienden a Sánchez, sabiendo que es indefendible, empezando por el alcalde, digo, efectivamente, pero ahora especialmente a sus cómplices, a sus socios necesarios, esos que se ponen tan bravos aquí y se vuelven tan mansos cuando llegan a Madrid. ¿Qué conseguieron? ¿Qué resultados tuvieron? ¿Qué pueden decir que veo para Galicia gracias a su intervención? Nada. Todo fue una gran estafa. Por lo tanto, toca el 29 de noviembre cobrar esa gran estafa. Os que llevin que sí a Sánchez en Madrid y aquí, y a cambio aquí en Galicia digan todo que no, vanse a enterar también de que eso no sale gratis, de que los galegos no somos parvos. Y últimamente, como se están retratando tanto, vamos a mandar un recado especial. Frente a lo que estamos viendo, frente a lo que vimos otro día en la Coruña, frente a lo que no son capaces de condenar, o contrario, más bien, o disculpa, hemos de decir alto y claro algo en lo que hay que ponerse especialmente serios. Hemos de decir que Galicia en ningún caso ni va a tolerar ni va a soportar la violencia. Que lo tengan clarísimo."
+  },
+  {
+   "start": 7235.9,
+   "end": 7251.56,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Que tengan clarísimo que esos no son Galicia, que todos esos no nos representan, y que si creen que tolerar"
+  },
+  {
+   "start": 7251.56,
+   "end": 7310.42,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "a violencia, ponerse de perfil, intentar buscar disculpas, da algún tipo de ventaja electoral, el día 29 de noviembre es el momento de aclararles las cosas. El comienzo de esta legislatura, la Unión del Pueblo Galego, que es la que manda el bloque, dice muy claro, si es lo único que hay que reconocer, es que eso no lo esconden. Dice el bloque que había que agitar la rueda. Dice el bloque que cuanta más tensión, mejor. Dice también que cuanta más algarada, más rentable iba a salir. Y, señores, señora Bloque, ahí tienen el resultado. Policías feridos en María Pita, una plaza convertida en un campo de batalla, una Galicia amenazada por esa manera de ser. Yo digo desde aquí toda la fuerza y"
+  },
+  {
+   "start": 7310.42,
+   "end": 7324.28,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "todo el aliento a las fuerzas del Código de Seguridad del Estado y todo el rechazo a los que quieren convertir a Galicia en lo que no es y nunca va a ser, que lo tengan clarísimo. Y vamos a decir no a eso."
+  },
+  {
+   "start": 7324.68,
+   "end": 7358.26,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "La segunda razón que merece que lo demos todo de aquí a 29 es nuestro país, España. Sí, orgullosamente galegos, fuertemente galegos, pero también españoles, orgullosamente españoles también. Todos estos que con vergüenza no son capaces de decir nada de eso, sí, sí, y no toleramos que nadie coñe una bandera, ni de solo galego, ni de solo español."
+  },
+  {
+   "start": 7358.92,
+   "end": 7379.66,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Galicia es como es y por eso el PP es el partido que más se parece, orgullosamente galegos y orgullosamente españoles, sin renunciar a una cosa ni a otra. Eso es Galicia y eso es el Partido Popular de Galicia. Que se enteren los salvapatrias de la extrema izquierda y de la extrema derecha."
+  },
+  {
+   "start": 7381.93,
+   "end": 7416.99,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Alberto, tenemos muchísimas cosas que reclamarte cuando seas presidente de gobierno. Todo lo que no se hizo durante todo este tiempo, todo lo que hay que hacer, todo lo que es normal hacer en colaboración y con apoyo. Ahora hablan de vivienda. Efectivamente, cero viviendas feitas en Galicia en estos últimos ocho años. Aquí estamos en Navia. Otro día, antes, estaba el alcalde en Navia, diante de las promociones que está haciendo Asunta de Galicia, diciendo que ha sido él. Hasta ahí es capaz. Pues muy bien, la gente que le interesa es meterse en las casas cuanto antes. El problema, o más bien la"
+  },
+  {
+   "start": 7416.99,
+   "end": 7433.97,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "solución, es que esas casas se están haciendo asuntos de Galicia. Y haremos muchísimas más, porque así se resuelve el problema de la vivienda. Y hay que ayudar a la gente a que pueda vivir, a que pueda llegar al fin del mes, que cada día es más difícil."
+  },
+  {
+   "start": 7433.97,
+   "end": 7471.07,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Y fin. Acabamos de aprobar en el Consejo de Asuntos de Galicia los orzamentos. Volvemos a bajar impuestos. Ese es el ADN del Partido Popular. Frente a un gobierno socialista que aumentó los impuestos más de 100 veces en los últimos 8 años, Asuntos de Galicia, y ya le vamos haciendo esto en el año 2009, desde que entró Alberto Núñez Feijóo, vuelve a bajarlos. Y ese es el camino. Y después podemos discutir si las baisadas podían ser más o menos. Las baisadas son las que puede soportar sostener el resto de servicios públicos, pero la enorme diferencia es que el Partido Socialista sube impuestos y el Partido Popular en Galicia, cuando llegue"
+  },
+  {
+   "start": 7471.07,
+   "end": 7485.77,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Alberto Madrid, seguirá baisando impuestos. ¿Qué hay que hacer para mover la economía, para defender a los autónomos, a los empresarios, que son la solución y nunca son el problema? Y el tema, y la tercera y"
+  },
+  {
+   "start": 7485.77,
+   "end": 7658.03,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "última razón, y con esto remato, es una razón casi personal, pero al final es la que más nos va a mover a todos, porque la política son sentimientos, somos personas con nuestras creencias, con nuestra manera de ser, con nuestros apegos. Algunos creen que no, aunque con la propaganda, con la manipulación, son capaces de torcer los sentimientos de la gente. A la vez, son muy de izquierdas. Pensar que la propaganda masiva cambia mentalidades. Eso no es aquí. En Galicia menos que en ningún sitio. En Galicia queremos y sabemos en quién podemos confiar y quién nos defraudó desde el principio. Y creo que en esto tenemos una ventaja, si me permites, Alberto, incluso sobre el resto de comunidades autónomas, en las que estoy seguro que va a estar también muchísimo apoyo. Galicia, conéctate y reconoce. Galicia sabe qué gestionas, sabe qué escoltas, sabe qué atendes y sabe qué resolves. ¿Cómo no íbamos a verlo? Se empezó a hacer en el año 2009, desde la oposición, como va a ir a hacer ahora. Como hemos sabido, yo primero, que tuve la honra de estar con él en las duras y en las maduras, sé cómo estaba Galicia en el año 2009. Y sé lo que hubo que hacer, sé cómo fuimos. Y la gente entendió todo eso. Y tengo la confianza de traerlo en el año 2012, en el año 2016, en el año 2020, hasta que dé el paso necesario que va a culminar el día 29. Por lo tanto, en plena crisis, Alberto Núñez Feijóo puso orden. En pleno disparate, que era ovipartito, Alberto Núñez Feijóo puso cordura. Y en plena abandono de asistencia a los servicios públicos, lo encalzó todo otra vez. ¿A qué gozó esta situación ahora mismo en España? Y, por lo tanto, es lo que tienen que hacer. Y, como todos los partidos necesitan líderes, aquí tenemos un líder que conocemos, como os decía antes, reconocemos. Y hay otra cosa más que creo que es definitiva, frente a lo que estamos viendo, frente a maneras de ser que nos preocupan hasta el extremo, frente a la falta de principios, frente a las manipulaciones, a las mentiras y a la negación de la realidad, frente a lo que hemos sabido del presidente del gobierno y lo que aún no sabemos, Pero él sí, y por eso tiene esa cara de crispado y de preocupado cada día más, yo digo, sobre todo, y para mí lo principal, Alberto Núñez Feijóo es una"
+  },
+  {
+   "start": 7658.03,
+   "end": 7676.81,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "buena persona y en política las buenas personas con principios son las que hay que poner al frente de las instituciones, sobre todo teniendo lo que tenemos de antes. Y por lo tanto, Alberto, tuvimos que aguardar 8 años, tuvimos que"
+  },
+  {
+   "start": 7676.81,
+   "end": 7741.23,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "aguardar a que esa primera vez, en el año 23, a pesar de ganar las elecciones, no fuera posible. Y después pasó todo lo que pasó, todo lo que se dijo que no se iba a hacer, todo lo que se negó, y llegamos en el primer día sin compromiso, sin palabra, sin dirección. Ahora tenemos una nueva oportunidad. Por lo tanto, lo que yo puedo decir es que vamos a aprovecharla. Vete tranquilo, estarás más veces la semana que viene en campaña, esperamos. Y puedes estar tranquilo que toda esta candidatura que está aquí rodeándote, amparándote, toda esta gente que está detrás de mí, toda esa gente y muchísimas más que hoy no están aquí, pero saben, saben de eso que nos hablamos, no vamos a fallar. Estamos todos convencidos, hemos dado todo y sobre todo hemos conseguido. Por lo tanto, Alberto, amigos, Galicia tiene una prueba que va a preparar todo lo que está por venir. Galicia tiene que ser el motor del cambio que España necesita y por lo tanto, Alberto, cuenta con Galicia,"
+  },
+  {
+   "start": 7741.27,
+   "end": 7757.11,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "cuenta con tu asente, Conta con todos nos. A por todas y a darles la gran alegría desde Galicia para que España cambie y para que Galicia empiece a recuperar el tiempo perdido. Muchísimas gracias y muchísimo ánimo. Ánimo Alberto, ánimo."
+  },
+  {
+   "start": 7969.83,
+   "end": 8571.99,
+   "label": "SPEAKER_04",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "Muchísimas gracias a todos, muy buenos días. Gracias de verdad por estar aquí. Gracias Luisa por recibirnos en esta hermosa ciudad de Vigo. Muchísimas gracias Alfonso, no solo por las tuyas palabras, por tu cariño, sino también por tu compromiso Acabas de comprometer y asumir un objetivo fundamental Acabas de decir, no te preocupes, no tienes que volver mucho por aquí Vamos a quedar los diputados que te hemos comprometido Está bien siempre tener las espaldas cubiertas en la casa Si tú tienes que estar preocupado por lo que pasa en tu casa, evidentemente empiezas a tener un problema original. Si por lo contrario tienes seguro que tu casa es un lugar donde las cosas funcionan, las cosas se hacen de forma ordenada, y además tienen un éxito reconocido por la gente mayoría tras mayoría y así durante cinco consecutivas, Evidente que un se va y más tranquilo para trabajar en otros lugares, en otros territorios. Eso no significa en ningún caso esquecer, al contrario, lo que significa tener en cuenta la importancia de Galicia, no sólo como una comunidad autónoma fundamental para entender España, sino como la comunidad autónoma probablemente mejor ordenada, La comunidad autónoma es la comunidad mejor estructurada donde subió el PIB más que en ninguna otra comunidad autónoma. El PIB por persona en Galicia, que es como se reparten las cosas, no con macro sino con micro, es decir, la riqueza serada en Galicia dividida por el número de habitantes. Galicia está dentro de las dos comunidades autónomas con mayor incremento en los últimos años. Ya sé que no es fácil, pero para esto no está el Partido Popular. Para lo fácil está el Partido Socialista y los socios. Cada vez que hay un problema en España, gana Selección o Partido Popular. Y por eso ahora vamos otra vez a ganar a Selección. Y vamos a ganarlas limpiamente. Cierto que voy a seguir viniendo por aquí porque necesito cargar las pilas, estar con mi familia, con mi nai, con mi familia que vive en Vigo. Queridos amigos, por supuesto que vir a Vigo y ahora poder ir a sentar con los míos, pues tengo un plus, evidentemente, que yo no voy a esquecer. Yo veraneo en la ría de Vigo, y por tanto, él es en esta ría, y mira que hay rías hermosas, en Coruña, y también en Lugo. Pero como santalices y yo somos deurense, veraneamos donde nos peta. Y por tanto, queridos amigos, veraneamos en la ría de Vigo porque fuimos muy bien tratados en Vigo. Por tanto, efectivamente, Alfonso, que me conoce desde hace mucho tiempo, él, en Maiseu no nos conocíamos, al apolo año 2005, quedamos un día en un hotel de Vigo, una cafetería. Nos conocimos, tenía referencias de él, necesitaba a una persona que conocía muy bien la administración local, yo no la conocía, trabajaba toda mi vida en la administración autonómica, en la administración general del Estado. Y en aquel año, en el año 2005, final, probablemente en enero de 2006, el Congreso de Sucesión de Fraga, creo que fue el 15 de enero de 2006, estamos trabajando juntos. Y, por tanto, Vigo es un lugar especial. Como me conoce, quiero decir que, efectivamente, estoy con más ganas que nunca porque, además, el país tiene más ganas que nunca para un cambio político. Amigos y amigas, estoy preparado, efectivamente. Estoy preparado para que todo lo que tenemos por diante. Decía Farage cuando llegó a Galicia con 65 años que llevaba toda vida preparándose para ser presidente de Galicia. Y fue hoy no. Yo tengo que decir que yo llevo toda mi vida preparado o preparándome, mejor dicho, para ser presidente del gobierno de España. Y vamos a conseguir desde Galicia el gobierno de España. Hay gente que dice cada cosa, pero no voy a perder el tiempo. Yo no solo me refiero a esta pre-campaña. No, no, no. Ya sabemos lo que van a hacer. De todo. Ya sabemos que no tienen ningún límite en ningún caso. Cuando se haga celta en Balaidos, hay un regulamento 11-11. Si hay falta en el área, penalti. Si tocas con la mano, falta. Y aquí, con el Partido Socialista, no hay regulamento. Aquí vale todo. Y cuando digo todo, es todo. Nos vamos a engañar cumpliendo el regulamento. Vamos a engañar sabiendo que todos están contra nosotros. Y vamos a engañar a pesar de todas las circunstancias y todas las dificultades. Estoy preparado para lo más importante. Estoy preparado para que haya un cambio político en España. Por eso, lógicamente, no hay de un. Nadie consigue un cambio político en la cuarta economía de Europa. Nadie consigue un cambio político en un país de 50 millones de ciudadanos si no tiene equipo. Por tanto, esto va de un partido entero. Y con vos acabáis efectivamente extraordinarios resultados en Galicia. Y vengo a pediros que volvamos a trabajar juntos, porque trabajando juntos nos vamos a superar. Efectivamente, el PP de Galicia es una máquina, es un motor en marcha, y ahora vamos a ponerlo a tope. Decíamos al presidente provincial, sabemos lo que tenemos que hacer. Sabemos que no se va a pasar por menos, y vuelvo a decirlo, de cuatro diputados. No me lo dice nadie, lo dice él. Yo estoy de acuerdo. Y estando el presidente del Partido Popular de Pontevedra al lado del presidente del Partido Popular de Coruña, ¿de verdad que a Coruña no va a subir un diputado? ¿De verdad que a Coruña no va a empatar? Y siempre hay que pedirle a los de Pontevedra y a Colonia que suban diputados, porque lo que hace Lugo Eurense es increíble. 3-1, 3-1 otra vez, Elena. 3-1, querido amigo. Bueno, para eso, para eso, lo más difícil todavía en cada provincia, en cada ciudad, en cada consello, sabemos perfectamente que no hay un voto por ganado, pero tampoco se puede dar un voto por perdido. Hemos, aún todos, hasta llegar a cientos de miles de Galicia, hasta llegar a millones en España para conquistar realmente el cambio político que necesitamos. Con vuestra fuerza sé que hemos conseguido. ¿Sabéis por qué? Porque somos un gran equipo. Mirad, yo quiero dar las gracias a los que ahora hacen la maleta para servir a Galicia desde Madrid. Miguel Tellado, que no está, está trabajando donde toca, o Paco Conde, que tampoco está, Miguel por Coruña, Paco Conde por Lugo, Profesor Puy por Pontevedra, Rosa Quintana por Lourdes. Y les hicieron la maleta cuando la hicieron yo. Bueno, un año después. Pero los galegos sabemos hacer la maleta. Esa estatua del emigrante con su maleta. No es la emigración de ahora. Ahora Galicia exporta talento, exporta liderazgo, exporta oportunidades, exporta influencia. Y por eso, queridos amigos, yo quiero agradecer a aquellos que se fueron hace un año, a otros veteranos que están aquí, porque se ha elevado en el Congreso los diputados teniendo éxito tras éxito, y quiero también de forma explícita agradeceros que se estrenan. Pero antes de nada quiero agradecer a Alfonso por su comprensión. Sé que mover las pesas supone un esfuerzo, pero también sé que si hay una cantera sólida, una cantera amplia, una cantera de mujeres y hombres que están acostumbrados no a competir, sino a ganar, eso es el Partido Popular de Galicia. Y por eso Alfonso cubrirá rápidamente esos ojos que deja el compromiso de Galicia con España para recoger los compromisos de toda"
+  },
+  {
+   "start": 8571.99,
+   "end": 8573.05,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "España con Galicia."
+  },
+  {
+   "start": 8573.59,
+   "end": 8989.04,
+   "label": "SPEAKER_04",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "Mirar, en la política nacional hace falta muchísima ironía inteligente. Y para eso no hay nada mejor que fichar a Miguel Santalices. Eso es la ironía, la tranquilidad, la pausa, el sentimiento. Es necesaria también la sensibilidad de lo que más necesita y por eso la consejera de Política Social, Fabiola, es necesaria en Madrid. ¡Hace falta mesura! ¡Hace falta mesura! Y tenemos a nuestro número uno de esta provincia, Julio García Comesaña, que fue el mejor gestor de la pandemia COVID de España. ¡Hace falta conocer a los consejos de España! Y por eso, por primera vez, que una alcaldesa de la área metropolitana de Vigo, como Nidia Arevalo, se ponga al fronte del Senado. En definitiva, lo que hace falta es gestión, responsabilidad, ganas de ganar y acreditación de que ganéis. Y eso es lo que inspira a la totalidad de las listas que conforman el Partido Popular de Galicia en el Congreso. Todos saben que la política es servir, no servirse. Saben que administran sus cartas de asiento y que se esfuerzan en ganarlos. Y saben hacer un orzamento, aprobarlo y cumplirlo. Y que le vamos toda la legislatura sin orzamento. Sería inconcebible en un país democrático, en un país occidental, en un país europeo, en un país donde medían o decidían regla de gasto, que un primer ministro se presente en Bruselas sin orzamentos durante toda la legislatura, gastando que llepeta donde llepeta y sin ningún control. Este señor gastó un billón de euros de los españoles y no dio cuentas a nadie. Por eso, eso no se puede permitir. No se puede permitir, amigos. Aquí, Alfonso, se hacen orzamentos y se cumplen. Allí en Moncloa no hay nadie de listo. Pero que a Núñez importa. No importa. Ellos están saqueando asientos sin control. Y aquí en Galicia se amosa, antes, se amosa ahora con rueda, que sabemos lo que hay que hacer. Pero no solo sabemos lo que hay que hacer, es que lo hacemos. Lo que hay que hacer, como su propio nombre indica, es gobernar. Y gobernar significa servir, y servir significa ponerse a disposición de la gente. Eso es lo que hice en toda mi vida y eso es lo que sé hacer. Y por eso, queridos amigos, vayáis a comprobar que yo no cambié. Es cierto que me quedé la retina, pero nada más. Me pusieron la retina y me quitaron las gafas. Pero sigo siendo exactamente lo mismo con cuatro años de experiencia nacional. Amigos, efectivamente Galicia funciona. Y España tiene que funcionar como Galicia. Por eso quiero que mi caro gente sepa cómo tenemos que gobernar. Desde el primer día, sin demoras, porque los españoles se han perdido mucho tiempo y muchos cartos en estos ocho años. Y también tengo claro que habrá un gobierno que sepa lo que es Galicia y que respete a Galicia. Y por eso, lo digo sin distinción de ideología, cualquier galego que ame al país, cualquier galego que ame a Galicia, tenga posibilidades de poner a un expresidente de la Junta de Galicia en el gobierno de España. Y creo que merece apenas esa confianza. Galicia, desde luego, no es lo que vimos esta semana. No. La violencia y la intolerancia de los sectarios no es Galicia. Los del pensamiento único no son Galicia. Los que no son capaces de convencer y entonces quieren imponer no son Galicia. Y quiero desde aquí, como dijo Alfonso, dar todo mi apoyo a las fuerzas y cuerpos de seguridad del Estado, A la policía, a la Guardia Civil y a los periodistas que han agredido. No hay derecho, no hay derecho, querido Miguel. No es un episodio aisladio y casual de España. Buscan agitar una calle que les da la espalda. Hay partidos que lo alientan públicamente. Aquí lo sabéis bien. Y eso es lamentable. Cuando vi en todas las noticias de toda España cómo estaba la plaza de Mariapita en los aledaños de la ciudad de La Coruña es evidente, queridos amigos, que eso no tiene nada que ver con esa ciudad ni con esta comunidad tan lamentable como gobernar España y anunciar un muro para aislar a los que no piensan como tú es lamentable y hacia dónde empuja esto la sociedad qué queremos queremos también los disturbios de Francia ¿De verdad queremos acostumbrarnos a que la violencia forme parte de la política? Yo, desde luego, no. Yo quiero un país en el que se pueda discrepar con palabras, pero no con piedras. Quiero un país en el que una persona mayor puede salir segura a su casa y de su casa y no tenga que evitar ninguna calle o ninguna plaza. Yo quiero un país en el que se pueda vivir tranquilo y convivir. Y quiero un país en el que el entendimiento entre diferentes sea posible. Y eso es imposible cuando siempre se pone la egolatría por encima de tu país. Cuando buscas el enfrentamiento, la división, el muro y la confrontación, ocurre lo que ocurre. Por eso, queridos amigos, yo vengo aquí a garantizar la seguridad. Yo garantizo que la Policía y la Guardia Civil tendrán los medios y el respaldo que necesitan. Os garantizo que nadie verá cortados sus derechos. Y os garantizo que defenderé la libertad de todos. Y para todo esto yo os pido que el 29 de noviembre derribemos el muro de Sánchez. Ese muro que alimenta a los extremistas y que nos destruye como país. Por aquí empezará la reconstrucción nacional que planteamos. Hay que darse la mano otra vez."
+  },
+  {
+   "start": 8989.4,
+   "end": 8992.08,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Hay que discrepar, pero no apedrear."
+  },
+  {
+   "start": 8993.76,
+   "end": 9912.14,
+   "label": "SPEAKER_04",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "No, no, Galicia no es así, la conocemos bien, es nuestra tierra. Galicia es esfuerzo, Galicia es perseverancia, Galicia es generosidad, Galicia es lealtad, es convivencia y merece que se le correspondan como es debido y yo lo haré. Conozco Galicia y sé lo que necesita. Durante muchos años, como presidente de la Junta reclamé un sistema de financiación justa. Y ahora lo reclama Alfonso. Yo, por fin, lo haré. Haremos un sistema de financiación justo. No pedimos más, pero efectivamente, no debéis aceptar menos. Y un sistema de financiación justo es aquel que se reparte lo que es de todos entre todos. La financiación autonómica no es la moneda con la que se compra un gobierno. La financiación autonómica es el médico del centro de salud, es la profesora de nuestros hijos, es el cuidador de una persona dependiente. Por eso la financiación tiene que poner fin a los cálculos partidistas, fin a las promesas incumplidas, fin a las discriminaciones, fin a los privilegios de unos pocos y garantizar por fin una España de ciudadanos libres e iguales. Esa es la financiación justa, no la de la cuota de los políticos, sino el coste de los ciudadanos. He dicho que Galicia funcionaba y yo quiero una España que funcione. Necesitamos colegios que vuelvan a dar resultados, porque este gobierno con la LOLOI lo que ha obtenido son los peores resultados educativos en décadas. Bien, hoy en un periódico, una entrevista os propongo que le leáis que se titula Los profesores de izquierda ya admiten que es necesaria la exigencia. ¡Hombre! Fíjate que han tardado, ¿eh? ¿O es que es lo mismo aprobar que suspender? ¿O es que trabajar no es un esfuerzo? ¿O es que levantarse por la mañana a las seis, a las siete o cuando toque? ¿Por qué es que salir a faenar no supone esforzarse? Queridos amigos, necesitamos recursos de dependencia, sí, sí, y hacer leyes para cumplirlas. Y si el Estado, la Administración del Estado, tiene que poner la parte que le corresponde, que la ponga y que no dé ejemplos a nadie cuando tú no cumples la ley. Amigos, necesitamos que los trenes lleguen a su hora y que las autovías del Estado no den miedo. Y necesitamos una sanidad pública con más médicos, con mejores profesionales y mejores condiciones. Que llevamos un año y medio de huelga, hombre. Que el Sergas no tiene ninguna responsabilidad. Que la huelga se ha montado allí y no aquí. ¡Aquí! Mirad, todo esto lo necesita el país. ¿Sabéis lo que ha ocurrido durante estos ocho años? Que los españoles han pagado cada vez más y han recibido cada vez menos. El esfuerzo de la gente se evapora entre los precios, los impuestos y la corrupción. Y esto tiene que acabar. Tener trabajo tiene que significar poder tener una casa. Y con este gobierno el precio de la vivienda se ha disparado. Hay que aumentar la oferta para que baje el precio, hay que construir, vamos a hacer un millón de viviendas entre todos. Tenéis mi palabra que lo vamos a hacer y lo vamos a conseguir. Y para eso modificaremos la ley del suelo, modificaremos la ley de propiedad horizontal y aprobaremos una ley antiocupación. Vamos a poner más facilidades para que se construya más en España y también en Galicia. Dice la gente que no es posible hacer un millón de viviendas en cuatro años. En el año 5, en el año 6 y en el año 7 hacíamos medio millón de viviendas al año. Cuando no las necesitábamos, hacíamos vivienda. Y ahora que son imprescindibles, el planteamiento ideológico y sectario del gobierno resulta que intenta controlar los precios y no busca oferta para que bajen los precios de forma justa. Y eso significa que mientras no ocurra esto, vamos a respaldar a los inquilinos y vamos a darle seguridad a los propietarios para que pongan más de 400.000 pisos que estaban antes alquilados y ahora no los ponen porque tienen miedo a no cobrar la renta. Y a los ocupas les vamos a decir educadamente, fuera a las 48 horas. No se puede proteger más al ocupa que al que le ocupan la vivienda. No tiene sentido. No es justo. Amigos, todo está más caro. La cesta de la compra, más 44%. El depósito de la gasolina, pagar la luz y la inflación descontrolada. Y a la inflación descontrolada le sumamos más de 100 subidas de impuestos del gobierno en estas legislaturas. Le han subido los impuestos a todo el mundo, a los jóvenes, a las familias, a los pensionistas, a los autónomos, a los que cobran el salario mínimo que les quisieron hacer tributar por él y lo paró el PP. A todos, de una manera u otra, a todos. Y ya basta. Basta, basta de un gobierno que presuma de recaudar mucho mientras a la gente no le queda casi nada. Basta de un gobierno que te cobre dos veces por la inflación, cuando haces la compra y cuando haces la declaración. Basta ya, basta de un gobierno que se gaste todo lo tuyo en impuestos y se gaste lo de tus hijos en deuda. ¡Ya está bien! Amigos, y ya basta. Ya basta de que crujan al currante y que la gente tenga que preguntarse si merece la pena trabajar, tener un negocio o emprender. Vamos a darle la vuelta a todo esto. Vamos a bajar los impuestos. Y vamos a empezar bajando los impuestos a quien más lo merece. Y sabéis quién más lo merece. Las rentas medias, las rentas bajas, las familias, los autónomos y los jóvenes. Y los jóvenes. Quiero comprometerme y me comprometo a bajar el impuesto de la renta porque no se ha ajustado a la inflación desde el año 2022. Quiero comprometerme y comprometo a bajar el IVA de los alimentos básicos y de la luz IVA cero mientras dure la inflación. Primero, vamos a eximir a los autónomos que facturen menos de 85.000 euros y no van a tributar por IVA. Vamos a bajar el IVA y el impuesto de transmisiones de la primera vivienda a los jóvenes. Vamos a hacer que los jóvenes se ahorren el IRPF para pagarse la entrada de su casa. Vamos a extender la medida que hicimos en Galicia hace años y poner impuestos cero a la compra de la primera vivienda en el rural español. Y añado, vamos a mejorar la exención del mínimo familiar para que las familias con hijos paguen menos impuestos, que es lo lógico y lo necesario en este momento. Amigos, llevamos desde el año 2022 pidiendo que se rebajen los impuestos. En 2027 por fin vamos a hacerlo. España va a tener un gobierno eficaz y decente y no pediré ni un euro más de lo que necesita un gobierno eficaz y decente. Desde luego que ahora no lo tenemos. Porque si fuera poco la subida de los precios y si fuera poco la subida de impuestos, La verdad es que los currantes también tienen que pagar la mordida de los corruptos. Todavía estamos esperando que nos expliquen de dónde han salido las joyas del señor Zapatero. Mira que le gusta esto de las joyas a nuestro referente moral del socialismo. Que se lo explique al juez. Y añado, y que pida perdón a todos los españoles por las lecciones que nos quiso dar y por la vergüenza que nos hace pasar. Insisto, se acabó, fin, todo se sabrá, todo, todo tendrá consecuencias, todo, lo voy a decir muy claro Me encargaré de que paguen por todo, sea Sánchez, sea Ábalos, sea Cerdán, sea Leire, quien sea Hay que ayudar a los españoles, a los corruptos no les vamos a indultar, no les vamos a indultar Amigos, efectivamente, todo se va a limpiar y eso comienza el 29 de noviembre barriendo en las urnas. Mirad, son el gobierno del abuso, el gobierno de la corrupción. ¿Sabéis cuántos sumarios tiene abierto el gobierno de España? Diecisiete sumarios. ¿Sabéis de cuántos delitos se les acusa? De 23 delitos. ¿Sabéis cuánto suman los delitos que acabo de referir con el Código Penal abierto? 1.400 años de cárcel. ¿Sabéis cuántos están imputados? 131. ¿Sabéis de los 17 sumarios el único que tiene sentencia firme? El de los 24 años de cárcel a Ábalos y el de los 20 años de coldo de cárcel por el Tribunal Supremo. Quedan 16 sumarios por cerrar, queridos amigos. Eso es lo que les ha motivado a adelantar las elecciones, no otra cosa, sus problemas con la justicia, con la verdad y con el Código Penal. Al final, me conocéis mejor que nadie. Ayer estuve en Valencia, mañana voy a Salamanca. ¿Aquí? No puedo decir una cosa que no haya hecho porque la detectáis. No puedo prometer una cosa si no creo en ella porque nunca lo he hecho. No me puedo comprometer, asumir un compromiso si no estoy convencido de que lo puedo cumplir. Y por eso conocéis perfectamente mis defectos. Pero también conocéis que la perfección está reservada a los ególatras. Yo no lo soy. Ahora bien, nunca he fallado ni fallaré en poner por delante el interés general de mi país por encima de mi partido y por encima del candidato. España está por encima de todo, de nosotros, de nuestro partido y, por supuesto, de los cargos del partido. A mí no me gusta hablar de mí, eso es propio de los ególatras, pero estando en Galicia, quiero deciros para finalizar algunas cosas. Galicia es mi aval. Mirad, dijimos que podríamos cuadrar las cuentas, que podíamos tener una de las deudas públicas más bajas de España, que íbamos a cumplir la regla de gasto, que íbamos a pagar antes que nadie a los proveedores. Dijimos que la hacienda gallega sería una hacienda solvente, que Galicia no quebraría durante la crisis y lo hicimos. Dijimos que podíamos levantar un hospital público en Vigo, en plena crisis económica. Tuvimos que aguantar al Partido Socialista diciendo que era un hospital privado. Las mismas mentiras de siempre. Desmontamos las mentiras y hoy el área metropolitana de Vigo tiene uno de los mejores hospitales de Europa. Dijimos que íbamos a sanear la Ría de Vigo y lo hicimos. Dijimos que queríamos convertir un edificio abandonado del antiguo Hospital Seral y convertirlo en un icono de la justicia y lo hicimos. Dijimos que Galicia sería la primera comunidad autónoma con escuelas infantiles gratuitas, Fabiola lo sabe bien y lo hicimos. Y lo que digo y diré en esta campaña, lo haremos. Termino ya. Queridos compañeros, no sé si la campaña me permitirá volver a vivo. Volveré a otros sitios de Galicia. Haré lo que manden los directores de campaña. Quiero agradecer de una forma muy especial la presencia de Felipe Calderón, el expresidente de México, porque nos honra con su presencia, presidente, y porque México volverá a ser el país amigo de España. Te lo aseguro, me comprometo con ello. Y quiero agradecer también la presencia de los dos alcaldes que ha tenido Vigo, los dos mejores alcaldes que ha tenido Vigo, Manolo Pérez y Corina Porro. Se lo agradezco. Querida Luisa, cada día que te veo se te pone más cara de alcaldesa. Debería ser fantástico, ¿no? Y por Vigo una alcaldesa simpática, amable, afable, que trata bien a la gente, que no insulta a nadie. Y que los que hemos trabajado por Vigo nos diga, oiga, muchas gracias. No gracias por lo que han hecho, sino gracias porque hemos entre todos conseguido muchas cosas para Vigo. Y la Junta de Galicia es la administración que más ha invertido en Vigo. Y la Junta de Galicia seguirá siendo la administración que más invierta en Vigo hasta que yo llegue a la presidencia del Gobierno de España."
+  },
+  {
+   "start": 9916.39,
+   "end": 9916.91,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Bien,"
+  },
+  {
+   "start": 9924.6,
+   "end": 10020.6,
+   "label": "SPEAKER_04",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "España ha perdido la confianza. Hoy la palabra del presidente del Gobierno español no vale nada. Por eso yo he querido firmar un contrato con España. Y lo he firmado de una forma solemne, dicen algunos. Feijóo replica el modelo de Galicia, claro. ¿Cómo no? Hombre, no voy a replicar el modelo de los que pierden, ¿no? O el modelo de los que mienten. O el problema de los que pierden y dicen que ganan. No, no. Yo me comprometí en Galicia con mi gobierno en el año 2009 cuando fui candidato. Y me he comprometido ahora con un contrato con España que trasciende el programa político y que empeña mi palabra en su cumplimiento. España no necesita más cambios de opinión de su presidente. Lo que necesita es un cambio de gobierno. Y también lo haremos. Amigos y amigas, vamos a trabajar por ello. Me voy con la tranquilidad, el sosiego y también la ambición de conseguirlo. Os digo que no es fácil, no es fácil porque todos están contra el Partido Popular Os digo que no es fácil porque a un lado y al otro el objetivo es que el Partido Popular no tenga el resultado que merece España Pero también os digo que seguimos siendo el único partido de Estado que hay en este momento Os digo que somos el partido que sabe gobernar, que lo ha hecho en las crisis y que cuando se fue de gobierno dejó España mejor que cuando entró Y por eso os digo, vamos a trabajar, vamos a darlo todo, vamos a hacer de España el gran país que es. ¡Vamos Galicia! ¡Vamos España! ¡Muchas gracias!"
+  }
+ ]
+}

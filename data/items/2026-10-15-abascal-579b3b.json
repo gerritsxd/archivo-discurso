@@ -1,0 +1,126 @@
+{
+ "id": "2026-10-15-abascal-579b3b",
+ "date": "2026-10-15",
+ "expected_person": "Santiago Abascal",
+ "kind": "interview",
+ "outlet": "Telecinco (El Programa de Ana Rosa) via VOX YouTube",
+ "title": "Entrevista EXCLUSIVA a SANTIAGO ABASCAL camino a Ceuta",
+ "url": "https://www.youtube.com/watch?v=hN0Sdgt4NpA",
+ "language": "es",
+ "duration_s": 203.88,
+ "sha256": "03b0fefb4007e28f425807043cbbcbb930751bc692c3c484a8b70452fa75d5ad",
+ "fetched_at": "2026-10-25T09:17:29+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T17:55:52+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_01": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "unknown",
+   "reason": "best sim 0.56 < 0.65",
+   "talk_s": 155.2
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "unknown",
+   "reason": "best sim 0.32 < 0.65",
+   "talk_s": 44.9
+  }
+ },
+ "turns": [
+  {
+   "start": 0.0,
+   "end": 21.74,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Ya el año pasado rompí ese protocolo porque no quería compartir tribuna por un gobierno corrupto y con un gobierno traidor. Me cuesta mucho soportar un desfile en el Día Nacional teniendo en cuenta la situación que están padeciendo 80.000 españoles en Ceuta. Este martes visitan Los Reyes, la ciudad autónoma. ¿Cree que esa visita llega tarde? Yo creo que esa visita llega tarde, me habría gustado antes, pero más vale tarde que nunca."
+  },
+  {
+   "start": 21.74,
+   "end": 34.74,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Con Santiago Abascal como presidente del gobierno, si de repente Marruecos abre la llave y entran 80.000 personas de forma ilegal a territorio nacional, ¿cómo actuaría Vox y sobre todo cuál sería la relación con Marruecos?"
+  },
+  {
+   "start": 36.2,
+   "end": 100.0,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "La clave es que no entrarían. La frontera estaría militarizada, defendida perfectamente, construiríamos infraestructuras mejores, muros, espigones más grandes en el mar. ¿Cómo vivía usted ese desahucio de Mari Carmen? Bueno, realmente como uno más, a pesar de que los medios de comunicación intentaron que lo viviéramos como si fuera el único desaudio que se ha producido. Son muchos miles los españoles que están siendo desahuciados con unas políticas respecto a la vivienda que son criminales. En España puede entrar todo el mundo, 5 millones de personas en 5 años, y no se construye ni una sola vivienda. Mientras no se hagan ambas cosas, abrir la puerta a lo que se tienen que ir y a la vez favorecer las políticas de construcción de vivienda, el precio de la vivienda no bajará. Santiago Abascal si llega al gobierno se compromete a derogar este decreto que ha aprobado el gobierno de Pedro Sánchez Todos los decretos de Pedro Sánchez son malos porque no solucionan el problema, lo que nos comprometemos es una política distinta Si no lo derogaría Por supuesto hay que derogarlos, pero no sirve, todo vale con eso, derogar los decretos de Sánchez no sirve para solucionar el problema de la vivienda, puede servir para que el problema de la vivienda no sea peor Se ha extendido una versión"
+  },
+  {
+   "start": 100.0,
+   "end": 107.54,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "de que Vox quiere privatizar las pensiones. ¿Cuál es la fórmula de Vox para garantizar estas pensiones?"
+  },
+  {
+   "start": 107.66,
+   "end": 126.76,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Es que yo creo que el sistema es discutible. Este sistema y cualquier otro. No voy a cometer el error de plantear un sistema. Lo que digo es que las pensiones se van a pagar como sea. Y como sea es como sea. Lo que podemos decir con absoluta firmeza es que las pensiones se pagan. Y me atrevo a acusar con toda contundencia que con las políticas económicas de Sánchez al final las pensiones no se pagan."
+  },
+  {
+   "start": 126.76,
+   "end": 139.98,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Una herramienta muy popular que es la calculadora de las nóminas. Es una calculadora que dice que en un sueldo neto ahora mismo de 2.000 euros, con el sistema que propone Vox, esos españoles pueden cobrar hasta 400 euros de tos más."
+  },
+  {
+   "start": 140.42,
+   "end": 153.96,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Yo puedo garantizar eso si los españoles nos dan la mayoría absoluta para hacerlo. Si le dan el poder al Partido Popular, que en su momento ya nos trajo Montoro y que subió los impuestos más que la izquierda, pues eso será difícil. El Supremo les ha dado la razón. ¿Cómo recibe esta noticia?"
+  },
+  {
+   "start": 154.22,
+   "end": 154.84,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Pedro"
+  },
+  {
+   "start": 154.84,
+   "end": 174.1,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Sánchez estaba intentando robar las elecciones por una vía fraudulenta. Solo había un intento de fabricar votantes, de manipular el censo electoral y nos preocupan aún más que las nacionalizaciones el modo en el que esos votos iban a llegar. A través de funcionarios cubanos, de funcionarios venezolanos, les hemos pillado con el carrito de los helados, les hemos pillado con las manos en la masa."
+  },
+  {
+   "start": 174.38,
+   "end": 187.86,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "¿Qué error, por hacer un poco de autocrítica, cometió entonces Vox en 2023 cuando todas las secuestras también eran favorables y qué no se va a cometer ahora? El gran error colectivo fue precisamente la publicación de las encuestas que no eran reales."
+  },
+  {
+   "start": 188.9,
+   "end": 203.46,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Eso llevó a la desmovilización de la parte del electorado que pensaba que estaba hecho y a la movilización de la izquierda. ¿Tiene un borrador de quiénes pueden ser sus ministros en caso de que llegue al gobierno? Yo solo tengo un borrador y es que el día 29 de noviembre Sánchez no tenga ninguna opción."
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "id": "2026-10-19-abascal-0b44d2",
+ "date": "2026-10-19",
+ "expected_person": "Santiago Abascal",
+ "kind": "speech",
+ "outlet": "VOX YouTube",
+ "title": "DECLARACIÓN INSTITUCIONAL",
+ "url": "https://www.youtube.com/watch?v=8qa_suQ2I5Y",
+ "language": "es",
+ "duration_s": 177.71,
+ "sha256": "2554cb4518cac045268dae319601762eb600b73406e14d670e94fc0d90743ef0",
+ "fetched_at": "2026-10-25T09:20:17+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.55,
+  "processed_at": "2026-10-25T14:07:00+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_00": {
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "decision": "match",
+   "reason": "sim 0.81, next 0.38",
+   "talk_s": 137.2
+  }
+ },
+ "turns": [
+  {
+   "start": 0.43,
+   "end": 172.99,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Buenos días. Quiero, en primer lugar, enviar mi solidaridad a los españoles que están sufriendo las consecuencias de estas inundaciones. Creo que muchas de estas desgracias se podrían mitigar y evitar, y sigo defendiendo que hay que abandonar el fanatismo climático y construir más infraestructuras para paliar los efectos de estas gotas frías. Pero hoy, excepcionalmente, también quiero dirigirme a los ciudadanos franceses, que están sufriendo las revueltas violentas. Lo que estamos viendo en París y en otras ciudades, también en ciudades italianas, es un problema europeo, porque estamos viendo en Francia a los aliados de Sánchez incendiando las calles, destruyendo edificios y monumentos emblemáticos, atacando a comercios y a ciudadanos con una extrema violencia. Y por eso también quiero renovar hoy mi apoyo a Marín Le Pen y a Jordán Bardella, que protagonizan una nueva esperanza en estos momentos tan graves para la nación. Insisto en que los culpables de estos sucesos son los aliados de Pedro Sánchez. Es la izquierda islamista. Llevan las mismas banderas que Sánchez. Y Sánchez, en España, pretende abrirle las puertas a esas milicias en nuestras calles. Y ya se las ha abierto en las instituciones. Instituciones en Ceuta, en Melilla y en muchas ciudades de España, especialmente en Cataluña. Los españoles ya hemos sufrido demasiado estos gobiernos que han abierto la puerta a la invasión migratoria y creo honradamente que no es el momento de pedir más sacrificios a los españoles. Hay que sacrificar las políticas que nos han traído hasta aquí y hay que recuperar las instituciones para el pueblo español. La alianza de Sánchez con esa extrema izquierda exige sacrificios a los partidos de la oposición y nosotros mantenemos la voluntad de algún entendimiento que proteja el Senado de los acuerdos que Sánchez ha alcanzado con la extrema izquierda. No podemos olvidar que Sánchez ha dicho que va a seguir gobernando de una manera o de otra y parece que Sánchez ha disfrutado emitiendo esa amenaza. Y estamos viendo cómo en la Puerta del Sol o en la huelga de los sindicatos está sembrando la coacción y la violencia para influir en las próximas elecciones generales. Igual que pretende utilizar el Tribunal Constitucional para poder alterar el censo electoral en España. Este mes y medio que queda hasta el día 29 de noviembre, los españoles deben estar atentos. Porque, insisto, como lo he hecho en otras ocasiones, Sánchez pretende robar estas elecciones. No será la primera vez que manipula un proceso electoral y la única manera de evitarlo en esta ocasión es con una respuesta masiva en las urnas por parte de la inmensa mayoría de los españoles. Muchas gracias."
+  }
+ ]
+}

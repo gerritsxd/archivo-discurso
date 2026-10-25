@@ -267,7 +267,7 @@ def load_items(folder, people):
 
 def page(root, title, body, active="", desc="", body_attrs=""):
     nav = [("index.html", "Inicio", "inicio"), ("juego.html", "Juego", "juego"), ("buscar.html", "Buscar", "buscar"),
-           ("como-funciona.html", "Cómo funciona", "como")]
+           ("analisis.html", "Análisis", "analisis"), ("como-funciona.html", "Cómo funciona", "como")]
     links = "".join(
         f'<a href="{root}{h}"{" aria-current=page" if k == active else ""}>{esc(t)}</a>' for h, t, k in nav)
     full = f"{title} · {SITE_NAME}" if title != SITE_NAME else SITE_NAME
@@ -340,7 +340,7 @@ def build(items_dir, people_path, out, vp_dir):
     GENERATED = datetime.now(timezone.utc).astimezone().strftime("%d/%m/%Y %H:%M")
 
     web = ROOT / "web"
-    assets = {n: (web / n).read_text(encoding="utf-8") for n in ("style.css", "search.js", "juego.js", "home.js")}
+    assets = {n: (web / n).read_text(encoding="utf-8") for n in ("style.css", "search.js", "juego.js", "home.js", "analisis.js")}
     ASSET_V = hashlib.sha1("".join(assets.values()).encode()).hexdigest()[:8]
 
     candidates = sorted((pid for pid, p in people.items() if p["kind"] == "candidate"),
@@ -411,6 +411,7 @@ def build(items_dir, people_path, out, vp_dir):
     write(out / "buscar.html", build_search(ctx))
     write(out / "como-funciona.html", build_how(ctx, web))
     write(out / "juego.html", build_game(ctx))
+    write(out / "analisis.html", build_analysis(ctx))
     write(out / "privacidad.html", page("", "Privacidad y cookies",
                                         (web / "privacidad.html").read_text(encoding="utf-8"), "",
                                         desc="Sin cookies, sin analítica, sin registros de visitas."))
@@ -514,6 +515,39 @@ def build_search(ctx):
 <noscript><p class="empty">La búsqueda necesita JavaScript. Las transcripciones y las páginas de cada candidato funcionan sin él.</p></noscript>
 <script src="assets/search.js?v={ASSET_V}" defer></script>"""
     return page("", "Buscar", body, "buscar")
+
+
+TOPICS_ES = ["vivienda", "economía", "empleo", "impuestos", "pensiones", "sanidad", "educación", "inmigración",
+             "Cataluña", "territorial", "corrupción", "justicia", "igualdad", "feminismo", "medio ambiente",
+             "energía", "Europa", "internacional", "defensa", "seguridad", "campo", "transporte", "cultura",
+             "democracia", "pactos", "campaña", "otros"]
+
+
+def build_analysis(ctx):
+    people = ctx["people"]
+    opts = "".join(f'<option value="{esc(pid)}">{esc(people[pid]["name"])}</option>' for pid in ctx["candidates"])
+    topics = "".join(f'<option value="{esc(t)}">{esc(t)}</option>' for t in TOPICS_ES)
+    tabs = [("promesa", "Promesas"), ("ataque", "Ataques"), ("insulto", "Insultos"), ("dato", "Cifras"),
+            ("postura", "Posturas"), ("contradiccion", "Posibles contradicciones")]
+    tabh = "".join(f'<button type="button" class="tab" data-v="{k}"{" aria-pressed=true" if i == 0 else ""}>{esc(t)}</button>'
+                   for i, (k, t) in enumerate(tabs))
+    body = f"""
+<h1 class="ptitle">Análisis</h1>
+<p class="lede">Promesas, cifras, ataques y posturas de cada candidato, sacados automáticamente de las transcripciones. Cada frase es una cita literal comprobada contra la transcripción y enlaza a la fuente.</p>
+<p class="note">Clasificación automática con un modelo de lenguaje (DeepSeek), sin revisión humana: puede equivocarse al etiquetar. Las «posibles contradicciones» las propone el modelo y las confirma una segunda comprobación independiente; lee siempre las dos citas completas en su fuente antes de sacar conclusiones.</p>
+<div class="tabs" role="group" aria-label="Qué mostrar">{tabh}</div>
+<form id="af" class="filters" role="search" onsubmit="return false">
+  <div class="frow"><label for="c">Candidato</label><select id="c"><option value="">Todos</option>{opts}</select></div>
+  <div class="frow"><label for="t">Tema</label><select id="t"><option value="">Todos</option>{topics}</select></div>
+  <div class="frow q"><label for="q">Contiene</label><input id="q" type="search" autocomplete="off" placeholder="Sánchez, vivienda, 20 %…"></div>
+</form>
+<p id="status" class="status" aria-live="polite">Cargando…</p>
+<ol id="results" class="results"></ol>
+<p><button id="more" class="more" type="button" hidden>Mostrar más</button></p>
+<noscript><p class="empty">Esta página necesita JavaScript.</p></noscript>
+<script src="assets/analisis.js?v={ASSET_V}" defer></script>"""
+    return page("", "Análisis", body, "analisis",
+                desc="Promesas, cifras, ataques, insultos y posibles contradicciones de los candidatos del 29N, con la cita y la fuente.")
 
 
 def id_table(ctx, it):

@@ -1,0 +1,311 @@
+{
+ "id": "2026-10-14-colau-991ada",
+ "date": "2026-10-14",
+ "expected_person": "Ada Colau",
+ "kind": "interview",
+ "outlet": "RAC1 - El món a RAC1",
+ "title": "Ada Colau, candidata de Front Ampli",
+ "url": "https://traffic.omny.fm/d/clips/47dc05c7-7279-4c6f-9b31-ae74013297d9/0e8e2b3f-7bbc-4118-9b70-af0200ebf114/e6e39a7a-004c-4ab0-8feb-b4e30080992a/audio.mp3?dist=RSS",
+ "language": "ca",
+ "duration_s": 818.21,
+ "sha256": "4c77aaa247d9c5229f10d3dafdb011d9ed1a3ae9edeb4bf04d45cb42790015be",
+ "fetched_at": "2026-10-25T09:16:18+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.55,
+  "processed_at": "2026-10-25T12:34:54+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_03": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "too_short",
+   "reason": "only 13s of speech",
+   "talk_s": 12.7
+  },
+  "SPEAKER_01": {
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "decision": "match",
+   "reason": "sim 0.77, next 0.39",
+   "talk_s": 546.8
+  },
+  "SPEAKER_02": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "unknown",
+   "reason": "best sim 0.15 < 0.55",
+   "talk_s": 95.5
+  },
+  "SPEAKER_08": {
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "decision": "too_short",
+   "reason": "only 11s of speech",
+   "talk_s": 11.2
+  },
+  "SPEAKER_07": {
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "decision": "unknown",
+   "reason": "best sim 0.30 < 0.55",
+   "talk_s": 38.9
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "decision": "too_short",
+   "reason": "only 20s of speech",
+   "talk_s": 19.9
+  },
+  "SPEAKER_04": {
+   "person": null,
+   "name": "Hablante sin identificar 6",
+   "decision": "unknown",
+   "reason": "best sim 0.18 < 0.55",
+   "talk_s": 22.1
+  },
+  "SPEAKER_06": {
+   "person": null,
+   "name": "Hablante sin identificar 7",
+   "decision": "too_short",
+   "reason": "only 6s of speech",
+   "talk_s": 6.0
+  },
+  "SPEAKER_05": {
+   "person": null,
+   "name": "Hablante sin identificar 8",
+   "decision": "too_short",
+   "reason": "only 5s of speech",
+   "talk_s": 4.7
+  }
+ },
+ "turns": [
+  {
+   "start": 19.94,
+   "end": 33.06,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Tenim un temps limitat, per tant, anem ja a conversar amb Ada Colau, candidata de Front Ampli. Bon dia, moltes gràcies. Hola, molt bon dia. Senyora Colau, els queden 48 hores per arribar a un acord amb tots els partits d'esquerres. Se'n sortiran?"
+  },
+  {
+   "start": 34.38,
+   "end": 104.28,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Doncs espero que sí, perquè la gent no entendria que no ens en sortíssim. I sé que és difícil, sé que queda poc temps, però estem suficient. I de fet ja ha passat en conteses electorals anteriors que en temps de descompte s'han fet negociacions i s'han arribat a acords. I per tant jo espero que sí, perquè si algun cop és necessari és aquest. O sigui, tots sabem quines són les enquestes, tots sabem que pot guanyar el feixisme en les properes eleccions del 29 de novembre, amb tot el que suposa això, d'amenaça per la vida de moltíssima gent, i tots sabem també, perquè hi duen totes les enquestes, les faci qui les faci, que si sumem no es perden vots d'esquerres i hi haurà més escons i multipliquem els resultats. I per tant, com que això ho sabem, crec que seria imperdonable que tenint en compte que els objectius bàsics els compartint totes les forces d'esquerres, perquè programàticament no hi ha discussió, que volem posar el dret a l'habitatge al centre, lluitar contra l'especulació, defensar els serveis públics, no permetre les barbaritats que volen fer les dretes i les extremes dretes de retallada de drets bàsics com les baixes mèdiques laborals, que ha oït el Partit Popular, que ja ho porten al seu programa, o baixar les pensions."
+  },
+  {
+   "start": 123.8,
+   "end": 138.58,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Podemos se va a integrar en Frente Amplio? No. No? No. Nosotras tenemos un acuerdo con Esquerra Republicana de Cataluña y vamos a trabajar, a hacer equipo con Gabriel y eso está abierto a que se incorpore quien quiera."
+  },
+  {
+   "start": 139.92,
+   "end": 142.68,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Es planteja integrar-se a vostès a Podem?"
+  },
+  {
+   "start": 143.84,
+   "end": 223.58,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "A veure, jo sé que ahir Irene Montero va ser molt contundent en aquesta declaració, però jo l'he sentit a altres entrevistes on elles han dit, en general, tant ella com Ione Belarra, que estaven obertes a fer acords i em quedaré més amb aquesta declaració. Crec que potser ahir se li va escapar una certa vehemència. Jo crec que l'acord que ha fet Podemos a l'esquerra republicana és legítim, òbviament, faltaria més, però és un acord una mica estrany, perquè no és un acord d'una candidatura. És que Podem no es presenta a Catalunya a canvi que Gabriel Rufián faci alguns actes a Irene Montero per l'Estat, però això no és un acord de candidatura. Per tant, no hi ha un projecte comú al qual sumar-se. En canvi, hi ha quatre formacions ara mateix que estan impulsant el Front Ampli, que ja estan parlant amb altres formacions, que en les properes hores coneixerem d'altres formacions de diferents territoris de l'Estat que s'assumen al projecte, i que evidentment volem comptar amb Irene Montero i amb Podemos, i ho hem dit clarament, i per tant volem seure a la taula i parlar de quines són les seves necessitats, perquè hi ha lloc per tothom. i amb això vull insistir. O sigui, fa falta a tothom i, per tant, jo no em cansaré de dir que, efectivament, hem de ser a la taula i arribar a un acord de candidatura."
+  },
+  {
+   "start": 224.06,
+   "end": 225.92,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Quines formacions es sumen al projecte, senyora Colau?"
+  },
+  {
+   "start": 226.96,
+   "end": 239.02,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Això em permetrà que respecti que cada una de les formacions ho anunciï quan hagi fet els seus procediments interns i, per tant, jo aquí sí que no puc fer avançaments, però li puc dir que hi ha converses molt avançades."
+  },
+  {
+   "start": 240.08,
+   "end": 257.46,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Deia vostè, però, que Irene Montero en altres ocasions, més enllà del que va dir ahir, s'havia pronunciat diametralment diferent, però vostè també va dir que encapçalaria el Frente Amplio i s'aconseguia sumar a Podem a la coalició. I de moment, Irene Montero ha triat Rufián. Si no aconsegueix l'acord amb Podem, vostè plegarà?"
+  },
+  {
+   "start": 258.66,
+   "end": 367.96,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "A veure, jo crec que ara ens hem de concentrar totes en ser optimistes i posar-nos al servei del que ens diu la gent. que és que més enllà de com ens diguem, ens diguem Gabriel Rufián, Irene Montero, Ada Colau, qualsevol de nosaltres ens hem de posar tota la nostra energia, tot el nostre talent i les nostres capacitats al servei d'aconseguir una candidatura única que és clarament un clan popular ara mateix. A mi això és el que m'arriba a través de xarxes, al carrer, a tot arreu. Per tant, totes nosaltres ens hem de posar al servei d'aquest objectiu. I avui mateix, ho explicava aquest matí també en una altra entrevista, Jo no tinc cap problema en dir que estic honorada que les actuals formacions impulsores del Front Ampli m'hagin proposat com a candidata a la presidència, perquè entenc que consideren que puc facilitar consensos i que tinc una experiència en temes de dret a l'habitatge, de gestió, i que soc una bona candidata. Però jo he dit, si el Front Ampli creix i suma noves formacions, i no estic parlant només de Podemos, Estic parlant d'altres formacions perquè aquí es tracta que estiguem tothom i siguem molta gent. Si sumen altres formacions i la majoria de les formacions consideren que hi ha alguna altra candidatura a la presidència que reuneixi més consens que la meva persona, jo no tinc cap problema en fer un pas al costat i recolzar la candidatura que reuneixi més consens. Per tant, li dic clarament, el problema no és el meu nom. O sigui, aquí es tracta que tothom trobi el seu espai i de que qui s'impulsi a encapçalar les llistes siguin les persones que reuneixin més consens entre totes les formacions pro-racistes. I per acordar això només hi ha una manera. No es fa a través de declaracions als mitjans de comunicació ni a través de filtracions. Això es fa seient a una taula i posant totes les propostes i veient quines reuneixen més consens i acordant. És la manera en què s'ha fet sempre i és la manera en què també es pot fer ara."
+  },
+  {
+   "start": 368.28,
+   "end": 384.72,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Però vostè posi's al cap d'un votant d'esquerres amb aquest galimaties que tenim, amb aquestes baralles públiques de les últimes hores, no creu que és un pèl de sensisador per aquest votant, just en un moment en què vostès estan apel·lant a mobilitzar aquest vot per contrarrestar l'arribada de la dreta i de l'ultradreta?"
+  },
+  {
+   "start": 385.78,
+   "end": 441.54,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Sí, té raó, té raó que no és gens virtuós el que s'està veient entre formacions d'esquerres crec que algunes més que altres, però en tot cas I ara sí, és decebedor veure que costi tant arribar a un acord i que hi hagi confusió, però encara estem a temps d'arreglar-ho i em vull posar en aquesta posició. Encara estem en temps d'arreglar-ho, de ser a la taula i d'arribar a un acord de candidatura única que és el que ens demana la gent i que, insisteixo, és molt el que ens juguem és el feixisme el que tenim al davant i davant del feixisme les formacions d'esquerres tenim bàsicament un programa comú, que és la defensa dels drets i les llibertats, i per tant i dels serveis públics i de defensar una vida digna de les persones i per tant, tenint en compte això que el problema no és programàtic, seria inacceptable que no féssim el màxim esforç per arribar a un acord I en aquest programa hi ha alguna proposta Hi ha alguna proposta concreta per Catalunya?"
+  },
+  {
+   "start": 442.5,
+   "end": 445.28,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Demanarien al PSOE, per exemple, un referèndum d'independència?"
+  },
+  {
+   "start": 446.72,
+   "end": 465.44,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Jo crec que ara mateix totes les formacions pro-racistes hem defensat sempre el dret a decidir de Catalunya, però ara mateix ningú ha situat això com a prioritat en l'agenda, tampoc les formacions independentistes. Per tant, en tot cas, si es plantegés la proposta ja la discutiríem. Però ara mateix..."
+  },
+  {
+   "start": 465.44,
+   "end": 467.0,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Ningú ha situat que és republicà, n'entens?"
+  },
+  {
+   "start": 467.34,
+   "end": 468.84,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "No li consta a vostè?"
+  },
+  {
+   "start": 468.84,
+   "end": 470.08,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "No, no, no em consta."
+  },
+  {
+   "start": 470.88,
+   "end": 481.54,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Tothom ha escoltat a Gabriel Rafián dir que ens hem de centrar en l'antifeixisme i en el naturalfeixisme el proper 29 de novembre i estic completament d'acord amb les declaracions de Gabriel Rafián."
+  },
+  {
+   "start": 481.88,
+   "end": 491.96,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Senyora Colau, a les 9.39 obro la conversa als tertulians que avui ens acompanyen en Ramon Rovira, Ferran Casa, Xavier Melero, la Janet Sanz i en Tia Enriba per si li volen fer alguna pregunta."
+  },
+  {
+   "start": 492.32,
+   "end": 512.8,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Sí, senyora Colau, bon dia. Respecte del tema del que vostè ha dit, Si hi ha acord amb els temes fonamentals i amb la posició conjunta del front d'esquerres per entendre'ns que seria l'habitatge, lluitar contra l'especulació, els drets bàsics, em sembla que vostè ha esmentat aquests, per tant hauríem de convindre que el desacord és fonamentalment una qüestió de noms."
+  },
+  {
+   "start": 514.54,
+   "end": 569.82,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Bé, hi poden haver diferents qüestions. Hi ha qüestions per a algunes formacions, pot ser més important noms, llistes, no ho sé, o sigui, pot ser diferent en cada una de les formacions, però són coses que no es poden posar per sobre de l'objectiu que tenim ara de candidatura única per aturar el feixisme. i per això dic que tot això ha de ser, es pot resoldre, es pot resoldre amb una taula de negociació. I hi ha lloc per a tothom, perquè necessitem a tothom i poden haver-hi candidatures que siguin molt corals, amb lideratges molt corals, i hi ha espai per a tothom i necessitem a tothom. Necessitem el Gabriel Rufián, necessitem l'Irene Montero, necessitem l'Emilio Delgado, necessitem a tothom per tirar endavant un projecte engrescador d'unitari i d'esquerres. I per tant, com que hi ha lloc per a tothom, jo no concebo que aquest sigui el problema. que per mi no serà, que si hi hagués alguna candidatura que generi més consens que la meva, jo faria un pas al costat sense dubtar-ho."
+  },
+  {
+   "start": 569.9,
+   "end": 574.32,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Alguna altra pregunta ràpida, incorporo també la Natàlia Rodríguez, que la tenim a Tarragona. Ferran."
+  },
+  {
+   "start": 574.54,
+   "end": 614.42,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Sí, aquí, bon dia senyora Colau, aquí el punt més important a nivell de confluència entre partits i el desafiament, i que vostè va assenyalar, era sumar Podem. Podem posava com a condició, demanava unes primàries obertes entre tots els candidats, Sobretot pensant en la llista de Madrid, perquè és Madrid, ja ho hem vist, no vol a Podem en lloc d'estacats. Podem pensa que té a Irene Montero, que és un valor i que té un índex de popularitat i de reconeixement que és alt. Per què no vol vostè, si és el cas, per què no es volen aquestes primàries obertes?"
+  },
+  {
+   "start": 615.74,
+   "end": 687.86,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "No és que no es vulguin unes primàries. Des del primer moment en què Podem ho va plantejar, se'ls va dir que estaven disposats a parlar de primàries. Però això es fa acordant-ho entre totes les formacions polítiques, seient en una taula. El que no s'hi val, i crec que tothom ho entén, és que un partit convoqui unes primàries que ningú sap amb quins cents s'està fent, amb quines garanties... O sigui, que les decideixi convocar i després digui, presenteu-vos. Home, no, si realment vols fer primàries amb altres formacions, i això s'ha fet moltes vegades, per tant, ho sabem fer, t'asseus amb els partits i dius, d'acord, doncs quines primàries fem? Com les organitzem? Amb quines garanties? Amb quins cents? És només per escollir el cap de llista o és per escollir tota la llista? Tot això ho acordes amb les altres formacions. En aquest cas, Podem no va decidir fer això, sinó que va decidir fer les seves primàries. I, per tant, avui, de forma absolutament legítima, faltaria més, podem estar fent les seves primàries. Són les primàries de Podem. Unes primàries que, per cert, no han estat necessàries per fer un acord de l'esquerra republicana. Però, bueno, això és una cosa potser una mica desconcertant, però, en tot cas, és la seva decisió. Si haguéssim volgut fer unes primàries com a mètode, els hi vam oferir des del primer moment. Seiem amb les diferents formacions polítiques i, entre tots, acordem de quina manera."
+  },
+  {
+   "start": 688.26,
+   "end": 691.0,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Una última pregunta que la senyora Colau ens ha deixat. Va, tiam."
+  },
+  {
+   "start": 691.0,
+   "end": 702.64,
+   "label": "SPEAKER_08",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Sí, no, molt ràpid. Han calculat la diferència d'escons que hi hauria entre si van tots junts, inclòs Esquerra Republicana, etcètera, o si van per separat?"
+  },
+  {
+   "start": 703.94,
+   "end": 787.58,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Doncs hi ha diferents enquestes amb això, que oscil·la, però el que diuen totes les enquestes és que multiplica si anem junts. Gràcies. que això generaria, multiplicaria encara més del que ja diuen les enquestes. Perquè jo realment és el que rebu del carrer. O sigui, tothom és molt conscient que les properes eleccions no són unes eleccions qualsevols, que ens hi juguem literalment la vida i el futur, o sigui, que posa en perill la vida de molta gent si guanya el feixisme a l'estat espanyol. Aleshores, és tant el que està en joc que si efectivament fóssim capaços d'articular aquesta candidatura unitària, jo crec que la il·lusió que es multiplicaria faria que hi hagués un resultat molt inesperat i que fins i tot poguéssim, doncs això, guanyar i tenir una presència forta de les esquerres que pogués condicionar un govern progressista que no només resisteixi a la dreta i a l'extrema dreta sinó que permeti avançar en drets i en llibertats."
+  },
+  {
+   "start": 787.68,
+   "end": 797.7,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Ada Colau, candidata de Front Ampli, li agraeixo molt que hagi atès la nostra trucada n'anirem parlant perquè estem pendents d'aquestes 48 hores a veure com acaba tot plegat. Gràcies i bon dia. Gràcies, bon dia."
+  },
+  {
+   "start": 797.7,
+   "end": 800.22,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 8",
+   "text": "Fins demà!"
+  }
+ ]
+}

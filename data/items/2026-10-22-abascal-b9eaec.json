@@ -1,0 +1,272 @@
+{
+ "id": "2026-10-22-abascal-b9eaec",
+ "date": "2026-10-22",
+ "expected_person": "Santiago Abascal",
+ "kind": "rally",
+ "outlet": "VOX YouTube",
+ "title": "🟢 GRAN ACTO PÚBLICO con Santiago Abascal en Segovia",
+ "url": "https://www.youtube.com/watch?v=GTVmmiylHL4",
+ "language": "es",
+ "duration_s": 4850.01,
+ "sha256": "36b35bfb42acc6421284c70e31d7f28e3bb529c1a0fd900066a97a41e6bdf0ec",
+ "fetched_at": "2026-10-25T09:32:39+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.55,
+  "processed_at": "2026-10-25T15:29:08+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_04": {
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "decision": "match",
+   "reason": "sim 0.91, next 0.44",
+   "talk_s": 1750.7
+  },
+  "SPEAKER_02": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "too_short",
+   "reason": "only 10s of speech",
+   "talk_s": 9.5
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "unknown",
+   "reason": "best sim 0.41 < 0.55",
+   "talk_s": 192.6
+  },
+  "SPEAKER_03": {
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "decision": "unknown",
+   "reason": "best sim 0.36 < 0.55",
+   "talk_s": 460.2
+  },
+  "SPEAKER_01": {
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "decision": "unknown",
+   "reason": "best sim 0.39 < 0.55",
+   "talk_s": 267.8
+  },
+  "SPEAKER_07": {
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "decision": "unknown",
+   "reason": "best sim 0.20 < 0.55",
+   "talk_s": 37.6
+  },
+  "SPEAKER_05": {
+   "person": null,
+   "name": "Hablante sin identificar 6",
+   "decision": "unknown",
+   "reason": "best sim 0.16 < 0.55",
+   "talk_s": 23.9
+  },
+  "SPEAKER_06": {
+   "person": null,
+   "name": "Hablante sin identificar 7",
+   "decision": "unknown",
+   "reason": "best sim 0.13 < 0.55",
+   "talk_s": 162.0
+  }
+ },
+ "turns": [
+  {
+   "start": 180.05,
+   "end": 188.41,
+   "label": "SPEAKER_04",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "España sabe que usted es el jefe de Ábalos, usted es el jefe de Coldo, usted es el jefe de Cerdán y usted es el socio o el jefe de Zapatero, pero eso ya nos lo dirán los tribunales."
+  },
+  {
+   "start": 1105.52,
+   "end": 1105.94,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Vosotros,"
+  },
+  {
+   "start": 1105.94,
+   "end": 1107.1,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Santiago Abascal."
+  },
+  {
+   "start": 1128.52,
+   "end": 1199.94,
+   "label": "SPEAKER_06",
+   "person": null,
+   "name": "Hablante sin identificar 7",
+   "text": "Lucharé por mis convicciones, lucharé por lo que creo, no le debo nada a nadie, solo creo en lo que veo Es la tierra de mis padres, el hogar de mis abuelos, la que cojo una sola mi familia Prioridad sigue siendo mía, sigue"
+  },
+  {
+   "start": 1377.57,
+   "end": 1385.58,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "siendo su hogar Muy buenas tardes a todos,"
+  },
+  {
+   "start": 1385.8,
+   "end": 1635.71,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "segovianos, bienvenidos a este acto central de Segovia en el que vamos a conseguir un muy buen resultado en las próximas elecciones generales. ¡Qué ambientazo, qué alegría, cuánta gente buena y qué orgullosa estoy de que estemos todos aquí acompañando a nuestro futuro presidente del Gobierno de España, Santiago Abascal! Han encargado abrir este acto y desde luego que lo hago con muchísima ilusión, con mucho orgullo, porque de verdad que da gusto ver cómo está este salón. Vosotros sois la prueba de cómo el partido ha crecido y se ha consolidado para llegar a ser la única alternativa real que tiene España. Esta alternativa está dirigida por nuestro presidente, Santiago Abascal, el único líder que puede sacar a España de la situación que nos encontramos actualmente. Bienvenido, Santiago. Nuestro presidente no está solo, le acompaña un gran equipo que está trabajando por España en todos los rincones de nuestra nación. Algunos miembros de este equipo están aquí esta tarde acompañándonos, como por ejemplo Carlos Poyán, vicepresidente primero de la Junta de Castilla y León, que está demostrando que Vox no solamente sabe hacer oposición, sino que también sabe gobernar. Así que, Carlos, bienvenido a Segovia. Quiero saludar también a nuestra procuradora en las Cortes de Castilla y León, Susana Suárez, que trabaja con rigor y con valentía para esta provincia, para Segovia. Gracias, Susana. Y por supuesto tengo que saludar a nuestro candidato, a nuestro futuro diputado, que lo vamos a conseguir, Gonzalo, claro que sí, a nuestro diputado Gonzalo Bave, que va a dar la batalla por esta tierra en las próximas elecciones del 29 de noviembre. Pero este gran equipo no acaba aquí. También quiero dar la bienvenida y quiero aprovechar a saludar a nuestros concejales que nos acompañan de diferentes municipios. Me vas a permitir, Santiago, un inciso. Los que somos concejales sabemos que la política municipal es la más cercana al ciudadano y tú fuiste concejal y bien lo sabes, aunque tu situación en aquellos tiempos era bastante complicada. Había que ser muy valiente y tú siempre lo has demostrado. Y me vais a permitir también detenerme para reconocer la labor que han hecho los voluntarios, jóvenes voluntarios que llevan aquí desde primera hora de la tarde y que con David al frente han conseguido organizar lo mejor posible este acto. Y para finalizar también quiero agradecer a mi equipo de campaña, que estoy segura que entre todos además lo vamos a hacer muy bien Y lo daremos, daremos lo mejor cada uno de nosotros para que Santiago Abascal sea presidente del gobierno que España necesita. Y bueno, nos esperan unos días duros, intensos, pero lo vamos a dar todo, ¿verdad Gonzalo? Así que vamos a seguir adelante y ya lo último, lo último de verdad, es dar las gracias a mi familia porque me aguanta con muchísima paciencia Y en especial a mi marido que merece de verdad que le reconozca esta labor. Muchas gracias a todos. Adelante españoles, segovianos, viva España y viva Segovia. Disculpad, a continuación doy la palabra a Carlos Poyan."
+  },
+  {
+   "start": 1635.71,
+   "end": 1802.71,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Buenas tardes, Segovia. Voy a completar los saludos de Ester, saludando también a nuestro consejero de Agricultura, Ganadería, Mundo Rural y Política Ambiental, Joaquín Pino, que nos acompaña también. Y también a nuestro portavoz en las Cortes de Castilla y León, a David Hierro, José Antonio Palomo y María Mateo, que son procuradores en las Cortes de Castilla y León, realizando un gran trabajo también. No sabéis el gusto que supone volver a estar aquí en Segovia. Recuerdo ahora el 20 de febrero cuando estuvimos en campaña electoral aquí, también acompañándonos nuestro presidente. Con vuestro apoyo en esa campaña y con el resultado en las urnas conseguimos entrar en el gobierno de Castilla y León. Una cuestión que era un objetivo muy importante y que gracias a vuestro apoyo, al apoyo de todos Segovia, no solo de la gente que estuvo aquel día en el mítin, sino a todos los que con su voto nos ayudaron a crecer, nos han hecho estar en el Gobierno de la Junta de Castilla y León para mayor sufrimiento de socialistas, sindicalistas y ONGs, cosa que es muy de agradecer. Y sí, vuestro compromiso en aquellas elecciones ha hecho que se esté trabajando muy fuerte en Castilla y León y que también lo vamos a seguir haciendo en el Gobierno de España con nuestro presidente Santiago Abascal después del 29 de noviembre. Un compromiso que desde luego nosotros estamos llevando al pie de la letra por España y por los españoles. Cuestión que hemos denominado prioridad nacional y que no les gusta absolutamente nada a ninguno de nuestros rivales políticos. Tienen que tenerlo claro, y yo lo repito todos los días y mis compañeros en las Cortes de Castilla y León también lo hacen. Con Vox los españoles serán siempre lo primero. Y lo repetimos muchas veces también, los extranjeros que vengan a España ilegalmente, que cometan delitos, sean legales o ilegales, Y que no se adapten a la cultura española y que pretendan vivir de las ayudas que no llegan a los españoles, no tendremos otra opción que darles el billete de vuelta que se merecen para priorizar"
+  },
+  {
+   "start": 1802.71,
+   "end": 1803.47,
+   "label": "SPEAKER_04",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "a los españoles."
+  },
+  {
+   "start": 1809.78,
+   "end": 1992.94,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "En Castilla y León y en los otros sitios en los que ya gobernamos estamos luchando contra la invasión migratoria y plantando cara a todos los niveles, a nivel político, a nivel administrativo y a nivel judicial. Os puedo decir, no sé si lo habréis oído muchas veces ya, que todos los recursos que estamos presentando contra esas llegadas de inmigrantes ilegales menores los estamos ganando, pero con eso no es suficiente. Las ONGs que se solidarizan con esos menores ilegales que llegan a España nos están exigiendo o pretendiendo exigir que seamos solidarios, Yolanda Díaz, Alberto Núñez Feijóo, Santiago Abascal, Irene Montero, Frente Amplio, Junta Electoral Central, Tribunal Constitucional El tribunal de Sánchez llama a solidaridad obligatoria. Y de paso, vierten fuertes acusaciones contra nosotros, contra el trabajo que estamos haciendo y contra defender a los españoles por delante de todas estas personas, porque tener en cuenta y tenerlo claro que siempre que haya un español que no pueda llegar a fin de mes, tendrá que estar siempre por delante en las ayudas sociales, en la vivienda pública, en las ayudas al alquiler, siempre desde el Gobierno de Castilla y León y seguro que desde el Gobierno de España los pondremos por delante. Y quiero aprovechar para lanzar un aviso a esas ONGs, a ese gobierno socialista, que ni un solo euro de los castellanos y leoneses se destinará para financiar la inmigración ilegal. Eso tenerlo absolutamente claro. Y quiero acabar ya para dar paso a nuestro futuro diputado por Segovia, que estoy seguro que lo vamos a conseguir, volveremos a pelear por él y estoy seguro que la labor que va a hacer todo el equipo de Segovia y con Gonzalo a la cabeza y con Esther como responsable del comité de campaña y con todo vuestro apoyo importantísimo, mucha gente joven que veo aquí, muchos mayores que veo aquí, cada uno tenemos que realizar esa labor en nuestro ámbito más cercano, En nuestros compañeros de trabajo, en los institutos, en la facultad, en todos los sitios, es importantísima vuestra labor y seguro que entre todos lo conseguiremos. En Segovia, en Castilla y León y en España habrá, a partir del 29 de noviembre, más remigración, más prioridad nacional y más desregularización, seguramente. Y ahora os dejo con Gonzalo Babé, nuestro futuro diputado nacional por Segovia. Muchas gracias."
+  },
+  {
+   "start": 1992.94,
+   "end": 2531.42,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Buenas tardes a todos, queridos amigos. En primer lugar, quiero dar las gracias a nuestro presidente nacional y futuro presidente de España, Santiago Abascal, a todos vosotros por venir a este acto, a Carlos, a Esther, que me han precedido en el uso de la palabra, a todos los procuradores, a todo el equipo provincial, y la Comisión Provincial que vamos a conseguir entre todos los que estamos aquí y todos los que no han podido venir, pero vamos a conseguir recuperar el escaño que Vox necesita en esta provincia para defender a todos los segovianos. No es fácil encontrar tiempo en un día laborable y la verdad es que estoy encantado de estar aquí con la sala llena, abarrotada y viendo que la confianza y el apoyo que Vox tiene no solo va a ser en Segovia sino va a ser a nivel nacional y vamos a tener y cosechar unos grandes resultados. No hay que confiarse un ápice, no hay que desperdiciar un solo voto porque ya sabemos que nos enfrentamos a una mafia que hace muchas trampas y que es capaz de hacer cualquier cosa para intentar manipular. Permitidme que, lógicamente, agradezca a nuestro presidente Santiago Abascal el liderazgo y la clara visión Y la determinación que tiene, cómo está buscando siempre devolver la tranquilidad a nuestras calles, devolver la tranquilidad a los pueblos de España, a todas las ciudades, para que todos los españoles de bien puedan encontrar el futuro próspero que España merece. España es una gran nación y somos capaces de salir de esta y salir seguro que vamos a recuperar el orgullo patrio que siempre nos ha caracterizado. Esto es una pesadilla que va a acabar el 29 de noviembre y tenemos que trabajar todos para acabar con esa pesadilla. Aquí está la España efectivamente que trabaja y que madruga y que trabaja por sacar España adelante, que paga sus impuestos. Los españoles que necesitan la prioridad, como bien se dice, que al final necesitamos dar apoyo a todos nuestros ciudadanos. Señoras y señores, yo quiero, aparte de dar las gracias, desmentir una cosa. Me ha sentado un poquito regular, pero lo voy a desmentir en tres minutos, que decía, no, un diputado que viene de Madrid, es que no conoce mis raíces segovianas y permitidme que me presente como tal. No solo soy de Abuela Segoviana, de San García, donde tengo familia y donde tengo algún primo que ha sido alcalde en San García, sino que llevo desde el año 68 solo, fijaros, desde que tenía tres años, soy del año 65, veraneando en Navas de Río Frío, en Las Navillas. Por tanto, llevo 57-58 años de veraneo en la zona. He veraneado en Las Navillas, en Navas de Río Frío, en La Granja, Pero es que mis padres se conocieron en Segovia. Mi padre estuvo estudiando en la Academia de Artillería de Segovia y luego mi madre tenía unas tierras que luego pasaron a los agricultores tanto en Chañe como en Gemenuño como en Santa María la Real de Nieva. Por tanto, cuando dicen no, es que viene uno que no es de Segovia, pues les ha salido el tiro por la culata. Lo siento. Como os digo, en mi época de la infancia he pasado la mejor etapa de mi vida aquí en Segovia. La casa familiar la mantiene mi hermana mayor en Navas de Río Frío. Tengo otro hermano que tiene también casa allí y allí hemos estado los nueve hermanos. Yo soy el pequeño de nueve hermanos y ahí nos juntamos muchas veces los sobrinos, los primos, nos juntamos a veces más de 60 o 70, que ya somos casi un pequeño pueblo. Gracias, señor presidente. Son sitios maravillosos. O los propios dulces de Carbonero el Mayor. O sea que todo eso lo he trabajado, lo he comido y lo llevo dentro. Nunca mejor dicho. Aquellos que nos tildan de extremistas, siempre me gusta decirles que sí, que tienen razón, que somos de extrema necesidad. Somos de extrema necesidad para España. España no se puede permitir un segundo más de este gobierno infame. Y necesitamos, por tanto, que Vox tenga un resultado muy claro el día 29 para poder recuperar la España que queremos, la España de paz y de tranquilidad que hemos conocido, que hemos conocido todos de jóvenes, los más jóvenes les tenemos que ofrecer un futuro prometedor y estamos en la obligación de trabajar por ello. Yo desde luego me voy a dejar la vida en conseguir que obtengamos un escaño. Si pueden ser más, mejor, pero un escaño lo vamos a intentar conseguir. ¿Verdad que sí, Esther, Carlos, Santi? Voy a ser breve, pero quiero acabar con mensajes que, lógicamente, desde la convicción, desde los firmes principios que nos distinguen en Vox, pues nos caracterizan. Yo creo que hace falta ver los hechos, yo creo que la gestión que está haciendo Carlos Poyán en la vicepresidencia de la Junta, las tres consejerías que tenemos, la labor de los procuradores que estáis aquí, se está anotando y se ve en los hechos. Y en cambio cuando se contrasta con los hechos de los socialistas, pues también lo vemos, la corrupción, las cocas, las prostitutas y todo el derroche que hacen con nuestros impuestos, con lo que pagamos día a día que cuesta mucho sacrificio conseguir. Gracias, señor presidente. Tenemos la obligación de defender una tierra tan rica como Segovia, pero como toda España en su agricultura y en su ganadería. Voy a trabajar también por defender a los pueblos, a cada uno de los pueblos. Tenemos unos pueblos que a veces se van quedando despoblados y tenemos que trabajar también por fomentar la natalidad, por la familia, por mejorar la vida de las personas para que nuestros pueblos sigan teniendo vida en cada uno de ellos. Yo voy a trabajar también, y es un tema que me encanta porque me apasiona la historia y la cultura, por el patrimonio cultural y el patrimonio histórico que tenemos. Segovia es de las ciudades más ricas de siempre de España en cuanto a patrimonio cultural e histórico. Voy a trabajar también por la defensa del turismo, que es una actividad económica fundamental para nuestro beneficio y para el bienestar de todos nosotros. Y, por supuesto, voy a trabajar con el liderazgo de Santiago Abascal en poder bajar los impuestos, en reducir la administración y los gastos suntuarios que hay. Carlos estaba recordando muy bien nuestro vicepresidente que se acabaron las subvenciones a los chiringuitos, a los sindicatos y a todo ese corpúsculo de gente que vive de los presupuestos. Todo eso tiene que volver a vuestros bolsillos, porque es de los bolsillos vuestros y de los nuestros de donde sale. Nosotros vamos a trabajar en el Congreso por eso. Y no me alargo más. Quiero reiterar de nuevo las gracias a Santiago, a Carlos, a Esther, a todo el equipo, a los procuradores. Quiero desearos lo mejor. Por supuesto voy a estar a vuestra disposición, entregado a tope en la campaña. y todo lo que os pueda ayudar, pues vais a contar conmigo las 24 horas del día y los próximos cuatro años y, como dicen los cursis, más allá. Así que, muchísimas gracias. ¡Viva Vox! ¡Viva Segovia! ¡Y viva España! Y os dejo con nuestro presidente nacional y futuro presidente de España, Santiago Abascal."
+  },
+  {
+   "start": 2531.76,
+   "end": 3339.09,
+   "label": "SPEAKER_04",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Muy buenas tardes. Muchas gracias a todos. Muy buenas tardes. Muchas gracias por vuestro cariño. Muchas gracias. Gracias por vuestra presencia, que vuelve a ser una presencia masiva. Venimos de Conferrada, de La Coruña, de Avilés, de Burgos, hoy estamos aquí en Segovia. Mañana vamos a la España insular a visitar nuestras islas, Baleares, y estaremos ahí también con muchos compatriotas. Y yo he de daros la buena noticia, que vosotros comprobáis por las imágenes, de que todos los actos están llenos, de que hay una gran movilización. Y además, ¿a cuántos os han dado el bocadillo, por cierto? ¿A cuántos han venido en autobuses del partido? Esto no lo pueden decir todos. Yo me siento muy orgulloso de que estéis aquí por vuestro propio pie, convencidos de vuestras ideas y que vengáis a respaldar. Y he de deciros que es importante porque nos veis en las tribunas hablar muy alto, con mucha contundencia y probablemente sobrevaloráis nuestra fortaleza. Nuestra fortaleza en gran medida tiene que ver con vuestro respaldo, con el apoyo que desde hace mucho tiempo nos venís dando, campaña electoral tras campaña electoral, desde hace 10 años, haciendo que el proyecto de Vox se consolide en toda España. De todos los nuevos proyectos que surgieron hace unos años, es el único que se ha consolidado, es el único que ha logrado convertirse verdaderamente en una alternativa sostenida en España y aún lo será mucho más en el futuro. Yo entro a... me meto en faena ya. Lo primero, Gonzalo, no te preocupes mucho por lo que digan, ni por tus vínculos con Segovia, que has justificado sobradamente. De hecho, yo soy un vasco que encabeza la candidatura de Madrid y no puedo justificar los vínculos con Madrid. Bueno, sí, vivo en Madrid en estos momentos. Bueno, ahora que lo digo, mi abuelo nació en Lavapiés, pero bueno, francamente, creo que no... yo entiendo tu ánimo para defenderte, Gracias, señor presidente. Y no andamos con los egoísmos regionales, con los enfrentamientos entre provincias. Así que no hace falta ningún tipo de justificación. Nosotros tenemos un programa muy claro y muy contundente desde hace mucho tiempo, un programa de sentido común que están intentando acallar. ¿Cómo lo están haciendo? Pues lo hemos visto durante estas últimas semanas con el asunto de la vivienda. Les ha salido mal. Les ha salido mal porque no han conseguido movilizar. ¿Y por qué? Pues por una razón muy sencilla. Es que desde que Sánchez gobierna, en España el precio de la vivienda ha subido un 74% y el precio del alquiler un 40%. Y estos mismos tipos, con sus sindicatos del crimen que van a convocar una huelga por la vivienda para acusar a la oposición de lo que ha hecho mal el gobierno, Son los grandes responsables de la crisis de vivienda en España, grabada, entre otras cosas, por haber metido a 5 millones de personas en 5 años en nuestro país y no haber construido una puñetera casa. Esa es la realidad. Esta cortina de humo les ha salido mal. Es la que han utilizado para convocar elecciones a prisa y corriendo, y no lo decimos como reproche, venimos reclamándolas desde hace mucho tiempo, Gracias a todos por su participación. ¿Por qué dice esto? Bueno, por experiencia. Sabíamos que algo iban a intentar. Sabemos que están dispuestos a todo. Y ayer en La Coruña se practicó una violencia insoportable contra el Cuerpo Nacional de Policía. Se intentó practicar contra nosotros, pero los servidores públicos de la policía nos defendieron. ¿Pero por qué ocurrió? Porque el delegado del Gobierno de Sánchez, porque el ministro interior de Sánchez, ¿Por qué Sánchez? Porque Sánchez permitieron una contramanifestación de gente encapuchada a escasos metros de donde nosotros queríamos presentar nuestro programa político, cosa que no pudimos hacer con comodidad. ¿Por qué hacen eso? Pues lo hacen para acallarnos, para que no se hable por un lado de su corrupción, de sus miserias y de sus mierdas, y también para que no se hable de nuestro programa. Para que la noticia siempre después de un evento de Vox sea la violencia y la bronca. Y aunque la violencia y la bronca no la protagonizamos nosotros, sino que somos sus víctimas, pues consiguen que haya noticias negativas en torno a Vox. Entonces, las noticias de estos días no han sido sobre los mensajes de prioridad nacional, de remigración, de desregulación, de bajada fiscal, de defensa de los intereses nacionales. Han sido sobre la violencia. ¿Por qué? Porque es una estrategia. En primer lugar, para atemorizarnos. Lo tienen chungo, ¿eh? Lo tienen chungo. Van a tener que ensayar algo un poquito más gordo, ¿eh? Y no voy a darles ideas. Pero con lo que están haciendo, insuficiente, ¿eh? Han suspendido. Pero sobre todo quieren que no se hable de las cosas que preocupan a la gente. Y es importante que lo sepamos para combatirlo. Otra cortina de humo ha sido la visita de Javier Milei. Andan lloriqueando todos y escandalizados porque Javier Milei le ha llamado ladrón a Sánchez y dictador. Pues no me parece un patinazo ni que ande tan lejos de la realidad. Francamente, no. A Sánchez no le gusta mucho la libertad. Le da órdenes a la presidenta del Congreso de borrar nuestras palabras en el diario de sesiones cuando no le gustan. Yo veo que cuando le incomodo desde su asiento le empieza a hacer gestos a la señora Armengol y la señora Armengol, señora Abascal, mantenga el respeto a las instituciones, el decoro de la cámara. Un día no me dejó ni siquiera llamarle majestad porque yo me dirigía a Sánchez como majestad y me llamó al orden y me dijo, señora Abascal, porque Sánchez le hacía gestos, el título de majestad está reservado al jefe del Estado. Ya lo sé, pero a mí usted no me va a prohibir la ironía en este Congreso. Y seguí llamándole majestad. Y entonces dijo, bueno, pues lo borraremos del diario de sesiones. Cuando él insulta a Vox, con todo tipo de insultos, el propio presidente del gobierno, nadie dice nada. Entonces aquí ha venido Javier Milei, ha dicho lo que le ha parecido. Tampoco parece grave después de que Oscar Puente, el carnicero de Adam Muth, le haya llamado drogadicto al presidente de Argentina. Igual incluso ha sido suave, pero otra cortina de humo con la que quieren evitar que se hable de lo que está pasando en España. Grave de verdad es lo que ha dicho hoy la alcaldesa de La Coruña, la socialista, que ha dicho que Vox, que lo que ha pasado en La Coruña es porque Vox va a provocar a La Coruña. Exactamente, señora, como se llame, del Partido Socialista que está en la alcaldía de La Coruña, ¿en qué consiste la provocación de Vox en La Coruña? ¿No tenemos derecho a ir a Coruña? ¿No tenemos derecho a ir a Galicia? ¿No tenemos derecho a que los gallegos que nos votan acudan a escucharnos? ¿Es nuestra presencia simplemente la provocación? ¿Es que hay banderas españolas? ¿Le molestan a la señora alcaldesa de La Coruña las banderas españolas en nuestros actos? ¿O es directamente que está justificando la violencia que es promovida por el Ministerio del Interior, por la delegación del Gobierno y por el propio Sánchez contra Vox? Porque lo que hay en las calles son las milicias de Pedro Sánchez en la Puerta del Sol, en La Coruña e incluso en la Playa del Trampolín, en Ceuta, para atemorizar a los españoles y para sustituir a nuestro propio pueblo. Pero no solo la alcaldesa de La Coruña, también ha salido un ministro que... Bueno, iba a calificarlo, lo voy a editar. Pues ha salido a justificarlo, a decir lo mismo que la alcaldesa, un ministro de Sánchez. Ni una sola condena a la violencia contra Vox y contra los policías heridos tanto en La Coruña como en Avilés ayer. Ni una sola condena por parte del Gobierno. Lo de que condenen una agresión a Vox es difícil, pero no condenan ni siquiera las agresiones a la policía. Yo creo que esto demuestra con quién está el Gobierno de España. No está con los españoles, no está con la policía, no está con la Guardia Civil, no está con los servidores públicos, está con todos los enemigos de España. Se han colado con los invasores en Ceuta y que han estado ocupando las calles de Ceuta mientras la gente de esa ciudad tenía que estar en sus casas viendo cómo los comercios eran saqueados. Aplausos ¿Cómo vamos a condenar las palabras de mi ley? Pues así difícilmente acabamos con este gobierno. Porque este gobierno no es simplemente un gobierno democrático, legítimo. Es un gobierno que ha llegado al poder, y esto es lo que quieren ocultar, mintiendo a los españoles sobre sus pactos. Mentir a los españoles es estafar a los españoles. Decir a los españoles que no vas a pactar con fulano, mengano y zutano y llegar al poder y al día siguiente pactar con todos ellos Es una estafa que no debería ni siquiera estar permitida legalmente. Es un gobierno que ha traicionado a los españoles. La última traición es Ceuta. Hemos visto incluso las imágenes de cómo se abría la frontera. Ya veremos de dónde han llegado esas órdenes. Hemos visto al presidente del gobierno en la tribuna del Parlamento justificar que no se hubiese impedido la entrada de 100.000 invasores en una ciudad de 80.000 personas. Hemos visto al presidente del gobierno callado como muerto frente a Marruecos, mientras Marruecos, con Ceuta invadida, estaba defendiendo que Ceuta y Melilla eran parte de Marruecos, aprovechando la invasión. Eso sí, a Marruecos ningún reproche diplomático. No han llamado al embajador, ni una palabra más alta que otra del gobierno, pero al gobierno de Italia sí. El gobierno de Italia le ha llamado la atención y con Argentina rompieron relaciones diplomáticas porque el presidente de Argentina dijo una cosa de la mujer de Sánchez que está siendo juzgada en los tribunales, por cierto, tampoco tan alejada de la realidad por lo que parece. O sea que se utiliza la diplomacia española para defender a la familia del presidente, pero no se utiliza la diplomacia española para defender los intereses de España, la integridad territorial de España y la tranquilidad de la gente que vive en Ceuta. Por qué la violencia, por qué de repente el espantajo de la vivienda, que es un gravísimo problema causado o acrecentado por este gobierno, por qué la polémica en torno a unas palabras normales del señor Milei. ¿Por qué? Porque quieren que no hablemos de la mafia del Peugeot. De la mafia del Peugeot que asaltó el Partido Socialista robando votos e introduciendo votos falsos en las urnas. Decían en las escuchas estas que hay en las grabaciones, han metido los votos de un rumano, de unos bolivianos, de un marroquí, parece un chiste de esos, uno de cada. Nada. Pero bueno, eso es lo irrelevante. Lo verdaderamente grave es que Sánchez robó las elecciones a los militantes del Partido Socialista. ¿Y por qué va a tratar mejor al resto de los españoles? ¿Por qué? ¿Por qué tenemos que confiar en que estas elecciones vayan a ser limpias? No tenemos motivos, entre otras cosas porque acabamos de ver, gracias a la denuncia de Vox que llegó al Tribunal Supremo y a la decisión del Tribunal Supremo que querían meternos medio millón o más de votos de gente que no tenía que tener derecho a votar en España. De manera ilegal. Hicieron una ley para decir que los exilados posteriores a la guerra y durante el régimen de Franco, que los nietos tenían que votar, que están dando la nacionalidad a gente cuyos familiares se habían ido en 1800 y pico. No los nietos, no."
+  },
+  {
+   "start": 3339.11,
+   "end": 3344.07,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Los tataranietos y los trastataranietos."
+  },
+  {
+   "start": 3345.25,
+   "end": 3899.29,
+   "label": "SPEAKER_04",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Esa es la realidad. Querían robarnos las elecciones y les hemos pillado con el carrito de los helados y les hemos llevado ante el Tribunal Supremo, hemos ganado, han recurrido al Tribunal Constitucional por cierto, utilizando al defensor del pueblo como el defensor del gobierno, al señor Gabilondo pariente del otro Gabilondo que hablaba con Zapatero de que necesitaban tensión en las elecciones ¿Os acordáis, no? Pues de esos, de esa casta, y le han llevado ante el Tribunal Constitucional ¿Y cómo sería la pretensión de Sánchez que ni siquiera Cándido Conde Pumpido se ha atrevido a darles la razón? ¿De qué nivel sería la trampa? ¿Cuáles serán las maneras de Pedro Sánchez que hasta la mafia esa de los chorros, no sé cómo se llama, ¿cómo, cómo? Rochos, lo he dicho al revés, que hasta la mafia esa les dijo, no, es que nosotros no hacemos esas cosas, Cosas que les pidieron eliminar a la juez y seguir a sus hijos hasta el colegio. Que una mafia de narcos te diga que nosotros no nos dedicamos a matar gente. Eso es lo que hoy tenemos en el gobierno. Esas maneras, esa corrupción, esa mentira, esa traición. Y todo lo que está pasando en estos primeros días de pre-campaña electoral obedece al intento de ocultar eso y al intento de ocultar la alternativa que nosotros estamos presentando. Yo quiero deciros que, aunque estoy muy seguro de lo que tenemos que hacer y estoy ocupado en levantar todas las banderas que os representan y por las que nos respaldáis, estoy muy preocupado por lo que puede pasar en los próximos días. Gracias. Yo creo firmemente que este gobierno es capaz de cualquier cosa. Y cuando digo cualquier cosa podéis imaginaros lo peor. Creo que ni siquiera imaginando lo peor vais a ser capaces de meteros en la cabeza de un tipo como Sánchez, que no tiene absolutamente ningún límite moral y ningún escrúpulo. Y ante eso, ¿qué tenemos que hacer? Pues yo os pido que hagáis lo que dije el día que convocaron las elecciones, no caer en las provocaciones, seguir extendiendo nuestro mensaje, seguir explicando a la gente qué es lo que este gobierno quiere tapar y ofreciendo a los españoles una alternativa de sentido común. Con la cual no nos dirigimos a la derecha, no nos dirigimos a los que fueron votantes de Vox, a los que fueron votantes del PP, nos dirigimos a todos, a los que votaron a Vox, al PP, al PSOE, a Podemos. Nosotros no tenemos ningún reproche que hacer a ningún español votase lo que votase en el pasado. Lo que tenemos que hacer es ofrecer a todos ellos y por supuesto a la gente que hace mucho que se abstiene porque no se siente representada por este sistema político y a los que tenemos que respetar en su indignación porque tienen una gigantesca parte de razón y a todos ellos nos dirigimos para decirles que se puede hacer una política distinta. Yo comprendo el hartazgo, comprendo la decepción de todas esas personas que dicen, mira, son todos iguales. Bueno, creo que no es verdad, francamente, y estamos aquí para demostrar lo contrario, pero comprendo a la gente que tiene ese sentimiento y yo a ellos también les quiero pedir que nos den una oportunidad para cambiar las cosas Y para levantar banderas que no son ideológicas, que son banderas del sentido común, que son principios que a todos nos han enseñado en nuestras casas, sean de unas ideas o de otras, pero que son comunes a la sociedad española y que son los que hoy están en riesgo. Y por eso nosotros, porque nos preocupamos por las cosas de todos los españoles, también los de otras provincias y no estamos con la cabeza metida en nuestro pueblo o en nuestra región, y porque sabemos que este Gobierno se preocupa exclusivamente por su afán de poder, tenemos la obligación de hacer un esfuerzo porque en mitad del ruido y en mitad de la violencia se oiga nuestro mensaje. Un mensaje de prioridad nacional, un mensaje de rebaja fiscal y de desregulación y un mensaje de reemigración para que España vuelva a ser para los españoles y para los que han venido aquí a trabajar. Con el concepto prioridad nacional se lió parda porque cuando lo dijimos por primera vez tuvimos que aguantar el chorreo monumental de los medios de comunicación y del resto de los partidos políticos Porque prácticamente consideraban que era algo segregacionista, supremacista o algún tipo de barbaridad. Han empezado a callarse. Han empezado a callarse porque el concepto de prioridad nacional obedece al sentido común y lo apoyan los votantes del PP, por supuesto los de Vox, pero también la mayor parte de los votantes del Partido Socialista. ¿Por qué? Porque todo el mundo entiende que los españoles tienen que tener prioridad en España. Todo el mundo entiende que en Francia la prioridad será para los franceses y en Marruecos para los marroquíes. Pero nadie entiende que los españoles sean los últimos en las ayudas sociales, en las ayudas al alquiler, en las ayudas a la vivienda o en las plazas de guardería. Cuando decimos esto no hacemos ningún reproche a los que han sido beneficiados y han pasado por encima de los españoles en el acceso a ese tipo de ayudas sociales. Bueno, pues ellos son beneficiados por un sistema que es injusto y que discrimina a los españoles. Pero los culpables no son los inmigrantes. Los culpables son los políticos traidores que han puesto los intereses de los españoles en el último lugar. Porque ¿quién está dispuesto a ocuparse primero de los problemas del hijo del vecino que de los problemas de su hijo? Pues hombre, alguno que no está bien. Porque lo normal, lo razonable, lo que tiene sentido común es que primero te ocupas de las cosas de tu familia, Y si puedes ayudas a los vecinos. Pero ayudar al vecino y hacer que tus hijos estén pasando penurias, pues es una forma de irresponsabilidad gigantesca. Y es exactamente la forma de irresponsabilidad que practica el gobierno de España y las instituciones en España desde hace mucho tiempo. Por lo tanto, este es un mensaje de sentido común que vamos a seguir defendiendo y es un mensaje que además se va a imponer. Una parte de los que nos lo criticaban han tenido que aceptarlo en los gobiernos de Castilla y León, de Extremadura, de Andalucía y de Aragón. Y yo os aseguro que este va a ser el norte en el próximo gobierno de España si los españoles nos dan una mayoría para el cambio. No tengáis ninguna duda. Pero la prioridad nacional es mucho más que un concepto para decir que los españoles no pueden estar discriminados. Es también un concepto que nos indica que los intereses de España tienen que estar en primer lugar. por encima de cualquier tipo de interés exterior, por encima de cualquier tipo de interés partidista y por lo tanto ahora la prioridad nacional es algo de lo que ya no quieren que se hable porque con la visita del jefe del Estado enseguida limpiaron la playa del trampolín. Yo estuve allí el día anterior y les vi incluso pintando las líneas de las carreteras, pintando los pasos de cebra el día anterior a la visita del Rey. Oye, me alegro de que esto sea decente para la visita del jefe del Estado Pero se hizo únicamente por un motivo propagandístico. Limpiaron de gente la playa del trampolín y lo que comprobamos los que visitamos Ceuta el día anterior era que había miles de personas vagando por las calles. Todos, allí le llaman los lugareños la invasión de las chanclas, porque eran todos con chanclas, y todos procedentes de la invasión que se produjo durante este verano. A los ceutíes no los veíamos por las calles. Están en sus casas, están incómodos, no tienen la libertad que tenían. Están preocupados cuando abren sus negocios. Esta es la realidad de 80.000 de nuestros compatriotas ahora mismo. Y yo quiero deciros también que nuestra prioridad al día siguiente del 29 de noviembre, si los españoles nos dan su confianza, es recuperar Ceuta al precio que sea y con todas las consecuencias. Gracias. Para que nunca más vuelva a ocurrir lo que ha ocurrido y para que nadie se atreva a reclamar nuestro territorio nacional. Pero para cumplir con esa prioridad tenemos que cumplir antes con otra prioridad nacional, que nos tiene que hacer aparcar también probablemente parte de nuestros objetivos, parte de nuestro programa, porque tendremos que buscar aliados para ello. Y la prioridad nacional es echar a la mafia que gobierna en España desde hace 8 años. A la mafia traidora, a la mafia corrupta y a la mafia mentirosa. Esto es más que lo que ha dicho Milei, ¿no? Pues eso, a la mafia que hoy está en el poder en España. Esa es la prioridad nacional, cueste lo que cueste, pase lo que pase y por encima de cualquier tipo de interés que pueda tener Vox. Cuando los españoles nos den su confianza, si lo logramos y hay una gran movilización y eso nos sirve para conjurar las trampas que nos vamos a encontrar en el camino, habrá prioridades también en lo que tiene que ver con la rebaja fiscal y con la desregulación. No se puede seguir soportando un sistema que expole a los ciudadanos, que expole a los trabajadores, a los autónomos, a las pymes, a las empresas, a los trabajadores. A los trabajadores sí, porque un mileurista es realmente un dosmileurista atracado por el Estado. Una persona que recibe mil euros de sueldo o hará algo más, en realidad cuesta al empresario el doble."
+  },
+  {
+   "start": 3899.35,
+   "end": 3903.37,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Todo lo demás son impuestos. Esto es absolutamente insoportable."
+  },
+  {
+   "start": 3904.09,
+   "end": 4328.38,
+   "label": "SPEAKER_04",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "La presión fiscal que soportan los españoles es una injusticia profunda. La presión al que crea empleo, la presión al que trabaja, la presión al que hereda, la presión al que es... a todo el mundo, a todo el mundo. Y esto es lo primero que tenemos que combatir para devolver a los españoles el fruto de su esfuerzo, porque no puede ser que los españoles paguemos más que nunca y recibamos menos que nunca. Esa es la realidad. Porque lo que hoy pasa es que la sanidad es peor que antes, el acceso a la vivienda es imposible, la nevera se llena con más dificultad, Las carreteras están hechas una porquería y en los trenes se cometen crímenes porque se gasta el dinero de arreglar las vías en prostitución. Esa es la realidad. Esa es la realidad cruda e insoportable. Es la realidad que habría hecho dimitir a cualquier ministro o cualquier presidente del gobierno con un mínimo de decencia y es la realidad que tenemos que soportar. Algunos dicen, va, si vais a bajar los impuestos, entonces ¿cómo se pagan los servicios públicos? Es que hay que ahorrar en mucha porquería que se está gastando, en mucho gasto ideológico, en muchos privilegios. El otro día decía el señor Feijóo, yo creo que equivocadamente, que va a haber que hacer muchos sacrificios después, diciendo a la sociedad española que hay que hacer sacrificios. Mira, yo creo que la sociedad española ya ha sido suficientemente sacrificada durante estos últimos ocho años. Aquí el sacrificio ahora para los sindicatos, para los partidos, para las patronales, para los subvencionados, Gracias a todos para las asociaciones que viven del presupuesto público y de la gente que trabaja en el campo, que trabaja en la industria, que trabaja en el comercio. El sacrificio para ellos. ¿Qué es lo que hay que hacer? Pues recortar todo el gasto político absolutamente superfluo e inservible. Y por supuesto recortar un gasto que no es que sea superfluo o que no sirva para nada, es que es dañino, es que es contraproducente para la prosperidad. Gracias, señor presidente. El ganadero está empleado en el papeleo. Antes no. Antes uno podía dedicarse al trabajo, se podía dedicar a producir. Hoy una gran parte es el papeleo o un gasto que tienen que llevar a las gestorías. Y una gran parte de esa hiperburocracia y de esa sobreregulación tiene que ver con normativas totalmente absurdas que no tienen nada que ver con la producción ni con nuestra prosperidad. Al contrario, que son dañinas. Y por eso nosotros vamos a detectar, y ya hemos abierto para que los sectores afectados nos avisen el buzón de regulación, vamos a detectar absolutamente todas las normativas con las que hay que terminar. Normativas de fanatismo climático, de fanatismo verde, de fanatismo de la Agenda 2030, de fanatismo de género y de todo tipo de fanatismos que no sirven para nada más que para hacer ideología cuando el Estado lo que tiene que hacer es dar libertad y permitir prosperidad. Y tiene que permitir que España sea competitiva, porque todas esas normas exageradas, ideológicas y dañinas no son respetadas, ni son tenidas en cuenta por los países con los que competimos. Con lo cual, esa sobreregulación es un ataque a la competitividad de España. Rebaja fiscal y desregulación, esas van a ser nuestras prioridades. Gracias, señor presidente. de la Guardia Civil y violando a las mujeres y a cometer delitos, sí, todos los reproches y ahora hablaré de ellos. Pero no es posible que vengan 5 millones de personas en 5 años, los hospitales son los mismos, se dice que la sanidad es universal para todo el mundo, nadie quiere que una persona con riesgo vital no sea atendida, eso no lo ha sostenido nunca nadie, a pesar de que los miserables del gobierno dicen eso de Vox, pero desde luego la atención sanitaria completa no se le puede dar a todo el mundo, no puede ser universal, La atención sanitaria que los españoles humildes pagan con sus impuestos no puede ser para atender a todo el mundo y para atender a la gente de toda África. No es posible. No puede ser que entren 5 millones de personas y se hayan construido unos cuantos miles de viviendas. Porque lo que ocurre es lo que ha pasado, que el alquiler y la venta de viviendas se encarecen brutalmente. ¿Por qué? Pues entre otras cosas, porque han metido 5 millones de personas en el mercado de la vivienda y no han construido ni una puñetera vivienda. Y eso es una política de vivienda absolutamente criminal. Lo único que ha hecho este gobierno en materia de vivienda ha sido la ley de memoria histórica para quitar las plaquitas que había encima de los portales del Ministerio de la Vivienda y de Protección Oficial. Eso es lo único que ha hecho. Ideología, como siempre. Pero servir a los españoles, nada. ¿Y qué afectación tiene también sobre la educación? ¿Qué pasa con la educación? También afecta a todos, a los hospitales, a la vivienda, a la educación. ¿Y cómo afecta a la seguridad de las calles? Pues de manera muy grave, porque cuando viene tanta gente ilegalmente a un país y no tiene cómo vivir, algunos viven de las ayudas sociales, pues algunos deciden delinquir, algunos no hay que convencerles, porque los sacan directamente de las cárceles de Marruecos, ya vienen con la intención de serie. Pero eso es lo que hoy tenemos en España. Unas calles inseguras, unos hospitales colapsados, unas mujeres que cada vez pasan más miedo para caminar por su propio país, unas personas mayores a las que el gobierno quiere comprar con unas migajas pero que luego no pueden sentarse tranquilamente en un parque ni pueden ir al cajero a sacar el dinero de su pensión, o tienen que ver cómo sufren sus hijos y sus nietos y tienen que ayudar económicamente con la pensión que tienen a esos nietos que no tienen trabajo. Esa es la realidad. Y ahora dicen, no, es que Vox quiere privatizar las pensiones. Mentira cochina. El riesgo para las pensiones es la continuidad de Pedro Sánchez en el poder. Ese es el verdadero riesgo que hoy tienen los pensionistas españoles. El riesgo para la seguridad de los pensionistas es la continuidad también en el poder de un personaje que está trayendo la inseguridad para nuestros mayores."
+  },
+  {
+   "start": 4328.38,
+   "end": 4331.04,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Entonces, por eso hablamos de reemigración."
+  },
+  {
+   "start": 4331.54,
+   "end": 4369.2,
+   "label": "SPEAKER_04",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Hay personas probablemente con sensibilidad y a las que hay que explicarles lo que estamos diciendo, que se asustan un poco cuando decimos estas cosas, pero es que es de sentido común. Es que yo creo que lo que estamos defendiendo es un interés de la mayor parte de los españoles, que creen en lo mismo, y también de la mayor parte de los extranjeros que están legalmente en España, trabajando, respetando nuestras normas, respetando nuestras leyes, conviviendo y aportando al presupuesto público. Es decir, no solo los españoles estamos perjudicados. Y por eso, ¿qué es lo que decimos nosotros? Pues algo tan grave como que el que entra ilegalmente, pues"
+  },
+  {
+   "start": 4369.2,
+   "end": 4370.02,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "se vuelve por donde ha venido."
+  },
+  {
+   "start": 4371.38,
+   "end": 4391.92,
+   "label": "SPEAKER_04",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Y se le dice, mira, aquí no se entra en nuestro país y usted tiene que pedir permiso. Y como no necesitamos a nadie en estos momentos, en todo caso necesitamos que algunos se vayan, pues va a tener que esperar. Y los que están aquí cometiendo delitos, algunos de ellos gravísimos, o imponiendo religiones fanáticas o discriminando a las mujeres, también se van a ir. Por donde han venido, pero además por la vía rápida y sin ningún tipo de contemplación."
+  },
+  {
+   "start": 4392.02,
+   "end": 4396.9,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Nos da igual que sean ilegales, legales o que hayan sido nacionalizados porque se les va a retirar la nacionalidad."
+  },
+  {
+   "start": 4398.04,
+   "end": 4656.36,
+   "label": "SPEAKER_04",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Y se van a ir por donde han venido a cumplir las penas de prisión en las cárceles de sus países. Y por supuesto, y esto lo decimos de una manera más amable, más batizada y más comprensiva, los que están aquí viviendo de las ayudas sociales que necesitan los españoles no tienen que estar en España. Es verdad que puede que haya gente que haya venido, haya trabajado, está en una mala situación, y están legítimamente recibiendo esas ayudas. Pero los que han venido directamente a recibir esas ayudas se van también por donde han venido, a su país. Y si hay personas que han venido a España y ya no tienen futuro en España y han trabajado un tiempo, pues bueno, los derechos sociales adquiridos habrá quizá que adelantarlos precisamente para ayudarles a que regresen a sus países y que intenten un futuro en sus países. Pero si los españoles y los españoles han emigrado muchas veces, van a otro país y se quedan sin trabajo, ¿qué es lo que hacen? Pues se vuelven, no pretenden vivir de las ayudas sociales que no llegan a los nacionales de esos países. ¿Esto es egoísmo? Yo creo que es sentido común, yo creo que es prioridad nacional, yo creo que es lo que haría un padre en su propia casa, francamente. Algunos quieren gobernar un país como si fuera un grupúsculo de la cosa nuestra, a otros les gusta decir un país hay que gobernarlo como una empresa, A mí me gusta decir que un país hay que gobernarlo como si uno fuera el cabeza de la familia. Es decir, distinguiendo entre los que tienen necesidades, entre los que no, y actuando con justicia. A mí me parece que es la fórmula que Vox está planteando para los españoles y estoy convencido que si logramos pasar por encima de la violencia y de la manipulación permanente que hay sobre nuestro mensaje, lo lograremos. Concluyo diciéndoos dos cosas. Quizá un poco contradictorias. Yo creo que tenemos a partes iguales motivos para el miedo y motivos para la esperanza. Motivos para el miedo porque van a hacer cualquier cosa. Aún no sabemos lo que es, pero yo os pido que estéis atentos, os pido que miréis la tradición del Partido Socialista en los momentos preelectorales Gracias, señor presidente. Lo que os pido es que estemos atentos, pero también creo que tenemos motivos para la esperanza, porque si los españoles protagonizan el día 29 de noviembre una gran movilización por el cambio y por la alternativa, cada uno votando lo que más le guste, creo que podremos dejar atrás este periodo oscuro de la historia de España. Yo creo que en España podemos sustituir la ruina por la prosperidad, podemos sustituir la indecencia por la honradez y podemos sustituir la traición por el interés nacional. Y creo que es lo que quieren la mayor parte de los españoles, voten lo que voten. Pero lo lograremos solo con una gran movilización, pero no solo ese día, sino en las semanas previas. Gracias. Lo que nosotros, los que estamos recorriendo España, hacemos en las tribunas, yo creo que puede tener su importancia y sé que vosotros lo agradecéis, pero probablemente está sobrevalorado. Nuestra capacidad de convicción es menor que la que tenéis todos vosotros juntos para hablar con vuestros familiares, vuestros amigos, con muy buena gente que está en vuestro entorno y que sabéis que son buenas personas en vuestros trabajos, familias, en vuestros grupos de estudio y que han decidido, por ejemplo, no votar. Votar equivocadamente. Yo os pido que no minusvaloréis vuestra capacidad de cambio y que de aquí a ese día os hagáis todos una lista en una libreta con los nombres de las personas a las que tenéis que convencer y que os entreguéis a esa tarea imprescindible para nuestro objetivo que es salvar España y devolverle la prosperidad."
+  },
+  {
+   "start": 4656.56,
+   "end": 4657.72,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Muchísimas gracias a todos"
+  },
+  {
+   "start": 4657.72,
+   "end": 4662.08,
+   "label": "SPEAKER_04",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "y adelante españoles de Segovia sin miedo a nada ni a nadie. ¡Viva España!"
+  },
+  {
+   "start": 4665.37,
+   "end": 4671.15,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Para finalizar, como acostumbramos en los actos de Vox, nos ponemos en pie para escuchar nuestro himno nacional."
+  }
+ ]
+}

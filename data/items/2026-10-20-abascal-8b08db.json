@@ -1,0 +1,288 @@
+{
+ "id": "2026-10-20-abascal-8b08db",
+ "date": "2026-10-20",
+ "expected_person": "Santiago Abascal",
+ "kind": "rally",
+ "outlet": "VOX YouTube",
+ "title": "🟢 GRAN ACTO PÚBLICO con Santiago Abascal en Ponferrada",
+ "url": "https://www.youtube.com/watch?v=gyqyRPqTwYU",
+ "language": "es",
+ "duration_s": 3840.48,
+ "sha256": "5d4d0a31894fa67d0f8e0241da66f1f695d403e55d842abef0f940663ad052d6",
+ "fetched_at": "2026-10-25T09:20:45+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.55,
+  "processed_at": "2026-10-25T14:32:19+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_07": {
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "decision": "match",
+   "reason": "sim 0.83, next 0.38",
+   "talk_s": 1505.8
+  },
+  "SPEAKER_02": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "too_short",
+   "reason": "only 7s of speech",
+   "talk_s": 7.0
+  },
+  "SPEAKER_01": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "unknown",
+   "reason": "best sim 0.43 < 0.55",
+   "talk_s": 329.6
+  },
+  "SPEAKER_03": {
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "decision": "too_short",
+   "reason": "only 3s of speech",
+   "talk_s": 3.2
+  },
+  "SPEAKER_06": {
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "decision": "unknown",
+   "reason": "best sim 0.26 < 0.55",
+   "talk_s": 184.9
+  },
+  "SPEAKER_04": {
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "decision": "unknown",
+   "reason": "best sim 0.17 < 0.55",
+   "talk_s": 84.1
+  },
+  "SPEAKER_05": {
+   "person": null,
+   "name": "Hablante sin identificar 6",
+   "decision": "unknown",
+   "reason": "best sim 0.15 < 0.55",
+   "talk_s": 510.2
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 7",
+   "decision": "unknown",
+   "reason": "best sim 0.12 < 0.55",
+   "talk_s": 81.8
+  }
+ },
+ "turns": [
+  {
+   "start": 90.44,
+   "end": 95.6,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Con todos vosotros, Santiago Abascal"
+  },
+  {
+   "start": 298.61,
+   "end": 300.11,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "¡Gracias por ver el video!"
+  },
+  {
+   "start": 333.58,
+   "end": 340.46,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 6",
+   "text": "Nacional, prioridad, cosa, estoy"
+  },
+  {
+   "start": 358.83,
+   "end": 361.89,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "cansado de promesas, de promesas, incumplas,"
+  },
+  {
+   "start": 368.36,
+   "end": 436.01,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 6",
+   "text": "heridas, necesidades, siga siendo mía Nacional, prioridad, hasta Canarias, la"
+  },
+  {
+   "start": 532.23,
+   "end": 548.91,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "tierra de sus padres, seguirá siendo su hogar Me miro a los ojos y no sé qué contestar, pero su mirada me da fuerzas para seguir y luchar."
+  },
+  {
+   "start": 552.27,
+   "end": 575.46,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 6",
+   "text": "Lucharé por mis convicciones, lucharé por lo que creo, no le debo nada a nadie, solo creo en lo que veo, en la tierra de mis abuelos, una sola mi familia nacional."
+  },
+  {
+   "start": 580.94,
+   "end": 610.62,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Nacional, prioridad nacional, estoy cansado de promesas, de promesas incumplidas,"
+  },
+  {
+   "start": 610.68,
+   "end": 705.16,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 6",
+   "text": "cansado de heridas, de tantas heridas necesitas, siga siendo mía Nacional, prioridad nacional, hacia esta canaria, mirándose al espejo, Melilla es una hija y España, madre amada, la"
+  },
+  {
+   "start": 780.94,
+   "end": 797.99,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "tierra de sus padres, seguirá siendo su hogar A los ojos y no sé qué contestar, tu mirada me da fuerzas para seguir y"
+  },
+  {
+   "start": 797.99,
+   "end": 802.53,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 6",
+   "text": "luchar, lucharé por mis convicciones Bienvenidos todos."
+  },
+  {
+   "start": 858.8,
+   "end": 989.73,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 7",
+   "text": "Hace unos meses nos encontrábamos aquí en esta misma plaza y hoy, inesperadamente, bueno, inesperadamente, Gracias al cambio de opinión del traidor de la Moncloa nos encontramos aquí de nuevo. Nos encontramos ante un gobierno devastado por la corrupción y una herencia que no es otra cosa que un deterioro social, moral, económico e institucional a niveles máximos. Señoras y señores, el día 29 de noviembre esto lo vamos a cambiar porque les vamos a echar de la Moncloa al tirano y a su equipo mafioso. Nos acompañan en este acto, tenemos el privilegio de que nos acompañen en este acto de pre-campaña, Carlos Poyán, vicepresidente de la Junta de Castilla y León, Pablo Calvo Liste, ya por todos conocido, Y nuestro presidente nacional, Santiago Abascal. Y desde Ponferrada, desde el Bierzo, no lo podemos decir ni más alto ni más claro. ¡Esta batalla la vamos a ganar! ¡Viva Vox y viva España!"
+  },
+  {
+   "start": 990.49,
+   "end": 1156.36,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Buenas tardes Ponferrada, buenas tardes Bierzo. Señor presidente, como ha dicho nuestro presidente, es un honor volver a estar aquí, que esta pre-campaña casi arranque aquí, a pesar de que la semana pasada ya estuvo Santiago en Estepona y también en Ceuta acompañando a nuestros compatriotas de Ceuta que tanto están sufriendo gracias a este gobierno traidor, pues es una satisfacción y darte las gracias, presidente, por estar aquí hoy y por arrancar prácticamente esta pre-campaña aquí. He llegado prácticamente volando, no voy a decir volando porque se me interpreta mal, pero he llegado de las Cortes de Castilla y León, que teníamos pleno, de debatir con el Partido Socialista y con una procuradora que tenemos que es de aquí, de esta tierra, Nuria Rubio, que tiene la facilidad de mentir y de tergiversar todas las cosas siempre. Pero como os podéis imaginar, es una satisfacción poder debatir con ella, poder debatir con ese partido socialista corrupto y mafioso que está destrozando este país y que esperamos que el día 29 podamos cambiar el ritmo y el sentido del mismo para echar, como ha dicho nuestra presidenta, al autócrata y al traidor de la Moncloa, pero automáticamente el día 29 no, al día siguiente del día 29. Gracias, señor presidente. y se lo he vuelto a repetir en el Pleno de las Cortes, que se vayan acostumbrando porque vamos a seguir hablando de ello, vamos a llevarlo al Gobierno de España y va a ser uno de nuestros principios fundamentales de acción de Gobierno, la prioridad nacional, la desregulación y"
+  },
+  {
+   "start": 1156.36,
+   "end": 1156.96,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "la remigración."
+  },
+  {
+   "start": 1161.76,
+   "end": 1429.07,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Y lo que más les molesta no es solamente que lo digamos, que hablemos de esas tres cosas, sino lo que más les molesta es que ya lo estamos haciendo. Allí donde Vox gobierna, en Andalucía, en Extremadura, en Aragón y en Castilla y León, lo estamos haciendo. Estamos marcándonos como objetivo irrenunciable que la Administración esté al servicio del contribuyente y no el contribuyente al servicio de la Administración. Creo que todos lo sufrís en una o en otra medida. No nos resignamos a que nuestros agricultores, nuestros autónomos, nuestros empresarios o los ciudadanos de a pie en sus relaciones con la Administración tengan que dedicarse más tiempo a rellenar formularios que a estar en sus tractores cuidando sus tierras, cuidando su ganado o abriendo la trapa de sus comercios. Eso no se puede permitir. No nos podemos resignar a eso y ya lo estamos aplicando en todos los gobiernos autonómicos en los que participamos. Y lo que es más grave todavía, no nos resignamos a ver cómo el tercer mundo asalta nuestras fronteras, burla nuestras aduanas y nos deja a los españoles los últimos de la fila en los servicios sociales y en las ayudas sociales. Y sí, los españoles es lo primero y la prioridad nacional es lo primero. Y hoy se lo recordé una vez más. Va a ser el principio fundamental de toda la actividad política de este partido. No es palabrería, como os decía anteriormente, en Castilla y León como en otros gobiernos donde estamos. Ya luchamos contra el despilfarro político, ya luchamos contra la burocracia, ya luchamos contra la inmigración ilegal y contra las mafias del tráfico de personas. A favor, como os he dicho, de que los españoles vuelvan a sentirse los primeros en su casa. Por eso, también, hemos elaborado los presupuestos en la Junta de Castilla y León más sociales y con menos impuestos en toda la historia de Castilla y León. Y eso también es gracias a que Vox está en el Gobierno. También hemos recortado, cumpliendo con nuestro acuerdo de gobierno, las subvenciones a sindicatos, a ONGs y a asociaciones empresariales. No todo, habrá mucha gente, porque hay gente que me lo dice, que no lo suficiente, y lo comparto, no lo suficiente. Gracias, señor presidente. Gracias a todos los españoles en Castilla y León sufriendo penurias y sufriendo calamidades. No se puede permitir. Y mientras haya un compatriota con dificultades para llegar a fin de mes, no saldrá un euro de Castilla y León a ningún proyecto solidario en el extranjero, aparte de auditar todos los proyectos que hay y saber dónde verdaderamente está yéndose el dinero. Y como os dije, no es suficiente. Sabemos que no es suficiente. Pero todavía tenemos cosas por hacer y haremos muchísimas más. Os lo dijimos en la pasada campaña, cuando estuvimos aquí, aunque mi compañero Pablo Calvo hablará más del vierzo y de los proyectos para el vierzo. Pero cuando estuvimos viendo la demolición de las chimeneas de Compostilla, lo dijimos. Este Gobierno no solo pretende borrar, acabar con la prosperidad de zonas como El Bierzo, sino que han querido hasta borrar las señales y lo que queda de esa prosperidad. Y no lo vamos a permitir. Tener la seguridad y la confianza de que, dependiendo de nosotros, vamos a conseguir que todo esto cambie a partir del 29 de noviembre. Muchas gracias. Y ahora tengo el honor y el placer de poder presentar a nuestro número uno al Congreso de los Diputados en las próximas elecciones del día 29. A Pablo Calvo, que ya hizo una grandísima labor en la legislatura anterior. En esta no pudo estar, pero volverá a estar a partir del día 29 en el Congreso de los Diputados. Muchas gracias."
+  },
+  {
+   "start": 1429.07,
+   "end": 1744.63,
+   "label": "SPEAKER_06",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Buenas tardes, Ponce Rada. Bienvenidos al cambio real, a la gran esperanza que trae Vox. Si os dais cuenta, aquí detrás mío tengo tres palabras claves, que son prioridad nacional, desregulación y remigración. Nación. Estas tres palabras son enormemente importantes. Esa esperanza que tenemos en Vox resume claramente lo que pretendemos hacer el día que lleguemos al Gobierno. Estamos hablando de tres palabras que son una auténtica revolución, de las que nadie habla. Es la revolución del sentido común, ni más ni menos que el sentido común. Hace unos días me encontré con un amigo en el Valle de la Ciana y me dijo, mucho ánimo, a por ellos, no podemos tolerar que sigan ocurriendo estas cosas. Y luego me comentó una frase que me hizo pensar, me dijo exactamente, creo que nos está gobernando el enemigo. Y yo le dije, muchas gracias por tu apoyo, pero creo que tus palabras no son exactas, puesto que no crees que nos gobierne del enemigo, es que nos está gobernando el enemigo, literalmente. Y voy a poner tres ejemplos. ¿Quién, si no el enemigo, desmantelaría la industria, dinamitaría las centrales térmicas de esta comarca, de la provincia de León y de toda España? Eso sí, todo aderezado de un ecologismo fanático, barato y poniendo en peligro nuestra soberanía energética. Pero lo que han conseguido años después no es ni más ni menos que tengamos unas comarcas absolutamente despobladas, unas comarcas que sufren la falta de trabajo, la falta de futuro, la falta de juventud, la falta de niños y no lo vamos a tolerar. ¿Quién sino el enemigo permitiría la entrada masiva de invasores para colapsar los servicios públicos, nuestro bienestar y dejar las calles absolutamente llenas de inseguridad? No lo podemos permitir. ¿Y quién sino el enemigo dejaría de conservar las infraestructuras? ¿Quién dejaría de construir aquellas infraestructuras que prometieron hace años y de las que todo el mundo ya se ha olvidado? Como las que prometieron al Bierzo, esa autovía de Ponferrada hacia Orense, o esa autovía de Ponferrada a la Espina para dar salida a Asturias, o ese nudo ferroviario de El Manzanal que podría vertebrar el noroeste junto con el eje atlántico y con el centro de la península ibérica. ¿Por qué no lo hacen? Y es que Sánchez, en lugar de velar por España y por los españoles, como dice Prioridad Nacional, tiene sus intereses fuera y atiende a los dictados de fuera, de esas agendas globalistas, la Agenda 2030, ahora hablan de la 2050, y de determinados regímenes que lo único que han hecho es subyugar a su pueblo, Y que no progresen. Pues a ese dictado está Sánchez. Por eso decimos que Sánchez es el candidato de Marruecos. Es el enemigo. Y al enemigo se le planta cara, se le combate y se le vence. Y para ello nadie mejor que nuestro presidente. Con todos vosotros, Santiago Abascal."
+  },
+  {
+   "start": 1784.16,
+   "end": 2434.74,
+   "label": "SPEAKER_07",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Muy buenas tardes. Muchas gracias. Muchas gracias a todos. Muy buenas tardes. Yo quiero decir que para mí es una alegría siempre venir a Ponferrada porque en Ponferrada siempre he recibido cariño, he recibido aliento y nos hemos sentido extraordinariamente apoyados. Gracias, señor presidente. ¿Creéis que el 29 de noviembre se puede cambiar el rumbo de nuestra patria? Y eso es a lo que todos juntos estamos entregados. Y yo por eso quiero una vez más daros las gracias en Ponferrada, donde siempre nos acogéis tan bien y nos dais tantos ánimos. Y además he de decir que es Ponferrada prácticamente el lugar donde comenzamos esta precampaña. Mañana vamos a La Coruña, después a Viles, a Burgos, a Segovia y después a las Islas Baleares. Y a mí me ha producido una especial emoción llegar aquí a Ponferrada, tan al norte de España, con tantos problemas en esta sociedad, con tantos problemas que tienen los vecinos de Ponferrada, y encontrarme esta bandera. Voy a encontrar aquí a dos vecinas, no sé si de Ponferrada o de otro lugar, de Ponferrada, con la bandera de Ceuta. Esto es España, exactamente esto es España, exactamente esto es lo que nos preocupa a todos los españoles. Algunos habían pensado que esto de dejar invadir Ceuta no tenía consecuencias y que solo importaba a 80.000 personas de España en Ceuta. No, nos importa a todos los españoles porque es nuestra dignidad nacional y porque es el bienestar, la prosperidad y la libertad de los ceutíes que son nuestros compatriotas. Así que gracias a todos vosotros y gracias a vosotras por haber venido aquí a este acto político con esa bandera de Ceuta donde hoy está nuestro corazón, donde hoy está nuestra dignidad y donde hoy están nuestros desvelos. Gracias, señoras y señores. Una vez más, volver a dar vueltas por todas partes, dejando a la familia un poco de lado durante estos días, volver a conocer nuestra patria, hablar con nuestros compatriotas, aunque sea en unas elecciones y en mitad de una campaña que va a ser una campaña sucia, Va a ser una campaña de violencia, va a ser una campaña de presión, va a ser una campaña de mentiras y va a ser una campaña de trampas por parte del Partido Socialista y de Pedro Sánchez. Lo hemos visto durante todo este tiempo, hemos visto como de repente sacan debates a la palestra para culpar a la oposición en materia de vivienda cuando hay un gobierno que ha provocado el encarecimiento de la vivienda durante 8 años en un 74% y el encarecimiento del alquiler en un 40% y nos han querido contar películas durante estos días pero nadie las ha creído. Y como ese conejo que se han sacado de la chistera no les ha servido, pues no tengamos dudas de que van a sacar otros conejos de la chistera para mentir, para confundir, para asustar y para hacer trampas. Lo han intentado también con una ley de nietos que ya conocéis todos y que hace seis meses no conocía a nadie. Me alegro mucho de que todos los españoles sepan exactamente de lo que estamos hablando y del modo en el que Pedro Sánchez pretende sustituir a un pueblo al que odia dando el voto en las elecciones a personas que nunca han vivido en España y que probablemente no saben nada de España. Eso les ha salido regular. Les hemos pillado con las manos en la masa, Les hemos llevado ante el Tribunal Supremo y lo hemos paralizado. Y ahora están viendo a ver cómo siguen con la trampa intentando que ese Tribunal Constitucional que han dominado con la ayuda de la torpeza del Partido Popular durante estos años y estas cosas pues hay que decirlas porque también forman parte de la verdad y están viendo cómo continúan con esta trampa metiendo a 180.000 personas en el Censo Electoral Español que en realidad no deberían votar en estas elecciones. Vamos a estar muy atentos, no tengáis ninguna duda, para que este proceso sea limpio, para que este proceso electoral sea transparente y para denunciar cualquier tipo de irregularidad que se esté planteando. Pero esto solo demuestra la impotencia de quienes durante ocho años han mentido a los españoles, sobre todo, sus pactos, sus leyes, y a quienes durante ocho años han traicionado a los españoles pactando con todos los enemigos de España en el interior y en el exterior. Ese es Pedro Sánchez y cuando uno miente a los españoles, traiciona a los españoles, va a la calle y los españoles le dicen no lo voy a reproducir exactamente lo que piensan de él, pues ese líder político llega a una conclusión y es que tiene que sustituir a los españoles. ¿Y cómo pretende hacerlo? Pues con una ley de nietos. de nacionalizaciones masivas que pretende dar el derecho al voto y con unas regularizaciones de casi un millón de personas que han entrado ilegalmente en España, pasado por encima de la policía, de la Guardia Civil, sin respetar las paredes de nuestra patria, es decir, nuestras fronteras, y que hoy están entre nosotros y el Gobierno ha decidido que los va a regularizar a todos de golpe para que los españoles sigan estando en el último lugar. Ese es el modo de Sánchez para sustituir a los españoles poco a poco, Para sustituir a un pueblo que no le quiere, que no le tiene efecto, pero al que Pedro Sánchez quiere seguir gobernando y llevando por la senda de la ruina, de la división, del enfrentamiento y de la traición, que es exactamente lo que ha hecho durante los últimos ocho años. Y estamos aquí precisamente para impedirlo. El día 29 de noviembre todos los españoles votarán, los que tienen derecho y algunos que no deberían tenerlo, y creo que ese día nos lo jugamos todo. Hay por ahí encuestas que dicen que este gobierno se va, que todo está hecho, y yo quiero invitaros a la desconfianza. Quiero pediros que no confiéis en ninguna encuesta, que no os creéis ningún titular y que ese día 29 de noviembre no haya nadie que se quede en su casa, no haya nadie que se dedique a otra cosa que a ir a los colegios electorales y llenar las urnas de votos por el cambio de España. Porque hace cuatro años también las encuestas decían lo mismo y pasó otra cosa. Pero es que tenemos un problema añadido que no teníamos hace cuatro años. Gracias, señor presidente. ¿Cómo podemos hacerlo? Porque la manera de Sánchez ya sabemos cuál es. Comprar votos, regalar nacionalizaciones. ¿Y cuál es la otra? ¿Cuál es la otra? ¿Perseguir jueces a los que liquidar? ¿Perseguir a los jueces y a sus familias, vigilarlos, eliminarlos? ¿Qué es exactamente lo que ha estado pasando durante todo este tiempo con la mafia que operaba precisamente en la sede del Partido Socialista? ¿Cuál es la manera? ¿Qué nos quiere decir Sánchez? Señor Sánchez, ¿qué nos quiere decir a los españoles? ¿Qué es eso de que va a gobernar de una manera o de otra? Imaginaos que yo viniera a esta tribuna, a este atril y dijera, no os preocupéis, el día 29 de noviembre vamos a gobernar de una manera o de otra. ¿Dónde estarían mis palabras? En todos los titulares de los medios de comunicación. Dicen, el Abascal este, ¿pero qué se cree? ¿Pero cómo que de una manera o de otra? Este es un golpista, este señor, ¿qué se cree? No, no, aquí se gobierna no de una manera u otra, solo de una manera. Obteniendo el voto de los españoles. Si no obtienes el voto de los españoles, no se gobierna. Lo que pasa es que Sánchez ha tenido un lapsus y el subconsciente le ha traicionado. Gracias, señor presidente. y ahora no le importará hacer la trampa que sea necesaria. A veces cuando digo esto, algún periodista me dice ¿pero usted qué cree que es lo que va a hacer? Y yo qué sé, yo qué sé, yo no me puedo poner en la cabeza de ese señor. Pero ese señor, narcisista, como dice la señora que acaba de gritar por detrás, está dispuesto a cualquier cosa, está enamorado, sí. Sobre todo de sí mismo, sobre todo de sí mismo. ¿Por qué?"
+  },
+  {
+   "start": 2434.88,
+   "end": 2437.58,
+   "label": "SPEAKER_06",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Por qué se atreve a decir eso?"
+  },
+  {
+   "start": 2438.24,
+   "end": 3178.88,
+   "label": "SPEAKER_07",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Es que es muy importante hacerle esta pregunta todos los días en las elecciones. ¿Por qué ha dicho que va a gobernar de una manera o de otra? No se puede votar a un tipo tan peligroso. Da igual que uno sea de derechas, de izquierdas, de centro, pensionista o medio pensionista. Da igual, no se puede votar a un tipo que dice que va a gobernar de una manera o de otra. Cuando alguien dice que va a gobernar de una manera o de otra y los españoles tienen que votar, les está diciendo que su voto importa un carajo. Pues a un tipo así no se le puede votar. Y yo animo a todos los españoles, del color que sean, de la edad que sean, del lugar en el que vivan, a que desconfíen de una persona que habla en esos términos y que desprecia tanto a la voluntad popular. Deben estar pensando en gobernar desde el Tribunal Constitucional, como hacen desde hace un tiempo. A donde recurren todas las sentencias del Tribunal Supremo van al Constitucional, que por cierto dominan con la ayuda del Partido Popular, que ha tenido muchas debilidades durante estos años. Esperamos arreglar eso también, pero para eso va a haber que votar masivamente el 29 de noviembre. Iremos viendo durante esta campaña, que yo me atrevo a predecir que será sucia, y tan sucia como esta legislatura, qué es exactamente lo que el señor Sánchez nos dice y cómo amenaza, qué es eso de gobernar de una manera o de otra. Los bulos sobre Vox ya han empezado, ahora se han inventado que Vox pone en riesgo las pensiones. No, aquí lo único que pone en riesgo las pensiones es destruir el tejido productivo, es atacar a los autónomos, atacar a las pequeñas y medianas empresas, atacar a los que están queriendo empleo, a los que pagan impuestos y a los que sostienen los gastos del Estado. El peligro para las pensiones tiene nombre y apellido. Se llama Pedro Sánchez Castejón. El peligro para las pensiones es el impuesto abusivo, el gasto desmesurado, el dispendio, el déficit, la deuda pública. Pedro Sánchez Yolanda Díaz, que pretende dirigir España como si fuera una dictadura, pactando con todos aquellos que odian a España, los separatistas, los terroristas y los enemigos exteriores, defendiendo los intereses de aquellos que no creen en el interés general de España, ni la unidad nacional, ni la convivencia entre los españoles. Porque aquí durante estos ocho años ha mandado Esquerra Republicana, Bildu y Mohamed VI, pero no el conjunto de la nación. No sabemos si lo van a hacer con bulos o no sabemos cómo van a hacer lo de gobernar cuatro años más de una manera o de otra, si es con bulos o con risas de mal gusto. Es un gusto porque el señor Sánchez tiene un ministro que se llama Óscar Puente, responsable de una gestión desastrosa en la red ferroviaria en España, que ha ocasionado muertos entre nuestros compatriotas y que se dedica a reírse en reportajes de La Sexta, bromeando sobre cómo está la Renfe en programas de cachondeo. ¿Pero qué maldita gracia tiene que mueran 46 españoles porque unos tipos del Partido Socialista han utilizado las contratas que trabajan para Renfe para gastarse el dinero en prostitutas? ¿Pero qué gracia tiene eso? ¿Pero cómo se atreve? ¿Eso tiene que ver con lo de gobernar de una manera o de otra? Sí, de una manera sucia, de una manera asquerosa, de una manera indecente, gastándose el dinero y los impuestos de los españoles y el sudor de la frente de nuestra gente encerradas en las vías del tren y en las carreteras y en las infraestructuras y en los hospitales y en la educación. Eso es lo que está pasando en España. ¿Y por qué hace esto este gobierno destructor? Doctor, porque no tienen una política para España, no hay un programa, una alternativa, una esperanza que ofrecer a los españoles, porque la verdad es que en estos últimos ocho años no hay nada que haya mejorado, no hay nada que haya mejorado. El otro día me lo preguntaba una periodista, me decía, pero usted no cree que Sánchez ha hecho algo bien. Y le digo, mire, yo hasta un reloj parado da la hora dos veces al día, pero no se me ocurre, francamente, no se me ocurre. Lo que nos ha pasado durante estos ocho años formará parte, cuando se escriba nuestra historia, de la pesadilla de toda una generación, Muy especialmente de los jóvenes que no ven un futuro claro, que no son capaces de comprarse una vivienda, que no tienen un trabajo estable, que tienen dificultades para formar una familia. Y esto hay que cambiarlo radicalmente. Yo he escuchado al señor Feijóo estos días, yo creo que equivocadamente, la verdad, diciendo a los españoles que vamos a tener que hacer muchos sacrificios. Hombre, ya nos ha sacrificado bastante. Ya nos ha sacrificado este gobierno bastante a los jóvenes, a los mayores, a las mujeres a las que ha condenado la inseguridad en las calles. Ya bastante han pagado los españoles y bastante han padecido bajo este gobierno. Ahora es la hora de sacrificar a los partidos políticos, a los sindicatos, a los subvencionados y a todos aquellos que están viviendo de una política criminal y de una política corrupta de este gobierno. Ahora los sacrificios a la casta, ahora los sacrificios a los poderosos y a los privilegiados, pero no a la gente. Lo de los sacrificios, yo lo entiendo, todos tenemos que sacrificarnos, es algo que decimos a nuestros hijos, a nuestras familias, tenemos que esforzarnos, tenemos que sacrificarnos, solo se puede salir adelante con esfuerzo. Pero a ver qué significa esto de los sacrificios. Si el próximo gobierno depende de Vox o Vox tiene el respaldo mayoritario de la sociedad española, los sacrificios desde luego no van a ser para los humildes, no van a ser para el conjunto de los españoles, no van a ser para nuestra gente. Los sacrificios para los que han venido invadiendo las fronteras, para los partidos y para esos sindicatos que han estado callados como muertos durante ocho años y ahora nos convocan a una huelga general contra la oposición. Para esos sindicatos como la UGT que acaban de ser condenados a devolver una millonada a la Junta de Andalucía por todos los fraudes y todas sus corrupciones. Así que ojo con eso de los sacrificios porque si de Vox depende los sacrificios no van a ser para nuestro pueblo que bastante sacrificado ha sido ya. ¿Por qué hacen todo esto? ¿Por qué hay tanto bulo? ¿Por qué hay tanta mentira? ¿Por qué nos encontramos en los medios de comunicación tantos discursos absurdos y tantas noticias que no nos importan? ¿Por qué no quieren que se escuche la preocupación de los españoles? ¿Por qué no quieren que se escuche tampoco nuestro discurso de prioridad nacional, de desregulación y de reemigración? ¿Qué es el sentido común? Es un discurso con el que nosotros invitamos a todos los españoles, voten lo que voten, también a las personas que han votado a la izquierda. Yo, de verdad, no tengo ningún reproche que hacer a las personas que han votado al Partido Socialista o que votaron a Pedro Sánchez hace unos años, porque cada uno vota lo que cree, cada uno vota conforme a sus ideas. Y pienso en esas personas también, en esos socialistas, en esas personas que se sienten de izquierdas, que han sido estafadas, que han sido engañadas, que han visto a este tipo y a todo su entorno corromperse sin límite, traicionarse sin límite. Esos españoles también están huérfanos y a esos españoles también les tenemos que llamar en estas elecciones. También tenemos que decirles que algunos queremos hacer un gobierno para todos, un gobierno que en primer lugar ponga la prioridad nacional. Esto de la prioridad nacional que ocasionó mucho ruido cuando empezamos a proponerlo en las negociaciones autonómicas es el puro sentido común. Pero ¿cómo no van a tener los españoles prioridad en España? Pues como los marroquíes en Marruecos y como los franceses en Francia. Bueno, es que los franceses en Francia tampoco tienen prioridad, la verdad, porque ahora hablaremos de Francia. Pero ¿cómo no va a ser esto lo normal? ¿Cómo no vamos a poner en primer lugar el interés nacional? ¿Cómo no vamos a poner en primer lugar nuestras prioridades? Y hoy la prioridad nacional es recuperar Ceuta. Hoy la prioridad nacional es recuperar nuestro territorio que ha sido invadido por 80.000 tipos con permiso del gobierno y alentado desde Marruecos. Porque tenemos al frente del gobierno a un candidato marroquí, a un presidente que obedece intereses ajenos. Hoy la prioridad nacional es echar a la mafia que gobierna en España, a la mafia que se corrompió al frente de un Peugeot, que robó las elecciones a los propios militantes socialistas y que llegó al poder y robó a manos llenas, a la mafia que hoy tiene imputados o condenados a todo el entorno político y familiar del presidente del gobierno que todavía tiene el valor de concurrir a estas elecciones. Esa es la prioridad nacional. Decir los españoles primero es, en primer lugar, esas cosas. Pero también decir que los españoles tienen el derecho en su propia patria a ser los primeros, los españoles con dificultades, en recibir las ayudas sociales, en recibir las ayudas al alquiler y en recibir las ayudas en las plazas de guarderías. Los españoles, en primer lugar, en su propia patria, porque todos conocéis exactamente lo que os ocurre cuando queréis optar a ese tipo de ayudas por parte de la Administración. Cuando hablamos de desregulación, que la verdad es que es una palabreja, pero es muy sencillo de entender. Hay que quitar regulaciones, hay que quitar el exceso de normas, hay que quitar el exceso de impuestos que están ahogando a los españoles, A los autónomos, a los trabajadores, a los agricultores, a los industriales, que se han convertido prácticamente en gestores, que tienen que dedicar una parte importantísima de su tiempo, no ya a su profesión, a producir, a trabajar, sino a hacer papeleos y a respetar legislaciones que son absolutamente ruinosas. Legislaciones climáticas que en otros países no cumplen, legislaciones de género que son absolutamente ideológicas e impuestos absolutamente abusivos con los que no se puede salir adelante. Impuestos abusivos que luego se gastan de manera absolutamente asquerosa en indecencias desde el poder público y que no van a la sanidad o a la educación, como nos dicen todos los papagayos de los partidos de izquierdas, sino que van al gasto ideológico y a las porquerías que los españoles no quieren pagar. Es decir, menos normas, menos impuestos y más infraestructuras. Porque nunca los españoles en su historia, nunca los españoles en su historia hemos tenido que pagar tantos impuestos y nunca desde hace mucho tiempo hemos recibido tan poco a cambio de esos impuestos. No hay más que montarse en el tren, no hay más que coger un coche y circular por las carreteras en España, No hay más que ir a un hospital y ver las listas de espera, no hay más que asistir a los colegios públicos para comprobar qué es lo que está pasando en España, a dónde va el dinero de los españoles, desde luego no va a los españoles, irá a construir infraestructuras en Marruecos, irá a pagar chiringuitos, a pagar subvenciones, pero no está yendo a los españoles. Y eso es lo que el día 29 de noviembre se vota."
+  },
+  {
+   "start": 3178.92,
+   "end": 3180.24,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "No se votan otras cosas."
+  },
+  {
+   "start": 3180.54,
+   "end": 3332.01,
+   "label": "SPEAKER_07",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Se vota si los españoles están en primer lugar o si la prioridad son los de fuera o la prioridad son los políticos, como lo ha sido durante estos últimos ocho años. Y la otra cuestión es la remigración. En España han entrado 5 millones de personas en 5 años. 5 millones en 5 años. No hay más policías, no hay más hospitales, no hay más viviendas. ¿Cómo se mantiene la seguridad? ¿Cómo se puede acceder a una vivienda? ¿Cómo se va a dar la atención sanitaria que se daba antes? Si estos gobernantes han dicho que los hospitales públicos, la sanidad pública pagada por los españoles es para toda África, para todo el mundo. Pasa lo que pasa. Las listas de espera son cada vez mayores, la vivienda cada vez vale más. Hay gente malviviendo y compartiendo pisos, familias que viven en una sola habitación. Y esto afecta a los españoles, afecta a los inmigrantes legales que vienen aquí de manera legal, de manera decente, respetando nuestras normas, e incluso a los que permiten entrar ilegalmente. Esto conduce al colapso de la sociedad y esto no podemos aceptarlo. Sin ningún tipo de odio, sin ningún tipo de rechazo a las personas de fuera, por pura lógica, por puro sentido común, decimos muy claramente que el que llega a España ilegalmente tiene que ser repatriado al segundo. El que llega a España ilegalmente se va por donde ha venido. Que el que llega a España a cometer delitos va a ser deportado inmediatamente y sin ningún tipo de miramiento. Y que el que viene a España a recibir las ayudas sociales que no llegan a nuestro pueblo, pues tiene que iniciar un proceso de reemigración. Porque cuando uno va a trabajar a un país y se queda sin trabajo, pues no se queda en ese país a recibir ayudas sociales. ¡Vuelve a su propio país! Hay muchos españoles que tuvieron que emigrar hace tiempo. Y lo hicieron legalmente y cuando no tuvieron esos trabajos volvieron a su patria. Sin embargo, parece que España se ha convertido en el paraíso de la inmigración ilegal. Esto es jauja. Hay tutoriales en YouTube donde se explica cómo llegar a España y recibir ayudas sociales. ¿Qué es exactamente lo que están haciendo desde los gobiernos para habernos condenado a una situación de estas características? Y nosotros somos muy claros. Todo el que no tiene que estar en España se va a ir."
+  },
+  {
+   "start": 3332.39,
+   "end": 3336.67,
+   "label": "SPEAKER_06",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Y eso no va a solucionar nuestros problemas, pero"
+  },
+  {
+   "start": 3336.67,
+   "end": 3593.58,
+   "label": "SPEAKER_07",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "nos va a ayudar a solucionarlos. Los problemas de vivienda, los problemas de los servicios sanitarios, los problemas en el sector educativo Y, por supuesto, los problemas de seguridad que están trayendo muchas personas que no respetan a las mujeres y que las están amenazando. Porque este gobierno que llegó levantando las banderas de la corrupción y del feminismo se ha corrompido hasta las cejas y ha condenado a las mujeres a la inseguridad y a unas tasas de violación absolutamente insoportables. Hablaba de Francia hace un momento. Bueno, pues Francia es el espejo en el que debemos mirarnos. Lo que está pasando en Francia, que ya lo advertíamos hace tiempo, ya decíamos ojalá no lleguemos a la situación de Francia. Y probablemente cuando lo decíamos había muchas personas que decían ¿a qué se referirán exactamente a lo que está pasando en Francia? Francia está en llamas. La extrema izquierda en coalición con el islamismo está destruyendo Francia. Están saqueando los comercios, están agrediendo a la policía, están desnudando a ancianos en la calle para robarles, están cometiendo la peor de las violencias, están quemando edificios históricos preciosos. No pensemos que eso nos pilla muy lejos. Hay refranes muy populares para advertir de qué es lo que hay que hacer cuando vemos que cortan las barbas de nuestros vecinos. Y nosotros lo advertimos. Lo que está pasando en Francia, en algunas ciudades de Italia, puede pasar en España si no lo remediamos a tiempo. Es verdad que los españoles en nuestra historia tenemos una educación de siglos para saber quiénes son los que no se adaptan. Parece que en Francia les ha costado entenderlo y que pronto los franceses, después de mucho tiempo, van a elegir bien y van a optar por un cambio en las próximas elecciones. Yo lo que os pido es que no lleguemos a esa situación, pero no es ninguna broma, no es ninguna exageración cuando advertimos de que España puede acabar ocurriendo lo que está pasando en Francia. Y yo creo que eso también se vota el 29 de noviembre, si se defienden los intereses nacionales o se defienden otro tipo de intereses, que es lo que ha estado haciendo Pedro Sánchez durante todo este tiempo. Así que el día 29 de noviembre, cuando acudamos a votar, hagámoslo con tranquilidad, de manera pacífica, con una conciencia profunda de qué es lo que está pasando, con miedo por lo que pueda pasar, pero también con toda la ilusión y la esperanza intacta de que los españoles no estamos condenados a sufrir ni lo que estamos padeciendo ni lo que sufren en otras naciones. Con la ilusión de poder dar a los jóvenes un futuro mejor, con la ilusión de que los mayores puedan caminar tranquilos por las calles, con la ilusión de que los mayores no sean comprados con unas migajas, sino que puedan sentarse tranquilamente en los parques, acudir en paz a los cajeros, a sacar el dinero de su pensión, que no vean sufrir a sus nietos y a sus hijos sin futuro y que en definitiva en España puedan caminar las mujeres con tranquilidad. Que la educación sea algo decente y no algo vergonzoso, como ahora indican los estándares internacionales de PISA, que se pueda acudir a los hospitales y no haya listas de espera, que cuando alguien tiene una enfermedad grave directamente lo condenan a muerte, es decir, una España un poco más parecida a la que teníamos y no una España como la que vemos en esos nubarrones negros a la que nos ha condenado Pedro Sánchez Castejón. Para eso estamos aquí, convocando a todos los españoles, a los de unas ideas y a los de otras, a los que compartan el sentido común de la prioridad nacional, de la desregulación, los impuestos bajos y justos y la remigración de quienes no deben estar entre nosotros. Sin ningún tipo de fanatismo ideológico, sin ningún tipo de odio, pero ya un poquito cansados, un poquito enfadados, a partes iguales, con esperanzados y alegres de saber que tarde o temprano tendremos una España mejor con vuestro apoyo."
+  },
+  {
+   "start": 3593.7,
+   "end": 3595.5,
+   "label": "SPEAKER_06",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Muchísimas gracias a todos y adelante"
+  },
+  {
+   "start": 3595.5,
+   "end": 3599.24,
+   "label": "SPEAKER_07",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "españoles de Ponferrada, sin miedo a nada ni a nadie. ¡Viva España!"
+  },
+  {
+   "start": 3604.9,
+   "end": 3610.9,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Para finalizar, como acostumbramos en los actos de Vox, nos ponemos en pie para escuchar nuestro himno nacional."
+  }
+ ]
+}

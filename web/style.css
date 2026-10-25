@@ -307,3 +307,9 @@ section .search { margin-top: 1rem; }
 .g-review .g-mark { padding-top: 0.45rem; }
 .g-review blockquote { margin: 0 0 0.35rem; font-size: 1.05rem; }
 .g-honest { margin-top: 2rem; }
+
+/* Análisis */
+.tabs { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 1.25rem 0 0.75rem; }
+.tab { background: transparent; color: var(--ink); border: 1px solid var(--rule-strong); padding: 0.45rem 0.8rem; font: 400 0.875rem/1.2 var(--sans); }
+.tab:hover { background: var(--paper-2); }
+.tab[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }

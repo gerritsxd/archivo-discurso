@@ -1,0 +1,211 @@
+{
+ "id": "2026-10-24-montero-d9a676",
+ "date": "2026-10-24",
+ "expected_person": "Irene Montero",
+ "kind": "rally",
+ "outlet": "elDiario.es YouTube",
+ "title": "🔴 DIRECTO | Irene Montero y Gabriel Rufián celebran un acto de precampaña",
+ "url": "https://www.youtube.com/watch?v=bjAx48dGZqw",
+ "language": "es",
+ "duration_s": 4405.02,
+ "sha256": "a1298bc689847c671f50595e3b704fd0be0e6e0adb92f0e8ab494b6d8bed1433",
+ "fetched_at": "2026-10-25T09:36:05+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.55,
+  "processed_at": "2026-10-25T16:50:38+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_02": {
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "decision": "match",
+   "reason": "sim 0.84, next 0.33",
+   "talk_s": 810.7
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "unknown",
+   "reason": "best sim 0.55 < 0.55",
+   "talk_s": 1252.1
+  },
+  "SPEAKER_01": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "unknown",
+   "reason": "best sim 0.31 < 0.55",
+   "talk_s": 226.3
+  },
+  "SPEAKER_03": {
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "decision": "unknown",
+   "reason": "best sim 0.19 < 0.55",
+   "talk_s": 27.8
+  },
+  "SPEAKER_04": {
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "decision": "unknown",
+   "reason": "best sim 0.21 < 0.55",
+   "talk_s": 85.6
+  }
+ },
+ "turns": [
+  {
+   "start": 580.64,
+   "end": 826.87,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "¡Hola! ¡Buen día a todos! Bienvenidos a todas y todos a esta conversa con Gabriel Rufián y Irene Montero. Es un placer para mí estar aquí presentando hoy este espacio. Yo soy Andrea Ross, soy actriz y divulgadora perinatal. Esto significa que me dedico a escuchar a las madres y a batallar un poco por los derechos y las necesidades básicas de las madres y los nadones. Me han invitado a presentar este acto y a poder compartir con vosotros unos minutos antes de iniciar esta conversa. Y pensando en qué compartir hoy aquí con vosotros, pensaba en el momento político y social que nos está tocando vivir, tan polarizado, con tanta falta de escucha. Y a menudo me pregunto cuál es la solución a este problema, cómo volver a entendernos, cómo volver a mirarnos. Y siempre me adono que la respuesta siempre es la infancia, siempre es ir al principio de todo. y todo. Dijo Michel Oden, un obstetra francés muy importante al que le debemos muchos derechos sexuales y reproductivos, que para cambiar el mundo había de cambiar la forma de nacer. La realidad es que en nuestro país nacemos con muchísima violencia, iniciamos la vida con muchísima violencia y si queremos cambiar las cosas tenemos que ir a este lugar. Cuando en Alemania nazi se publicó un libro que se llamaba La mujer alemana y su primer hijo, El libro era un manual de crianza que consistía en enseñar a las madres cómo criar futuros nazis directamente. Este era el objetivo del libro, ¿no? Se regalaba a todas las mujeres embarazadas para que pudiesen criar futuros nazis. Este libro se estructuraba en tres pilares muy fundamentales. Uno es negar las muestras de afecto, el otro es mucha rigidez en la higiene y la alimentación, y la otra consistía en dejar a los nadones llorando solos en una habitación cerrada hasta que se durmieran, cosa por la cual el doctor Estivill todavía se hace rico a día de hoy, pero eso es otro tema. Lo que quiero decir con esto es que al contrario del fascismo es la tendencia y si queremos un futuro antifascista necesitamos un presente tendre y un presente tendre pasa por las curas más básicas que no solo son las vecinas, los amores, las madres y la familia, sino también es la pequeña infancia. Si queremos un futuro antifeixista necesitamos comenzar a cuidar la infancia y esto pasa para cuidar a las madres. Necesitamos dejar de perir con violencia. En nuestro país el 50% de las mujeres pateen con violencia obstétrica mientras el colegio de ginecólogos sigue negando su existencia. Necesitamos políticas de conciliación, necesitamos poner las curas en el centro y esto empieza por la infancia. Gracias por donar maquetas PAI para poder compartir el show. Ahora me toca donar la paz a la Irene y me vais a permitir decir algo, lo voy a decir en castellano porque quiero que no te pierdas nada. Cuando yo tenía 17 años estaba en una compañía de teatro en Madrid y preparábamos una función de teatro que acabó llamándose Artículo 47, era una función sobre la vivienda, y nos fuimos a la PAI, a la plataforma de afectados por la hipoteca en Vallecas, a informarnos un poco de cuál era la situación, a conocer testimonios. Yo tenía 17 años, era 2011, con todo lo importante que fue para los movimientos sociales ese año, y ahí estaba Irene. Yo vi a Irene manejando el cotarro y pensé, yo quiero ser como ella. Y hoy yo aquí quiero darte las gracias, Irene, por poner el cuerpo para que los demás aprendamos a hacer política, porque es gracias a ti que yo sé qué hacer con mi furia. Entonces he estado muy enfadada contigo, ha habido cosas que no me han gustado y es a través de tu cuerpo que yo he podido aprender todo esto. Te doy las gracias, siento mucho que hayas tenido que ser este personaje, pero yo hoy te honro y te pido por favor que subas siempre detrás de ti amiga."
+  },
+  {
+   "start": 857.96,
+   "end": 2028.2,
+   "label": "SPEAKER_02",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "Bueno, mol bon dia Barcelona, mol bon dia Nou Barris, siempre es un placer tornar aquí. Yo creo que hoy, por todas las mujeres que estáis aquí, por todas las jóvenes, es importante empezar mandándole un mensaje a Feijóo. Feijóo, tu machismo mata, escúchalo bien, escúchalo bien, eliminar el Ministerio de Igualdad, recortar los derechos de las mujeres, volver a poner en cuestión los derechos, El derecho de las jóvenes de 16 y 17 años a interrumpir voluntariamente su embarazo desprotege a las mujeres. Su cuestionamiento permanente, su banalización, su ridiculización de la lucha feminista significa que hoy hay muchas mujeres en Cataluña y en España Que tienen miedo de irse de sus casas cuando su marido las vuelve a pegar, que no saben cómo proteger a sus hijos, que creen que han nacido para deslomarse a trabajar toda la vida, para renunciar a sus sueños, para renunciar a su vida, para cobrar salarios de miseria, para que otros puedan vivir sus vidas. Me impresionaba como Alberto Núñez Feijóo decía Yo soy feminista y me han criado mujeres Pero no te das cuenta No te has hecho la pregunta de dónde estaban los hombres ¿Por qué te han criado mujeres? ¿Por qué has crecido rodeado de mujeres? Porque son las mujeres las que siguen soportando en sus cuerpos, en sus enfermedades En sus tristezas también, esas tareas de cuidados que hacen posible la vida. Feijóo quiere un país de mujeres sin derechos, un país de mujeres esclavizadas, más de la mitad de la población esclavizada. Y por eso votar al Partido Popular es votar machismo y es votar violencia. Y este 29 de noviembre las mujeres tenemos que votar por nosotras, por nuestra libertad. Por nuestros sueños, por nuestra felicidad y por la de la gente que queremos. Por un mundo en el que las mujeres tengamos todos nuestros derechos y seamos libres. Y bueno, hoy es un día un poco nublado, pero por ahí está el sol. Miradlo si podéis, hace un poco de daño. Y haceros esta pregunta. La pregunta es, ¿se puede patentar el sol? ¿Tiene dueño el sol? Esta pregunta se la hizo un médico en los años 50 del siglo pasado. Sabéis que en 1950 había millones de familias asustadas por una enfermedad, a lo mejor algunas lo recordáis, la polio, que era una enfermedad muy agresiva y había muchísimas familias muy preocupadas porque podía dejar paralizado de por vida a un niño esa enfermedad, no tenía vacuna. Entonces hubo un médico, Jonas Salk, que investigando, haciendo ciencia, consiguió encontrar una vacuna para la poli. Y el día que esa vacuna salía a la sociedad, que ya se había demostrado que era segura, que era eficaz, que se podía utilizar Un periodista le preguntó a este médico de quién era la patente de esa vacuna, de quién era propiedad esa vacuna, quién era el dueño Y Jonas Sall respondió, la gente supongo, se puede patentar el sol, puede tener dueño el sol. Por supuesto, por supuestísimo que millones de niños y de niñas se pudieron salvar gracias a que esa vacuna se distribuyó y que se pudo producir y distribuir de una forma aceptable en la sociedad. Pero esa pregunta sigue estando hoy aquí. ¿Se puede hacer negocio con las cosas que son necesarias para vivir? ¿Cuánto tienen que costar las cosas que son necesarias para vivir? ¿Cuánto puede enriquecerse alguien con las cosas que son necesarias para vivir? Muy bien, porque para mí ese es el problema que tenemos en la sociedad ahora mismo, que lo han convertido todo en un negocio, la salud, la vivienda, la educación, las pensiones, todo es un negocio y eso es lo que está pudriendo nuestra sociedad, eso es lo que nos está consumiendo. ¿Qué estamos haciendo? Pensadlo por un momento. ¿Cuáles son los problemas de nuestra sociedad? ¿Dónde están? ¿Quién hace más largas las listas de espera en la sanidad? ¿Es un vecino o una vecina migrante que viene a trabajar, a vivir, a criar a sus hijas a nuestros barrios? O es Quirón Salud, o es Rivera Salud, que alargan las listas de espera como estrategia empresarial para ganar más dinero. ¿Quién es responsable de que suba el precio de la gasolina? ¿Una mujer feminista? ¿Una mujer que lucha por sus derechos? ¿O Repsol que está haciendo beneficios récord a costa de cobrarle dos euros el litro a la gente? O Donald Trump, que está llenando el mundo de guerras para apropiarse de las reservas de petróleo del mundo. ¿Quién es el responsable de que sea imposible comprar pescado, comprar huevos? ¿Es una mujer trans? ¿O es mercadona? ¿O es Carrefour? Son las distribuidoras de alimentos que asfixian a los productores, que asfixian a los ganaderos, a los agricultores, que ponen precios desorbitados y no paran de ganar dinero mientras la gente no puede llenar la lista de la compra. El problema siempre está arriba, no abajo, siempre está en sus negocios, no en las personas. Ese es el problema de la sociedad. Y esa es la razón de que hoy estemos como estamos. Vamos, esa es la razón por la que las élites están sacando a pasear al fascismo. Esa es la razón de la reacción de extrema derecha que estamos viviendo en todo el mundo. Proteger los negocios de los de arriba. Ese es el proyecto de la derecha. Son saqueadores, son ladrones de salarios y de pensiones. ¡Gracias! Para que te hagan unos análisis en la privada, porque han alargado las listas de espera en la pública. Que la educación sea un negocio, que si tienes una persona mayor no puedas tenerla en casa, no pueda vivir en su barrio, en la ciudad en la que ha vivido toda la vida y se tenga que ir a una residencia privada donde quien está llevándose el dinero es Florentino Pérez, igual que con la limpieza de los hospitales, de las escuelas, de los centros públicos. Todos, todo, todo para ellos es un negocio. Lo que quiero decir con esto es que el proyecto político de las derechas es muy fácil. ¿El precio de los alimentos sube o baja? Sube. ¿El precio de las casas sube o baja? Sube. ¿El precio de la energía, de la gasolina, sube o baja? ¿Y los salarios? Eso ya no sube, ¿verdad? ¿Y las pensiones? Eso tampoco, ¿verdad? El proyecto político de las derechas es muy claro. Coger el dinero de todos y de todas y subirlo para los ricos. Nuestro proyecto es el contrario. Atrevernos a mirar para arriba, coger el dinero que nos están robando y volver a bajarlo a su legítimo propietario, que es la gente. ¿Y cuál es el proyecto político del Partido Socialista? Pues tuitear muy fuerte contra los de arriba y hasta aquí. Por eso, por eso Gabriel y yo nos presentamos a las elecciones, porque tan importante es parar a las derechas como bajar el precio de los alquileres, como topar los pisos de temporada. Y solo la izquierda puede hacer las dos cosas, no lo van a hacer ni el Partido Popular y Vox, ni tampoco el Partido Socialista. Mirad lo que está pasando a vuestro alrededor, lo que no sale tanto en las teles o lo que en la tele nos dicen que está muy mal. Cuando los gobiernos fallan, la gente se levanta y las calles arden. Y eso es lo que está pasando en Francia, en Alemania. En España, durante muchos años, se ha dicho que la gente joven en Cataluña, en España, estaba adormecida, no le interesaba la política. Era mucho mejor años atrás. Esa gente joven es la que nos está diciendo cuáles son los principales problemas de nuestro mundo. Las que se han encerrado en las universidades contra el genocidio contra el pueblo palestino. Las que están saliendo por millones a las calles en Europa porque se les está obligando a estudiar en barracones, a estudiar sin aire acondicionado en verano y sin calefacción en invierno, porque no hay profes en las aulas, porque faltan recursos. ¿Un médico? Vale, perdonad, tenemos que parar, que vaya por favor un médico. Yo creo que ya están yendo, ¿verdad? Vamos a esperar si os parece a que se resuelva. Que no vaya nadie más que quien puede ayudar, ¿vale? ¿Vale? Esperamos que esto son cosas que pueden pasar. ¿No se oye? Vale. Esperad que se resuelva esto, que es un poco más urgente, que hay una persona que lo está pasando mal. Y ahora vamos con el sonido. Perdonad, pero es que no sé si va bien la cosa, por lo menos. ¿Sí? ¿Lo estáis viendo que está bien? ¿Sí? Vale, parece que está todo solucionado. Gracias a las personas que lo habéis hecho posible. Cuidadnos muy bien a esta persona. Bueno, parece que también hay un problema con el sonido. Si hablo un poco más alto, ¿se escucha mejor? Vale, pues así. Bueno, lo que os quiero decir es que si miráis a vuestro alrededor, Si veis lo que está pasando en las calles, es evidente que este sistema no funciona y que no basta con parar a las derechas. Tenemos que ser las más duras contra ese proyecto político que pone por delante el negocio a la vida, que quiere que la gente culpe al de al lado o culpe al de abajo, en lugar de mirar arriba A quienes se están llevando el dinero de la gente. Pero quedarse como estamos tampoco va a solucionar las cosas. Tener un gobierno del PSOE y una izquierda que se parece mucho al PSOE, que se presenta a las elecciones en la misma papeleta que el PSOE, no va a arreglar los problemas. Y este momento en el que las calles nos marcan el camino es el momento de bajar el precio de los alquileres, de expropiar las viviendas a los fondos buitre por miles, porque las casas son para vivir, no para hacer negocio. Es el momento de volver a decir que somos gente de paz, que no queremos ni genocidios, ni guerras por negocios, ni guerras por petróleo, que no queremos que manden a nuestros hijos, porque a sus hijos nunca los mandan, a las guerras de Trump. Este es el momento de decir que tienen que subir los salarios y bajar las horas de trabajo. 1.800 euros de salario mínimo y 30 horas de trabajo a la semana para poder pasar más tiempo con nuestra familia, para poder leer, para poder ir al cine, para poder irnos de vacaciones, para disfrutar de la vida, porque vida solo hay una. Es el momento de decir y de convertir en política que planeta igual que vida, solo hay uno y hay que cuidarlo y protegerlo del negocio salvaje del 1% porque este planeta nos tiene que durar para nosotras, para nuestras hijas, para nuestras nietas. Tiene que ser un mundo habitable, no podemos dejárselo destruido y que el dinero público, que el dinero público, además de que haya un poquito más, acribillando impuestos a los de arriba, el dinero público tiene que ser para lo público. Sanidad Pública, Educación Pública, Pensiones, Residencias, Servicios de Lucha contra las Violencias Machistas, Abogadas Especializadas, Psicólogas, las Teles, las Radios. Muchas, muchas veces, muchas veces nos dicen, no podéis, no hagáis ruido, no salgáis a manifestaros. Señoras y señores, se solidarizan antes con un contenedor quemado que con un chaval que no puede estudiar. Una vitrina rota se arregla, pero una vida destruida porque no hay sanidad pública o porque no hay educación pública, eso no se arregla tan fácil. Y por eso, hay que hacer lo que están diciendo las calles, que es soñar. Por eso, Gabriel y yo hacemos equipo en estas elecciones y podemos cometer muchos errores, pero todos y todas, las que estáis aquí y las que nos están viendo en sus casas, saben que ni Gabriel ni yo les vamos a fallar. Así que vamos a hacer que la política vuelva a lo básico. Paz, casa, trabajo, servicios públicos. Y Gabriel, por favor, la palabra es tuya."
+  },
+  {
+   "start": 2058.26,
+   "end": 2058.96,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Gracias, eh."
+  },
+  {
+   "start": 2060.8,
+   "end": 2061.28,
+   "label": "SPEAKER_02",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "Bueno."
+  },
+  {
+   "start": 2062.16,
+   "end": 2069.01,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¡Buen día, Noguarris! ¡Buen día, Barcelona! ¡Buen día, Cataluña! ¿Qué tal?"
+  },
+  {
+   "start": 2069.21,
+   "end": 2069.87,
+   "label": "SPEAKER_02",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "¿Cómo estás?"
+  },
+  {
+   "start": 2069.95,
+   "end": 2071.09,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¿Cómo estás? Bien, ¿tú?"
+  },
+  {
+   "start": 2071.65,
+   "end": 2073.03,
+   "label": "SPEAKER_02",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "Se han dicho... La que has liado, eh."
+  },
+  {
+   "start": 2074.79,
+   "end": 2075.69,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Mucha gente aquí."
+  },
+  {
+   "start": 2076.75,
+   "end": 2113.01,
+   "label": "SPEAKER_02",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "Estos días se han dicho muchas cosas de nosotras. Quiero que en dos minutos hagamos una cosa, ¿vale? Porque se ha hablado mucho de nosotros estos días, pero muy poco de qué es lo que queremos hacer Gabriel y yo juntos. Entonces os pido que nos lancéis, rapidito, dos o tres temas que os importen y primero Gabriel, luego yo os decimos lo que queremos hacer juntos. Venga, educación han dicho por aquí. Vivienda, vivienda. Elige, amigo."
+  },
+  {
+   "start": 2115.87,
+   "end": 2211.77,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Vivienda es el temazo, ¿no? Hay tres temas en esta campaña, hay tres. Hay tres temas en la vida de la gente, tres. Vivienda, vivienda y vivienda. ¡Qué linda! Lo demás está muy bien, ¿eh? Pero ¿de qué sirve si no tienes un techo? Yo solamente creo que hay dos posibilidades en este debate. Yo lo hice así en el Congreso de los Diputados, me dieron por todos lados. Lo vuelvo a repetir. Esta es una vía, que es una familia, una casa. Tener estas llaves en el bolsillo dan muchísima seguridad a mucha gente. Te llames como te llames, hables como hables, tengas la bandera que tengas en el balcón, sea lo que quieras ser. Esto da mucha seguridad. Pero hay mucha gente que prefiere esto, que quita esto a cambio de esto. Y tienen nombres y apellidos. Se llaman PP, se llaman Vox, se llaman Junts, sí, Junts, y también, a veces, si no somos capaces de doblarles el brazo, también son el PSOE, porque nadie se equivoque. Si aquí Podemos, Bildu, Esquerra Republicana de Cataluña, Cumpromís y el BNG no nos cuadramos, desde hace seis años, semana a semana, el vicepresidente del gobierno sería un tal Albert Rivera. ¿Nos acordamos de esto o no nos acordamos? Sí, nos acordamos, ¿no? La primera ha respondido ya."
+  },
+  {
+   "start": 2212.51,
+   "end": 2219.93,
+   "label": "SPEAKER_02",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "Una persona, una casa, una familia, una casa. A mí eso me gusta. Y lo de expropiar a los fondos buitre, me gusta también."
+  },
+  {
+   "start": 2225.2,
+   "end": 2297.42,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "El otro día en Cataluña Radio me comparaban con Milei por sacarle a Junts 50 pavos. Y eso era como la motosierra de Milei. Cataluña Radio, sí, sí, en Cataluña Radio. A Cataluña Radio me comparaban con Milei por traer un billete de 50 pavos a Junts. Según vos, ¿por qué vais a traer un billete de 50 pavos a Junts? Ya lo digo yo porque prácticamente nadie más lo dice. Porque hay diputados, diputadas de Junts, que tienen empresas inmobiliarias. Que tienen empresas inmobiliarias, que gestionan viviendas. Y cuando tú votas de forma autolesiva, cuando un partido vota de forma autolesiva, porque según las encuestas es autolesivo putear a la gente con la vivienda, Y tú continúas haciendo y tienes empresas inmobiliarias declaradas, que tampoco es un periodismo de investigación muy profundo, son 30 segundos, entra a la web del Congreso. Entonces la pregunta es, ¿quién paga aquí? ¿Quién paga aquí? Y si a mí eso me supone que a segundos que en mi charla de comunicación me den, pues oye, bienvenido sea que me llamo Rufián, ¿no?"
+  },
+  {
+   "start": 2304.06,
+   "end": 2364.59,
+   "label": "SPEAKER_02",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "Bueno, os voy a dejar con él, solo quiero decir una cosa más. Importa mucho lo que queremos hacer juntos, lo que podemos hacer juntos, pero también importa con quién se hace. Y yo quiero decirte, Gabriel, por qué para mí es importante hacer esas cosas contigo. Y es porque eres una persona justa y eres un tío valiente. Que no se va a doblar y que en los momentos difíciles ha sido capaz de decir las cosas que nadie más se atrevía a decir y por eso hay tanta gente que te quiere y que te quiere ver en las instituciones representando esa voz de la calle porque ya de los rentistas, de los especuladores, de la banca, de los multimillonarios, de las energéticas hay muchos. Así que gracias y la palabra es tuya."
+  },
+  {
+   "start": 2398.44,
+   "end": 2787.48,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Espacios comunes de optimización electoral. Porque esto no iba de someterse al PSOE entrando en el PSOE. Esto iba de someter al PSOE desde su izquierda, simplificando, optimizando la oferta electoral. Ya hablamos un poco de esto. Y yo le empezaba, estábamos cenando y empezaba, bueno Irene, porque claro, esto que viene va a ser muy duro. Y ya me miraba como diciendo, pero qué me estás contando, ya lo sé. Y yo, no, va a ser muy duro y tal, y entonces a mí me gustaría que tú y yo, pues alcanzáramos algún tipo de espacio común, y de repente deja de comer, deja de cenar y me dice, ah, sí, ah, vale, pero tú sabes que te van a dar, ¿no? Y yo, jaja, sí, bueno, a mí siempre me dan, o sea, soy indepe, charnego, de Esquerra, trabajo en Madrid, rufián, bueno, en fin, soy zurdo incluso. Incluso, a mí siempre me dan. Me dicen, no, no. Se puso el suelo y me dice, no, no, te van a dar, ¿eh? Te van a dar mucho, ¿eh? Y yo, bueno, bueno. No, no, es que vas a dejar de ser el niño del cumpleaños. Te van a dar como a nosotros nos dan. Y yo me fui al hotel pensando, que exagerada, y me han dado, y lo que me queda, nunca fue tan caro quedarte en tu casa. En fin, tengo dudas de cómo comenzar, comenzaré recordando, pero yo creo que es bueno recordar. Hay mucha gente en Cataluña, hay mucha gente dentro del independentismo, hay mucha gente incluso dentro de la izquierda republicana que dice eso de las izquierdas españolas, eso del feixismo español, eso no es cosa nuestra, nosotros a lo nuestro. Como si los rioles no existieran, no se si hubiésemos sido feixistas en esta edad. No, nosotros a lo nuestro. La frase más mágica y absurda que he sentido en este tiempo, a la próxima, al front de Aragón, irás tú. Como si hubiera una frontera mágica a Fraga, donde si, por ejemplo, el ministro de Deportes, Fernando Llorente, ministro de Cultura, Bertín Osborne, presentador del telediario Iker Jiménez, Ministra de Vivienda, Isabel Díaz Ayuso, a mí no me hace gracia, porque es muy posible. Ministra de Defensa, Ana Vázquez, la del spray, pero seguramente sería Netanyahu, de facto. Ministro del Interior, Abascal, de facto, Trump. Trump, presidente Feijóo. Resultado, 210 diputados. Cambios constitucionales. Privatizar, cargarse el sistema de pensiones, el sistema de sanidad pública, el sistema de educación público, ilegalizaciones, volver al talego. Alguien cree, alguien cree que hay una especie de magia que convierte a Cataluña, incluso Euskadi, incluso Galicia, porque votan diferente, en indemnes de esta rabia fascista. Alguien se lo cree de verdad. Pero ¿qué clase de magia vendéis? ¿Qué clase de magia vendéis? Veis, pues hay una gente que dice que eso nuestro no va a eso. Hay que recordarlo. Y yo recuerdo un discurso que va a decir algo que según usona. Camaradas, os habla vuestro hermano. El fascismo está a las puertas de esta ciudad y vosotros la estáis defendiendo. Los hijos del pueblo saben que tienen las armas para vencer, para ganar esta guerra. Mi corazón está con vosotros y lo abierto sobre vuestros corazones. Camaradas, Cataluña os ama. Jus cumpaens. 1936. Pero es que forma parte de la nuestra historia. Forma parte de la nuestra sangre, de nuestra ADN. ¿Qué es eso de decir que qué más da? Pero también hay gente, dentro del independentismo, dentro de Cataluña, dentro de nuestro partido hasta y todo, que dice eso de, no, el bo era masiá, el otro era más escarranoso, fue hasta y todo ministro español, masiá fue militar español, pero bueno, es igual. La cuestión, el voto a Masiá. Ni izquierdas, ni derechas, catalanista, patriota. Vamos a recordar también a Masiá. Los ideales de izquierdas solo pueden ser representados por partidos de izquierdas. Repito, los ideales de izquierdas solo pueden ser representados por partidos de izquierdas. Y no hay partido más real que el nuestro. Y aunque las derechas catalanas, repito, y aunque las derechas catalanas se muevan de nuestros anhelos de justicia y digan que ellos también los sienten, la verdad es que no lo han demostrado nunca. ¡Francés Macià! ¡1932! ¡Pero quina magia veneu! ¡Quina irresponsabilidad es no involucrarse! Y también hay gente dentro de Cataluña, dentro del independentismo, a més enllà, hasta dentro de nuestro partido que viene a decir de..."
+  },
+  {
+   "start": 2788.46,
+   "end": 2792.86,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Pero esto de Podemos? ¿Pero qué es eso de Podemos? ¡Son españoles, vosotros!"
+  },
+  {
+   "start": 2795.14,
+   "end": 3206.26,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Como si no hubiera votantes catalanes de Podemos. Como si no hubiera votantes que no compartan, por ejemplo, nuestros símbolos, que no se emocionan con nuestra bandera, con nuestro himno. No hay una manera correcta de ser catalán. No hay una manera correcta de ser catalán. Si compartes los valores, como la libertad, la justicia social, la democracia, la empatía con la otra, eres de los nuestros. ¡Nuestras! ¡Edigis como edigis! ¡Porque al frente somos nosotros! Entonces, ¿y alguien que diga que a eso de Podemos, que dónde vamos? No me recuerda una otra vez. Tenéis que pasar de la cultura de la petición y de la resistencia a la cultura de gobierno y de exigencia. Exigir y gobernar. Aguantar, aguantar y aguantar, sí, aguantaremos hasta lo imposible. Pero también es prioritario, es primordial encontrar espacios de colaboración comunes para someter al PSOE y no para estar sometidos al PSOE. Aquí hay gente con la que quiero caminar. Julio Anguita, 2016, Meeting de Podemos en Córdoba. Si lo dice Julio, ¿yo quién soy para no hacer lo mismo? Hay uno, gracias. Yo creo que Irene lo ha clavado, creo que la vivienda es primordial, evidentemente nosotros somos muchas cosas, muchas cosas, también lo decía Federica Montseñ, pero ahora somos principalmente antifisistas porque conocemos el fisismo. Y la vivienda es primordial. Nomás os daré tres o cuatro dadas. Si hacéis ahora, si hacéis ahora mismo una recerca a, yo qué sé, por ejemplo, a Idealista, que patrocina directamente a según a qué partidos o a según a qué diputados, si hacéis una recerca a Idealista y buscáis pisos a Barcelona, os saldrán de la mitad 5.000 pisos a Barcelona. No está mal. Si volvéis a hacer la recerca y ponéis una criba que, por ejemplo, diga Dos habitaciones, 60 metros, 1.000 pavos, ¿sabeu quants queden de mitjana? 60. 5.060 y 40 son pisos turísticos. Esta es la situación. Lo digo porque está muy bien. Ahora el PSOE habla de vivienda. Y sí que es cierto que PP, Vox y Junta se han cargado los últimos decretos, pero, monstruo, gobiernas hace seis años, quedas muy guapo con Broccano, pero ha podido hacer muchas cosas, por ejemplo, inspecciones a pisos turísticos, el 95% del 95% de los pisos turísticos son ilegales. ¿Os imagináis que un derecho como el agua, como el pan, fuera un 95% ilegal? ¿Cuál escándalo habría? Las inspecciones del PSOE a sus comunidades, ¿sabéis cuántas han estado? De 500.000 pisos turísticos que hay de mediana en este país. 500.000 inspecciones. 500.000. También ha podido hacer muchas otras cosas. Más datos. El 45% de los inquilinos de Lloguer son pobres. Seguramente lo sabéis perfectamente. El 45%. Porque pagan la mitad de lo que ganan en su piso. En el peor de los casos, en su habitación. El 60% de los pisos de las viviendas que se han comprado han estado a tocateja. Nomás el 14% eran para vivir. Si una barra de pan hubiera subido como ha subido la vivienda en los últimos 5 años, una barra de pan costaría hoy 13 pavos, 13 euros. ¿Qué haríais si el pan costara 13€ la barra? ¿Alguien dudaría de que haya que intervenir el mercado de la vivienda? ¿Alguien dudaría de que haya que intervenir el mercado del pan? ¿Alguien dudaría? ¿Construir más? Sí, está bien. Construir más es lo que se ha hecho desde el 80. ¿Por qué serveis construir más? Porque quien acumula, acumule más. Si tú no frenas, si tú no prohibes al acumulador, ¿de qué sirve construir más? Y también hay gente que dice, ¡no! ¡Millones trenes! Ah, entonces, las ciudades para los ricos, ¿no? Y la gente, los pueblos, que es más barato. Porque yo no tengo derecho a vivir en mi ciudad. ¿Por qué no? La única solución, y nos comprometemos desde aquí, Pero necesitamos la fuerza real para hacerlo. Es que la primera ley de un gobierno realmente progresista, con izquierda republicana y Podemos, realmente somete al PSOE, es decir, una familia, una casa. Y prohibir la especulación. Si te quieres hacer rico, te compras cuadros, te compras cromos o te compras vino. Pero no me jodas con la vivienda. Yolanda, ya también... ¿Me estoy haciendo pesado, quizás? ¿Sí? ¿Una mica?"
+  },
+  {
+   "start": 3207.5,
+   "end": 3207.94,
+   "label": "SPEAKER_02",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "Ya acabo, ¿eh?"
+  },
+  {
+   "start": 3209.18,
+   "end": 3839.59,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Ya también hay mucha gente... Es que yo tenía ganas, ¿eh? Se nota, ¿no? Tenía ganas... Vale... Tengo... ¡Fua! Entonces, hay mucha gente también que dice que eso de negociar, nosotros también lo nuestro. ¡Ostras! ¿Negociar? De hecho, también por errores nuestros, desgracia de gobierno, autocrítica, total, siempre, pero hace 3-4 años, hace 3-4 años, nosotros hemos padecido mucho un eslogan miserable, que mucha gente ha comprado, y que nosotros no hemos sido capaces, por falta de carácter, de contrarrestar, en lugar de nada. Y eso lo decía gente, lo decía gente que había estado durmiendo en una silla durante cuatro años, durante cuatro años, de forma injusta y miserable. Pero el día siguiente de salir, gracias a la fuerza negociadora de Esquerra Republicana, porque va a ser, sí, va a ser Esquerra Republicana, El día siguiente de salir de su sala, decían en el medio de comunicación que Esquerra Republicana eran unos venidos y a cambio de nada. ¿Pero qué tipo de miseria humana es esta que tú te plantas en un plató, que por primera vez duermes en tu casa después de cuatro años en el talego, repito de forma injusta y miserable, y tú te plantas en un medio de comunicación y dices que somos unos venidos? ¡Pero quina mena de miseria moral es esta! ¡Vergonya nacional! ¡Va a ser una vergonya nacional! Y ahora os diré, ahora os diré, ¿a cambio de qué vota la derecha catalana, anomenada Junts? Junts hace discursos en un catalán perfecto, no macarrónico como el mío. Estoy muy orgulloso, muy orgulloso, pero hacen discursos en un catalán perfecto. Los medios de comunicación no calculan el porcentaje de catalán que hablan porque siempre hablan catalán. Y hablar catalán es importante. El catalán es la lengua de mi país. Es el idioma que yo he elegido para hablar con mis hijos. Y ha de ser la lengua, de hecho la única lengua oficial en nuestro país, bajo mi punto de vista. ¿Pero de qué sirve hablar un catalán perfecto? ¿Traer una estelada a una bandera de España, a una rueda de prensa, y traer la estelada muy fuerte, si después votas 44 veces en PP y en Vox contra la clase trabajadora de Cataluña? ¿De qué sirve? Yo pregunto, ¿de qué sirve? ¿De qué servéis hablar un catalán perfecto si votas en contra del escudo social que iba a prorrogar las pensiones y las ayudas de millones de personas? ¿De qué servéis si votas en contra de todos los decretos de vivienda? ¿Por qué pagan? ¿De qué servéis? Y el PSOE, este PSOE, y lo digo abiertamente, es una criatura nuestra, es una criatura de compromiso, de Benegá, de Bildu, de Podemos, de Esquerra Republicana, de formaciones políticas, sobre todo las soberanistas, que quizá no estábamos llamadas a hacerlo, pero que hemos demostrado un patriotismo muchísimo más grande que de aquellos que tienen aquí una pulserita, también algunos una pulserita con la estelada. Y yo quiero, lo digo abiertamente, yo quiero un gobierno del PSOE sometido a estas fuerzas políticas porque es mentira que el PP y el PSOE sean lo mismo, siempre y cuando seas capaz de coger al PSOE de la solapa y decirle, aquí se legisla para la gente. Yo no quiero gobernar España, pero sí quiero que se gobierne bien España. Y esto va en estas elecciones, en estas elecciones, a Cataluña os puedo asegurar, y ya sé que todo el mundo lo dice, todo el mundo lo dirá, pero estas elecciones van de Esquerra Republicana o del PSC. Y yo creo humildemente que el PSOE no merece el premio del anomenado voto útil. Nosotros hemos sido los más antifascistas, los más útiles durante todo este año. Yo demano una mica más de fuerza. Si tenemos más fuerza, lo haremos. Lo haremos. Bueno, acabo con un mensaje que yo creo que es importante. A mí mucha gente del meu partido me dice, no hables de Uriol, que la haces grande, que la haces grande, ya, tan debo, pero es que ya es muy grande, ya es muy grande. Es tan grande que, malgrado, por vergüenza nacional, traerá un inmenso resultado. ¿Por qué? Porque hay mucha gente que patea mucho con el odio desenfocado. No hay nada peor que ser pobre, que es culpabilizar a alguien más pobre que tú de lo pobre que eres. Y eso es lo que hace Ríos. Yo, me cuesta lo que me cuesta, porque creo que es mi obligación, Porque repito, sí, yo soy independentista, soy feminista, soy ecologista, soy socialista, soy progresista, pero principalmente soy antifeixista. Y yo a la Silvia Urriol lo que le digo es que ni es valiente ni es patriota, porque tú no puedes ser patriota odiando a la mitad de la tuya patria. Y no hay derecho que gente como Abascal y Uriol, que por cierto, podrían ir por Marrakech sin llamar la atención, porque aquí de pureza no hay, la pureza para el aceite de oliva, no hay derecho, no hay derecho que tú digas que eres patriota odiando a la mitad de tu patria. Y tampoco son valientes. La Silvia Ríos no es valiente. No es valiente. El día que se ponga, como dice la Irene, con los de abajo, yo no creeré que es valiente. Pero mientras se ponga con un chico que llega a los bajos de un camión, a mí me parece simplemente que es una cobarde miserable, igual que Abascal. Y acabo. Yo en esta campaña, en esta campaña que quizás es la última, En esta campaña yo solo prometo dos cosas. Son dos defectos en política. No deberían ser, pero son dos defectos en política. La primera es que yo no hablaré sin decir nada. Creo que se ha notado. Yo no sé hablar sin decir nada. Y dos, yo trataré a la gente como el que son, como el que sois, adultos, adultos. Así que seremos terriblemente frontales con todo lo que comporta. Hay una película que a mí me encanta y últimamente me acuerdo mucho de ella, Gataca. ¿Gataca la habéis visto? Es cojonuda. Gataca, una sociedad distópica en la que hay perfectos e imperfectos, gente llamada a hacer cosas maravillosas, a quizá estar aquí. Y gente no llamada, gente imperfecta, gente como vosotros. Es que no hay nada noticiable en que alguien como nosotros estemos donde estamos. No hay nada noticiable. Nosotros somos gente normal que hemos tenido golpes de suerte o que hemos tenido la responsabilidad de asumir una responsabilidad histórica y social que nos enorgullece. Pero en Gataca explicaban esto y al final hay una escena en la que, como sabéis, dos hermanos, el perfecto y el imperfecto, acaban compitiendo como hacían de pequeños en el que siempre ganaba el perfecto, el que estaba creado para ganar. Y cuando son adultos vuelven a hacer lo mismo que es nadar hacia una boya, hasta una boya. Y en ese momento por primera vez el imperfecto que se lo ha currado, que ha mentido, que ha sorteado mil obstáculos hasta llegar donde nadie creía que iba a llegar, llega primero a la boya. Hasta el punto que tiene que volver para salvar a su hermano llamado a hacer grandes cosas. Y el hermano, cuando le salva y llega a la arena, le pregunta, ¿cómo lo has hecho? ¿Cómo has llegado hasta aquí? Y él contesta, porque nunca me guardé nada, no pienso en la vuelta. Y yo es que no soy tan listo, o sea, yo no pienso jamás en la vuelta. Lo único que os puedo asegurar es que lo voy a dar, es que lo vamos a dar, absolutamente todo. Todo, cueste, loco, cueste, dentro y fuera. Muchas gracias."
+  }
+ ]
+}

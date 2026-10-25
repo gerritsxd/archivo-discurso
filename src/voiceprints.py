@@ -26,7 +26,7 @@ PEOPLE = ROOT / "config" / "people.json"
 
 # Decision rule (see ARCHITECTURE.md section 3). Calibrated on the first recordings in
 # m2/CALIBRATION.md; revisit as more hand-checked recordings come in.
-THRESHOLD = 0.55   # minimum cosine similarity to accept a name
+THRESHOLD = 0.65   # minimum cosine similarity to accept a name (0.55 let two PSOE-rally voices through as Colau, sim 0.58-0.59)
 MARGIN = 0.10      # best match must beat the second best by this much
 MIN_TALK_S = 20    # speakers with less speech than this are too short to judge
 

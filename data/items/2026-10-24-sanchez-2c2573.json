@@ -1,0 +1,303 @@
+{
+ "id": "2026-10-24-sanchez-2c2573",
+ "date": "2026-10-24",
+ "expected_person": "Pedro Sánchez",
+ "kind": "rally",
+ "outlet": "PSOE YouTube",
+ "title": "PSOE / Pedro Sánchez en Granada",
+ "url": "https://www.youtube.com/watch?v=ptynjYFKTpI",
+ "language": "es",
+ "duration_s": 5245.0,
+ "sha256": "4a149b4623779695a56d4de74b34750c02b8f1e3116f1036089d04810f5d5e9e",
+ "fetched_at": "2026-10-25T09:36:31+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.55,
+  "processed_at": "2026-10-25T16:59:16+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_03": {
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "decision": "match",
+   "reason": "sim 0.84, next 0.23",
+   "talk_s": 1113.1
+  },
+  "SPEAKER_04": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "unknown",
+   "reason": "best sim 0.50 < 0.55",
+   "talk_s": 34.4
+  },
+  "SPEAKER_02": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "unknown",
+   "reason": "best sim 0.33 < 0.55",
+   "talk_s": 28.5
+  },
+  "SPEAKER_01": {
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "decision": "unknown",
+   "reason": "best sim 0.33 < 0.55",
+   "talk_s": 656.7
+  },
+  "SPEAKER_08": {
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "decision": "unknown",
+   "reason": "best sim 0.32 < 0.55",
+   "talk_s": 103.3
+  },
+  "SPEAKER_06": {
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "decision": "unknown",
+   "reason": "best sim 0.30 < 0.55",
+   "talk_s": 727.3
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 6",
+   "decision": "unknown",
+   "reason": "best sim 0.29 < 0.55",
+   "talk_s": 83.5
+  },
+  "SPEAKER_07": {
+   "person": null,
+   "name": "Hablante sin identificar 7",
+   "decision": "unknown",
+   "reason": "best sim 0.27 < 0.55",
+   "talk_s": 72.4
+  },
+  "SPEAKER_05": {
+   "person": null,
+   "name": "Hablante sin identificar 8",
+   "decision": "unknown",
+   "reason": "best sim 0.21 < 0.55",
+   "talk_s": 25.1
+  }
+ },
+ "turns": [
+  {
+   "start": 0.0,
+   "end": 96.18,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 6",
+   "text": "Hombres y mujeres impulsa el crecimiento económico además de cerrar las brechas sociales. Que se puede condenar el terrorismo de jamás, rechazar el genocidio de Gaza y liderar el reconocimiento del Estado palestino. Todo frente a esa internacional ultraderechista que sólo sabe insultar y mentir. Que sólo sabe hablar de recortes y de sacrificios, ya sea con tijeras o con motosierras. Por eso hoy somos más necesarios que nunca. para garantizar los derechos de la gente, frente a la agenda reaccionaria que la derecha y la ultraderecha imponen allí donde gobiernan. Su terraplanismo ante la emergencia climática, su derogación de derechos y libertades a las mujeres y al colectivo LGTBI, sus recortes mientras ponen la alfombra roja a los tecno-oligarcas, su servilismo ante los fondos buitre y su obsesión por hacer negocio con las pensiones de nuestros mayores, Su falta de respeto al derecho internacional y los derechos humanos. Una internacional ultraderechista que solo ha traído guerras, odio y desigualdad social. Si no queremos eso para este mundo, ¿cómo lo vamos a querer para España? España es un país valiente, que respondió al avance ultraderechista con una gran ola de movilización progresista. Lo hicimos en 2019 y en 2023 y lo vamos a volver a hacer. El 29 de noviembre España dirá alto y claro, ni un paso atrás, siempre adelante, con la fuerza de la gente."
+  },
+  {
+   "start": 102.94,
+   "end": 110.5,
+   "label": "SPEAKER_08",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "El sistema de pensiones es un zombi. Tenemos que ser valientes y entender que el modelo hay que cambiarlo, porque el sistema actual como está no va a funcionar y va a petar."
+  },
+  {
+   "start": 110.62,
+   "end": 117.6,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Hay que llevar a cabo una reforma drástica del sistema de las pensiones. Habría que buscar, dibujar un modelo de pensiones mixto."
+  },
+  {
+   "start": 118.86,
+   "end": 145.68,
+   "label": "SPEAKER_08",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "¿Lo has oído bien? Están hablando de tu pensión. PP y Vox quieren gobernar España. Y si lo hacen, de sus decisiones dependerán las pensiones de más de 10 millones de personas, pero también las de quienes todavía tenemos 20, 30, 40 o 50 años. Las nuestras, las de todos. Hay otra forma de entender las pensiones. Y es con un sistema público que las garantice. Después de toda una vida trabajando, no tienes que perder poder adquisitivo."
+  },
+  {
+   "start": 145.68,
+   "end": 147.22,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 7",
+   "text": "Porque esto ya lo hemos visto."
+  },
+  {
+   "start": 147.98,
+   "end": 186.64,
+   "label": "SPEAKER_08",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Ya lo hizo el PP cuando gobernaba, congelando las pensiones, dejando a millones de pensionistas de lado mientras reivindicaban en las calles. Y el gobierno les dio respuesta, vinculando las pensiones al IPC. Una decisión, por cierto, con el voto en contra del Partido Popular. Por eso protegemos las pensiones más bajas y garantizamos la hucha para los pensionistas de ahora y del futuro. Porque defender las pensiones no es hablar solo de nuestro padre ni de nuestro abuelo, es hablar de nosotros y no solo, de lo que queremos ser dentro de 20, 30 o 40 años, de quienes creemos que estén ahí para protegernos. Pero"
+  },
+  {
+   "start": 195.5,
+   "end": 200.2,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Sánchez es un mentiroso compulsivo, es hostiable, un caudillejo tercermundista,"
+  },
+  {
+   "start": 200.26,
+   "end": 201.98,
+   "label": "SPEAKER_08",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "cabrón, el jeta de la maretta,"
+  },
+  {
+   "start": 201.98,
+   "end": 209.1,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "el galgo de Paiporta, creo que debería irse de este país en un maletero, repugnante"
+  },
+  {
+   "start": 209.1,
+   "end": 210.76,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "presidente del gobierno de España,"
+  },
+  {
+   "start": 211.02,
+   "end": 224.98,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "mentiroso, cobarde, es un corrupto, un traidor y un indecente, es un farsante, un peligro, un caudillismo que en España no se veía,"
+  },
+  {
+   "start": 232.7,
+   "end": 234.9,
+   "label": "SPEAKER_03",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Yo seré un perro, pero no tengo amo."
+  },
+  {
+   "start": 236.16,
+   "end": 264.98,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "¿Por qué nos insultan? ¿Por subir el salario mínimo y batir récord de empleos? ¿Por revalorizar y llenar la hucha de las pensiones? ¿Por extender y equiparar los permisos de paternidad y maternidad? Por aprobar una ley que garantiza la igualdad salarial entre hombres y mujeres Por aprobar medidas en favor del pequeño propietario y los inquilinos frente a los fondos buitres Por alzar la voz contra el genocidio en Gaza"
+  },
+  {
+   "start": 266.94,
+   "end": 315.92,
+   "label": "SPEAKER_08",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Vemos a políticos en muchas teles, en muchos mítines Pero tengo que deciros algo y es que en ningún sitio"
+  },
+  {
+   "start": 315.92,
+   "end": 363.41,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 7",
+   "text": "he visto lo que pasa aquí En los actos del Partido Socialista Tanto cariño, tanto abrazo y tanto amor hacia nuestra abuela y a nuestro abuelo y el reconocimiento con sus pensiones a toda una vida trabajando a nuestro hijo e hija que queremos protegerlos de la amenaza de las redes sociales amor hacia nuestras madres, hermanas y amigas a las que queremos vivas sin miedo y con todos sus derechos intactos Amor a nuestros animales, amor a la naturaleza, al cine y a nuestra cultura."
+  },
+  {
+   "start": 638.06,
+   "end": 721.55,
+   "label": "SPEAKER_03",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Y echando la vista atrás, pienso en todas las veces en las que España ha tenido que defender sus principios pese a las enormes presiones. Por eso es tan importante que recordemos por qué estamos aquí. Me gustaría enseñaros algo. Cuando miro este cuadro no veo solo una obra de arte. Veo qué sucede cuando la barbarie se impone a la razón. Por eso durante estos años España ha defendido que ninguna guerra es inevitable, Que ninguna vida vale menos que otra. Y que mirar hacia otro lado no debería ser nunca una opción. Lo hemos defendido en Europa y también en el resto del mundo. Y no ha sido fácil. Cuando unos apostaban por las bombas, nosotros dijimos no a la guerra. Cuando nos exigieron aumentar el gasto militar hasta el 5% del Producto Interrupto, nosotros dijimos no a recortar un solo céntimo de euro de nuestro estado de bienestar. Y cuando muchos guardaron silencio, nosotros denunciamos el genocidio del pueblo palestino en Gaza. España va a seguir defendiendo una idea muy sencilla, pero muy poderosa. La convivencia. Que juntos somos más fuertes. Y cuando miro este cuadro, siempre recuerdo que hasta incluso en los momentos más oscuros, hay una luz. La luz de nuestros valores."
+  },
+  {
+   "start": 721.55,
+   "end": 1672.91,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Me siento de ser socialista. Qué orgulloso me siento de ser andaluz. Y qué orgulloso me siento de tanta gente que habéis venido desde tantos rincones de esta provincia de Granada, Jalonada por 174 municipios, por 6 entidades locales autónomas, de otras provincias que también, vecinas, os habéis acercado aquí hoy. Gracias por el esfuerzo, el sacrificio, porque sin duda es vuestra fuerza la que necesitamos para ganar las próximas elecciones. Y gracias a los sindicatos, gracias por el trabajo que hacéis permanentemente por defender la dignidad de los trabajadores, gracias a las asociaciones y colectivos múltiples que nos acompañáis hoy aquí, del ámbito social, del ámbito de la lucha feminista, del ámbito de la dignidad de las personas en el ámbito sanitario, que hacéis todo aquello que necesitáis y necesitamos de vosotros y por lo tanto tenéis todo nuestro apoyo. Bienvenida María Jesús siempre a esta tu tierra a la que defiendes con uñas y dientes desde el Gobierno de España o ahora en el Parlamento de Andalucía. Muchas gracias María Jesús y bienvenido. Bienvenido presidente Pedro Sánchez. Bienvenido a Granada. A la tierra que acogió Fernando de los Ríos, la de Francisco Ayala, la de Mariana Pineda, la de Federico García Lorca. Esta es su sala hoy aquí, la que acogió a Manuel de Falla, la tierra de Enrique y Estrella Morente, la de niños mutantes, por cierto Juan Alberto, líder y vocalista, gracias por estar hoy aquí acompañándonos, la tierra de Carlos Cano y la tierra de Miguel Ríos,"
+  },
+  {
+   "start": 1672.91,
+   "end": 1675.03,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 8",
+   "text": "¡bienvenidos!"
+  },
+  {
+   "start": 1687.41,
+   "end": 2344.15,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "La del sacromonte con sus zambras, la del albaicín y la alhambra, que en árabe es jambra, que significa la roja, y al fondo el blanco de la sierra nevada. ¿Se puede tener más privilegio que ese? Pues no. Y hoy además, esta provincia, esta ciudad, este territorio, a todo ese patrimonio, a todas esas personas ilustres, luchadoras, a todos esos grandes artistas que ha dado, le sumamos la presencia del mejor presidente que protege a su gente y se enfrenta a los poderosos. Gracias, Pedro Sánchez, por engrandecer la historia de Granada hoy con tu presencia aquí, en Granada. Contigo y con tus gobiernos, los hombres y mujeres de esta provincia tienen más derechos, están mucho más protegidos. Queridos, esta provincia te agradece porque en este momento es mucho más competitiva y tiene más progreso, tiene más futuro en el ámbito del empleo, de la creación de la riqueza, gracias al esfuerzo importante y al desembarco de medidas sociales, económicas y de progreso que aquí en Granada, como en el resto de España, gracias a tu Gobierno, del que ha formado parte María Jesús Montero durante mucho tiempo, hemos conseguido. Así que gracias, presidente, en nombre de Granada, en su conjunto, de todos sus estamentos y sectores. Gracias, presidente, gracias, Pedro, en nombre de los 200.000 pensionistas de Granada, de esta provincia, que han visto cómo se han incrementado desde el año 2017 un 50% sus pensiones y, lo más importante, Han visto garantizado el legítimo derecho que después de tanto esfuerzo tienen para no preocuparse por su futuro. Gracias también en nombre de los más de 30.000 estudiantes, tanto universitarios como no universitarios, que han disfrutado de ese incremento del número y de la cuantía de las becas. Un 84% más que en el año 17, cuando gobernaba la derecha, porque creemos en el ascensor social de la educación. Claro que sí. Gracias en nombre de los más de 40.000 trabajadores y trabajadoras que se han beneficiado de ese aumento del 66% del salario mínimo interprofesional. Más de 500 euros al mes porque eso dignifica a las personas, a la clase trabajadora, a la clase media de este país. Gracias en nombre de todas las personas que son usuarios de la ley de la dependencia, de sus familiares, de las trabajadoras de ayuda a domicilio por haber incrementado la financiación y haber garantizado la aportación del Estado a través de las reformas necesarias. Gracias en nombre de todos y cada uno de ellos y de ellas. Gracias en nombre de las mujeres, de los hombres de esta provincia por haber hecho un esfuerzo ímprobo, nunca suficiente, pero duplicando la financiación destinada a la lucha contra la violencia de género a través del Pacto de Estado contra la Violencia de Género. Gracias, eso es política. Gracias por las ayudas, gracias por las ayudas. Más de 280 millones de euros que han recibido nuestros agricultores y ayuntamientos de forma inmediata tras los daños sufridos como consecuencia de la sucesión de borrasca, además de otras situaciones que hemos vivido absolutamente complejas. O los 52 millones que ya se han recibido también a través del Consorcio de Compensación de Seguros por los daños sufridos en esos terremotos, Asociación de Terremotos, que, como bien sabe y conoce, hemos sufrido aquí, en Granada. Bueno, y alguno que otro todavía, ¿verdad? Alguno que otro todavía. Gracias por la inversión histórica que has hecho en Granada, sacando del cajón del olvido tantos y tantos proyectos. Aquella desconexión ferroviaria, aislamiento ferroviario de más de tres años y medio que, de forma inmediata, corregiste. Gracias por la conexión directa, mediante alta velocidad, entre Granada y Málaga. Gracias por la ingente inversión que se está haciendo en infraestructuras, con la variante de la hoja duplicando. La integración ferroviaria, por lo tanto, la nueva estación de Granada, consensuada con el resto de Administraciones, porque nosotros somos gente de consenso, la mejora de las conexiones con Almería y esa conexión histórica con el corredor del Mediterráneo de Andalucía, con más de 1.600 millones de euros de inversión en Almería y en la región de Murcia. Gracias por apostar por las inversiones, por las inversiones viarias, por la Pinos Puente a Tarfe, a Granada, convertida en autovías, a Nacional 432, que tan importante es para nosotros, por la segunda circunvalación, claro que sí, todos son, y llevan el sello, infraestructuras que llevan el sello del Gobierno de España. La modernización de los regadíos, las conducciones de rules, que era una situación absolutamente vergonzosa, que el PP dejó absolutamente olvidada y que hoy ya tiene un desglosado con 55 millones de euros por parte del gobierno de España, fondo perdido, que ya está entregada, tanto para garantizar el suministro de agua potable en la costa de Granada como para empezar a regar. Y gracias, y gracias, podría seguir así, pero bueno, la cartulina no me da para más, podría seguir así mucho rato, pero gracias sobre todo por una cosa importante, muy importante. Gracias por la apuesta, por la tecnología que nos coloca como líderes mundiales en la investigación de los materiales necesarios para que a través de esos reactores de fusión podamos conseguir la energía más limpia, la energía infinita, que es la misma de las estrellas y del sol, aquí al lado, en Escúzar, a través del INMIDONES. Gracias, presidente. Somos referentes internacionales en la investigación y en la innovación. Por eso, pero además todo esto, todo esto, y ya voy terminando, todo esto se produce en un momento y en una circunstancia absolutamente compleja. Porque el agradecimiento último que quiero hacer es muy personal. Gracias, presidente, por haberme permitido que durante cinco años y medio, durante dos gobiernos progresistas encabezados por ti y de los que ha formado parte María Jesús Montero, yo haya podido saber, conocer de primera mano la grandeza de la política con mayúsculas. Con mayúsculas porque es aquella que busca el bien y la felicidad de la gente, sobre todo de la que más lo necesita. Gracias por permitirme ser el hombre de referencia, el representante de esos gobiernos aquí en Andalucía durante ese tiempo. Y no ha sido… Fijaros, no voy a entrar en el relato de las vicisitudes, de las circunstancias, de los imprevistos que hemos sufrido, Pero justamente en esos difíciles momentos, en esas circunstancias, es cuando se mide la altura y la capacidad de gestión de un político. Y tú, frente a esas dificultades, has conseguido que España crezca en derechos sociales, en protección ante esas incidencias tan graves que hemos vivido y, sobre todo, ser la economía de los países desarrollados que más crece. Ole tú, porque ahí se demuestra la valía de un presidente y de un gestor. Ahí se demuestra. La Junta de Andalucía ha olvidado a Granada, le ha dado la espalda. Lo único que ha hecho ha sido justamente cerrar esa escuela andaluza de salud pública que se la ha llevado a otro foro distinto del de Granada, que la ha cerrado. No hemos oído nada de la autovía de la Almanzora, nada de la autovía de la Darroch y Nayot, nada en inversión en patrimonio para conseguir que Granada, justamente en el 2031, sea la ciudad europea de la capitalidad cultural. y, lo peor de todo, y con eso ya lo dejo, no tengo que entrar en detalle, en materia sanitaria de sus competencias educativas, sabéis lo que ha hecho, pero es que lo último que ha hecho, presidente, aquí en Andalucía, que afecta directamente a Granada, es conceder a una empresa privada 26 millones de euros para que desde otras provincias, incluso regiones como el caso de Murcia, los que residen, concretamente, además, más en mi comarca, en la zona norte de la provincia de Granada, tengamos que salir de nuestra provincia, incluso de nuestra región, para hacernos una simple prueba de diagnóstico, Está el negocio. Eso no lo podemos consentir. No lo podemos consentir. Confiamos plenamente en ti, presidente, para seguir avanzando. Detrás de todos los avances sociales siempre ha estado el Partido Socialista. Y en materias como las que ahora nos ocupa, nos preocupa, que es la vivienda, que es seguir avanzando en la reforma laboral para que los trabajadores y trabajadoras cada vez tengan más dignidad y más capacidad para seguir viviendo Y que sus hijos y sus entornos puedan vivir como se merecen y también la protección social, que es nuestra seña de identidad que la llevamos en el ADN, sigan siendo una realidad. Y eso solamente lo puede hacer un presidente como tú, un presidente socialista que tiene el socialismo en el ADN y en cada una de las medidas del Consejo de Ministros de tus dos últimos gobiernos. Y termino, termino, termino, termino. De Pedro a Pedro, de Pedro a Pedro, estoy absolutamente convencido, y tengo ya algunos años de experiencia, estoy absolutamente convencido de que por el bien de la gente de Granada, de la gente de Andalucía, de la gente de España y con la fuerza de la gente vas a ser de nuevo el presidente del gobierno de nuestro país. Bueno, y ahora os dejo con una mujer de la que yo he aprendido mucho, que ha formado parte y es responsable, como decía, de ese crecimiento económico y social de España de los últimos años, que es nuestra líder andaluza, que lucha permanentemente por aquellos valores que nos identifican, que es el mejor activo que podemos tener de cara a ganar justamente las elecciones generales desde aquí, desde Andalucía. Gracias, María Jesús Montero."
+  },
+  {
+   "start": 2344.15,
+   "end": 3259.02,
+   "label": "SPEAKER_06",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Granada, qué alegría estar aquí durante esta pre-campaña repartiendo ilusión, esperanza, cariño, amor, amor, cuatro letras que dicen todo de lo que significa el compromiso humano. Y hacerlo de la mano de Pedro, el secretario general de Granada, y de Pedro, y de Pedro con mayúscula, el próximo presidente, pese a quien le pese, de España. España, porque lo decía Pedro, es verdad, estamos en Granada y ahí es nada, estamos en una tierra, él lo comentaba, que ha dado fruto tantos hombres, tantas mujeres ilustres que hemos podido trasladar al mundo en la cultura, en la ciencia, en el arte, en la defensa de los derechos y libertades. Desde Mariana Pineda a Federico García Lorca, a nuestro Luis García Montero, hoy también embajador del español en todo el mundo, y cómo no, de nuestro queridísimo Miguel Ríos, eterno Miguel Ríos, eterno. Y claro, cuando hablamos de Federico o hablamos de Mariana Pineda o de todos estos ilustres hombres y mujeres, no podemos perder de vista la historia de lo que ocurrió, la historia de lo que todavía tenemos que descubrir, en definitiva, nuestras raíces. Porque Granada ha sido tierra de libertades. Granada ha sido tierra en donde la persecución del fascismo, en donde la gente en la cuneta, en donde la desaparición de tantos hombres y tantas mujeres ha transmitido al mundo en la figura de Federico los desastres que traen la guerra y sobre todo los desastres que trae el fascismo. Por eso desde Granada los vamos a parar. Desde Granada en estos días vamos a recordar que no hace tanto que hace una semana en la comunidad de Castilla y León se prohibía una obra de nuestro querido Federico García Lorca por la censura de un gobierno del PP con Vox. Desde Granada vamos a recordar que el señor Feijóo ha dicho que sí, que va a derogar la ley de memoria democrática, habiendo todavía tanta gente en la cuneta, tanto dolor sin reparar, tantas personas que no han sido entregadas a sus seres queridos. Y desde aquí le decimos, Granada os va a parar, porque compañeros y compañeras, esta precampaña en la que el Partido Socialista en cada acto, en cada entrevista, ¿viste la de Broncano? Tela, tela. En cada aparición del presidente del gobierno desbordamos lo que sentimos como familia, expectativa, esperanza, ilusión, cariño, solidaridad, los valores que impregnan a nuestro proyecto político, al Partido Socialista. Y lo vemos en todos los rincones de España, en cada uno de los actos. Y contrasta con esta tristeza que trae el Partido Popular y el señor Feijóo, que le den muchas entrevistas, porque cada vez que habla se les nota todo. Todo, todo, porque efectivamente, mientras que Pedro Sánchez ha sido el garante de la dignidad de los trabajadores, subiendo el salario mínimo interprofesional, quitando la precariedad laboral que impregnaba el conjunto del empleo, sobre todo de las mujeres, que somos las que siempre ocupamos las posiciones más precarias dentro del mercado laboral. Porque ha devuelto dignidad a la interlocución de los sindicatos, porque en definitiva ha demostrado algo que no pueden soportar, que claro que se puede crecer repartiendo y claro que la economía avanza más rápidamente cuando los ciudadanos y la mayoría social tienen más poder adquisitivo, Cuando se aumentan los salarios, se aumentan las pensiones, se ayudan los autónomos, la economía crece. Y frente a la receta de siempre, de los recortes, de la motosierra, de la austeridad, del sacrificio para los de siempre, el gobierno de Pedro Sánchez ha demostrado que se puede ser la economía que más empleo crea, La más avanzada del conjunto del mundo, siendo justos con los trabajadores, repartiendo esa riqueza en forma de mejores pensiones o de condiciones laborales más dignas para todos. Y efectivamente aquí en Granada lo sabemos, lo que nos jugamos el próximo 29 de noviembre no es solamente determinadas medidas que ya son de sobra justificación para acudir a las urnas. No nos olvidemos que lo que está en juego es si queremos seguir avanzando o protagonizar una involución democrática que nos lleva 50 años para atrás. Si lo que queremos es que efectivamente el interés de la gran parte de la población, de esa mayoría de hombres y mujeres que viven de la fuerza de su trabajo, de los pequeños ahorros que le han dejado sus padres, de aquello que le permite llegar a fin de mes, a veces a duras penas, otras veces con mayor capacidad, Toda esa gente es la que ocupa el centro de la política de Pedro Sánchez y si para defenderla se tiene que enfrentar a las energéticas, a los bancos, a los tecnoligarcas, a los grandes poderes que en este momento presiden el mundo, Pedro Sánchez se enfrenta, no le duelen prendas, se moja, toma partido cada día. Y al lado, pues tenemos lo que estáis viendo estos días en la entrevista, donde o le pasan mal los papeles, que pudiera ser, o simple y llanamente es que no sabe lo que está leyendo, pero más mentiras, más bulos, más manera de decir digo, pero digo Diego, más que sí, pero que no, no se puede hacer en una precampaña. Así que yo digo, se les va a ser muy larga y ojalá que dure mucho para que la gente se dé cuenta de lo que está ocurriendo. Nuestro proyecto, el proyecto socialista, el que permite avanzar a esa mayoría es el proyecto que impulsa la gente. El proyecto que viene alimentado por la fuerza de la gente, que necesita todavía solucionar problemas gordos que tiene la gente, problemas de la ciudadanía, la vivienda, la capacidad de tener mayor conciliación, la posibilidad de que las mujeres sigamos avanzando en esa cuesta empinada que es la igualdad. Esto es lo que está representando ese gobierno de Pedro Sánchez en España, pero también en el mundo, porque el faro de esa democracia, el grito de no a la guerra, la apuesta para que no haya genocidio en Palestina, el denunciar la invasión de Ucrania, tiene nombre y apellido en la esfera internacional y se llama Pedro Sánchez. Por eso, compañeros, compañeras, durante estos días, en esta pre-campaña y cuando empiece la campaña, todos los militantes, los simpatizantes, la gente de izquierda, de Progreso de Granada y del conjunto de Andalucía Tienen que saber la responsabilidad tan importante que tenemos para hacer y llevar al Gobierno de España nuevamente la expectativa, la esperanza, el progreso que han presidido estos años a pesar de las pandemias, de los volcanes y de las situaciones que nos hemos encontrado y que se han convertido, presidente, en oportunidades para seguir avanzando, para seguir creyendo. Y como siempre, la derecha viene con los miedos, con los bulos, con los recortes, con las amenazas. No vamos a permitir que se dé ni un solo paso atrás en materia de derechos de ciudadanía, ni con la eutanasia, ni con el derecho al voto, ni con el derecho a que los ciudadanos tengamos unos servicios públicos de calidad. Y presidente, como te dijo hace unos días Lole León, la actriz tan impresionante, tan gigante del cine español, somos muchas y las que somos muchas vamos a gritar a tu lado para reivindicar que aquí las mujeres vamos a llevar el progreso al gobierno, a Pedro Sánchez al gobierno. Porque la igualdad es irrenunciable. Las mujeres no vamos a permitir que se cuestione nuestro derecho a ser madre cuando decidamos ser madre. No vamos a permitir que se congelen nuestras pensiones porque algunos piensen, como siempre, que el sistema de pensiones público hay que eliminarlo. No vamos a permitir que la sanidad sea un problema en la atención de nuestros mayores, o en la dependencia, o en el ascensor que supone la educación pública. Y por eso reclamamos también de aquí, de Granada, al gobierno de Moreno Bonilla, el alumno aventajado de los pactos de PP y Vox, que financie las universidades públicas y concretamente la de Granada. No vamos a permitir que siga avanzando ese pacto de la derecha con la ultraderecha que con el efecto en nuestra comunidad autónoma vemos claramente qué es lo que nos trae esto para el futuro. Acaban de retirar la financiación a las ONG para atender a las personas sin hogar, dejándolas en la calle nuevamente sin importarles ¿Qué es lo que ocurre con ella debilitando a los sindicatos, debilitando la democracia de nuestras instituciones públicas como el Defensor del Pueblo o la Cámara de Cuentas? El pueblo granaíno sabe bien lo que significa ese retroceso. El pueblo granaíno ha vivido con todo el mundo en las carnes de Federico lo que significa el atentado contra las libertades y la democracia. Por eso, presidente, desde aquí, desde Andalucía, desde Granada, nuestro compromiso para hacer que estos 30 días de campaña se conviertan en una posibilidad de explicar por qué queremos seguir gobernando, ¿Por qué la mayoría de este país necesita que se siga avanzando? ¿Por qué necesitamos seguir defendiendo frente a los poderosos los intereses de los hombres, de las mujeres, de los jóvenes, del pueblo? que necesitan una vivienda así, una vivienda digna, que no pueden emanciparse, que necesitan de los poderes públicos para seguir avanzando, que necesitan de la fuerza del Partido Socialista para seguir construyendo una España justa, una España fraternal. Por eso me uno a ese grito de que somos muchas y somos muchos, somos más y porque somos más, si votamos, ganamos. ¡Arriba a por ello! ¡Vamos a las elecciones generales! ¡Vamos con el presidente Pedro Sánchez!"
+  },
+  {
+   "start": 3284.88,
+   "end": 3387.84,
+   "label": "SPEAKER_03",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Buenas tardes, Granada. Buenas tardes, Andalucía. Vamos a dar un inmenso aplauso a aquellos compañeros y compañeras que se han quedado fuera de este recinto, que se nos ha vuelto a quedar pequeño. Ayer recibí un email de un amigo que es hispanista de Irlanda, cuyo nombre es Ian Gibson. Ian Gibson me dijo, Pedro tienes que incorporar a Federico García Lorca a tus discursos, ahora que se está conmemorando el 90 aniversario de su muerte Y que ha vuelto a ser recordado, sobre todo y principalmente por esa fantástica película de los Javis, La bola negra. Me pedía Ian Gibson que reivindicara la figura de ese poeta, ese poeta que habló de amores no correspondidos, que habló de personas que no podían vivir como ellas querían, que habló de empatía y de proximidad ante aquellas personas que sufrían."
+  },
+  {
+   "start": 3388.62,
+   "end": 3390.94,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Y claro, yo cuando leí ese correo"
+  },
+  {
+   "start": 3390.94,
+   "end": 3392.28,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "electrónico dije, ¿y"
+  },
+  {
+   "start": 3392.28,
+   "end": 4888.73,
+   "label": "SPEAKER_03",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "cómo puedo yo reivindicar la figura de Federico García Lorca? Y se me ocurrió leeros un poema de Federico García Lorca. Tengo que ponerme gafas. El otro día hablaba con algunos compañeros con los que redacto los discursos y uno de ellos me decía, En 2018 nos pedías la letra Arial 18 y ahora es Arial 24. Son las consecuencias de la vida y de los años. Pero bueno, allá que voy, voy a intentar hacerlo lo mejor que sé. Se llama Cantos Nuevos y dice así. Dice la tarde, tengo sed de sombra. Dice la luna, yo sed de luceros. La fuente cristalina pide labios y suspiros pide el viento. Yo tengo sed de aromas y de risas, sed de cantares nuevos, sin lunas y sin lirios, y sin amores muertos. Un cantar de mañana que estremezca los remansos quietos del porvenir, y llene de esperanza sus ondas y sus cienos. Un cantar luminoso, reposado, pleno de pensamiento, virginal de tristezas y de angustias, y virginal de ensueños. Cantar sin carne lírica que llene de risas el silencio, una bandada de palomas ciegas lanzadas al misterio. Cantar que vaya al alma de las cosas y al alma de los vientos, y que descanse al fin de la alegría del corazón eterno. Esta, esta es la España de Lorca, la España que no tiene miedo a su cultura, la España que no borra su memoria para vivir confortablemente, la España que abraza a la diversidad y al diferente, la España humanista, solidaria, universal, la España por la que merece seguir luchando la pena, la España de Lorca, la España de Lorca que reivindicamos. Y ahora que llegamos al 29 de noviembre y estamos en pre-campaña, me gustaría pediros que penséis por un instante en vuestros seres queridos, en vuestros maridos, en vuestras mujeres, en vuestros padres y madres, en vuestros hijos e hijas, nietos y nietas. Porque no hay una causa más movilizadora que participar en democracia y proteger el presente y el futuro de vuestros seres queridos y el de todos. Pensad en vuestros padres y madres, en vuestros abuelos y abuelas que merecen después de muchos años de trabajo una pensión digna. Pensad en vuestros hijos e hijas que merecen una educación pública digna y de calidad. Pensad en vuestros nietos y nietas, que merecen un mundo en paz y un mundo habitable y sostenible medioambientalmente. Porque de esto van también las elecciones, de solidaridad o de egoísmo, de justicia social o de recortes, y también, por qué no decirlo, de amor o de odio. Y yo os pido que os movilicéis el próximo 29 de noviembre para votar progresista, para votar por los vuestros y por los de todos, porque no hace falta ser pensionista para movilizarse por una pensión digna, porque no hace falta ser gay para movilizarse y reivindicar los derechos del colectivo LGTBI, porque no hace falta ser mujer para defender una España en igualdad entre hombres y mujeres, Porque no hace falta ser ucraniano o palestino para reivindicar la paz, el fin de la guerra y la legalidad internacional y los derechos humanos. De eso van estas elecciones. Estas elecciones van de eso. Van de si avanza el pasado o continúa avanzando España. Eso es lo que se va a dirimir el próximo 29 de noviembre. Ya hemos visto lo que propone Abascal y Feijóo. No llevamos ni tres semanas de precampaña y que si recorto la sanidad, que si recorto las bajas laborales, que si recorto el salario mínimo interprofesional, que si pongo en duda las pensiones, que si voy a derogar la eutanasia, que si voy a poner límites al derecho a abortar de las mujeres, no llevan ni tres semanas de campaña y parece su lista de recortes la lista interminable. Porque lo que proponen no es una alternancia, proponen una involución. Y ya la estamos viendo allí donde gobiernan. Hace unos días estuve en Castilla y León y me comentaron los compañeros y compañeras de Castilla y León que la Junta de Castilla y León, gobernada por el Partido Popular y por Vox, ha decidido que va a dejar de subvencionar películas que ellos consideren ideologizadas. Y quién decide qué película está ideologizada o no. Ellos. Pues eso ya lo conocemos. Ocurrió durante mucho tiempo, en una época muy oscura para nuestro país, se llama censura y no lo vamos a permitir. El próximo 29 de noviembre vamos a proteger con nuestro voto los derechos y las libertades, también del sector cultural en nuestro país. ¿Vinieron esta semana con mi ley? Sí. Sí, bueno, no sabían dónde meterse o dónde meterse o dónde meterlo a ellos, ¿no? Porque claro, le invitaron Feijóo y Abascal a Vilei, Avenida Madrid, y ya visteis que no querían hacerse una foto con él. El uno de perfil, hablando de pizzas y de pisos, el Feijóo, y Abascal diciendo ¡Ay, va, que me has pillado en Santiago de Compostela! ¡Nos hacemos un zoom! Todo para no hacerse una foto y que no nos demos cuenta de que pertenecen al mismo club de la motosierra, de los tijeretazos y de los recortes. Pero nos viene muy bien, nos viene muy bien porque nos permite contrastar modelos. Y yo os voy a dar tres datos sobre la gestión de mi ley al frente de ese gran país que es Argentina, al cual, por supuesto, mandamos un abrazo a los argentinos y argentinas desde aquí, que cuentan con todo nuestro respeto y con nuestra admiración. Fijaos, mi ley, como consecuencia de sus políticas y de su reforma laboral, hoy hay 11 millones de trabajadores argentinos que trabajan en la informalidad, es decir, no cobran un derecho a la Seguridad Social, no cobran sino en B. Mi ley lo que ha hecho ha Esto ha sido recortar en un 40% el salario mínimo interprofesional, mientras que en España, gracias a las políticas socialdemócratas del Gobierno de coalición progresista, tenemos 22,5 millones o 500.000 trabajadores cotizando también a la Seguridad Social y hemos subido el salario mínimo interprofesional un 66%. Y, por cierto, el FMI acaba de rebajar las previsiones de crecimiento económico para Argentina y ha elevado las previsiones de crecimiento económico para España, de nuevo, siendo la principal economía avanzada que vuelve a crecer más en este contexto tan complejo internacional que vivimos. Por eso yo os pregunto, ¿queréis a Le Pen? ¿Queréis a Trump? ¿Queréis a Milley? Pues si no queréis ni a Trump, ni a Milley, ni a Le Pen, por supuesto no vais a querer a Feijóo ni a Abascal dirigiendo el país durante los próximos cuatro años de nuestro país. Lo que no queremos para el mundo no lo queremos para nuestro país. Y nos llaman zurdos y zurdas, pues a mucha honra ser zurdos y zurdas. Porque con esta mano hemos subido el salario mínimo interprofesional que ellos congelan, con esta mano hemos subido las pensiones que ellos congelan Y con esta mano hemos defendido el derecho de las mujeres que ellos banalizan o mercadean cuando tienen que pactar sus sillones en los gobiernos Que yo lo de Feijóo no sé si es, María Jesús, insolvencia o es sectarismo Feminismo, porque es verdad que no se sorprende, incluso también estremece, la forma tan frágil, tan insolvente que tiene de hablar de cosas importantes para la gente de nuestro país. La vivienda, eso se resuelve pidiendo una pizza, dijo esta semana. Feminismo, yo soy feminista, si me he criado entre mujeres, dice. No, no, ser feminista no es criarse entre mujeres. Ser feminista es no recortar el derecho de las mujeres, que es bien diferente. Y, por cierto, ya les adelanto al PP y a Vox, a Feijóo y a Abascal, que sobre el derecho y el cuerpo de las mujeres ningún hombre jamás volverá a opinar y a controlarlo. La próxima legislatura reformaremos y blindaremos el derecho al aborto de las mujeres en la Constitución Española y por supuesto el derecho a una muerte digna con la ley que aprobamos hace dos legislaturas se mantendrá en pie como una gran conquista y un avance de la sociedad española Hola, la verdad es que tal y como habla, tanto del feminismo como de la vivienda y las pizzas, en fin, Feijóo se basta y se sobra para mostrar su insolvencia. Lo que pasa es que yo me pregunto si será solamente insolvencia o también dogmatismo, porque es verdad que este hombre cada vez que habla sube el pan, como se dice en castellano, ¿no? Pero, ¿pisa muchos charcos? ¿Pero realmente pisa muchos charcos o es que le separa Feijóo un océano de la España de 2026 y nos quiere llevar hace 50 años con su amigo Abascal? Porque de eso van también estas elecciones. Van de que España continúe avanzando y no avance el pasado. Que no se os pase desapercibido el por qué todos los ultras miran a España, por qué Milley viene recurrentemente a España, por qué Trump constantemente se fija en España, por qué hace poco tuvimos al segundo del partido de Le Pen en Francia también apoyando Yo lo tengo muy claro por qué vienen aquí a España. Vienen porque este Gobierno y esta nación, España, es la prueba fehaciente de que la esperanza es mucho más eficiente que el odio que ellos esparcen. Sí, el odio que ellos esparcen. Porque hemos demostrado que se puede crecer económicamente y reducir las emisiones de gases de efecto invernadero para hacer frente a la emergencia climática. Económica. Hemos demostrado que podemos subir el salario mínimo interprofesional y tener 22 millones y medio de personas cotizando y trabajando. Hemos demostrado que podemos revalorizar las pensiones conforme al IPC y llenar la hucha de las pensiones hasta más de 20.000 millones de euros, como vamos a acabar esta legislatura, para garantizar las pensiones del mañana también. Muy bien. Y hemos demostrado que es correcto situarse del lado de la historia con aquellos que defienden la legalidad internacional y el fin de la guerra, ya sea en Gaza, en Ucrania o en Irán. Desde aquí, por supuesto, vamos a seguir defendiendo el no a la guerra y la resolución diplomática y pacífica de los conflictos. Ellos ya lo dijeron, lo dijo de manera muy burda uno de estos pseudomedios. No, no habléis hasta el 29 de noviembre de los recortes en las pensiones, luego lo podéis hacer, no antes. Eso dijeron de manera impúdica, a la cara. Y yo le digo a la gente que no olvide lo que hicieron cuando gobernaron, cuando tuvieron la capacidad de poder imponer su proyecto político y su modelo económico. ¿O es que nos olvidamos de qué hizo Mariano Rajoy en 2011 cuando gobernó con mayoría absoluta? Y eso lo hicieron solos. Imaginaos, no solamente las tijeras del PP, sino también la motosierra de Abascal. Rajoy lo que hizo fue congelar el sueldo de los funcionarios. Congeló el salario mínimo interprofesional, congeló las pensiones y le metió un tajo a la dependencia, a la educación y a la sanidad de 8.900 millones de euros. Es que nos hemos olvidado de eso. Es que nos hemos olvidado de cómo después de la crisis financiera y esa respuesta dogmática en lo neoliberal del Partido Popular se manifestaron millones y millones de jubilados y jubiladas que no solamente estaban movilizándose por su jubilación, sino, como yo recuerdo entonces hablando con muchos de esos pensionistas, se movilizaban por las pensiones dignas de sus hijos e hijas y nietos y nietas. Es que nos hemos olvidado de cómo Mariano Rajoy lo que hizo fue aprobar, imponer, sin hablar con los sindicatos y con la patronal, una contrarreforma laboral que precarizó las relaciones laborales, que dio todo el poder a las grandes empresas y que nos llevó a unas tasas de paro superiores al 25% durante lo peor de la crisis financiera. Y como vimos a muchos sindicalistas y a muchos trabajadores y trabajadoras y sus familias tener que reivindicar y movilizarse año tras año durante más de una década hasta que llegó un gobierno progresista y revalorizó las pensiones conforme al IPC y aprobó una reforma laboral que nos ha llevado hasta máximos históricos de trabajadores cotizando la Seguridad Social con menor temporalidad y subir el salario mínimo del profesor a un 66%. Es que nos hemos olvidado de cómo las mujeres se manifestaban en ese tren de la libertad, ese 8 de marzo, para decirle a Gallardón, a Rajoy, al PP, que vuelven de nuevo a la carga con el aborto, que el derecho a abortar no se toca de las mujeres en nuestro país. Es que nos hemos olvidado de que cuando se recorta la educación, la sanidad, la dependencia como consecuencia de la desigualdad estructural, son las mujeres, sois las mujeres las que sufrís particularmente y con especial intensidad esos recortes. Pues os digo, toda esa fuerza de la gente que se movilizó entonces encontró el no de los de siempre. Pero luego, cuando llegó el momento de las urnas, se llenó de puños y rosas. Logramos una amplia mayoría progresista que permitió que un gobierno de coalición progresista revalorizara las pensiones, subiera el salario mínimo interprofesional, reformara el mercado laboral y situara la negociación colectiva en el centro. Y ahora dicen, no, el salario mínimo interprofesional que lo decida la patronal y los sindicatos. Yo os digo, mientras yo sea presidente del Gobierno, el salario mínimo interprofesional se va a subir con o sin acuerdo con la patronal. Y también lanzo un mensaje a los pensionistas de hoy, a sus hijos e hijas y nietos y nietas. El sistema público de pensiones goza de una extraordinaria salud. Y si tienen alguna dificultad en entender por qué goza de una extraordinaria salud y tienen algunas propuestas que poner encima de la mesa que no sean su privatización, que empiecen porque efectivamente se suba el salario mínimo interprofesional. Porque subir el salario mínimo interprofesional significa más ingresos para la seguridad social y, por tanto, más solvencia para el sistema público de pensiones. Si quieren que se sigan revalorizando las pensiones conforme al IPC, que asuman que la regularización de migrantes, además de ser una cuestión de derechos humanos y de dignidad de una sociedad grande como la nuestra, La propuesta también es desde el punto de vista económico inteligente, porque hoy del 1.200.000 personas que se acogieron a la regularización de migrantes que hicimos en el primer semestre de este año, ya hay medio millón de ellos que están trabajando y cotizando a la Seguridad Social y, por tanto, nutriendo la hucha de las pensiones de hoy y del mañana. Y si tienen alguna propuesta y les preocupa tanto la solvencia del sistema público de pensiones, lo tienen muy sencillo. Ahora se está produciendo un diálogo entre los sindicatos y la patronal para mejorar el salario medio. Alberto, el salario medio, no el mínimo. ¡Que te lías en las entrevistas! ¡Que te lías! Y, por cierto, te digo que el salario mínimo interprofesional no tiene retención del IRPF. Jefe, en todo caso, si tienen alguna dificultad, que le digan a la patronal que pacten con los sindicatos una mejora del salario medio del salario de la clase media trabajadora en nuestro país. Así seguiremos garantizando la solvencia del sistema público de pensión. Bueno, pues toda esa fuerza de la gente es la que apelamos a movilizarse el próximo 29 de noviembre. Esa fuerza de la gente hoy lleva el nombre de una mujer de 87 años que murió como consecuencia de un desahucio. Y yo os digo que si el próximo 29 de noviembre logramos esos 176 escaños de una mayoría parlamentaria progresista, iremos más lejos y llegaremos antes en el acceso a la vivienda de los jóvenes y no tan jóvenes en nuestro país. Yo pido una mayoría más amplia y progresista para seguir avanzando en nuestro país, para lograr un gran avance en materia de vivienda y de derechos sociales durante los próximos cuatro años. Y no os olvidéis de que si vienen aquí es precisamente la ultraderecha, porque nosotros somos, como he dicho antes, el ejemplo fehaciente de que la esperanza es mucho más eficiente que el odio. Por eso, sed conscientes de que no solamente por España, sino por Europa y por muchas otras personas que en el mundo miran a España como un ejemplo de inspiración y de esperanza, yo pido que el próximo 29 de noviembre la mayoría de españoles y españolas vaya a votar con orgullo de demostrar que somos capaces, claro que sí, de derrotar a la derecha y a la ultraderecha. ¡Seamos ese faro de luz en un mundo en oscuridad! ¡Seamos el ejemplo que inspire a otras muchas fuerzas y sociedades progresistas a nunca ceder y, por supuesto, nunca resignarse! Y, como os he dicho, por supuesto, un apoyo a Lula, al presidente de Brasil, que ojalá gane las elecciones el próximo domingo. Y como os he dicho, ellos juegan a la desmovilización, lo intentan de todas las maneras, poniendo en duda el voto por correo, poniendo en duda que ya lo de la ley de nietos, la ley de memoria democrática, pero ¿qué pasa? ¿Qué más? Que los nietos del régimen franquista van a poder votar y los nietos del régimen, o mejor dicho, del exilio republicano no van a poder hacerlo. Pues nosotros vamos a votar por ellos con más fuerza si cabe y con más convicción el próximo 29 de noviembre, por su memoria y la de sus padres y abuelos. Ellos van a jugar a la desmovilización antes para luego recortar si llegan al Gobierno. Gobierno, y no os olvidéis de una cosa, Feijóo por supuesto es el envoltorio, pero Abascal es el regalo, y hay regalos que no merece la pena abrir, hay regalos que no merece la pena abrir, así que el próximo 29 de noviembre a movilizarse, a votar, a ganar y a gobernar."
+  },
+  {
+   "start": 4888.73,
+   "end": 5232.0,
+   "label": "SPEAKER_08",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "En contra del Partido Popular. Por eso protegemos las pensiones más bajas y garantizamos la hucha para los pensionistas de ahora y del futuro. Porque defender las pensiones no es hablar solo de nuestros padres ni de nuestros abuelos, es hablar de nosotros y no solo. De lo que queremos ser dentro de 20, 30 o 40 años. De quienes queremos que estén ahí para protegernos."
+  },
+  {
+   "start": 5232.14,
+   "end": 5243.77,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Es un mentiroso compulsor. Es hostiable."
+  },
+  {
+   "start": 5243.97,
+   "end": 5244.85,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Un caudillejo."
+  }
+ ]
+}

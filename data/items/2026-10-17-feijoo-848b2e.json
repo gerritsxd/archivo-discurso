@@ -1,0 +1,76 @@
+{
+ "id": "2026-10-17-feijoo-848b2e",
+ "date": "2026-10-17",
+ "expected_person": "Alberto Núñez Feijóo",
+ "kind": "speech",
+ "outlet": "PP YouTube",
+ "title": "🔵 DIRECTO: Feijóo interviene el XII Congreso Estatal de Unidad Progresista de La ONCE",
+ "url": "https://www.youtube.com/watch?v=vGkkV1UqRU0",
+ "language": "es",
+ "duration_s": 758.84,
+ "sha256": "94bf8b2e16d535ed6302dabc0efd5d39255c35b7a4384553765f9b2e054979c1",
+ "fetched_at": "2026-10-25T09:18:24+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.55,
+  "processed_at": "2026-10-25T13:49:35+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_03": {
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "decision": "match",
+   "reason": "sim 0.89, next 0.35",
+   "talk_s": 537.0
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "too_short",
+   "reason": "only 5s of speech",
+   "talk_s": 4.6
+  },
+  "SPEAKER_01": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "too_short",
+   "reason": "only 6s of speech",
+   "talk_s": 5.5
+  },
+  "SPEAKER_02": {
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "decision": "too_short",
+   "reason": "only 6s of speech",
+   "talk_s": 5.6
+  }
+ },
+ "turns": [
+  {
+   "start": 7.54,
+   "end": 710.2,
+   "label": "SPEAKER_03",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "Buenos días, buen día, egunón, vos días. Querido presidente de la Fundación 11, Miguel, querido vicepresidente Alberto, querida alcaldesa Paloma, Querido secretario de la Universidad y anfitrión, José Antonio, queridos directivos de las asociaciones de discapacidad de España, querido director general del Ministerio, señoras y señores, es cierto, lo dice, acaba de decir el presidente, que estamos en precampaña. Yolanda Díaz Sea también la base de la relación que quiero mantener con ustedes, si los españoles libremente me dan la confianza el 29 de noviembre. Las políticas sobre discapacidad no se pueden diseñar sin contar con las personas con discapacidad. Esa ha sido siempre mi forma de entender la política y de ejercer mi responsabilidad en mi carrera política. Y así pretendo seguir sirviendo a los españoles si me dan su confianza. Contando con las entidades que, como la ONCE, llevan décadas abriendo caminos. No es la primera vez que lo digo. Y lo reitero hoy. Si no existiese la ONCE, habría que inventarla. Hay cuestiones que están por encima de las diferencias políticas. La discapacidad es una de ellas. Y basta recordar que en la anterior legislatura, la reforma del artículo 49 de la Constitución española era todavía una promesa. Y hoy estamos celebrando una realidad. Les aseguro que en unos años tan difíciles no fue sencillo modificar la Constitución. Pero asumí personalmente ese compromiso porque era una decisión justa y hoy quiero comprometerme con otras decisiones que también considero igualmente justas. Un derecho escrito en la Constitución no puede ser el final. Tiene que traducirse en la vida de las personas. En la vida de las personas, en el trabajo, en la vivienda, en la movilidad, en la educación, en la vida cotidiana. Y ahí todavía tenemos mucho, mucho que hacer. Les pongo un ejemplo especialmente importante en estos momentos. Quiero que las personas ciegas puedan ejercer plenamente el derecho al voto. Es decir, de forma accesible, de forma secreta y en todos los procesos electorales. Si tienen que depender de terceros para poder votar, entonces su participación política no es plena. Y eso tenemos que corregirlo. La inclusión no termina cuando una persona recibe una prestación. Es lo que siempre me han transmitido las entidades del CERMI, en fin, entidades como la ONCE. Y sé también que uno de los grandes objetivos es superar un planteamiento meramente asistencial y avanzar hacia un modelo basado en la autonomía personal. Las personas con discapacidad aspiran, como cualquier otra persona, a trabajar, a progresar y a intentar construir su propia vida. Y el compromiso de todas las administraciones debe de hacer posible ese camino. En este objetivo hay algo que no admite discusión. El empleo es la llave que abre todas las puertas. Por hecho, debemos reforzar el empleo inclusivo y personalizado. Formación, orientación, adaptación de puestos, accesibilidad tecnológica, acompañamiento a las empresas, Atención Especial a la Mujer con Discapacidad Y también debemos favorecer, cuando sea posible, el acceso al empleo ordinario, sin olvidar el papel imprescindible que desempeñan el empleo protegido y los centros especiales. Con recursos, me diréis. Claro. Claro, hay que dedicar más recursos a este objetivo. Y no solo en el ámbito nacional, también debemos aprovechar la protección del Fondo Social Europeo en el próximo presupuesto comunitario. Cuando algo funciona y está bien gestionado, debe mantenerse. Y así lo defenderé. Quiero dejar claro, no lo haré como una excepción, sino porque así he entendido durante 30 años la política. En los últimos años hemos vivido momentos muy caóticos. Es innecesario profundizar en esto porque lo comparte casi todo el mundo. Lo que sí quiero decir es que España necesita que todas, y digo todas, sus energías vuelvan a ponerse en lo que importa, una agenda ambiciosa y exigente. Una agenda ambiciosa y exigente, en primer lugar, capaz de afrontar las grandes transformaciones pendientes en nuestro país. Capaz de facilitar la vida de la gente y llegar a fin de mes. Y capaz de proteger uno de nuestros bienes más preciados, el estado del bienestar. En efecto, el estado del bienestar es uno de los grandes logros de nuestra democracia. Es una conquista colectiva que permite a millones de personas tener más oportunidades, más protección y más seguridad. Y precisamente porque creo en él, tenemos la obligación de cuidarlo, fortaleciéndolo y garantizándolo a las generaciones futuras. No vivamos a cuenta de nuestros hijos. Y quiero hacerlo, este compromiso, en base a tres principios muy básicos, pero imprescindibles, y con ello termino. Primero, un Estado de bienestar fuerte no es el que promete más, sino el que cumple lo que promete. Lo hemos visto, por ejemplo, en ámbitos como la vivienda. La política no puede consistir en generar expectativas que después nunca se encuentran respuesta. Mi compromiso será decir a los ciudadanos con honestidad qué podemos hacer como país, cuáles son nuestros objetivos y cuáles son los medios para alcanzarlos. Segundo principio. Detrás de cada prestación, detrás de cada derecho reconocido, detrás de cada demanda social, hay siempre una persona, una historia y una necesidad concreta. El Estado de bienestar no puede convertirse en un laberinto administrativo ni en una carrera de obstáculos para quienes más necesitan apoyo. Las demandas sociales no pueden convertirse en una peregrinación penosa como ocurrió con la ley de Lela. Yo me niego a eso. Y el tercer principio, la responsabilidad. Yo me propongo administrar nuestro estado de bienestar para dejar lo mejor de cómo me lo encuentre. Y quiero decirlo con claridad, esto no se ha hecho en los últimos años, esa es mi opinión. El crecimiento de la población de casi 4 millones de personas desde el año 2018 exigía planificación y una adaptación de los recursos humanos y materiales. Cuidar los servicios públicos significa gestionarlos bien, anticiparse a los problemas y tomar decisiones pensando a medio y largo plazo. Mi compromiso es ese, trabajar para dejarlos más fuertes para los españoles de hoy y para los españoles del mañana. Y permítame una última consideración. Nadie es perfecto, desde luego yo no, pero hay algunas lecciones que a estas alturas tampoco necesito que me las expliquen con detalle. No necesito que me expliquen con detalle cómo se gestionan los servicios públicos. Lo he hecho durante 30 años. Por ejemplo, cogí una empresa de todos, Correos, en números rojos, la dejamos en superávit. Hoy prácticamente está quebrada. Y allí por donde he estado siempre he trabajado para intentar dejar las cosas mejor de como me las encontré. Mi compromiso con España es exactamente eso, llegar, trabajar y resolver. No es ningún mérito, es lo mínimo que se puede esperar de quien gobierna, porque es lo que hace cada día la mayoría de los españoles. Este grupo, el Grupo Social ONCE, es un ejemplo de ello. Yo me siento orgulloso de la ONCE, allá donde esté, en cualquier país del mundo. Este es un ejemplo de trabajo bien hecho. Ustedes empezaron en 1938. 738. Esta organización ha demostrado que es posible construir un modelo de solidaridad que combina actividad económica, generación de empleo y servicios sociales. Ese es el equilibrio y la fórmula perfecta. Ese compromiso se reconoce en más de 72.000 personas afiliadas que lo hacen posible. En los más de 80.000 trabajadores de esta organización, y muy especialmente en los más de 21.400 vendedores y vendedoras que cada día forman parte de nuestras calles, nuestros pueblos y nuestras ciudades. Muchas gracias por llevar la alegría. Y espero que entiendan que reserve una mención especial a quienes lo hacen en Ceuta. Sé que ellos también están pasando por momentos muy difíciles. Ojalá pronto puedan volver a la normalidad. Quiero terminar recuperando una expresión que caracteriza a los amigos del Grupo Social 11. Gracias y suerte. Es así, ¿no? Pues yo le propongo que esta vez la repartamos a medias. Yo les doy las gracias y ustedes deseenme suerte. Muchas gracias."
+  },
+  {
+   "start": 729.13,
+   "end": 733.09,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Presidente, levante la entrega de la figurita que sigo sin poder describirlo."
+  },
+  {
+   "start": 733.09,
+   "end": 738.19,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "y que pronto ya nos desvelarán a Alberto Núñez Feijóo."
+  }
+ ]
+}

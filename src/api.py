@@ -9,6 +9,9 @@ GET  /api/search?q=...&person=feijoo&from=2026-10-01&to=2026-10-31&limit=20&offs
 GET  /api/item/<id>
 GET  /api/daily[?date=YYYY-MM-DD]       today's 5 quotes (no answers)
 POST /api/guess {"date": "...", "n": 0, "guess": "abascal"}   -> answer + source
+GET  /api/claims?person=&type=promesa|dato|ataque|postura&topic=&insult=1&target=&q=&limit=&offset=
+GET  /api/contradictions[?person=]      possible contradictions (both quotes + sources)
+GET  /api/analysis                      counts per candidate: types, topics, attack targets, insults
 """
 import argparse
 import json
@@ -130,6 +133,12 @@ class Handler(BaseHTTPRequestHandler):
                 if path.startswith("/api/item/"):
                     row = db.execute("SELECT json FROM items WHERE id=?", (path.split("/")[-1],)).fetchone()
                     return self.send(json.loads(row["json"]) if row else {"error": "not found"}, 200 if row else 404)
+                if path == "/api/claims":
+                    return self.send(self.claims(db, q))
+                if path == "/api/contradictions":
+                    return self.send(self.contradictions(db, q))
+                if path == "/api/analysis":
+                    return self.send(self.analysis(db))
                 if path == "/api/daily":
                     return self.send(self.daily(db, q.get("date") or today()))
         except sqlite3.Error as e:
@@ -173,6 +182,63 @@ class Handler(BaseHTTPRequestHandler):
         return {"items": tot["n"], "hours": round((tot["s"] or 0) / 3600, 1),
                 "quotes": db.execute("SELECT COUNT(*) FROM turns WHERE person IS NOT NULL").fetchone()[0],
                 "per_person": per, "candidates": candidates(), "updated": built["value"] if built else None}
+
+    CLAIM_SQL = ("SELECT c.*, i.date, i.outlet, i.title, i.url FROM claims c JOIN items i ON i.id = c.item_id")
+
+    def claim_json(self, r):
+        return {"id": r["id"], "item_id": r["item_id"], "person": r["person"], "type": r["type"],
+                "topic": r["topic"], "target": r["target"], "insult": bool(r["insult"]),
+                "insult_words": r["insult_words"] if "insult_words" in r.keys() else "", "summary": r["summary"],
+                "quote": r["quote"], "entities": json.loads(r["entities"] or "[]"), "date": r["date"],
+                "outlet": r["outlet"], "title": r["title"], "start": r["start"],
+                "link": source_link(r["url"], r["start"])}
+
+    def claims(self, db, q):
+        limit = max(1, min(int(q.get("limit", 50)), 200))
+        offset = max(0, int(q.get("offset", 0)))
+        where, args = ["1=1"], []
+        for f, col in (("person", "c.person"), ("type", "c.type"), ("topic", "c.topic")):
+            if q.get(f):
+                where.append(f"{col} = ?"); args.append(q[f])
+        if q.get("insult") == "1":
+            where.append("c.insult = 1")
+        if q.get("target"):
+            where.append("c.target LIKE ?"); args.append(f"%{q['target']}%")
+        if q.get("q"):
+            where.append("(c.quote LIKE ? OR c.summary LIKE ?)"); args += [f"%{q['q']}%"] * 2
+        sql = self.CLAIM_SQL + " WHERE " + " AND ".join(where)
+        total = db.execute(f"SELECT COUNT(*) FROM ({sql})", args).fetchone()[0]
+        rows = db.execute(sql + " ORDER BY i.date DESC, c.start LIMIT ? OFFSET ?", args + [limit, offset]).fetchall()
+        return {"total": total, "results": [self.claim_json(r) for r in rows]}
+
+    def contradictions(self, db, q):
+        sql, args = "SELECT * FROM contradictions", []
+        if q.get("person"):
+            sql += " WHERE person = ?"; args.append(q["person"])
+        out = []
+        for x in db.execute(sql + " ORDER BY person, topic", args).fetchall():
+            a = db.execute(self.CLAIM_SQL + " WHERE c.id=?", (x["claim_a"],)).fetchone()
+            b = db.execute(self.CLAIM_SQL + " WHERE c.id=?", (x["claim_b"],)).fetchone()
+            if a and b:
+                out.append({"person": x["person"], "topic": x["topic"], "kind": x["kind"], "explanation": x["explanation"],
+                            "a": self.claim_json(a), "b": self.claim_json(b)})
+        return {"total": len(out), "results": out}
+
+    def analysis(self, db):
+        per = {}
+        for r in db.execute("SELECT person, type, COUNT(*) n FROM claims GROUP BY person, type"):
+            per.setdefault(r["person"], {"types": {}, "topics": {}, "targets": {}, "insults": 0})["types"][r["type"]] = r["n"]
+        for r in db.execute("SELECT person, topic, COUNT(*) n FROM claims GROUP BY person, topic"):
+            per[r["person"]]["topics"][r["topic"]] = r["n"]
+        for r in db.execute("SELECT person, target, COUNT(*) n FROM claims WHERE type='ataque' AND target != '' "
+                            "GROUP BY person, target ORDER BY n DESC"):
+            t = per[r["person"]]["targets"]
+            if len(t) < 8:
+                t[r["target"]] = r["n"]
+        for r in db.execute("SELECT person, COUNT(*) n FROM claims WHERE insult=1 GROUP BY person"):
+            per[r["person"]]["insults"] = r["n"]
+        n_contra = db.execute("SELECT COUNT(*) FROM contradictions").fetchone()[0]
+        return {"per_person": per, "contradictions": n_contra, "candidates": candidates()}
 
     def search(self, db, q):
         text = (q.get("q") or "").strip()

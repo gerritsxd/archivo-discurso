@@ -1,0 +1,440 @@
+{
+ "id": "2026-10-23-sanchez-86d621",
+ "date": "2026-10-23",
+ "expected_person": "Pedro Sánchez",
+ "kind": "other",
+ "outlet": "esRadio - Es la Mañana de Federico",
+ "title": "Los oyentes de 'Es la Mañana de Federico' sentencian la entrevista de Broncano a Sánchez",
+ "url": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/75936133/los_oyentes_de_es_la_manana_de_federico_sentencian_la_entrevista_de_broncano_a_sanchez_7480796.mp3",
+ "language": "es",
+ "duration_s": 403.97,
+ "sha256": "909cfdf228b9cac7cc3cc5bc24916c63aea77add6681889de0eb9ed7335148b2",
+ "fetched_at": "2026-10-25T10:41:17+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.55,
+  "processed_at": "2026-10-25T16:15:18+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_10": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "unknown",
+   "reason": "best sim 0.48 < 0.55",
+   "talk_s": 20.5
+  },
+  "SPEAKER_11": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "unknown",
+   "reason": "best sim 0.43 < 0.55",
+   "talk_s": 37.8
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "decision": "too_short",
+   "reason": "only 15s of speech",
+   "talk_s": 15.1
+  },
+  "SPEAKER_03": {
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "decision": "unknown",
+   "reason": "best sim 0.40 < 0.55",
+   "talk_s": 47.2
+  },
+  "SPEAKER_05": {
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "decision": "unknown",
+   "reason": "best sim 0.37 < 0.55",
+   "talk_s": 44.0
+  },
+  "SPEAKER_01": {
+   "person": null,
+   "name": "Hablante sin identificar 6",
+   "decision": "unknown",
+   "reason": "best sim 0.35 < 0.55",
+   "talk_s": 27.9
+  },
+  "SPEAKER_07": {
+   "person": null,
+   "name": "Hablante sin identificar 7",
+   "decision": "too_short",
+   "reason": "only 17s of speech",
+   "talk_s": 17.3
+  },
+  "SPEAKER_14": {
+   "person": null,
+   "name": "Hablante sin identificar 8",
+   "decision": "too_short",
+   "reason": "only 15s of speech",
+   "talk_s": 15.2
+  },
+  "SPEAKER_13": {
+   "person": null,
+   "name": "Hablante sin identificar 9",
+   "decision": "too_short",
+   "reason": "only 14s of speech",
+   "talk_s": 14.5
+  },
+  "SPEAKER_04": {
+   "person": null,
+   "name": "Hablante sin identificar 10",
+   "decision": "too_short",
+   "reason": "only 10s of speech",
+   "talk_s": 9.7
+  },
+  "SPEAKER_02": {
+   "person": null,
+   "name": "Hablante sin identificar 11",
+   "decision": "too_short",
+   "reason": "only 10s of speech",
+   "talk_s": 10.2
+  },
+  "SPEAKER_15": {
+   "person": null,
+   "name": "Hablante sin identificar 12",
+   "decision": "unknown",
+   "reason": "best sim 0.22 < 0.55",
+   "talk_s": 72.7
+  },
+  "SPEAKER_06": {
+   "person": null,
+   "name": "Hablante sin identificar 13",
+   "decision": "too_short",
+   "reason": "only 18s of speech",
+   "talk_s": 18.5
+  },
+  "SPEAKER_12": {
+   "person": null,
+   "name": "Hablante sin identificar 14",
+   "decision": "too_short",
+   "reason": "only 6s of speech",
+   "talk_s": 6.5
+  },
+  "SPEAKER_09": {
+   "person": null,
+   "name": "Hablante sin identificar 15",
+   "decision": "too_short",
+   "reason": "only 11s of speech",
+   "talk_s": 10.8
+  },
+  "SPEAKER_08": {
+   "person": null,
+   "name": "Hablante sin identificar 16",
+   "decision": "unknown",
+   "reason": "best sim 0.15 < 0.55",
+   "talk_s": 22.9
+  }
+ },
+ "turns": [
+  {
+   "start": 13.42,
+   "end": 35.38,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Bueno, vamos a escuchar a los oyentes que estábamos aquí emulando lo que han podido responder los oyentes sobre la vida sexual sana del presidente del gobierno. Que todo el mundo se imaginaría que vida sexual puede tener, pero sana no,"
+  },
+  {
+   "start": 35.46,
+   "end": 41.12,
+   "label": "SPEAKER_11",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "sana no Y no dijo muy, dijo activas secas, hay una diferencia ahí Yo creo"
+  },
+  {
+   "start": 41.12,
+   "end": 54.54,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "que en cualquier caso el beso que vimos hace unos días con lo que contó ayer Que son matices Es que no encaja demasiado bien, ese beso, hubo hasta un amago de cobra que se ha hablado poco de él Pero efectivamente en el momento del beso, no"
+  },
+  {
+   "start": 54.54,
+   "end": 59.68,
+   "label": "SPEAKER_11",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "se miraron cuando se separaron del abrazo Y eso a mí me escama mucho,"
+  },
+  {
+   "start": 59.74,
+   "end": 60.64,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "esos detalles Sí,"
+  },
+  {
+   "start": 60.64,
+   "end": 60.76,
+   "label": "SPEAKER_11",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "sí, sí."
+  },
+  {
+   "start": 60.76,
+   "end": 62.3,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "No hay pasión. Yo soy muy de culebrones y"
+  },
+  {
+   "start": 62.3,
+   "end": 63.04,
+   "label": "SPEAKER_11",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "esas cosas no..."
+  },
+  {
+   "start": 63.04,
+   "end": 64.38,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Bueno, hay muchas bromas."
+  },
+  {
+   "start": 64.64,
+   "end": 89.66,
+   "label": "SPEAKER_15",
+   "person": null,
+   "name": "Hablante sin identificar 12",
+   "text": "En la maretta cuando estábamos grabándole, hay un momento que está muy bien. Sánchez, se meten los dos en el mar, en el agua, pero Sánchez sale primero. Y sale por unas rocas hasta que tienes que subir y tal y tal. Y se olvida de ella. Y ella se queda ahí luchando, parada, intentando también subir porque no hay escaleritas, no hay una escalerilla que tú vas a subir, tienes que escalar las rocas como puedes."
+  },
+  {
+   "start": 94.22,
+   "end": 119.62,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "¡Suscríbete y activa la campanita!"
+  },
+  {
+   "start": 119.66,
+   "end": 127.2,
+   "label": "SPEAKER_15",
+   "person": null,
+   "name": "Hablante sin identificar 12",
+   "text": "Se olvida la de ella y se fue a la mareta y ella a la otra intentando salir del mar. Eso no era la fuerza del amor."
+  },
+  {
+   "start": 129.26,
+   "end": 159.14,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Silvia, como os decía, hay muchas bromas hoy también y incredulidad entre los oyentes por los audios. Según nos dicen, por los que hemos emitido esta mañana en el programa, porque la práctica totalidad, os lo decía antes de la pausa, dice que anoche no vieron la entrevista de Broncano al presidente. Ahora, más allá de los chascarrillos, le comparan con Nerón, con un tipo que disfruta viendo cómo se quema todo a su alrededor. Por eso consideran que urge echarle de la Moncloa el 29 de noviembre."
+  },
+  {
+   "start": 159.14,
+   "end": 180.64,
+   "label": "SPEAKER_10",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Pues va a ser que no. Me acabo de comer ahora un pincho de tortilla con un torrendo de Soria, barra energética soriana, con un café con leche y no pretendo, vamos, escuchar nada de sinvergüenza de nuestro presidente del gobierno, del perro Sánchez, para que me siente mal el desayuno. No fastidies."
+  },
+  {
+   "start": 180.64,
+   "end": 195.66,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "¿De verdad hay alguien que a estas alturas pierda su tiempo viendo un programa de Pedro Sánchez? No me lo puedo creer. Hombre, que lo vean los psiquiatras para estudiarlo, sí. Pero el pueblo manda eso."
+  },
+  {
+   "start": 196.28,
+   "end": 205.54,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 10",
+   "text": "¿Eso que lo vea su tía? No, no, no. Y luego, que hable encima de las relaciones sexuales con su mujer. Ah, no, no, no, no. Prefiero ver 50 sombras de Grey."
+  },
+  {
+   "start": 205.7,
+   "end": 224.04,
+   "label": "SPEAKER_06",
+   "person": null,
+   "name": "Hablante sin identificar 13",
+   "text": "No lo vi, lo reconozco. En mi casa hay unas normas de seguridad, de higiene. Un gusto, la primera no tiene el control parental, pero por lo que he estado oyendo, Ábalos es mucho más pudoroso que él, pero le falta perrear. Bueno, les viene bien, ¿no? Porque así aprovechan bien el vis-a-vis en la cárcel. Que asquito, por Dios."
+  },
+  {
+   "start": 224.04,
+   "end": 241.38,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 7",
+   "text": "Yo la verdad aguanté poco, hasta los primeros rebusnos de Pedro Sánchez, no lo aguanto. Pero que se puede esperar de una entrevista en la que el entrevistador es vulgar, chavacano y ordinario, pues un entrevistado del mismo nivel. Un hombre que ha vivido de o en el mundo de la prostitución, que contrata sicarios para matar jueces."
+  },
+  {
+   "start": 241.64,
+   "end": 251.5,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 11",
+   "text": "Va ahí a que le dé el masaje a su sauna particular y los índices de audiencia esos que decís, que ni me lo creo, vamos, ni me lo creo."
+  },
+  {
+   "start": 251.5,
+   "end": 266.1,
+   "label": "SPEAKER_13",
+   "person": null,
+   "name": "Hablante sin identificar 9",
+   "text": "Lo que presenciamos en ese programa fue el protagonismo de un herón, un herón moderno, que se está riendo y diciéndonos cómo está quemando la ciudad, cómo está quemando el país. Y ayer salió riéndose de todos nosotros, diciéndonos cómo él está quemando el país y lo bien que se lo está pasando."
+  },
+  {
+   "start": 266.4,
+   "end": 272.62,
+   "label": "SPEAKER_12",
+   "person": null,
+   "name": "Hablante sin identificar 14",
+   "text": "A mí que se dedica a hablar de su vida sexual, me importa un bledo, la verdad. Lo que sí me importa es el miedo que da esta situación."
+  },
+  {
+   "start": 272.94,
+   "end": 287.72,
+   "label": "SPEAKER_14",
+   "person": null,
+   "name": "Hablante sin identificar 8",
+   "text": "Bueno, este personaje realmente es un delincuente, da vergüenza verlo. Se ríe del mismo, de los demás, de todos nosotros. Por eso no hay que votar a la calle ya, así que todos a votar el 29 de noviembre, hacerle ahí una opa total al tipo."
+  },
+  {
+   "start": 287.94,
+   "end": 290.18,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "La gente lo tiene muy claro, es buenísimo."
+  },
+  {
+   "start": 290.56,
+   "end": 305.16,
+   "label": "SPEAKER_15",
+   "person": null,
+   "name": "Hablante sin identificar 12",
+   "text": "Y aparte recordando algo que se nos pasaba, que es verdad, que ya parece que ha quedado atrás, pero que es el yerno de un proxeneta. Y que su mujer trabajaba en esa sauna de administrativa. Pues por eso"
+  },
+  {
+   "start": 305.04,
+   "end": 306.6,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "le decía yo a Rubén."
+  },
+  {
+   "start": 306.6,
+   "end": 310.06,
+   "label": "SPEAKER_15",
+   "person": null,
+   "name": "Hablante sin identificar 12",
+   "text": "Y hablando de que este tío venga a hablar de una vida sana y tal."
+  },
+  {
+   "start": 310.06,
+   "end": 311.46,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Que eso es imposible, es inviable."
+  },
+  {
+   "start": 311.64,
+   "end": 319.94,
+   "label": "SPEAKER_15",
+   "person": null,
+   "name": "Hablante sin identificar 12",
+   "text": "Cuando trabajaba en una sauna donde hay testigos y hay testimonios de que prostituían a menores, claro, se te cae una cara de tonto."
+  },
+  {
+   "start": 320.44,
+   "end": 346.9,
+   "label": "SPEAKER_11",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "La historia la tendría que juzgar, él que estaba tan preocupado por eso, desde la semana después de estar en el gobierno, cuando se lo preguntó a Máximo Huerta, la historia la tendría que juzgar por levantar un muro entre los españoles. Es que eso es lo que va a costar superar. Es que han llegado a hablar, sus terminales mediáticas más chifladas, de levantar o seguir un cordón sanitario en la mesa de Nochebuena. Eso es de ser un sinvergüenza. Lo siento, eso es de romper familias, de intentar debilitar convivencias. Bueno, Pablo,"
+  },
+  {
+   "start": 347.08,
+   "end": 349.76,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Pablo, de eso sabéis vosotros en Cataluña muchísimo, claro."
+  },
+  {
+   "start": 350.12,
+   "end": 352.46,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 6",
+   "text": "¿De qué? ¿De romper familias aquí todos los días?"
+  },
+  {
+   "start": 352.48,
+   "end": 357.12,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "De romper familias y de mesas de Navidad, bueno, pues disueltas por broncas, ¿no?"
+  },
+  {
+   "start": 357.3,
+   "end": 383.54,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 6",
+   "text": "Familiares, hablando de política. Sí, hubo una época en la que estaba a la orden del día, pero sí, bueno, iba a seguir a la orden del día, porque vamos, aquí están esperando a que gane el Partido Popular y gobierne con Vox para volver a las calles. Eso que decís al principio de que en España todavía no se han incendiado las calles, bueno, tranquilos, tiempo a tiempo y que enseguida en el País Vasco ya se empiezan a ver detalles."
+  },
+  {
+   "start": 383.54,
+   "end": 385.02,
+   "label": "SPEAKER_08",
+   "person": null,
+   "name": "Hablante sin identificar 16",
+   "text": "¿Tienes el sentimiento de que todo el mundo va"
+  },
+  {
+   "start": 385.02,
+   "end": 385.2,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 6",
+   "text": "10 veces más rápido?"
+  },
+  {
+   "start": 385.74,
+   "end": 388.06,
+   "label": "SPEAKER_08",
+   "person": null,
+   "name": "Hablante sin identificar 16",
+   "text": "Cuando ves exactamente esas zapatillas, ahora con una reducción"
+  },
+  {
+   "start": 388.06,
+   "end": 388.16,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 6",
+   "text": "de 70%, y"
+  },
+  {
+   "start": 388.06,
+   "end": 403.26,
+   "label": "SPEAKER_08",
+   "person": null,
+   "name": "Hablante sin identificar 16",
+   "text": "solo hay un par, entonces te detienes en tu banqueta, agarras tu banca, pero no trabajas con ella y ¡boom! ¡Has vendido! Bueno, entonces puedes usar la velocidad. Felizmente, ahora hay los deals de Giga Delta. Temporalmente con un vaso de glas de Giga, las primeras 14 meses por solo 30 euros por mes. Cheque Delta.nl. Delta, pensado en todo."
+  }
+ ]
+}

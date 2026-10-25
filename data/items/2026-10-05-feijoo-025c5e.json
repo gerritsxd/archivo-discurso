@@ -13,8 +13,8 @@
  "pipeline": {
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
-  "voiceprint_threshold": 0.55,
-  "processed_at": "2026-10-25T09:36:58+00:00",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T17:55:52+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -26,15 +26,15 @@
    "talk_s": 1763.8
   },
   "SPEAKER_02": {
-   "person": "herrera",
-   "name": "Carlos Herrera (periodista, COPE)",
-   "decision": "match",
-   "reason": "sim 0.58, next 0.36",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "unknown",
+   "reason": "best sim 0.58 < 0.65",
    "talk_s": 256.3
   },
   "SPEAKER_00": {
    "person": null,
-   "name": "Hablante sin identificar 1",
+   "name": "Hablante sin identificar 2",
    "decision": "too_short",
    "reason": "only 6s of speech",
    "talk_s": 5.7
@@ -46,7 +46,7 @@
    "end": 652.68,
    "label": "SPEAKER_00",
    "person": null,
-   "name": "Hablante sin identificar 1",
+   "name": "Hablante sin identificar 2",
    "text": "Don Alberto Núñez Feijóo, don Ignacio Riveras, buenos días, bienvenido, muy bien. Adelante."
   },
   {
@@ -61,8 +61,8 @@
    "start": 667.14,
    "end": 751.52,
    "label": "SPEAKER_02",
-   "person": "herrera",
-   "name": "Carlos Herrera (periodista, COPE)",
+   "person": null,
+   "name": "Hablante sin identificar 1",
    "text": "Pues buenos días, Alberto. Primero agradecerte, yo creo que en nombre de todo el instituto, pues que en un día, vamos a decir, peculiar, pues estés aquí con nosotros compartiendo esta jornada. Yo diría que, primero, ¿quién nos iba a decir a dos gallegos como tú y yo, cuando nos tomamos una cerveza en Galicia, hace años tú estabas en la Junta, yo vendía cerveza solo en Galicia, pues que íbamos a estar aquí los dos juntos y que encima ibas a charlar conmigo en un momento de país, luego que no hubiese apostado hace diez años a que llegase este momento. La primera pregunta que me gustaría compartir, aparte de agradecerte que en un día tan especial estés aquí, es un poco bueno que nos cuentes. La primera pregunta que tenía es cuando iba a haber elecciones, ya no te la voy a hacer porque ya nos la han contestado. ¿Qué te parece este momento? ¿Cómo te ha tocado este momento, esta mañana tan de sorpresa?"
   },
   {
@@ -77,8 +77,8 @@
    "start": 1018.38,
    "end": 1073.12,
    "label": "SPEAKER_02",
-   "person": "herrera",
-   "name": "Carlos Herrera (periodista, COPE)",
+   "person": null,
+   "name": "Hablante sin identificar 1",
    "text": "Muy bien, pues yo me gustaría que tocásemos varios temas, quizás la primera pregunta es, nosotros aquí en las empresas familiares, como sabes, pues tenemos esta manía de pensar a largo plazo, de no pensar a corto plazo. Y el año pasado dábamos aquí un mensaje en el Instituto de que creemos que tenemos un país que puede hacer pactos de Estado, mensaje que no caló mucho en el mundo político y un poco tú que estás a menos de dos meses de poder ser presidente de este gobierno, ¿Cómo ves la situación para que desde el todo puedas gobernar, puedas sentirte a gusto y yo creo que puedas también tener un gobierno con visión a largo plazo, no a corto plazo, que a nosotros es lo que nos apetece mucho, que haya una visión a largo."
   },
   {
@@ -93,8 +93,8 @@
    "start": 1691.91,
    "end": 1718.53,
    "label": "SPEAKER_02",
-   "person": "herrera",
-   "name": "Carlos Herrera (periodista, COPE)",
+   "person": null,
+   "name": "Hablante sin identificar 1",
    "text": "Vamos a hablar un poco de vivienda, que estaba en la hoja de ruta, de economía. Yo creo que tú tienes un perfil gestor, has estado gestionando Insalud, has estado gestionando en su momento Correos, aparte de la propia Junta de Galicia. ¿Qué te preocupa de la economía española y qué tres cosas crees que hay que tocar para tener una economía más fuerte?"
   },
   {
@@ -109,8 +109,8 @@
    "start": 2197.02,
    "end": 2212.34,
    "label": "SPEAKER_02",
-   "person": "herrera",
-   "name": "Carlos Herrera (periodista, COPE)",
+   "person": null,
+   "name": "Hablante sin identificar 1",
    "text": "Bueno, a mí me quedan muchísimas cosas en el tintero, ya estás tú sacando temas, Y además, como buen gallego, nosotros nos entendemos, ha dicho que los impuestos no van a subir. Y ha añadido que hay"
   },
   {
@@ -125,8 +125,8 @@
    "start": 2213.46,
    "end": 2255.7,
    "label": "SPEAKER_02",
-   "person": "herrera",
-   "name": "Carlos Herrera (periodista, COPE)",
+   "person": null,
+   "name": "Hablante sin identificar 1",
    "text": "Y ha hablado de la deflactación del IRPF. Y puede hablar de otros impuestos, pero necesitamos más tiempo. Yo creo, Alberto, y nosotros creemos, yo creo que en general que los impuestos no tienen que subir para que podamos invertir y para que haya una clase media con mayor poder adquisitivo que nos haga girar la rueda. Yo creo que eso es necesario. Pero me gustaría cambiar un poco de tercio hacia cómo ves tú, con las posibilidades que tienes de gobernar este país, el papel de España en Europa y el papel de Europa en el mundo, en un mundo que hoy se ha hablado a lo largo de toda la mañana de todos los aspectos geopolíticos que nos están afectando. ¿Qué te parece que tiene que hacer España?"
   },
   {
@@ -141,8 +141,8 @@
    "start": 2675.64,
    "end": 2703.26,
    "label": "SPEAKER_02",
-   "person": "herrera",
-   "name": "Carlos Herrera (periodista, COPE)",
+   "person": null,
+   "name": "Hablante sin identificar 1",
    "text": "Bueno, se nos ha acabado el tiempo. Yo quizás quería tocar un poco, tú naciste en Los Peares, en un pueblo de 300 habitantes, estuviste 10 años creo que en un internado de los maristas en León, y saber un poco por qué te has metido en este fregado de la política, por qué una persona se mete en este fregado y después quiero cerrar con otra última pregunta."
   },
   {
@@ -157,8 +157,8 @@
    "start": 2941.16,
    "end": 2943.12,
    "label": "SPEAKER_02",
-   "person": "herrera",
-   "name": "Carlos Herrera (periodista, COPE)",
+   "person": null,
+   "name": "Hablante sin identificar 1",
    "text": "Y aquí sigues. Y aquí sigo."
   },
   {
@@ -173,8 +173,8 @@
    "start": 2967.86,
    "end": 2990.18,
    "label": "SPEAKER_02",
-   "person": "herrera",
-   "name": "Carlos Herrera (periodista, COPE)",
+   "person": null,
+   "name": "Hablante sin identificar 1",
    "text": "Y ya la última, que estamos fuera de hora. Nosotros, las empresas, tenemos nuestro propósito, ¿no? Por ejemplo, el nuestro, que no lo voy a contar, tiene ocho palabras. O sea, que no vale... Me tienes que... Te voy a meter en un apuro, pero me tienes que decir lo que te sale del cuerpo, de cuál sería tu propósito si gobiernas España en noviembre de este año."
   },
   {
@@ -189,8 +189,8 @@
    "start": 2993.86,
    "end": 2995.26,
    "label": "SPEAKER_02",
-   "person": "herrera",
-   "name": "Carlos Herrera (periodista, COPE)",
+   "person": null,
+   "name": "Hablante sin identificar 1",
    "text": "Pero en una frase me lo tienes que decir."
   },
   {
@@ -205,8 +205,8 @@
    "start": 3005.66,
    "end": 3011.0,
    "label": "SPEAKER_02",
-   "person": "herrera",
-   "name": "Carlos Herrera (periodista, COPE)",
+   "person": null,
+   "name": "Hablante sin identificar 1",
    "text": "Pues muchas gracias, Alberto. Un aplauso para Alberto. Muchas gracias. Muchas gracias. Gracias."
   },
   {
@@ -222,7 +222,7 @@
    "end": 3037.05,
    "label": "SPEAKER_00",
    "person": null,
-   "name": "Hablante sin identificar 1",
+   "name": "Hablante sin identificar 2",
    "text": "Gracias."
   }
  ]

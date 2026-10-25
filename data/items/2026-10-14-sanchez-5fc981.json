@@ -1,0 +1,286 @@
+{
+ "id": "2026-10-14-sanchez-5fc981",
+ "date": "2026-10-14",
+ "expected_person": "Pedro Sánchez",
+ "kind": "rally",
+ "outlet": "PSOE YouTube",
+ "title": "PSOE / Pedro Sánchez en Zaragoza",
+ "url": "https://www.youtube.com/watch?v=Dji8_QWgi6k",
+ "language": "es",
+ "duration_s": 4173.88,
+ "sha256": "7d702e9d8a6516d90efcc2e72b424775225c42cfbdaa59037fed8224c506a275",
+ "fetched_at": "2026-10-25T09:16:42+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.55,
+  "processed_at": "2026-10-25T12:48:38+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_01": {
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "decision": "match",
+   "reason": "sim 0.79, next 0.22",
+   "talk_s": 1046.3
+  },
+  "SPEAKER_03": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "unknown",
+   "reason": "best sim 0.44 < 0.55",
+   "talk_s": 28.9
+  },
+  "SPEAKER_09": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "unknown",
+   "reason": "best sim 0.39 < 0.55",
+   "talk_s": 870.1
+  },
+  "SPEAKER_04": {
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "decision": "unknown",
+   "reason": "best sim 0.19 < 0.55",
+   "talk_s": 34.1
+  },
+  "SPEAKER_08": {
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "decision": "unknown",
+   "reason": "best sim 0.36 < 0.55",
+   "talk_s": 399.2
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "decision": "unknown",
+   "reason": "best sim 0.34 < 0.55",
+   "talk_s": 33.4
+  },
+  "SPEAKER_02": {
+   "person": null,
+   "name": "Hablante sin identificar 6",
+   "decision": "unknown",
+   "reason": "best sim 0.33 < 0.55",
+   "talk_s": 34.5
+  },
+  "SPEAKER_07": {
+   "person": null,
+   "name": "Hablante sin identificar 7",
+   "decision": "unknown",
+   "reason": "best sim 0.26 < 0.55",
+   "talk_s": 118.1
+  },
+  "SPEAKER_05": {
+   "person": null,
+   "name": "Hablante sin identificar 8",
+   "decision": "unknown",
+   "reason": "best sim 0.19 < 0.55",
+   "talk_s": 55.3
+  },
+  "SPEAKER_06": {
+   "person": null,
+   "name": "Hablante sin identificar 9",
+   "decision": "unknown",
+   "reason": "best sim 0.16 < 0.55",
+   "talk_s": 252.1
+  }
+ },
+ "turns": [
+  {
+   "start": 1.34,
+   "end": 35.42,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "El bombero y la sanitaria que el 29 de noviembre tienen guardia. Que no voten los estudiantes que viven fuera de su pueblo. Que el voto de las personas mayores que no pueden ir a la urna no cuente. De quien está enfermo, de las personas dependientes, de quienes nos cuidan. Pero lo que no saben es que vamos a alzar nuestra voz. Que votaremos. El voto por correo es la manera de ejercer tu derecho cuando no puedes votar en urna. Y el 29 de noviembre, por correo o presencial, vamos a votar. No nos van a recortar nuestro derecho a votar."
+  },
+  {
+   "start": 60.18,
+   "end": 73.14,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 8",
+   "text": "Pestillos, cientos de gritos, contra el pestillo, somos el preso, libre entre rejas, pasa montañas, rompecabezas, somos el llanto y la carcajada, los empujó"
+  },
+  {
+   "start": 103.38,
+   "end": 108.68,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Sánchez es un mentiroso compulsor Es hostiable Un caudillejo tercer mundista Cabrón"
+  },
+  {
+   "start": 108.68,
+   "end": 109.74,
+   "label": "SPEAKER_09",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "El jeta de la mareta"
+  },
+  {
+   "start": 109.74,
+   "end": 117.96,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "El galgo de Paiporta Creo que debería irse de este país en un maletero Repugnante presidente del"
+  },
+  {
+   "start": 117.96,
+   "end": 119.06,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 6",
+   "text": "gobierno de España Un"
+  },
+  {
+   "start": 119.06,
+   "end": 128.82,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "mentiroso, un cobarde, un corrupto, un traidor y un indecente. Es un farsante."
+  },
+  {
+   "start": 128.9,
+   "end": 129.92,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 8",
+   "text": "Un peligro."
+  },
+  {
+   "start": 130.06,
+   "end": 134.72,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Un caudillismo que en España no se veía desde hace 50 años."
+  },
+  {
+   "start": 135.1,
+   "end": 136.16,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 7",
+   "text": "Me gusta la puta."
+  },
+  {
+   "start": 136.44,
+   "end": 137.52,
+   "label": "SPEAKER_01",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Es el copata de la Moncloa."
+  },
+  {
+   "start": 137.88,
+   "end": 139.54,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 7",
+   "text": "¡Hijo de puta!"
+  },
+  {
+   "start": 141.04,
+   "end": 142.86,
+   "label": "SPEAKER_01",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Yo seré un perro, pero no tengo amor."
+  },
+  {
+   "start": 144.16,
+   "end": 184.19,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 6",
+   "text": "¿Por qué nos insultan? Por subir el salario mínimo y batir récord de empleos Por revalorizar y llenar la hucha de las pensiones Por extender y equiparar los permisos de paternidad y maternidad Por aprobar una ley que garantiza la igualdad salarial entre hombres y mujeres Por aprobar medidas en favor del pequeño propietario y los inquilinos frente a los fondos buitres Por alzar la voz contra el genocidio en Gaza ¿Es el Estado del bienestar frente al real invitar del 5%?"
+  },
+  {
+   "start": 184.93,
+   "end": 186.27,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Pues sí, por"
+  },
+  {
+   "start": 186.27,
+   "end": 187.45,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 6",
+   "text": "eso nos insultan,"
+  },
+  {
+   "start": 187.51,
+   "end": 190.93,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "porque somos el gobierno de la gente que pone en su sitio a los de arriba."
+  },
+  {
+   "start": 191.97,
+   "end": 200.19,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 6",
+   "text": "Y si queremos llegar más lejos en avances sociales y hacerlo antes, necesitamos tu fuerza, la fuerza de la gente."
+  },
+  {
+   "start": 200.73,
+   "end": 295.24,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Dos banderas arriba, carteles arriba, vamos a recibir al presidente del gobierno demostrando la fuerza de la gente. La Fuerza de Aragón, con todos vosotros, Teresa Ladrero, secretaria general del PSOE de Zaragoza, Pilar Alegría, secretaria general del PSOE de Aragón, y Pedro Sánchez, presidente del gobierno y próximo ganador de las elecciones del 29 de noviembre. ¡Arriba Aragón! ¡Arriba Zaragoza!"
+  },
+  {
+   "start": 295.24,
+   "end": 1175.97,
+   "label": "SPEAKER_08",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Y amigas, ya veis que revolución se ha montado en un momento entre las fiestas del Pilar y la Champions de esta tarde. Hoy estamos aquí muchos amigos y amigas para apoyar y acompañar al próximo presidente del Gobierno de España, Pedro Sánchez. Acompañado de nuestra secretaria general, Pilar Alegría, que está haciendo un excelente trabajo en las Cortes de Aragón. A dos presidentes que les tengo mucho respeto y admiración, al presidente Marcelino y al presidente Sánchez Quero, muchas gracias por estar aquí. Y a todos nosotros, gente de Zaragoza, de Huesca y de Teruel, que estamos aquí para movilizar, para creernos que estamos en el mejor partido político y que vamos sin ninguna duda a gobernar nuestro país el próximo 29 de noviembre. Ya saben esa frase que dice, abróchense los cinturones que vienen curvas. Dentro de poco comenzaremos la campaña electoral la más dura de los últimos tiempos. Va a ser dura, va a ser complicada y además vamos a hablar de algo muy importante, nuestro modelo de convivencia. La vida real, el día a día, nos jugamos muchísimo. Muchísimo. Por eso necesitamos un gobierno socialista que recoja todas las reivindicaciones sociales y las transforme en leyes, en partidas presupuestarias, en decretos. Necesitamos un gobierno socialista cuanto antes. Ya sabéis que nuestro enemigo número uno es la abstención. Hay gente que se queda en casa y no vota porque está frustrado y hay que comprenderlo. Hay gente que está frustrada, tiene apatía porque tenemos la peor oposición en la historia de nuestro país. Bloquea todo, bloquea hasta lo bueno que es para nosotros cualquier ley, cualquier legislación, cualquier decreto, cualquier proyecto. Por eso hay que saber distinguir los modelos de convivencia. Es importante porque nos jugamos el derecho a una vida digna y a una vivienda digna. Digo vivienda digna porque ya hemos conocido hace poco que han vuelto otra vez a elevar el Gobierno de Aragón del Partido Popular y de Vox El módulo de la VPA y ahora cuesta una VPA 50.000 euros más gracias a la intervención de la derecha. Un gran problema en nuestra región y en nuestro país. Consecuencia de los reales decretos estamos aquí, de los dos reales decretos bloqueados por la derecha. Pero también necesitamos y nos juzgamos un trabajo digno. Ya sabemos lo que hacen el PP y Vox cuando tienen capacidad de decisión. Bloquean los avances laborales. También tenemos que defender y está en juego los servicios públicos porque cuando gobiernan las derechas privatizan todo, absolutamente todo. ¡Hasta la justicia! de la Mujer Rural en las Cortes de Aragón, que hay que recordar que hace diez meses el Partido Popular votó a favor y, como ahora está secuestrado ideológicamente por Vox, votó en contra con Vox, PP y Vox en contra del medio rural y de la mujer en el medio rural. No lo olvidemos. Las pensiones. Escucharemos más a Pedro Los pensionistas que se pongan la antena. Cuando vean a alguien del PP y de Vox, que sepan que se la van a privatizar. Que no duden de la seguridad y la libertad frente al odio. Son tantas cosas las que nos diferencian que el Gobierno de Azcón y el Gobierno de Natalia Chueca es un Gobierno superclasista y no lo tenemos que olvidar. Ayer, Pedro, estuvo Feijóo por aquí, y en Huesca luego, efectivamente. Por aquí estuvo tomando unos pinchos, pero no tuvieron el coraje de llamar a los alcaldes del Partido Popular para reprocharle a Ascon que todavía no ha cumplido el compromiso de poner en marcha el FITE, el Plan de Ayudas a los Municipios de la provincia de Zaragoza, porque se comprometió con nosotros en octubre del año 2023. 23. Nos ha dado la espalda al medio rural. Por eso, Pedro, cuando seas de nuevo presidente, que seguro que lo vas a ser, si Azcón no sigue dando la espalda a los alcaldes de Zaragoza, las primeras medidas que tomes, por favor, ayúdanos a conseguir un plan FITE para los pueblos de la provincia de Zaragoza. Eso sería absolutamente fundamental. Por eso y porque no nos podemos fiar de Azcón, ni de Feijóo, ni de Abascal, porque no es bueno para los aragoneses ni para los españoles. Pero ahora hemos dicho hasta aquí. El 29 de noviembre vamos a confrontar las recetas de los candidatos y de los partidos políticos, especialmente en materia de vivienda. Vamos a clarificar conceptos. El Partido Popular está obsesionado en ampliar su base, se ha radicalizado tanto que los votantes moderados están asustando. En cambio, nosotros continuamos nuestra labor de esa mayoría social con la vivienda, la educación, los servicios públicos. Los socialistas hemos impulsado grandes cambios en las últimas décadas y en estas elecciones tenemos que demostrar que la socialdemocracia tiene recetas que son válidas para los retos de este momento. Voy terminando. Yo ya lo he dicho, que estoy convencida de que vamos a ganar. Estoy muy convencida. Y si la abstención conseguimos movilizarla, todavía más. Pero también hay que explicar a la gente que tenemos un riesgo real, que por primera vez desde la dictadura existe posibilidad que la ultraderecha gobierne nuestro país. ¿Veis? Existe esa posibilidad. Y es una ultraderecha Vox que es mucho más radical que Le Pen y que Meloni. Se alía con los movimientos racistas globales, quiere reformar la Constitución, en fin, cuidadín. Eso sería un efecto totalmente destructivo para España. Por eso que nuestros jefes son los aragoneses, nuestros jefes son los españoles y por eso tenemos que trabajar mucho, mucho, mucho, muchísimo para que no pase lo que decía Serrat en una canción, y abro entre comillas, cayó la tierra en las manos de unos locos con carnet. Muchísimas gracias. Adelante, con pasión y emoción, Pilar."
+  },
+  {
+   "start": 1175.97,
+   "end": 2343.28,
+   "label": "SPEAKER_09",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Bueno, bueno, muy buenas tardes. Aquí está la fuerza de la gente, presidente. La fuerza de la gente que te va a llevar de nuevo el próximo 29 de noviembre a ganar las próximas elecciones generales, a gobernar este país cuatro años más, presidente. Presidente, muchísimas gracias, Pedro, por venir aquí, a tu casa. Ya ves que Zaragoza y Aragón te quieren. Gracias de verdad por visitarnos estos días que, además, ya sabes que para los zaragozanos especialmente, para todos los aragoneses, son unos días grandes, unos días especiales. Estamos celebrando nuestras fiestas del Pilar en honor a nuestra Virgen del Pilar y por tanto tenerte aquí en casa desde luego es un orgullo y un placer y queremos que sientas una vez más la fuerza y el cariño de los aragoneses y las aragonesas. Gracias y gracias a todos y a todas los que habéis venido, a los secretarios generales de Zaragoza, de Huesca, de Teruel, por supuesto querido también Marcelino, Juan Antonio, alcaldes y concejales de todos los puntos de Aragón, pero sobre todo me vais a permitir, además lo vais a entender perfectamente, que empiece mis palabras trasladando un abrazo cariñoso a los cientos de personas que se han quedado fuera, que no pueden acompañarnos en esta sala y que nos trasladan todo el apoyo y todo el cariño. Gracias, gracias por estar ahí, gracias por transmitirnos siempre esa fuerza y ese cariño constante. Bueno, pues ya estamos aquí. Compañera, esta fuerza que se ve hoy aquí, el 29 de noviembre, triplicada y cuadriduplicada. Eso es lo que tenemos que hacer. ¡La fuerza que se ve aquí! ¡Que rebose las urnas! ¡Qué buen lema, compañeros, amigos! ¡Qué buen lema! La fuerza de la gente. Porque, fijaros, cuando llegan procesos electorales, creo que tenemos que hacer todos un ejercicio de ver dónde estamos y, sobre todo, dónde estábamos cuando llegamos al Gobierno de España. Y la fuerza de la gente dice mucho de lo que ha hecho la ciudadanía para conseguir derechos, para consolidar oportunidades. Porque hace años, compañeros y compañeras, todos recordaréis lo que estaba sucediendo en nuestras calles. Había cientos, cientos y cientos, y veo aquí además un número importante, de hombres y mujeres, pensionistas, Pensionistas que salían a la calle a manifestarse reclamando una pensión justa, una pensión digna y, desde luego, peleando y discutiendo porque no querían esa pensión que les trasladaba el Partido Popular, que costaba más el sello que llegaba de los sobres a nuestras casas, con esa subida del 0,25%, que lo que veían de su vida cada mes. Señores, esos pensionistas que hace unos años no disfrutaban de una pensión justa y revalorizada, esos pensionistas que tenían que dar una parte importante de su pensión a sus familias para sacar el mes adelante, hoy gracias a esas reivindicaciones y sobre todo ese apoyo que han encontrado en un gobierno progresista liderado por Pedro Sánchez, Hoy esos pensionistas ven como su pensión se ha revalorizado conforme al IPC y hoy por fin disfrutan de una pensión digna, merecida después de años y años y años de trabajo y de esfuerzo. Por eso hoy ya desde aquí lo decimos alto y claro, las pensiones en este país son y serán con un gobierno progresista lo que han sido hasta ahora. Ahora, pensiones públicas, sí o sí, pensiones públicas, porque ya sabemos lo que le pasaron a las pensiones de casi los 300.000 aragoneses que cobran esa pensión cuando ha gobernado en este país el Partido Popular y entonces no existía Vox, bueno, existía entre ellos, porque ya sabéis que aquí tanto monta, monta tanto, que aquí van en siglas diferentes, pero compañeros, que no nos engañen, que son ya perfectamente indistinguibles. La fuerza de la gente, compañeros y compañeras, fue también esa fuerza que se vio reflejada en las calles, cuando sobre todo cientos y miles de mujeres pisamos las calles, salimos a reivindicar que queríamos un país libre, un país seguro, un país donde las mujeres, que representamos el 50% de la sociedad, tuviéramos el mismo poder que ellos en el ámbito económico, en el ámbito social, en el ámbito político. Salimos a pelear esos derechos y esa pelea que se vio en las calles se ha visto reflejado en nuevas leyes consolidadas gracias a ese gobierno progresista. Esa fuerza de la gente se vio también en hombres y mujeres que salían en nuestras calles y que nos pedían que querían amar a quien quisieran, que querían casarse con las personas que quisieran. Y fue gracias a un gobierno socialista que pusimos en marcha la Ley del Matrimonio Igualitario. Ha sido siempre la fuerza de la gente, de la gente de la calle, la que nos ha llevado a desde los gobiernos conformar y transformar esas peticiones, esas reivindicaciones en derechos. Y por eso, el próximo 29 de noviembre, tenemos que inundar las urnas, tenemos que seguir trasladando esa fuerza para que todas aquellas reivindicaciones que tienen que hacerse en realidad sean posibles gracias a un gobierno progresista y a un gobierno socialista liderado por Pedro Sánchez. Y es también la fuerza de la gente, gracias a ese gobierno progresista liderado por un presidente valiente, un presidente con voz propia, que fue capaz de plantarse frente a los poderosos y decir sí al pueblo de Palestina, sí al reconocimiento del pueblo de Palestina y no a esos 5% de gasto en defensa. Con voz propia, en favor de los derechos humanos, defendiendo la libertad del pueblo de Palestina. Y todo eso se ha podido hacer a pesar de no tener una mayoría en el Parlamento. Así que imaginaros si todos estos avances, si todos estos derechos hemos sido capaces de conquistarlos durante todos estos años con mucho trabajo y con mucho esfuerzo, que no lograremos con una mayoría más amplia y con un Gobierno y un Parlamento más progresista. Y mirad, si todas esas reivindicaciones que hemos vivido durante estos años han sido fundamentales y legítimas y hemos sido capaces de transformarlo en derechos y en avances que han mejorado de la vida de la gente, ahora tenemos un reto fundamental, que es el reto de la vivienda. De construir y de constituir una realidad lo que dice nuestra Constitución, que la vivienda tiene que ser una vivienda digna, la vivienda tiene que ser hogar para los ciudadanos y las ciudadanas. Y la vivienda no puede ser ese modelo que defiende la derecha y la ultraderecha, donde solo se entiende la vivienda como un bien de mercado y un negocio para los especuladores y los fondos buitre, compañeros y compañeras. Y es verdad que se han dado pasos, pero hay que seguir en esa misma senda. Se ha aprobado por primera vez en la historia una ley de la vivienda. Ahora bien, ¿qué ha pasado con esa ley de la vivienda? ¿Qué ha llegado a las comunidades autónomas donde están gobernando el Partido Popular y la derecha, como aquí, con el señor Azcón, y directamente no están aplicando la ley de la vivienda por una cuestión, si me lo permitís utilizar esta expresión, de sectarismo ideológico? Perdón, es que se nombra Azcón y mirad el ruido que hace esto, perdonad, perdonad. Antes de venir a este, antes de venir a este mitin, me he tomado la molestia, lo he hecho con la ciudad de Zaragoza, pero perfectamente lo podía haber hecho con la ciudad de Huesca, con la ciudad de Teruel o con muchos de nuestros municipios. Me he metido a un buscador de vivienda, perfectamente conocido por todos, y he buscado viviendas de alquiler aquí, en nuestra ciudad, en Zaragoza. La primera sorpresa, o ya no sorpresa desgraciadamente, que me he encontrado es que en estos momentos hay más habitaciones para alquilar que viviendas para alquilar. Pero aún os diré más, solamente había seis viviendas por debajo de 700 euros para alquilar y, por supuesto, ninguna de ellas de más de 40 metros cuadrados. ¿Me podéis decir qué familia puede vivir dignamente en viviendas que no llegan ni a 40 metros cuadrados con importes superiores a 700 euros el alquiler al mes? ¿Y de verdad no quieren aplicar la ley de la vivienda? ¿Y de verdad no quieren topar los precios de los alquileres en nuestras ciudades? Pues esa es una causa, una causa digna por la que tenemos que seguir peleando. Y como decía muy bien Teresa, tenemos que seguir trabajando para ensanchar, para ampliar el parque de viviendas protegido. Es fundamental, si no hay un parque de viviendas amplio con vivienda protegida, difícilmente podremos topar esos precios, podremos generar presión en la vivienda libre. ¿Sabéis cuál ha sido la solución del gobierno del señor Azcor en esta comunidad autónoma para la vivienda protegida? ¿Qué es la verdad? Estar todo el día con la misma Martín Gala, todo el día con la misma Matraca, que se 86 viviendas del anterior gobierno y él lleva no sé cuántos miles. Yo os digo una cosa, una mentira aunque se repita muchas veces no se convierte en verdad, porque si aquí, en nuestra comunidad autónoma, hubo realmente una política seria de poner en marcha vivienda protegida para los ciudadanos de a pie, se llevó adelante con el gobierno de Marcelino Iglesias con más de 30.000 viviendas en sus 12 años de gobierno. Más de 30.000 viviendas, Marcelino. Más de 2.200 con el gobierno de Javier Lambán. El señor Azcón aún ha llegado a las 700. Por cierto, también os voy a decir algo para que lo guardéis en la memoria. De cada 10 euros que se invierte en nuestra comunidad autónoma en vivienda protegida a día de hoy, 6 vienen del gobierno de Pedro Sánchez Pérez Castejón. Esto se le olvida al señor Azpón cuando se pone medallas en materia de vivienda. Y os decía que todo esto, todos esos avances, esos derechos, fundamentalmente aquí veo a muchos trabajadores y a muchas trabajadoras manifestándoos durante años en las calles, Porque sufríais contratos precarios, horas extraordinarias sin pagar, una temporalidad insoportable. Y fue gracias a vuestras reivindicaciones, a las reivindicaciones también de los sindicatos, que llegaron al eco y encontraron la mano tendida y la complicidad de un gobierno progresista Y puso en marcha una nueva reforma laboral que ha traído a nuestro país nada más y nada menos la posibilidad de que en estos momentos haya más de 22 millones de españoles y españolas trabajando, lo que nunca, lo que nunca, con más de 10 millones de mujeres trabajando, más de 10 millones de mujeres. Y ya sabéis lo que dijeron la derecha frente a esa reforma laboral. También lo han dicho con el salario mínimo interprofesional, pero la realidad de los datos hablan a las claras. Y hoy nuestro país, y así lo reconocen todos los organismos internacionales, es el país que más crece de toda Europa. Es un país donde hay más de 22 millones de personas trabajando. Es el país que ha reducido la temporalidad de una manera histórica. Y sí, es el país que ha conseguido subir más del 60% a esos hombres y mujeres que están percibiendo el salario mínimo interprofesional, que son hombres y mujeres con cara, con ojos, que cobraban 735 euros y hoy están percibiendo más de 1.200 euros al mes, compañeros y compañeras. Esa es la política de la realidad de los hechos de este Gobierno. Y eso es lo que tenemos que seguir haciendo, atender a la fuerza de la gente, seguir trabajando para preocuparnos y ocuparnos de los de siempre, de la gente de a pie, de los que necesitan verdaderamente de la política útil, respuestas y soluciones. Y todo esto lo hemos hecho, sí, también, a pesar de tener enfrente la peor oposición que podría tener este país. Porque durante estos años hemos visto y hemos sufrido como Partido Popular y Vox, tanto monta, monta, tanto, han hecho de la rabia, del odio y de la confrontación su única forma de hacer política. Porque desde el primer momento han renunciado al legítimo debate de las ideas, han renunciado al debate de los hechos, de las propuestas. Porque durante estos años hemos visto, como os digo, que por parte de la derecha y la ultraderecha solo el insulto, solo la rabia, solo la confrontación ha sido su forma de hacer política. También os digo que sigan rabiando, que sigan insultando, que nosotros desde luego con la fuerza de la gente queremos seguir gobernando y mejorando la vida de la gente. Pero os diré más. El próximo 29 de noviembre también nos jugamos eso. Nos jugamos derechos, nos jugamos viviendas dignas, nos jugamos pensiones dignas, nos jugamos una apuesta clara por la sanidad pública, nos jugamos una apuesta clara por la educación pública, pero también nos jugamos qué modelo de sociedad queremos, qué sociedad queremos dejarles para nuestros hijos y para las generaciones futuras. Y yo no quiero que mi hijo se tenga que acostumbrar a una sociedad enfrentada, a una sociedad donde no se respete al que piense diferente. Ni quiero tampoco que a los adversarios políticos nos tilden constantemente de enemigos. Por eso, el próximo 29 de noviembre, todos aquellos y aquellas que queramos construir una sociedad del respeto, Una sociedad que abrace a los que vienen de fuera también a trabajar, si yo, un futuro mejor aquí, a nuestro país. Una sociedad que escuche, una sociedad que empatice, una sociedad que se preocupe por la gente de a pie, una sociedad solidaria. Tenemos que salir y llenar las urnas para construir ese modelo de sociedad que queremos para nosotros y para las generaciones que vienen después. Y después, así que amigos y amigas, os voy a dejar porque aquí todos hemos venido a escuchar al presidente del gobierno, pero dejadme que termine, dejadme que termine, dejadme que termine, unas elecciones se definen, se eligen también, ¿en qué equipo quieres estar? En el equipo de la educación pública, en el equipo de la sanidad pública, en el equipo de la vivienda digna, en el equipo del respeto, se eligen equipos. Y aquí tenemos dos equipos muy claros. El del valiente también, ese es el más importante. Tenemos dos realidades. En el primero tenemos al candidato nitrógeno. Esperad un momento, esperad un momento, que no voy a volver yo a recordar la gracieta de se confundió el nitrógeno con el hidrógeno, que no, que no, que no, que no, esperad. No, no, no, no, que si os dais cuenta, algo hemos aprendido de Feijóo en estos años, que oye, cuando habla no da puntada sin hilo, no da puntada sin hilo, porque él cuando nos habló del nitrógeno realmente la cosa era mucho más profunda, lo que estaba haciendo era una autodefinición. Y me diréis, ¿por qué? ¿Qué es el nitrógeno? Pues un gas incoloro, inodoro e insípido. Este es un equipo. No hablo del otro compañero del equipo, que el pobre, cuando el presidente del Gobierno anunció la convocatoria electoral, como era a las nueve de la mañana, yo creo que el mozo todavía no estaba operativo. No hablo por ahí, pero ese es un equipo."
+  },
+  {
+   "start": 2344.16,
+   "end": 2346.82,
+   "label": "SPEAKER_08",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Y ahora vamos al equipo bueno de verdad."
+  },
+  {
+   "start": 2347.94,
+   "end": 2377.3,
+   "label": "SPEAKER_09",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "¿Sabéis a quién tenemos en el otro equipo? Al perro. No, no, al perro. Pero esperad un momento, esperad un momento. ¿Sabéis quién es el perro? El mejor amigo del hombre. Así que, compañeros y compañeras, el próximo 29 de noviembre, todos ahí, al lado de ese hombre, al lado de nuestro secretario general, con Pedro Sánchez."
+  },
+  {
+   "start": 2378.1,
+   "end": 3807.85,
+   "label": "SPEAKER_01",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Muchas gracias, compañeros, compañeras. Muchas gracias, Teresa, por tus palabras. Muchas gracias también, Pilar. Felicidades, zaragozanos y zaragozanas, también. Gracias a los compañeros que se han quedado fuera, lo sentimos muchísimo. Volveremos y iremos a un sitio mucho más grande para que quepan más compañeros y compañeras. A celebrar esta victoria. Así me gusta veros. Con la sonrisa en la cara. Porque la esperanza es la que gana elecciones. Para ellos el miedo y los insultos, para nosotros la esperanza. Así que, bienvenidos, zaragozanos, bienvenidos también de Teruel y de Huesca, que por ahí he visto también algunos compañeros y compañeras. Yo tengo muchas ganas, tengo que deciros, de estas elecciones, porque vengo escandalizado. Vengo escandalizado de que hemos convocado las elecciones, esta gente se ha creído las encuestas y han mostrado a las claras cuáles son sus cartas y además las han destapado. Pero además asusta la claridad con lo que lo exponen y también la crueldad indigna. Acabamos de escuchar a Abascal decir, nosotros da igual el modelo, la pensión se garantiza. ¿Perdón? ¿Cómo que da igual el modelo? No es lo mismo un hospital público que un hospital de Quirón, como no es lo mismo una pensión pública que una pensión gestionada por un gran branco. ¡Pero qué broma es esta! Dicen el otro día, nos vamos a cargar el IRPF. El IRPF, si perdiéramos la recaudación, estamos hablando de 85.000 millones de euros. 85.000 millones de euros representa el 80% que el Estado invierte y gasta en sanidad pública. Mucho más de lo que gastamos en la educación pública de nuestros hijos y de nuestras hijas. Bueno, y el otro, Feijóo, hablando de sacrificios, voy a pedir sacrificios, y dice, pero no me aplaudáis, hombre, si quieres te hacemos la ola. Ayer está por aquí el señor Feijóo y dice, ni media broma con las pensiones, el mismo día que su portavoz dice, el sistema está colapsado y hay que reformarlo. El problema no es que hagan ni media broma de las pensiones, es que no dicen una media verdad. Entre las tijeras de Feijóo y el amigo de Emilia, Abascal, que le gusta la motosierra, estos si llegan al gobierno firman la carta de defunción del Estado del Bienestar. Y yo lo digo, mi compromiso, cuatro años más de gobierno progresista, cuatro años más de avances sociales y cero recortes. Y cuatro años más de revalorización de las pensiones conforme al IPC. Ese es mi compromiso. Y ¿sabéis por qué? Porque nos afecta a todos y a todas, pero sobre todo afecta a todas. Porque si hay una desigualdad social, la sufren las mujeres. Y si hay recortes en el estado del bienestar, lo sufren las mujeres. Así que por ellas vamos a seguir avanzando socialmente y no va a haber recortes en el estado del bienestar durante los próximos cuatro años, como venimos haciendo durante estos últimos ocho años. Antes lo ha dicho Pilar y Teresa y es cierto, es que nos hemos olvidado, nos hemos olvidado de lo que pasó durante la crisis financiera en este país Nos hemos olvidado de cuáles fueron las primeras medidas que tomó Mariano Rajoy con su mayoría absoluta en el año 2011 Yo la recuerdo, congelaron los sueldos a los funcionarios, congelaron el salario mínimo interprofesional, congelaron las pensiones Y le recortaron a la educación y a la sanidad pública 8.900 millones de euros. Eso es lo que ellos hicieron, nada más llegar al Gobierno. ¿Y qué es lo que pasó? Sí, luego vamos a hablar de la hucha. Por cierto, sí, porque luego ¿qué pasó? Lo que ha comentado Pilar. Y eso es al final lo que representa el Partido Socialista, la fuerza de la gente. ¿Qué es lo que vimos después de esa contrarreforma de las pensiones? ¿Qué es lo que sucedió en las calles de nuestro país después de la contrarreforma laboral? ¿Qué pasó con los estudiantes que se manifestaron cuando impusieron esa ley educativa que lo que hacía era recortar la educación pública en nuestro país? ¿Qué pasó con los copagos farmacéuticos? ¿Es que nos hemos olvidado de ello? Copagos farmacéuticos, por cierto, que este Gobierno, cuando llegó al Gobierno, quitó hace ya muchos años. Muchos de ellos, a las personas de más de 60 años. Si os fijáis, siempre pasa lo mismo, siempre sucede lo mismo, siempre ocurre lo mismo. Primero hay unas movilizaciones sociales, luego está el no de los de siempre en el Parlamento con sus mayorías absolutas, ya sea del PP o del PP más Vox, y después hay unas urnas que llenan esas urnas de voto progresista, hay mayorías parlamentarias en el Congreso, en el Parlamento Nacional, y materializamos esas movilizaciones sociales en leyes, en conquistas sociales. Eso es lo que hicimos con las pensiones, es lo que hicimos con el colectivo LGTBI, es lo que hicimos con las mujeres en los 8 de marzo que se manifestaban a favor de sus derechos para vivir en un país libre, seguro, donde pudieran estar vivas y sin ningún tipo de preocupación. Es lo que sucedió con los estudiantes, es lo que sucedió también con los pensionistas, es lo que sucedió también compañeros y compañeras cuando este gobierno, y lo hizo porque había una mayoría social detrás que así lo quería, dijo que no al 5% en armamento en favor del estado del bienestar y dijo que sí al estado de Palestina y al fin del genocidio en Gaza como consecuencia del gobierno del primer ministro de la República. Y ahora, y por eso hemos convocado estas elecciones, ahora esa causa lleva el nombre de mujer, de una mujer que murió desahuciada con 87 años. Una mujer que nos dijo a todos los poderes públicos, también a esos que se reían en el Ayuntamiento de Madrid y en la Comunidad de Madrid, que lo que ella había sufrido no lo sufriera nadie más. Además, pues yo le quiero decir a esos manifestantes, a quienes se están concentrando en las plazas, a quienes siguen y se solidarizan con esa causa desde todos sus hogares, les quiero decir que esa causa la vamos a volver a ganar como se gana en todas las batallas, con la fuerza de la gente, votando el próximo 29 de noviembre, teniendo un Parlamento mucho más progresista, para un Gobierno que llegue más lejos y antes en la emergencia habitacional. Y que si la causa de nuestros abuelos fue la democracia, la causa de nuestros padres y madres fue el estado del bienestar, nuestra causa también será la causa de la vivienda de muchos jóvenes y no tan jóvenes durante la próxima legislatura. Así que, movilización social, el no de los de siempre y la solución en las urnas el 29 de noviembre, Siempre apostando por esta fuerza política que es la fuerza política de la gente. El Partido Socialista. Con optimismo, con esperanza frente al miedo. Pero ¿qué ofrecen? ¿Qué han ofrecido durante estos últimos ocho años? ¿De verdad? Si están siempre igual, con insultos, con desinformación, con bulos y con recortes. Yolanda Díaz. Si están en la oposición insultan y si están en el gobierno recortan. Pues que sigan en la oposición cuatro años más. Yo les aguanto los insultos y nosotros a gobernar para la gente con avances sociales y con bulos y desinformación. Pero qué cantidad de bulos suelta tanto Abascal como Feijóo. Bueno, lo de Feijóo ya es de nota porque con el derecho al voto por correo, que en realidad lo que quieren es que no voten los trabajadores y trabajadoras, Ya sean servidores públicos, ya sean currantes que no pueden trabajar ese domingo, o personas que no pueden valerse por sí mismas, que no pueden ir al colegio electoral, o muchos de nuestros hijos y nuestras hijas que están estudiando fuera de sus ciudades y no podrían ejercer su... Ah, bueno, ya. Bueno, pero lo que quiero decir con esto es que están con el bulo del voto por correo. Y llega el otro día Feijóo, que sabéis que con Álvarez Cascos, que en fin, ministro con Aznar, todo un prodigio de la ejemplaridad. Claro, dice Feijóo que fue presidente de Correos, lo sabéis, ¿no? Que un día me dice, bueno, es que claro, la formación para ser presidente, este hombre ha sido cartero antes de ser elegido presidente de Correos. Pero dice, dice, dice, no, es que yo no me fío de los directivos de correos, dice. O sea, que en Feijóo no confía ni Feijóo. A ver si va a ser verdad que no es presidente porque no quiere. Pero lo grave, lo grave, lo grave es lo que están haciendo también con la ley de memoria democrática. Porque esto que llaman ahora la ley de nietos, que es en realidad la ley de memoria democrática, una disposición adicional, Os voy a explicar solamente esto, aunque sea para que lo tengamos todos muy presente. Esta es una ley que entró en vigor en el año 2023. Los españoles y españolas que tuvieron esa nacionalidad, ¿sabéis que uno de los principales derechos, uno de los derechos fundamentales de ser español y española es, afortunadamente, el derecho a votar? Bueno, pues desde 2023 se ejerce sin ningún problema. Se ha votado en 2023 en las elecciones generales, se votó en 2024, se votó en 2025 y llegan ahora, porque Vox lo exige, y presentan un recurso ante el Tribunal Supremo diciendo que la ley de nietos, pues hay unos nietos que sí y otros nietos que no. Pues nosotros decimos que los nietos del exilio republicano tienen el mismo derecho a votar que los nietos del régimen franquista Y que no hay derecho a que haya ciudadanos de primera y de segunda porque la derecha y la ultraderecha tienen miedo y tienen candidatos de tercera ¿Qué es lo que les pasa? Que van a perder las elecciones el 29 de noviembre y vamos a seguir gobernando cuatro años más Porque si estos son capaces de hacer esto, recortar el derecho al voto, cercenar un derecho fundamental como es la participación política de ciudadanos estando en la oposición, imaginaos lo que pueden hacer llegando al Gobierno. Muchas gracias, compañera. Y luego los recortes, porque antes decía una cosa, Pilar, muy importante. Es importante. Hablaba de que la derecha y la ultraderecha lo que hacen con sus políticas, con sus planteamientos, siempre es dividir, siempre es enfrentar. Lo hemos visto, por ejemplo, con la vivienda. No, es que esto va en contra de los pequeños propietarios. No, no, no. Las medidas que hemos tomado favorecen al pequeño propietario y al inquilino, porque el problema no está entre el pequeño propietario y el inquilino. El problema está arriba, en los aticazos y en los fondos buitre. Que lo que tenemos que hacer es acabar con la especulación y con los abusos de los fondos buitre y aquellos que utilizan los recursos públicos para comprarse áticos de 200 metros cuadrados de terraza. Ayer la portavoz del PP enfrentaba a los jubilados con los jóvenes. No, es que este sistema, vale, sí, favorece a los jubilados y jubiladas, a los mayores de hoy, pero a los jóvenes es un sistema que ha colapsado. Bueno, yo ante todo, a los mayores y no tan mayores, a los jóvenes también que nos acompañáis, ante todo, mucha calma y tranquilidad porque el sistema público de pensiones goza de una extraordinaria salud. Os lo voy a explicar. Os lo voy a explicar. Os lo voy a explicar. Porque claro, estos cuando hablan de sacrificios ya entendemos un poco qué significa sacrificios en boca del Partido Popular. Un negocio para unos pocos. Mirad, la reforma de las pensiones que nosotros hicimos ya hace unos años, que supuso la reconstrucción del Pacto de Toledo, la revalorización por ley de las pensiones conforme al IPC, lo que supuso fue un acuerdo del Gobierno de España con la Comisión Europea. Está validada esta reforma por la Comisión Europea. Exige además que todos los años una institución que se creó independiente en la Administración General del Estado por mandato de la Comisión Europea, que es una institución que se llama la AIREF, ha dicho que gracias a las medidas de refuerzo en la sostenibilidad que ha planteado el Gobierno de España, la sostenibilidad y la garantía del sistema público de pensiones está absolutamente garantizado. ¿Por qué digo esto? Porque no se tiene y no podemos enfrentar y no se debe enfrentar a los mayores con los jóvenes. Estamos revalorizando conforme al IPC las pensiones y al mismo tiempo fijar lo que estamos logrando. Estamos logrando que frente a la hucha de las pensiones que tuvimos en 2018, que nos dejó Mariano Rajoy, de 5.000 millones de euros, Vamos a acabar esta legislatura con más de 20.000 millones de euros en la hucha de las pensiones para nuestros jóvenes del presente y del mañana. Por cierto, que otra de las medidas que ellos hicieron cuando llegaron al Gobierno en 2011 fue congelar la extensión y la equiparación de los permisos de paternidad y maternidad. Digo todo esto porque efectivamente España, Aragón, vosotros también lo habéis trabajado y lo lucháis en muchas de las provincias y las comarcas de Zaragoza, de Teruel y de Huesca, sabéis que Occidente, también España y por supuesto Aragón, vivimos un invierno demográfico. Demográfico. Vivimos un invierno demográfico. Las sociedades envejecen, no tenemos tantos hijos y tantas hijas como podían tener a lo mejor las familias de nuestros abuelos y de nuestros antepasados y, por tanto, lo que tenemos que hacer son políticas que estimulen la formación de familias. Lo estamos haciendo desde el Gobierno de España. Fijaos que una de las cuestiones más aplaudidas por todos los electores, hasta incluso por electores de derechas, es la extensión y la equiparación de los permisos de paternidad y maternidad. Pero no solamente eso, sino que también hemos dicho que habría que regularizar a los migrantes que están aquí porque necesitamos la aportación de los migrantes también para financiar las pensiones del hoy y de la mañana. Fijaos que en este proceso de regularización que nosotros hemos finalizado antes de que empezara el verano, del millón doscientas mil personas, ya casi medio millón están trabajando y cotizando la seguridad social. Eso también es llenar la hucha de las pensiones y garantizar las pensiones del presente y del mañana. Hacen eso con las pensiones, hacen eso con la vivienda, hacen eso también con los derechos a las mujeres, como si reconocer derechos a las mujeres en este caso, como bien decía antes Pilar, la ley de paridad, donde si el 50% de la población es femenina, pues el 50% del poder político, económico y social también para las mujeres, es lo que les corresponde, es lo que es de ley. Sí, pues también las enfrentan a los hombres y las mujeres. Siempre están con el miedo. Claro que sí. Así es. Así es. En fin, que enfrentan, polarizan, bueno, hasta Aznar ha llegado a decir que si vuelvo a ganar peligra la monarquía parlamentaria. Yo, yo, yo, de verdad. Nosotros, compañeros y compañeras, también tenemos que plantear, como bien decía antes Pilar, estas elecciones en esa clave. Estas elecciones también van de la buena política frente a la mala educación. Y estamos ya cansados de la mala educación y de los insultos de la derecha y de la izquierda. Hemos hecho mucho, hemos hecho mucho. Hemos demostrado, y es lo que más rabia les da frente a sus recetas neoliberales de recortes, de desigualdad, de precariedad, de mayor déficit público y de deuda pública, hemos demostrado con nuestra política económica que podemos revalorizar las pensiones y llenar la hucha de las pensiones. que podemos aumentar el salario mínimo interprofesional, aprobar una reforma laboral que trae menos precariedad que la que había antes. Hemos demostrado que siempre que se puede y que hay mercados disfuncionales como es el mercado de la energía o también el mercado de la vivienda, el compromiso de lo público es fundamental si queremos hacer sociedades más justas y más prósperas. Pero también os digo, yo desde luego no tengo, o sea, tengo muchas ganas de acabar en 2030 las grandes transformaciones que necesita nuestro país. Yo no pienso en hacer en esta campaña solamente un balance de lo que hemos logrado durante estos últimos ocho años, que ha sido histórico, positivo para nuestro país en todos los ámbitos. Eso no significa que no existan problemas, dificultades en sociedades democráticas como son las nuestras. Pero lo que había en 2018 a lo que hay en 2026 es como la noche y el día. Como la noche y el día. ¿Y esto es una opinión? No. Son hechos, son datos. Pero si hemos logrado mucho, aún queda mucho más por lograr. Yo quiero que en 2030 el 80% de la electricidad que consuman nuestros hogares, las empresas, las industrias, nuestros autónomos, la economía social, venga de las energías renovables. Quiero que en 2030 tengamos una tasa de paro de un dígito y no de dos dígitos, como desgraciadamente ha sufrido España durante muchas décadas. Quiero que en 2030 la tasa de abandono escolar caiga cuatro puntos, como estamos haciendo, además creciendo, reduciendo la tasa de abandono escolar entre nuestros chavales. Entre otras cosas, porque hemos hecho una apuesta histórica, sin precedentes, no solamente por las becas, sino también por una formación profesional de calidad, de calidad para nuestros jóvenes. Yo quiero que en 2030, por supuesto, claro que sí, tengamos el mismo poder los hombres y las mujeres, 50% y 50%. En definitiva, tenemos todavía muchísimas cosas por hacer de aquí al año 2030. Pero sí necesitamos una mayoría amplia y progresista en el Parlamento Nacional. Yo ya sabéis, oye, durante estos años he gobernado en coalición, he gobernado con mayorías, pues es verdad que algunas veces un poco complicadas, que vamos a decir, y hemos sacado adelante muchas cosas. Imaginaos si tuviéramos, por favor, una mayoría amplia y progresista, lo que podríamos hacer avanzar a nuestro país. Por eso, ellos ¿a qué están jugando? Ellos están jugando a desmobilizar antes para luego recortar si llegan al gobierno. Y nosotros lo que tenemos que hacer es decirle a todo el mundo, a todos nuestros vecinos y vecinas, a todos nuestros compañeros de trabajo, a todos nuestros familiares, que el 29 de noviembre tenemos que votar, que tenemos que ganar y que tenemos que seguir gobernando con la fuerza de la gente. Gracias Zaragoza, gracias Teruel, gracias Huesca, gracias Aragón. ¡Hasta la victoria!"
+  }
+ ]
+}

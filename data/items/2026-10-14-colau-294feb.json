@@ -1,0 +1,273 @@
+{
+ "id": "2026-10-14-colau-294feb",
+ "date": "2026-10-14",
+ "expected_person": "Ada Colau",
+ "kind": "other",
+ "outlet": "RTVE Noticias YouTube",
+ "title": "Frente Amplio sigue apostando por unir a la izquierda: \"Compartimos programa\" | RTVE Noticias",
+ "url": "https://www.youtube.com/watch?v=e5Zg-omgxEw",
+ "language": "es",
+ "duration_s": 254.53,
+ "sha256": "47f3da8513e6ea1042c39a0b89ba0fa7b5896e4bcb9c5008bba256af230fbf18",
+ "fetched_at": "2026-10-25T09:16:15+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.55,
+  "processed_at": "2026-10-25T12:24:58+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_05": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "ambiguous",
+   "reason": "sim 0.57 but next is 0.54",
+   "talk_s": 47.0
+  },
+  "SPEAKER_04": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "unknown",
+   "reason": "best sim 0.53 < 0.55",
+   "talk_s": 117.0
+  },
+  "SPEAKER_03": {
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "decision": "unknown",
+   "reason": "best sim 0.47 < 0.55",
+   "talk_s": 45.3
+  },
+  "SPEAKER_06": {
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "decision": "too_short",
+   "reason": "only 14s of speech",
+   "talk_s": 13.6
+  },
+  "SPEAKER_01": {
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "decision": "too_short",
+   "reason": "only 7s of speech",
+   "talk_s": 6.9
+  },
+  "SPEAKER_02": {
+   "person": null,
+   "name": "Hablante sin identificar 6",
+   "decision": "too_short",
+   "reason": "only 6s of speech",
+   "talk_s": 6.1
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 7",
+   "decision": "too_short",
+   "reason": "only 8s of speech",
+   "talk_s": 7.8
+  }
+ },
+ "turns": [
+  {
+   "start": 0.0,
+   "end": 17.66,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Ada Colau mueve ficha para intentar integrar a Podemos en Frente Amplio y pone sobre la mesa retirar su candidatura y también cambiar el nombre a la coalición si con eso los morados acceden, aunque ellos de momento no recogen el guante. El plazo para registrar las coaliciones acaba el viernes."
+  },
+  {
+   "start": 18.98,
+   "end": 29.82,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Ada Colau no renuncia a pactar con Esquerra ni con Podemos. Claro que tiene que estar Irene Montero. Y para eso está dispuesta incluso a apartarse. Si hay otra persona que genera más consenso que"
+  },
+  {
+   "start": 29.82,
+   "end": 30.88,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "mi candidatura, oiga, adelante, ¿entiendes?"
+  },
+  {
+   "start": 32.5,
+   "end": 46.54,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Yo cedería absolutamente eso. Si el problema fuera el nombre de la formación, pues se le cambia el nombre a la formación. Aquí lo importante es que vayamos todas juntas. Ese es, dice, el escollo, los nombres y las siglas, no el programa. Podemos responde que el equipo ganador es el suyo."
+  },
+  {
+   "start": 46.6,
+   "end": 52.34,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Estamos 100% convencidas de que ese tándem, Gabriel Rufián y Irene Montero, es lo que nos estaba pidiendo todo el mundo."
+  },
+  {
+   "start": 52.52,
+   "end": 55.18,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Y que trabaja porque el Frente Amplio se les una."
+  },
+  {
+   "start": 55.18,
+   "end": 61.4,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Para tener la candidatura más fuerte posible, más amplia, y que no se pierda, insisto, ni un solo voto de la izquierda."
+  },
+  {
+   "start": 61.52,
+   "end": 72.54,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "También está en su mano. Reprocha que no se hayan presentado las primarias abiertas que propusieron, para las que Irene Montero es la única aspirante. En el Frente Amplio creen que el gesto de Colau es revelador."
+  },
+  {
+   "start": 72.68,
+   "end": 77.64,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 6",
+   "text": "Lo que deja muy claro es quién tiene voluntad de construir una alianza y los demás relatos."
+  },
+  {
+   "start": 77.78,
+   "end": 79.34,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Pero no se desvían de su plan."
+  },
+  {
+   "start": 79.5,
+   "end": 80.3,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 6",
+   "text": "Nada cambia."
+  },
+  {
+   "start": 80.36,
+   "end": 84.66,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Y justo hoy han lanzado su marca, web, logo e imagen gráfica."
+  },
+  {
+   "start": 86.65,
+   "end": 140.97,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Pues el primer cis tras la convocatoria electoral y en plena crisis por la vivienda dispara el PSOE y da al PP su peor dato de toda la legislatura. Según esa encuesta, los socialistas ganarían las elecciones con una ventaja de casi 12 puntos sobre los populares. El PSOE subiría 3 puntos y conseguiría el 34% de los votos, mientras que el PP pierde algo más de 3 y se queda en ese 22,2%. Vox, que mejora, mejora cinco décimas, igual que Sumar, mientras que Podemos cae seis. La formación de ultraderecha se acabó, la fiesta se mantiene igual. Y en la precampaña han entrado de lleno las pensiones. La portavoz parlamentaria del PP habló ayer de cambiar el sistema público de pensiones, pero hoy en su partido dicen que no se va a tocar. El gobierno pide a Feijóo que aclare si las va a revalorizar con el IPC si gana las elecciones."
+  },
+  {
+   "start": 142.92,
+   "end": 154.56,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "En plena campaña electoral, el PP quiere que quede claro que no van a tocar las pensiones. Lo ha dicho en redes. Pasa y te cuento las trampas que está haciendo el PSOE con las pensiones. Y también desde los mítines. El"
+  },
+  {
+   "start": 154.56,
+   "end": 162.5,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "PP se compromete con el modelo público de pensiones en nuestro país y se compromete a revalorizarla al IPC cada año."
+  },
+  {
+   "start": 162.74,
+   "end": 168.96,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Lo aclaran después de la polémica que levantó ayer la portavoz del partido en el Congreso. Creo que tenemos que ser valientes y"
+  },
+  {
+   "start": 168.96,
+   "end": 172.84,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "entender que el modelo hay que cambiarlo, porque el sistema actual como está no va a funcionar y va a petar."
+  },
+  {
+   "start": 172.98,
+   "end": 177.14,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Aunque Feijóo después, en un mitin, defendió el sistema público de pensiones."
+  },
+  {
+   "start": 177.2,
+   "end": 179.02,
+   "label": "SPEAKER_06",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Me comprometo a asegurar las pensiones."
+  },
+  {
+   "start": 179.96,
+   "end": 183.4,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "En el gobierno ven claro que al PP le gustaría cambiar el modelo."
+  },
+  {
+   "start": 183.7,
+   "end": 195.4,
+   "label": "SPEAKER_06",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Un modelo en el cual, diríamos, lo público deje de tener el espacio y pasemos a un modelo mixto. A mí se me hiela un poco la sangre solo de pensar lo de las ideas que tiene el Partido Popular y Vox de hacer con las pensiones."
+  },
+  {
+   "start": 195.4,
+   "end": 206.44,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Y en su propia pre-campaña, con el derecho a la vivienda en el centro, salen al paso de una polémica a la que apunta a Montse Mínguez, portavoz del PSOE. Su pareja tiene un negocio inmobiliario con 30 viviendas en alquiler."
+  },
+  {
+   "start": 206.72,
+   "end": 214.34,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 7",
+   "text": "No se trata de perseguir ni señalar a quién hace una actividad lícita y quién cumple con la ley. Importante es quién quiere garantizar el derecho a la vivienda y quién no."
+  },
+  {
+   "start": 214.52,
+   "end": 222.26,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Y el PP arremete, se pregunta si el PSOE hoy ya no habla de vivienda y hace este montaje. Entre buitres les acusa de hipócritas."
+  },
+  {
+   "start": 224.61,
+   "end": 254.49,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "El Consejo del Poder Judicial se ha dividido de nuevo entre conservadores y progresistas. El Bloque Conservador ha propuesto un comunicado para apoyar a la jueza que investigó al hermano de Pedro Sánchez. Beatriz Biedma acaba de declarar como perjudicada en el caso Leire. Denuncia que fue objetivo de la supuesta trama que intentaba boicotear causas judiciales que afectaban al PSOE. Los progresistas lo han rechazado porque ya no ha pedido amparo y porque es un asunto, dicen, que se está investigando. CC por Antarctica Films Argentina"
+  }
+ ]
+}

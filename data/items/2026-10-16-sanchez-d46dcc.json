@@ -1,0 +1,178 @@
+{
+ "id": "2026-10-16-sanchez-d46dcc",
+ "date": "2026-10-16",
+ "expected_person": "Pedro Sánchez",
+ "kind": "press_conf",
+ "outlet": "La Moncloa YouTube",
+ "title": "Pedro Sánchez atiende a los medios tras su participación en el Consejo Europeo",
+ "url": "https://www.youtube.com/watch?v=u4CRlWi3jkI",
+ "language": "es",
+ "duration_s": 1845.01,
+ "sha256": "58e63560af0ae13a8aad74f6593edeabd68578ddcb9e5da6a37a9c4418ad7e99",
+ "fetched_at": "2026-10-25T09:17:57+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.55,
+  "processed_at": "2026-10-25T13:37:19+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_04": {
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "decision": "match",
+   "reason": "sim 0.87, next 0.20",
+   "talk_s": 1032.1
+  },
+  "SPEAKER_03": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "unknown",
+   "reason": "best sim 0.26 < 0.55",
+   "talk_s": 77.9
+  },
+  "SPEAKER_01": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "too_short",
+   "reason": "only 8s of speech",
+   "talk_s": 8.5
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "decision": "unknown",
+   "reason": "best sim 0.38 < 0.55",
+   "talk_s": 33.4
+  },
+  "SPEAKER_02": {
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "decision": "unknown",
+   "reason": "best sim 0.25 < 0.55",
+   "talk_s": 47.0
+  },
+  "SPEAKER_05": {
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "decision": "unknown",
+   "reason": "best sim 0.09 < 0.55",
+   "talk_s": 39.7
+  }
+ },
+ "turns": [
+  {
+   "start": 2.96,
+   "end": 9.4,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Gracias, señor presidente."
+  },
+  {
+   "start": 501.95,
+   "end": 957.15,
+   "label": "SPEAKER_04",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Nos ha hecho prolongar este consejo. Como hago siempre, agradeceros a los medios de comunicación y, por supuesto, también a Marcos, al embajador y a todo el equipo de la Embajada ante la Unión Europea por el trabajo que se hace de preparación de este consejo. Como he dicho antes, hemos debatido asuntos de la máxima relevancia para el futuro de la Unión Europea y, por tanto, también de nuestro país en ámbitos tan importantes como la seguridad, como la defensa. La situación en Ucrania, la situación en Oriente Medio, también la cuestión de la migración y cuestiones que afectan de lleno a la vida de la gente como es el precio de la electricidad, de la energía y qué medidas se van a poner en marcha por parte de los gobiernos y también a escala comunitaria para dar una tregua al bolsillo de los hogares, de las industrias y de las empresas de nuestro continente. Sobre Oriente Medio y Energía, por ahí empezaré, que es por donde comenzó el Consejo en el día de ayer, quiero recordar por qué estamos donde estamos, con máximos históricos en el precio del gasoil, de la gasolina, y es a causa de una guerra ilegal, absolutamente innecesaria, en Oriente Medio, y el desorden que ha traído no sólo a una zona ya de por sí muy compleja, muy inestable, sino como estamos viendo al resto del mundo. Yolanda Díaz, Alberto Núñez Feijóo, Santiago Abascal, Irene Montero, Frente Amplio, Junta Electoral Central, Tribunal Constitucional Si lo pongamos en perspectiva, estamos hablando de que es casi el doble de todo lo que la Unión Europea destina cada año a la política agrícola común y por tanto a nuestros agricultores, ganaderos y por supuesto también a la gente, a los trabajadores del sector pesquero. Por tanto creo que todos aquellos que alzamos la voz cuando dijimos no a esta guerra, no a la guerra, creo que hemos demostrado que también teníamos razón no solamente desde el punto de vista de la legalidad internacional, del respeto a los derechos humanos, sino también de las consecuencias económicas y sociales que ya de nuevo están viviendo nuestros conciudadanos. Porque al final acaban pagándolo la gente de a pie y por desgracia así se está sintiendo. Ahora lo que importa en todo caso es solucionar ese desastre cuanto antes y creo que hemos dado pasos importantes. Hoy en el Congreso de los Diputados, como saben, en la Diputación Permanente, se ha convalidado el Real Decreto Ley vinculado con el escudo social que pusimos en marcha nada más iniciarse esta guerra en España, movilizando más de 12.000 millones de euros para proteger a los sectores afectados Gracias, señor presidente. Segundo lugar, hablamos de los presupuestos comunitarios, de lo que se llama el marco financiero plurianual para los próximos siete años. Como saben, España ha defendido desde el principio unos presupuestos lo suficientemente ambiciosos para la agenda ambiciosa que tenemos La propuesta de la presidencia y agradeciendo además el trabajo hecho por el gobierno irlandés nos parece que es claramente insuficiente, me lo han escuchado decir, apenas el 1% de la renta nacional bruta en gasto real, en definitiva muy por debajo del marco financiero plurianual que ya estamos dejando atrás y por tanto también muy lejos de lo que necesita Europa y sus ciudadanos y a años luz por cierto. Gracias, señor presidente. Gracias, señor presidente. y el grado de ambición que necesita Europa. Yo creo que los presupuestos al final son una declaración política de intenciones, no solamente a los ciudadanos, sino también a otros actores externos. Y si vamos con estas cifras que se están proponiendo, pues desde luego la declaración de intenciones que enviamos a nuestros ciudadanos y también a las grandes potencias con las que competimos es que no estamos preparados y que no queremos competir en este mundo. Yolanda Díaz, Alberto Núñez Feijóo, Santiago Abascal, Irene Montero, Frente Amplio, Junta Electoral Central, Tribunal Constitucional Autónoma de Ceuta. Hemos tenido un debate estratégico sobre la cuestión migratoria, un punto marcado por la situación que lógicamente hemos vivido este verano en Ceuta, pero sí quiero decir que fuera de lo que es el epígrafe sobre inmigración hay un reconocimiento explícito por parte de la Unión a las dos ciudades autónomas, la de Ceuta y Melilla, como fronterasбundes terrestres de Europa y África. Y, por supuesto, la solidaridad de los líderes europeos y el compromiso de movilización operativa y recursos financieros por parte de las instituciones comunitarias. En pocas palabras, Europa está hoy más presente de lo que nunca ha estado en Ceuta y Melilla porque ambas ciudades también son Europa. Evidentemente, queda mucho por hacer, Gracias a todos por su participación."
+  },
+  {
+   "start": 966.89,
+   "end": 1036.55,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "El tema que ha habido hoy sobre inmigración, más allá del párrafo sobre Ceuta y Melilla, esta mañana hemos escuchado declaraciones muy contundentes de algunos líderes, incluso de su familia política, como la primera ministra danesa, Maitre Frederiksen, cargando contra la regularización de inmigrantes que propuso su gobierno, diciendo que esto va a contracorriente de la política migratoria europea, que puede haber un efecto llamada. Entonces, me gustaría saber qué se ha debatido, qué ha pasado dentro de la sala. Esta mañana ha habido una reunión además de 18 países, incluso la Comisión Europea, aparte para hablar de ello. No sé también cómo valora que la Comisión Europea forme parte de foros aparte del Consejo Europeo. Y luego una segunda pregunta. En Clave Nacional acabamos de conocer la renuncia de la portavoz de su partido, de Montse Minguez, Gracias a"
+  },
+  {
+   "start": 1036.55,
+   "end": 1321.33,
+   "label": "SPEAKER_04",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "todos por su participación. Yolanda Díaz y semejante a la que pidió la regularización en nuestro país. En todo caso, lo que me parece relevante, importante, es que hemos llegado a un acuerdo en torno al texto, al párrafo sobre la migración. Ha habido mucho debate, hay posiciones efectivamente muy diferentes entre unos países y otros, pero hemos logrado una solución de compromiso, como se dice, un acuerdo. Ese acuerdo se basa en lo siguiente, se basa primero en el Pacto de Migración y Asilo, Gracias a todos los que han participado en este evento. de África, por tanto, lo que nos afecta a nosotros, a España, estamos hablando de que esa bajada ha sido del 70%, del 72% para ser más concreto. Por tanto, creo que desde el punto de vista de la llegada de inmigración irregular, desde el punto de vista de las políticas de retorno, del rechazo también a la migración irregular en los aeropuertos, del cumplimiento de los compromisos y de las obligaciones de Dublín, En fin, yo creo, y las políticas de retorno, por cierto, donde España también es uno de los principales países, junto con Francia y Alemania, que más retornos efectivos hace del conjunto de la Unión Europea, bueno, yo creo que hay un reconocimiento explícito a que ese pacto de inmigración y asilo, que por cierto fue aprobado durante la presidencia española de la Unión Europea, está dando sus resultados. ¿Dónde están los elementos de novedad que van a encontrar ustedes en las conclusiones? Los elementos de novedad son mecanismos, propuestas que están poniendo encima de la mesa otros gobiernos para ver cómo podemos reforzar esa lucha contra la migración irregular. Y en ese sentido, desde España estamos abiertos a ver cuáles son sus propuestas. Y sobre todo, cuál es la propuesta que hace la Comisión Europea, que es efectivamente la encargada de hacerlo al conjunto del Consejo. Y sobre la portavoz no he tenido ocasión de poder hablar con ella. Me he tenido que mensajear con ella durante el debate que hemos tenido en el Consejo. Me constaba, porque lo había hecho saber a algunas personas compañeras del partido, que Monse estaba rota, que estaba pasándolo muy mal desde el punto de vista personal. La política algunas veces maltrata a buenas personas. El caso de Monse es uno de ellos. Y me ha pedido ella renunciar a entrar en listas. Y yo lo lamento. Yo le dije que no lo hiciera. Porque creo que es una extraordinaria portavoz, es una inmensa política, El nivel de dureza, de agresividad y de odio que en muchas ocasiones no sufren solamente aquellas personas que están en política, sino también sus seres queridos, es algunas veces irreparable. Yo creo que desgraciadamente en muchas ocasiones en nuestro país durante estos últimos años se han cruzado líneas rojas que no deberían de haberse cruzado y esta es la consecuencia. Yo lamento mucho que Montse no continúe como diputada porque es una gran política, es muy buena persona y bueno, cuando me ha dicho que eran razones personales por las cuales dejaba la política, pues yo no puedo sino apoyarla y por supuesto respetarlo, pero también lamentarlo porque perdemos una gran compañera y un gran activo del partido."
+  },
+  {
+   "start": 1324.3,
+   "end": 1327.54,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Sandra Gallardo, Radio Nacional. Buenas tardes, Presidente."
+  },
+  {
+   "start": 1328.56,
+   "end": 1364.08,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Quería saber si algún colega europeo le ha pedido algún tipo de explicación por esa presencia que usted mismo nos confirmaba de buques de la Armada marroquí en Aguas de Ceuta. Si comparte con el líder del Partido Popular que habría que desplegar a la Armada española para evitar que se repita. Y en clave nacional, minuto y resultado de cómo va. Solo sabrán ustedes más que yo. Se acaba a medianoche el plazo para registrar coaliciones. Parece que no va a haber unidad a la izquierda del PSOE. No sé si teme que eso le complique su reelección. Gracias."
+  },
+  {
+   "start": 1364.7,
+   "end": 1435.64,
+   "label": "SPEAKER_04",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Muchas gracias, Sandra, por sus preguntas. Respecto a la primera, una palabra muy sencilla, no. Respecto a la segunda de las preguntas, lo he respondido en muchas ocasiones, ayer mismo también lo hice. La comunicación entre las armadas, tanto española como marroquí, es fluida, es total, y por tanto no hay mucho más que añadir a lo que dije ayer. Y respecto a la tercera de las cuestiones, nosotros, como he dicho siempre, respeto absoluto a lo que hagan el resto de partidos políticos, a su autonomía, a la decisión que ellos tomen. En todo caso, yo le digo, yo me encuentro muy animado, me encuentro optimista respecto a qué es lo que va a suceder el próximo 29 de noviembre, porque creo conocer bien a la sociedad española y, por tanto, bueno, pues, si no es de una manera, pues será de otra, pero estoy convencido de que, bueno, de que la senda de avance que hemos emprendido hace ocho años, pues va a continuar cuatro años más. Una última pregunta, que mañana tengo comité federal y tengo que prepararme aún el discurso. Una última pregunta, por favor."
+  },
+  {
+   "start": 1435.82,
+   "end": 1439.6,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Presidente, terminaríamos con Nacho Larcón, del Confidencial, cuando quieras."
+  },
+  {
+   "start": 1446.41,
+   "end": 1447.99,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Muchas gracias, presidente. Nacho Larcón, del Confidencial."
+  },
+  {
+   "start": 1449.19,
+   "end": 1450.15,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Una pregunta."
+  },
+  {
+   "start": 1450.93,
+   "end": 1455.65,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Le han preguntado ya por el tema de los líderes que han hablado de las políticas migratorias de España."
+  },
+  {
+   "start": 1456.23,
+   "end": 1460.03,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Las declaraciones de algunos líderes han sido muy duras. En el caso de Andrés Gómez,"
+  },
+  {
+   "start": 1460.17,
+   "end": 1480.45,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "incluso le ha acusado directamente de estar sustituyendo a la población para mantenerse en el poder. La primera ministra de Dinamarca ha sido muy dura ahora, no es la primera vez, el austriaco también, entonces entiendo su posición, entiendo que lo mismo no quiere decir lo que les ha dicho dentro de la sala."
+  },
+  {
+   "start": 1488.43,
+   "end": 1815.75,
+   "label": "SPEAKER_04",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Gracias a todos por su pregunta, porque al final es todo sobre la cuestión de la migración. Yo diferenciaría, evidentemente con la primera ministra danesa tenemos discrepancias, pero efectivamente nada tiene que ver con lo que ha dicho el primer ministro de la República Checa, que por cierto me suena mucho a lo que dice la ultraderecha de Vox en España, por tanto es el mismo discurso porque pertenecen a la misma familia política. Por tanto, no creo que haya... En realidad, si le doy un poco la vuelta al argumento, a ver, va a ser difícil con la Junta Electoral, pero yo creo que es muy necesario un gobierno progresista en España, porque efectivamente Europa necesita también un contraste de opiniones y de posiciones políticas sobre una cuestión tan importante como esta. Sobre todo cuando, si uno mira los datos, y no se queda solamente en las opiniones políticas, sino va a los datos, a los hechos, es que el pacto de migración y asilo que logramos bajo presidencia española está funcionando. Y probablemente España sea en la política de migración un alumno aventajado en lo que es la lucha contra la migración irregular. Y ahí están los datos, lo he dicho antes, de 2023 a 2026 nosotros hemos rebajado en un 72%, si las cifras no me fallan, más de un 70% sin duda, la entrada de migrantes irregulares por la costa atlántica. En retornos, en rechazo en frontera en los aeropuertos, en el cumplimiento de las obligaciones de Dublín. En fin, somos uno de los alumnos aventajados. Y también quiero recordar que según informes de la Comisión, España no forma parte, a diferencia de otros muchos países de la Unión Europea, no forma parte de ninguna ruta que tenga que ver con los movimientos secundarios. Por tanto, si uno se va a los hechos, a los datos, que es un poco siempre lo que nos sucede con la ultraderecha, pues es que es como la noche y el día. Yolanda Díaz ¿Cuál es el país que está a la cabeza en el desarrollo y la aplicación de estos controles biométricos? España. A diferencia de otros muchos países, España está a la cabeza en la aplicación del mismo. Por tanto, una cosa es el discurso, si me permiten el bla bla bla, y otra cosa es la realidad. Los datos lo que demuestran es que España está teniendo una política muy responsable en la lucha contra la migración irregular, en la gestión de los flujos de migración regular, la cooperación con los países de tránsito y de origen, Y sobre todo, y esto es la diferencia, la discrepancia que yo puedo tener con la primera ministra danesa, considera que aquellas personas que estén en nuestro país o en cualquiera de los países no deben reconocerse de derechos, yo creo que sí. Es más, creo que reconociendo esos derechos lo que se hace es anclar a esos migrantes a ese país que los reconoce. Esto es algo que hacen hasta incluso algunos de esos países que están apoyando estas visiones y que expiden permisos de trabajo en su propio país. En todo caso, creo que también pensando en algunos de estos países es importante lo que se ha anunciado esta mañana, de que los gobiernos de Italia y de España vamos a trabajar para dar una respuesta pronta a esta situación tan excepcional de la aplicación o no aplicación de Schengen entre España e Italia. Espero que podamos encontrar un acuerdo cuanto antes y bueno, sí, efectivamente es un elemento de discrepancia el de la migración, pero también creo que es importante reivindicar el que hemos llegado a un acuerdo hoy, un acuerdo en el que yo creo que todos nos podemos sentir representados. Yo desde luego me siento representado, me siento representado en la carta de la Presidenta de la Comisión y en la evolución muy positiva que se está dando por parte de la aplicación del Pacto de Migración y Asilo por parte de las instituciones comunitarias y los Estados miembros y desde luego como Presidente del Gobierno de España. Y muy contento de ver en las conclusiones del Consejo la solidaridad, el respaldo, el compromiso presupuestario y operativo y el reconocimiento de las fronteras terrestres que tenemos en África, europeas, que son Ceuta y Melilla. Eso también, si me lo permiten, es un avance más en la normalidad que estamos trabajando, se logra en Ceuta cuanto antes. Muchísimas gracias."
+  }
+ ]
+}

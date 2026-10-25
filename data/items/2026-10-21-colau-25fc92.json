@@ -1,0 +1,133 @@
+{
+ "id": "2026-10-21-colau-25fc92",
+ "date": "2026-10-21",
+ "expected_person": "Ada Colau",
+ "kind": "interview",
+ "outlet": "laSexta (Al Rojo Vivo) YouTube",
+ "title": "Ada Colau no descarta un pacto PSOE-Frente Amplio para el Congreso: \"Habrá conversaciones\" - ARV",
+ "url": "https://www.youtube.com/watch?v=RMvlzVIeAc0",
+ "language": "es",
+ "duration_s": 362.05,
+ "sha256": "425cd597bd5762defdd88419c570cd73acbdcdfd48190f4ffe51ee2690a27e1e",
+ "fetched_at": "2026-10-25T09:20:48+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.55,
+  "processed_at": "2026-10-25T14:50:26+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_02": {
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "decision": "match",
+   "reason": "sim 0.87, next 0.33",
+   "talk_s": 268.7
+  },
+  "SPEAKER_01": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "unknown",
+   "reason": "best sim 0.37 < 0.55",
+   "talk_s": 20.5
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "unknown",
+   "reason": "best sim 0.28 < 0.55",
+   "talk_s": 47.5
+  }
+ },
+ "turns": [
+  {
+   "start": 0.18,
+   "end": 85.98,
+   "label": "SPEAKER_02",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Pues fíjense que es verdad que estuvimos luchando muchísimo para que hubiera una candidatura única de las izquierdas en todo el Estado, finalmente no se consiguió del todo, aunque creo que nos esforzamos, yo personalmente ofrecí hasta mi propio cargo a disposición si eso podía facilitar las cosas, por lo tanto lo intentamos todo, pero finalmente hay que poner en valor lo que se ha conseguido, que es una candidatura muy amplia, de 15 formaciones en el Frente Amplio, y yo ahora le tengo que decir que cada día soy más optimista, Porque además veo a la derecha muy asustada. De hecho, ahora con esta visita de Milei estoy viendo que PP y Vox están escondiendo sus propuestas, el recorte de pensiones, están escondiendo a sus referentes, al señor Milei que antes reivindicaban con sus recortes y ahora lo intentan esconder, ¿no? Y pronto vamos a ver cómo sus candidatos se van a esconder también de los debates electorales. Creo que la derecha está empezando muy a la defensiva y muy en falso esta campaña electoral, que están muy nerviosos porque se les ha visto el plumero, se les ha visto que van a por los salarios, que van a por las pensiones, que van a favorecer a los especuladores, que van contra la educación pública, contra la sanidad pública. Se les ha visto el plumero y yo creo que la mayoría social española tiene muy claro que no quiere este modelo de Trump, de Milley, ni de Vox, ni del PP. Y por lo tanto estoy cada día más optimista y creo que tenemos que ir a por todas, a ganar esas elecciones, a derrotar al fascismo y a impulsar políticas valientes que, por ejemplo, hagan efectivo el derecho a la vivienda en este país de una vez por todas, como está reclamando la gente en la calle."
+  },
+  {
+   "start": 86.44,
+   "end": 89.2,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "¿Quién le ha decepcionado más, Irene Montero o Gabriel Rufián?"
+  },
+  {
+   "start": 91.69,
+   "end": 142.43,
+   "label": "SPEAKER_02",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Pues fíjese que no voy a entrar a ese tipo de comentarios, me lo va a permitir, porque creo que ya fue suficiente todo lo que se habló de partidos. La gente está harta ya de estas conversaciones entre partidos y con reproches entre líderes de las formaciones progresistas, Yo no voy a entrar más a este juego. Vamos a hablar de políticas valientes, vamos a hablar de cómo ganar las elecciones del 29 de noviembre. Eso es lo que espera de la gente de nosotras. La gente está dándolo todo en las calles. Tenemos a las maestras renunciando a parte de su sueldo, haciendo huelga para defender la educación pública, igual que con la sanidad pública, igual que con el derecho a la vivienda. Tenemos a todas las organizaciones éticales y sociales organizando una huelga general que seguro que va a ser histórica para defender los derechos sociales en este país. Yolanda Díaz,"
+  },
+  {
+   "start": 143.39,
+   "end": 153.07,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Alberto Núñez Feijóo, Santiago Abascal, Irene"
+  },
+  {
+   "start": 155.09,
+   "end": 187.99,
+   "label": "SPEAKER_02",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Montero, Frente Amplio, Junta Electoral Central, Tribunal Constitucional Horas y horas, días y días. Eso es absolutamente estéril. Cuando uno entra en política, entra para ser útil a la ciudadanía. Entonces estamos aquí, insisto, para obedecer a la gente que en la calle está diciendo basta ya, entre fuerzas progresistas, poneros de acuerdo como sea para defender políticas valientes y para defender a la gente y para derrotar al fascismo. Y eso creo que es nuestra tarea ahora mismo y nada más que eso."
+  },
+  {
+   "start": 189.21,
+   "end": 212.83,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Me gustaría saber, porque en las últimas horas, permítame un minuto, Irene Rupérez, Yolanda Díaz, que es la persona que más sabe del Frente Amplio de la Sexta. Irene, en las últimas horas Emilio Delgado ha apuntado a una posible negociación del Partido Socialista con el Frente Amplio para que, no sé si para que se retire el Frente Amplio de algunas provincias en las candidaturas al Congreso de los Diputados, para que haya algún tipo de acuerdo de esas características. ¿Qué es lo que ha dicho Emilio Delgado, el número uno de la lista del Frente Amplio por Madrid?"
+  },
+  {
+   "start": 213.51,
+   "end": 233.89,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Pues ha dicho Delgado que las negociaciones están ahora mismo en marcha y abiertas con el Partido Socialista, dice Delgado, para optimizar los resultados, ojo, no solo en el Senado, también en el Congreso. Pero hemos consultado algunas fuentes más del Frente Amplio y nos dicen que esa posibilidad ahora mismo no está sobre la mesa, que ellos se van a presentar en todas las provincias y en todas las circunscripciones."
+  },
+  {
+   "start": 236.13,
+   "end": 244.77,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Señora Colau, ¿hay ahora mismo abierta una negociación PSOE-Frente Amplio de cara a llegar a acuerdos en algunas provincias donde el Frente Amplio podría dar un paso al lado?"
+  },
+  {
+   "start": 247.59,
+   "end": 309.65,
+   "label": "SPEAKER_02",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Yo creo que el Frente Amplio ya ha demostrado que estábamos dispuestos a hacer el máximo esfuerzo para que hubiera cooperación entre fuerzas progresistas y para que no se perdiera ni un voto de izquierdas. Creo que, sinceramente, se ha hecho un acuerdo muy amplio de 15 formaciones políticas que hay que poner en valor, que nos permite ir todas unidas a las próximas elecciones. A partir de aquí, ahora ya existen los últimos coletaces de las conversaciones, de hacer listas, pero eso es una cosa entre partidos. Yo, como candidata, creo que ya demostré que estaba dispuesta a hacer el máximo esfuerzo para que hubiera una candidatura lo más unitaria posible, que, como dije, puse incluso mi cargo a disposición si podía haber otro candidato que tuviera más consenso. Así que ya he demostrado que estaba dispuesta a hacer todo lo posible para que hayan candidaturas lo más unitarias que se pueda. Y dicho esto, toca hablar de la gente y toca hablar de las propuestas. Entonces, sobre eso ya no le puedo decir más. Ahora habrán conversaciones entre partidos para ultimar las listas. El máximo esfuerzo para hacer una candidatura unitaria se ha hecho y se ha demostrado. Y ahora toca hablar de la ciudadanía y de las propuestas para el próximo 29 de noviembre."
+  },
+  {
+   "start": 309.91,
+   "end": 314.09,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "El Partido Socialista se presenta como el partido del amor. ¿El Frente Amplio qué es?"
+  },
+  {
+   "start": 316.96,
+   "end": 360.68,
+   "label": "SPEAKER_02",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "El Frente Amplio es un frente de muchas formaciones progresistas para derrotar al fascismo, que es un riesgo real para el próximo 29 de noviembre, para movilizar el máximo de voto, que nadie se quede en casa porque nos jugamos literalmente la vida. Y el Frente Amplio es una propuesta de alegría, pero con políticas valientes, que eso nos distingue del Partido Socialista. El Partido Socialista es verdad que está enfrentándose a la derecha y la extrema derecha, pero lo está haciendo muchas veces desde el miedo, simplemente desde la idea de resistir a la extrema derecha. Desde el Frente Amplio lo que queremos es impulsar políticas valientes y, por ejemplo, no hacer solo tweets o pancartas sobre el derecho a la vivienda, sino hacer políticas valientes sobre el derecho a la vivienda que, de una vez por todas, frenen la especulación y hagan que las viviendas sean para vivir y no para especular."
+  }
+ ]
+}

@@ -1,0 +1,164 @@
+{
+ "id": "2026-10-23-feijoo-a46a59",
+ "date": "2026-10-23",
+ "expected_person": "Alberto Núñez Feijóo",
+ "kind": "other",
+ "outlet": "RTVE Noticias YouTube",
+ "title": "Entrevista a Núñez Feijóo: \"Mi primer objetivo es que Sánchez se vaya\" | RTVE Noticias",
+ "url": "https://www.youtube.com/watch?v=4OTac0KPiW8",
+ "language": "es",
+ "duration_s": 123.97,
+ "sha256": "d108e5959da1fc51a123a70857565e2df517cf89128d13fdaabbadcc82b9cfaa",
+ "fetched_at": "2026-10-25T09:34:03+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.55,
+  "processed_at": "2026-10-25T16:14:06+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_01": {
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "decision": "match",
+   "reason": "sim 0.92, next 0.40",
+   "talk_s": 29.0
+  },
+  "SPEAKER_03": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "unknown",
+   "reason": "best sim 0.48 < 0.55",
+   "talk_s": 59.4
+  },
+  "SPEAKER_02": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "unknown",
+   "reason": "best sim 0.48 < 0.55",
+   "talk_s": 27.5
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "decision": "too_short",
+   "reason": "only 4s of speech",
+   "talk_s": 3.8
+  }
+ },
+ "turns": [
+  {
+   "start": 0.02,
+   "end": 27.44,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Núñez Feijóo ha dejado claro hoy su objetivo, gobernar, aunque el PP no sea la lista más votada y tenga que pactar con Vox. Y ha adelantado algunos de los cambios que va a hacer si llega a la Moncloa. Igualdad no tendrá ministerio propio, estará incluida en otra cartera, reabrirá el debate del aborto en menores y el salario mínimo estará exento del IRPF. El gobierno le recuerda que eso ya ocurre ahora. Dice que Feijóo miente o no tiene ni idea de lo que habla."
+  },
+  {
+   "start": 29.42,
+   "end": 34.42,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Feijóo ya no pide un pacto para que gobierne el más votado. Si hace falta, gobernará con Vox."
+  },
+  {
+   "start": 34.62,
+   "end": 42.64,
+   "label": "SPEAKER_01",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "Si los españoles me mandan completar la mayoría con la tercera fuerza política de mi país, oiga, yo soy un demócrata."
+  },
+  {
+   "start": 42.96,
+   "end": 51.9,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Feijóo y Abascal de momento hablan de cómo conseguir una mayoría en el Senado. En un hipotético gobierno, avisa, habrá menos ministerios. El de Igualdad..."
+  },
+  {
+   "start": 51.9,
+   "end": 57.34,
+   "label": "SPEAKER_01",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "Lo voy a meter dentro de otros ministerios. Le voy a decir a la ministra o el ministro que lleve igualdad que se encargue de otras cosas."
+  },
+  {
+   "start": 57.58,
+   "end": 65.52,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Reabrirá el debate sobre el aborto de menores de 16 y 17 años que ahora pueden hacerlo sin el consentimiento de sus padres. Estas palabras..."
+  },
+  {
+   "start": 65.52,
+   "end": 71.84,
+   "label": "SPEAKER_01",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "Como no voy a ser feminista si me he criado en mi casa con muchas más mujeres que hombres."
+  },
+  {
+   "start": 72.16,
+   "end": 90.14,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Han hecho saltar al presidente del gobierno que le dice que criarse entre mujeres no le hace feminista. Lecciones que, contesta Feijóo, no va a aceptar y le acusa de hacer carrera política con el dinero de la prostitución. También choque por el salario mínimo. Feijóo solo se compromete a subirlo si lo acepta la patronal."
+  },
+  {
+   "start": 90.32,
+   "end": 95.16,
+   "label": "SPEAKER_01",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "El compromiso del Partido Popular es reunirme con los sindicatos y con los agentes sociales y pactar el salario mínimo."
+  },
+  {
+   "start": 95.46,
+   "end": 101.84,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Pero el gobierno ve una trampa. Dice que la patronal solo ha estado a favor de subirlo una vez en los últimos ocho años."
+  },
+  {
+   "start": 102.08,
+   "end": 105.88,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Si lo dejáramos en las manos de la patronal no subiría el salario mínimo, es evidente."
+  },
+  {
+   "start": 105.88,
+   "end": 111.28,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Y recuerdan que el salario mínimo está exento de pagar IRPF después de este lapsus ¿El salario mínimo está exento?"
+  },
+  {
+   "start": 112.32,
+   "end": 115.86,
+   "label": "SPEAKER_01",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "No, no, no, no, yo estaba exento antes"
+  },
+  {
+   "start": 115.86,
+   "end": 122.96,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Volvió a mentir, el salario mínimo en España no tributa Aunque en la misma entrevista Feijóo ha rectificado"
+  }
+ ]
+}

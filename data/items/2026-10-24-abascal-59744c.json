@@ -1,0 +1,217 @@
+{
+ "id": "2026-10-24-abascal-59744c",
+ "date": "2026-10-24",
+ "expected_person": "Santiago Abascal",
+ "kind": "rally",
+ "outlet": "VOX YouTube",
+ "title": "🟢 GRAN ACTO PÚBLICO con Santiago Abascal en Mallorca",
+ "url": "https://www.youtube.com/watch?v=tG5fOtuNpGs",
+ "language": "es",
+ "duration_s": 5105.02,
+ "sha256": "f877434a75a53357e330b5a722f9588fa62151c683ebcea01846dfa9cc4a9e5f",
+ "fetched_at": "2026-10-25T09:37:16+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.55,
+  "processed_at": "2026-10-25T16:23:05+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_02": {
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "decision": "match",
+   "reason": "sim 0.78, next 0.35",
+   "talk_s": 1668.7
+  },
+  "SPEAKER_01": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "too_short",
+   "reason": "only 13s of speech",
+   "talk_s": 12.8
+  },
+  "SPEAKER_06": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "unknown",
+   "reason": "best sim 0.28 < 0.55",
+   "talk_s": 178.7
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "decision": "unknown",
+   "reason": "best sim 0.19 < 0.55",
+   "talk_s": 218.6
+  },
+  "SPEAKER_04": {
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "decision": "unknown",
+   "reason": "best sim 0.18 < 0.55",
+   "talk_s": 62.0
+  },
+  "SPEAKER_03": {
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "decision": "unknown",
+   "reason": "best sim 0.16 < 0.55",
+   "talk_s": 35.1
+  },
+  "SPEAKER_05": {
+   "person": null,
+   "name": "Hablante sin identificar 6",
+   "decision": "unknown",
+   "reason": "best sim 0.15 < 0.55",
+   "talk_s": 423.6
+  }
+ },
+ "turns": [
+  {
+   "start": 156.05,
+   "end": 164.43,
+   "label": "SPEAKER_02",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "España sabe que usted es el jefe de Ábalos, usted es el jefe de Coldo, usted es el jefe de Cerdán y usted es el socio o el jefe de Zapatero, pero eso ya nos lo dirán los tribunales."
+  },
+  {
+   "start": 164.71,
+   "end": 1131.12,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Todos vosotros, Santiago Abascal."
+  },
+  {
+   "start": 1172.54,
+   "end": 1175.06,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Fuerzas para seguir y"
+  },
+  {
+   "start": 1175.06,
+   "end": 1313.54,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 6",
+   "text": "luchar Lucharé por mis convicciones, lucharé por lo que creo No le debo nada a nadie, solo creo en lo que veo Es la tierra de mis padres, el hogar de mis abuelos Prioridad, estoy cansado de que siga siendo mía Junto a Vox, vemos al fin a esta canaria mirándose al espejo La"
+  },
+  {
+   "start": 1404.96,
+   "end": 1421.84,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "tierra de sus padres, seguirá siendo su hogar Me miro a los ojos y no sé qué contestar, pero su mirada me da fuerzas para seguir y luchar."
+  },
+  {
+   "start": 1424.56,
+   "end": 1482.74,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 6",
+   "text": "Lucharé por mis convicciones, lucharé por lo que te mis abuelos, una sola a mí, estoy cansado de promesas, de promesas incumplidas."
+  },
+  {
+   "start": 1655.18,
+   "end": 1681.37,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Sánchez, Alberto Núñez Feijóo, Santiago Abascal, Ione Belarra, Irene Montero, Frente"
+  },
+  {
+   "start": 1663.73,
+   "end": 1808.09,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 6",
+   "text": "Amplio, Junta Electoral Central, Tribunal Constitucional ¡Familia! ¡Nacional! ¡Prioridad! ¡Estoy cansado de promesas! ¡De promesas incumplidas! ¡Cansado de vida! ¡Necesito! ¡Siga siendo mía! ¡Nacional! ¡Prioridad! ¡Alicia hasta Canarias! ¡Mirándose al espejo!"
+  },
+  {
+   "start": 1866.04,
+   "end": 2290.32,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Buenos días, buenos días, Palma, buenos días, Mallorca. Por fin tenemos aquí a nuestro presidente nacional, Santiago Abascal. Muchas gracias, muchas gracias Santiago por venir a Palma, muchas gracias por venir a Baleares, ayer en Mahón, hoy aquí en Palma, esta tarde en Ibiza. Yolanda, contra viento y marea, aunque lo intenten impedir las milicias progres extremistas, y aquí estamos y llevas ya cuatro elecciones autonómicas recorriendo España, pateando pueblo tras pueblo, ciudad tras ciudad y cosechando éxito tras éxito en cada una de esas elecciones. Y ahora, en estas elecciones generales, que son totalmente decisivas, ¿por qué podemos echar de la Moncloa a la mafia del PSOE de Pedro Sánchez? Veo que no tenéis dudas, que sabéis que tenemos que echarle, que no podemos fallar porque España no se puede permitir cuatro años más de Pedro Sánchez. De ninguna manera. Ya lo dije ayer en Mahón, pero por fuerza tengo que repetirlo aquí en Mallorca, porque sabéis que ayer tuvimos una noticia muy triste, el fallecimiento de nuestra compañera María José Verdú, diputada aquí en el Parlamento. Muchas gracias. Dándolo todo por Vox, lo tenía muy claro y solo os cuento dos anécdotas. Hace un año, en las jornadas parlamentarias en Salamanca, que te acordarás Santiago, estuvimos ahí en Salamanca, y la pobre María José ya caminaba con dificultad, y aún así quiso ir, y sabéis que no es fácil pasar el aeropuerto de Palma, que hay que caminar mucho y ella lo hizo y en Salamanca ahí cojeando y luego ella era miembro del comité provincial y hace una semana en la última reunión que tuvimos vino y nos dijo un discurso, vamos que tendríais que oírlo porque ilusionada como una niña con la posibilidad de ir al Congreso de los Diputados. Ella a pesar de que estaba muy grave quería ir al Congreso de los Diputados, quería ir en un puesto de salida Y decían, me voy a recuperar y voy a ir y sería el mejor colofón que puede haber para mi carrera. Y creo que eso es bonito y es útil traerlo para que valoremos la importancia que tiene ir al Congreso de los Diputados. Una Cámara, la sede de la soberanía nacional, que el PSOE y sus aliados, todavía peores, han desprestigiado, han arrastrado por el fango. Lo tengo, lo sabéis, sabéis todo lo que ha hecho Sánchez y por eso viene Vox con estos candidatos que hoy nos acompañan aquí, la doctora Maribel Cerezo, nuestra científica, el doctor Antonio Salvá, urólogo, todos lo conocéis porque es un símbolo de nuestro partido, porque es también víctima de ETA y conocidísimos las islas porque ha operado a la mitad de las islas. Y Melina Merqui, nuestra jurista de referencia del Parlamento de esta legislatura. Un gran aplauso para ellos porque con esta candidatura y la que tenemos en el resto de provincias, encabezados por Santiago Abascal, número uno por Madrid, vamos a conseguirlo y vamos a echar a Pedro Sánchez. Finalmente quiero dar las gracias a todos los que habéis trabajado para hacer posible este evento, Todos los voluntarios, toda la estructura, la de aquí, la nacional, que también nos ha ayudado mucho, representantes electorales, jefe de campaña, todos, la coordinadora insular, habéis hecho un trabajo enorme, bajo presión y ha salido todo muy bien y basta ver cómo está llena, está esplanada hasta la bandera. Muchas gracias a todos y ya sin más dilación cedo la palabra a nuestra cabeza de lista, Maribel Cerezo."
+  },
+  {
+   "start": 2337.17,
+   "end": 2636.17,
+   "label": "SPEAKER_06",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Bueno, buen día Mallorca, buenos días Baleares. Es impresionante ver esta plaza con tantísima gente. La verdad es que os quiero dar las gracias a todos por estar aquí, por venir con la cabeza bien alta y sin miedo. Esa es la valentía que nos va a ayudar a cambiar las cosas. Es un orgullo hablar ante tantas caras conocidas, amigos, familia, alumnos y sobre todo tanta gente joven. Eso es lo que necesita Vox, unión entre todas las edades y eso me da fuerza y esperanza para el gran cambio que necesitamos. Quiero dar las gracias a nuestro presidente Santiago Abascal por recorrer las Islas Baleares sin dejarse ninguna atrás. Gracias a Gabriel y a todo el equipo de Vox Baleares por confiar en mí para encabezar la candidatura al Congreso por Baleares, compromiso que adquiero y que asumo con gran orgullo y con honor. Me llamo Maribel, soy doctora en Ciencia y Tecnología, soy docente, investigadora y llegué a Mallorca hace 16 años. En estos años he visto a muchos alumnos brillantes tener que marcharse, no porque quisieran irse, sino porque no podían quedarse. Hoy en día un joven no puede ni soñar con un piso. Una enfermera, un profesor, un policía que aprueban aquí su plaza, al año siguiente deben pedir el traslado. Y quien tiene que renovar este año su alquiler se va a enfrentar a una subida desproporcionada. ¿Es esta la Mallorca que queréis? Yo no. Pero tengo una buena noticia. Hay solución. Y esa solución empieza por algo muy sencillo, por construir. En España pueden pasar años desde que se señala un suelo hasta que se pone el primer ladrillo. Y cuando por fin se construye, más de una cuarta parte de lo que pagamos por las casas son impuestos y trámites. Nosotros proponemos más suelo, menos papeles y plazos cerrados. Si la Administración no contesta a tiempo, gana el ciudadano. Y que tu primera vivienda, ya sea nueva o usada, no pague ni un euro de impuestos. Pero construir no basta si después la vivienda no llega a quien la necesita. Por eso defendemos la prioridad nacional en la vivienda. Primero, los mallorquines, los jóvenes y las familias. Los jóvenes de Inca, de Manacor, de Palma, que llevan años esperando su oportunidad. También queremos orden. Quien entra ilegalmente se vuelva a su país. Y quien comete delitos se va. Y eso no es odio a nadie, es amor por lo nuestro. Amigos, el 29 de noviembre tenemos una gran responsabilidad, decidir si Mallorca sigue siendo un lugar donde quedarse o solo un lugar del que marcharse. Yo me formé aquí, me quedé aquí y me voy a dejar la piel desde Madrid para que nuestros hijos también puedan quedarse. ¡Viva Vox, viva Mallorca, viva Baleares y viva España! Y ahora, el hombre que lleva años diciendo en voz alta lo que muchos piensan en silencio. El próximo presidente del Gobierno de España, Santiago Abascal."
+  },
+  {
+   "start": 2636.73,
+   "end": 3324.79,
+   "label": "SPEAKER_02",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Muy buenos días. Bueno, habrá que mantenerlos. Y si no van bien, le pedimos ayuda al doctor. Que vemos que aquí tenemos gente para todo. Bueno, quiero en primer lugar dar las gracias a nuestro presidente provincial, a Gabriel, a Maribel, A todos los que estáis en las islas representando las ideas de Vox, a nuestra portavoz Manuela Cañadas, a Fulgencio Col, tratando de hacer esta ciudad más habitable para todos, a Jorge Campos, que ha estado en el Parlamento Nacional representándonos y defendiendo el derecho a la libertad de elección lingüística, y a todos los que en todos los ayuntamientos, pequeños y grandes, y en algunos sé que con grandes perspectivas, han estado representando estas ideas con valentía. Muy especialmente también a María José Verdú, fallecida tempranamente ayer, a la que mandamos un abrazo y nuestras oraciones. Descanse en paz, María José Verdú. Gracias a todos. Gracias a todos por su participación. Y por eso yo quiero decir que tiene un especial mérito que estéis aquí, que hayáis superado la pretensión de los violentos porque una de las intenciones es asustarnos, es atemorizarnos. Y me consta que hay personas mayores que últimamente nos han transmitido que tienen miedo a ver nuestros actos, por lo que ven en televisión. Yo por eso valoro mucho que estéis aquí, porque el objetivo es asustarnos y evitar que defendamos nuestras ideas. Yo sabía que conmigo no podían intentarlo, pero me alegra comprobar mucho que también son incapaces de lograrlo con todos vosotros. Muchas gracias y es un honor hacer esta pelea junto a todos vosotros. La violencia, la intimidación, ayer mismo en Menorca, busca asustarnos, pero también busca otra cosa, y es que no se hable de lo verdaderamente importante, porque la violencia es una cortina de humo para que se tape el discurso de Vox, pero también... ¡Ah, que no se oye! ¡Vaya! ¡Vaya! Yo quería hablar bajito para que luego no me digan que estamos muy radicalizados. A ver qué hago, voy a intentar hablar un poco más alto, acercarme más a los micrófonos, no sé si los técnicos pueden aumentar el sonido, pero bueno, si no se oye mucho es también por una buena causa, somos muchos más de los que esperábamos. Decía que la violencia pretende atemorizarnos, pero sobre todo pretende tapar ocho años absolutamente ominosos, ocho años de vergüenza para España y para nuestra sociedad. La violencia pretende que nos olvidemos de las mentiras de Pedro Sánchez, pretende que nos olvidemos sobre lo que decía de sus pactos. No iba a pactar con unos y con otros y pactó con todos ellos, siempre enemigos de España, de la unidad nacional y de la libertad. Terroristas, separatistas o comunistas. Da igual, enemigos interiores, enemigos exteriores, siempre son los preferidos de Pedro Sánchez para buscar una alianza. A vosotros sí se os oye. Dice Pedro Sánchez que a veces se acuerdan de su madre, y yo francamente creo que la madre no tiene ninguna culpa, y que él también se acuerda de las madres de los demás. Pedro Sánchez no se acuerda de los demás. No se acuerda de la inseguridad de los españoles, de la inseguridad de las mujeres, de la inseguridad de los mayores. Pedro Sánchez solo se acuerda de sí mismo y por eso está dispuesto a cualquier cosa para mantenerse en el poder. Pedro Sánchez quiere tapar la traición cometida permanentemente a España y a los españoles. La última en Ceuta, la última contra 80.000 compatriotas que han tenido que soportar por el permiso del Gobierno, que en sede parlamentaria dijo que no podía hacer otra cosa que dejar pasar a la gente, la invasión de 100.000 personas, con el aliento de Marruecos y el permiso de Pedro Sánchez. Una invasión que permanece y solo limpiaron el otro día un poco las playas y las calles para dispersarlos con motivo de la visita del jefe del Estado que celebramos, la visita importantísima a Ceuta y a Melilla. Por cierto, empezaron a hacer lo que no habían hecho nunca, ni respecto a los invasores, ni respecto a las calles que las empezaron a pintar, lo pudimos comprobar el día anterior, iban pintando las líneas de las carreteras, iban pintando los pasos de cebra. Todo es propaganda para este gobierno. Y esto es algo de lo que estamos completamente hartos. Hoy hay muchas prioridades en España y hablaremos de ellas, pero si hay una prioridad es recuperar Ceuta para los españoles y echar a la mafia criminal que está en el gobierno de España. La otra intención de la violencia es que no se hable de la corrupción de Pedro Sánchez, de su partido y de su entorno familiar. El otro día dijo, en mi partido hay mucha corrupción, sí, en tu partido, en tu familia y en todo lo que tiene que ver contigo. Y no solo corrupción económica, corrupción moral, porque la mentira y la traición a los españoles tiene mucho también de corrupción moral. Pretenden que no nos acordemos de los del Peuillot, unos en la cárcel, otros en el banquillo. Pretenden que no nos acordemos de su señora, imputada y pronto juzgada por un tribunal popular. Pretenden que no nos acordemos de su hermano, condenado. Pretenden que no nos acordemos de Zapatero, al que siguen defendiendo. El otro día, fijaos cómo será lo de Zapatero, que hasta el fiscal, y de quien depende, según Sánchez, no ha tenido otra que imputarle la comisión de delitos. El fiscal ha pedido la imputación del expresidente del gobierno. Y Sánchez en televisión decía el otro día que los expresidentes reciben muchos regalos y que no saben ni lo que reciben. Y decía, a mí el presidente Turco Lutia me regaló una pistola. Bueno, yo no sé dónde guarda la pistola, que es un regalo para Patrimonio Nacional. Pero es que Zapatero sabía muy bien lo que le habían regalado. No se le olvidó. En el Palacio de la Moncloa, ni en Dependencias de Patrimonio Nacional. Tenía las joyas escondidas en la caja fuerte de la sede del Partido Socialista, cuyo secretario general es Pedro Sánchez. ¿Sabía Pedro Sánchez lo que había en esa caja fuerte? Lo sabía. Nosotros creemos que sí. Todo lo niegan. Le vimos en televisión también decir que España era un país muy seguro. Que eso de relacionar inmigración ilegal con inseguridad, que no era así, que era al contrario. No hay más que entrar a las cárceles y ver quiénes están. No hay más que entrar a las comisarías y ver quiénes están. No hay más que pasear por algunas calles de España y ver quiénes son los que están permanentemente asaltando a la gente. No hay más que ver el listado de los violadores y también sabemos quiénes son en su mayoría. Ahora resulta que Pedro Sánchez nos dice que en España no hay inseguridad. Joder, Pedro. Ahora resulta que eres negacionista de la inseguridad, negacionista de la ruina, negacionista de las dificultades de los jóvenes para acceder a una vivienda. Eres negacionista de todo lo que has provocado durante ocho años de mentira y de traición que vas a terminar pagando. Pero quizá la pretensión principal del ejercicio de la violencia y de la intimidación es tapar el programa alternativo de Vox. Un programa de sentido común, un programa de remigración, un programa de desregulación y bajada fiscal y un programa de prioridad nacional. Los españoles primero en España. Y este programa no es un programa ideológico. Este programa no convoca a los votantes de una facción, a los más de derechas, más de izquierdas, a los que votaron una cosa u otra. Este es un programa que pueden respaldar. Y yo sé que respaldan la inmensa mayoría de los españoles. Voten lo que voten. Y por eso no quieren que nuestro mensaje llegue nítido y claro. Lo necesitan todos. Ahogar entre el ruido de la violencia, lo necesitan distorsionar con sus manipulaciones permanentes sobre cualquier cosa que hemos dicho y lo necesitan también ahogar con los insultos y las etiquetas que nos ponen a todos los que defendemos a nuestra patria, la libertad y los que queremos prosperidad frente a un gobierno corrupto. Esa es la estrategia. ¿Por qué les molesta tanto lo de la prioridad nacional?"
+  },
+  {
+   "start": 3325.13,
+   "end": 3328.41,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "No sé si se habéis dado cuenta que ya no lo dicen mucho, porque"
+  },
+  {
+   "start": 3328.41,
+   "end": 3404.78,
+   "label": "SPEAKER_02",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "cuando levantamos esta bandera en algunas negociaciones en los gobiernos regionales, eso levantó sarpullidos en el PSOE, incluso en los del PP, que no les quedó otro remedio que aceptarlo, en los medios de comunicación, pero llevan un tiempo calladitos. Normal, porque uno hace una encuesta y ve que los votantes socialistas también quieren tener prioridad nacional en las ayudas sociales, en las ayudas al alquiler, en las plazas de guardería y están completamente hartos de que venga alguien de fuera a pasarles por encima. Nosotros tenemos muchas prioridades para estas elecciones, pero reitero lo que os he dicho antes, por encima de ideas, por encima de intereses de partido, Y hoy hay una prioridad, es recuperar Ceuta para los ceutíes y echar a este gobierno criminal sacrificando lo que sea necesario desde el punto de vista de un partido político. No venimos a estas elecciones con nuestro programa a decir esto es intocable, sino que venimos fundamentalmente, en primer lugar, a echar ese tipo para que España pueda emprender otro rumbo. Y para eso pedimos el respaldo a una mayoría de españoles. Yo sé que los periodistas me andan todo el día diciendo"
+  },
+  {
+   "start": 3406.62,
+   "end": 3409.4,
+   "label": "SPEAKER_06",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "«Oiga, ¿va a ser usted el vicepresidente del señor?»."
+  },
+  {
+   "start": 3409.4,
+   "end": 4197.11,
+   "label": "SPEAKER_02",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Yo no me presento a la vicepresidencia del Gobierno. Yo me presento a la presidencia del Gobierno. Aceptaremos el veredicto de las urnas. Haremos lo que digan los españoles. ¡Felicidades a todos los españoles! Adicionamos un gran poder para hacer una gran transformación. Siempre recuerdo lo que me decía un señor en Extremadura, Abascal no te quedes a medias, no nos votéis a medias, dadnos un gran respaldo, dadnos una gran mayoría y nosotros podremos hacer un gran cambio para España. Porque me preguntaba una periodista hace un momento, ¿usted está satisfecho con lo que Vox ha logrado en los gobiernos regionales, en Extremadura, en Andalucía, en Aragón, en Castilla y León? No, no estoy satisfecho. Queremos mucho más. Pero entendemos que respondemos a un mandato de la gente. Somos patriotas, pero también somos demócratas. Entendemos que los españoles votan libremente, que es exactamente lo que no quieren ahora que ocurra. Queremos que voten también de manera limpia y transparente, que es exactamente lo que no quieren ahora. Pero nosotros que somos demócratas aceptamos el veredicto de la SUPA. Pero que sepan todos que nos presentamos para ganar las elecciones y que esta gran movilización aquí y en toda España significa algo muy profundo. Porque no es ideológico tampoco exigir una gran bajada fiscal. No es ideológico decir que los autónomos están siendo saqueados y expoliados por el poder político. Que los trabajadores más humildes son en realidad mileuristas atracados por el Estado porque el coste es mucho mayor para el empresario y todo se va en impuestos. No es una injusticia, ni es ideológico, ni de derechas decir que las imposiciones sobre las herencias, sobre las donaciones entre los familiares son absolutamente inaceptables y abusivas. Y no es tampoco ideológico decir que los españoles pagan más impuestos que nunca y reciben menos que nunca, porque las infraestructuras están degradadas, porque la atención social es peor, porque la atención hospitalaria es también peor, porque las carreteras están llenas de baches, al menos en la península, y porque los trenes tienen más inseguridad que nunca. Me dicen que aquí también están mal las carreteras. Que en muchos sitios vemos lo que ocurre. Las carreteras se hunden. A ver dónde fue ese dinero. A ver quién recibió las mordidas para que carreteras construidas hace poco estén llenas de baches y estén hundiéndose. Y a ver qué hacemos ahora, porque vamos camino o de la Francia en llamas o de la Venezuela chavista, porque en los sitios donde hay baches, nosotros que circulamos por todas partes, vemos que ahora ya no se arreglan, te ponen unas líneas amarillas, hay que ir a 100, 80 y ya está. Como pasaba en los países comunistas donde lo que se caía ya no se arreglaba. Pero ¿cómo se va a arreglar? Si el dinero del saqueo fiscal va a todo tipo de porquerías y de fanatismos ideológicos. Si el dinero de las vías va a señoritas y a prostitución. ¿Cómo se va a arreglar lo que de verdad importa? Tampoco es ideológico denunciar la sobreregulación. Aquí hay muchas personas y probablemente personas que tienen ya una visión larga de la política y de las normativas, ya tienen 20 o 30 años trabajando, que ven los autónomos, los payeses, los industriales, cuál era el tipo de papeleo que tenían que hacer antes y el que tienen que hacer ahora para cualquier tipo de trámite con la administración. ¿Cuál es el tipo de papeleo derivado también de fanatismos ideológicos, fanatismos del clima, fanatismos del género, fanatismos de igualdad, fanatismos del Pacto Verde, fanatismos de la Agenda 2030, esa que nos dice que no tendremos nada y seremos felices? Fanatismos ideológicos de todo tipo que van en contra de nuestra prosperidad y que son zancadillas para los que en España trabajan y crean empleo. Y, por último, fanatismos y sobreregulaciones con las que tenemos la intención de terminar. No va a ser fácil, porque la sobreregulación, que es como una especie de bomba lapa contra la prosperidad en España, la han colocado en todas partes. Los debates van colocados en las instituciones más cercanas, en los ayuntamientos, en el Poder Nacional, está en Bruselas, incluso en los convenios internacionales que España ha firmado y muchos de los cuales habrá que repensarse para que podamos tener libertad y prosperidad de verdad. Tenemos intención de revisarlo todo porque lo que no vamos a hacer de ninguna manera es aceptar como una condena bíblica que los españoles no puedan ya prosperar y no puedan seguir siendo libres y que los jóvenes no puedan acceder a una vivienda y que los mayores no puedan caminar con seguridad por las calles o no puedan sentarse en un parque o no puedan ir a sacar del cajero el dinero sin el miedo a ser asaltados. Por cierto, hasta dónde han llegado, y yo creo que esto se entiende bien en Baleares, hasta dónde han llegado con la presión fiscal, ya hasta con los regalos de las bodas, pero las propinas, iba a hablar de eso, me imaginaba que esto aquí importaba, las propinas de los camareros, es una gratificación que todos damos a un camarero por un buen servicio, cuánta gente hay trabajando en ese sector en España, en el sector servicio, cuántos españoles y muchas veces no españoles están trabajando en ese sector, Pues no demasiado bien pagados para el coste de la vida. Y cuando reciben una gratificación, allá aparece el vampiro de Hacienda, y esto viene desde el vampiro Montoro a la vampira que luego tenía Sánchez, y a todos ellos en igualdad. Pues bien, nosotros, si llegamos, tenemos intención de terminar con el saqueo de las propinas a los camareros, porque es una injusticia absoluta que no tenía que estar grabada, como no lo estuvo nunca. Y voy al último asunto que, aunque sea el último, quizá es el más importante. No pueden entrar cinco millones de personas en un país en cinco años y que no pase nada. No pueden entrar cinco millones de personas, ahora matizamos quién se tiene que ir fuera, no pueden entrar cinco millones de personas en un país que no construye más viviendas, que no construye más hospitales, que no tiene más policías y más guardias civiles, Y en el que los jóvenes españoles no tienen trabajo, tienen que buscarse el futuro fuera. No necesitamos más gente en España en estos momentos. Eso no significa que no demos las gracias a las personas que vinieron, que han estado trabajando, respetando nuestras leyes, adaptándose a nuestra manera de vivir, contribuyendo al sostenimiento de los gastos públicos. A esas personas les damos las gracias. No solo no les hacemos ningún reproche, les damos las gracias. Pero hemos llegado a un punto en el que no se trata de decir quién puede venir. Estamos en la obligación de decir quién tiene que salir. Porque cuando un país colapsa por una invasión migratoria, colapsa el mercado de la vivienda. Por cierto, decían que venían en columna aquí los de la vivienda también, que debe haber aquí alguna concentración. Que venían a protestar contra nosotros, contra nosotros, que vayan a donde los ociatas, que vayan a donde Sánchez y donde aquellos que han hecho que la vivienda en venta en España se haya encarecido el 74% en ocho años, el 74% y los alquileres en un 40% de media en España. A nosotros que no nos vengan con reclamaciones esos, que en realidad están mandados, están pagados y subvencionados, ni los sindicatos esos del crimen, de la pereza y de las gambas, que han estado callados como muertos durante ocho años y salen ahora a convocar una huelga general contra la oposición. Violencia, intimidación, coacciones es la única oferta de Sánchez y de esos sindicatos como Comisiones y UGT. ¿Quién tiene que irse? Pues todos los que han entrado sin pedir permiso. España no puede admitir, como no lo admitiría una persona en su casa, que alguien entre sin permiso. Los que han entrado ilegales tienen que ser repatriados inmediatamente y tienen que entender que nunca va a haber premios ni regularizaciones para quien ha entrado a España sin llamar a la puerta y en algunos casos con violencia. Gracias por dejarme beber. Y vamos a otra cuestión tan importante o más como la repatriación de los ilegales, la deportación de los delincuentes, sean legales o no, la retirada de la nacionalidad a todos los delincuentes que están aquí cometiendo delitos también y que han obtenido la nacionalidad en España. Y la remigración de las personas que vinieron a pagar las pensiones, como nos dicen, y resulta que vinieron, sí, los menos con sus padres, por supuesto, porque les tenemos mucho afecto con sus familias. La remigración de los que decían que venían a pagar las pensiones, no lo decían ellos, lo dicen los políticos que los traen, y resulta que han venido a recibir las ayudas sociales que no alcanzan a los españoles. No puede ser. Cuando uno va a un país y no pretende trabajar, sino vivir de la ayuda pública, debe irse. Pero no se lo reprochamos a ellos, se lo reprochamos a los políticos que los han traído. Porque al final, si te regalan cosas, ¿por qué vas a rechazarlas? De verdad, es que dicen que lo que decimos es xenofobia. No, no, si nosotros comprendemos a la gente. Si te dicen que esto es jauja, pues vienen. Si te dicen que esto es el paraíso, pues vienen. Si te dicen que aquí el español está en último lugar y vienes de Marruecos y te dan las ayudas sociales porque no tienes arraigo, pues vienen. Pues eso se va a acabar. Seguro que habéis visto la noticia de ayer. Ayer empezaron con el desahucio de esta señora a la que mataron con su utilización y han continuado ahora con el desahucio en Vitoria que querían convertir también en la piedra de toque de una nueva movilización de una familia magrebí. Magrebí, una familia que cobraba 2.500 euros de ayudas y que se había atrincherado en un piso de alquiler que había caducado el contrato y estaba en disputa con los propietarios. Hasta tal punto que los propietarios del piso alquilado estaban viviendo en una habitación alquilada en otro piso y habían sido declarados vulnerables. Y la familia de Magrebíes, claro, tenían seis hijos, con 2.500 euros al mes, pues bueno, hay gente que hace milagros, pero es que eso es mucho más de lo que ingresan muchas familias humildes en España. Y resulta que había unos españoles hacinados en una habitación porque unas personas que no tienen que estar en España estaban ocupando su vivienda mientras eran mantenidos por"
+  },
+  {
+   "start": 4197.11,
+   "end": 4199.01,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "el poder público en el País Vasco."
+  },
+  {
+   "start": 4199.01,
+   "end": 4870.79,
+   "label": "SPEAKER_02",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Es una injusticia que no vamos a tolerar. No vamos a tolerar que venga aquí nadie a vivir de lo que necesitan los españoles, mientras los españoles viven en una habitación, o no pueden llenar la nevera, o no pueden llenar el depósito del coche, o no pueden ni cambiar las ruedas y andan jugándose la vida. No lo vamos a permitir. Aquí no va a haber nadie viviendo de las ayudas que necesita nuestro pueblo. Gracias, Pablo. Quien venga con esa intención tiene que saber que no es bienvenido y que va a tener que volver por donde ha venido. Y os digo algo más, porque creo que esto también hay que matizarlo. Aquí hay personas que han venido a trabajar, han trabajado, se han esforzado e igual están pasando una mala racha. Bueno, vamos a esperar si pasa esa mala racha, porque ellos también han adquirido derechos. Ningún problema con eso. Además, también decimos que si esa situación permanece, probablemente esos derechos adquiridos hay que adelantarlos para que puedan remigrar y volver pronto a su propia patria, donde igual pueden construir un futuro. Pero España no puede seguir sosteniendo los problemas de todo el mundo, ni pagando la sanidad de todo el mundo, ni condenando a los españoles a la falta de prosperidad. Esto es una traición como una catedral. Como un padre traicionaría a sus hijos si les quita el pan de la boca para dárselo a los hijos del vecino. Nadie lo comprendería. Pensaría que ese padre se ha vuelto loco. Pues nosotros pensamos que nuestros gobernantes se han vuelto locos. Pero no se han vuelto locos. Son traidores. Porque lo que están pretendiendo es sustituir a nuestro propio pueblo. Porque el pueblo no les gusta, porque el pueblo no les vota, porque el pueblo no les aplaude espontáneamente, sino que les grita y les reprocha. Se han hartado del pueblo y por eso han abierto las fronteras en Ceuta y por eso quieren regular a 800.000, para sustituir a los fachas, como decía Irene Montero y la otra niña de la curva, para sustituir a los fachas. Ya sabemos lo que pretenden. La teoría de la sustitución, que parecía una conspiración, pues ya ha sido confesada por todos ellos en voz alta. Les damos las gracias, ya sabemos por dónde vienen. Y ahora andan secuestrando los intereses de los mayores. Ahora quieren decir que nosotros vamos a quitar las pensiones a los mayores, que las vamos a privatizar. Mentira cochina. El riesgo para las pensiones es la continuidad de Pedro Sánchez en el poder porque significa destruir toda la economía privada de España y hacer imposible el sostenimiento de los gastos públicos. La única manera de mantener el sistema de pensiones es rebajar los impuestos y recortar el gasto político e ideológico. Es la única manera y nosotros estamos dispuestos a eso. Además, pueden estar tranquilos los pensionistas porque las pensiones que son derechos adquiridos se van a pagar como sea necesario, de la manera que haga falta, pero desde luego con nosotros no están en riesgo. Me hace gracia cómo quieren meter miedo a los mayores con las pensiones, con la revalorización de las pensiones, y además es que insultan a los mayores. Porque yo hablo con muchos abuelos, hablo con muchas personas de avanzada edad, que no tienen la preocupación, también, de si pueden comprar un filete más a la semana. Tienen preocupación por sus hijos y sus nietos, que no tienen futuro. Tienen preocupación por la seguridad en las calles, que niega Pedro Sánchez. Tienen preocupación por la asistencia a los hospitales. Las citas médicas cada vez tardan más. ¿Qué pasa? ¿Importamos pacientes y exportamos médicos y enfermeras? Pues normal que las citas tarden más. Las operaciones también más, las listas de espera se eternizan y hay gente que muere esperando una cita médica o una operación. Esta política de invasión migratoria es una política criminal que trae ruina y que trae muerte para nuestro pueblo y hay que cambiarla inmediatamente y sentar en el banquillo a los culpables de esta invasión, sean políticos o NGs de cualquier naturaleza que se han olvidado de los intereses de su propio pueblo. Pero, en definitiva, no basta con un pequeño cambio. Nos pedimos un pequeño respaldo. Si no queréis que nos quedemos a medias, de verdad, no os quedéis a medias el día 29 de noviembre. Y nosotros devolveremos a los españoles su soberanía, su libertad y su prosperidad con muchas dificultades. No va a ser de la noche a la mañana, no va a haber una varita mágica para arreglar al día siguiente, ni en una semana, ni en un año, todo lo que estos tipos han destruido en ocho años y lo que conjuntamente vienen estropeando durante décadas. No va a ser fácil, no vamos a mentir a nadie, no somos los populistas que dicen, bueno, populistas en la medida que nosotros queremos a nuestro pueblo, ellos están contra el pueblo, pero no, nosotros no venimos a prometer soluciones fáciles, soluciones contundentes sí, y determinación también venimos a prometerla. A nosotros no nos va a temblar el pulso para recuperar Ceuta, no nos va a temblar el pulso para defender nuestras fronteras, no nos va a temblar el pulso para defender a los mayores, no nos va a temblar el pulso para mantener la sanidad para los españoles, no nos va a temblar el pulso para mejorar la educación, no nos va a temblar el pulso para defender el derecho a la libertad lingüística en toda España. España. No nos va a temblar el pulso para nada. Tendremos más respaldo o menos, pero podéis estar seguros de que la valentía no nos va a faltar. Yo concluyo dándoles las gracias por esta asistencia tan masiva, pero pidiéndoles que acudamos a las elecciones el 29 de noviembre con dos sentimientos que pueden parecer encontrados. Uno es el de miedo. Bueno, miedo no, porque hemos dicho sin miedo a nada ni a nadie. Uno es el de la alerta máxima hasta el día 29 de noviembre, porque estos están dispuestos a cualquier cosa. Están desesperados. Van a usar la violencia, los pactos extravagantes, las trampas electorales. Esto no... yo no sé por qué ya sorprende a nadie. Lo digo porque en las entrevistas los periodistas me lo vuelven a preguntar. Digo, pero ¿qué sorprende? Si este tipo ha robado las elecciones a su propio partido. Llegaba con el peyote allí, se ponían el Ábalos, el Zerdán y el Coldo a meter votos del marroquí, el rumano, el dominicano... Por cierto, que parece un chiste, pero no lo era. Para robar las elecciones a sus propios militantes. Se han intentado robarnos las elecciones. El Tribunal Supremo ha dicho que de los 168.000 que ya habían conseguido meternos en el censo electoral español para estas elecciones, solo el 0,27 cumplían con los requisitos legales. Si nos han metido a 168.000 personas ilegalmente en el censo. Y porque les hemos pillado a tiempo. Porque esto lo empezó a denunciar Vox, no se había enterado nadie, lo llevamos a los tribunales y hemos hecho una labor de concienciación de todos los sectores políticos, empresariales y mediáticos para explicar lo que estaba pasando y hemos ido al Tribunal Supremo y hemos ganado porque nos asiste la razón, la verdad y la justicia. Y eso significa que hay que quedarse tranquilos, no, porque probablemente hay trampas que no estamos detectando y nos preguntan ¿pero qué cree usted que va a hacer? No lo sé, yo no tengo, creo, ningún tipo de psicopatía Y no soy capaz de pensar en esos términos. No sé qué van a hacer estos tramposos. Pero podemos estar seguros de que algo va a pasar. Para empezar, las cosas han empezado mal. Con la violencia. Con la violencia en La Coruña, con la violencia en Avilés, con la violencia ayer en Menorca. Con la violencia que ha dejado heridos. Han empezado mal. Y ayer hemos visto la circularesa de los yihadistas, una circular ya publicada en los medios, Yolanda Díaz, que dice que hay instrucciones de atacar en manifestaciones con cuchillo a policías y a manifestantes. Eso ya está publicado. Ojalá no pase. Pero estemos preparados para absolutamente todo. Yo os pido, ante la presión, ante la violencia y la intimidación, que hagáis lo que solicité el día que se convocaron las elecciones. No caer en ninguna provocación. En ninguna. Defendamos nuestras ideas con libertad, con valentía, pero no les demos ni una sola razón y ni una sola excusa. Y en segundo lugar, yo quiero pediros que acudáis el 29 de noviembre a votar. Aquí habrá gente que no nos va a votar, pero que igual va a votar otra cosa. No, no, pero de ahí me dirijo a ellos para que voten, lo que voten lo hagan bien, pero lo hagan, porque yo creo que votar a Vox está muy bien, pero bueno, pues igual votar a otras cosas, pues bueno, no está mal, a otras está muy mal, pero bueno, los que vayáis a votar muy bien y los que vayáis a votar regular, yo os pido que lo hagáis también con esperanza. Lo de Sánchez no es una plaga bíblica, no es algo inexorable, algo que estemos condenados a soportar. Yo creo que tenemos capacidad con una gran movilización, que pase por encima de cualquier trampa, de cualquier violencia, de cualquier mentira, de recuperar la prosperidad para nuestro pueblo, la esperanza de un futuro con familias, con vivienda y con trabajo para los jóvenes, De unas calles seguras para los mayores, de unas mujeres que puedan seguir sintiéndose libres en esta patria que se llama España y que no acepta la dominación de la mujer desde hace muchos siglos. Una esperanza de que los autónomos puedan terminar al final del día contentos del trabajo realizado y no amargados porque saben que les van a arrebatar una gran parte de ello. Gracias, señor presidente. Vamos a estar haciendo papeleos permanentemente. Esa España se puede construir porque esa España, quizá no tan perfecta como la que nos gustaría, ha existido en algunos momentos. Ha sido mejor que la herencia envenenada que nos ha dejado este indecente, este corrupto y este traidor al que hay que echar el 29 de noviembre. Gracias a todos por vuestro respaldo y el día 29 de noviembre todos hablar con vuestros amigos, con vuestras familias, con vuestros compañeros de trabajo, con vuestros compañeros de estudios, para que nadie se quede en casa. ¡Adelante españoles de las Islas Baleares! ¡Sin miedo a nada ni a nadie! ¡Viva España!"
+  },
+  {
+   "start": 4872.77,
+   "end": 4878.85,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Para finalizar, como acostumbramos en los actos de Vox, nos ponemos en pie para escuchar nuestro himno nacional."
+  }
+ ]
+}
