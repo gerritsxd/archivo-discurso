@@ -338,3 +338,23 @@ section .search { margin-top: 1rem; }
   .an-pair { grid-template-columns: 1fr; }
 }
 .an-home { margin-bottom: 1rem; }
+
+.netwrap { overflow-x: auto; }
+.net { border-collapse: collapse; font: 400 0.8125rem/1.3 var(--sans); }
+.net caption { text-align: left; margin-bottom: 0.6rem; }
+.net th { font-weight: 600; color: var(--ink-2); text-align: left; }
+.net-col { vertical-align: bottom; height: 9.5rem; padding: 0 2px; }
+.net-col span { display: inline-block; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap; font-weight: 400; color: var(--muted); }
+.net-row { padding-right: 0.75rem; white-space: nowrap; }
+.net-cell { padding: 1px; }
+.net-btn { width: 2.6rem; height: 2.1rem; padding: 0; border: 0; border-radius: 2px; font: 400 0.8125rem/1 var(--sans);
+  color: var(--ink); background: color-mix(in srgb, var(--ink) calc(var(--a) * 100%), transparent); font-variant-numeric: tabular-nums; }
+.net-btn.net-dark { color: var(--paper); }
+.net-btn:hover { outline: 2px solid var(--ink); background: color-mix(in srgb, var(--ink) calc(var(--a) * 100%), transparent); }
+.net-tot { padding-left: 0.6rem; color: var(--muted); text-align: right; font-variant-numeric: tabular-nums; }
+
+.ask { margin: 1.5rem 0 0.5rem; max-width: 46rem; }
+.ask .kicker { display: block; }
+.askout { margin-top: 1rem; padding: 1rem 0 0; border-top: 1px solid var(--rule); }
+.askans { font: 400 1.075rem/1.6 var(--serif); margin: 0 0 1rem; }
+.askref { font: 600 0.8125rem/1 var(--sans); text-decoration: none; padding: 0 0.1em; }

@@ -13,8 +13,8 @@
  "pipeline": {
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
-  "voiceprint_threshold": 0.55,
-  "processed_at": "2026-10-25T13:06:08+00:00",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T18:25:56+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -36,7 +36,7 @@
    "person": null,
    "name": "Hablante sin identificar 1",
    "decision": "unknown",
-   "reason": "best sim 0.40 < 0.55",
+   "reason": "best sim 0.40 < 0.65",
    "talk_s": 176.5
   }
  },
@@ -199,7 +199,7 @@
    "label": "SPEAKER_02",
    "person": "belarra",
    "name": "Ione Belarra (Podemos)",
-   "text": "Yo creo que donde hay contradicciones en fuerzas políticas que se dicen de izquierdas y no están dispuestas a ser primarias. Con Esquerra Republicana hemos llegado a un acuerdo como los que hemos llegado con Izquierda Unida a lo largo de nuestra historia en centenares, decenas de ocasiones. Yolanda Díaz, Alberto Núñez Feijóo, Santiago Abascal, Irene Montero, Frente Amplio, Junta Electoral Central, Tribunal Constitucional Si no hay acuerdos justos, si no hay acuerdos en los que todas las organizaciones se sientan cómodas, la única vía posible de solución de esas diferencias son las primarias. Y yo lo que no puedo entender es por qué una organización, una persona que yo creo que tiene compromiso democrático como es Ada Colau, no ha aceptado presentarse a unas primarias en las que podamos decidir cuál es el mejor cabeza de lista, cuáles son las mejores personas para representarnos en esas elecciones generales. Pues nosotras hemos estado dispuestas a todo. Hemos hecho unas primarias abiertas que no son solo de Podemos. Por cierto, se está votando en este momento para cualquiera que quiera participar hasta el final del día de hoy. Nosotras hemos estado dispuestas a que sea la gente, que yo creo que ahí es cuando la izquierda siempre acierta, a que sea la gente quien decida cuál es la mejor candidatura. Yo creo que las opciones están claras. O acuerdos justos o primarias para que sea la gente quien decida quiénes son los mejores equipos. Quien tiene, yo creo, una contradicción es quien no puede explicar por qué no acepta unas primarias."
+   "text": "Yo creo que donde hay contradicciones en fuerzas políticas que se dicen de izquierdas y no están dispuestas a ser primarias. Con Esquerra Republicana hemos llegado a un acuerdo como los que hemos llegado con Izquierda Unida a lo largo de nuestra historia en centenares, decenas de ocasiones. Si no hay acuerdos justos, si no hay acuerdos en los que todas las organizaciones se sientan cómodas, la única vía posible de solución de esas diferencias son las primarias. Y yo lo que no puedo entender es por qué una organización, una persona que yo creo que tiene compromiso democrático como es Ada Colau, no ha aceptado presentarse a unas primarias en las que podamos decidir cuál es el mejor cabeza de lista, cuáles son las mejores personas para representarnos en esas elecciones generales. Pues nosotras hemos estado dispuestas a todo. Hemos hecho unas primarias abiertas que no son solo de Podemos. Por cierto, se está votando en este momento para cualquiera que quiera participar hasta el final del día de hoy. Nosotras hemos estado dispuestas a que sea la gente, que yo creo que ahí es cuando la izquierda siempre acierta, a que sea la gente quien decida cuál es la mejor candidatura. Yo creo que las opciones están claras. O acuerdos justos o primarias para que sea la gente quien decida quiénes son los mejores equipos. Quien tiene, yo creo, una contradicción es quien no puede explicar por qué no acepta unas primarias."
   },
   {
    "start": 769.74,

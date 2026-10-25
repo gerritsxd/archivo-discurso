@@ -13,8 +13,8 @@
  "pipeline": {
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
-  "voiceprint_threshold": 0.55,
-  "processed_at": "2026-10-25T15:16:26+00:00",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T18:26:06+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -29,7 +29,7 @@
    "person": null,
    "name": "Hablante sin identificar 1",
    "decision": "unknown",
-   "reason": "best sim 0.24 < 0.55",
+   "reason": "best sim 0.24 < 0.65",
    "talk_s": 244.9
   }
  },
@@ -176,7 +176,7 @@
    "label": "SPEAKER_01",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "No, no, yo no estoy ni seguro ni tranquilo y estoy ocupado y estoy preocupado y lo he venido diciendo estos días. Es verdad que las encuestas en estos momentos ofrecen una mayoría de cambio realmente amplia, que coincide con la respuesta que durante estos años los españoles están dando a todas las decisiones del gobierno, Yolanda Díaz, Alberto Núñez Feijóo, Santiago Abascal, Ángeles Barceló, Frente Amplio, Junta Electoral Central, Tribunal Constitucional No sé qué es lo que va a hacer Pedro Sánchez, pero creo que su desesperación va a llevarle a hacer cosas que van a ser un peligro para los españoles, en modo de trampas y en modo de violencia."
+   "text": "No, no, yo no estoy ni seguro ni tranquilo y estoy ocupado y estoy preocupado y lo he venido diciendo estos días. Es verdad que las encuestas en estos momentos ofrecen una mayoría de cambio realmente amplia, que coincide con la respuesta que durante estos años los españoles están dando a todas las decisiones del gobierno, Ángeles No sé qué es lo que va a hacer Pedro Sánchez, pero creo que su desesperación va a llevarle a hacer cosas que van a ser un peligro para los españoles, en modo de trampas y en modo de violencia."
   },
   {
    "start": 541.51,

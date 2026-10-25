@@ -13,8 +13,8 @@
  "pipeline": {
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
-  "voiceprint_threshold": 0.55,
-  "processed_at": "2026-10-25T16:59:16+00:00",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T18:26:15+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -29,56 +29,56 @@
    "person": null,
    "name": "Hablante sin identificar 1",
    "decision": "unknown",
-   "reason": "best sim 0.50 < 0.55",
+   "reason": "best sim 0.50 < 0.65",
    "talk_s": 34.4
   },
   "SPEAKER_02": {
    "person": null,
    "name": "Hablante sin identificar 2",
    "decision": "unknown",
-   "reason": "best sim 0.33 < 0.55",
+   "reason": "best sim 0.33 < 0.65",
    "talk_s": 28.5
   },
   "SPEAKER_01": {
    "person": null,
    "name": "Hablante sin identificar 3",
    "decision": "unknown",
-   "reason": "best sim 0.33 < 0.55",
+   "reason": "best sim 0.33 < 0.65",
    "talk_s": 656.7
   },
   "SPEAKER_08": {
    "person": null,
    "name": "Hablante sin identificar 4",
    "decision": "unknown",
-   "reason": "best sim 0.32 < 0.55",
+   "reason": "best sim 0.32 < 0.65",
    "talk_s": 103.3
   },
   "SPEAKER_06": {
    "person": null,
    "name": "Hablante sin identificar 5",
    "decision": "unknown",
-   "reason": "best sim 0.30 < 0.55",
+   "reason": "best sim 0.30 < 0.65",
    "talk_s": 727.3
   },
   "SPEAKER_00": {
    "person": null,
    "name": "Hablante sin identificar 6",
    "decision": "unknown",
-   "reason": "best sim 0.29 < 0.55",
+   "reason": "best sim 0.29 < 0.65",
    "talk_s": 83.5
   },
   "SPEAKER_07": {
    "person": null,
    "name": "Hablante sin identificar 7",
    "decision": "unknown",
-   "reason": "best sim 0.27 < 0.55",
+   "reason": "best sim 0.27 < 0.65",
    "talk_s": 72.4
   },
   "SPEAKER_05": {
    "person": null,
    "name": "Hablante sin identificar 8",
    "decision": "unknown",
-   "reason": "best sim 0.21 < 0.55",
+   "reason": "best sim 0.21 < 0.65",
    "talk_s": 25.1
   }
  },

@@ -15,7 +15,9 @@ El discurso político llega troceado: un corte de 20 segundos en el telediario, 
 - **Buscador** de todo lo dicho por los candidatos, con la pregunta del entrevistador como contexto y enlace al minuto exacto de la fuente.
 - **Transcripciones completas** de cada aparición, con cada intervención atribuida a quien habla.
 - **¿Quién lo dijo?**: 5 frases reales al día, adivina el candidato. Solo frases con contenido (cada una puntuada por un editor automático).
-- **Datos abiertos**: un JSON por aparición y una API de solo lectura (`/discurso/api/search`, `/stats`, `/item/<id>`, `/daily`).
+- **Análisis**: promesas, cifras, ataques, descalificaciones y posturas de cada candidato, cada una con su cita literal comprobada; posibles contradicciones (casi siempre cifras que no cuadran), tono de cada candidato y quién ataca a quién. Clasificación automática con DeepSeek.
+- **Pregunta al archivo**: una pregunta en lenguaje normal («¿qué ha prometido Feijóo sobre vivienda?») y una respuesta corta escrita solo con frases del archivo, cada una enlazada.
+- **Datos abiertos**: un JSON por aparición y una API de solo lectura (`/discurso/api/search`, `/stats`, `/item/<id>`, `/daily`, `/claims`, `/contradictions`, `/attacks`, `/tone`).
 
 Cobertura a 25 de octubre de 2026: **72 apariciones, ~55 h de audio** (5–24 oct) de Pedro Sánchez, Alberto Núñez Feijóo, Santiago Abascal, Ada Colau, Irene Montero e Ione Belarra: mítines, declaraciones, entrevistas de radio y televisión.
 
@@ -39,6 +41,7 @@ descubrir apariciones → descargar audio → Whisper large-v3 → pyannote (qui
 - **Fuentes**: canales oficiales de los partidos y de La Moncloa, RTVE Play, radio (SER, COPE, Onda Cero, RNE, esRadio y emisoras regionales), Congreso, TV3. Solo fuentes oficiales o de medios, nunca subidas anónimas (los imitadores también suenan como el original).
 - **Quién habla**: la voz de cada candidato se compara con su huella de voz. Solo se atribuye una frase si la coincidencia es clara; si no, aparece como «hablante sin identificar». Una cita mal atribuida es el peor error posible, así que el sistema prefiere no poner nombre a equivocarse.
 - **Precisión medida**: Whisper sobre una declaración oficial de La Moncloa, 11,4 % de diferencia con la transcripción oficial (que está editada: la diferencia real es menor). Huellas de voz: el mismo candidato en otro estudio y otra emisora da una similitud de 0,96; personas distintas, como mucho 0,40.
+- **Atribución revisada**: en una muestra aleatoria de 102 intervenciones con nombre, ninguna estaba atribuida a otra persona; un 5 % incluye unas palabras de otro hablante en un extremo ([eval/ATTRIBUTION.md](eval/ATTRIBUTION.md)).
 
 Detalles técnicos: [ARCHITECTURE.md](ARCHITECTURE.md) · Cómo ejecutarlo: [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md)
 

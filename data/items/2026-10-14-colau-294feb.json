@@ -13,30 +13,30 @@
  "pipeline": {
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
-  "voiceprint_threshold": 0.55,
-  "processed_at": "2026-10-25T12:24:58+00:00",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T18:25:54+00:00",
   "reviewed": false
  },
  "speakers": {
   "SPEAKER_05": {
    "person": null,
    "name": "Hablante sin identificar 1",
-   "decision": "ambiguous",
-   "reason": "sim 0.57 but next is 0.54",
+   "decision": "unknown",
+   "reason": "best sim 0.57 < 0.65",
    "talk_s": 47.0
   },
   "SPEAKER_04": {
    "person": null,
    "name": "Hablante sin identificar 2",
    "decision": "unknown",
-   "reason": "best sim 0.53 < 0.55",
+   "reason": "best sim 0.53 < 0.65",
    "talk_s": 117.0
   },
   "SPEAKER_03": {
    "person": null,
    "name": "Hablante sin identificar 3",
    "decision": "unknown",
-   "reason": "best sim 0.47 < 0.55",
+   "reason": "best sim 0.47 < 0.65",
    "talk_s": 45.3
   },
   "SPEAKER_06": {
@@ -263,11 +263,11 @@
   },
   {
    "start": 224.61,
-   "end": 254.49,
+   "end": 253.01,
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 2",
-   "text": "El Consejo del Poder Judicial se ha dividido de nuevo entre conservadores y progresistas. El Bloque Conservador ha propuesto un comunicado para apoyar a la jueza que investigó al hermano de Pedro Sánchez. Beatriz Biedma acaba de declarar como perjudicada en el caso Leire. Denuncia que fue objetivo de la supuesta trama que intentaba boicotear causas judiciales que afectaban al PSOE. Los progresistas lo han rechazado porque ya no ha pedido amparo y porque es un asunto, dicen, que se está investigando. CC por Antarctica Films Argentina"
+   "text": "El Consejo del Poder Judicial se ha dividido de nuevo entre conservadores y progresistas. El Bloque Conservador ha propuesto un comunicado para apoyar a la jueza que investigó al hermano de Pedro Sánchez. Beatriz Biedma acaba de declarar como perjudicada en el caso Leire. Denuncia que fue objetivo de la supuesta trama que intentaba boicotear causas judiciales que afectaban al PSOE. Los progresistas lo han rechazado porque ya no ha pedido amparo y porque es un asunto, dicen, que se está investigando."
   }
  ]
 }

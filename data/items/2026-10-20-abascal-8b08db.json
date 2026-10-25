@@ -13,8 +13,8 @@
  "pipeline": {
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
-  "voiceprint_threshold": 0.55,
-  "processed_at": "2026-10-25T14:32:19+00:00",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T18:26:02+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -36,7 +36,7 @@
    "person": null,
    "name": "Hablante sin identificar 2",
    "decision": "unknown",
-   "reason": "best sim 0.43 < 0.55",
+   "reason": "best sim 0.43 < 0.65",
    "talk_s": 329.6
   },
   "SPEAKER_03": {
@@ -50,28 +50,28 @@
    "person": null,
    "name": "Hablante sin identificar 4",
    "decision": "unknown",
-   "reason": "best sim 0.26 < 0.55",
+   "reason": "best sim 0.26 < 0.65",
    "talk_s": 184.9
   },
   "SPEAKER_04": {
    "person": null,
    "name": "Hablante sin identificar 5",
    "decision": "unknown",
-   "reason": "best sim 0.17 < 0.55",
+   "reason": "best sim 0.17 < 0.65",
    "talk_s": 84.1
   },
   "SPEAKER_05": {
    "person": null,
    "name": "Hablante sin identificar 6",
    "decision": "unknown",
-   "reason": "best sim 0.15 < 0.55",
+   "reason": "best sim 0.15 < 0.65",
    "talk_s": 510.2
   },
   "SPEAKER_00": {
    "person": null,
    "name": "Hablante sin identificar 7",
    "decision": "unknown",
-   "reason": "best sim 0.12 < 0.55",
+   "reason": "best sim 0.12 < 0.65",
    "talk_s": 81.8
   }
  },
@@ -83,14 +83,6 @@
    "person": null,
    "name": "Hablante sin identificar 3",
    "text": "Con todos vosotros, Santiago Abascal"
-  },
-  {
-   "start": 298.61,
-   "end": 300.11,
-   "label": "SPEAKER_04",
-   "person": null,
-   "name": "Hablante sin identificar 5",
-   "text": "¡Gracias por ver el video!"
   },
   {
    "start": 333.58,

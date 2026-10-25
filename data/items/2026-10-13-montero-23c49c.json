@@ -13,8 +13,8 @@
  "pipeline": {
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
-  "voiceprint_threshold": 0.55,
-  "processed_at": "2026-10-25T12:18:47+00:00",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T18:25:52+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -29,7 +29,7 @@
    "person": null,
    "name": "Hablante sin identificar 1",
    "decision": "unknown",
-   "reason": "best sim 0.39 < 0.55",
+   "reason": "best sim 0.39 < 0.65",
    "talk_s": 207.2
   }
  },
@@ -348,19 +348,19 @@
   },
   {
    "start": 631.74,
-   "end": 689.7,
+   "end": 660.72,
    "label": "SPEAKER_01",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "Yo creo de verdad que la gente quiere acuerdos, que la gente quiere que nos podamos entender, si ahora resulta que no, pues será la gente la que juzgue, Silvia, por suerte hay unas elecciones muy pronto y será la gente la que decida y la que ponga a cada uno y a cada una en su sitio, yo me voy a dejar la piel de verdad porque haya una candidatura fuerte que represente a la gente que quiere que baje el precio de los alquileres, que quiere que las cosas cambien, que sabe que este sistema como está no funciona y que sabe que tenemos que cooperar entre todos. Yolanda Díaz, Alberto Núñez Feijóo, Santiago Abascal, Irene Montero,"
+   "text": "Yo creo de verdad que la gente quiere acuerdos, que la gente quiere que nos podamos entender, si ahora resulta que no, pues será la gente la que juzgue, Silvia, por suerte hay unas elecciones muy pronto y será la gente la que decida y la que ponga a cada uno y a cada una en su sitio, yo me voy a dejar la piel de verdad porque haya una candidatura fuerte que represente a la gente que quiere que baje el precio de los alquileres, que quiere que las cosas cambien, que sabe que este sistema como está no funciona y que sabe que tenemos que cooperar entre todos."
   },
   {
-   "start": 689.7,
+   "start": 690.74,
    "end": 698.27,
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Frente Amplio, Junta Electoral Central, Tribunal Constitucional Me guste más o menos. ¿Usted no ve la contradicción? Que la puede defender, pero no ve la contradicción."
+   "text": "Me guste más o menos. ¿Usted no ve la contradicción? Que la puede defender, pero no ve la contradicción."
   },
   {
    "start": 698.97,

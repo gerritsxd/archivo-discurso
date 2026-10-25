@@ -13,8 +13,8 @@
  "pipeline": {
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
-  "voiceprint_threshold": 0.55,
-  "processed_at": "2026-10-25T13:30:11+00:00",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T18:25:57+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -43,7 +43,7 @@
    "person": null,
    "name": "Hablante sin identificar 3",
    "decision": "unknown",
-   "reason": "best sim 0.09 < 0.55",
+   "reason": "best sim 0.09 < 0.65",
    "talk_s": 148.9
   }
  },

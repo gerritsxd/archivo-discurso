@@ -13,8 +13,8 @@
  "pipeline": {
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
-  "voiceprint_threshold": 0.55,
-  "processed_at": "2026-10-25T13:37:19+00:00",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T18:25:57+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -29,7 +29,7 @@
    "person": null,
    "name": "Hablante sin identificar 1",
    "decision": "unknown",
-   "reason": "best sim 0.26 < 0.55",
+   "reason": "best sim 0.26 < 0.65",
    "talk_s": 77.9
   },
   "SPEAKER_01": {
@@ -43,21 +43,21 @@
    "person": null,
    "name": "Hablante sin identificar 3",
    "decision": "unknown",
-   "reason": "best sim 0.38 < 0.55",
+   "reason": "best sim 0.38 < 0.65",
    "talk_s": 33.4
   },
   "SPEAKER_02": {
    "person": null,
    "name": "Hablante sin identificar 4",
    "decision": "unknown",
-   "reason": "best sim 0.25 < 0.55",
+   "reason": "best sim 0.25 < 0.65",
    "talk_s": 47.0
   },
   "SPEAKER_05": {
    "person": null,
    "name": "Hablante sin identificar 5",
    "decision": "unknown",
-   "reason": "best sim 0.09 < 0.55",
+   "reason": "best sim 0.09 < 0.65",
    "talk_s": 39.7
   }
  },
@@ -76,7 +76,7 @@
    "label": "SPEAKER_04",
    "person": "sanchez",
    "name": "Pedro Sánchez (PSOE)",
-   "text": "Nos ha hecho prolongar este consejo. Como hago siempre, agradeceros a los medios de comunicación y, por supuesto, también a Marcos, al embajador y a todo el equipo de la Embajada ante la Unión Europea por el trabajo que se hace de preparación de este consejo. Como he dicho antes, hemos debatido asuntos de la máxima relevancia para el futuro de la Unión Europea y, por tanto, también de nuestro país en ámbitos tan importantes como la seguridad, como la defensa. La situación en Ucrania, la situación en Oriente Medio, también la cuestión de la migración y cuestiones que afectan de lleno a la vida de la gente como es el precio de la electricidad, de la energía y qué medidas se van a poner en marcha por parte de los gobiernos y también a escala comunitaria para dar una tregua al bolsillo de los hogares, de las industrias y de las empresas de nuestro continente. Sobre Oriente Medio y Energía, por ahí empezaré, que es por donde comenzó el Consejo en el día de ayer, quiero recordar por qué estamos donde estamos, con máximos históricos en el precio del gasoil, de la gasolina, y es a causa de una guerra ilegal, absolutamente innecesaria, en Oriente Medio, y el desorden que ha traído no sólo a una zona ya de por sí muy compleja, muy inestable, sino como estamos viendo al resto del mundo. Yolanda Díaz, Alberto Núñez Feijóo, Santiago Abascal, Irene Montero, Frente Amplio, Junta Electoral Central, Tribunal Constitucional Si lo pongamos en perspectiva, estamos hablando de que es casi el doble de todo lo que la Unión Europea destina cada año a la política agrícola común y por tanto a nuestros agricultores, ganaderos y por supuesto también a la gente, a los trabajadores del sector pesquero. Por tanto creo que todos aquellos que alzamos la voz cuando dijimos no a esta guerra, no a la guerra, creo que hemos demostrado que también teníamos razón no solamente desde el punto de vista de la legalidad internacional, del respeto a los derechos humanos, sino también de las consecuencias económicas y sociales que ya de nuevo están viviendo nuestros conciudadanos. Porque al final acaban pagándolo la gente de a pie y por desgracia así se está sintiendo. Ahora lo que importa en todo caso es solucionar ese desastre cuanto antes y creo que hemos dado pasos importantes. Hoy en el Congreso de los Diputados, como saben, en la Diputación Permanente, se ha convalidado el Real Decreto Ley vinculado con el escudo social que pusimos en marcha nada más iniciarse esta guerra en España, movilizando más de 12.000 millones de euros para proteger a los sectores afectados Gracias, señor presidente. Segundo lugar, hablamos de los presupuestos comunitarios, de lo que se llama el marco financiero plurianual para los próximos siete años. Como saben, España ha defendido desde el principio unos presupuestos lo suficientemente ambiciosos para la agenda ambiciosa que tenemos La propuesta de la presidencia y agradeciendo además el trabajo hecho por el gobierno irlandés nos parece que es claramente insuficiente, me lo han escuchado decir, apenas el 1% de la renta nacional bruta en gasto real, en definitiva muy por debajo del marco financiero plurianual que ya estamos dejando atrás y por tanto también muy lejos de lo que necesita Europa y sus ciudadanos y a años luz por cierto. Gracias, señor presidente. Gracias, señor presidente. y el grado de ambición que necesita Europa. Yo creo que los presupuestos al final son una declaración política de intenciones, no solamente a los ciudadanos, sino también a otros actores externos. Y si vamos con estas cifras que se están proponiendo, pues desde luego la declaración de intenciones que enviamos a nuestros ciudadanos y también a las grandes potencias con las que competimos es que no estamos preparados y que no queremos competir en este mundo. Yolanda Díaz, Alberto Núñez Feijóo, Santiago Abascal, Irene Montero, Frente Amplio, Junta Electoral Central, Tribunal Constitucional Autónoma de Ceuta. Hemos tenido un debate estratégico sobre la cuestión migratoria, un punto marcado por la situación que lógicamente hemos vivido este verano en Ceuta, pero sí quiero decir que fuera de lo que es el epígrafe sobre inmigración hay un reconocimiento explícito por parte de la Unión a las dos ciudades autónomas, la de Ceuta y Melilla, como fronterasбundes terrestres de Europa y África. Y, por supuesto, la solidaridad de los líderes europeos y el compromiso de movilización operativa y recursos financieros por parte de las instituciones comunitarias. En pocas palabras, Europa está hoy más presente de lo que nunca ha estado en Ceuta y Melilla porque ambas ciudades también son Europa. Evidentemente, queda mucho por hacer, Gracias a todos por su participación."
+   "text": "Nos ha hecho prolongar este consejo. Como hago siempre, agradeceros a los medios de comunicación y, por supuesto, también a Marcos, al embajador y a todo el equipo de la Embajada ante la Unión Europea por el trabajo que se hace de preparación de este consejo. Como he dicho antes, hemos debatido asuntos de la máxima relevancia para el futuro de la Unión Europea y, por tanto, también de nuestro país en ámbitos tan importantes como la seguridad, como la defensa. La situación en Ucrania, la situación en Oriente Medio, también la cuestión de la migración y cuestiones que afectan de lleno a la vida de la gente como es el precio de la electricidad, de la energía y qué medidas se van a poner en marcha por parte de los gobiernos y también a escala comunitaria para dar una tregua al bolsillo de los hogares, de las industrias y de las empresas de nuestro continente. Sobre Oriente Medio y Energía, por ahí empezaré, que es por donde comenzó el Consejo en el día de ayer, quiero recordar por qué estamos donde estamos, con máximos históricos en el precio del gasoil, de la gasolina, y es a causa de una guerra ilegal, absolutamente innecesaria, en Oriente Medio, y el desorden que ha traído no sólo a una zona ya de por sí muy compleja, muy inestable, sino como estamos viendo al resto del mundo. Si lo pongamos en perspectiva, estamos hablando de que es casi el doble de todo lo que la Unión Europea destina cada año a la política agrícola común y por tanto a nuestros agricultores, ganaderos y por supuesto también a la gente, a los trabajadores del sector pesquero. Por tanto creo que todos aquellos que alzamos la voz cuando dijimos no a esta guerra, no a la guerra, creo que hemos demostrado que también teníamos razón no solamente desde el punto de vista de la legalidad internacional, del respeto a los derechos humanos, sino también de las consecuencias económicas y sociales que ya de nuevo están viviendo nuestros conciudadanos. Porque al final acaban pagándolo la gente de a pie y por desgracia así se está sintiendo. Ahora lo que importa en todo caso es solucionar ese desastre cuanto antes y creo que hemos dado pasos importantes. Hoy en el Congreso de los Diputados, como saben, en la Diputación Permanente, se ha convalidado el Real Decreto Ley vinculado con el escudo social que pusimos en marcha nada más iniciarse esta guerra en España, movilizando más de 12.000 millones de euros para proteger a los sectores afectados Gracias, señor presidente. Segundo lugar, hablamos de los presupuestos comunitarios, de lo que se llama el marco financiero plurianual para los próximos siete años. Como saben, España ha defendido desde el principio unos presupuestos lo suficientemente ambiciosos para la agenda ambiciosa que tenemos La propuesta de la presidencia y agradeciendo además el trabajo hecho por el gobierno irlandés nos parece que es claramente insuficiente, me lo han escuchado decir, apenas el 1% de la renta nacional bruta en gasto real, en definitiva muy por debajo del marco financiero plurianual que ya estamos dejando atrás y por tanto también muy lejos de lo que necesita Europa y sus ciudadanos y a años luz por cierto. Gracias, señor presidente. Gracias, señor presidente. y el grado de ambición que necesita Europa. Yo creo que los presupuestos al final son una declaración política de intenciones, no solamente a los ciudadanos, sino también a otros actores externos. Y si vamos con estas cifras que se están proponiendo, pues desde luego la declaración de intenciones que enviamos a nuestros ciudadanos y también a las grandes potencias con las que competimos es que no estamos preparados y que no queremos competir en este mundo. Autónoma de Ceuta. Hemos tenido un debate estratégico sobre la cuestión migratoria, un punto marcado por la situación que lógicamente hemos vivido este verano en Ceuta, pero sí quiero decir que fuera de lo que es el epígrafe sobre inmigración hay un reconocimiento explícito por parte de la Unión a las dos ciudades autónomas, la de Ceuta y Melilla, como fronterasбundes terrestres de Europa y África. Y, por supuesto, la solidaridad de los líderes europeos y el compromiso de movilización operativa y recursos financieros por parte de las instituciones comunitarias. En pocas palabras, Europa está hoy más presente de lo que nunca ha estado en Ceuta y Melilla porque ambas ciudades también son Europa. Evidentemente, queda mucho por hacer, Gracias a todos por su participación."
   },
   {
    "start": 966.89,

@@ -13,8 +13,8 @@
  "pipeline": {
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
-  "voiceprint_threshold": 0.55,
-  "processed_at": "2026-10-25T16:32:16+00:00",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T18:26:14+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -29,14 +29,14 @@
    "person": null,
    "name": "Hablante sin identificar 1",
    "decision": "unknown",
-   "reason": "best sim 0.28 < 0.55",
+   "reason": "best sim 0.28 < 0.65",
    "talk_s": 313.0
   },
   "SPEAKER_01": {
    "person": null,
    "name": "Hablante sin identificar 2",
    "decision": "unknown",
-   "reason": "best sim 0.23 < 0.55",
+   "reason": "best sim 0.23 < 0.65",
    "talk_s": 40.0
   }
  },
@@ -547,11 +547,11 @@
   },
   {
    "start": 815.58,
-   "end": 824.1,
+   "end": 822.78,
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Un pecado para Pablo Iglesias, ay, pues que no sé, no sé, no sé."
+   "text": "Un pecado para Pablo Iglesias, ay, pues que no sé,"
   },
   {
    "start": 827.06,
@@ -599,7 +599,7 @@
    "label": "SPEAKER_00",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Aquí lo tengo claro, ¿eh? La pereza. La pereza porque en vivienda, desde que tengo recuerdos, desde los inicios de los 2000 que empecé a hacer política, el Partido Socialista y Pedro Sánchez hablan y hablan de que van a hacer cosas en materia de vivienda y no hay manera. O sea, que tiene una pereza claramente, que dura años y años y años, y que tiene que haber una ciudadanía organizada y movilizada para conseguir que el Partido Socialista finalmente apruebe decretos que apliquen el derecho a la vivienda. Así que la pereza y en mayúscula."
+   "text": "Aquí lo tengo claro, ¿eh? La pereza. La pereza porque en vivienda, desde que tengo recuerdos, desde los inicios de los 2000 que empecé a hacer política, el Partido Socialista y Pedro Sánchez hablan y hablan de que van a hacer cosas en materia de vivienda y no hay manera. O sea, que tiene una pereza claramente, que dura años y que tiene que haber una ciudadanía organizada y movilizada para conseguir que el Partido Socialista finalmente apruebe decretos que apliquen el derecho a la vivienda. Así que la pereza y en mayúscula."
   },
   {
    "start": 894.34,

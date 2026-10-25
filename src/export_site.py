@@ -485,6 +485,7 @@ def build_home(ctx):
 <section class="an-home">
   <h2 class="sect">Lo que dicen, analizado <span class="aside">clasificación automática, cada frase con su fuente</span></h2>
   <div class="an-tiles">{tiles}</div>
+  <p class="an-links"><a href="analisis.html#red">Quién ataca a quién</a> · <a href="analisis.html#tono">El tono de cada candidato</a> · <a href="analisis.html">Pregunta al archivo</a></p>
   <div id="an-feature" hidden>
     <p class="kicker">Una posible contradicción</p>
     <p id="an-f-who" class="who"></p>
@@ -547,13 +548,20 @@ def build_analysis(ctx):
     opts = "".join(f'<option value="{esc(pid)}">{esc(people[pid]["name"])}</option>' for pid in ctx["candidates"])
     topics = "".join(f'<option value="{esc(t)}">{esc(t)}</option>' for t in TOPICS_ES)
     tabs = [("promesa", "Promesas"), ("ataque", "Ataques"), ("insulto", "Descalificaciones"), ("dato", "Cifras"),
-            ("postura", "Posturas"), ("contradiccion", "Posibles contradicciones"), ("tono", "Tono")]
+            ("postura", "Posturas"), ("contradiccion", "Posibles contradicciones"), ("tono", "Tono"),
+            ("red", "Quién ataca a quién")]
     tabh = "".join(f'<button type="button" class="tab" data-v="{k}"{" aria-pressed=true" if i == 0 else ""}>{esc(t)}</button>'
                    for i, (k, t) in enumerate(tabs))
     body = f"""
 <h1 class="ptitle">Análisis</h1>
 <p class="lede">Promesas, cifras, ataques y posturas de cada candidato, sacados automáticamente de las transcripciones. Cada frase es una cita literal comprobada contra la transcripción y enlaza a la fuente.</p>
 <p class="note">Clasificación automática con un modelo de lenguaje (DeepSeek), sin revisión humana: puede equivocarse al etiquetar. Las «posibles contradicciones» las propone el modelo y las confirma una segunda comprobación independiente; lee siempre las dos citas completas en su fuente antes de sacar conclusiones.</p>
+<form id="askf" class="ask" onsubmit="return false">
+  <label for="askq" class="kicker">Pregunta al archivo</label>
+  <div class="search"><input id="askq" type="search" maxlength="300" autocomplete="off" placeholder="¿Qué ha prometido Feijóo sobre vivienda? ¿A quién insulta Abascal?"><button id="askb" type="submit">Preguntar</button></div>
+  <p class="note">Responde un modelo de lenguaje (DeepSeek) usando solo las frases del archivo, que se muestran debajo con su fuente. Tu pregunta se envía a DeepSeek para interpretarla; no se guarda.</p>
+  <div id="askout" class="askout" aria-live="polite" hidden></div>
+</form>
 <div class="tabs" role="group" aria-label="Qué mostrar">{tabh}</div>
 <form id="af" class="filters" role="search" onsubmit="return false">
   <div class="frow"><label for="c">Candidato</label><select id="c"><option value="">Todos</option>{opts}</select></div>

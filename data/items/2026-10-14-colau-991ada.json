@@ -13,8 +13,8 @@
  "pipeline": {
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
-  "voiceprint_threshold": 0.55,
-  "processed_at": "2026-10-25T12:34:54+00:00",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T18:25:54+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -36,7 +36,7 @@
    "person": null,
    "name": "Hablante sin identificar 2",
    "decision": "unknown",
-   "reason": "best sim 0.15 < 0.55",
+   "reason": "best sim 0.15 < 0.65",
    "talk_s": 95.5
   },
   "SPEAKER_08": {
@@ -50,7 +50,7 @@
    "person": null,
    "name": "Hablante sin identificar 4",
    "decision": "unknown",
-   "reason": "best sim 0.30 < 0.55",
+   "reason": "best sim 0.30 < 0.65",
    "talk_s": 38.9
   },
   "SPEAKER_00": {
@@ -64,7 +64,7 @@
    "person": null,
    "name": "Hablante sin identificar 6",
    "decision": "unknown",
-   "reason": "best sim 0.18 < 0.55",
+   "reason": "best sim 0.18 < 0.65",
    "talk_s": 22.1
   },
   "SPEAKER_06": {

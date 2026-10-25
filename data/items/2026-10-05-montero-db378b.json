@@ -13,8 +13,8 @@
  "pipeline": {
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
-  "voiceprint_threshold": 0.55,
-  "processed_at": "2026-10-25T09:39:57+00:00",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T18:25:44+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -29,14 +29,14 @@
    "person": null,
    "name": "Hablante sin identificar 1",
    "decision": "unknown",
-   "reason": "best sim 0.42 < 0.55",
+   "reason": "best sim 0.42 < 0.65",
    "talk_s": 83.8
   },
   "SPEAKER_00": {
    "person": null,
    "name": "Hablante sin identificar 2",
    "decision": "unknown",
-   "reason": "best sim 0.36 < 0.55",
+   "reason": "best sim 0.36 < 0.65",
    "talk_s": 82.3
   }
  },
@@ -103,7 +103,7 @@
    "label": "SPEAKER_02",
    "person": "montero",
    "name": "Irene Montero (Podemos)",
-   "text": "Yo es que creo que es la única manera de que las cosas salgan bien. Lo que estamos viendo en las calles que está sirviendo para poner los debates en el centro, por ejemplo, el de acabar con el negocio de la vivienda, es el desborde. El desborde es que de repente hay una acampada en Sol que no cabe un alfiler, que está más llena que el 15M, es que se multiplican las acampadas por las principales ciudades del Estado, es que hay movilizaciones masivas y la forma de que ese desborde también tenga un correlato en la campaña electoral es que la gente pueda participar, es que podamos entre todos y todas elegir a esa candidatura y que por supuesto se puedan presentar todas las opciones que ahora están encima de la mesa, Yolanda Díaz, Alberto Núñez Feijóo, Santiago Abascal, Irene Montero, Frente Amplio, Frente Constitucional Creo que poder votar entre el 14 y el 15, nosotros ya hemos lanzado hoy ese proceso de primarias para que se pueda presentar quien quiera, votamos el 14 y el 15 de octubre y de verdad creo que es la forma de que salgan bien las cosas y así vamos a intentar convencer a todo el mundo, también a toda la gente que estos días está saliendo a las calles y que necesita tener una candidatura y elegir una candidatura que represente a esa mayoría social."
+   "text": "Yo es que creo que es la única manera de que las cosas salgan bien. Lo que estamos viendo en las calles que está sirviendo para poner los debates en el centro, por ejemplo, el de acabar con el negocio de la vivienda, es el desborde. El desborde es que de repente hay una acampada en Sol que no cabe un alfiler, que está más llena que el 15M, es que se multiplican las acampadas por las principales ciudades del Estado, es que hay movilizaciones masivas y la forma de que ese desborde también tenga un correlato en la campaña electoral es que la gente pueda participar, es que podamos entre todos y todas elegir a esa candidatura y que por supuesto se puedan presentar todas las opciones que ahora están encima de la mesa, Creo que poder votar entre el 14 y el 15, nosotros ya hemos lanzado hoy ese proceso de primarias para que se pueda presentar quien quiera, votamos el 14 y el 15 de octubre y de verdad creo que es la forma de que salgan bien las cosas y así vamos a intentar convencer a todo el mundo, también a toda la gente que estos días está saliendo a las calles y que necesita tener una candidatura y elegir una candidatura que represente a esa mayoría social."
   },
   {
    "start": 301.25,

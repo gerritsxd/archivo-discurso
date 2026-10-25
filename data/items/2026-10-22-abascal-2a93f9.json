@@ -13,8 +13,8 @@
  "pipeline": {
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
-  "voiceprint_threshold": 0.55,
-  "processed_at": "2026-10-25T15:20:05+00:00",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T18:26:06+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -29,14 +29,14 @@
    "person": null,
    "name": "Hablante sin identificar 1",
    "decision": "unknown",
-   "reason": "best sim 0.51 < 0.55",
+   "reason": "best sim 0.51 < 0.65",
    "talk_s": 38.9
   },
   "SPEAKER_02": {
    "person": null,
    "name": "Hablante sin identificar 2",
    "decision": "unknown",
-   "reason": "best sim 0.50 < 0.55",
+   "reason": "best sim 0.50 < 0.65",
    "talk_s": 71.1
   },
   "SPEAKER_04": {
@@ -50,14 +50,14 @@
    "person": null,
    "name": "Hablante sin identificar 4",
    "decision": "unknown",
-   "reason": "best sim 0.33 < 0.55",
+   "reason": "best sim 0.33 < 0.65",
    "talk_s": 244.8
   },
   "SPEAKER_00": {
    "person": null,
    "name": "Hablante sin identificar 5",
    "decision": "unknown",
-   "reason": "best sim 0.25 < 0.55",
+   "reason": "best sim 0.25 < 0.65",
    "talk_s": 75.3
   }
  },
@@ -111,92 +111,20 @@
    "text": "La Coruña ha sido hoy a las 12 de la mañana. Nosotros habíamos convocado una declaración a los medios de comunicación, una rueda de prensa, a la que han venido medio millar de simpatizantes de Vox, y a 60 metros de esa convocatoria la delegación del gobierno ha permitido una contramanifestación en la misma plaza. Y eso es lo llamativo. Bueno, debería ser llamativo, al menos, nosotros digo que estamos acostumbrados, porque nos ha venido pasando durante muchos actos electorales, y yo creo que estamos ante delitos electorales, tratando de impedir la celebración de los mismos, con decisiones tomadas por la administración. Yo creo que nadie se imagina que en un acto del Partido Socialista se convoque una contramanifestación en la misma plaza, a 50 metros o a 15 metros,"
   },
   {
-   "start": 96.3,
-   "end": 99.1,
-   "label": "SPEAKER_01",
-   "person": null,
-   "name": "Hablante sin identificar 4",
-   "text": "Yolanda Díaz,"
-  },
-  {
-   "start": 99.1,
-   "end": 99.54,
-   "label": "SPEAKER_05",
-   "person": "abascal",
-   "name": "Santiago Abascal (Vox)",
-   "text": "Alberto"
-  },
-  {
-   "start": 99.1,
-   "end": 100.04,
-   "label": "SPEAKER_01",
-   "person": null,
-   "name": "Hablante sin identificar 4",
-   "text": "Núñez Feijóo,"
-  },
-  {
-   "start": 100.04,
-   "end": 100.84,
-   "label": "SPEAKER_05",
-   "person": "abascal",
-   "name": "Santiago Abascal (Vox)",
-   "text": "Santiago"
-  },
-  {
-   "start": 100.04,
+   "start": 125.85,
    "end": 130.35,
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 4",
-   "text": "Abascal, Ada Colau, Irene Montero, Frente Amplio, Junta Electoral Central, Tribunal Constitucional ¿Han intentado evitar el acto en cierto momento, de cierta forma? ¿Y luego han entrado los antidisturbios?"
+   "text": "¿Han intentado evitar el acto en cierto momento, de cierta forma? ¿Y luego han entrado los antidisturbios?"
   },
   {
    "start": 132.41,
-   "end": 292.39,
-   "label": "SPEAKER_05",
-   "person": "abascal",
-   "name": "Santiago Abascal (Vox)",
-   "text": "Bueno, realmente han estado intentando impedir la celebración del acto durante todo el tiempo, con gritos perfectamente audibles que incomodaban la posibilidad de dirigirnos a nuestros simpatizantes y que lógicamente soliviantan los ánimos de alguien que ha ido a escuchar un acto político. Y eso se ha quedado únicamente en gritos inicialmente porque estaban entre ellos y nosotros los antidisturbios, protegiendo nuestro acto. Pero yo insisto, dando las gracias por supuesto a los miembros del Cuerpo Nacional de Policía que además han puesto en riesgo y han padecido su propia integridad física como consecuencia de estos eventos. Insisto en que esto ha ocurrido porque la delegación del gobierno quiere que ocurra. Hace unos días, cuando se convocaron las elecciones, yo advertí de que esta iba a ser una campaña de violencia, en la que el gobierno iba a utilizar a sus milicias para hostigar los actos políticos, animé a nuestros militantes a no caer en las provocaciones, lo hice públicamente, y lo cierto es que se está cumpliendo punto por punto lo que en ese momento predije. Insisto, no es nuevo, pero me da la sensación de que van a intentar que esta campaña sea permanentemente violenta. De alguna forma yo he comenzado la pre-campaña electoral hoy en La Coruña, después me he ido a Áviles y en ambos lugares ha habido problemas. Y había muchos simpatizantes de Vox. En Áviles había una plaza abarrotada con 2.000 simpatizantes de Vox y muy cerca a una calle había 200 tipos protestando que en cuanto nuestro acto ha terminado se han dedicado a ir a la caza de las personas que llevaban una bandera de España. Son grupos autodenominados antifascistas, también, según nos han informado los responsables de comunicación del partido de Asturias, con grupos de magrebíes. Es muy llamativo porque esto es algo que venimos viendo hace mucho tiempo en toda España. Esas protestas unen a esas personas. Y creo que en torno a la defensa de este gobierno se está uniendo todo tipo de extremismo. Y por eso yo me atrevo a llamarles las milicias de Pedro Sánchez, a las que hoy estaban en La Coruña, milicias de ultraizquierda, también me atrevo a llamar milicias de Pedro Sánchez, a quienes han entrado ilegalmente en Ceuta con la bajada de brazos de nuestro gobierno, y vemos que también hay milicias de los que pactan con este gobierno quemando los ayuntamientos en Francia, por gente que tiene relación con la banda terrorista ETA. Yo creo que estamos ante algo muy preocupante en toda Europa. Están atizando la violencia porque van a llegar grandes cambios políticos y tratan de impedirlo atemorizando a la gente. Es verdad que es muy incómodo para nosotros, pero bueno, yo también tengo que decirles que no vamos a dar un solo paso atrás, que desgraciadamente estamos acostumbrados y entre los nuestros hay gente muy valiente."
-  },
-  {
-   "start": 292.39,
-   "end": 294.33,
-   "label": "SPEAKER_01",
-   "person": null,
-   "name": "Hablante sin identificar 4",
-   "text": "Yolanda"
-  },
-  {
-   "start": 294.33,
-   "end": 297.73,
-   "label": "SPEAKER_00",
-   "person": null,
-   "name": "Hablante sin identificar 5",
-   "text": "Díaz, Alberto Núñez Feijóo,"
-  },
-  {
-   "start": 297.73,
-   "end": 302.01,
-   "label": "SPEAKER_01",
-   "person": null,
-   "name": "Hablante sin identificar 4",
-   "text": "Santiago"
-  },
-  {
-   "start": 297.73,
-   "end": 310.47,
-   "label": "SPEAKER_00",
-   "person": null,
-   "name": "Hablante sin identificar 5",
-   "text": "Abascal, Irene Montero, Frente Amplio, Junta"
-  },
-  {
-   "start": 310.47,
    "end": 382.95,
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Electoral Central, Tribunal Constitucional Es muy incómodo ver cómo la gente empieza a asustarse, a ponerse nerviosa. Insisto, se han lanzado adoquines en La Coruña, pero también se han lanzado volardos metálicos contra la policía y sillas, han destrozado un bar, han debido atacar también a la gente de los comercios, que andaba por allí y que les habrá mostrado su desacuerdo con la violencia. Es algo verdaderamente preocupante. Y, insisto, creo que se va a repetir lo llamativo, es que esto nunca le ocurre a otros partidos políticos, esto nunca le ocurre a los partidos de izquierda, nunca hay un evento contra ellos protestando que termina en violencia. Y también quiero decir algo, no va a haber ni una sola condena de los partidos de izquierda a estas agresiones contra los militantes de Vox y contra la policía. No va a haber ni una sola condena del gobierno por las agresiones contra la policía. Me parece que es muy llamativo y que claramente sirve para sostener la acusación que yo estoy haciendo, de que esas son las milicias y los aliados de Pedro Sánchez."
+   "text": "Bueno, realmente han estado intentando impedir la celebración del acto durante todo el tiempo, con gritos perfectamente audibles que incomodaban la posibilidad de dirigirnos a nuestros simpatizantes y que lógicamente soliviantan los ánimos de alguien que ha ido a escuchar un acto político. Y eso se ha quedado únicamente en gritos inicialmente porque estaban entre ellos y nosotros los antidisturbios, protegiendo nuestro acto. Pero yo insisto, dando las gracias por supuesto a los miembros del Cuerpo Nacional de Policía que además han puesto en riesgo y han padecido su propia integridad física como consecuencia de estos eventos. Insisto en que esto ha ocurrido porque la delegación del gobierno quiere que ocurra. Hace unos días, cuando se convocaron las elecciones, yo advertí de que esta iba a ser una campaña de violencia, en la que el gobierno iba a utilizar a sus milicias para hostigar los actos políticos, animé a nuestros militantes a no caer en las provocaciones, lo hice públicamente, y lo cierto es que se está cumpliendo punto por punto lo que en ese momento predije. Insisto, no es nuevo, pero me da la sensación de que van a intentar que esta campaña sea permanentemente violenta. De alguna forma yo he comenzado la pre-campaña electoral hoy en La Coruña, después me he ido a Áviles y en ambos lugares ha habido problemas. Y había muchos simpatizantes de Vox. En Áviles había una plaza abarrotada con 2.000 simpatizantes de Vox y muy cerca a una calle había 200 tipos protestando que en cuanto nuestro acto ha terminado se han dedicado a ir a la caza de las personas que llevaban una bandera de España. Son grupos autodenominados antifascistas, también, según nos han informado los responsables de comunicación del partido de Asturias, con grupos de magrebíes. Es muy llamativo porque esto es algo que venimos viendo hace mucho tiempo en toda España. Esas protestas unen a esas personas. Y creo que en torno a la defensa de este gobierno se está uniendo todo tipo de extremismo. Y por eso yo me atrevo a llamarles las milicias de Pedro Sánchez, a las que hoy estaban en La Coruña, milicias de ultraizquierda, también me atrevo a llamar milicias de Pedro Sánchez, a quienes han entrado ilegalmente en Ceuta con la bajada de brazos de nuestro gobierno, y vemos que también hay milicias de los que pactan con este gobierno quemando los ayuntamientos en Francia, por gente que tiene relación con la banda terrorista ETA. Yo creo que estamos ante algo muy preocupante en toda Europa. Están atizando la violencia porque van a llegar grandes cambios políticos y tratan de impedirlo atemorizando a la gente. Es verdad que es muy incómodo para nosotros, pero bueno, yo también tengo que decirles que no vamos a dar un solo paso atrás, que desgraciadamente estamos acostumbrados y entre los nuestros hay gente muy valiente. Es muy incómodo ver cómo la gente empieza a asustarse, a ponerse nerviosa. Insisto, se han lanzado adoquines en La Coruña, pero también se han lanzado volardos metálicos contra la policía y sillas, han destrozado un bar, han debido atacar también a la gente de los comercios, que andaba por allí y que les habrá mostrado su desacuerdo con la violencia. Es algo verdaderamente preocupante. Y, insisto, creo que se va a repetir lo llamativo, es que esto nunca le ocurre a otros partidos políticos, esto nunca le ocurre a los partidos de izquierda, nunca hay un evento contra ellos protestando que termina en violencia. Y también quiero decir algo, no va a haber ni una sola condena de los partidos de izquierda a estas agresiones contra los militantes de Vox y contra la policía. No va a haber ni una sola condena del gobierno por las agresiones contra la policía. Me parece que es muy llamativo y que claramente sirve para sostener la acusación que yo estoy haciendo, de que esas son las milicias y los aliados de Pedro Sánchez."
   },
   {
    "start": 383.13,
@@ -236,7 +164,7 @@
    "label": "SPEAKER_01",
    "person": null,
    "name": "Hablante sin identificar 4",
-   "text": "Mira, yo esto creo que es horizonte. Aquí el doctor Cabrera me dice, por favor, por favor, por favor. Bueno, pues vale. Doctor Cabrera, aquí me voy a votar."
+   "text": "Mira, yo esto creo que es horizonte. Aquí el doctor Cabrera me dice, por favor, Bueno, pues vale. Doctor Cabrera, aquí me voy a votar."
   },
   {
    "start": 446.63,

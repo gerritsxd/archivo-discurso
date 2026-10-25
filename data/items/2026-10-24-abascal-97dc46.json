@@ -13,8 +13,8 @@
  "pipeline": {
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
-  "voiceprint_threshold": 0.55,
-  "processed_at": "2026-10-25T16:29:49+00:00",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T18:26:13+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -36,28 +36,28 @@
    "person": null,
    "name": "Hablante sin identificar 2",
    "decision": "unknown",
-   "reason": "best sim 0.30 < 0.55",
+   "reason": "best sim 0.30 < 0.65",
    "talk_s": 206.2
   },
   "SPEAKER_02": {
    "person": null,
    "name": "Hablante sin identificar 3",
    "decision": "unknown",
-   "reason": "best sim 0.19 < 0.55",
+   "reason": "best sim 0.19 < 0.65",
    "talk_s": 214.6
   },
   "SPEAKER_05": {
    "person": null,
    "name": "Hablante sin identificar 4",
    "decision": "unknown",
-   "reason": "best sim 0.16 < 0.55",
+   "reason": "best sim 0.16 < 0.65",
    "talk_s": 502.7
   },
   "SPEAKER_04": {
    "person": null,
    "name": "Hablante sin identificar 5",
    "decision": "unknown",
-   "reason": "best sim 0.16 < 0.55",
+   "reason": "best sim 0.16 < 0.65",
    "talk_s": 35.0
   }
  },
@@ -140,7 +140,7 @@
    "label": "SPEAKER_01",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "La pena es que no conseguimos en las últimas semanas en el Congreso de los Diputados que el resto de fuerzas políticas votaran con nosotros para acusarle de traición y sentarle ante el Tribunal Supremo. El voto era secreto, no sabemos qué es lo que podía pasar, igual incluso había algún socialista que le tenía ganas, pero nadie se atrevió. Siempre somos nosotros los que nos atrevemos a las mociones de censura, a las querellas ante el Supremo que han salvado a España de un gigantesco fraude y los que nos atrevemos de verdad a hacerlo todo y en todos los lugares contra la mafia que lleva aquí ocho años. Eso también quieren tapar con la violencia y con los chistecitos y los bailes. El fraude, el fraude que tenían preparado y por eso yo reitero ahora, lo he hecho esta mañana y lo volveré a hacer todos los días, un mensaje de alerta. Hemos detenido un intento de fraude. No sabemos cuáles son los demás intentos que va a haber durante estos días. No sabemos lo que pueden hacer los socialistas. Bueno, sí lo sabemos. Aquí ha habido elecciones en las que pasan cosas raras, pocos días antes, cosas dramáticas y terribles, y de repente cambian los gobiernos. Aquí puede pasar cualquier cosa. Y lanzar a las milicias contra el tercer partido de España, como está haciendo el gobierno, El gobierno, permitiendo manifestaciones a 15, 20, 50 metros de donde nos manifestamos, puede producir cualquier tipo de desgracia. Yo os pido, y lo he hecho estos días, que mantengamos la calma, que no caigamos en ningún tipo de provocación y que sigamos defendiendo nuestras ideas en paz y en libertad, porque quieren exactamente lo contrario. ¿Qué más quieren tapar? Pues sus maneras. Sus maneras, sus maneras. ¿Y cómo serán las maneras de esta mafia de la Moncloa? Que hasta un clan de narcotraficantes les han dicho, no, es que nosotros no nos dedicamos a eliminar jueces. ¿Cómo serán las maneras de esta mafia de la Moncloa? Que ni Cándido Conde Pumpido ha sido capaz de amparar a Sánchez en el recurso hecho por el defensor del pueblo, convertido en defensor del gobierno, para perpetuar la trampa de la ley de nietos. ¿Cómo serán las maneras que incluso el fiscal, de quien depende, según Sánchez, se ha visto obligado a pedir la imputación de Zapatero por el asunto de las joyas? De esas joyas que acaba de decir en la revuelta entre risas el señor de la Moncloa, que hay muchos regalos a los presidentes de gobierno que no saben exactamente lo que les dan. Ha dicho, bueno, a mí me regaló Erdogan un revólver hace poco. Bueno, sí, bien, si ya sabemos que los regalos del presidente del gobierno son de patrimonio nacional. Lo que nos preguntamos, Sánchez, es por qué estaban en una caja fuerte de un partido político, del Partido Socialista, del que tú eres secretario general. ¿Qué hacían allí las joyas de Zapatero? ¿Qué hacía allí el patrimonio nacional de España? ¿Por qué robáis a la gente? Mucha gente, mucho bailecito, mucha camiseta, mucha sonrisa fingida, mucho que van como una moto, pero están desesperados. Y mientras ellos están a lo suyo a ver cómo ganan de cualquier manera, pues"
+   "text": "La pena es que no conseguimos en las últimas semanas en el Congreso de los Diputados que el resto de fuerzas políticas votaran con nosotros para acusarle de traición y sentarle ante el Tribunal Supremo. El voto era secreto, no sabemos qué es lo que podía pasar, igual incluso había algún socialista que le tenía ganas, pero nadie se atrevió. Siempre somos nosotros los que nos atrevemos a las mociones de censura, a las querellas ante el Supremo que han salvado a España de un gigantesco fraude y los que nos atrevemos de verdad a hacerlo todo y en todos los lugares contra la mafia que lleva aquí ocho años. Eso también quieren tapar con la violencia y con los chistecitos y los bailes. El fraude, el fraude que tenían preparado y por eso yo reitero ahora, lo he hecho esta mañana y lo volveré a hacer todos los días, un mensaje de alerta. Hemos detenido un intento de fraude. No sabemos cuáles son los demás intentos que va a haber durante estos días. No sabemos lo que pueden hacer los socialistas. Bueno, sí lo sabemos. Aquí ha habido elecciones en las que pasan cosas raras, pocos días antes, cosas dramáticas y terribles, y de repente cambian los gobiernos. Aquí puede pasar cualquier cosa. Y lanzar a las milicias contra el tercer partido de España, como está haciendo el gobierno, El gobierno, permitiendo manifestaciones a 15, 20, 50 metros de donde nos manifestamos, puede producir cualquier tipo de desgracia. Yo os pido, y lo he hecho estos días, que mantengamos la calma, que no caigamos en ningún tipo de provocación y que sigamos defendiendo nuestras ideas en paz y en libertad, porque quieren exactamente lo contrario. ¿Qué más quieren tapar? Pues sus maneras. ¿Y cómo serán las maneras de esta mafia de la Moncloa? Que hasta un clan de narcotraficantes les han dicho, no, es que nosotros no nos dedicamos a eliminar jueces. ¿Cómo serán las maneras de esta mafia de la Moncloa? Que ni Cándido Conde Pumpido ha sido capaz de amparar a Sánchez en el recurso hecho por el defensor del pueblo, convertido en defensor del gobierno, para perpetuar la trampa de la ley de nietos. ¿Cómo serán las maneras que incluso el fiscal, de quien depende, según Sánchez, se ha visto obligado a pedir la imputación de Zapatero por el asunto de las joyas? De esas joyas que acaba de decir en la revuelta entre risas el señor de la Moncloa, que hay muchos regalos a los presidentes de gobierno que no saben exactamente lo que les dan. Ha dicho, bueno, a mí me regaló Erdogan un revólver hace poco. Bueno, sí, bien, si ya sabemos que los regalos del presidente del gobierno son de patrimonio nacional. Lo que nos preguntamos, Sánchez, es por qué estaban en una caja fuerte de un partido político, del Partido Socialista, del que tú eres secretario general. ¿Qué hacían allí las joyas de Zapatero? ¿Qué hacía allí el patrimonio nacional de España? ¿Por qué robáis a la gente? Mucha gente, mucho bailecito, mucha camiseta, mucha sonrisa fingida, mucho que van como una moto, pero están desesperados. Y mientras ellos están a lo suyo a ver cómo ganan de cualquier manera, pues"
   },
   {
    "start": 3123.43,

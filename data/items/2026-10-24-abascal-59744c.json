@@ -13,8 +13,8 @@
  "pipeline": {
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
-  "voiceprint_threshold": 0.55,
-  "processed_at": "2026-10-25T16:23:05+00:00",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T18:26:13+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -36,35 +36,35 @@
    "person": null,
    "name": "Hablante sin identificar 2",
    "decision": "unknown",
-   "reason": "best sim 0.28 < 0.55",
+   "reason": "best sim 0.28 < 0.65",
    "talk_s": 178.7
   },
   "SPEAKER_00": {
    "person": null,
    "name": "Hablante sin identificar 3",
    "decision": "unknown",
-   "reason": "best sim 0.19 < 0.55",
+   "reason": "best sim 0.19 < 0.65",
    "talk_s": 218.6
   },
   "SPEAKER_04": {
    "person": null,
    "name": "Hablante sin identificar 4",
    "decision": "unknown",
-   "reason": "best sim 0.18 < 0.55",
+   "reason": "best sim 0.18 < 0.65",
    "talk_s": 62.0
   },
   "SPEAKER_03": {
    "person": null,
    "name": "Hablante sin identificar 5",
    "decision": "unknown",
-   "reason": "best sim 0.16 < 0.55",
+   "reason": "best sim 0.16 < 0.65",
    "talk_s": 35.1
   },
   "SPEAKER_05": {
    "person": null,
    "name": "Hablante sin identificar 6",
    "decision": "unknown",
-   "reason": "best sim 0.15 < 0.55",
+   "reason": "best sim 0.15 < 0.65",
    "talk_s": 423.6
   }
  },
@@ -111,27 +111,11 @@
   },
   {
    "start": 1424.56,
-   "end": 1482.74,
-   "label": "SPEAKER_05",
-   "person": null,
-   "name": "Hablante sin identificar 6",
-   "text": "Lucharé por mis convicciones, lucharé por lo que te mis abuelos, una sola a mí, estoy cansado de promesas, de promesas incumplidas."
-  },
-  {
-   "start": 1655.18,
-   "end": 1681.37,
-   "label": "SPEAKER_04",
-   "person": null,
-   "name": "Hablante sin identificar 4",
-   "text": "Sánchez, Alberto Núñez Feijóo, Santiago Abascal, Ione Belarra, Irene Montero, Frente"
-  },
-  {
-   "start": 1663.73,
    "end": 1808.09,
    "label": "SPEAKER_05",
    "person": null,
    "name": "Hablante sin identificar 6",
-   "text": "Amplio, Junta Electoral Central, Tribunal Constitucional ¡Familia! ¡Nacional! ¡Prioridad! ¡Estoy cansado de promesas! ¡De promesas incumplidas! ¡Cansado de vida! ¡Necesito! ¡Siga siendo mía! ¡Nacional! ¡Prioridad! ¡Alicia hasta Canarias! ¡Mirándose al espejo!"
+   "text": "Lucharé por mis convicciones, lucharé por lo que te mis abuelos, una sola a mí, estoy cansado de promesas, de promesas incumplidas. ¡Familia! ¡Nacional! ¡Prioridad! ¡Estoy cansado de promesas! ¡De promesas incumplidas! ¡Cansado de vida! ¡Necesito! ¡Siga siendo mía! ¡Nacional! ¡Prioridad! ¡Alicia hasta Canarias! ¡Mirándose al espejo!"
   },
   {
    "start": 1866.04,

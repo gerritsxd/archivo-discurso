@@ -56,7 +56,14 @@
   <li><strong>Tono.</strong> Cada fragmento se valora de −2 (muy negativo) a +2 (muy positivo), con las emociones a las que apela y el tiempo dedicado a hablar de rivales. La media se pondera por minutos de voz.</li>
   <li><strong>Comprobación de atribuciones.</strong> El modelo también lee lo que dice cada hablante identificado y avisa si el contenido no encaja con el candidato (por ejemplo, alguien que habla como miembro de otro partido). Esos avisos se revisan a mano; la primera revisión corrigió dos atribuciones erróneas y endureció el umbral de las huellas de voz.</li>
 </ul>
+<ul>
+  <li><strong>Quién ataca a quién.</strong> Los destinatarios de cada ataque se agrupan (por ejemplo, «Gobierno de Sánchez» y «PSOE» en «Sánchez, PSOE y Gobierno») para contar quién critica a quién.</li>
+  <li><strong>Pregunta al archivo.</strong> Escribes una pregunta; el modelo la convierte en una búsqueda, el archivo devuelve las frases que encajan y el modelo redacta una respuesta corta usando solo esas frases, que se muestran debajo con su fuente. Cada pregunta cuesta una fracción de céntimo y hay un tope diario.</li>
+</ul>
 <p>Es una clasificación automática sin revisión humana: puede equivocarse al etiquetar. Si ves un error, <a href="#correcciones">comunícalo</a>.</p>
+
+<h2 id="atribucion">¿Está bien atribuida cada frase?</h2>
+<p>Revisamos una muestra aleatoria de 102 intervenciones con nombre (15 por candidato y las de los presentadores) leyendo cada una con la pregunta anterior y el contexto. <strong>Ninguna estaba atribuida a otra persona</strong> (con esta muestra, el error real está casi seguro por debajo del 3 %). En un 5 % la intervención es del candidato pero incluye unas palabras de otra persona al principio o al final, normalmente el final de la pregunta. La revisión es por contenido, no escuchando el audio, y se hizo después de endurecer el umbral de las huellas de voz, que antes había atribuido a Ada Colau dos voces de mítines del PSOE. Detalle y datos: <a href="https://github.com/gerritsxd/archivo-discurso/blob/main/eval/ATTRIBUTION.md">eval/ATTRIBUTION.md</a>.</p>
 
 <h2>Qué se publica y qué no</h2>
 <ul>

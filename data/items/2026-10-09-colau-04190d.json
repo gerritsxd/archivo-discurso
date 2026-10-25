@@ -13,8 +13,8 @@
  "pipeline": {
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
-  "voiceprint_threshold": 0.55,
-  "processed_at": "2026-10-25T10:03:37+00:00",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T18:25:46+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -29,7 +29,7 @@
    "person": null,
    "name": "Hablante sin identificar 1",
    "decision": "unknown",
-   "reason": "best sim 0.52 < 0.55",
+   "reason": "best sim 0.52 < 0.65",
    "talk_s": 294.0
   }
  },
@@ -60,27 +60,11 @@
   },
   {
    "start": 24.9,
-   "end": 175.68,
+   "end": 160.66,
    "label": "SPEAKER_01",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Bueno, pues lo siento porque no tengo ninguna exclusiva que daros ahora mismo, pero sí que agradezco mucho que me deis la oportunidad de hablar porque efectivamente, tal y como estáis comentando, el momento es un momento muy importante, es un momento histórico, es un momento donde nos jugamos muchísimo, ¿no? Y no solo de pasar de 5 a 20 o 30 diputados, sino que nos juzgamos no solo frenar a la extrema derecha, sino que haya un proyecto ilusionante que permita avanzar en derechos tan importantes como el derecho a la vivienda, que ahora mismo no hay miles de personas movilizadas por ese motivo. Con todo eso que está en juego, no podemos andarnos con dudas y con juegos. Sabéis que había descartado durante mucho tiempo, los últimos dos años, hacer de nuevo el paso a la política institucional y en cambio, por el momento que estamos viviendo, me he puesto a disposición de un proyecto amplio y unitario que efectivamente permita tener una propuesta única de la izquierda para juntar todos los votos y que no se pierda ni uno, que es lo que nos está pidiendo la gente en la calle. En ese sentido, el Frente Amplio es una propuesta muy abierta que han impulsado una serie de organizaciones, pero que ya hay otras que se están sumando. Ayer salía Somos Asturias mostrándoles su disposición para participar también, se está hablando también con Compromís para que veamos la forma de colaborar y de encajar, y con muchas otras organizaciones. Evidentemente que contamos con que Podemos esté también en esa propuesta de Frente Amplio, nadie entendería lo contrario, por supuesto que Irene Montero tiene que formar parte de esa propuesta y desde aquí también quiero dejar claro que las puertas del Frente Amplio están totalmente abiertas para Gabriel Rufián. Evidentemente él hasta ahora se ha presentado con Esquerra Republicana y con eso hay que ser absolutamente respetuosas, yo ahí no me voy a meter, Gabriel Rufián tiene su relación con Esquerra Republicana Pero sí que me gustaría insistir en algo que un poco estabais hablando ahora mismo en la mesa. O sea, el momento es histórico, el momento requiere unidad de las diferentes fuerzas de izquierdas y además hay un programa común que es muy evidente, ¿no? La defensa del derecho a la vivienda, de los servicios públicos, la defensa de derechos y libertades en general. O sea, hay un programa común que es muy evidente. Yo creo que el mismo Gabriel Rufián ha sido de los más lúcidos en defender esa idea Yolanda Díaz, Alberto Núñez"
-  },
-  {
-   "start": 175.68,
-   "end": 183.2,
-   "label": "SPEAKER_00",
-   "person": null,
-   "name": "Hablante sin identificar 1",
-   "text": "Feijóo, Santiago"
-  },
-  {
-   "start": 183.2,
-   "end": 188.38,
-   "label": "SPEAKER_01",
-   "person": "colau",
-   "name": "Ada Colau (Frente Amplio)",
-   "text": "Abascal,"
+   "text": "Bueno, pues lo siento porque no tengo ninguna exclusiva que daros ahora mismo, pero sí que agradezco mucho que me deis la oportunidad de hablar porque efectivamente, tal y como estáis comentando, el momento es un momento muy importante, es un momento histórico, es un momento donde nos jugamos muchísimo, ¿no? Y no solo de pasar de 5 a 20 o 30 diputados, sino que nos juzgamos no solo frenar a la extrema derecha, sino que haya un proyecto ilusionante que permita avanzar en derechos tan importantes como el derecho a la vivienda, que ahora mismo no hay miles de personas movilizadas por ese motivo. Con todo eso que está en juego, no podemos andarnos con dudas y con juegos. Sabéis que había descartado durante mucho tiempo, los últimos dos años, hacer de nuevo el paso a la política institucional y en cambio, por el momento que estamos viviendo, me he puesto a disposición de un proyecto amplio y unitario que efectivamente permita tener una propuesta única de la izquierda para juntar todos los votos y que no se pierda ni uno, que es lo que nos está pidiendo la gente en la calle. En ese sentido, el Frente Amplio es una propuesta muy abierta que han impulsado una serie de organizaciones, pero que ya hay otras que se están sumando. Ayer salía Somos Asturias mostrándoles su disposición para participar también, se está hablando también con Compromís para que veamos la forma de colaborar y de encajar, y con muchas otras organizaciones. Evidentemente que contamos con que Podemos esté también en esa propuesta de Frente Amplio, nadie entendería lo contrario, por supuesto que Irene Montero tiene que formar parte de esa propuesta y desde aquí también quiero dejar claro que las puertas del Frente Amplio están totalmente abiertas para Gabriel Rufián. Evidentemente él hasta ahora se ha presentado con Esquerra Republicana y con eso hay que ser absolutamente respetuosas, yo ahí no me voy a meter, Gabriel Rufián tiene su relación con Esquerra Republicana Pero sí que me gustaría insistir en algo que un poco estabais hablando ahora mismo en la mesa. O sea, el momento es histórico, el momento requiere unidad de las diferentes fuerzas de izquierdas y además hay un programa común que es muy evidente, ¿no? La defensa del derecho a la vivienda, de los servicios públicos, la defensa de derechos y libertades en general. O sea, hay un programa común que es muy evidente. Yo creo que el mismo Gabriel Rufián ha sido de los más lúcidos en defender esa idea"
   },
   {
    "start": 183.2,
@@ -252,11 +236,11 @@
   },
   {
    "start": 865.04,
-   "end": 950.72,
+   "end": 937.96,
    "label": "SPEAKER_01",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Ya le digo que máximo respeto por mi parte a lo que decida Gabriel Rufián, máximo respeto también a sus conversaciones con Esquerra Republicana, solo faltaría, yo en eso no quiero interferir en absoluto, pero le digo también que tenemos un mandato de la ciudadanía que el propio Gabriel Rufián ha explicado durante estos meses con mucha vehemencia y convicción, que es que tiene que haber una propuesta a la izquierda del PSOE y que no se puede perder ni un solo voto que no nos lo podemos permitir porque directamente hay vidas en peligro y por lo tanto yo lo que animo es a que sigamos hablando para que esa propuesta unitaria en la modalidad que sea para que todo el mundo se sienta cómodo pero que esa propuesta unitaria tiene que ser posible y que nos tenemos que poner las individualidades al servicio del proyecto común y eso es lo que quiero enfatizar con esa intervención Y que aquí no sobra nadie, necesitamos a todo el mundo, a todas las formaciones que ya están impulsando el Frente Amplio, a Izquierda Unida, a Sumar, a Más Madrid, a Comuns, pero también a otras formaciones con las que estamos hablando, como Compromís, como MES, como CHA, como Somes Asturias, a todas aquellas personas y partidos que efectivamente se crean que es necesaria una única propuesta de Frente Amplio que pueda no solo desafiar la victoria de la derecha y de la extrema derecha, ¡Suscríbete al canal!"
+   "text": "Ya le digo que máximo respeto por mi parte a lo que decida Gabriel Rufián, máximo respeto también a sus conversaciones con Esquerra Republicana, solo faltaría, yo en eso no quiero interferir en absoluto, pero le digo también que tenemos un mandato de la ciudadanía que el propio Gabriel Rufián ha explicado durante estos meses con mucha vehemencia y convicción, que es que tiene que haber una propuesta a la izquierda del PSOE y que no se puede perder ni un solo voto que no nos lo podemos permitir porque directamente hay vidas en peligro y por lo tanto yo lo que animo es a que sigamos hablando para que esa propuesta unitaria en la modalidad que sea para que todo el mundo se sienta cómodo pero que esa propuesta unitaria tiene que ser posible y que nos tenemos que poner las individualidades al servicio del proyecto común y eso es lo que quiero enfatizar con esa intervención Y que aquí no sobra nadie, necesitamos a todo el mundo, a todas las formaciones que ya están impulsando el Frente Amplio, a Izquierda Unida, a Sumar, a Más Madrid, a Comuns, pero también a otras formaciones con las que estamos hablando, como Compromís, como MES, como CHA, como Somes Asturias, a todas aquellas personas y partidos que efectivamente se crean que es necesaria una única propuesta de Frente Amplio que pueda no solo desafiar la victoria de la derecha y de la extrema derecha,"
   },
   {
    "start": 967.96,

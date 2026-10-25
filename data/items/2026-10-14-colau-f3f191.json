@@ -13,8 +13,8 @@
  "pipeline": {
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
-  "voiceprint_threshold": 0.55,
-  "processed_at": "2026-10-25T17:32:38+00:00",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T18:25:54+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -29,35 +29,35 @@
    "person": null,
    "name": "Hablante sin identificar 1",
    "decision": "unknown",
-   "reason": "best sim 0.32 < 0.55",
+   "reason": "best sim 0.32 < 0.65",
    "talk_s": 164.5
   },
   "SPEAKER_00": {
    "person": null,
    "name": "Hablante sin identificar 2",
    "decision": "unknown",
-   "reason": "best sim 0.22 < 0.55",
+   "reason": "best sim 0.22 < 0.65",
    "talk_s": 46.6
   },
   "SPEAKER_05": {
    "person": null,
    "name": "Hablante sin identificar 3",
    "decision": "unknown",
-   "reason": "best sim 0.37 < 0.55",
+   "reason": "best sim 0.37 < 0.65",
    "talk_s": 127.6
   },
   "SPEAKER_04": {
    "person": null,
    "name": "Hablante sin identificar 4",
    "decision": "unknown",
-   "reason": "best sim 0.24 < 0.55",
+   "reason": "best sim 0.24 < 0.65",
    "talk_s": 94.7
   },
   "SPEAKER_03": {
    "person": null,
    "name": "Hablante sin identificar 5",
    "decision": "unknown",
-   "reason": "best sim 0.22 < 0.55",
+   "reason": "best sim 0.22 < 0.65",
    "talk_s": 65.4
   }
  },
@@ -204,7 +204,7 @@
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 4",
-   "text": "Unió Europea, Junts per Catalunya, Junts per Catalunya, Junts per Catalunya, Junts per Catalunya, Aquest corrent que hi ha hagut d'opinions arreu de l'Estat manifestant la decepció que tenien envers en Rufián perquè no abandonava ERC. Efectivament, el Rufián sempre ha dit que era militant d'ERC. i Esquerra Republicana. Ell ha actuat, ha fet tot el que ha pogut, però evidentment el que no ha fet és abandonar el seu partit, i el seu partit tenia un posicionament. Què hauria passat o què hauria pensat la gent si jo hagués manifestat a través del Twitter, per exemple, m'hagués atrasat al Gerardo Pizarro i li hagués dit Gerardo, fes el pas, vine a ERC. Hauria estat un insult a Comuns? Aquesta superioritat de dir que ens has decebut. Però si ell és militant d'ERC i ha manifestat que... Com podia ell, com se li pot exigir"
+   "text": "Unió Europea, Junts per Catalunya, Aquest corrent que hi ha hagut d'opinions arreu de l'Estat manifestant la decepció que tenien envers en Rufián perquè no abandonava ERC. Efectivament, el Rufián sempre ha dit que era militant d'ERC. i Esquerra Republicana. Ell ha actuat, ha fet tot el que ha pogut, però evidentment el que no ha fet és abandonar el seu partit, i el seu partit tenia un posicionament. Què hauria passat o què hauria pensat la gent si jo hagués manifestat a través del Twitter, per exemple, m'hagués atrasat al Gerardo Pizarro i li hagués dit Gerardo, fes el pas, vine a ERC. Hauria estat un insult a Comuns? Aquesta superioritat de dir que ens has decebut. Però si ell és militant d'ERC i ha manifestat que... Com podia ell, com se li pot exigir"
   },
   {
    "start": 551.64,
@@ -280,19 +280,19 @@
   },
   {
    "start": 718.14,
-   "end": 735.26,
+   "end": 732.06,
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "de la Unió Europea, Junts per Catalunya, Junts per Catalunya,"
+   "text": "de la Unió Europea, Junts per Catalunya,"
   },
   {
-   "start": 734.82,
+   "start": 735.56,
    "end": 738.58,
    "label": "SPEAKER_03",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "Junts per Catalunya, Junts per Catalunya, i Ciutadans."
+   "text": "i Ciutadans."
   },
   {
    "start": 738.72,
@@ -348,7 +348,7 @@
    "label": "SPEAKER_05",
    "person": null,
    "name": "Hablante sin identificar 3",
-   "text": "No et desitjaré sort, però sí salut i pocs vots. de la Unió Europea, Junts per Catalunya, Junts per Catalunya, Junts per Catalunya, Junts per Catalunya, Junts la pregunta que et faig és si et trobaràs còmode sent la candidata de Comuns, de Front Ampli, és a dir, la candidata de Sumar en favor de Pedro Sánchez. Perquè els comuns, el Partit del que pertanyes i el Front Ampli, bàsicament són els que han donat suport i han governat al costat de Pedro Sánchez al llarg dels últims anys. I, per tant, i Ciutadans de la Unió Europea. El que és normal és que com a candidat de sumar amb Pedro Sánchez, que és la raó de ser de la teva presentació, o una de les raons seria defensar l'acció que heu fet els comuns, el ministre Autarso, el ministre Subirats, que eren dels comuns, seguts al Consell de Ministres, normal seria que estiguéssiu aixecant aquesta bandera de la corresponsabilitat del que ha fet Pedro Sánchez La justícia ha de generar la poca governança i no pas generar aquesta por injustificada. Busqueu més. Em sembla que l'esquerra extrema ha substituït la lluita de classes del comunisme per l'odi social. Això no porta enlloc. i el Departament de Justícia. Són dos discursos de confronatió i odi, per un discurs de la il·lusió i que hi ha futur per resoldre prestacions de serveis públics, millorar l'educació, la sanitat, la generació de feina, etcètera. I baixar els impostos. Si es troba còmode, sent la candidata de sumar a Pedro Sánchez."
+   "text": "No et desitjaré sort, però sí salut i pocs vots. de la Unió Europea, Junts per Catalunya, Junts la pregunta que et faig és si et trobaràs còmode sent la candidata de Comuns, de Front Ampli, és a dir, la candidata de Sumar en favor de Pedro Sánchez. Perquè els comuns, el Partit del que pertanyes i el Front Ampli, bàsicament són els que han donat suport i han governat al costat de Pedro Sánchez al llarg dels últims anys. I, per tant, i Ciutadans de la Unió Europea. El que és normal és que com a candidat de sumar amb Pedro Sánchez, que és la raó de ser de la teva presentació, o una de les raons seria defensar l'acció que heu fet els comuns, el ministre Autarso, el ministre Subirats, que eren dels comuns, seguts al Consell de Ministres, normal seria que estiguéssiu aixecant aquesta bandera de la corresponsabilitat del que ha fet Pedro Sánchez La justícia ha de generar la poca governança i no pas generar aquesta por injustificada. Busqueu més. Em sembla que l'esquerra extrema ha substituït la lluita de classes del comunisme per l'odi social. Això no porta enlloc. i el Departament de Justícia. Són dos discursos de confronatió i odi, per un discurs de la il·lusió i que hi ha futur per resoldre prestacions de serveis públics, millorar l'educació, la sanitat, la generació de feina, etcètera. I baixar els impostos. Si es troba còmode, sent la candidata de sumar a Pedro Sánchez."
   },
   {
    "start": 947.94,
@@ -364,7 +364,7 @@
    "label": "SPEAKER_01",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Alberto, de veritat, Que tu em diguis això, el que m'acabes de dir. Em sento molt còmode, efectivament, poder ajudar a empènyer una candidatura unitària que faci front al que representa el teu partit ara mateix, que és molt pitjor del que representava fa uns anys. Ho dic amb coses molt concretes. Vosaltres ja esteu governant amb Vox. Si vosaltres governessiu a la Moncloa, ho faríeu amb Abascal. I això significa perill directament la vida de milers i milers de persones. i la Generalitat de Catalunya. El president de partit ha dit que vol carregar-se les baixes mèdiques laborals, això és carregar-se drets laborals bàsics de la ciutadania. Diu que la gent no es pot posar malalta perquè si no pot perdre diners o pot perdre directament la feina. Però és que a més d'això aneu amb un soci de govern que directament vol perseguir els migrants com fa Trump pels carrers a Malais. S'està carregant les polítiques de defensa de les dones contra les violències ja està passant a les comunitats autònomes. Està privatitzant com està fent Ayuso la sanitat, l'educació, i ho vol privatitzar tot. Vol reduir les pensions. Això és el que suposeu? L'amenaça directa a la vida de la gent. Això no fa cap mena de gràcia. I evidentment que estic molt orgullosa de poder encapsular una candidatura que contribueixi a unir les esquerres, per no només revertir les polítiques que vosaltres ja esteu impulsant a moltes comunitats autònomes, sinó per impulsar polítiques valentes i transformadores, que, per exemple, acabant amb l'especulació immobiliària, recordo que el teu partit acaba de carregar-se dos decrets que salvava la vida de milers de persones, i acaba de passar això al Congrés, i hi ha milers de persones al carrer reclamant que es faci efectiu el dret a l'habitatge de Esquerra, Junta, Junta de Junts i Generalitat, Junts per Catalunya, Junta de Junts per Catalunya, Junta de Junts per Catalunya, Junta de Junts per Catalunya, Junta de Junts per Catalunya. I jo sóc molt orgullosa d'estar al costat de la taula."
+   "text": "Alberto, de veritat, Que tu em diguis això, el que m'acabes de dir. Em sento molt còmode, efectivament, poder ajudar a empènyer una candidatura unitària que faci front al que representa el teu partit ara mateix, que és molt pitjor del que representava fa uns anys. Ho dic amb coses molt concretes. Vosaltres ja esteu governant amb Vox. Si vosaltres governessiu a la Moncloa, ho faríeu amb Abascal. I això significa perill directament la vida de milers i milers de persones. i la Generalitat de Catalunya. El president de partit ha dit que vol carregar-se les baixes mèdiques laborals, això és carregar-se drets laborals bàsics de la ciutadania. Diu que la gent no es pot posar malalta perquè si no pot perdre diners o pot perdre directament la feina. Però és que a més d'això aneu amb un soci de govern que directament vol perseguir els migrants com fa Trump pels carrers a Malais. S'està carregant les polítiques de defensa de les dones contra les violències ja està passant a les comunitats autònomes. Està privatitzant com està fent Ayuso la sanitat, l'educació, i ho vol privatitzar tot. Vol reduir les pensions. Això és el que suposeu? L'amenaça directa a la vida de la gent. Això no fa cap mena de gràcia. I evidentment que estic molt orgullosa de poder encapsular una candidatura que contribueixi a unir les esquerres, per no només revertir les polítiques que vosaltres ja esteu impulsant a moltes comunitats autònomes, sinó per impulsar polítiques valentes i transformadores, que, per exemple, acabant amb l'especulació immobiliària, recordo que el teu partit acaba de carregar-se dos decrets que salvava la vida de milers de persones, i acaba de passar això al Congrés, i hi ha milers de persones al carrer reclamant que es faci efectiu el dret a l'habitatge de Esquerra, Junta, Junta de Junts i Generalitat, Junts per Catalunya, Junta de Junts per Catalunya. I jo sóc molt orgullosa d'estar al costat de la taula."
   },
   {
    "start": 1060.72,

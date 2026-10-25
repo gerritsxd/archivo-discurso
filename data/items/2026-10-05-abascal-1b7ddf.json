@@ -13,8 +13,8 @@
  "pipeline": {
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
-  "voiceprint_threshold": 0.55,
-  "processed_at": "2026-10-25T09:29:52+00:00",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T18:25:39+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -57,7 +57,7 @@
    "person": null,
    "name": "Hablante sin identificar 3",
    "decision": "unknown",
-   "reason": "best sim 0.22 < 0.55",
+   "reason": "best sim 0.22 < 0.65",
    "talk_s": 455.4
   }
  },
@@ -436,7 +436,7 @@
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Bueno, desde hace mucho tiempo lo contrario, porque cuando uno tiene noticias de lo que puede pasar, Yolanda Díaz, Alberto Núñez Feijóo, Santiago Abascal, Federico Jiménez Defender las fronteras es bueno para todo, para nuestra integridad territorial y para la seguridad de las personas a las que se les impide entrar. Yo creo que es muy sencillo, pero el gobierno, y lo dijo Sánchez en sede parlamentaria, tomó la decisión de no defender la frontera y de dejar pasar a todos los que entraban por encima de nuestros policías, de nuestros guardias y por todas"
+   "text": "Bueno, desde hace mucho tiempo lo contrario, porque cuando uno tiene noticias de lo que puede pasar, Defender las fronteras es bueno para todo, para nuestra integridad territorial y para la seguridad de las personas a las que se les impide entrar. Yo creo que es muy sencillo, pero el gobierno, y lo dijo Sánchez en sede parlamentaria, tomó la decisión de no defender la frontera y de dejar pasar a todos los que entraban por encima de nuestros policías, de nuestros guardias y por todas"
   },
   {
    "start": 1083.03,
@@ -672,27 +672,11 @@
   },
   {
    "start": 1568.56,
-   "end": 1612.6,
-   "label": "SPEAKER_05",
-   "person": "abascal",
-   "name": "Santiago Abascal (Vox)",
-   "text": "Yo creo que de estas políticas de vivienda y de estas políticas de inmigración masiva hay dos grupos principalmente convertidos en víctimas. Los españoles, muy especialmente los españoles vulnerables y también los inmigrantes legales que han venido legalmente pidiendo permiso, Yolanda Díaz, Alberto Núñez Feijóo, Santiago Abascal, Ángeles Barceló, Frente"
-  },
-  {
-   "start": 1612.6,
-   "end": 1613.7,
-   "label": "SPEAKER_01",
-   "person": null,
-   "name": "Hablante sin identificar 3",
-   "text": "Amplio, Junta Electoral Central, Tribunal Constitucional"
-  },
-  {
-   "start": 1613.72,
    "end": 1624.9,
    "label": "SPEAKER_05",
    "person": "abascal",
    "name": "Santiago Abascal (Vox)",
-   "text": "Vienen a trabajar, bueno, sí, unos vienen a trabajar, otros no. Yo creo que en esto hay que ser muy preciso. Hay un 15% de españoles en paro, pero hay un 15% de inmigrantes legales en paro."
+   "text": "Yo creo que de estas políticas de vivienda y de estas políticas de inmigración masiva hay dos grupos principalmente convertidos en víctimas. Los españoles, muy especialmente los españoles vulnerables y también los inmigrantes legales que han venido legalmente pidiendo permiso, Ángeles Vienen a trabajar, bueno, sí, unos vienen a trabajar, otros no. Yo creo que en esto hay que ser muy preciso. Hay un 15% de españoles en paro, pero hay un 15% de inmigrantes legales en paro."
   },
   {
    "start": 1624.96,

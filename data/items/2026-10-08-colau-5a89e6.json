@@ -13,8 +13,8 @@
  "pipeline": {
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
-  "voiceprint_threshold": 0.55,
-  "processed_at": "2026-10-25T09:54:54+00:00",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T18:25:45+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -29,14 +29,14 @@
    "person": null,
    "name": "Hablante sin identificar 1",
    "decision": "unknown",
-   "reason": "best sim 0.27 < 0.55",
+   "reason": "best sim 0.27 < 0.65",
    "talk_s": 66.1
   },
   "SPEAKER_03": {
    "person": null,
    "name": "Hablante sin identificar 2",
    "decision": "unknown",
-   "reason": "best sim 0.37 < 0.55",
+   "reason": "best sim 0.37 < 0.65",
    "talk_s": 179.1
   },
   "SPEAKER_02": {
@@ -50,28 +50,28 @@
    "person": null,
    "name": "Hablante sin identificar 4",
    "decision": "unknown",
-   "reason": "best sim 0.38 < 0.55",
+   "reason": "best sim 0.38 < 0.65",
    "talk_s": 35.3
   },
   "SPEAKER_07": {
    "person": null,
    "name": "Hablante sin identificar 5",
    "decision": "unknown",
-   "reason": "best sim 0.35 < 0.55",
+   "reason": "best sim 0.35 < 0.65",
    "talk_s": 41.7
   },
   "SPEAKER_08": {
    "person": null,
    "name": "Hablante sin identificar 6",
    "decision": "unknown",
-   "reason": "best sim 0.34 < 0.55",
+   "reason": "best sim 0.34 < 0.65",
    "talk_s": 22.2
   },
   "SPEAKER_06": {
    "person": null,
    "name": "Hablante sin identificar 7",
    "decision": "unknown",
-   "reason": "best sim 0.30 < 0.55",
+   "reason": "best sim 0.30 < 0.65",
    "talk_s": 53.0
   },
   "SPEAKER_01": {
@@ -416,7 +416,7 @@
    "label": "SPEAKER_05",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Claro que ha hablado con Mónica García, claro que ha hablado con Irene Montero. O sea, sería absurdo que estemos diciendo que hay que hacer un Frente Amplio y no hablásemos entre nosotras, pues claro que hemos hablado, y mucha más gente, y con Antonio Maello, y con mucha más gente, hemos hablado estos días. Lo más importante es que hay una mesa de partidos que está trabajando en cómo conformar este Frente Amplio y hacerlo más amplio, y que ahí se ha extendido la mano para que todo el mundo se siente en pie de igualdad. Entonces, es verdad que es muy difícil cuando hay un debate tan encendido, y ahora además hay poco tiempo, Yolanda Díaz, Alberto Núñez Feijóo, Santiago Abascal, Ángeles Barceló, Federico Jiménez Esa es la que se habla menos de reforzar los territorios. A mí me parece que es revolucionario una candidata por Barcelona al gobierno de España y que cambie un poco el mapa de la M30 permanente en el que hemos vivido siempre. ¿Eso tiene un futuro? ¿Cómo lo ve? Yo creo que todo esto son, sin querer quitar la importancia, pero son cuestiones secundarias, insisto, lo que está en juego es demasiado importante y es que se haga un frente realmente amplio, donde estemos todas, donde no queda nadie afuera que quiera estar, esa es la prioridad, que se ponga un programa potente, ilusionante, transformador, valiente, de consenso en el centro de esa propuesta, Un programa que pueda ilusionar y movilizar y luego que todas las caras se pongan a disposición de ese programa y de ese consenso y entre todos ver dónde es más útil cada una de las personas. Entonces la cuestión no es Barcelona o Madrid, la cuestión es que nos pongamos allí donde seamos más útiles para tejer un consenso que permita que el frente sea lo más amplio posible. Creo que soy muy clara. La prioridad es que haya un frente lo más amplio posible. Entonces, todo lo demás tiene que ser instrumental. Que si unos van por Barcelona, por Madrid, por Cáceres, si van en el 1, en el 2 o en el 3, que todo eso evidentemente es importante porque todo el mundo tiene que tener un lugar y tiene que sentirse reconocido, todas las fuerzas políticas, quiero decir, pero tiene que ser algo que esté al servicio del consenso para que haya un Frente Amplio donde pueda estar todo el mundo. Por eso yo ahora no hablaría de Barcelona o de Madrid o de números 1, 2 y 3. Lo importante es que en esa mesa de partidos se llegue a un acuerdo rápido porque queda una semana. Queda poquito tiempo, queda una semana. Ese es lo que tiene que centrar ahora todos nuestros esfuerzos."
+   "text": "Claro que ha hablado con Mónica García, claro que ha hablado con Irene Montero. O sea, sería absurdo que estemos diciendo que hay que hacer un Frente Amplio y no hablásemos entre nosotras, pues claro que hemos hablado, y mucha más gente, y con Antonio Maello, y con mucha más gente, hemos hablado estos días. Lo más importante es que hay una mesa de partidos que está trabajando en cómo conformar este Frente Amplio y hacerlo más amplio, y que ahí se ha extendido la mano para que todo el mundo se siente en pie de igualdad. Entonces, es verdad que es muy difícil cuando hay un debate tan encendido, y ahora además hay poco tiempo, Ángeles Barceló, Federico Jiménez Esa es la que se habla menos de reforzar los territorios. A mí me parece que es revolucionario una candidata por Barcelona al gobierno de España y que cambie un poco el mapa de la M30 permanente en el que hemos vivido siempre. ¿Eso tiene un futuro? ¿Cómo lo ve? Yo creo que todo esto son, sin querer quitar la importancia, pero son cuestiones secundarias, insisto, lo que está en juego es demasiado importante y es que se haga un frente realmente amplio, donde estemos todas, donde no queda nadie afuera que quiera estar, esa es la prioridad, que se ponga un programa potente, ilusionante, transformador, valiente, de consenso en el centro de esa propuesta, Un programa que pueda ilusionar y movilizar y luego que todas las caras se pongan a disposición de ese programa y de ese consenso y entre todos ver dónde es más útil cada una de las personas. Entonces la cuestión no es Barcelona o Madrid, la cuestión es que nos pongamos allí donde seamos más útiles para tejer un consenso que permita que el frente sea lo más amplio posible. Creo que soy muy clara. La prioridad es que haya un frente lo más amplio posible. Entonces, todo lo demás tiene que ser instrumental. Que si unos van por Barcelona, por Madrid, por Cáceres, si van en el 1, en el 2 o en el 3, que todo eso evidentemente es importante porque todo el mundo tiene que tener un lugar y tiene que sentirse reconocido, todas las fuerzas políticas, quiero decir, pero tiene que ser algo que esté al servicio del consenso para que haya un Frente Amplio donde pueda estar todo el mundo. Por eso yo ahora no hablaría de Barcelona o de Madrid o de números 1, 2 y 3. Lo importante es que en esa mesa de partidos se llegue a un acuerdo rápido porque queda una semana. Queda poquito tiempo, queda una semana. Ese es lo que tiene que centrar ahora todos nuestros esfuerzos."
   },
   {
    "start": 1824.77,

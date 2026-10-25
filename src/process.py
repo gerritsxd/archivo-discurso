@@ -29,6 +29,7 @@ SRC = ROOT / "src"
 RAW, WORK, ITEMS = ROOT / "data" / "raw", ROOT / "data" / "work", ROOT / "data" / "items"
 sys.path.insert(0, str(SRC))
 from merge_speakers import speaker_for, smooth  # noqa: E402
+from clean_words import clean  # noqa: E402
 
 PY = [sys.executable, "-I"]  # -I: inputs are downloaded, untrusted files
 
@@ -44,7 +45,7 @@ def load(p):
 
 def assemble(iid, meta, w):
     tr, di, ident = load(w / "transcript.json"), load(w / "diarization.json"), load(w / "identity.json")
-    words = [x for s in tr["segments"] for x in s.get("words", [])]
+    words = clean([x for s in tr["segments"] for x in s.get("words", [])])  # drop Whisper artefacts
     end_of = {x["start"]: x["end"] for x in words}  # word start -> word end
     blocks = []  # [speaker, start, [words], [word starts]], the shape smooth() expects
     for x in words:

@@ -13,8 +13,8 @@
  "pipeline": {
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
-  "voiceprint_threshold": 0.55,
-  "processed_at": "2026-10-25T15:49:13+00:00",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T18:26:10+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -29,42 +29,42 @@
    "person": null,
    "name": "Hablante sin identificar 1",
    "decision": "unknown",
-   "reason": "best sim 0.25 < 0.55",
+   "reason": "best sim 0.25 < 0.65",
    "talk_s": 28.8
   },
   "SPEAKER_06": {
    "person": null,
    "name": "Hablante sin identificar 2",
    "decision": "unknown",
-   "reason": "best sim 0.40 < 0.55",
+   "reason": "best sim 0.40 < 0.65",
    "talk_s": 31.8
   },
   "SPEAKER_03": {
    "person": null,
    "name": "Hablante sin identificar 3",
    "decision": "unknown",
-   "reason": "best sim 0.25 < 0.55",
+   "reason": "best sim 0.25 < 0.65",
    "talk_s": 92.0
   },
   "SPEAKER_07": {
    "person": null,
    "name": "Hablante sin identificar 4",
    "decision": "unknown",
-   "reason": "best sim 0.22 < 0.55",
+   "reason": "best sim 0.22 < 0.65",
    "talk_s": 1986.6
   },
   "SPEAKER_02": {
    "person": null,
    "name": "Hablante sin identificar 5",
    "decision": "unknown",
-   "reason": "best sim 0.28 < 0.55",
+   "reason": "best sim 0.28 < 0.65",
    "talk_s": 321.6
   },
   "SPEAKER_08": {
    "person": null,
    "name": "Hablante sin identificar 6",
    "decision": "unknown",
-   "reason": "best sim 0.23 < 0.55",
+   "reason": "best sim 0.23 < 0.65",
    "talk_s": 49.0
   },
   "SPEAKER_01": {
@@ -557,11 +557,11 @@
   },
   {
    "start": 667.86,
-   "end": 702.08,
+   "end": 700.68,
    "label": "SPEAKER_05",
    "person": "sanchez",
    "name": "Pedro Sánchez (PSOE)",
-   "text": "Yo le digo muchas veces a Felipe, digo, mira, si yo me afilié al Partido Socialista por... Por ti, claro, eso pasa muchas veces, pero no se lo digo como un despechado, bueno, yo me gustó ese Felipe de los años 80, cuando yo era un chaval, probablemente por las cosas que también rememoro y evoco de esa época, pero ahora mismo, la verdad es que no me siento muy identificado con sus opiniones, ¿qué quieres que te diga? Bueno, dicho sin acritud. Sin acritud, sin acritud."
+   "text": "Yo le digo muchas veces a Felipe, digo, mira, si yo me afilié al Partido Socialista por... Por ti, claro, eso pasa muchas veces, pero no se lo digo como un despechado, bueno, yo me gustó ese Felipe de los años 80, cuando yo era un chaval, probablemente por las cosas que también rememoro y evoco de esa época, pero ahora mismo, la verdad es que no me siento muy identificado con sus opiniones, ¿qué quieres que te diga? Bueno, dicho sin acritud."
   },
   {
    "start": 702.92,
@@ -765,27 +765,11 @@
   },
   {
    "start": 840.1,
-   "end": 841.78,
-   "label": "SPEAKER_04",
-   "person": null,
-   "name": "Hablante sin identificar 1",
-   "text": "Bueno, bueno, bueno, bueno, bueno, bueno."
-  },
-  {
-   "start": 841.92,
-   "end": 843.06,
-   "label": "SPEAKER_07",
-   "person": null,
-   "name": "Hablante sin identificar 4",
-   "text": "Muy guapo, eh."
-  },
-  {
-   "start": 843.88,
    "end": 844.72,
    "label": "SPEAKER_04",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Bueno, bueno, bueno."
+   "text": "Bueno, bueno, Muy guapo, eh. Bueno, bueno, bueno."
   },
   {
    "start": 850.36,
@@ -1028,12 +1012,12 @@
    "text": "Pero el caso es que me tienes que dar el micro y tú tienes que abrirlo, pero tienes que abrir la cabeza, ¿sabes? Joder. Sí, venga, la cabeza aquí."
   },
   {
-   "start": 1039.05,
+   "start": 1044.93,
    "end": 1048.71,
    "label": "SPEAKER_07",
    "person": null,
    "name": "Hablante sin identificar 4",
-   "text": "¡Suscríbete al canal! Vale, ¿quieres ya entrevista canónica sentados, periodística, seria, tal?"
+   "text": "Vale, ¿quieres ya entrevista canónica sentados, periodística, seria, tal?"
   },
   {
    "start": 1048.93,
@@ -1469,59 +1453,11 @@
   },
   {
    "start": 1548.61,
-   "end": 1580.78,
-   "label": "SPEAKER_07",
-   "person": null,
-   "name": "Hablante sin identificar 4",
-   "text": "¿Pero por qué? ¿Qué estás haciendo? ¿Por qué? Hombre, muy descarado por parte de comunicación del gobierno. Yolanda Díaz, Alberto"
-  },
-  {
-   "start": 1575.1,
-   "end": 1580.78,
-   "label": "SPEAKER_05",
-   "person": "sanchez",
-   "name": "Pedro Sánchez (PSOE)",
-   "text": "Núñez"
-  },
-  {
-   "start": 1580.78,
-   "end": 1593.14,
-   "label": "SPEAKER_08",
-   "person": null,
-   "name": "Hablante sin identificar 6",
-   "text": "Feijóo,"
-  },
-  {
-   "start": 1595.88,
-   "end": 1596.68,
-   "label": "SPEAKER_05",
-   "person": "sanchez",
-   "name": "Pedro Sánchez (PSOE)",
-   "text": "Santiago Abascal, Irene Montero,"
-  },
-  {
-   "start": 1596.7,
-   "end": 1598.88,
-   "label": "SPEAKER_07",
-   "person": null,
-   "name": "Hablante sin identificar 4",
-   "text": "Ione Belarra, Jorge"
-  },
-  {
-   "start": 1598.22,
-   "end": 1599.34,
-   "label": "SPEAKER_05",
-   "person": "sanchez",
-   "name": "Pedro Sánchez (PSOE)",
-   "text": "Bustos, Federico Jiménez"
-  },
-  {
-   "start": 1599.92,
    "end": 1601.22,
    "label": "SPEAKER_07",
    "person": null,
    "name": "Hablante sin identificar 4",
-   "text": "Dile, dile, que se vaya, que se vaya, Miguel."
+   "text": "¿Pero por qué? ¿Qué estás haciendo? ¿Por qué? Hombre, muy descarado por parte de comunicación del gobierno. Dile, dile, que se vaya, que se vaya, Miguel."
   },
   {
    "start": 1601.62,
@@ -1569,7 +1505,7 @@
    "label": "SPEAKER_07",
    "person": null,
    "name": "Hablante sin identificar 4",
-   "text": "Quítale, quítale, échale, échale. Pero si ese es Aznar, ese es Aznar. Ese es Aznar. Aznar es verdad que tenía mucho abdominal muy poderoso. Yo no se lo he tocado nunca, eh. Perdón, si tuvieses que decir, de entre los muchos que ha habido, que habrá habido, Los dos, tres peores errores que habéis cometido, que has cometido durante las dos legislaturas, claro, has tenido tiempo para hacer muchas cosas. ¿Qué dos o tres cosas crees que las hemos cagado más aquí con esto?"
+   "text": "Quítale, quítale, échale, échale. Pero si ese es Aznar, Aznar es verdad que tenía mucho abdominal muy poderoso. Yo no se lo he tocado nunca, eh. Perdón, si tuvieses que decir, de entre los muchos que ha habido, que habrá habido, Los dos, tres peores errores que habéis cometido, que has cometido durante las dos legislaturas, claro, has tenido tiempo para hacer muchas cosas. ¿Qué dos o tres cosas crees que las hemos cagado más aquí con esto?"
   },
   {
    "start": 1638.58,
@@ -3445,43 +3381,11 @@
   },
   {
    "start": 4452.81,
-   "end": 4458.79,
-   "label": "SPEAKER_05",
-   "person": "sanchez",
-   "name": "Pedro Sánchez (PSOE)",
-   "text": "Entre otras cosas es que mi mujer no es que tenga derecho a trabajar en lo que quiera, es que mi mujer dejó de trabajar."
-  },
-  {
-   "start": 4463.77,
-   "end": 4465.17,
-   "label": "SPEAKER_07",
-   "person": null,
-   "name": "Hablante sin identificar 4",
-   "text": "Yolanda"
-  },
-  {
-   "start": 4465.17,
-   "end": 4466.17,
-   "label": "SPEAKER_05",
-   "person": "sanchez",
-   "name": "Pedro Sánchez (PSOE)",
-   "text": "Díaz,"
-  },
-  {
-   "start": 4466.97,
-   "end": 4466.99,
-   "label": "SPEAKER_07",
-   "person": null,
-   "name": "Hablante sin identificar 4",
-   "text": "Alberto"
-  },
-  {
-   "start": 4466.99,
    "end": 4488.77,
    "label": "SPEAKER_05",
    "person": "sanchez",
    "name": "Pedro Sánchez (PSOE)",
-   "text": "Núñez Feijóo, Santiago Abascal, Ángeles Barceló, Federico Jiménez"
+   "text": "Entre otras cosas es que mi mujer no es que tenga derecho a trabajar en lo que quiera, es que mi mujer dejó de trabajar. Ángeles Barceló, Federico Jiménez"
   },
   {
    "start": 4488.79,
@@ -4292,14 +4196,6 @@
    "text": "Yo la admiro mucho."
   },
   {
-   "start": 5480.37,
-   "end": 5486.83,
-   "label": "SPEAKER_07",
-   "person": null,
-   "name": "Hablante sin identificar 4",
-   "text": "¡Suscríbete al canal!"
-  },
-  {
    "start": 5506.16,
    "end": 5516.98,
    "label": "SPEAKER_02",
@@ -4589,19 +4485,19 @@
   },
   {
    "start": 5772.8,
-   "end": 5774.32,
+   "end": 5774.08,
    "label": "SPEAKER_07",
    "person": null,
    "name": "Hablante sin identificar 4",
    "text": "Se han dicho groserías, sí. No lo voy a decir,"
   },
   {
-   "start": 5774.08,
+   "start": 5775.48,
    "end": 5777.72,
    "label": "SPEAKER_02",
    "person": null,
    "name": "Hablante sin identificar 5",
-   "text": "no lo voy a decir, no lo voy a decir por respeto también a Bego, pero hemos dicho..."
+   "text": "por respeto también a Bego, pero hemos dicho..."
   },
   {
    "start": 5778.96,

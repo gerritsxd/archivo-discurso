@@ -13,3 +13,4 @@ m1/pre_pyannote_freeze.txt
 site/
 # voiceprints are biometric data (GDPR art. 9): never published, kept private
 voiceprints/
+.env*

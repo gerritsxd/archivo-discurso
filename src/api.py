@@ -9,13 +9,17 @@ GET  /api/search?q=...&person=feijoo&from=2026-10-01&to=2026-10-31&limit=20&offs
 GET  /api/item/<id>
 GET  /api/daily[?date=YYYY-MM-DD]       today's 5 quotes (no answers)
 POST /api/guess {"date": "...", "n": 0, "guess": "abascal"}   -> answer + source
+POST /api/ask {"q": "..."}             answer from the archive's quotes only (DeepSeek, daily cap; src/ask.py)
 GET  /api/claims?person=&type=promesa|dato|ataque|postura&topic=&insult=1&target=&q=&limit=&offset=
 GET  /api/contradictions[?person=]      possible contradictions (both quotes + sources)
 GET  /api/analysis                      counts per candidate: types, topics, attack targets, insults
+GET  /api/attacks                       who attacks whom: counts per candidate x target group
 GET  /api/tone                          tone per candidate (-2..2, weighted by seconds), emotions, share on rivals
 """
 import argparse
 import json
+import os
+import sys
 import random
 import re
 import sqlite3
@@ -27,6 +31,7 @@ from urllib.parse import parse_qs, urlparse
 from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "src"))  # -I leaves the script dir off sys.path
 MADRID = ZoneInfo("Europe/Madrid")
 ROUNDS = 5
 LAUNCH = "2026-10-25"  # puzzle no. 1
@@ -138,6 +143,8 @@ class Handler(BaseHTTPRequestHandler):
                     return self.send(self.claims(db, q))
                 if path == "/api/contradictions":
                     return self.send(self.contradictions(db, q))
+                if path == "/api/attacks":
+                    return self.send(self.attacks(db))
                 if path == "/api/tone":
                     return self.send(self.tone(db))
                 if path == "/api/analysis":
@@ -150,6 +157,8 @@ class Handler(BaseHTTPRequestHandler):
 
     def do_POST(self):
         path = re.sub(r"^/discurso", "", urlparse(self.path).path).rstrip("/")
+        if path == "/api/ask":
+            return self.ask()
         if path != "/api/guess":
             return self.send({"error": "not found"}, 404)
         try:
@@ -174,6 +183,20 @@ class Handler(BaseHTTPRequestHandler):
                        "date": row["item_date"], "start": row["start"],
                        "link": source_link(row["url"], row["start"])},
         })
+
+    def ask(self):
+        if not os.environ.get("DEEPSEEK_API_KEY"):
+            return self.send({"error": "Las preguntas no están disponibles ahora mismo."}, 503)
+        try:
+            n = int(self.headers.get("Content-Length", 0))
+            q = str(json.loads(self.rfile.read(min(n, 4096)) or b"{}")["q"])
+        except (ValueError, KeyError, json.JSONDecodeError):
+            return self.send({"error": "bad request"}, 400)
+        import ask  # imported lazily: the rest of the API works without a key
+        ppl = {k: v for k, v in people().items() if v.get("kind") == "candidate"}
+        with connect() as db:
+            res, code = ask.answer(db, q, ppl, source_link)
+        self.send(res, code)
 
     def stats(self, db):
         per = {}
@@ -207,6 +230,8 @@ class Handler(BaseHTTPRequestHandler):
             where.append("c.insult = 1")
         if q.get("target"):
             where.append("c.target LIKE ?"); args.append(f"%{q['target']}%")
+        if q.get("grp"):
+            where.append("c.id IN (SELECT claim_id FROM claim_targets WHERE grp = ?)"); args.append(q["grp"])
         if q.get("q"):
             where.append("(c.quote LIKE ? OR c.summary LIKE ?)"); args += [f"%{q['q']}%"] * 2
         sql = self.CLAIM_SQL + " WHERE " + " AND ".join(where)
@@ -226,6 +251,18 @@ class Handler(BaseHTTPRequestHandler):
                 out.append({"person": x["person"], "topic": x["topic"], "kind": x["kind"], "explanation": x["explanation"],
                             "a": self.claim_json(a), "b": self.claim_json(b)})
         return {"total": len(out), "results": out}
+
+    def attacks(self, db):
+        cells, totals, detail = {}, {}, {}
+        for r in db.execute("SELECT c.person, ct.grp, COUNT(DISTINCT c.id) n FROM claim_targets ct "
+                            "JOIN claims c ON c.id = ct.claim_id GROUP BY c.person, ct.grp"):
+            cells.setdefault(r["person"], {})[r["grp"]] = r["n"]
+        for r in db.execute("SELECT person, COUNT(*) n FROM claims WHERE type='ataque' GROUP BY person"):
+            totals[r["person"]] = r["n"]
+        for r in db.execute("SELECT c.person, ct.grp, ct.target, COUNT(DISTINCT c.id) n FROM claim_targets ct "
+                            "JOIN claims c ON c.id = ct.claim_id GROUP BY c.person, ct.grp, ct.target ORDER BY n DESC"):
+            detail.setdefault(r["person"], {}).setdefault(r["grp"], {})[r["target"]] = r["n"]
+        return {"cells": cells, "attacks": totals, "detail": detail, "candidates": candidates()}
 
     def tone(self, db):
         per = {}

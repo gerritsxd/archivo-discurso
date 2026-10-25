@@ -13,8 +13,8 @@
  "pipeline": {
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
-  "voiceprint_threshold": 0.55,
-  "processed_at": "2026-10-25T14:50:26+00:00",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T18:26:04+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -29,14 +29,14 @@
    "person": null,
    "name": "Hablante sin identificar 1",
    "decision": "unknown",
-   "reason": "best sim 0.37 < 0.55",
+   "reason": "best sim 0.37 < 0.65",
    "talk_s": 20.5
   },
   "SPEAKER_00": {
    "person": null,
    "name": "Hablante sin identificar 2",
    "decision": "unknown",
-   "reason": "best sim 0.28 < 0.55",
+   "reason": "best sim 0.28 < 0.65",
    "talk_s": 47.5
   }
  },
@@ -59,27 +59,11 @@
   },
   {
    "start": 91.69,
-   "end": 142.43,
-   "label": "SPEAKER_02",
-   "person": "colau",
-   "name": "Ada Colau (Frente Amplio)",
-   "text": "Pues fíjese que no voy a entrar a ese tipo de comentarios, me lo va a permitir, porque creo que ya fue suficiente todo lo que se habló de partidos. La gente está harta ya de estas conversaciones entre partidos y con reproches entre líderes de las formaciones progresistas, Yo no voy a entrar más a este juego. Vamos a hablar de políticas valientes, vamos a hablar de cómo ganar las elecciones del 29 de noviembre. Eso es lo que espera de la gente de nosotras. La gente está dándolo todo en las calles. Tenemos a las maestras renunciando a parte de su sueldo, haciendo huelga para defender la educación pública, igual que con la sanidad pública, igual que con el derecho a la vivienda. Tenemos a todas las organizaciones éticales y sociales organizando una huelga general que seguro que va a ser histórica para defender los derechos sociales en este país. Yolanda Díaz,"
-  },
-  {
-   "start": 143.39,
-   "end": 153.07,
-   "label": "SPEAKER_00",
-   "person": null,
-   "name": "Hablante sin identificar 2",
-   "text": "Alberto Núñez Feijóo, Santiago Abascal, Irene"
-  },
-  {
-   "start": 155.09,
    "end": 187.99,
    "label": "SPEAKER_02",
    "person": "colau",
    "name": "Ada Colau (Frente Amplio)",
-   "text": "Montero, Frente Amplio, Junta Electoral Central, Tribunal Constitucional Horas y horas, días y días. Eso es absolutamente estéril. Cuando uno entra en política, entra para ser útil a la ciudadanía. Entonces estamos aquí, insisto, para obedecer a la gente que en la calle está diciendo basta ya, entre fuerzas progresistas, poneros de acuerdo como sea para defender políticas valientes y para defender a la gente y para derrotar al fascismo. Y eso creo que es nuestra tarea ahora mismo y nada más que eso."
+   "text": "Pues fíjese que no voy a entrar a ese tipo de comentarios, me lo va a permitir, porque creo que ya fue suficiente todo lo que se habló de partidos. La gente está harta ya de estas conversaciones entre partidos y con reproches entre líderes de las formaciones progresistas, Yo no voy a entrar más a este juego. Vamos a hablar de políticas valientes, vamos a hablar de cómo ganar las elecciones del 29 de noviembre. Eso es lo que espera de la gente de nosotras. La gente está dándolo todo en las calles. Tenemos a las maestras renunciando a parte de su sueldo, haciendo huelga para defender la educación pública, igual que con la sanidad pública, igual que con el derecho a la vivienda. Tenemos a todas las organizaciones éticales y sociales organizando una huelga general que seguro que va a ser histórica para defender los derechos sociales en este país. Horas y horas, días y días. Eso es absolutamente estéril. Cuando uno entra en política, entra para ser útil a la ciudadanía. Entonces estamos aquí, insisto, para obedecer a la gente que en la calle está diciendo basta ya, entre fuerzas progresistas, poneros de acuerdo como sea para defender políticas valientes y para defender a la gente y para derrotar al fascismo. Y eso creo que es nuestra tarea ahora mismo y nada más que eso."
   },
   {
    "start": 189.21,

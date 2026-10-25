@@ -13,8 +13,8 @@
  "pipeline": {
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
-  "voiceprint_threshold": 0.55,
-  "processed_at": "2026-10-25T10:09:59+00:00",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T18:25:47+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -29,7 +29,7 @@
    "person": null,
    "name": "Hablante sin identificar 1",
    "decision": "unknown",
-   "reason": "best sim 0.31 < 0.55",
+   "reason": "best sim 0.31 < 0.65",
    "talk_s": 1780.6
   }
  },
@@ -200,7 +200,7 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Ni de broma, pero ni de broma porque, bueno, te puedo ir hablando de ratios, si quieres, la ratio de la Comunidad de Madrid son 25 alumnos por clase en la ESO y bueno, el alumnado es variable en un más 10%, eso quiere decir que tú vas a empezar probablemente con 25, Pero a medida que van viniendo, por ejemplo, alumnado de otros países, claro, pues hay que darles educación, hay que darles cobijo, así que van ampliando esa ratio y imagínate, yo por ejemplo en física, les planteas un ejercicio y esperas a que lo hagan en clase para ver después de una explicación, para ver cómo lo resuelven. Y claro, tienes 25 que uno falla en las unidades, otro falla en la fórmula, otro falla que es que no ha comprendido la explicación, otra de repente se olvida una cuenta a mitad de camino, entonces ir uno por uno por 25 alumnos es algo que es imposible, no es operativo. Yolanda Díaz, Alberto Núñez Feijóo, Santiago Abascal, Irene Montero, Frente Amplio, Junta Electoral Central, Tribunal Constitucional Un control, como decían en mi época, para ver si lo que yo he explicado lo habían entendido. Bueno, pues son 25 y 25, 50, dos clases, 10 preguntas, 500 preguntas que ya tienes para corregir, solo para ver cómo van, no hablamos que es ni de examen parcial ni nada. Entonces se necesita mucha gente, pero ojo, no solo en los departamentos, No te puedes imaginar lo que hay, por poner un ejemplo, en el departamento de orientación,"
+   "text": "Ni de broma, pero ni de broma porque, bueno, te puedo ir hablando de ratios, si quieres, la ratio de la Comunidad de Madrid son 25 alumnos por clase en la ESO y bueno, el alumnado es variable en un más 10%, eso quiere decir que tú vas a empezar probablemente con 25, Pero a medida que van viniendo, por ejemplo, alumnado de otros países, claro, pues hay que darles educación, hay que darles cobijo, así que van ampliando esa ratio y imagínate, yo por ejemplo en física, les planteas un ejercicio y esperas a que lo hagan en clase para ver después de una explicación, para ver cómo lo resuelven. Y claro, tienes 25 que uno falla en las unidades, otro falla en la fórmula, otro falla que es que no ha comprendido la explicación, otra de repente se olvida una cuenta a mitad de camino, entonces ir uno por uno por 25 alumnos es algo que es imposible, no es operativo. Un control, como decían en mi época, para ver si lo que yo he explicado lo habían entendido. Bueno, pues son 25 y 25, 50, dos clases, 10 preguntas, 500 preguntas que ya tienes para corregir, solo para ver cómo van, no hablamos que es ni de examen parcial ni nada. Entonces se necesita mucha gente, pero ojo, no solo en los departamentos, No te puedes imaginar lo que hay, por poner un ejemplo, en el departamento de orientación,"
   },
   {
    "start": 639.73,
@@ -344,7 +344,7 @@
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "lenguaje Audición y lenguaje, es decir, bueno, por especialistas que ayudan al alumnado que tiene dificultades. Servicios a la comunidad, si no refuerza los servicios a la comunidad, no sirve de nada que yo esté haciendo mil papeles y que esté volviéndome loco para explicar cuando ese alumnado no tiene un apoyo detrás económico. Yolanda Díaz, Alberto Núñez Feijóo, Santiago Abascal, Irene Montero, Frente Amplio, Junta Electoral Central, Tribunal Constitucional ¡Hasta que le acogen! Estamos hablando de cosas gravísimas, que además, no te lo pierdas, cuando hay un protocolo de acoso o algo así, cualquier profesor y profesora te conviertes en un juez instructor. Entonces tienes que instruir el caso. Llamas a los testigos, llamas a las familias, levantas acta... Claro, que no te equivoques, que eso es como si fuese un proceso penal llevado por alguien que no sabe, vamos, ni dónde está el jugado de primera instancia, entonces te dan tres hojas para que lo aprendas y ya está, entonces abarcas, digamos, profesiones que no estás preparado ni formado para ello, pero que luego no pase nada, porque si luego hay un protocolo de acoso tienes que abrirlo inmediatamente Por si la cosa va a más. Pero es que aunque vaya a más, si hay algo mal por el camino, cuidado. Entonces, no sé, creo que mucha burocracia, alguna de ellas duplicada, alguna de ellas para ahorrar trabajo a esferas superiores, también hay que decirlo, que tienes que hacer el resumen del resumen del resumen, y burocracia bien, en su justa medida, pero menos trabajo por otro lado."
+   "text": "lenguaje Audición y lenguaje, es decir, bueno, por especialistas que ayudan al alumnado que tiene dificultades. Servicios a la comunidad, si no refuerza los servicios a la comunidad, no sirve de nada que yo esté haciendo mil papeles y que esté volviéndome loco para explicar cuando ese alumnado no tiene un apoyo detrás económico. ¡Hasta que le acogen! Estamos hablando de cosas gravísimas, que además, no te lo pierdas, cuando hay un protocolo de acoso o algo así, cualquier profesor y profesora te conviertes en un juez instructor. Entonces tienes que instruir el caso. Llamas a los testigos, llamas a las familias, levantas acta... Claro, que no te equivoques, que eso es como si fuese un proceso penal llevado por alguien que no sabe, vamos, ni dónde está el jugado de primera instancia, entonces te dan tres hojas para que lo aprendas y ya está, entonces abarcas, digamos, profesiones que no estás preparado ni formado para ello, pero que luego no pase nada, porque si luego hay un protocolo de acoso tienes que abrirlo inmediatamente Por si la cosa va a más. Pero es que aunque vaya a más, si hay algo mal por el camino, cuidado. Entonces, no sé, creo que mucha burocracia, alguna de ellas duplicada, alguna de ellas para ahorrar trabajo a esferas superiores, también hay que decirlo, que tienes que hacer el resumen del resumen del resumen, y burocracia bien, en su justa medida, pero menos trabajo por otro lado."
   },
   {
    "start": 1151.57,
@@ -372,27 +372,11 @@
   },
   {
    "start": 1262.99,
-   "end": 1293.75,
-   "label": "SPEAKER_00",
-   "person": null,
-   "name": "Hablante sin identificar 1",
-   "text": "Bueno, sobre las horas lectivas quiero aclarar que Madrid yo creo que ya es la única comunidad que queda, que todas las comunidades tienen menos que nosotros ya, entonces creemos que ya va siendo hora, porque aquí lo hacen mucho como progresivo, escalonado, ya hace años, porque fíjate que todo esto de las horas lectivas, no sé si te acuerdas, que en 2011 aquello que se llamó racionalización del gasto público, Yolanda Díaz,"
-  },
-  {
-   "start": 1293.75,
-   "end": 1293.83,
-   "label": "SPEAKER_01",
-   "person": "belarra",
-   "name": "Ione Belarra (Podemos)",
-   "text": "Alberto"
-  },
-  {
-   "start": 1293.75,
    "end": 1358.13,
    "label": "SPEAKER_00",
    "person": null,
    "name": "Hablante sin identificar 1",
-   "text": "Núñez Feijóo, Santiago Abascal, Ángeles Barceló, Íñigo Alfonso, Federico Jiménez La Comunidad de la Comunidad de la Comunidad de la Comunidad Sí, pero en detrimento de la calidad, porque tú, al final, si yo te voy amontonando cosas, no puedes dedicarle el mismo tiempo."
+   "text": "Bueno, sobre las horas lectivas quiero aclarar que Madrid yo creo que ya es la única comunidad que queda, que todas las comunidades tienen menos que nosotros ya, entonces creemos que ya va siendo hora, porque aquí lo hacen mucho como progresivo, escalonado, ya hace años, porque fíjate que todo esto de las horas lectivas, no sé si te acuerdas, que en 2011 aquello que se llamó racionalización del gasto público, Ángeles La Comunidad de la Comunidad Sí, pero en detrimento de la calidad, porque tú, al final, si yo te voy amontonando cosas, no puedes dedicarle el mismo tiempo."
   },
   {
    "start": 1358.31,

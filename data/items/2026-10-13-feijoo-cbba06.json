@@ -13,8 +13,8 @@
  "pipeline": {
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
-  "voiceprint_threshold": 0.55,
-  "processed_at": "2026-10-25T12:18:47+00:00",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T18:25:52+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -29,7 +29,7 @@
    "person": null,
    "name": "Hablante sin identificar 1",
    "decision": "unknown",
-   "reason": "best sim 0.48 < 0.55",
+   "reason": "best sim 0.48 < 0.65",
    "talk_s": 587.5
   },
   "SPEAKER_06": {
@@ -43,21 +43,21 @@
    "person": null,
    "name": "Hablante sin identificar 3",
    "decision": "unknown",
-   "reason": "best sim 0.44 < 0.55",
+   "reason": "best sim 0.44 < 0.65",
    "talk_s": 31.2
   },
   "SPEAKER_01": {
    "person": null,
    "name": "Hablante sin identificar 4",
    "decision": "unknown",
-   "reason": "best sim 0.43 < 0.55",
+   "reason": "best sim 0.43 < 0.65",
    "talk_s": 71.2
   },
   "SPEAKER_04": {
    "person": null,
    "name": "Hablante sin identificar 5",
    "decision": "unknown",
-   "reason": "best sim 0.40 < 0.55",
+   "reason": "best sim 0.40 < 0.65",
    "talk_s": 78.9
   },
   "SPEAKER_03": {
@@ -71,7 +71,7 @@
    "person": null,
    "name": "Hablante sin identificar 7",
    "decision": "unknown",
-   "reason": "best sim 0.37 < 0.55",
+   "reason": "best sim 0.37 < 0.65",
    "talk_s": 53.9
   },
   "SPEAKER_08": {
@@ -92,14 +92,14 @@
    "person": null,
    "name": "Hablante sin identificar 10",
    "decision": "unknown",
-   "reason": "best sim 0.18 < 0.55",
+   "reason": "best sim 0.18 < 0.65",
    "talk_s": 35.0
   },
   "SPEAKER_14": {
    "person": null,
    "name": "Hablante sin identificar 11",
    "decision": "unknown",
-   "reason": "best sim 0.17 < 0.55",
+   "reason": "best sim 0.17 < 0.65",
    "talk_s": 22.5
   },
   "SPEAKER_15": {
@@ -120,14 +120,14 @@
    "person": null,
    "name": "Hablante sin identificar 14",
    "decision": "unknown",
-   "reason": "best sim 0.14 < 0.55",
+   "reason": "best sim 0.14 < 0.65",
    "talk_s": 60.4
   },
   "SPEAKER_11": {
    "person": null,
    "name": "Hablante sin identificar 15",
    "decision": "unknown",
-   "reason": "best sim 0.14 < 0.55",
+   "reason": "best sim 0.14 < 0.65",
    "talk_s": 24.4
   }
  },

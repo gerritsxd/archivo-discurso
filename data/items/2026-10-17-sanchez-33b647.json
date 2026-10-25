@@ -13,8 +13,8 @@
  "pipeline": {
   "asr": "faster-whisper large-v3 (float16)",
   "diarization": "pyannote/speaker-diarization-community-1",
-  "voiceprint_threshold": 0.55,
-  "processed_at": "2026-10-25T14:00:56+00:00",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T18:25:59+00:00",
   "reviewed": false
  },
  "speakers": {
@@ -28,71 +28,71 @@
   "SPEAKER_02": {
    "person": null,
    "name": "Hablante sin identificar 1",
-   "decision": "ambiguous",
-   "reason": "sim 0.61 but next is 0.53",
+   "decision": "unknown",
+   "reason": "best sim 0.61 < 0.65",
    "talk_s": 46.9
   },
   "SPEAKER_13": {
    "person": null,
    "name": "Hablante sin identificar 2",
    "decision": "unknown",
-   "reason": "best sim 0.40 < 0.55",
+   "reason": "best sim 0.40 < 0.65",
    "talk_s": 377.6
   },
   "SPEAKER_10": {
    "person": null,
    "name": "Hablante sin identificar 3",
    "decision": "unknown",
-   "reason": "best sim 0.39 < 0.55",
+   "reason": "best sim 0.39 < 0.65",
    "talk_s": 429.0
   },
   "SPEAKER_07": {
    "person": null,
    "name": "Hablante sin identificar 4",
    "decision": "unknown",
-   "reason": "best sim 0.39 < 0.55",
+   "reason": "best sim 0.39 < 0.65",
    "talk_s": 25.4
   },
   "SPEAKER_08": {
    "person": null,
    "name": "Hablante sin identificar 5",
    "decision": "unknown",
-   "reason": "best sim 0.35 < 0.55",
+   "reason": "best sim 0.35 < 0.65",
    "talk_s": 42.6
   },
   "SPEAKER_14": {
    "person": null,
    "name": "Hablante sin identificar 6",
    "decision": "unknown",
-   "reason": "best sim 0.34 < 0.55",
+   "reason": "best sim 0.34 < 0.65",
    "talk_s": 92.6
   },
   "SPEAKER_09": {
    "person": null,
    "name": "Hablante sin identificar 7",
    "decision": "unknown",
-   "reason": "best sim 0.32 < 0.55",
+   "reason": "best sim 0.32 < 0.65",
    "talk_s": 122.3
   },
   "SPEAKER_15": {
    "person": null,
    "name": "Hablante sin identificar 8",
    "decision": "unknown",
-   "reason": "best sim 0.31 < 0.55",
+   "reason": "best sim 0.31 < 0.65",
    "talk_s": 53.4
   },
   "SPEAKER_00": {
    "person": null,
    "name": "Hablante sin identificar 9",
    "decision": "unknown",
-   "reason": "best sim 0.28 < 0.55",
+   "reason": "best sim 0.28 < 0.65",
    "talk_s": 117.2
   },
   "SPEAKER_11": {
    "person": null,
    "name": "Hablante sin identificar 10",
    "decision": "unknown",
-   "reason": "best sim 0.26 < 0.55",
+   "reason": "best sim 0.26 < 0.65",
    "talk_s": 312.9
   },
   "SPEAKER_01": {
@@ -106,21 +106,21 @@
    "person": null,
    "name": "Hablante sin identificar 12",
    "decision": "unknown",
-   "reason": "best sim 0.15 < 0.55",
+   "reason": "best sim 0.15 < 0.65",
    "talk_s": 55.5
   },
   "SPEAKER_05": {
    "person": null,
    "name": "Hablante sin identificar 13",
    "decision": "unknown",
-   "reason": "best sim 0.13 < 0.55",
+   "reason": "best sim 0.13 < 0.65",
    "talk_s": 74.1
   },
   "SPEAKER_06": {
    "person": null,
    "name": "Hablante sin identificar 14",
    "decision": "unknown",
-   "reason": "best sim 0.11 < 0.55",
+   "reason": "best sim 0.11 < 0.65",
    "talk_s": 21.3
   },
   "SPEAKER_04": {
@@ -282,7 +282,7 @@
    "label": "SPEAKER_03",
    "person": null,
    "name": "Hablante sin identificar 12",
-   "text": "No vengo a molestarte, pero quería acercarme, por si hoy había explicación. Dos millones de horas de entrante, seis gritos, cuatro romances, pero ninguna razón Sigo llegando tarde, se me hace largo el viaje, para esta conversación quisiera molestarte ¡Suscríbete al canal!"
+   "text": "No vengo a molestarte, pero quería acercarme, por si hoy había explicación. Dos millones de horas de entrante, seis gritos, cuatro romances, pero ninguna razón Sigo llegando tarde, se me hace largo el viaje, para esta conversación quisiera molestarte"
   },
   {
    "start": 548.48,
