@@ -365,3 +365,24 @@ section .search { margin-top: 1rem; }
 .dl li { padding: 0.8rem 0; border-bottom: 1px solid var(--rule); }
 .dl code, .prose code { font-size: 0.875em; }
 .frow.chk input { width: 1.1rem; height: 1.1rem; padding: 0; margin: 0; flex: none; }
+
+/* home: what it is and how to use it */
+.howto { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0; margin: 1.5rem 0 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+.ht { display: flex; flex-direction: column; gap: 0.3rem; padding: 0.9rem 0.9rem 1rem 0; text-decoration: none; min-width: 0; }
+.ht + .ht { border-left: 1px solid var(--rule); padding-left: 0.9rem; }
+.ht:hover { background: var(--paper-2); }
+.ht-t { font: 600 1.05rem/1.2 var(--serif); }
+.ht-t::after { content: " →"; color: var(--muted); }
+.ht-x { font: 400 0.875rem/1.45 var(--sans); color: var(--ink-2); }
+.beta { margin: 1.25rem 0 0; padding: 0.8rem 1rem; border: 1px solid var(--rule-strong); max-width: 46rem; }
+.beta p { margin: 0; font: 400 0.9375rem/1.5 var(--sans); }
+@media (max-width: 760px) {
+  .howto { grid-template-columns: 1fr 1fr; }
+  .ht:nth-child(odd) { border-left: 0; padding-left: 0; }
+  .ht:nth-child(n+3) { border-top: 1px solid var(--rule); }
+}
+/* phones: nothing may be wider than the screen */
+.nav { flex-wrap: wrap; gap: 0.35rem 1rem; }
+.search input { min-width: 0; flex: 1 1 auto; }
+.search button { flex: none; }
+.prose, .lede, .beta, .ht-x { overflow-wrap: anywhere; }

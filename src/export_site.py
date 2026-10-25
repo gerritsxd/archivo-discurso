@@ -35,7 +35,8 @@ from marks import time_at  # noqa: E402
 ROOT = Path(__file__).resolve().parent.parent
 SITE_NAME = "Archivo del discurso"
 SITE_SUB = "Lo que dicen en público los candidatos a las elecciones generales del 29 de noviembre de 2026"
-BANNER = "Transcripción automática, sin revisar. Comprueba siempre la fuente."
+BANNER = "Versión de prueba · Transcripción automática, sin revisar: comprueba siempre la fuente."
+ISSUES_URL = "https://github.com/gerritsxd/archivo-discurso/issues/new"
 # Corrections contact. Leave empty until a public address exists; pages then say so.
 CONTACT_EMAIL = ""
 # Text shown in the game's "Compartir" line (no scheme, so it stays short).
@@ -475,14 +476,19 @@ def build_home(ctx):
     body = f"""
 <section class="hero">
   <p class="kicker">Elecciones generales · 29 de noviembre de 2026</p>
-  <h1>Derecho a la información: lo que dijeron, con la fuente.</h1>
-  <a class="game-promo" href="juego.html">
-    <span class="gp-kicker">Juego diario</span>
-    <span class="gp-title">5 frases, ¿quién lo dijo?</span>
-    <span class="gp-text" id="game-status">Las mismas frases para todos, cada día. Un minuto.</span>
-    <span class="gp-cta" id="game-cta">Jugar</span>
-  </a>
-  {search_form("", big=True)}
+  <h1>Todo lo que dicen en público los candidatos, transcrito y con enlace al segundo exacto.</h1>
+  <p class="lede">Mítines, entrevistas y ruedas de prensa de Pedro Sánchez, Alberto Núñez Feijóo, Santiago Abascal, Ada Colau, Irene Montero e Ione Belarra desde el 5 de octubre. Un programa transcribe el audio, reconoce quién habla por su voz y enlaza cada frase al momento exacto del vídeo o audio original, para que puedas comprobarla.</p>
+  {search_form("", big=True, placeholder="Busca lo que han dicho: vivienda, pensiones, salario mínimo…")}
+  <div class="howto">
+    <a class="ht" href="buscar.html"><span class="ht-t">Buscar</span><span class="ht-x">Escribe una palabra o una frase entre comillas y verás quién la dijo, cuándo y dónde, con la pregunta que le hicieron.</span></a>
+    <a class="ht" href="analisis.html"><span class="ht-t">Preguntar</span><span class="ht-x">«¿Qué ha prometido Feijóo sobre vivienda?». Responde con frases reales del archivo, cada una enlazada.</span></a>
+    <a class="ht" href="analisis.html#promesa"><span class="ht-t">Analizar</span><span class="ht-x">Promesas, cifras, ataques, descalificaciones, posibles contradicciones y el tono de cada candidato.</span></a>
+    <a class="ht" href="juego.html"><span class="ht-t">Jugar</span><span class="ht-x" id="game-status">5 frases reales al día: ¿quién lo dijo? Un minuto.</span></a>
+  </div>
+  <div class="beta" role="note">
+    <p><strong>Es una versión de prueba y buscamos errores.</strong> Si ves una frase atribuida a quien no la dijo, un enlace que no lleva al momento de la frase, una transcripción rara o algo que no funciona, <a href="{ISSUES_URL}">cuéntanoslo aquí</a> con el enlace de la página (o díselo a quien te pasó la web).</p>
+  </div>
+  <span id="game-cta" hidden></span>
   <dl class="counts">
     <div><dt id="l-items">{"aparición" if len(items) == 1 else "apariciones"}</dt><dd id="n-items">{num_es(len(items))}</dd></div>
     <div><dt>horas de audio</dt><dd id="n-hours">{f"{ctx['total_secs'] / 3600:.1f}".replace(".", ",")}</dd></div>
@@ -738,7 +744,7 @@ def build_how(ctx, web):
     vps = sorted(ctx["voiceprints"])
     vp_names = ", ".join(esc(ctx["people"][v]["name"]) for v in vps if v in ctx["people"]) or "ninguna"
     contact = (f'<a href="mailto:{esc(CONTACT_EMAIL)}">{esc(CONTACT_EMAIL)}</a>' if CONTACT_EMAIL
-               else "la dirección de correo para correcciones (se publicará aquí antes de abrir el archivo al público)")
+               else f'<a href="{ISSUES_URL}">esta página</a> (necesita una cuenta gratuita de GitHub; el correo de correcciones se publicará antes de abrir el archivo al público)')
     rep = {"{{N_ITEMS}}": num_es(len(ctx["items"])), "{{HOURS}}": hours_es(ctx["total_secs"]),
            "{{VOICEPRINTS}}": vp_names, "{{CONTACT}}": contact}
     for k, v in rep.items():
