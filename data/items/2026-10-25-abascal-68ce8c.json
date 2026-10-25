@@ -1,0 +1,118 @@
+{
+ "id": "2026-10-25-abascal-68ce8c",
+ "date": "2026-10-25",
+ "expected_person": "Santiago Abascal",
+ "kind": "other",
+ "outlet": "VOX España YouTube",
+ "title": "SANTIAGO ABASCAL en LA CORUÑA: \"El escaño se juega entre VOX o el BNG\"",
+ "url": "https://www.youtube.com/watch?v=R5nLH63PVxM",
+ "language": "es",
+ "duration_s": 105.54,
+ "sha256": "573dc7bbab6beb9dace634c45555006eea0f424f1adfe3eeedf96c3a085a9564",
+ "fetched_at": "2026-10-25T17:18:58+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T18:58:57+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "too_short",
+   "reason": "only 16s of speech",
+   "talk_s": 16.3
+  },
+  "SPEAKER_01": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "too_short",
+   "reason": "only 16s of speech",
+   "talk_s": 16.0
+  }
+ },
+ "turns": [
+  {
+   "start": 7.78,
+   "end": 23.93,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "¿Cómo llenar la humanidad?"
+  },
+  {
+   "start": 24.15,
+   "end": 37.9,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¡El diablo hiciera España! ¡Irá! ¡Gracias! ¡Santi! ¡Santi!"
+  },
+  {
+   "start": 39.06,
+   "end": 40.18,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "¡Una foto, por"
+  },
+  {
+   "start": 40.18,
+   "end": 40.18,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "favor!"
+  },
+  {
+   "start": 41.54,
+   "end": 43.14,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "¡Abascal, por favor! ¡Tresi, una foto!"
+  },
+  {
+   "start": 43.44,
+   "end": 44.88,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¡Tresi, por favor! ¡Gracias!"
+  },
+  {
+   "start": 45.16,
+   "end": 51.46,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "¡Una foto, señor! ¡Una foto, un amor de diablo! ¡Eres nuestro ídolo, Abascal!"
+  },
+  {
+   "start": 51.7,
+   "end": 53.12,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¡Eres nuestro ídolo, Abascal!"
+  },
+  {
+   "start": 53.38,
+   "end": 54.44,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "¡Tresi, por favor!"
+  },
+  {
+   "start": 70.14,
+   "end": 73.6,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¡Dios te bendiga en el nombre de Jesús! ¡Santiago!"
+  }
+ ]
+}

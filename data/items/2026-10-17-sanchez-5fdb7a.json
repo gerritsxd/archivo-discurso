@@ -1,0 +1,146 @@
+{
+ "id": "2026-10-17-sanchez-5fdb7a",
+ "date": "2026-10-17",
+ "expected_person": "Pedro Sánchez",
+ "kind": "other",
+ "outlet": "RTVE Noticias YouTube",
+ "title": "Sánchez, after Montse Mínguez's resignation: \"We've lost a great colleague and a great asset\" | RTVE",
+ "url": "https://www.youtube.com/watch?v=Wa6Tr7afCIc",
+ "language": "es",
+ "duration_s": 158.21,
+ "sha256": "6ce061f7fbca55d094ab93657aeda424909db5fef1f069ba1a73d62ba8851f7b",
+ "fetched_at": "2026-10-25T17:21:52+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T18:45:06+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_02": {
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "decision": "match",
+   "reason": "sim 0.87, next 0.19",
+   "talk_s": 24.2
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "too_short",
+   "reason": "only 4s of speech",
+   "talk_s": 4.4
+  },
+  "SPEAKER_04": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "unknown",
+   "reason": "best sim 0.42 < 0.65",
+   "talk_s": 31.2
+  },
+  "SPEAKER_05": {
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "decision": "unknown",
+   "reason": "best sim 0.36 < 0.65",
+   "talk_s": 42.6
+  },
+  "SPEAKER_01": {
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "decision": "too_short",
+   "reason": "only 4s of speech",
+   "talk_s": 3.7
+  },
+  "SPEAKER_03": {
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "decision": "unknown",
+   "reason": "best sim 0.25 < 0.65",
+   "talk_s": 39.5
+  }
+ },
+ "turns": [
+  {
+   "start": 0.0,
+   "end": 24.82,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Empezamos por la noticia de la tarde, dimisión en el PSOE. Su portavoz, Monse Mínguez, deja la portavocía, no encabezará la lista socialista proyeida y abandona la política. Mínguez se va cuatro días después de trascender que su pareja tiene un negocio inmobiliario de alquiler de una treintena de viviendas. En plena precampaña, esa circunstancia estaba ya en todos los discursos de la oposición."
+  },
+  {
+   "start": 26.5,
+   "end": 50.58,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Tres días después de la publicación de que su pareja es propietaria de una empresa con 30 pisos de alquiler, la portavoz del PSOE, Montse Mínguez, renuncia a todos sus cargos. Deja su escaño en la Diputación Permanente, la portavocía nacional del partido, y ya no será cabeza de lista por Lleida. En X ha señalado que se va con la conciencia tranquila. Sánchez y su partido la habían respaldado."
+  },
+  {
+   "start": 50.58,
+   "end": 54.8,
+   "label": "SPEAKER_02",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Yo desconozco cuáles son las actividades profesionales de la pareja."
+  },
+  {
+   "start": 55.0,
+   "end": 58.34,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Se trata de perseguir y señalar a quien hace una actividad lícita."
+  },
+  {
+   "start": 58.64,
+   "end": 61.8,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Al tiempo que centraba las críticas de la oposición."
+  },
+  {
+   "start": 62.06,
+   "end": 67.0,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Ya basta prohibir los desahucios salvo que los hagas tú."
+  },
+  {
+   "start": 67.24,
+   "end": 70.84,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Mínguez llevaba al frente de la portavocía de Ferraz 15 meses."
+  },
+  {
+   "start": 72.4,
+   "end": 85.86,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Hemos escuchado el respaldo de Sánchez de estos días. Pues bien, desde Bruselas, Sánchez esta tarde ha vuelto a defender a Mínguez y lamenta su salida de la política que ha enmarcado en una decisión estrictamente personal."
+  },
+  {
+   "start": 86.24,
+   "end": 133.3,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Almudena Guerrero Lo que ha contado el presidente es que antes de que se anunciara su dimisión ha hablado con ella por mensaje. Sánchez ha estado hoy aquí todo el día en Bruselas. La reunión del Consejo Europeo se ha alargado más de lo previsto y ha terminado poco después de que conociéramos la noticia. Asegura el presidente que le ha pedido que continuara, que no lo dejara porque considera su situación injusta y la ha elogiado como política y como portavoz. Dice Sánchez que él sabía por terceros, por compañeros de partido, que Montse Mínguez ha afirmado lo estaba pasando muy mal. Cuota PSC se convertía en una de las caras y voces más visibles del PSOE de la mano de Sánchez tras la remodelación de la ejecutiva con la salida de Santos-Ferdán."
+  },
+  {
+   "start": 134.7,
+   "end": 157.58,
+   "label": "SPEAKER_02",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Y yo lo lamento, yo le dije que no lo hiciera, porque creo que es una extraordinaria portavoz, es una inmensa política, pero efectivamente el nivel de dureza y de agresividad y de odio que en muchas ocasiones no sufren solamente aquellas personas que están en política, sino también sus seres queridos, es algunas veces irreparable."
+  }
+ ]
+}

@@ -1,0 +1,549 @@
+{
+ "id": "2026-10-22-sanchez-1fe3b5",
+ "date": "2026-10-22",
+ "expected_person": "Pedro Sánchez",
+ "kind": "other",
+ "outlet": "RTVE Play - La Revuelta",
+ "title": "La Revuelta | Pedro Sánchez: \"Uso la IA de vez en cuando, pero veo el peligro\"",
+ "url": "https://www.rtve.es/play/videos/la-revuelta/pedro-sanchez-uso-ia-vez-cuando-pero-veo-peligro/17279304/",
+ "language": "es",
+ "duration_s": 518.02,
+ "sha256": "f29ee03a1f33e17e2f1468b825a994c15129d78044f538c1d1ec1e198cc1f0f8",
+ "fetched_at": "2026-10-25T17:11:37+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T18:53:50+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_02": {
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "decision": "match",
+   "reason": "sim 0.78, next 0.21",
+   "talk_s": 291.2
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "unknown",
+   "reason": "best sim 0.22 < 0.65",
+   "talk_s": 27.4
+  },
+  "SPEAKER_01": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "unknown",
+   "reason": "best sim 0.22 < 0.65",
+   "talk_s": 188.0
+  }
+ },
+ "turns": [
+  {
+   "start": 0.0,
+   "end": 16.5,
+   "label": "SPEAKER_02",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "No deja de ser producto de la época que vive ahora mismo el mundo, de la ultraderecha, ya sea independentista o ultranacionalista, como es el caso de Vox, pues está avanzando. Y yo le echo mucho la culpa a los algoritmos."
+  },
+  {
+   "start": 16.98,
+   "end": 18.42,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Al algoritmo, eh. Sí, sí, sí."
+  },
+  {
+   "start": 18.42,
+   "end": 21.4,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "A los rappers, hay muchos rappers ahora de ultraderecha, tío."
+  },
+  {
+   "start": 21.58,
+   "end": 22.74,
+   "label": "SPEAKER_02",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Los rappers. Joder, J.C."
+  },
+  {
+   "start": 23.86,
+   "end": 25.98,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Reyes dice que ha dejado la música por Pedro Sánchez, tío."
+  },
+  {
+   "start": 26.1,
+   "end": 27.1,
+   "label": "SPEAKER_02",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Yo lo veo, yo lo veo."
+  },
+  {
+   "start": 27.1,
+   "end": 28.74,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Que muchas gracias por otro lado."
+  },
+  {
+   "start": 32.68,
+   "end": 55.14,
+   "label": "SPEAKER_02",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Yo creo que nosotros, la sociedad en un conjunto. Los algoritmos, las redes sociales, dices y... Bueno, pero sí, los algoritmos, porque al final los algoritmos son los que te dicen, los que te hacen un engagement de una manera u otra, los que te dirigen la conversación. Yo creo que hemos pecado muy de ingenuos pensando que la tecnología es neutra. Cuando tú te reúnes con los tecnoligarcas, esto yo he tenido ocasión..."
+  },
+  {
+   "start": 55.14,
+   "end": 55.88,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "¿Con quién? ¿Con quién has estado?"
+  },
+  {
+   "start": 56.06,
+   "end": 58.0,
+   "label": "SPEAKER_02",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "No te voy a decir, pero yo me he reunido con algunos de estos..."
+  },
+  {
+   "start": 58.26,
+   "end": 61.32,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "¿Has estado con Peter Thiel? ¿Este sabes quién es? No, ese no, ese no."
+  },
+  {
+   "start": 61.88,
+   "end": 62.18,
+   "label": "SPEAKER_02",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Ojo, ¿eh?"
+  },
+  {
+   "start": 62.34,
+   "end": 63.06,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Es listo y zorrete, ¿eh?"
+  },
+  {
+   "start": 64.64,
+   "end": 66.48,
+   "label": "SPEAKER_02",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Y se va al Vaticano a hablar del anticristo."
+  },
+  {
+   "start": 66.54,
+   "end": 97.7,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Se va al Vaticano, tiene una mezcla increíble, pero bueno, la gente que no conoce es un tío que es mega multimillonario porque vendió Paypal y tal, y ahora el tío es como de estos... No sé si has visto que él y otros de este estilo, americanos y tal, hacen una cosa o propugnan una cosa que llaman la ilustración oscura. ¿Has visto esto? Sí, sí, sí. Dicen que la ilustración que hubo en Europa hace unos siglos, a raíz de los cuales surgieron muchas cosas, creo que positivas, La democracia, las artes, muchas cosas así. Ellos dicen que fue un error porque se dio demasiado poder a la gente y que hay que revertir eso y demás. Y son gente que lo dice racionalmente y encima tiene mucho poder y tal."
+  },
+  {
+   "start": 97.82,
+   "end": 104.18,
+   "label": "SPEAKER_02",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Y da mucho miedo. Porque tiene mucho poder, tiene mucho dinero y creo que han jugado con la ingenuidad y las buenas intenciones de la sociedad."
+  },
+  {
+   "start": 104.18,
+   "end": 104.9,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Son listos muchas veces."
+  },
+  {
+   "start": 104.96,
+   "end": 110.68,
+   "label": "SPEAKER_02",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Es un tío muy inteligente, claro. Muy inteligente, como otros muchos, pero lo inteligente no significa que seas malvado o no malvado."
+  },
+  {
+   "start": 110.68,
+   "end": 111.84,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "No, la inteligencia se puede..."
+  },
+  {
+   "start": 111.84,
+   "end": 121.92,
+   "label": "SPEAKER_02",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "La inteligencia es muy inteligente, que es muy malvada y a lo largo de la historia tenemos casos como este. ¿Qué es lo que pasa? Yo muchas veces cuando he hablado con algunos de estos tecnoligarcas y les he explicado las razones por las cuales..."
+  },
+  {
+   "start": 121.92,
+   "end": 123.42,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "¿Dónde quedáis para esas cosas a un tipo de gruta?"
+  },
+  {
+   "start": 124.16,
+   "end": 166.9,
+   "label": "SPEAKER_02",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Sí, aquí al lado. ¿En el tallatela? Sí, en el tallatela. ¿Y los más qué? Sí, ahí en un menú de casa, ¿no? Nada, el caso es que te dicen, no, pero es que nosotros lo que hacemos es una plataforma, esto es neutro, los ciudadanos pueden explicar y decir todo lo que quieran, pero claro, es que en las plataformas tú no puedes decir todo lo que quieras. Tú lo que no puedes hacer es jugar con las imágenes de menores con contenidos sexuales, como ahora mismo permite la inteligencia artificial. Y hay sentencias que están ahora mismo saliendo en Estados Unidos, donde efectivamente se responsabiliza a estas plataformas de nada más y nada menos que suicidios de jóvenes y no tan jóvenes."
+  },
+  {
+   "start": 166.9,
+   "end": 184.52,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Y pasa cuando el otro día estuve viendo un reportaje sobre TikTok y demás y tal, que hace mucho oídos sordos cuando hay quejas sobre, bueno, pues niños o niñas que ponen vídeos bailando o ponen tal y esto, y hay gente que aprovecha eso pues para, ya sabemos para qué. Bueno, tampoco están ellos muy pensando en defender eso porque necesitan más volumen de negocio."
+  },
+  {
+   "start": 184.6,
+   "end": 189.92,
+   "label": "SPEAKER_02",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "¿Qué herramientas tenemos desde el Estado? Pues herramientas tenemos la legislación y la cooperación internacional."
+  },
+  {
+   "start": 190.24,
+   "end": 193.1,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Dice respeto también a redes sociales y demás, ¿no?"
+  },
+  {
+   "start": 193.12,
+   "end": 194.16,
+   "label": "SPEAKER_02",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Claro, o sea, nosotros..."
+  },
+  {
+   "start": 194.16,
+   "end": 194.82,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Qué peligroso eso, es verdad que..."
+  },
+  {
+   "start": 195.42,
+   "end": 253.98,
+   "label": "SPEAKER_02",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Bueno, sobre todo lo que no puede ser es un estado fallido, lo que no puede ser es que tú, en el mundo off, es decir, en el que estamos, nosotros, en el físico, tengamos una serie de normas, de leyes, que tengamos que atacar, acatar, perdón, y que si tenemos que... Y que atacar, algunas leyes hay que atacarlas también, Pedro. Y si tenemos que reformarlas... Le pudo el subconsciente. Se reforman. Pero, coño, en el mundo digital necesitamos también esas normas. Ya, ya. Por ejemplo, el control en el acceso a las redes sociales de los menores, el que ellos mismos sean responsables también, hasta incluso con responsabilidad penal, de los algoritmos que desinforman o que no quitan contenidos que está contrastado, que son mentira o que son violentos y que incitan al odio. Hemos visto casos muy graves de conflictos internacionales donde estas plataformas han jugado, gracias al algoritmo, un papel perverso que ha costado vidas a miles de personas."
+  },
+  {
+   "start": 254.24,
+   "end": 278.52,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Sí, es verdad que las redes sociales durante unos cuantos años, hace una década y media cuando empezaron, tenían como muchas cosas buenas, y las siguen teniendo, pero es verdad, para mí esto ya es opinión personal, para mí las malas se superponen a las buenas a lo bestia. El otro día vi una entrevista a María Risa, ¿sabes esta risa con doble E? No es María Risa porque es una cómica. Esta señora filipina, Nobel de la Paz."
+  },
+  {
+   "start": 278.64,
+   "end": 279.04,
+   "label": "SPEAKER_02",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Fantástica."
+  },
+  {
+   "start": 280.2,
+   "end": 313.14,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Y la tía hablaba del peligro que plantea esto y sacaba un concepto que me llamó la atención que decía que esto y otras cosas, pero las redes sociales y el algoritmo y tal, dice que hacía perder la realidad compartida. Es decir, Latía hablaba de, históricamente, gente ha podido diferir en su opinión sobre un hecho, pero el hecho era claro, es decir, está pasando esto, y luego tú puedes interpretarlo de una manera u otra, pero ahora es como, no hay una realidad compartida, no opinamos sobre un hecho que es objetivo, sino que ni siquiera los hechos valen, entonces decía, eso es terrorífico, eso es un manicomio, el mundo se convierte en un manicomio."
+  },
+  {
+   "start": 313.14,
+   "end": 330.82,
+   "label": "SPEAKER_02",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Eso pasa por ejemplo con la emergencia climática, que claramente los terraplanistas lo que dicen es que esos son inventos del globalismo, de élites que lo único que quieren es ganar dinero con las renovables y realmente lo que están haciendo es defender un estatus quo que es injusto y que efectivamente es dañino para el planeta y la salud del planeta."
+  },
+  {
+   "start": 350.42,
+   "end": 351.82,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "¡Gracias!"
+  },
+  {
+   "start": 360.82,
+   "end": 377.74,
+   "label": "SPEAKER_02",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Pero estamos haciendo bastante, porque fíjate, nosotros, ahora mismo España, a nivel de electrificación, estamos en torno al 20% de nuestra economía, un poquito más. Tenemos el 60% de la generación eléctrica en nuestro país proviene de renovables. Cuando estaba Mariano Rajoy le ponían el impuesto al sol."
+  },
+  {
+   "start": 377.86,
+   "end": 378.74,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Como le echo de menos, ¿eh?"
+  },
+  {
+   "start": 379.32,
+   "end": 388.48,
+   "label": "SPEAKER_02",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Pues yo no le echo nada de menos. O sea, no me digas. De todas formas, volviendo un momento a la inteligencia artificial, porque me parece clave. Porque yo conocí a esta mujer también."
+  },
+  {
+   "start": 388.48,
+   "end": 389.34,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Muy gracioso."
+  },
+  {
+   "start": 389.34,
+   "end": 391.32,
+   "label": "SPEAKER_02",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Me conocí a esta mujer también y me"
+  },
+  {
+   "start": 391.32,
+   "end": 393.02,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "pareció... ¿La conociste a esta señora? Sí, sí, sí."
+  },
+  {
+   "start": 393.18,
+   "end": 394.52,
+   "label": "SPEAKER_02",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Ella es premio Nobel."
+  },
+  {
+   "start": 394.7,
+   "end": 395.4,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Sí, fue opositora"
+  },
+  {
+   "start": 395.4,
+   "end": 395.66,
+   "label": "SPEAKER_02",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "a"
+  },
+  {
+   "start": 395.4,
+   "end": 397.56,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Duterte en Filipinas y tal."
+  },
+  {
+   "start": 397.78,
+   "end": 407.98,
+   "label": "SPEAKER_02",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Sufrió la desinformación muchísimo, fue muy grave. Pero volviendo a la conversación que tengo con estos tecnoligarcas, lo que te dicen es, no, pero esto lo autorregulamos nosotros."
+  },
+  {
+   "start": 409.66,
+   "end": 421.9,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Sí, como con la IA pasa ahora, que dicen ellos... No, no, no os preocupéis, confiad en nosotros. No, pero no, o sea... No, porque les puede al final la avaricia empresarial y les da igual lo que hagan. La gente mira por lo suyo, por su dinero. Bueno, y están en otro rollo."
+  },
+  {
+   "start": 422.02,
+   "end": 422.16,
+   "label": "SPEAKER_02",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Sí, sí, por eso."
+  },
+  {
+   "start": 422.72,
+   "end": 423.18,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Están en un rollo,"
+  },
+  {
+   "start": 423.18,
+   "end": 468.34,
+   "label": "SPEAKER_02",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "algunas veces, hasta incluso post-humanista, ¿no? Sí, sí. O transhumanista, como hablan ellos, ¿no? Uno pensando en irse a Marte, el otro en ponerse un chip en la cabeza, que suena a locura, pero que esta gente está en eso. Y, por tanto, yo creo que es muy importante el tener gobiernos que pongan pie en pared en esto, que utilicen todas las herramientas que tiene el Estado, La Unión Europea, en nuestro caso, y también a nivel multilateral, para tener una tecnología al servicio de la gente y no la gente al servicio de la tecnología. La inteligencia artificial es una industria extractiva, extractiva, desde el punto de vista de los recursos naturales, la explotación laboral, hasta incluso los datos que tú o que yo, cuando utilizamos el móvil, estamos dando gratuitamente a compañías que lo utilizan luego para hacer negocio."
+  },
+  {
+   "start": 469.02,
+   "end": 476.22,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Lo usas, usas de vez en cuando. Hombre, claro que utilizo la IA, por supuesto. Yo dudo a veces. Y me ayuda, y me ayuda, pero también"
+  },
+  {
+   "start": 476.22,
+   "end": 477.96,
+   "label": "SPEAKER_02",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "veo el peligro."
+  },
+  {
+   "start": 478.08,
+   "end": 482.14,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Hombre, claro, claro, te hace más plano, te hace más inútil."
+  },
+  {
+   "start": 482.36,
+   "end": 487.82,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "A mí me ha dicho esa GPT que vote al PP, eh, cuidado, eh. Bueno, pero sabes que esa"
+  },
+  {
+   "start": 487.82,
+   "end": 491.08,
+   "label": "SPEAKER_02",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "GPT es falible, no es infalible."
+  },
+  {
+   "start": 491.32,
+   "end": 496.58,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Ah, falible, pensaba que... No, no, te quiero decir que puede equivocarse, puede equivocarse."
+  },
+  {
+   "start": 496.7,
+   "end": 502.84,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Sí, sí, totalmente. Pero qué razones... De todas formas... ¿Te lo desarrollaba? ¿Qué razones te daba? ¿Cómo te lo argumenta?"
+  },
+  {
+   "start": 502.84,
+   "end": 503.64,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Me ha dicho vota"
+  },
+  {
+   "start": 503.64,
+   "end": 503.76,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "al PP, tío."
+  },
+  {
+   "start": 504.2,
+   "end": 508.16,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Le he dicho, no jodas, no sea así, yo pongo así un poco las características."
+  },
+  {
+   "start": 508.16,
+   "end": 509.5,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Lo que tú piensas de las cosas, ¿no?"
+  },
+  {
+   "start": 509.52,
+   "end": 512.46,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "No, las características de vida y me dice que..."
+  },
+  {
+   "start": 512.46,
+   "end": 514.98,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Ah, bueno, es que tú que estás forrado por características de vida, te interesa que gane"
+  },
+  {
+   "start": 514.98,
+   "end": 515.42,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "el PP, claro."
+  },
+  {
+   "start": 515.78,
+   "end": 517.86,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "O sea, por supuesto, te conoce, claro, claro. Sí, sí."
+  }
+ ]
+}

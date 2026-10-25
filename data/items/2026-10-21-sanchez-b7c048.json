@@ -1,0 +1,100 @@
+{
+ "id": "2026-10-21-sanchez-b7c048",
+ "date": "2026-10-21",
+ "expected_person": "Pedro Sánchez",
+ "kind": "other",
+ "outlet": "RTVE Play - Telediario 2",
+ "title": "Sánchez ve a Feijóo, Abascal y Milei como \"la misma peña, la de la motosierra\": \"Os vamos a llevar al aserradero\"",
+ "url": "https://www.rtve.es/play/videos/telediario-2/sanchez-ve-feijoo-abascal-milei-como-misma-pena-motosierra-vamos-llevar-aserradero/17277621/",
+ "language": "es",
+ "duration_s": 90.28,
+ "sha256": "0dfb08d4c0bf157b2f845b5e806cfe52d8db0b75106e2779a99f72514c445cff",
+ "fetched_at": "2026-10-25T17:09:13+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T18:51:47+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_03": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "too_short",
+   "reason": "only 19s of speech",
+   "talk_s": 19.1
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "unknown",
+   "reason": "best sim 0.50 < 0.65",
+   "talk_s": 48.5
+  },
+  "SPEAKER_02": {
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "decision": "too_short",
+   "reason": "only 12s of speech",
+   "talk_s": 12.5
+  },
+  "SPEAKER_01": {
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "decision": "too_short",
+   "reason": "only 6s of speech",
+   "talk_s": 5.7
+  }
+ },
+ "turns": [
+  {
+   "start": 0.0,
+   "end": 17.34,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "En sus años que lleva de gobierno, 11 millones de argentinos y argentinas en la economía informal, sin cotizar a la Seguridad Social y cobrando en negro. Aquí en España, gracias a la reforma laboral y a la subida del salario mínimo interprofesional, 22,6 millones de trabajadores y trabajadoras cotizando a la Seguridad Social."
+  },
+  {
+   "start": 18.9,
+   "end": 30.82,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Así amanecía hoy Ferraz, el PSOE daba la bienvenida a Milei, al país que más crece de Europa, dice esta gran lona, llevando a su terreno el término con el que el presidente argentino descalifica a la izquierda."
+  },
+  {
+   "start": 31.02,
+   "end": 32.74,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Soy zurdo y a mucha honra."
+  },
+  {
+   "start": 32.92,
+   "end": 49.03,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Sánchez entra de lleno en el cuerpo a cuerpo desde las redes sociales y en el mítin de esta tarde donde ha sonado Esta canción que la artista argentina Lali Expósito publicó en respuesta a los ataques de Milenio."
+  },
+  {
+   "start": 49.13,
+   "end": 61.51,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Como dictadura España deja mucho que desear, porque tenemos hasta la paciencia de escucharle a él. El uso es muy de visitar a ticos y recibir a lunáticos. Señor impresentable y maleducado, lo primero que hace es venir a insultar."
+  },
+  {
+   "start": 61.61,
+   "end": 89.41,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "El gobierno le acusa de intentar fomentar un clima de crispación y de violencia por declaraciones como esta. En un comunicado, Exteriores avisa que España es una nación soberana que no acepta ni injurias a su presidente ni injerencias externas. No es el primer enfrentamiento. En 2024, el Ejecutivo retiró a la embajadora en Buenos Aires después de que Milley llamara a Begoña Gómez corrupta."
+  }
+ ]
+}

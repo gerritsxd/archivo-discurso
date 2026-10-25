@@ -1,0 +1,61 @@
+{
+ "id": "2026-10-21-sanchez-035ff9",
+ "date": "2026-10-21",
+ "expected_person": "Pedro Sánchez",
+ "kind": "other",
+ "outlet": "RTVE Noticias YouTube",
+ "title": "Sánchez: \"An agreement is urgent to face the climate emergency\" | RTVE News",
+ "url": "https://www.youtube.com/watch?v=wp9Wc5j6-Kg",
+ "language": "es",
+ "duration_s": 925.01,
+ "sha256": "834cbc42ebb19f57d5f86cab03f59b6146a90fc8ce60b05534879c8f2c1a6919",
+ "fetched_at": "2026-10-25T17:22:35+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T18:50:17+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_01": {
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "decision": "match",
+   "reason": "sim 0.89, next 0.21",
+   "talk_s": 546.4
+  },
+  "SPEAKER_02": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "unknown",
+   "reason": "best sim 0.28 < 0.65",
+   "talk_s": 67.6
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "too_short",
+   "reason": "only 2s of speech",
+   "talk_s": 1.9
+  }
+ },
+ "turns": [
+  {
+   "start": 0.0,
+   "end": 78.48,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Eliminar vegetación es algo que nos han trasladado y que creo que hoy tenemos que recoger el guante, si me permiten la expresión, y elaborar planes también que garanticen un mejor drenaje y una mejor atención de la emergencia en la prevención que es en las obras hídricas. Yo quiero terminar esta intervención y darle paso al presidente del Gobierno de España también con un mensaje a todas aquellas personas que han perdido su hogar o que han perdido muchos de sus bienes. No van a estar solas, vamos a estar a la altura que merecen y vamos a seguir trabajando para que recuperen cuanto antes la normalidad. Si somos capaces de hacerlo coordinadamente y si somos capaces de anteponer los intereses de las personas por encima de cualquier interés político, demostraremos que estamos a la altura de los ciudadanos de esta tierra, de esta comunidad. Que no tengan dudas que va a ser así por parte de la Generalitat Valenciana y estoy convencido que después de las conversaciones que hemos tenido va a ser por parte de todas las administraciones. Muchas gracias. Muchas gracias, presidente."
+  },
+  {
+   "start": 79.34,
+   "end": 659.62,
+   "label": "SPEAKER_01",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Muchas gracias, presidente. Como siempre hago en este tipo de comparecencias, quiero en primer lugar agradecer a los medios de comunicación la información que han dado a sus conciudadanos en momentos muy difíciles, muy críticos, en los que necesitaban una información veraz sobre la evolución de la DANA, sobre sus consecuencias, y, por tanto, dar las informaciones de servicio público que sin ustedes y los medios de comunicación hubiera sido imposible, por mucho que las instituciones estuviéramos empeñados en ello. En segundo lugar, agradecer la cooperación de todas las instituciones, sumarme, como ha hecho el presidente, a las condolencias por las personas que han fallecido en esta dana, A sus familiares y a sus seres queridos, porque por desgracia hemos tenido fallecidos de nuevo en una dana, en una situación de emergencia climática y esto nos tiene que hacer reflexionar a todos. Gracias a todos. Yo siempre en este tipo de comparecencias y cuando me dirijo a los ciudadanos y ciudadanas ante este tipo de eventos hablo del Estado, porque el Estado al final somos todos. El sistema de protección civil está compuesto por distintos ámbitos de las administraciones, distintos cuerpos, a los cuales yo quiero, en primer lugar, reconocer su espíritu de abnegación, de servicio público y de compromiso con la seguridad de sus conciudadanos. El Estado somos todos, desde un ayuntamiento hasta la Diputación Provincial, hasta el Gobierno Autonómico y el Gobierno de España. Eso es el Estado. Y cuando nuestros ciudadanos nos demandan protección, protección ante un riesgo de perder la vida, protección ante un riesgo de perderlo todo en sus hogares, Es protección ante la incertidumbre que plantea una emergencia climática que lleva a tener lluvias torrenciales como se han tenido durante estas últimas horas o también durante este verano incendios que han asolado algunas otras partes de la comunidad valenciana y de otros muchos puntos de la península ibérica y de nuestro territorio de España. España, siempre hemos hablado de ello, del Estado, del sistema de protección civil y, lógicamente, de todos sus componentes. Yo, desde luego, lo que quiero es también reconocer ese trabajo, ese servicio público, ese espíritu de abnegación de todos y cada uno de sus componentes. Porque realmente ellos sí demuestran que existe cooperación, que hay una conciencia común, que hay una experiencia que se comparte, que hay un conocimiento que también se comparte entre los distintos niveles precisamente para proteger la vida y la seguridad de la gente, de nuestros conciudadanos. Esto me lleva a otra reflexión que a mí me parece muy relevante y es la siguiente. Yo comparto que la cooperación y la unidad es fundamental y además traslado a los ciudadanos y ciudadanas de las zonas afectadas que por supuesto el Gobierno va a estar como siempre ha estado en la etapa de la reconstrucción y por tanto que aprobaremos en el Consejo de Ministros la declaración de zona gravemente afectada por una emergencia de protección civil y, por tanto, vamos a poner recursos económicos, vamos a facilitar también la agilización en la contratación pública, como se ha dicho por parte de los alcaldes y alcaldesas, para que se recupere cuanto antes la normalidad por parte de los vecinos y vecinas de estos municipios. Pero sí me gustaría hacer dos reflexiones. La primera tiene que ver con algo que yo creo que los ciudadanos y ciudadanas cada vez viven de manera mucho más intensa en primera persona. Gracias, señor presidente. que crean sus propias condiciones y que los hacen mucho más peligrosos de lo que han sido hasta ahora. Por extrapolación, cuando hablamos, y he tenido ocasión de hacerlo con alcaldes y alcaldesas, sobre las danas, las danas han sido recurrentes en el Mediterráneo de nuestro país, pero no con esta gravedad, no con esta intensidad, no con esta peligrosidad para los vecinos y vecinas de las zonas afectadas. Y esto tiene mucho que ver con una realidad climática que está sobrepasando, por desgracia, lo que nos advertía la ciencia desde hace ya muchos años. El que hoy tengamos unas temperaturas en el Mediterráneo entre 3 y 4 grados centígrados superiores en el mes de octubre a lo que es la media recurrente de este tipo de meses al año, Este año significa que efectivamente la emergencia climática está actuando como combustible exponencial para alterar aún más gravemente este tipo de sucesos climáticos. Y esto nos debe llevar a la siguiente reflexión, que es la segunda y con ello terminar. Tenemos que estar unidos y tenemos que cooperar, como lo estamos haciendo, en la respuesta ante la emergencia climática y, por tanto, en la protección civil. Y creo que lo sucedido durante estas últimas horas y días en la Comunidad Valenciana es un ejemplo de cómo unidos, cómo cooperando, el Estado en su conjunto puede dar una respuesta eficaz, aún lamentando, lógicamente, las pérdidas de vidas humanas y también de hogares que han tenido muchos de los vecinos y vecinas. Pero esa cooperación se tiene que trasladar también al antes y al después de esa emergencia de protección civil. Y me explico. Tenemos que incorporar, no hacer como si el elefante en la habitación no existiera, que es la variable climática, tenemos que incorporarla a la prevención para mitigar los efectos de la emergencia climática y, por tanto, minimizarlos, y a la reconstrucción para también mitigarlos gracias a las políticas de adaptación y por tanto hacer inversión en infraestructuras mucho más resilientes a un cambio climático que evidentemente está alterando el medio ambiente en el Mediterráneo de manera mucho más intensa que en otras partes de Europa. Y ese es el planteamiento que quiero hacer y que siempre he hecho cuando he tenido ocasión de poder hablar y dirigirme a los ciudadanos y ciudadanas de nuestro país. Urge un gran acuerdo de país frente a la emergencia climática. Urge. Lo tenemos que hacer todas las instituciones públicas, lo tenemos que hacer todos los representantes políticos, lo tiene que hacer toda la comunidad en su conjunto, toda la sociedad civil en su conjunto, Desde los agricultores a los ganaderos, a por supuesto también la ciencia, las personas que están más comprometidas con el ecologismo, entre todos tenemos que hacer un esfuerzo por lograr ese gran acuerdo de país que nos permita reforzar esa cooperación, no solamente cuando se produce esa emergencia climática y por tanto esa emergencia de protección civil, sino también en el antes y en el después. Para mitigar y adaptarnos a una realidad del clima completamente diferente a la que teníamos hace 40 o 50 años. Yo creo que ese gran acuerdo de país es un acuerdo de puro sentido común, es un acuerdo que creo que salvaría vidas, salvaría muchas más vidas y desde luego es un acuerdo en el que el Gobierno está completa y totalmente comprometido. Mientras tanto, desde luego haremos nuestra parte, la que nos corresponde como Administración General del Estado, y es continuar reforzando el servicio de protección civil y, por supuesto, también estando con los alcaldes y alcaldesas, con los vecinos y vecinas de sus municipios, en lo que es la reconstrucción de las zonas gravemente afectadas por esta emergencia de protección civil. Gracias a todos ustedes por hacerse eco de estas reflexiones y reconocer, no solamente en la persona del presidente de la Generalitat, de los presidentes de las diputaciones provinciales, sino muy especialmente los alcaldes y alcaldesas que están detrás de mí, el trabajo que también desde la política se hace por la seguridad de sus vecinos y vecinas. A mí me ha emocionado mucho escuchar a alguna alcaldesa decir que estuvieron a las 2 o 3 de la mañana mientras llovía con un megáfono en mano yendo a los vecinos y vecinas de su municipio informando de qué es lo que tenían que hacer ante esta inundación, de subirse al primer piso para estar más protegidos ante esta dana. Ese servicio público, ese compromiso político que trasciende las ideologías y que lógicamente está comprometido con la seguridad de sus vecinos y vecinas es la que yo creo que tiene que inspirar la acción de todos los representantes políticos. Nada más y muchas gracias."
+  }
+ ]
+}

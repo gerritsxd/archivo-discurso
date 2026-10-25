@@ -1,0 +1,86 @@
+{
+ "id": "2026-10-22-sanchez-da9310",
+ "date": "2026-10-22",
+ "expected_person": "Pedro Sánchez",
+ "kind": "other",
+ "outlet": "RTVE Play - La Revuelta",
+ "title": "La Revuelta | Pedro Sánchez: \"Las redes sociales deshumanizan al adversario político\"",
+ "url": "https://www.rtve.es/play/videos/la-revuelta/pedro-sanchez-redes-sociales-deshumanizan-adversario-politico/17279311/",
+ "language": "es",
+ "duration_s": 60.57,
+ "sha256": "fda53e6ee096216ff49d106047cbe73db59085557325004aa848fc004068fceb",
+ "fetched_at": "2026-10-25T17:10:11+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T18:54:29+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_00": {
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "decision": "match",
+   "reason": "sim 0.73, next 0.26",
+   "talk_s": 25.3
+  },
+  "SPEAKER_01": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "unknown",
+   "reason": "best sim 0.24 < 0.65",
+   "talk_s": 32.0
+  }
+ },
+ "turns": [
+  {
+   "start": 0.0,
+   "end": 30.62,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¿Cuánto afecta, perdón, última pregunta de este tema ya, que es, ¿por qué crees, supongo que tú lo habrás analizado más que nadie, ¿por qué crees que en una parte de la población, y hay mucha otra gente que te sigue seguro y tal, pero por qué crees que en una parte grande de la población despiertas como presidente un odio tan visceral? O sea, ha habido muchos presidentes en España que han hecho tremendas cagadas y que han generado animadversión y que tal, pero en tu caso supongo que estaremos de acuerdo que genera una cosa muy puntiaguda, muy bestia. ¿Cómo lo analizas tú?"
+  },
+  {
+   "start": 30.7,
+   "end": 46.34,
+   "label": "SPEAKER_00",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Bueno, yo creo que es más el signo de los tiempos, ¿no? Yo creo que las redes sociales efectivamente polarizan mucho, contribuyen a la deshumanización del adversario político. Eso es importante, sí, sí. Eso influye. Yo, bueno, pues efectivamente soy presidente del gobierno, yo se lo digo mucho a mis hijas y a mi familia."
+  },
+  {
+   "start": 46.58,
+   "end": 47.58,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¿Les recuerda? ¿No les recordaba?"
+  },
+  {
+   "start": 47.64,
+   "end": 54.2,
+   "label": "SPEAKER_00",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Dijas, soy presidente del gobierno. No, no, no, lo que les digo es, digo, afortunadamente esta responsabilidad, este puesto no es para toda la vida."
+  },
+  {
+   "start": 54.4,
+   "end": 54.7,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Ya, ya."
+  },
+  {
+   "start": 55.04,
+   "end": 58.22,
+   "label": "SPEAKER_00",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Pero cuatro años más, sí. ¡Gracias!"
+  }
+ ]
+}

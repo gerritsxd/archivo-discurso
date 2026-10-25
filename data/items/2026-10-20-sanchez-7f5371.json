@@ -1,0 +1,44 @@
+{
+ "id": "2026-10-20-sanchez-7f5371",
+ "date": "2026-10-20",
+ "expected_person": "Pedro Sánchez",
+ "kind": "other",
+ "outlet": "La Moncloa - Vídeos Presidente",
+ "title": "Pedro Sánchez visita el Puesto de Mando Avanzado en Oliva (Valencia) y se reúne con alcaldes de municipios afectados por la DANA",
+ "url": "https://www.lamoncloa.gob.es/multimedia/videos/presidente/Paginas/2026/201026-sanchez-visita-oliva-dana.aspx",
+ "language": "es",
+ "duration_s": 90.43,
+ "sha256": "2a7f10ceefb0e1d92c5808dc09799a302f03838e71e127e82c2541fd588d2d45",
+ "fetched_at": "2026-10-25T17:13:55+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T18:47:54+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "too_short",
+   "reason": "only 13s of speech",
+   "talk_s": 13.4
+  },
+  "SPEAKER_01": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "too_short",
+   "reason": "only 19s of speech",
+   "talk_s": 18.7
+  },
+  "SPEAKER_02": {
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "decision": "too_short",
+   "reason": "only 15s of speech",
+   "talk_s": 15.2
+  }
+ },
+ "turns": []
+}

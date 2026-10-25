@@ -1,0 +1,131 @@
+{
+ "id": "2026-10-24-colau-bc1b87",
+ "date": "2026-10-24",
+ "expected_person": "Ada Colau",
+ "kind": "other",
+ "outlet": "3Cat - Telenotícies",
+ "title": "Colau treu ferro del fracàs amb Podem i Junts marca distància amb Rufián",
+ "url": "https://www.3cat.cat/3cat/colau-treu-ferro-del-fracas-amb-podem-i-junts-marca-distancia-amb-rufian/video/6432392/",
+ "language": "ca",
+ "duration_s": 110.25,
+ "sha256": "6e25468a3236cdadd291e592d31bcf3e747c15bc2124cf6a86067cacc3562d23",
+ "fetched_at": "2026-10-25T17:12:05+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T18:57:54+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_03": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "too_short",
+   "reason": "only 8s of speech",
+   "talk_s": 8.1
+  },
+  "SPEAKER_04": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "unknown",
+   "reason": "best sim 0.46 < 0.65",
+   "talk_s": 57.1
+  },
+  "SPEAKER_01": {
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "decision": "too_short",
+   "reason": "only 11s of speech",
+   "talk_s": 10.9
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "decision": "too_short",
+   "reason": "only 9s of speech",
+   "talk_s": 9.4
+  },
+  "SPEAKER_02": {
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "decision": "too_short",
+   "reason": "only 15s of speech",
+   "talk_s": 14.6
+  }
+ },
+ "turns": [
+  {
+   "start": 0.59,
+   "end": 12.09,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Aquesta manifestació en defensa dels sous i de les pensions ha servit a Ada Colau per assegurar que no és moment de retrets cap a Podem. Sí viu contra unes altres sigles, les de PP i Vox."
+  },
+  {
+   "start": 12.63,
+   "end": 20.65,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "El adversario es la extrema derecha que hoy se presenta a las elecciones con dos siglas pero con una única agenda, que es cargarse salarios, cargarse pensiones."
+  },
+  {
+   "start": 20.81,
+   "end": 32.35,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Marcant perfil davant Gabriel Rufián i avui amb la samarreta contra el càncer, les candidates de Junts han reivindicat que són l'únic partit d'obediència, i la democràcia diuen estrictament catalana que es presenta en aquestes eleccions."
+  },
+  {
+   "start": 32.67,
+   "end": 46.63,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Per a alguns la prioritat acaba sent obeir als partits espanyols, aliar-se amb partits espanyols, formar part de tot aquest soroll i tota aquesta polarització, deixar-se arrossegar pels extrems. Per a nosaltres la prioritat és i ha estat sempre Catalunya, els catalans."
+  },
+  {
+   "start": 46.77,
+   "end": 58.87,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "En referència a Junts, Salvador Illa diu que no entén que es vulguin quedar al mig. A la presentació de la llista per Girona, el líder del PSC ha advertit de la involució que creu que seria un govern de dreta i extrema dreta."
+  },
+  {
+   "start": 59.07,
+   "end": 74.39,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Suprimir llibertats, suprimir les conquestes que hem assumit, desmantellar polítiques públiques, a sanitat, a habitatge, tornar enrere, plantegen una involució."
+  },
+  {
+   "start": 74.95,
+   "end": 86.45,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Encara en precampanya, però ja un clàssic, la visita al mercat. Xavier García Albiol, candidat del PP per Barcelona, ha explicat com redactaria una llei contra les ocupacions Com li va demanar Feijóo?"
+  },
+  {
+   "start": 86.77,
+   "end": 98.33,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Permitidme que lo diga, dureza frente a aquellos que han convertido la ocupación en su modo de vida y se dedican a hacer la vida imposible al resto de vecinos."
+  },
+  {
+   "start": 98.63,
+   "end": 108.29,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Vox repetirà número 1 per Barcelona. Juanjo Izcorbe remarca un discurs contra la immigració diu il·legal i el concepte prioritat nacional a l'hora de repartir ajudes."
+  }
+ ]
+}

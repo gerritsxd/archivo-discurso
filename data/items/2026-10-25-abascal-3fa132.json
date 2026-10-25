@@ -1,0 +1,62 @@
+{
+ "id": "2026-10-25-abascal-3fa132",
+ "date": "2026-10-25",
+ "expected_person": "Santiago Abascal",
+ "kind": "other",
+ "outlet": "VOX España YouTube",
+ "title": "SANTIAGO ABASCAL en MENORCA: \"Hay que llenar las urnas de SENTIDO COMÚN y DECENCIA\"",
+ "url": "https://www.youtube.com/watch?v=wCf-Q2dlNJw",
+ "language": "es",
+ "duration_s": 64.77,
+ "sha256": "119dea0b953ee41a3bc7265194ab819bbd9f84a01db06dca34c0d96f9ada1954",
+ "fetched_at": "2026-10-25T17:19:56+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T18:58:39+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_01": {
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "decision": "match",
+   "reason": "sim 0.72, next 0.31",
+   "talk_s": 42.6
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "too_short",
+   "reason": "only 6s of speech",
+   "talk_s": 5.5
+  }
+ },
+ "turns": [
+  {
+   "start": 9.97,
+   "end": 15.11,
+   "label": "SPEAKER_01",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Ayer salía en el programa este de la revuelta Sánchez y le preguntaban por Zapatero y decía no,"
+  },
+  {
+   "start": 15.17,
+   "end": 17.95,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "es que los presidentes muchas veces reciben"
+  },
+  {
+   "start": 17.95,
+   "end": 56.49,
+   "label": "SPEAKER_01",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "regalos de otros mandatarios y no saben ni lo que reciben. Dice, a mí el otro día me regaló un revólver el presidente de Turquía. Sí, sí, ya sabemos que los presidentes les darán muchas cosas que ni se enteran, pero Zapatero bien que se enteró, porque se lo robó al patrimonio del Estado, porque los regalos que recibe un presidente son patrimonio del Estado Y lo llevó a una caja fuerte en la sede del Partido Socialista, cuyo secretario general es Pedro Sánchez. Así que, Pedro Sánchez, ¿dónde tienes la pistola que te regaló Erdogan? También la has metido en la caja fuerte del Partido Socialista. Deja de engañar a la gente, deja de estafar y ponte a disposición judicial, que es lo que tenías que haber hecho hace mucho tiempo."
+  }
+ ]
+}

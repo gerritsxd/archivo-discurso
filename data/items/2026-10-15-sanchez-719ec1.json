@@ -1,0 +1,46 @@
+{
+ "id": "2026-10-15-sanchez-719ec1",
+ "date": "2026-10-15",
+ "expected_person": "Pedro Sánchez",
+ "kind": "other",
+ "outlet": "La Moncloa - Vídeos Presidente",
+ "title": "El presidente del Gobierno participa en el Consejo Europeo",
+ "url": "https://www.lamoncloa.gob.es/multimedia/videos/presidente/Paginas/2026/151026-sanchez-consejo-europeo.aspx",
+ "language": "es",
+ "duration_s": 476.06,
+ "sha256": "71ec1027eeafb3b83cf166f41e6a136e08628137a2e66dc936847c2f07899a06",
+ "fetched_at": "2026-10-25T17:16:10+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T18:41:32+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_00": {
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "decision": "match",
+   "reason": "sim 0.86, next 0.20",
+   "talk_s": 429.3
+  },
+  "SPEAKER_01": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "too_short",
+   "reason": "only 0s of speech",
+   "talk_s": 0
+  }
+ },
+ "turns": [
+  {
+   "start": 1.14,
+   "end": 475.74,
+   "label": "SPEAKER_00",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "¿Qué tal? Buenas tardes, ¿cómo estáis? Pues si os parece vamos a dar comienzo a esta rueda de prensa, son ya las siete menos cuarto, lo primero disculpas a los medios de comunicación por la tardanza, pero han sido muchos los debates que hemos tenido en este día y medio y por tanto pues muy densos, importantes también desde el punto de vista político y por tanto pues nos ha hecho prolongar este consejo, ¿no? Como hago siempre agradeceros a los medios de comunicación y por supuesto también a Marcos, al embajador y a todo el equipo de la embajada ante la Unión Europea por el trabajo que se hace de preparación de este consejo. Como he dicho antes hemos debatido asuntos de la máxima relevancia para el futuro de la Unión Europea y por tanto también de nuestro país en ámbitos tan importantes como la seguridad, como la defensa, la situación en Ucrania, la situación en Oriente Medio. La cuestión de la migración y cuestiones que afectan de lleno a la vida de la gente como es el precio de la electricidad, de la energía y qué medidas se van a poner en marcha por parte de los gobiernos y también a escala comunitaria para dar una tregua al bolsillo de los hogares, de las industrias y de las empresas de nuestro continente. Sobre Oriente Medio y Energía, por ahí empezaré, que es por donde comenzó el Consejo en el día de ayer, quiero recordar por qué estamos donde estamos, con máximos históricos en el precio del gasoil, de la gasolina, y es a causa de una guerra ilegal, absolutamente innecesaria, en Oriente Medio, y el desorden que ha traído no sólo a una zona ya de por sí muy compleja, muy inestable, sino como estamos viendo al resto del mundo. Cuando lo pongamos en perspectiva estamos hablando de que es casi el doble de todo lo que la Unión Europea destina cada año a la política agrícola común y por tanto a nuestros agricultores, ganaderos y por supuesto también a la gente, a los trabajadores del sector pesquero. Por tanto creo que todos aquellos que alzamos la voz cuando dijimos no a esta guerra, no a la guerra, creo que hemos demostrado que también teníamos razón, no solamente desde el punto de vista de la legalidad internacional, del respeto a los derechos humanos, sino también de las consecuencias económicas y sociales que ya de nuevo están viviendo nuestros conciudadanos. Porque al final acaban pagándolo la gente de a pie y por desgracia así se está sintiendo. Ahora lo que importa en todo caso es solucionar ese desastre cuanto antes y creo que hemos dado pasos importantes. Hoy en el Congreso de los Diputados, como saben, en la Diputación Permanente, se ha convalidado el Real Decreto Ley vinculado con el escudo social que pusimos en marcha nada más iniciarse esta guerra en España, movilizando más de 12.000 millones de euros para proteger a los sectores afectados Y también para proteger a los ciudadanos que utilizan su coche, por poner solamente dos ejemplos de las medidas que han sido convalidadas hoy en la Diputación Permanente. También hemos acordado intensificar nuestros esfuerzos diplomáticos para reducir la tensión, lograr la paz y la estabilidad en la región. Y algo muy importante para España, que también está detrás de la resiliencia que está demostrando nuestra economía a los embates de este shock energético, como ya ocurrió durante la guerra de Ucrania y su derivada energética, y es acelerar la transición energética y la descarbonización de nuestra economía. En segundo lugar, hablamos de los presupuestos comunitarios, de lo que se llama el marco financiero plurianual para los próximos siete años. Como saben, España ha defendido desde el principio unos presupuestos lo suficientemente ambiciosos para la agenda ambiciosa que tenemos de desafíos comunes. La propuesta de la Presidencia, y agradeciendo además el trabajo hecho por el Gobierno irlandés, nos parece que es claramente insuficiente. Gracias, señor presidente. Me lo han escuchado decir. Apenas el 1% de la renta nacional bruta en gasto real, en definitiva, muy por debajo del marco financiero plurianual que ya estamos dejando atrás y, por tanto, también muy lejos de lo que necesita Europa y sus ciudadanos. Y a años luz, por cierto, de lo que señalan los informes de Draghi y de Leta, que deberían ser la hoja de ruta que todos respaldaramos a la hora de ganar esa productividad, esa competitividad, ese crecimiento económico que necesitamos para financiar nuestro estado del bienestar. Por tanto, la pregunta es cómo vamos a retroceder cuando lo que necesita Europa es seguir avanzando con unos presupuestos lo suficientemente ambiciosos. Quiero recordar, además, que a partir del próximo presupuesto europeo, nuestro país, y esto lo dije en la sala, por méritos propios, como consecuencia del éxito económico que estamos viviendo desde hace ya cinco años después de la pandemia, va a ser contribuyente neto. Y, por tanto, creo que es muy relevante la voz de España, porque no solamente no vamos a pedir privilegios ni rebates que puedan tener otros países, pero sí que vamos a exigir la responsabilidad de tener unos presupuestos acordes con el grado de ambición que necesita Europa. Yo creo que los presupuestos, al final, son una declaración política de intenciones, no solamente a los ciudadanos, sino también a otros actores externos. Y si vamos con estas cifras que se están proponiendo, pues desde luego la declaración de intenciones que enviamos a nuestros ciudadanos y también a las grandes potencias con las que competimos es que no estamos preparados y que no queremos competir en este mundo. Tenemos que avanzar en innovación, en digitalización, en autonomía estratégica, en definitiva, atender también a las preocupaciones de los ciudadanos La cohesión con la PAC, con la política de vivienda, que es también una de las cuestiones centrales, no solamente de la sociedad española, sino también del conjunto de la sociedad europea. Finalmente, y no quiero tampoco extenderme mucho más, creo que también es muy relevante lo que hoy se plasma en las conclusiones del Consejo Europeo respecto a la ciudad autónoma de Ceuta. En el debate estratégico sobre la cuestión migratoria, un punto marcado por la situación que hemos vivido este verano en Ceuta, pero sí quiero decir que fuera del epígrafe sobre inmigración hay un reconocimiento explícito por parte de la Unión a las dos ciudades autónomas, la de Ceuta y Melilla, como fronteras terrestres no solamente de España sino también de Europa. En África y, por supuesto, mostrando la solidaridad de los líderes europeos y el compromiso de movilización operativa y también de recursos financieros por parte de las instituciones comunitarias. En pocas palabras, Europa está hoy más presente de lo que nunca ha estado en Ceuta y Melilla, porque ambas ciudades también son Europa. Y a partir de aquí quedo a disposición de las preguntas que me podáis hacer los medios de comunicación."
+  }
+ ]
+}

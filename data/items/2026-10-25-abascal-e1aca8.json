@@ -1,0 +1,39 @@
+{
+ "id": "2026-10-25-abascal-e1aca8",
+ "date": "2026-10-25",
+ "expected_person": "Santiago Abascal",
+ "kind": "other",
+ "outlet": "VOX España YouTube",
+ "title": "SANTIAGO ABASCAL en SEGOVIA",
+ "url": "https://www.youtube.com/watch?v=uILvXNnnLRw",
+ "language": "es",
+ "duration_s": 79.3,
+ "sha256": "f94aa1ee8ef8519ae0cb5acfb2c159010c14f34fda609869acfaba3974092a78",
+ "fetched_at": "2026-10-25T17:20:37+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T19:00:39+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_00": {
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "decision": "match",
+   "reason": "sim 0.86, next 0.49",
+   "talk_s": 61.2
+  }
+ },
+ "turns": [
+  {
+   "start": 8.46,
+   "end": 75.36,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Yo creo firmemente que este gobierno es capaz de cualquier cosa. Y cuando digo cualquier cosa podéis imaginaros lo peor. Creo que ni siquiera imaginando lo peor vais a ser capaces de meteros en la cabeza de un tipo como Sánchez, que no tiene absolutamente ningún límite moral y ningún escrúpulo. Con la cual no nos dirigimos a la derecha, no nos dirigimos a los que fueron votantes de Vox, A los que fueron votantes del PP, nos dirigimos a todos, a los que votaron a Vox, al PP, al PSOE, a Podemos, nosotros no tenemos ningún reproche que hacer a ningún español votase lo que votase en el pasado. Lo que tenemos que hacer es ofrecer a todos ellos y por supuesto a la gente que hace mucho que se abstiene porque no se siente representada por este sistema político y a los que tenemos que respetar en su indignación porque tienen una gigantesca parte de razón. Yo a ellos también les quiero pedir que nos den una oportunidad para cambiar las cosas y para levantar banderas que no son ideológicas, que son banderas del sentido común, que son principios que a todos nos han enseñado en nuestras casas, que eran de unas ideas o de otras, pero que son comunes a la sociedad española y que son los que hoy están en riesgo."
+  }
+ ]
+}

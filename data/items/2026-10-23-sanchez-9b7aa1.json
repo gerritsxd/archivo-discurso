@@ -1,0 +1,197 @@
+{
+ "id": "2026-10-23-sanchez-9b7aa1",
+ "date": "2026-10-23",
+ "expected_person": "Pedro Sánchez",
+ "kind": "other",
+ "outlet": "RTVE Noticias YouTube",
+ "title": "Sánchez addresses corruption, housing, and the Ceuta crisis on 'La Revuelta' | RTVE News",
+ "url": "https://www.youtube.com/watch?v=ussQBnAryiU",
+ "language": "es",
+ "duration_s": 122.4,
+ "sha256": "7b1a3d6431c8c06be662bb4182049c5a2b6863a6efee68ef876a43c8e9f563b7",
+ "fetched_at": "2026-10-25T17:21:06+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T18:56:54+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_00": {
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "decision": "match",
+   "reason": "sim 0.76, next 0.24",
+   "talk_s": 49.2
+  },
+  "SPEAKER_01": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "unknown",
+   "reason": "best sim 0.43 < 0.65",
+   "talk_s": 49.1
+  },
+  "SPEAKER_02": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "too_short",
+   "reason": "only 18s of speech",
+   "talk_s": 17.6
+  }
+ },
+ "turns": [
+  {
+   "start": 0.0,
+   "end": 0.82,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Si insultan, pues"
+  },
+  {
+   "start": 0.82,
+   "end": 3.82,
+   "label": "SPEAKER_00",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "allá ellos, me llaman de todo, se acuerdan de mi madre, ¿no?"
+  },
+  {
+   "start": 3.94,
+   "end": 6.7,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Ya, ya, está feo, sí. Yo también me acuerdo de las"
+  },
+  {
+   "start": 6.7,
+   "end": 10.2,
+   "label": "SPEAKER_00",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "suyas, cuando subo las pensiones o cuando subo el salario mínimo interprofesional."
+  },
+  {
+   "start": 12.16,
+   "end": 29.42,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Eran palabras de Pedro Sánchez en la revuelta. Inaugura la precampaña televisiva con una charla informal en la que ha abordado temas como la vivienda, la crisis de Ceuta, que dice, por cierto, que podría haberse hecho mejor, y también la decepción que sufrió con la corrupción en miembros de su partido. También ha mostrado su lado más personal."
+  },
+  {
+   "start": 31.56,
+   "end": 32.78,
+   "label": "SPEAKER_00",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Con una presentación"
+  },
+  {
+   "start": 32.78,
+   "end": 34.0,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "cargada de ironía Por"
+  },
+  {
+   "start": 34.0,
+   "end": 35.3,
+   "label": "SPEAKER_00",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "poco tiempo Y"
+  },
+  {
+   "start": 35.3,
+   "end": 37.32,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "entre bromas Luego"
+  },
+  {
+   "start": 37.32,
+   "end": 39.5,
+   "label": "SPEAKER_00",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "me dicen a mí que esta televisión es mía Pedro"
+  },
+  {
+   "start": 39.5,
+   "end": 51.0,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Sánchez llega a la revuelta como es habitual, con regalos para el programa, uno de ellos Un perro con una capa roja Más de hora y media en la que Sánchez tiene claro su mayor error"
+  },
+  {
+   "start": 51.0,
+   "end": 58.96,
+   "label": "SPEAKER_00",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Crees conocer a la gente y de repente se desvela una cara algunas veces y te quedas helado, ¿no? Y es el caso de Ábalos, ¿no?"
+  },
+  {
+   "start": 59.04,
+   "end": 61.42,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Sobre la gestión de la crisis en Ceuta Sin"
+  },
+  {
+   "start": 61.42,
+   "end": 63.1,
+   "label": "SPEAKER_00",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "duda alguna podríamos haberlo gestionado mejor."
+  },
+  {
+   "start": 63.22,
+   "end": 65.62,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Aunque al mismo tiempo saca pecho de la labor del gobierno."
+  },
+  {
+   "start": 66.02,
+   "end": 81.96,
+   "label": "SPEAKER_00",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Nosotros en dos meses hemos habilitado 7.500 plazas para poder acoger a todas estas personas. Se están acelerando lo que son los expedientes, que en su amplísima mayoría son personas que no tienen el derecho a la protección internacional y que con toda seguridad volverán a Marruecos."
+  },
+  {
+   "start": 82.18,
+   "end": 98.54,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "El líder socialista cree que se han traspasado líneas rojas con su mujer y su hermano y vuelve a defender su inocencia. Sánchez, en plena pre-campaña, aspira a seguir cuatro años más. Sueña, dice, si no con una mayoría absoluta, con una de izquierdas, para poder sacar adelante proyectos, por ejemplo, en materia de vivienda."
+  },
+  {
+   "start": 98.8,
+   "end": 108.64,
+   "label": "SPEAKER_00",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Si en las Cortes Generales, en el Parlamento del próximo 29 de noviembre, no sale una mayoría mucho más amplia progresista, pues el Gobierno tiene pocas herramientas para intervenir."
+  },
+  {
+   "start": 108.7,
+   "end": 120.46,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Y lanza un dardo a PP y Vox por no querer aplicar la ley de vivienda en las comunidades que gobiernan. Como broche final, el presidente del gobierno no se ha librado de las preguntas clásicas de la revuelta que ha contestado entre risas."
+  }
+ ]
+}

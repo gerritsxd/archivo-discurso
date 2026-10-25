@@ -1,0 +1,44 @@
+{
+ "id": "2026-10-21-sanchez-54e890",
+ "date": "2026-10-21",
+ "expected_person": "Pedro Sánchez",
+ "kind": "other",
+ "outlet": "La Moncloa YouTube",
+ "title": "Pedro Sánchez visita el Puesto de Mando Avanzado en Oliva, Valencia | Recursos Multimedia",
+ "url": "https://www.youtube.com/watch?v=Xisumtb8HGA",
+ "language": "es",
+ "duration_s": 90.41,
+ "sha256": "654328aeae00688299121543e450d1c8ffa95fd05531986f546a13f7f2bf308a",
+ "fetched_at": "2026-10-25T17:01:24+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T18:51:02+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "unknown",
+   "reason": "best sim 0.52 < 0.65",
+   "talk_s": 22.4
+  },
+  "SPEAKER_02": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "too_short",
+   "reason": "only 17s of speech",
+   "talk_s": 16.6
+  },
+  "SPEAKER_01": {
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "decision": "too_short",
+   "reason": "only 15s of speech",
+   "talk_s": 15.2
+  }
+ },
+ "turns": []
+}

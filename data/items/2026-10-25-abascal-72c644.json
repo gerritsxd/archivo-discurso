@@ -1,0 +1,70 @@
+{
+ "id": "2026-10-25-abascal-72c644",
+ "date": "2026-10-25",
+ "expected_person": "Santiago Abascal",
+ "kind": "other",
+ "outlet": "VOX España YouTube",
+ "title": "PONFERRADA se moviliza con SANTIAGO ABASCAL: \"España se la juega el 29-N\"",
+ "url": "https://www.youtube.com/watch?v=M-GVuxtGejw",
+ "language": "es",
+ "duration_s": 101.06,
+ "sha256": "8b17c772b55b22d9436c2be4e45a969f6efd7151d70cebaa4e7394be664c3aa9",
+ "fetched_at": "2026-10-25T17:19:29+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T18:59:44+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_01": {
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "decision": "match",
+   "reason": "sim 0.73, next 0.35",
+   "talk_s": 52.5
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "too_short",
+   "reason": "only 11s of speech",
+   "talk_s": 11.4
+  }
+ },
+ "turns": [
+  {
+   "start": 5.71,
+   "end": 7.53,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¡Sanchez, Alberto Núñez Feijóo!"
+  },
+  {
+   "start": 35.71,
+   "end": 57.85,
+   "label": "SPEAKER_01",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "que robó las elecciones a los propios militantes socialistas y que llegó al poder y robó a manos llenas a la mafia que hoy tiene imputados o condenados a todo el entorno político y familiar del presidente del gobierno que todavía tiene el valor de concurrir a estas elecciones. Esa es la prioridad nacional, decir que los españoles tienen el derecho en su propia patria a"
+  },
+  {
+   "start": 57.85,
+   "end": 59.53,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "ser los primeros en"
+  },
+  {
+   "start": 59.53,
+   "end": 70.51,
+   "label": "SPEAKER_01",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "recibir las ayudas sociales, en recibir las ayudas al alquiler ¡Viva España!"
+  }
+ ]
+}

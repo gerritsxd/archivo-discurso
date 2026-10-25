@@ -1,0 +1,54 @@
+{
+ "id": "2026-10-19-sanchez-68c2b7",
+ "date": "2026-10-19",
+ "expected_person": "Pedro Sánchez",
+ "kind": "other",
+ "outlet": "La Moncloa - Vídeos Presidente",
+ "title": "Pedro Sánchez preside la firma de la declaración sobre el proyecto de Real Decreto del Estatuto del Estudiantado Universitario",
+ "url": "https://www.lamoncloa.gob.es/multimedia/videos/presidente/Paginas/2026/191026-sanchez-firma-declaracion.aspx",
+ "language": "es",
+ "duration_s": 581.03,
+ "sha256": "4f6cb13101aa9b59b5025a3bce3f565e98355264424b3bd9255f18c4015714ca",
+ "fetched_at": "2026-10-25T17:15:13+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T18:47:23+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_01": {
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "decision": "match",
+   "reason": "sim 0.89, next 0.23",
+   "talk_s": 536.4
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "too_short",
+   "reason": "only 4s of speech",
+   "talk_s": 3.5
+  }
+ },
+ "turns": [
+  {
+   "start": 4.4,
+   "end": 569.58,
+   "label": "SPEAKER_01",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Buenos días. En primer lugar, dar las gracias a los medios de comunicación por atender este evento que es muy importante para la comunidad educativa española y, por supuesto, también para el Gobierno de España. Vocal de la Junta Rectora de la CRUE y Rectora de la Universidad Autónoma de Madrid, Vicepresidente II del Consejo de Estudiantes Universitarios del Estado, de Estado, vocal de la Comisión Permanente también del Consejo de Estudiantes Universitarios del Estado, presidente de la Coordinadora de Representantes de Estudiantes de las Universidades Públicas, secretario de Estado. Señoras y señores, buenos días. Me gustaría comenzar, lógicamente, porque no nos acompaña hoy la ministra de Ciencia, Universidades e Investigación, por dirigir un mensaje El mensaje de solidaridad y de total apoyo a las personas afectadas y también un mensaje de alerta y, por tanto, de máxima precaución porque la emergencia continúa. La prioridad, como siempre ha sido, es ahora proteger vidas y por eso pido a la ciudadanía que, sobre todo, se informe a través de los canales oficiales, a través de los medios de comunicación contrastados y evite también desplazamientos y siga en todo momento las indicaciones de los servicios de emergencia. Y, dicho esto, sí quisiera comenzar también por reivindicar la importancia de este acto, la importancia de este día para la comunidad educativa y, particularmente, para el sistema universitario en su conjunto de nuestro país. Sobre todo, es un día muy importante para los casi dos millones de jóvenes y no tan jóvenes que estudian en las universidades de nuestro país. Porque hoy firmamos, junto con el Ministerio de Ciencia, Innovación y Universidades y con los representantes de las universidades y también, lógicamente, del estudiantado, una declaración sobre el nuevo Estatuto del Estudiantado Universitario que mañana vamos a llevar al Consejo de Ministros y de Ministras. Me gustaría comenzar, por supuesto, dando también las gracias especialmente a los representantes de los estudiantes que nos acompañáis hoy, porque este estatuto no se ha escrito simplemente para vosotros y vosotras, sino que se ha escrito con vosotros y con vosotras. Y creo que este matiz es importante, porque hemos escuchado vuestras propuestas, porque hemos incorporado vuestras propuestas Y también porque hemos reconocido vuestro derecho a participar en las decisiones que afectan a vuestro presente y a vuestro futuro. También, lógicamente, gracias a la CRUE, a los equipos rectorales y a todas las personas que han hecho posible este acuerdo. Siempre hemos defendido desde el Gobierno de España que las reformas más importantes son las que nacen del diálogo, Porque trascienden lo que son las fronteras ideológicas y, evidentemente, tienen el ánimo de trascender las legislaturas, las que también se construyen entre todos y todas. Y hoy creo que estamos dando un muy buen ejemplo de eso, de cómo podemos, desde visiones muy diferentes, llegar a un acuerdo en beneficio de todos y de todas, donde al final todos y todas nos sentimos reconocidos. Este nuevo estatuto hace algo muy importante y es actualizar el que se aprobó allá por el año 2010, es decir, hace 16 años, que fue el primer estatuto del estudiantado de toda nuestra democracia, se dice pronto, en el año 2010, después de décadas de vigencia de un reglamento heredado de la dictadura franquista. Pero, evidentemente, hoy el mundo no es el del año 2010 y la universidad tampoco puede ni debe serlo. Han cambiado las formas de aprender, también de enseñar, de relacionarnos, las nuevas tecnologías y, fundamentalmente, particularmente, la inteligencia artificial está transformando nuestras aulas. Y también ha cambiado la realidad de quienes las ocupan. Porque no todos los estudiantes llegan a la universidad en las mismas condiciones, ni todos recorren el mismo camino como bien sabéis vosotros y vosotras. Hay estudiantes que al salir de clase lo que hacen es irse a trabajar. Otros que tienen que compaginar los exámenes con el cuidado de sus hijos, de sus hijas o también de sus padres y madres. Hay quienes afrontan desgraciadamente situaciones de acoso también y fundamentalmente en las redes sociales, de violencia y de discriminación y en consecuencia de desigualdad. Todos y todas ellas merecen una universidad que les comprenda, que les acompañe y que también los proteja. Porque el talento está repartido por toda la sociedad, lo que desgraciadamente no se reparte de la misma manera son las oportunidades entre todas las personas que componen el sistema universitario y fundamentalmente el estudiantado. Y, por tanto, nuestra obligación desde el Ejecutivo, desde el Ministerio, desde, lógicamente, la Presidencia del Gobierno, es conseguir que ninguna circunstancia personal, familiar o económica lo que haga sea implicar el obstáculo a que nadie pueda llegar tan lejos como su esfuerzo y su talento lo permitan. Este es el espíritu del estatuto que mañana vamos a aprobar de acuerdo con vosotros y vosotras en el Consejo de Ministros. Lo que hace es reconocer nuevos derechos, potencia la participación y la representación, promueve la movilidad, algo también muy importante de nuestro sistema universitario, Incide en el apoyo psicológico, después, lógicamente, de que las puertas de la pandemia abrieran todo un debate sobre la salud mental, particularmente de nuestros jóvenes, garantiza la conciliación, protege los datos y también, por qué no decirlo, la desconexión digital que debe llegar, lógicamente, no solamente al ámbito laboral, sino también de nuestros estudiantes y sistema universitario, y mejora los sistemas de tutoría y de prácticas. y otras. Ahonda también en la defensa de la integridad académica. Bueno, esa es también la razón de ser de la universidad pública y del conjunto del sistema universitario de nuestro país. Un sistema, evidentemente, del que nos sentimos muy orgullosos porque para que la universidad cumpla su misión todos tenemos que protegerla, todos debemos cuidarla y todos, también el Gobierno de España, que hace su parte financiarla y también ayudarla a superar los obstáculos que encuentra en su día a día. La universidad, evidentemente, lo hemos hablado también con los representantes de la CRUE, también con los representantes de los estudiantes, no es inmune a uno de los principales problemas que sufre nuestro país, que es el acceso a la vivienda. Cuando un estudiante no puede permitirse vivir donde le gustaría estudiar, lo que sucede es que al final la universidad deja de ser ese motor de prosperidad y de igualdad de oportunidades que todos y todas queremos que sea. Por eso, me gustaría también anunciar que, en consonancia con lo que venimos haciendo, mañana, además de este Estatuto del Estudiante Universitario, el Consejo de Ministros y Ministras va a aprobar un paquete de 45 millones de euros para impulsar residencias universitarias. 45 millones de euros para siete proyectos concretos, es decir, que no es algo abstracto, sino que ya vamos a concretarlo en siete proyectos concretos que se pondrán en marcha en un muy breve espacio de tiempo y que en una primera fase crearán cerca de 2.000 nuevas plazas en universidades públicas de todo el país. Creo que esto es muy importante porque, de alguna manera, desde la universidad también estamos garantizando esa igualdad de oportunidades, por supuesto, en el acceso a una residencia, a una vivienda para los estudiantes que tengan que, lógicamente, desplazarse para poder cursar los estudios que merezcan y que, por supuesto, deseen a lo largo y a lo largo de nuestro país. Me gustaría en esta breve intervención terminar con una reflexión que quisiera compartir con todos los jóvenes y también no tan jóvenes que están en nuestro sistema universitario, porque pocas cosas representan mejor el progreso de España que la historia de nuestra universidad, porque al final son el mayor ascensor social que tenemos. Y con este estatuto creo que desde las Administraciones o la Administración General del Estado lo que hacemos es contribuir a que las universidades cumplan esta función con un marco de derechos, también lógicamente de obligaciones, destinado a garantizar la seguridad y las oportunidades de todos y todas. Y por eso, hoy no estamos simplemente actualizando un estatuto, que también hacía falta, estamos reafirmando una convicción, y es que la universidad debe ser un espacio de igualdad de oportunidades y también de libertad. Porque cuando abrimos las puertas de la universidad, estamos abriendo las puertas del futuro, no solo para quienes estudian en ella, por supuesto que sí, sino para el conjunto de la sociedad española. Por tanto, gracias de nuevo a toda la comunidad educativa universitaria y, por supuesto, a los medios de comunicación por atender esta comparecencia y este acto tan importante para España, para sus jóvenes y, por supuesto, también para el Gobierno de España. Nada más."
+  },
+  {
+   "start": 570.9,
+   "end": 578.68,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Muchas gracias, presidente. El acto ha finalizado. Muchas gracias."
+  }
+ ]
+}

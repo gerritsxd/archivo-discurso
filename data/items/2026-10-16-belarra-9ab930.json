@@ -1,0 +1,54 @@
+{
+ "id": "2026-10-16-belarra-9ab930",
+ "date": "2026-10-16",
+ "expected_person": "Ione Belarra",
+ "kind": "other",
+ "outlet": "Congreso - Diputación Permanente",
+ "title": "Diputación Permanente 2026-10-16: Ione Belarra Urteaga (GMx) - Real Decreto-ley 24/2026, de 29 de septiembre, por el que se establecen medidas relacionadas con el plan de respuesta in",
+ "url": "https://static.congreso.es/audiovisual/video/leg15/500/15_000500_008/cortes/15_000500_008_0_27727_779966.mp4",
+ "language": "es",
+ "duration_s": 329.01,
+ "sha256": "55c85a177a6f718792183df244763fc3a2cf0492d696eaa040687b148d227527",
+ "fetched_at": "2026-10-25T17:17:51+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T18:42:33+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_01": {
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "decision": "match",
+   "reason": "sim 0.83, next 0.44",
+   "talk_s": 290.9
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "too_short",
+   "reason": "only 7s of speech",
+   "talk_s": 6.7
+  }
+ },
+ "turns": [
+  {
+   "start": 0.59,
+   "end": 315.67,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "Muchas gracias, presidenta. Muy amable. Señorías, desde Podemos hemos defendido siempre que se movilicen todos los recursos del Estado para proteger a todos los afectados y las afectadas de la DANA del 29 de octubre de 2024. Y es cierto que este Real Decreto incluye tímidas mejoras, como tener en cuenta la renta a la hora de pedir el reintegro de los anticipos. Gracias, señora presidenta. Aún no han podido recuperar sus ascensores o sus garajes. Los niños y las niñas, los jóvenes de al menos ocho colegios e institutos de las zonas afectadas, han comenzado el curso casi dos años después en barracones por retrasos en la reconstrucción. El Lluís Vives, de Masanasa, el Orba, de Alfafar, Lorta, de Paiporta, Carmen Miquel, de Algemesí, Blasco Ibáñez, de Alginet, La Escuela Infantil, Ausías March, también de Masanasa, Elías Berenguer Dalmau, de Catarroja, o Elías Alameda, de Utiel. Entre otras cosas, esos retrasos han estado causados porque el Partido Popular y el PSOE han entrado en una batalla política bipartidista irresponsable para culpar al otro de no permitir el uso de los fondos o de no poner de su parte lo suficiente. El Gobierno autonómico y el Gobierno central en una guerra por el relato, haciendo sentir otra vez a las familias valencianas que ninguna administración está a la altura de las circunstancias. Otra vez, porque eso es lo que ya sintieron el 29 de octubre de 2024 y todos los días posteriores a la riada. Y, señorías, la reconstrucción no debe limitarse a levantar de nuevo lo que ya había antes. La emergencia climática no es una hipótesis de futuro, por mucho que lo digan los negacionistas de Vox. Es una realidad que ya está golpeando nuestros territorios y, por tanto, tenemos que reconstruir mejor, con planificación territorial, con infraestructuras más resistentes, con inversión en prevención, en sistemas de alerta eficaces, para que la gente no tenga que vivir permanentemente en peligro. Poniendo coto a los especuladores que quieren hacer negocio poniendo a vivir a la gente otra vez en zonas inundables Porque en su gestión bipartidista de esta dana, señorías del Partido Popular y del Partido Socialista, han estado de acuerdo en lo fundamental No tocar el mercado y no hacer nada para frenar la especulación Sin embargo, creo que es importante que hoy no nos limitemos a hablar de cifras, porque detrás de cada cifra hay personas. Hay familias que lo perdieron absolutamente todo. Hay trabajadores y trabajadoras, autónomos y autónomas, agricultores, que todavía hoy están intentando recuperar sus vidas. Y sobre todo hay 232 personas que nunca pudieron volver a casa. Dentro de apenas unas semanas se van a cumplir dos años de aquella tragedia. que no fue únicamente consecuencia de un fenómeno meteorológico extremo, fue consecuencia de la negligencia política, de una gestión absolutamente criminal por parte de un Partido Popular que no alertó a tiempo, teniendo toda la información disponible y de unas administraciones, señorías, en plural, que no movilizaron todos los efectivos de rescate profesional como debían. Dos años en los que familias como la de Toñi, que perdió a su marido y a su hija, dos años en los que familias como la de Rosa, que perdió a su padre, han tenido que escuchar en este Congreso cómo los dirigentes del Partido Popular Valenciano mentían descaradamente, contaban relatos contradictorios y echaban balones fuera sobre sus responsabilidades, lo que sabían y lo que hicieron ese día. No está en discusión que la competencia principal era autonómica, Pero eso no significa que las demás Administraciones estuvieran exentas de responsabilidad. El Estado también tenía información, capacidades, instrumentos, obligaciones de coordinación. Y, desgraciadamente, no ha sido posible escuchar en la Comisión de Investigación a miembros del Gobierno Central dar sus explicaciones. Pero les aseguro que no va a ser la última vez que se hable de la dana de Valencia de 2024 en este Congreso. En esa comisión han sido especialmente dolorosas las dos comparecencias de Carlos Mazón, expresidente de la Generalitat, que sigue aforado como diputado valenciano para eludir la justicia. Yo, para despedirme de este Congreso, quiero agradecer a las asociaciones de víctimas y a toda la sociedad valenciana su movilización incansable, su lucha a pesar del dolor. Y aunque hayan conseguido la dimisión de Mazón, les pido que sigan luchando hasta verlo entre rejas. Muchas gracias."
+  },
+  {
+   "start": 317.83,
+   "end": 323.89,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Muchas gracias señora Belarra. Por el Grupo Parlamentario Escaler y Abildo tiene la palabra la señora Aizpurú Arzayos."
+  }
+ ]
+}

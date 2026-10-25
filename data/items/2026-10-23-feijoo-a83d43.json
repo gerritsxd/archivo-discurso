@@ -1,0 +1,149 @@
+{
+ "id": "2026-10-23-feijoo-a83d43",
+ "date": "2026-10-23",
+ "expected_person": "Alberto Núñez Feijóo",
+ "kind": "other",
+ "outlet": "RTVE Play - Telediario 1",
+ "title": "Feijóo desvela que pactará con Vox si lo necesita para gobernar",
+ "url": "https://www.rtve.es/play/videos/telediario-1/feijoo-pactara-vox-si-necesita-gobernar/17280855/",
+ "language": "es",
+ "duration_s": 94.66,
+ "sha256": "38b229404aae693bfd9d29d88ba8d48a453ae845669269b0f64de980a5fbee16",
+ "fetched_at": "2026-10-25T17:08:26+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T18:54:58+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_02": {
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "decision": "match",
+   "reason": "sim 0.93, next 0.40",
+   "talk_s": 29.0
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "unknown",
+   "reason": "best sim 0.49 < 0.65",
+   "talk_s": 59.6
+  },
+  "SPEAKER_01": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "too_short",
+   "reason": "only 4s of speech",
+   "talk_s": 3.8
+  }
+ },
+ "turns": [
+  {
+   "start": 0.08,
+   "end": 5.3,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Feijóo ya no pide un pacto para que gobierne el más votado. Si hace falta, gobernará con Vox."
+  },
+  {
+   "start": 5.5,
+   "end": 13.52,
+   "label": "SPEAKER_02",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "Si los españoles me mandan completar la mayoría con la tercera fuerza política de mi país, oiga, yo soy un demócrata."
+  },
+  {
+   "start": 13.92,
+   "end": 22.8,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Feijóo y Abascal de momento hablan de cómo conseguir una mayoría en el Senado. En un hipotético gobierno, avisa, habrá menos ministerios. El de Igualdad..."
+  },
+  {
+   "start": 22.8,
+   "end": 28.2,
+   "label": "SPEAKER_02",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "Lo voy a meter dentro de otros ministerios. Le voy a decir a la ministra o el ministro que lleve Igualdad que se encargue de otras cosas."
+  },
+  {
+   "start": 28.2,
+   "end": 36.38,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Reabrirá el debate sobre el aborto de menores de 16 y 17 años que ahora pueden hacerlo sin el consentimiento de sus padres. Estas palabras..."
+  },
+  {
+   "start": 36.38,
+   "end": 42.72,
+   "label": "SPEAKER_02",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "Como no voy a ser feminista si me he criado en mi casa con muchas más mujeres que hombres."
+  },
+  {
+   "start": 43.04,
+   "end": 61.0,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Han hecho saltar al presidente del gobierno que le dice que criarse entre mujeres no le hace feminista. Lecciones que, contesta Feijóo, no va a aceptar y le acusa de hacer carrera política con el dinero de la prostitución. Solo se compromete a subirlo si lo acepta la patronal."
+  },
+  {
+   "start": 61.16,
+   "end": 66.0,
+   "label": "SPEAKER_02",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "El compromiso del Partido Popular es reunirme con los sindicatos y con los agentes sociales y pactar el salario mínimo."
+  },
+  {
+   "start": 66.34,
+   "end": 72.72,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Pero el gobierno ve una trampa. Dice que la patronal solo ha estado a favor de subirlo una vez en los últimos ocho años."
+  },
+  {
+   "start": 72.98,
+   "end": 76.76,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Si lo dejáramos en la mano de la patronal no subiría el salario mínimo, es evidente."
+  },
+  {
+   "start": 76.8,
+   "end": 81.52,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Y recuerdan que el salario mínimo está exento de pagar IRPF después de este lapsus."
+  },
+  {
+   "start": 81.78,
+   "end": 86.72,
+   "label": "SPEAKER_02",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "¿El salario mínimo está exento? No, no. ¿De IRPF? No, no. Yo estaba exento antes."
+  },
+  {
+   "start": 86.72,
+   "end": 93.88,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Volvió a mentir. El salario mínimo en España no tributa. Aunque en la misma entrevista Feijóo ha rectificado."
+  }
+ ]
+}
