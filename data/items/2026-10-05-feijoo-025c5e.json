@@ -1,0 +1,229 @@
+{
+ "id": "2026-10-05-feijoo-025c5e",
+ "date": "2026-10-05",
+ "expected_person": "Alberto Núñez Feijóo",
+ "kind": "interview",
+ "outlet": "PP YouTube",
+ "title": "🔵 DIRECTO: Feijóo participa en el XXIX Congreso Nacional de la Empresa Familiar",
+ "url": "https://www.youtube.com/watch?v=xarmHmlObfc",
+ "language": "es",
+ "duration_s": 3075.01,
+ "sha256": "fdf111f25d47622870dae7d0694d43aa24e2b48cddcf557a4372808170dcdc88",
+ "fetched_at": "2026-10-25T09:10:37+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.55,
+  "processed_at": "2026-10-25T09:36:58+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_01": {
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "decision": "match",
+   "reason": "sim 0.95, next 0.40",
+   "talk_s": 1763.8
+  },
+  "SPEAKER_02": {
+   "person": "herrera",
+   "name": "Carlos Herrera (periodista, COPE)",
+   "decision": "match",
+   "reason": "sim 0.58, next 0.36",
+   "talk_s": 256.3
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "too_short",
+   "reason": "only 6s of speech",
+   "talk_s": 5.7
+  }
+ },
+ "turns": [
+  {
+   "start": 645.9,
+   "end": 652.68,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Don Alberto Núñez Feijóo, don Ignacio Riveras, buenos días, bienvenido, muy bien. Adelante."
+  },
+  {
+   "start": 665.9,
+   "end": 666.72,
+   "label": "SPEAKER_01",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "Muchas gracias."
+  },
+  {
+   "start": 667.14,
+   "end": 751.52,
+   "label": "SPEAKER_02",
+   "person": "herrera",
+   "name": "Carlos Herrera (periodista, COPE)",
+   "text": "Pues buenos días, Alberto. Primero agradecerte, yo creo que en nombre de todo el instituto, pues que en un día, vamos a decir, peculiar, pues estés aquí con nosotros compartiendo esta jornada. Yo diría que, primero, ¿quién nos iba a decir a dos gallegos como tú y yo, cuando nos tomamos una cerveza en Galicia, hace años tú estabas en la Junta, yo vendía cerveza solo en Galicia, pues que íbamos a estar aquí los dos juntos y que encima ibas a charlar conmigo en un momento de país, luego que no hubiese apostado hace diez años a que llegase este momento. La primera pregunta que me gustaría compartir, aparte de agradecerte que en un día tan especial estés aquí, es un poco bueno que nos cuentes. La primera pregunta que tenía es cuando iba a haber elecciones, ya no te la voy a hacer porque ya nos la han contestado. ¿Qué te parece este momento? ¿Cómo te ha tocado este momento, esta mañana tan de sorpresa?"
+  },
+  {
+   "start": 752.5,
+   "end": 1017.12,
+   "label": "SPEAKER_01",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "Bueno, muy buenos días a todos. En primer lugar, muchísimas gracias por volver a invitarme. Es verdad, creo que he venido siempre que ha habido un congreso de empresa familiar. Es mi deber, y además es una gran oportunidad. Y hoy no podíamos cambiar la agenda, pasase lo que pasase, porque los compromisos hay que cumplirlos. Yo no, les aseguro que no voy a hacer comentarios sobre cerveza, aunque tengo muy claro cuáles son las mejores. Las mejores son las que producen las empresas que forman parte del Congreso de Economía Familiar. Perfecto, muy bien. Bien, bueno yo quisiera decirles que para mí la empresa familiar y la política tienen bastantes cosas en común. Ustedes están absolutamente persuadidos, obsesionados y comprometidos con la gestión de las cosas, Con mejorar sus ingresos, con ampliar sus ventas, con que la cuenta de resultados no produzca una deuda insalvable en la empresa, con mejorar las condiciones de la plantilla para motivarla y así incrementar la productividad y la competitividad de su compañía. También ustedes están obsesionados con mantener lo bueno que se encontraron de generaciones anteriores, es decir, de la historia de su empresa. Y, por supuesto, la gestión del presente está siempre buscando la consolidación de la compañía en el futuro. Yo creo que la política tiene mucho que ver con esto. La política es la gestión de las cosas, no son los discursos ni las discusiones estériles. No por decir una cosa se hace, que fuese tan sencillo. No por ser un buen dialéctico se puede ser un buen político. Un buen dialéctico se puede dedicar a la oratoria, pero la gestión de las cosas públicas requiere talento, aprendizaje, trazabilidad y mucho tiempo de estudio. Yo creo que un político debe de mantener siempre la historia de su país, aquello que hemos hecho bien, y en España hemos hecho bien muchas cosas. Y por último, un político debe estar obsesionado por el momento en el que se vaya a dejar un país mejor que el que se encontró. Una sociedad más unida y un país con datos de prosperidad y de bienestar objetivamente mejores. Por eso creo que es bueno venir a estos foros y verles a ustedes, porque es una inspiración para un político peatonal que quiere seguir saliendo a la calle y que quiere durante el ejercicio de su mandato, sea el que fuere, poder relacionarse con la gente. Yo, mi objetivo es acertar. Para acertar hay que conocer las cosas, tomar decisiones. Estoy convencido que me equivocaré. A lo largo de mi vida política seguro que he cometido errores, pero lo que sí les puedo asegurar es que no tengo más objetivo que acertar Y no tengo más intereses que los intereses generales. Por tanto, bueno, o sea que nuestro país está lleno de problemas y en este momento se han convocado elecciones. ¿Por qué? Yo tengo mi opinión. Como Iñaki me la ha pedido, se la doy y concluyo la primera parte. Yo creo que ha convocado elecciones porque le interesa. No porque le interesa a España, sino porque le interesa. Podríamos ahora decir porque le interesa, pero me gustaría solamente dar una idea. Yo creo que hay mucho miedo. Hay miedo a lo que podamos saber en los sumarios abiertos adicional a lo que ya sabemos. Y va a utilizar el miedo para tensionar, dividir y crispar a la sociedad española del miedo por si gana otro partido que no sea el mío. Esa es mi opinión, porque se han convocado elecciones en el día de hoy, pero lo importante es que se han convocado y lo importante es que España tiene la palabra y el 29 de noviembre España va a decidir lo que quiere ser. Y yo pretendo que España vuelva a reencontrarse con sí misma, volvamos a firmar el acuerdo del contrato social y volvamos a mirar para adelante, porque la verdad es que estos años son ejemplos prácticos de lo que no debería ser la política."
+  },
+  {
+   "start": 1018.38,
+   "end": 1073.12,
+   "label": "SPEAKER_02",
+   "person": "herrera",
+   "name": "Carlos Herrera (periodista, COPE)",
+   "text": "Muy bien, pues yo me gustaría que tocásemos varios temas, quizás la primera pregunta es, nosotros aquí en las empresas familiares, como sabes, pues tenemos esta manía de pensar a largo plazo, de no pensar a corto plazo. Y el año pasado dábamos aquí un mensaje en el Instituto de que creemos que tenemos un país que puede hacer pactos de Estado, mensaje que no caló mucho en el mundo político y un poco tú que estás a menos de dos meses de poder ser presidente de este gobierno, ¿Cómo ves la situación para que desde el todo puedas gobernar, puedas sentirte a gusto y yo creo que puedas también tener un gobierno con visión a largo plazo, no a corto plazo, que a nosotros es lo que nos apetece mucho, que haya una visión a largo."
+  },
+  {
+   "start": 1075.5,
+   "end": 1690.29,
+   "label": "SPEAKER_01",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "Bien, tenemos una oportunidad el 21 de noviembre de decir el futuro de España, efectivamente. Yo creo que cuando un presidente de gobierno lleva ocho años es muy difícil poder echarle la culpa a los demás de lo que no has hecho. 8. Decía este fin de semana Felipe González en el foro de La Toja, decía, cuando un gobierno lleva más de dos años en el gobierno, ya no puede echarle la culpa a los gobiernos anteriores. Pues bien, en este caso lleva ocho años en el gobierno. España tiene problemas, sí. Desde que yo me dedico a la política y me dedico de una forma directa o indirecta gestionando dinero público hace 30 años, nunca he visto tantos problemas juntos. Porque no solamente tenemos problemas económicos, que son problemas importantes. Tenemos una economía española que ha perdido competitividad, que ha perdido productividad. Tenemos una economía que ya no recibe y no es atractiva desde el punto de vista de la inversión extranjera. Tenemos una balanza de pagos descompensada. Tenemos un problema de bajas laborales muy importante. Es importante, es que el problema no solamente son los problemas económicos, son los problemas políticos, los problemas de decir, oye, cómo podemos dividir, cómo podemos crispar, cómo podemos destruir, cómo podemos echar la culpa de lo que hace el gobierno a la oposición, cómo podemos decir que por culpa de la oposición cualquier cuestión que hay en España, ya sea la ruptura de la integración territorial de nuestro país, Ceuta, la culpa es de vivas, El accidente mortal del AVE, la culpa es que el PP crispa, o ya sea el que no, que se acabó la legislatura, señoras y señores, no hemos aprobado ni una sola de las cuentas, no se ha aprobado ni un presupuesto, y añado, no se ha presentado ninguno. Por lo tanto, este gobierno se ha gastado más de un billón, Un billón de euros sin autorización. Ustedes que pertenecen a una empresa mediana, familiar, pequeña en algún caso, ¿ustedes se imaginan que no tengan que dar cuentas a nadie de lo que gastan y en qué lo gastan? Es evidente que tenemos la mayor deuda pública de nuestra historia, sí. Dicen, no, no, es que está proporcionada y hemos mantenido relación al PIB. Usted ha subido a la deuda pública casi 600.000 millones de euros, que eso es un 42% más de lo que tenía. Y un gobierno que sube la deuda pública más que nadie, que recauda 200.000 millones a final de este año, más que en el año 2018, que lleva recaudado los primeros siete meses de este año, de enero a julio, unos 20.000 millones más que en el mismo periodo del año anterior, Y que disfruta de más fondos europeos que nadie en la historia de España. Porque además de los fondos plurianuales del presupuesto ordinario de la Comisión, tenemos los 80.000 NECs, que ustedes saben a dónde han ido. Me imagino que a las empresas, poco. Hay algunos sectores que ni siquiera se ha ejecutado. Me refiero al PERTE del automóvil, por ejemplo. El 75% de los fondos europeos se han dedicado al sector público. Tenemos muchos problemas económicos, pero a mí me preocupan los problemas políticos de desafección de la población hacia la política, de pensar que todos los políticos somos iguales, porque cuando uno crispa, el otro, si no contesta, parece que tiene miedo al enfrentamiento y automáticamente aparece otro que lo rentabiliza. Bueno, en definitiva, yo sé que estoy en el momento más importante de mi vida política, sé que hay muchos españoles que me están mirando, sé que ganar las elecciones es difícil, pero también soy un gran afortunado en la política en todo este tiempo. Yo me he presentado cinco veces a presidente, cuatro en una comunidad autónoma, en la nuestra, y una al gobierno de España. En las cinco las gané. Cuatro fueron mayoría absoluta y por tanto me tuvieron que dejar gobernar. Y la última, pues es imposible el pacto de Estado, porque desde el primer momento el objetivo de esta era comprar. Era comprar la investidura a cambio del Código Penal y de otras pre-vendas. En fin, tenemos que revertir los indicadores. Hay muchos indicadores negativos. A mí el primer indicador que me preocupa es el indicador del número de viviendas. Dice el Banco de España actual, y ya lo venía diciendo en la anterior, que estamos en un déficit entre 750 y un millón de viviendas. Adicionalmente, los jóvenes españoles son los que más tarde se emancipan en la Unión Europea. La mayoría de los países que tenemos por encima de los 30 años, hasta los 30 se quedan en casa. La media de la Unión son 26 años. Adicionalmente, la gente con mi edad, cuando teníamos 35, uno de cada tres teníamos posibilidad de firmar una hipoteca. Hoy, la mitad. Hay indicadores, por tanto, muy preocupantes. La pobreza infantil. ¿Cómo es posible que uno de los países con menor natalidad de Europa tenga el mayor porcentaje de pobreza infantil de la Unión Europea? Quizás esto parezca desapercibido, pero oiga, si nacen menos niños y aún encima el índice de pobreza infantil es el más alto, por encima de Bulgaria, por encima de Rumanía, comprenderá que aquí la distribución de la riqueza no se ha producido. Poder adquisitivo, hemos perdido poder adquisitivo, respuesta sí. Los salarios netos se han reducido un 2%. Sin embargo, el incremento de la presión fiscal, un español paga de media hoy unos 3.800 euros más al año de lo que pagaba en el año 2018. En cuanto a problemas hay muchos. Voy a intentar presentar mis propuestas. Creo que son claras. A mí esto de haber gestionado cosas públicas tiene una serie de problemas. Los políticos que saben de oratoria me dicen, pero ya está Feijóo enseñando papeles. Pero es que a mí esto de la oratoria está muy bien para ganar un concurso. Pero cuando uno se mete en un despacho, ya sea de un ministerio, ya sea de una comunidad autónoma, de la presidencia o del gobierno, no va a convencer a nadie. Yo he visto, he pedido los datos, el número de viviendas que se han hecho en España desde 1981 al año 2023. En el año 81 con Adolfo Suárez se hacían 200.000, 200 y pico mil viviendas. En la época del 2000 al 2008 se hicieron 4 millones de viviendas. Pues bien, los años peores de la democracia española en el número de viviendas nuevas han sido entre el año 2019 y el año 2023. No señalo 24 o 25 porque la estadística del ministerio, datos oficiales del ministerio, no está cerrada. El problema que tenemos en la vivienda es que necesitamos un millón de viviendas. Ahora bien, yo lo voy a aprovechar como oportunidad. ¿Por qué? Porque si construimos 200, 250 mil viviendas cada año, vamos a crear entre 500 y 600 mil puestos de trabajo. Vamos a activar la economía, de verdad, no con gasto público, no, no, no, no, vamos a crecer de verdad, no de forma insana, no mediante anabolizantes, no, no, no mediante deuda pública, no mediante gasto público, sino mediante inversión creando riqueza. Y por tanto, ¿tenemos que buscar todo el suelo disponible para que la vivienda que salga de ese suelo público tenga un 30% menos de precio? Debemos modificar las leyes, la ley de antiocupación y la ley del suelo. Lleva dos años la ley de antiocupación parada en el Congreso y aprobada por el Senado. Oiga, para que un ciudadano ponga un bien a disposición de los demás mediante un contrato, tiene que tener la seguridad de que no le van a robar, Y que ese bien sigue siendo suyo y que se lo ocupan, el ordenamiento jurídico va a proteger el derecho constitucional de la propiedad. La ley del suelo, tenemos que hacer un examen de conciencia de lo mal que lo hemos hecho en urbanismo. Y es que un planeamiento urbanístico tarda una media de 10 años, lo tenemos que bajar a 4. Lo siento mucho por los alcaldes, pero de la misma forma que se gestiona la lista de espera en un hospital, un alcalde tiene que transparentar la lista de espera de petición de licencias. Y tiene que saber que si a los 90 días no da una licencia, se concede por silencio administrativo. Y también tiene que saber que todas las reformas en los edificios, salvo las que afecten a los elementos estructurales o las que afecten a un edificio declarado de patrimonio histórico, se tienen que dar por declaración responsable. Es decir, sin esperar. Y hacer una propuesta muy clara para los jóvenes. El problema de la vulnerabilidad es la gente de menor de 35 años que, como digo, acabo de dar los datos, vive en casa. Por tanto, ¿por qué? Y esa es nuestra propuesta. No rebajamos, como hemos hecho en casi todas las comunidades autónomas del PP, el 60% del impuesto de transmisiones para la segunda vivienda. Lo hemos hecho. Hay en algunas comunidades autónomas que lo han subido. Cataluña lo ha subido al 11%. Pues oiga, vamos a bajar el impuesto de transmisiones al 4% y el gobierno central tiene que rebajar el impuesto de IVA al 4%. 60% de rebaja de impuestos para los jóvenes, un aval hasta el 100% del precio de compra y así construyendo un millón de viviendas vamos a solventar problemas. La vivienda ha sido el gran fracaso de este gobierno y la vivienda tiene que ser el éxito del gobierno siguiente. Y le aseguro que estoy absolutamente convencido de que si tenemos esa posibilidad lo vamos a hacer."
+  },
+  {
+   "start": 1691.91,
+   "end": 1718.53,
+   "label": "SPEAKER_02",
+   "person": "herrera",
+   "name": "Carlos Herrera (periodista, COPE)",
+   "text": "Vamos a hablar un poco de vivienda, que estaba en la hoja de ruta, de economía. Yo creo que tú tienes un perfil gestor, has estado gestionando Insalud, has estado gestionando en su momento Correos, aparte de la propia Junta de Galicia. ¿Qué te preocupa de la economía española y qué tres cosas crees que hay que tocar para tener una economía más fuerte?"
+  },
+  {
+   "start": 1719.41,
+   "end": 2195.9,
+   "label": "SPEAKER_01",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "Bueno, primero tenemos que mandar un mensaje de confianza desde las instituciones. Tenemos que decirle a los ciudadanos, vamos a retomar el contrato social, ustedes cumplen sus deberes, pero el Estado va a cumplir los suyos. Si restablecemos esa confianza, si desde el principio se observa que no hay cálculos políticos, si desde el principio se acredita que el gobierno está dispuesto a desgastarse para que no se desgaste el país, Si se acredita que hay un presidente de gobierno que ya tiene colmadas sus aspiraciones y sus ambiciones, ¿por qué? Pues porque yo ya no tengo ningún interés más que mi país salga adelante. Yo no he hecho cálculos cuánto tiempo habría que estar. No, no, no, pero si son cuatro años y he solventado algunos de los problemas gordos y sobre todo he rebajado la tensión y volvemos otra vez. A que la palabra sea el instrumento y no el insulto. Volvemos otra vez a que el presidente no diga que hay un muro, sino al contrario, sea un buscador de puentes. Bueno, creo que eso es muy importante. Adicionalmente tenemos un país magnífico. En este país todo el mundo quiere vivir. El objetivo ahora es que buena parte de la gente quiere invertir. Hemos hecho cosas impresionantes. La transición después de 40 años de democracia se estudia en las facultades de Derecho Político de las mejores universidades del mundo. Hemos entrado en la Comisión Europea, en la CE, Comisión Económica Europea. Después, cuando nadie daba un duro por nosotros, teníamos un enorme déficit, habíamos devaluado la peseta, no éramos capaces de entrar en la primera categoría. Entramos en el euro. Hoy tenemos, están muy deterioradas como consecuencia de los ocho años de desatención, pero teníamos una red de autovías que se compara con ventaja con cualquier otro país. Fuimos y tuvimos la marca del tren de alta velocidad de las mejores del mundo. Hoy lamentablemente no. Hoy antes a los 30 minutos de retraso te devolvías el dinero. Ahora lo que esperas es que no tenga más de 30 minutos de retraso. Por tanto, fuimos un gran país, vamos a volver a ser un gran país. Yo les plantearé a agentes sociales y económicos un plan de competitividad. Oiga, tenemos que mejorar nuestra competitividad porque ha bajado, tenemos que mejorar nuestra productividad porque ha bajado. Trabajar tiene que volver a merecer la pena. Es que trabajar tiene que conllevar un salario en el que tú puedas optar a mantener una expectativa real de tener una vivienda y llegar a fin de mes. Lo que no puede ser es que los que mejor llegan a fin de mes es el gobierno. Si nos cobran 200.000 millones más de impuestos que hace seis años, es evidente que está usted lleno de dinero. Y la pregunta es, ¿en qué ha invertido usted el dinero? Porque cada uno tiene su receta económica. Oiga, yo he subido los impuestos porque necesitaba mejorar la competitividad de la economía y por tanto necesitaba finalizar el mapa de infraestructuras. Y quería tener todas las autovías y decir, España desde el punto de vista de infraestructura está acabada. Es un país acabado, como Austria más o menos. Llegas allí y dices, ¿qué le falta a un austríaco? Infraestructuras, ¿no? Una red de autovías fantástica, un tren de alta velocidad fantástico, unos aeropuertos fantásticos. La pregunta, ¿por qué está en el mayor nivel de deterioro las infraestructuras viarias y ferroviarias que recordamos? Si con tanto dinero que había, más 80.000 de Next Generation, ¿cómo es posible que estemos así? Si usted mira quién estuvo en el Ministerio de Fomento y quién está, igual lo entiende. Claro, ese ministerio en el que yo he estado comprenderá que es un disparate todo esto, ¿no? Oiga, el ministerio más inversor, si es un ministerio con un enorme talento y una enorme decencia. Si no hay talento ni hay decencia y lo que hay son 24 años de cárcel, comprenderá usted que esto no da confianza. Un plan de competitividad. Los impuestos no se van a subir. Y la deflactación de la tarifa del IRPF hay que acometerla porque ha subido el IPC en los últimos años un 24% y la bolsa de la compra ha subido un 42%. Y hay gente que le han subido el salario, ha pasado de tarifa y resulta que la subida del salario se lo ha tragado el impuesto de la renta, además de la inflación general. Por tanto, la burocracia, por cada nueva ley hay que derogar tres. Hemos de recuperar el mercado interior. Yo soy corresponsable, como presidente autonómico mucho tiempo, Y es un mercado mediano con 50 millones de ciudadanos. Si en la Unión Europea se están haciendo obsesivamente decretos ómnibus que podían ir un poco más rápido, hombre, el primer decreto ómnibus que deberíamos de hacer sería el de los Estados miembros. 17 regulaciones o 15 regulaciones para la misma actividad es un disparate. Y también, ya sé que hablar de esto no me va a dar un voto, pero es que yo no vengo a mentirle a la gente. Si la gente no me quiere votar, que no me vote, pero yo tengo que decir que no es razonable el porcentaje de absentismo que tenemos en nuestro país. Yo solamente doy datos. Año 2018, faltaba trabajar todos los días una media de 450.000 personas. Año 2025, 1.200.000. Gasto en absentismo, año 2018, 13.000 millones. Año 2025, 31.000 millones. Hoy sale en la portada de ABC, no voy a utilizar ese dato porque no lo he comprobado, que son 36.000 millones ya. Y el tercer dato. Pero ¿cómo es posible que las bajas, la mayoría de ellas, se den los lunes y los viernes? Niña aquí. ¿Cómo es posible? Y pues no sé, pero las personas que están con mejor salud de España son los autónomos. Yo no sé si es que van a hospitales especiales, que no tengan ningún tipo de lista de espera, ¿no? Por lo tanto, ¿hemos de contratar a más médicos evaluadores del INSS? Por supuesto. Por supuesto. ¿Hemos de conectar los médicos evaluadores del INSS con las mutuas? Por supuesto. ¿Hemos de establecer un sistema homogéneo de información entre los médicos? Es que hay médicos que no tienen la información del médico de primaria. Y por tanto tienen que volver a empezar otra vez a hacer la historia clínica de un paciente que está de baja, ¿no? Y estamos trabajando en un modelo de bonus para las empresas, porque las empresas también tienen responsabilidad. Por tanto, si tu empresa tiene un porcentaje de baja por encima, por debajo de X, y por tanto tienes un buen servicio médico, Tienes una buena atención al trabajador, motivas adecuadamente la plantilla, creas un clima y a lo mejor podemos hablar de cómo podemos reducir determinadas obligaciones. Esto todo es un puzzle que hay que encajar cada pieza, pero lo primero es decir, pero usted, nosotros venimos aquí a servir a nuestro país. Segundo, si hay alguien que meta la mano en la caja, se va a la calle, sea quien sea. Y tercero, aquí no vamos a fichar a nadie que no tenga talento. Si usted no tiene experiencia, usted no vale para este puesto. A lo mejor vale de asesor, de no sé qué, pero de su algo para gestionar dinero público, no."
+  },
+  {
+   "start": 2197.02,
+   "end": 2212.34,
+   "label": "SPEAKER_02",
+   "person": "herrera",
+   "name": "Carlos Herrera (periodista, COPE)",
+   "text": "Bueno, a mí me quedan muchísimas cosas en el tintero, ya estás tú sacando temas, Y además, como buen gallego, nosotros nos entendemos, ha dicho que los impuestos no van a subir. Y ha añadido que hay"
+  },
+  {
+   "start": 2212.34,
+   "end": 2212.94,
+   "label": "SPEAKER_01",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "que bajar los impuestos."
+  },
+  {
+   "start": 2213.46,
+   "end": 2255.7,
+   "label": "SPEAKER_02",
+   "person": "herrera",
+   "name": "Carlos Herrera (periodista, COPE)",
+   "text": "Y ha hablado de la deflactación del IRPF. Y puede hablar de otros impuestos, pero necesitamos más tiempo. Yo creo, Alberto, y nosotros creemos, yo creo que en general que los impuestos no tienen que subir para que podamos invertir y para que haya una clase media con mayor poder adquisitivo que nos haga girar la rueda. Yo creo que eso es necesario. Pero me gustaría cambiar un poco de tercio hacia cómo ves tú, con las posibilidades que tienes de gobernar este país, el papel de España en Europa y el papel de Europa en el mundo, en un mundo que hoy se ha hablado a lo largo de toda la mañana de todos los aspectos geopolíticos que nos están afectando. ¿Qué te parece que tiene que hacer España?"
+  },
+  {
+   "start": 2255.7,
+   "end": 2674.46,
+   "label": "SPEAKER_01",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "Y hay un personaje que me parece interesantísimo en la España actual, que es el seleccionador de fútbol. Por tanto, eso de que si gobernamos, podemos hacer una reunión si quieres el 30 de noviembre y coger los resultados y entonces hacerme preguntas más concretas. Mi objetivo fundamental es ganar las elecciones sin mentirle a la gente. Pero tiene que darse los dos. Yo no puedo venir aquí a mentir. Yo no puedo venir a decir que voy a hacer no sé cuántas cosas, no sé cuántas prestaciones, no sé cuántas ayudas. Y además después, en fin, sacar músculo de ellas. Fíjese todo lo que ha subido. Cuando tiene un porcentaje de pobreza como la que tiene, debería usted estar callado, hombre. Que España tenga el 25% de la población en riesgo de pobreza y que tengamos la pobreza infantil más alta en la Unión Europea, deberíamos de ser un poco prudentes sobre cómo funciona la economía. ¿Qué pasa en Europa? Yo creo que Europa tiene que concentrarse en el crecimiento económico y perseverar en la defensa de sus principios. Europa es un lugar donde hay libertades, donde hay Estado de Derecho. Eso, en otros países que económicamente son más competitivos que el nuestro, no se utilizan esos principios. Al menos no se utilizan con la intensidad que aquí. Y eso produce una cierta, entre comillas, discriminación desde el punto de vista de la competencia. Pero esos principios para nosotros son básicos. Y manteniendo esos principios, debemos centrarnos en la competitividad de la economía. Europa no puede externalizar sus fronteras, no puede externalizar su seguridad y no puede externalizar su energía. ¿Por qué el Partido Popular no consideró oportuno el tratado de amistad con Francia? Sabiendo que Francia es uno de los países, sin duda, en el que España tiene que tener una relación más estrecha, una relación de absoluta cordialidad y de lealtad. Bueno, porque creíamos que en ese tratado deberían especificarse de una forma concreta las interconexiones energéticas. Y lo único que se pone, como siempre, es un espantajo de hacer un proyecto de nitrógeno verde entre Barcelona y Marsella, a sabiendas de que no se va a hacer. Por lo tanto, Europa tiene que aceptar que somos los campeones de la regulación y estamos de últimos en las grandes potencias en innovación. Estamos obsesionados con regular, lo que deberíamos estar obsesionados es con el resultado. Hay gente que se dedica al sector público y su único compromiso es cumplir el procedimiento. Con independencia de que cumplir el procedimiento consiga el resultado esperado o no. ¿Por qué? Porque así nunca vas a tener ningún problema. Yo he cumplido el procedimiento, oiga, y ese procedimiento es óptimo para el resultado o por el contrario lo que penaliza es la competitividad y el resultado. Y claro, ¿y qué ha hecho España en su política exterior? Pues enemistarnos con los países de Occidente. Nos hemos enfadado porque un señor vino aquí y dijo una cosa sobre el presidente del gobierno. Y entonces rompemos relaciones. Rompemos relaciones con Argentina. ¡Para! Se acabó. Los principios de la unión, ni el pacto de retorno, ni la preservación de la frontera europea. Y entonces hay una primera ministra, presidenta del Consejo de Ministros italiana, y entonces nos enfadamos y montamos un lío, en vez de descolgar un teléfono y solucionarlo, pues ahora se ha roto el espacio Schengel entre Italia y España. Bueno, al final, esto de criticar al presidente de los Estados Unidos está muy bien. Yo, desde luego, hay cosas que no puedo entender ni puedo compartir. Ahora bien, hay que distinguir al presidente de un gobierno con el primer país del mundo. Por lo tanto, la política exterior española tiene que ser una política, bueno, está aquí Ana Palacios, tiene que ser una política pro-occidental, pro-europea y que juegue como una rótula entre la Unión Europea e Hispanoamérica. Y, por supuesto, no utilizar la política exterior española para hacer política interior. Al final, si a mí me aplaude jamás Ijez Bolá, me preocupa. Seré justo en las apreciaciones, defenderé los intereses de mi país, intentaré una política de cordialidad con todos los países. Ahora bien, esto de coger un pataleo personal y romper relaciones con un país como la República Argentina me parece de una frivolidad y de un infantilismo impropio. En fin, en la Unión Europea quedan muchas cosas por hacer, pero sobre todo no externalizar lo que comentaba antes me parece importante. Y en las reuniones, llevo cuatro años yendo todos los meses a Bruselas a reunirme con los primeros ministros y jefes de la oposición todos los meses, Entonces, estoy observando muy claramente que Europa empieza a hablar muy en serio de el error que cometimos en la industrialización, el error que cometimos en la energía, la pérdida de competitividad que tenemos y la dependencia europea de determinadas potencias. Y creo que es bueno, a pesar de que también me critican por los otros lados, creo que Europa ha hecho bien con el acuerdo en Mercosur, hemos hecho bien en el acuerdo con Australia, estamos trabajando con India, tenemos que trabajar con Sudáfrica, tenemos que trabajar con Canadá y no depender de los Estados Unidos. Aunque reconozco que el principal inversor en España son los Estados Unidos. Tenga usted cuidado, sea usted inteligente y no utilice la política exterior para hacer política interior."
+  },
+  {
+   "start": 2675.64,
+   "end": 2703.26,
+   "label": "SPEAKER_02",
+   "person": "herrera",
+   "name": "Carlos Herrera (periodista, COPE)",
+   "text": "Bueno, se nos ha acabado el tiempo. Yo quizás quería tocar un poco, tú naciste en Los Peares, en un pueblo de 300 habitantes, estuviste 10 años creo que en un internado de los maristas en León, y saber un poco por qué te has metido en este fregado de la política, por qué una persona se mete en este fregado y después quiero cerrar con otra última pregunta."
+  },
+  {
+   "start": 2705.5,
+   "end": 2941.1,
+   "label": "SPEAKER_01",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "Bueno, no estuve 10 años interno. Fui a los 10 años interno, que es distinto. Es diferente. Es diferente, no, no. Bastante diferente. No es lo mismo irte a los 15 años, 10 años interno, que irte a los 10 años, 3 o 4 años interno. Es distinto. Bueno, en mi pueblo había una escuela rural como en los pueblos de por aquí, hay mucha gente aquí que estudia una escuela rural unitaria, ¿no? Y bueno, mi padre era maestro, acabó su magisterio poco después de la guerra y había una cosa, para ser más hambre que un maestro de pueblo o algo así, ¿no? Bueno, el caso es que él no había oposiciones, no sé qué, y se dedicó a trabajar en una empresa constructora haciendo los pantanos, los embalses de la zona esta que conoces muy bien, y yo también, y que recomiendo que ustedes conozcan, que es la Ribera Sacra, tanto el río Miño y Sil, y su confluencia en el pueblo de Ospeares. Y me dijo, oiga, ¿cuál es el mejor colegio? Le dijeron, no, hay uno en los Maristas de León, que además te hacen un examen para entrar. Efectivamente, me mandaron con nueve años y recuerdo que me pusieron examen tipo test. Yo no había visto un test en mi vida. Y entonces, dije, yo, coño, a mí esto... Bueno, el caso es que era ABCOD y tenías que ponerlo. Y bueno, era bastante más sencillo de lo que... Bueno, el caso es que me admitieron y ahí estuve. ¿Por qué me metí en esto? Yo hice Derecho, me gustaba ser juez, empecé Judicatura, ese... Y la política también se cruzó, porque ahí vino la crisis de los años 90 y mi padre se fue, bueno, le despidieron, como a mucha gente en la década de los 90. Yo empezaba la oposición en ese momento, mi hermana se tenía que ir a la facultad, a aprender judicaturas, son 370 temas en mi época. Por cierto, había dos o tres temas de la ley de arrendamientos urbanos. Es bueno no improvisar, ¿sabes? Porque con que empieces a legislar después, sin haber estudiado, menudo lío vas a montar. Bueno, lo cierto es que, bueno, pues no, no pude y me presentaron las oposiciones en la Junta, las saqué y a partir de ahí pues tuve contacto con políticos. Tardé tiempo en afiliarme al PP, para que veas que soy una persona reflexiva, y me afilié al PP cuando me hicieron aquí secretario general con rango de subsecretario el presidente Aznar y el ministro Romay. Y observé que todo lo que habían contado de que el PP está en contra de los servicios públicos, que venía a privatizar la sanidad, que, no coño, ¿cómo va a privatizar la sanidad si el responsable era yo? Y yo no tuve ninguna instrucción de ningún gobierno, ni del presidente Aznar, ni del Ministerio de Vivienda. Yo lo que tenía la instrucción es, oiga, pero usted, usted tiene este presupuesto, ajustese. Segundo, si usted tiene esta lista de espera, disminúyela. Hay un enorme problema estructural en los hospitales de España, que cuando llegamos, es que no había baños en las habitaciones. Es que en el Hospital Clínico de Madrid había un baño cada tres habitaciones. Un día me vino a ver la gerente del Hospital de la Cruz Roja, una inspectora médica muy poco, en fin, no le gustaban las bromas, por decirlo así, y me dice, le traigo aquí un dosier y me lo puso encima de la mecha. ¿Qué es eso? Y me dice, o me da dinero para cambiar la instalación eléctrica del hospital o puede arder en cualquier momento. Así empezamos. Bueno, y al final, esto fue en el 96, en el 2001 me afilié al Partido Popular, como presidente de Correos en ese momento, y bueno, y aquí vino. Y aquí, lo de Galicia te lo conoces tú, y lo de aquí también se lo conocen los de Madrid. Se montó un lío en mi partido, en el 18, un lío bastante gordo. Aquí sigues."
+  },
+  {
+   "start": 2941.16,
+   "end": 2943.12,
+   "label": "SPEAKER_02",
+   "person": "herrera",
+   "name": "Carlos Herrera (periodista, COPE)",
+   "text": "Y aquí sigues. Y aquí sigo."
+  },
+  {
+   "start": 2943.8,
+   "end": 2960.48,
+   "label": "SPEAKER_01",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "Dije que si no ganaba a Sánchez en el 23 me iría. Y sería una circunstancia en la que, es sorprendente, le gano pero no puedo gobernar. Por tanto me quedé. Y por tanto vamos a ver qué pasa en la siguiente."
+  },
+  {
+   "start": 2967.86,
+   "end": 2990.18,
+   "label": "SPEAKER_02",
+   "person": "herrera",
+   "name": "Carlos Herrera (periodista, COPE)",
+   "text": "Y ya la última, que estamos fuera de hora. Nosotros, las empresas, tenemos nuestro propósito, ¿no? Por ejemplo, el nuestro, que no lo voy a contar, tiene ocho palabras. O sea, que no vale... Me tienes que... Te voy a meter en un apuro, pero me tienes que decir lo que te sale del cuerpo, de cuál sería tu propósito si gobiernas España en noviembre de este año."
+  },
+  {
+   "start": 2991.68,
+   "end": 2993.0,
+   "label": "SPEAKER_01",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "Bueno, intenté decirlo."
+  },
+  {
+   "start": 2993.86,
+   "end": 2995.26,
+   "label": "SPEAKER_02",
+   "person": "herrera",
+   "name": "Carlos Herrera (periodista, COPE)",
+   "text": "Pero en una frase me lo tienes que decir."
+  },
+  {
+   "start": 2995.56,
+   "end": 3005.48,
+   "label": "SPEAKER_01",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "Pues mire, mi objetivo, Iñaki, es recuperar la confianza en nosotros mismos y en nuestro país. Ese es mi propósito. Parece un buen propósito."
+  },
+  {
+   "start": 3005.66,
+   "end": 3011.0,
+   "label": "SPEAKER_02",
+   "person": "herrera",
+   "name": "Carlos Herrera (periodista, COPE)",
+   "text": "Pues muchas gracias, Alberto. Un aplauso para Alberto. Muchas gracias. Muchas gracias. Gracias."
+  },
+  {
+   "start": 3014.55,
+   "end": 3019.42,
+   "label": "SPEAKER_01",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "Muchas gracias. Muchas gracias."
+  },
+  {
+   "start": 3036.53,
+   "end": 3037.05,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Gracias."
+  }
+ ]
+}

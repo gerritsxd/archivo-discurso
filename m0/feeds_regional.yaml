@@ -1,0 +1,93 @@
+# Regional public and regional-edition feeds, same format as feeds.yaml. Checked with curl on 2026-10-25:
+# every URL returned HTTP 200 and parsed as RSS XML with <enclosure> audio on every item.
+# Not duplicated here: Onda Cero "Más de uno", RNE "24 horas", The Wild Project (already in feeds.yaml).
+
+# ---------- Regional public radio / TV ----------
+- station: EITB / Radio Euskadi
+  programme: La entrevista de Boulevard
+  rss_url: https://guau.eus/s/1629/rss.xml
+  verified: yes
+  granularity: "one item per interview (political and social guests of the morning show Boulevard)"
+  interviews_separate: yes
+  depth: "38 items, back to 2026-09-03 (~7 weeks)"
+  note: "The old eitb.eus/multimedia/podcast/5106.xml Boulevard feed is dead (last item 2025-03-31); this GUAU feed replaced it"
+- station: Radio Galega (CRTVG)
+  programme: Galicia por diante
+  rss_url: https://api-radiogalega.interactvty.com/api/2.0/contents/feed_podcasts/?category_id=13390&client=radiogalega
+  verified: yes
+  granularity: "mixed (full show 'Galicia por Diante DD-MM-YYYY' plus sections and commentary columns)"
+  interviews_separate: "partly (guest interviews are sections; titles like 'Ricardo F. Colmenero: Abascal na Coruña' are columns about candidates, not interviews)"
+  depth: "1974 items, back to 2023-09-22"
+  quirk: "in Galician"
+- station: Radio Galega (CRTVG)
+  programme: A crónica 19h
+  rss_url: https://crtvg-bucket.flumotion.cloud/podcast_feeds/radiogalega/17235.xml
+  verified: yes
+  granularity: "one item per evening news programme (not inspected for interview content)"
+  depth: "715 items, back to 2023-09-21"
+  quirk: "in Galician"
+- station: À Punt
+  programme: Les notícies del matí
+  rss_url: https://www.apuntmedia.es/podcast-mp3/les-noticies-del-mati-11200.xml
+  verified: yes
+  granularity: "mixed (daily 06-07h show plus separate 'Entrevista LNM <guest>' items)"
+  interviews_separate: "yes ('DD.MM.YYYY | Entrevista LNM <name>')"
+  depth: "40 items, back to 2026-09-24 (shallow, so crawl daily)"
+  quirk: "in Catalan/Valencian"
+- station: Canal Sur Radio
+  programme: La mañana de Andalucía
+  rss_url: https://d20t7xxbiaeqt9.cloudfront.net/podcast_feeds/canalsuraudio/30651.xml
+  verified: yes
+  granularity: "clips (one item per interview or section; magazine format with few politicians)"
+  interviews_separate: "yes (title names the guest)"
+  depth: "1072 items, back to 2026-01-01"
+  quirk: "pubDate missing on some items; the CanalSur Más Audio platform has no news-interview programme feed that I found"
+- station: Castilla-La Mancha Media (Radio CLM)
+  programme: Castilla-La Mancha hoy
+  rss_url: https://feeds.ivoox.com/feed_fg_f1251286_filtro_1.xml
+  verified: yes
+  granularity: "hours (one item per hour, 06-10h)"
+  depth: "12296 items, back to 2015-10-13; last item 2026-10-13, so it may have lagged since, check again"
+
+# ---------- Cadena SER regional editions (separate interview items) ----------
+- station: Cadena SER
+  programme: Radio Madrid (all programmes)
+  rss_url: https://fapi-top.prisasd.com/podcast/playser/radio_madrid.xml
+  verified: yes
+  granularity: "mixed (Hoy por Hoy Madrid, Hora 14, A vivir, news bulletins plus clips)"
+  interviews_separate: yes
+  depth: "50 items, back to 2026-10-21 (about 4 days, so crawl several times a day)"
+- station: Cadena SER
+  programme: La Ventana de Madrid
+  rss_url: https://fapi-top.prisasd.com/podcast/playser/la_ventana_de_madrid.xml
+  verified: yes
+  granularity: "mixed (daily show plus clips)"
+  interviews_separate: yes
+  depth: "50 items, back to 2026-09-11"
+- station: Cadena SER
+  programme: Radio Zaragoza (all programmes)
+  rss_url: https://fapi-top.prisasd.com/podcast/playser/radio_zaragoza.xml
+  verified: yes
+  granularity: "mixed (shows plus clips)"
+  interviews_separate: yes
+  depth: "50 items, back to 2026-10-22 (about 3 days)"
+- station: Cadena SER
+  programme: SER Castilla y León (all programmes)
+  rss_url: https://fapi-top.prisasd.com/podcast/playser/ser_castilla_y_leon.xml
+  verified: yes
+  granularity: "mixed (Hoy por Hoy matinal blocks, Hora 14, La Ventana, Hora 25)"
+  interviews_separate: "not clearly (mostly show blocks)"
+  depth: "200 items, back to 2026-09-07"
+- station: Cadena SER
+  programme: Hoy por Hoy Catalunya
+  rss_url: https://fapi-top.prisasd.com/podcast/playser/hoy_por_hoy_catalunya/itunestfp/podcast.xml
+  verified: yes
+  granularity: "30-minute blocks of the morning show (06:50, 07:20, 07:50, 08:20)"
+  depth: "50 items, back to 2026-10-07"
+- station: Cadena SER
+  programme: Aquí Catalunya
+  rss_url: https://fapi-top.prisasd.com/podcast/playser/aqui_catalunya/itunestfp/podcast.xml
+  verified: yes
+  granularity: "clips (one item per interview or segment, in Catalan)"
+  interviews_separate: yes
+  depth: "100 items, back to 2026-10-13"

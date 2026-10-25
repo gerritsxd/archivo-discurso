@@ -1,0 +1,39 @@
+{
+ "id": "2026-10-05-abascal-5fc2d1",
+ "date": "2026-10-05",
+ "expected_person": "Santiago Abascal",
+ "kind": "speech",
+ "outlet": "VOX YouTube",
+ "title": "🔴 DIRECTO | Declaración Institucional de Santiago Abascal",
+ "url": "https://www.youtube.com/watch?v=IqIzfg0FLTI",
+ "language": "es",
+ "duration_s": 885.62,
+ "sha256": "7635d20b8cda7856a61ccf8614799459077f743c75768c89e4c068a788d70039",
+ "fetched_at": "2026-10-25T09:11:21+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.55,
+  "processed_at": "2026-10-25T09:30:54+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_00": {
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "decision": "match",
+   "reason": "sim 0.88, next 0.45",
+   "talk_s": 219.6
+  }
+ },
+ "turns": [
+  {
+   "start": 234.16,
+   "end": 533.45,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Muchas gracias a todos. Hoy tenemos una buena noticia. Vamos a votar. Los españoles, todos, no unas minorías que hasta ahora han dirigido y han secuestrado al país, van a tener muy pronto el voto y van a tener la palabra. Todas las demás noticias son malas. Ceuta sigue invadida. ¿Todavía existe un gobierno que encargó a un narco eliminar a una jueza? Lo repito, todavía existe un gobierno que encargó a un narco eliminar a una jueza. ¿La corrupción ha convertido la política en una ciénaga? Desde señoritas de compañía pagadas con dinero público hasta joyas costosísimas de procedencia desconocida en manos de expresidentes del Gobierno del Partido Socialista en una caja fuerte en la sede de Ferraz. Sanidad Millones de españoles sufren por no poder pagar su casa, porque no les alcanza pagar una hipoteca o porque ni siquiera sueñan con poder independizarse y comprar o alquilar una vivienda. Se deterioran cada vez más los servicios públicos, los transportes, la sanidad está colapsada como nunca antes en nuestra historia y la educación de los jóvenes en mínimos históricos. Desde la perspectiva de los resultados internacionales comparados, ¿se recauda más que nunca por parte de la Administración y se ofrece menos que nunca por parte del Gobierno? Y esto es importante tenerlo claro una vez más. ¿Se recauda más que nunca y se ofrece menos que nunca a los españoles? Y por eso yo creo que es no una buena noticia, sino una excelente noticia poder decir que por fin tenemos elecciones. Aunque han sido muchas las malas noticias durante estos ocho años, y aunque existe el riesgo de que estas malas noticias se agraven, si Sánchez consigue manipular este proceso electoral, y todos sabemos que Sánchez es capaz absolutamente de todo. Y por eso hoy quiero, en primer lugar, exigir elecciones libres, elecciones limpias y elecciones sin violencia. Elecciones sin violencia, porque estoy convencido de que algunos no quieren esas elecciones en paz y van a utilizar a sus milicias, a las de la playa del trampolín y a otras muchas, para no permitir que nos dirijamos a los españoles en libertad y en igualdad de condiciones. Nosotros llevamos años pidiendo esas elecciones, desde el minuto uno, desde que los españoles fueron estafados por quien incumplió todos sus compromisos de pactos y sus compromisos electorales. Nosotros llevamos años construyendo la alternativa y combatiendo a este Gobierno por todas las vías legítimas que hemos tenido a nuestro alcance. Y los españoles deben saber que nosotros estamos absolutamente preparados para ofrecerle a España las soluciones que nuestro país necesita. Y que deben atender, en primer lugar, a la prioridad nacional, para que los españoles no estén más tiempo, no estén nunca más discriminados en su propia patria, para que los españoles no sean los últimos en España. Unas soluciones que deben atender también a la desregulación, para quitarle a nuestra economía, a nuestro modelo productivo, todas las corrupciones, todas las ideologías y todo el ánimo confiscatorio que están ahogando a los autónomos, que están destruyendo a las clases medias y que impiden salir adelante a las pequeñas y medianas empresas, destruyendo también el futuro de los trabajadores españoles. Y, por supuesto, unas soluciones que deben atender a la remigración, porque hay que revertir la invasión migratoria que tantas consecuencias negativas está teniendo para el bolsillo de los españoles, para su seguridad, para su asistencia sanitaria e incluso para su capacidad de acceder a una vivienda como hace años lo pudieron hacer otras generaciones de españoles. Hace mucho tiempo que nosotros hemos hecho este diagnóstico y ahora, si los españoles quieren, tocará aplicar las recetas que nos devuelvan la libertad, la paz y la prosperidad que un gobierno mafioso quiere arrebatarnos definitivamente. No lo van a conseguir. Esta es la última oportunidad para una inmensa mayoría de españoles Y no la vamos a desaprovechar. Muchas gracias y muy buenos días."
+  }
+ ]
+}

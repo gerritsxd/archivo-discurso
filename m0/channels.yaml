@@ -1,0 +1,87 @@
+# Official YouTube channels for M0 video sources (checked 2026-10-25 with yt-dlp 2026.10.21).
+# rss = uploads feed (last ~15 items only; includes finished live streams). Crawl the /streams tab too.
+channels:
+  - party: PSOE
+    name: PSOE
+    handle: "@psoe"
+    channel_id: UCB75fTm3weGTmtnitiZcdBw
+    rss: https://www.youtube.com/feeds/videos.xml?channel_id=UCB75fTm3weGTmtnitiZcdBw
+    notes: Sánchez rallies are live streams titled "PSOE / Pedro Sánchez en <ciudad>"; /videos is mostly 1-2 min spots.
+  - party: PSOE (government)
+    name: La Moncloa
+    handle: "@lamoncloa"
+    channel_id: UCzJtDQ9b_Uq1tA5W_tMiMUQ
+    rss: https://www.youtube.com/feeds/videos.xml?channel_id=UCzJtDQ9b_Uq1tA5W_tMiMUQ
+    notes: Sánchez in government role; pairs with Moncloa written transcripts (tier 1). No captions on any upload.
+  - party: PP
+    name: Partido Popular
+    handle: "@partidopopular"
+    channel_id: UCPECDsPyGRW5b5E4ibCGhww
+    rss: https://www.youtube.com/feeds/videos.xml?channel_id=UCPECDsPyGRW5b5E4ibCGhww
+    notes: Feijóo events are live streams prefixed "DIRECTO:"; also streams Sémper/Tellado/Muñoz (filter by title).
+  - party: VOX
+    name: VOX España
+    handle: "@vox_españa"
+    channel_id: UCRvpumrJs0qY1xLzeU0Ss1Q
+    rss: https://www.youtube.com/feeds/videos.xml?channel_id=UCRvpumrJs0qY1xLzeU0Ss1Q
+    notes: Rallies ("GRAN ACTO PÚBLICO") as streams; re-uploads TV interviews (Ana Rosa, Horizonte, Espejo Público). Handle has a non-ASCII char, so always use the channel_id. Some search results show the uploader as "VOX España y Santiago Abascal" with no channel id; same videos.
+  - party: Podemos
+    name: Podemos
+    handle: "@ahora_podemos"
+    channel_id: UCtK7s89RJ9X9Nv9EQCMu9Lg
+    rss: https://www.youtube.com/feeds/videos.xml?channel_id=UCtK7s89RJ9X9Nv9EQCMu9Lg
+    notes: Low volume since 5 Oct (6 uploads). Re-uploads TV/radio interviews of Montero and Belarra.
+  - party: Podemos (candidate)
+    name: Irene Montero
+    handle: "@IreneMonteroYT"
+    channel_id: UCGyfGOxlKmath0HQXQPAoIw
+    rss: https://www.youtube.com/feeds/videos.xml?channel_id=UCGyfGOxlKmath0HQXQPAoIw
+    notes: Personal channel of the Podemos candidate. Its newest upload (Nou Barris act with Rufián, wz0xMaI5Y-E) returned "video not available" on 2026-10-25.
+  - party: Frente Amplio
+    name: Frente Amplio
+    handle: null
+    channel_id: UCI0ufdFaYZQKBH7ixcWtbsg
+    rss: https://www.youtube.com/feeds/videos.xml?channel_id=UCI0ufdFaYZQKBH7ixcWtbsg
+    notes: New channel, 2 uploads (both 17-18 Oct). Not verified as official from a party website link; content matches the official presentation act.
+  - party: Frente Amplio (member, Movimiento Sumar)
+    name: Sumar
+    handle: null
+    channel_id: UCEg-oyYjgbOL0NG5qjtuRFA
+    rss: https://www.youtube.com/feeds/videos.xml?channel_id=UCEg-oyYjgbOL0NG5qjtuRFA
+    notes: Streamed the Frente Amplio presentation (17 Oct); otherwise no Colau content since 5 Oct.
+  - party: Frente Amplio (candidate)
+    name: Ada Colau
+    handle: "@AdaColauBCN"
+    channel_id: UCp5vwMbdAelxaqgCt6ipTgw
+    rss: https://www.youtube.com/feeds/videos.xml?channel_id=UCp5vwMbdAelxaqgCt6ipTgw
+    notes: Personal channel; no uploads since 5 Oct; no streams tab.
+# Not found: personal channels for Sánchez, Feijóo or Abascal. The handle @PedroSanchez belongs to an unrelated user.
+broadcasters:
+  - name: RTVE Noticias
+    channel_id: UC7QZIf0dta-XPXsp9Hv4dTw
+    rss: https://www.youtube.com/feeds/videos.xml?channel_id=UC7QZIf0dta-XPXsp9Hv4dTw
+  - name: RTVE Play
+    channel_id: UCqlsTzBv49Uiu8Z3IseVgQQ
+    rss: https://www.youtube.com/feeds/videos.xml?channel_id=UCqlsTzBv49Uiu8Z3IseVgQQ
+  - name: La Revuelta (TVE)
+    channel_id: UCO5BR4Ex3EM8PSLU7OSqtOw
+    rss: https://www.youtube.com/feeds/videos.xml?channel_id=UCO5BR4Ex3EM8PSLU7OSqtOw
+  - name: laSexta
+    channel_id: UCh1OgMIWOlDBhFEYL3DHWjQ
+    rss: https://www.youtube.com/feeds/videos.xml?channel_id=UCh1OgMIWOlDBhFEYL3DHWjQ
+  - name: laSexta Noticias
+    channel_id: UCCJs5mITIqxqJGeFjt9N1Mg
+    rss: https://www.youtube.com/feeds/videos.xml?channel_id=UCCJs5mITIqxqJGeFjt9N1Mg
+  - name: Antena 3 Noticias
+    channel_id: UC_Oni82GyYcabEr3rd-eJkg
+    rss: https://www.youtube.com/feeds/videos.xml?channel_id=UC_Oni82GyYcabEr3rd-eJkg
+  - name: Antena 3
+    channel_id: UC84t25xqhPEPpGY7NBZJ_eA
+    rss: https://www.youtube.com/feeds/videos.xml?channel_id=UC84t25xqhPEPpGY7NBZJ_eA
+  - name: El Hormiguero (Antena 3)
+    channel_id: UCLNZvDlwQJMaQg477NAxvjQ
+    rss: https://www.youtube.com/feeds/videos.xml?channel_id=UCLNZvDlwQJMaQg477NAxvjQ
+  - name: Mediaset Infinity España (Telecinco, Cuatro)
+    channel_id: UC3hQI9c_MZPSDWNLF05OQGQ
+    rss: https://www.youtube.com/feeds/videos.xml?channel_id=UC3hQI9c_MZPSDWNLF05OQGQ
+    notes: Posts mostly shorts (<1 min) of Ana Rosa / Horizonte; full interviews are on mitele.

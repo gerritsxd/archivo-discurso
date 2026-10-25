@@ -1,0 +1,25 @@
+W1025 09:48:37.171000 19084 Lib\site-packages\torch\utils\flop_counter.py:113] triton not found; flop counting will not work for triton kernels
+C:\Users\gerrit\Desktop\me\discurso\.venv\Lib\site-packages\pyannote\audio\utils\reproducibility.py:74: ReproducibilityWarning: TensorFloat-32 (TF32) has been disabled as it might lead to reproducibility issues and lower accuracy.
+It can be re-enabled by calling
+   >>> import torch
+   >>> torch.backends.cuda.matmul.allow_tf32 = True
+   >>> torch.backends.cudnn.allow_tf32 = True
+See https://github.com/pyannote/pyannote-audio/issues/1370 for more details.
+
+  warnings.warn(
+C:\Users\gerrit\Desktop\me\discurso\.venv\Lib\site-packages\pyannote\audio\models\blocks\pooling.py:103: UserWarning: std(): degrees of freedom is <= 0. Correction should be strictly less than the reduction factor (input numel divided by output numel). (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\aten\src\ATen\native\ReduceOps.cpp:1913.)
+  std = sequences.std(dim=-1, correction=1)
+{
+ "audio": "data/raw/2026-10-23-feijoo-ser-hoyporhoy/audio.wav",
+ "pipeline": "pyannote/speaker-diarization-community-1",
+ "duration_s": 2447.91,
+ "elapsed_s": 100.08,
+ "load_s": 1.75,
+ "realtime_factor": 24.5,
+ "device": "cuda",
+ "speakers": {
+  "SPEAKER_00": 317.4,
+  "SPEAKER_01": 2037.5
+ },
+ "n_turns": 386
+}

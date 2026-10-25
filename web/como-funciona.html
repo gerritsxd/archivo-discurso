@@ -1,0 +1,57 @@
+<article class="prose">
+<p class="kicker">Método</p>
+<h1 class="ptitle">Cómo funciona</h1>
+<p class="lede">Este archivo recoge lo que dicen en público los principales candidatos a las elecciones generales del 29 de noviembre de 2026, desde el día de la convocatoria (5 de octubre). Publica texto y marcas de tiempo, y enlaza cada frase con su fuente original para que cualquiera pueda comprobarla.</p>
+
+<p>Hoy contiene {{N_ITEMS}} apariciones y {{HOURS}} de audio. Todo el proceso es automático y todavía no lo revisa ninguna persona: por eso cada página avisa de que la transcripción está sin revisar.</p>
+
+<h2>Del audio a la cita</h2>
+<ol class="steps">
+  <li><div><b>Descarga.</b> Se baja solo el audio de fuentes de una lista cerrada: canales oficiales de partidos y del Gobierno, televisiones y radios. Se guarda la dirección original, la fecha y una huella SHA-256 del archivo. Nunca se toman vídeos subidos por terceros, para evitar imitadores y montajes.</div></li>
+  <li><div><b>Transcripción (Whisper).</b> El modelo faster-whisper large-v3 convierte la voz en texto con marcas de tiempo, después de descartar música y silencios.</div></li>
+  <li><div><b>Separación de voces (pyannote).</b> Divide la grabación en turnos de palabra de hablantes anónimos («hablante 1», «hablante 2»…), sin saber todavía quién es quién.</div></li>
+  <li><div><b>Huellas de voz.</b> Cada hablante anónimo se compara con la huella de voz de cada persona registrada, hecha a partir de grabaciones en las que sabemos con certeza quién habla. Solo se pone un nombre si el parecido es alto y claramente mayor que con cualquier otra huella. Huellas registradas hoy: {{VOICEPRINTS}}.</div></li>
+  <li><div><b>Revisión.</b> Prevista: una persona confirmará los casos dudosos antes de publicarlos. Mientras no exista, nada de lo publicado está revisado, y cada aparición lo indica.</div></li>
+</ol>
+
+<p>Regla principal: <strong>nunca se atribuye a un candidato lo que dice una voz no identificada.</strong> Esas voces aparecen en la transcripción en gris, como «Hablante sin identificar», y no entran en la búsqueda.</p>
+
+<h2>Lo que hemos medido</h2>
+<table>
+  <thead><tr><th>Medida</th><th class="num">Valor</th><th>Contexto</th></tr></thead>
+  <tbody>
+    <tr><td>Tasa de error de palabras (WER)</td><td class="num">11,4 %</td><td>Declaración institucional de Pedro Sánchez, 5 oct 2026 (9 min), frente a la transcripción oficial de La Moncloa. Es un límite superior: el texto oficial está editado (omite saludos y reformula frases). El error real de transcripción probablemente es menor del 5 %, pero no se ha comprobado de oído.</td></tr>
+    <tr><td>Confianza media por palabra</td><td class="num">0,989</td><td>Mismo audio; solo 7 de 1.290 palabras por debajo de 0,6.</td></tr>
+    <tr><td>Velocidad</td><td class="num">10,6× tiempo real</td><td>Una tarjeta gráfica doméstica (RTX 3060 Ti).</td></tr>
+    <tr><td>Parecido de voz, misma persona</td><td class="num">0,96</td><td>Feijóo en COPE frente a Feijóo en la SER: otro estudio, otra emisora, otro día.</td></tr>
+    <tr><td>Parecido de voz, personas distintas</td><td class="num">0,14–0,40</td><td>Todas las parejas vistas hasta ahora.</td></tr>
+    <tr><td>Umbral para poner un nombre</td><td class="num">≥ 0,55</td><td>Y al menos 0,10 por encima de la segunda huella más parecida, con 20 s de voz como mínimo.</td></tr>
+  </tbody>
+</table>
+<p class="note">Estas cifras salen de muy pocas grabaciones (una para la transcripción, dos para las voces). Hay que repetirlas con mítines, entrevistas por teléfono y televisión antes de confiar del todo en el umbral. El objetivo es que al menos el 99 % de las frases publicadas estén bien atribuidas.</p>
+
+<h2>Errores conocidos</h2>
+<ul>
+  <li><b>Palabras mal transcritas.</b> Nombres propios, siglas y cifras sobre todo; a veces falta una palabra corta.</li>
+  <li><b>Límites entre hablantes.</b> En los cambios de turno, la primera o la última palabra puede quedar asignada a quien hablaba antes o después.</li>
+  <li><b>Fragmentos de otros dentro de un programa.</b> Una entrevista puede incluir un vídeo de otro político. Su voz se identifica bien, pero la frase es una grabación emitida dentro del programa, no una intervención en directo. Comprueba la fuente.</li>
+  <li><b>Candidatos sin identificar.</b> Si alguien no tiene huella de voz todavía, o su voz suena distinta (teléfono, mitin con ruido), sus palabras quedan como «Hablante sin identificar» y no se le atribuyen. El archivo prefiere callar a equivocarse.</li>
+  <li><b>Voces superpuestas.</b> En debates y tertulias, cuando hablan dos a la vez, el texto puede mezclarse.</li>
+  <li><b>Minuto aproximado en la búsqueda.</b> Las citas largas se dividen en fragmentos; el minuto de cada fragmento se calcula a partir del turno completo y se marca con «≈». Puede desviarse unos segundos.</li>
+  <li><b>RTVE Play</b> no permite enlazar a un minuto: el enlace abre el programa y se indica el minuto que hay que buscar.</li>
+</ul>
+
+<h2 id="correcciones">Comunicar un error</h2>
+<p>Si una frase está mal transcrita o atribuida a quien no la dijo, escríbenos a {{CONTACT}}. Indica el enlace de la aparición y el minuto (cada turno tiene su marca de tiempo). Las correcciones se harán en menos de 48 horas y quedarán en un registro público de cambios.</p>
+
+<h2>El juego diario</h2>
+<p>«¿Quién lo dijo?» elige cada día cinco frases de candidatos identificados, iguales para todos. Se descartan las frases que contienen el nombre del candidato o de su partido, porque darían la respuesta. Después de cada respuesta se muestra la fuente en el minuto exacto. Las frases salen de la misma transcripción automática que el resto del archivo, con los mismos errores posibles. El resultado y la racha se guardan solo en tu navegador; el servidor no guarda quién juega.</p>
+
+<h2>Qué se publica y qué no</h2>
+<ul>
+  <li>Se publica el texto, las marcas de tiempo y el enlace a la fuente. No se publica audio ni vídeo.</li>
+  <li>De periodistas y otras personas solo aparece su nombre si tienen huella de voz como presentadores; si no, se quedan como hablantes sin identificar.</li>
+  <li>Los candidatos aparecen siempre en el mismo orden (alfabético por apellido) y con el mismo tratamiento, sin colores de partido.</li>
+  <li>Los datos de cada aparición se pueden descargar en JSON (licencia CC BY 4.0). Esta web no usa cookies, analítica ni rastreadores.</li>
+</ul>
+</article>

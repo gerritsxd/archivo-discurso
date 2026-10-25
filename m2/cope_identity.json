@@ -1,0 +1,46 @@
+{
+ "audio": "data/raw/2026-10-20-feijoo-cope-herrera/audio.wav",
+ "threshold": 0.55,
+ "margin": 0.1,
+ "speakers": {
+  "SPEAKER_01": {
+   "person": "herrera",
+   "name": "Carlos Herrera (periodista, COPE)",
+   "decision": "match",
+   "reason": "sim 1.00, next 0.34",
+   "talk_s": 205.0,
+   "scores": {
+    "herrera": 1.0,
+    "feijoo": 0.342,
+    "bustos": 0.159,
+    "sanchez": 0.156
+   }
+  },
+  "SPEAKER_00": {
+   "person": "bustos",
+   "name": "Jorge Bustos (periodista, COPE)",
+   "decision": "match",
+   "reason": "sim 1.00, next 0.24",
+   "talk_s": 134.9,
+   "scores": {
+    "bustos": 1.0,
+    "feijoo": 0.244,
+    "herrera": 0.159,
+    "sanchez": 0.154
+   }
+  },
+  "SPEAKER_02": {
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "decision": "match",
+   "reason": "sim 1.00, next 0.14",
+   "talk_s": 1467.4,
+   "scores": {
+    "feijoo": 1.0,
+    "herrera": 0.342,
+    "bustos": 0.244,
+    "sanchez": 0.138
+   }
+  }
+ }
+}

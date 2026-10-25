@@ -1,0 +1,16 @@
+{
+ "audio": "C:\\Users\\gerrit\\Desktop\\me\\discurso\\data\\raw\\2026-10-23-feijoo-ser-hoyporhoy\\audio.wav",
+ "model": "large-v3",
+ "device": "cuda",
+ "compute_type": "float16",
+ "beam_size": 5,
+ "language": "es",
+ "hotwords": "Pedro Sánchez, Alberto Núñez Feijóo, Santiago Abascal, Ada Colau, Irene Montero, Ione Belarra, Emilio Delgado, Yolanda Díaz, Margarita Robles, Carlos Herrera, Jorge Bustos, Aimar Bretos, Federico Jiménez Losantos, Carlos Alsina, Àngels Barceló, Íñigo Alfonso, PSOE, PP, Vox, Sumar, Podemos, Frente Amplio, Junta Electoral Central, Tribunal Constitucional",
+ "audio_duration_s": 2447.91,
+ "audio_after_vad_s": 2434.42,
+ "load_time_s": 2.93,
+ "transcribe_time_s": 328.43,
+ "rtf_audio_per_proc": 7.45,
+ "gpu_mem_baseline_mib": 1211,
+ "gpu_mem_peak_mib": 5829
+}

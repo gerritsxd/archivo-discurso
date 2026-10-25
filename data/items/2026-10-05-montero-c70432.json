@@ -1,0 +1,140 @@
+{
+ "id": "2026-10-05-montero-c70432",
+ "date": "2026-10-05",
+ "expected_person": "Irene Montero",
+ "kind": "interview",
+ "outlet": "Cadena SER - Hoy por Hoy",
+ "title": "Irene Montero propone una candidatura que \"se vote en primarias\" en la que participe todo el mundo y que represente a la \"mayoría social\"",
+ "url": "https://prisa-es.mc.tritondigital.com/HOY_POR_HOY_CADENASER_222_P/media/playser/audio/202610/05/5141237.mp3?dest=hoy_por_hoy",
+ "language": "es",
+ "duration_s": 200.28,
+ "sha256": "e7ade3bbb2f16016afca2d2381fdcb053aa6a2a2fc1ce4d0c95a24ffe34b5028",
+ "fetched_at": "2026-10-25T09:11:12+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.55,
+  "processed_at": "2026-10-25T09:39:57+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_01": {
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "decision": "match",
+   "reason": "sim 0.92, next 0.36",
+   "talk_s": 129.7
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "unknown",
+   "reason": "best sim 0.40 < 0.55",
+   "talk_s": 30.2
+  },
+  "SPEAKER_03": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "too_short",
+   "reason": "only 9s of speech",
+   "talk_s": 8.8
+  },
+  "SPEAKER_02": {
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "decision": "unknown",
+   "reason": "best sim 0.05 < 0.55",
+   "talk_s": 20.1
+  }
+ },
+ "turns": [
+  {
+   "start": 1.49,
+   "end": 3.95,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "SER PODCAST"
+  },
+  {
+   "start": 33.59,
+   "end": 70.35,
+   "label": "SPEAKER_01",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "Y para eso hay mucho trabajo que hacer porque tienen que ser también unas elecciones en las que votemos a la gente que va a hacer eso posible, no a la gente que luego además hay que forzarla y que siempre al final usa cualquier excusa para que todo siga igual. Yo creo que, bueno, lo decía la gente de la acampada, quiero que estas elecciones sirvan para que pasen las cosas, para que se acabe el negocio de la especulación, no para que todo siga igual con cualquier excusa. Y a eso nos tenemos que entregar en cuerpo y alma y por eso hoy mismo ya he ofrecido que haya unas primarias abiertas para que todo el mundo pueda votar los días 14 y 15 de octubre y que podamos tener esa candidatura que represente a una mayoría social que quiere que las cosas cambien."
+  },
+  {
+   "start": 70.45,
+   "end": 77.87,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "O sea, ustedes proponen una candidatura conjunta con los partidos que ahora mismo están construyendo ese Frente Amplio, siempre pasando por unas primarias."
+  },
+  {
+   "start": 78.71,
+   "end": 133.89,
+   "label": "SPEAKER_01",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "Una candidatura que se vote en primarias donde pueda participar todo el mundo, por supuesto formaciones políticas, toda la gente que quiera participar, la gente que se está movilizando en estos días por millones en todas las plazas, en todas las calles de nuestro país y que podamos construir una candidatura que represente a esa mayoría social que está urgida para que acabe el negocio de la vivienda, para que bajemos el precio de los alquileres, Para que tengamos paz, para que tengamos trabajo y más tiempo para estar con nuestras familias, para que, como te decía, también baje el precio de la energía de los alimentos, para que esas cosas pasen, para que ya se acaben las excusas y no siga todo igual al final del día, sino que podamos cambiar realmente las cosas. Creo que eso es mayoritario en la sociedad y que unas primarias abiertas en las que pueda votar todo el mundo, proponemos que sea el 14 y el 15 porque no hay tiempo que perder, la verdad, los tiempos son ajustados, pues que todo el mundo pueda votar esa candidatura y ser parte de ella."
+  },
+  {
+   "start": 133.89,
+   "end": 137.35,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¿Están en conversación ya con los partidos que forman parte de ese Frente Amplio?"
+  },
+  {
+   "start": 138.15,
+   "end": 159.45,
+   "label": "SPEAKER_01",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "Siempre lo hemos estado, pero de verdad también creo que hay que salir ya de esa dinámica, de ese bucle eterno. Claro que estamos en contacto y ahora lo importante, además de que estemos en contacto, es que podamos construir una candidatura. Yo creo que la forma de que eso salga bien es unas primarias y que todo el mundo pueda votar los días 14 y 15 de octubre."
+  },
+  {
+   "start": 159.59,
+   "end": 162.23,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Irene Montero, Podemos, muchas gracias, buenos días."
+  },
+  {
+   "start": 162.23,
+   "end": 165.15,
+   "label": "SPEAKER_01",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "Muchas gracias a ti, Aimar. Que tengáis buen día. Y a trabajar."
+  },
+  {
+   "start": 166.09,
+   "end": 172.61,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "En ello llevamos desde las 6 de la mañana cotizando. Señora Montero, mil gracias. Buenos días. Venga, muchas gracias."
+  },
+  {
+   "start": 172.79,
+   "end": 179.77,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Para no perderte ningún episodio, síguenos en la aplicación o la web de la SER, Podium Podcast o tu plataforma de audio favorita."
+  },
+  {
+   "start": 192.23,
+   "end": 199.89,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Delta Deals. Tijdelijk met 1G glasvezel de eerste 14 maanden voor maar 30 euro per maand. Check delta.nl. Delta, aan alles gedacht."
+  }
+ ]
+}

@@ -1,0 +1,225 @@
+{
+ "id": "2026-10-10-sanchez-08981c",
+ "date": "2026-10-10",
+ "expected_person": "Pedro Sánchez",
+ "kind": "rally",
+ "outlet": "PSOE YouTube",
+ "title": "PSOE / Pedro Sánchez en Dos Hermanas",
+ "url": "https://www.youtube.com/watch?v=nOLJG54H638",
+ "language": "es",
+ "duration_s": 4766.8,
+ "sha256": "66166f465bd0d7a13d2878250c65cd05c6d090cbbc0e994ed7ff234923069137",
+ "fetched_at": "2026-10-25T09:14:20+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.55,
+  "processed_at": "2026-10-25T10:31:53+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_02": {
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "decision": "match",
+   "reason": "sim 0.80, next 0.18",
+   "talk_s": 726.6
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "unknown",
+   "reason": "best sim 0.40 < 0.55",
+   "talk_s": 595.5
+  },
+  "SPEAKER_05": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "unknown",
+   "reason": "best sim 0.36 < 0.55",
+   "talk_s": 1058.5
+  },
+  "SPEAKER_04": {
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "decision": "unknown",
+   "reason": "best sim 0.35 < 0.55",
+   "talk_s": 65.8
+  },
+  "SPEAKER_03": {
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "decision": "unknown",
+   "reason": "best sim 0.34 < 0.55",
+   "talk_s": 44.1
+  },
+  "SPEAKER_01": {
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "decision": "unknown",
+   "reason": "best sim 0.34 < 0.55",
+   "talk_s": 64.7
+  },
+  "SPEAKER_06": {
+   "person": null,
+   "name": "Hablante sin identificar 6",
+   "decision": "unknown",
+   "reason": "best sim 0.20 < 0.55",
+   "talk_s": 259.0
+  }
+ },
+ "turns": [
+  {
+   "start": 7.12,
+   "end": 10.7,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Mientras uno está vivo, uno debe amar lo más que pueda."
+  },
+  {
+   "start": 52.79,
+   "end": 445.02,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Compañeros y compañeras, bienvenidos a Sevilla, bienvenidos a Dos Hermanas. Gracias a todos los compañeros y compañeras que han venido de las ocho provincias andaluzas. De Almería, de Granada, de Jaén, de Córdoba, Málaga, Cádiz, Huelva y Sevilla. Recibamos a las compañeras y compañeros de la Ejecutiva Federal que hoy nos acompañan, A la Ejecutiva Regional y a los Secretarios Generales de Andalucía Recibamos al Ministro de Agricultura, Pesca y Alimentación, Luis Planas A la Secretaria General de la Juventud de Socialistas, Aranza Zufigueroa A la Vicesecretaria General del PSOE de Andalucía, María Márquez Al Secretario General del PSOE de Sevilla y Presidente de la Diputación, Javier Fernández Y a la Secretaria de Organización del PSOE, Rebeca Torró Recibamos al secretario de organización del PSOE de Andalucía y alcalde de Dos Hermanas, Paco Rodríguez A la secretaria general del PSOE de Andalucía y vicesecretaria general del PSOE, María Jesús Montero Y al secretario general del Partido Socialista Obrero Español y presidente del gobierno, Pedro Sánchez Yo"
+  },
+  {
+   "start": 995.38,
+   "end": 1003.76,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "les animo a que no voten por correo No confío en los directivos de correo Yo a mis hijos lo que les he pedido es que vengan a votar en persona Te"
+  },
+  {
+   "start": 1003.76,
+   "end": 1049.0,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "quieren recortar hasta el derecho a votar. No desconfían del voto por correo. Lo que no quieren es que votes. Que no vote el camarero cuya jornada le impide ir a su mesa electoral. El bombero y la sanitaria, que el 29 de noviembre tienen guardia. Que no voten los estudiantes que viven fuera de su pueblo. Que el voto de las personas mayores que no pueden ir a la urna no cuente. De quien está enfermo, de las personas dependientes, de quienes nos cuidan. Pero lo que no saben es que vamos a alzar nuestra voz, que votaremos. El voto por correo es la manera de ejercer tu derecho cuando no puedes votar en urna. Y el 29 de noviembre, por correo o presencial, vamos a votar. No nos van a recortar nuestro derecho a votar."
+  },
+  {
+   "start": 1080.51,
+   "end": 1144.65,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Buenas tardes a todas y a todos. Bienvenidos y bienvenidas a este auditorio municipal de la ciudad de Dos Hermanas. Presidente del Gobierno, compañero, amigo, Pedro Sánchez Compañera, amiga, Secretaria General del PSOE de Andalucía, Vicesecretaria General del PSOE de España Compañera, amiga, María Jesús Montero Miembros del Gobierno, miembros de la Comisión Ejecutiva Federal, secretarios provinciales de cada una de las ocho provincias de Andalucía Secretario General del PSOE de Sevilla, Javier Fernández, compañeros y compañeras que habéis venido de cada uno de los rincones de esta preciosa tierra que es Andalucía."
+  },
+  {
+   "start": 1145.23,
+   "end": 1146.11,
+   "label": "SPEAKER_02",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Bienvenidos y bienvenidas."
+  },
+  {
+   "start": 1154.88,
+   "end": 2008.9,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Me vais a permitir que empiece agradeciendo a las más de 5.000 almas, hombres y mujeres que hoy nos hemos congregado en este Auditorio Municipal de Dos Hermanas para acompañar al presidente del Gobierno, a nuestro compañero Pedro Sánchez. Gracias a los 5.000 que estáis hoy aquí en Dos Hermanos. Muchas gracias. Y me vais a permitir también, antes de comenzar, que haga un agradecimiento público por las muestras de cariño y afecto de estos días que me ha tocado vivir Vivir en una situación difícil, delicada y compleja, y donde he recibido el cariño, el cariño, el afecto de todos los compañeros y compañeras de mi segunda familia, que es el Partido Socialista, y sobre todo de mis vecinos y de mis vecinas de dos hermanas, que aún hoy siguen mostrando ese afecto y ese cariño hacia mi persona y hacia mi familia. Muchas gracias a todos y a todas. Gracias de verdad, de corazón. Yo voy a tener una intervención muy breve. Estamos esperando todos y todas a nuestro presidente. Pero esa emoción me ha hecho también escribir un mensaje que me vaya a permitir que, por la emoción que estoy viviendo en estos momentos, Y aquí en Dos Hermanas, en esta ciudad a la que amo, a la que adoro, a la que quiero, en los inicios de este proyecto, Pedro pidió justicia para la gente. Aquí comenzamos, Presidente, un proyecto que se basa en la justicia social, un proyecto que se basa en la lucha contra la desigualdad y un proyecto que va mirando un rumbo claro para transformar España. Aquí, en Dos Hermanas, aquí arrancamos un proyecto para avanzar, avanzar y avanzar. Y bienvenido, Pedro, bienvenido a dos hermanas, bienvenido a Sevilla, bienvenido a Andalucía. En Andalucía sabemos mejor que nadie lo que significa la desigualdad y la injusticia. Sabemos lo que significa levantarse cada mañana y salir adelante con esfuerzo y también con sacrificio. Una tierra, nuestra Andalucía, que nunca ha pedido privilegios, solo justicia. Por eso, como tú, Pedro, en Andalucía, seguimos adelante reclamando una y otra vez justicia social para la gente, para nuestra gente, para la gente. Hay quienes llevan años, lo sabéis todas y todos, dando por finalizado el proyecto de Pedro Sánchez. Lo hicieron en 2016, lo hicieron en 2019, lo hicieron en 2023, pero aquí seguimos, Pedro, aquí seguimos. ¿Y sabéis por qué seguimos gobernando este país? Porque Pedro no gobierna para los poderes, no gobierna para los poderosos, gobierna para la gente. Para la gente, con Pedro Sánchez suben las pensiones con el coste de la vida. Con Pedro Sánchez el salario mínimo ha subido como nunca en este país. Con Pedro Sánchez una reforma laboral ha convertido la precariedad en contratos indefinidos. Eso es liderazgo con rumbo. Y ese rumbo tiene un nombre, la mayoría social. La mayoría social de la gente. ¿Y enfrente qué tenemos? Tenemos un PP, un Partido Popular, con un Feijóo que se arrastra ante los poderosos y que solo tiene una cosa que hacer y que ofrecer, el seguimiento a Vox. Un PP que no tiene proyecto, tiene enfado, tiene rabia, tiene maldad, votaron en contra de subir las pensiones, votaron en contra de subir el salario mínimo, votaron en contra de la reforma laboral. Cada vez que este país ha dado un paso hacia adelante, el Partido Popular se ha quedado en la puerta, pero no para abrirla, sino todo lo contrario, para cerrarla, para cerrarla. Y aquí en Andalucía, lo sabéis bien todas y todos, aquí en Andalucía, cuando gobiernan, gobiernan como lo hacen. La sanidad pública espera, la educación pública espera y los de siempre hacen negocio. Ese es su modelo. Menos para muchos, más para unos pocos. Bonilla, Bonilla, Pedro tú tienes en Madrid a Feijóo, Abascal, Ayuso, Armeida Los andaluces y andaluzas tenemos ahora a Bonilla y a Gavira, a Bonilla y a Gavira Sí, sí, Bonilla el del 40, Bonilla el del 40 y no del año 40, que también podría serlo y Departamento. Bonilla, el del 40 %. Miraos, el presidente Bonilla trajo un plan estrella allá por el año 2020, plan VIVE, plan VIVE febrero del año 2020, porque la Junta de Andalucía y el señor Bonilla es el que tiene las competencias para aplicar las leyes de vivienda en esta nuestra tierra. Ese plan VIVE, para Para ponernos un ejemplo gráfico que todos vais a comprender perfectamente, pues en esta tierra mía, donde estáis todas y todos hoy, una vivienda protegida, una vivienda de VPO, en ese plan estrella que anunció Bonilla a Bombo y Platillo, Bonilla Herder 40, pues una vivienda de 70 metros cuadrados, un garaje de 20 metros cuadrados, y un trastero de ocho metros cuadrados. Los tres elementos van asociados a nuestro plan municipal de la vivienda en esta ciudad. En el año 2020 costaba 138.000 euros, IVA incluido, vivienda de protección oficial, en régimen especial, que es la vivienda más asequible de la que podemos disfrutar los andaluces y las andaluzas. Esos 138.000 euros en esta ciudad, en Dos Hermanas, este ayuntamiento, este gobierno local, le aplicaba un 12% de descuento al precio de la vivienda. De manera que los 138.000 euros con IVA se quedaban en 121.000 euros con IVA. Vivienda protegida, vivienda en el régimen especial. La vivienda más accesible y más económica que tenemos en Andalucía. Pues bien, seis años después, 2026, seis años después, esos 138.000 euros que aprueba, que consiente el PP de Bonilla en Andalucía, lo ha subido de 138.000 euros a 193.000 euros. en seis años. Esa es la vivienda protegida más económica que tenemos Andalucía. Nosotros aquí, con nuestro tercer plan, seguimos aplicando ese 12% de descuento para que esa vivienda cueste a nuestros vecinos y vecinas 170.000 euros. Ya me gustaría que no hubiera subido la vivienda ese 40%. Dos Hermanas cuenta con la mayor zona de expansión de Andalucía y una de las más grandes también de España, donde estamos construyendo 22.000 viviendas en una zona que conoce bien nuestro compañero presidente Pedro Sánchez. Estuvo visitando una vivienda protegida de un joven y habitándola, esa vivienda de 120.000 euros, Pedro, Pedro, y además, porque ahí empezó todo, Pedro, es la zona de entrenúcleos donde está el lago de la vida. Esa vivienda forma parte de un plan ambicioso donde estamos poniendo en marcha, Hemos entregado ya 2.500 viviendas, estamos poniendo en carga otras 2.500 viviendas más de VPO en régimen especial, sin ninguna ayuda de Bonillas del 40, sin ningún tipo de ayuda. de Ayuda. Hemos, de la mano del Gobierno de España, presidente, hemos puesto en carga mil viviendas de la mano del Gobierno de España, del Ministerio de Vivienda, a través de Casa 47, mil viviendas para ponerlas en alquiler y en alquiler con opción a compra. Y hace pocos días, también de la mano del Gobierno de España, en un suelo municipal y de la mano también de la Universidad Pablo Duravide, Universidad de Referencia de los Nazarenos y Nazarenas de la Ciudad de las Hermanas. Vamos a construir una residencia con 490 plazas para que el talento de la provincia de Sevilla, de Andalucía, pueda seguir estudiando en una universidad pública con alojamiento asequible que le permita hacer esa revolución social. Gracias, presidente. Gracias de ver De verdad, gracias Pedro. Esas son las políticas del Partido Popular y los andaluces y las andaluzas las conocéis bien. La política dirigida a coger de la mano a los poderosos y frente a ello el gobierno de Pedro Sánchez, los gobiernos socialistas, que somos el gobierno de y para la gente. De y para la gente. Mirad, el Partido Socialista nació hace casi 150 años con un solo objetivo, o para una sola cosa, defender a los de abajo frente a los de arriba, a los más débiles frente a los poderosos, a las trabajadoras y trabajadores frente a los abusos, Al pequeño autónomo frente a los grandes poderes que nunca se presentan a las elecciones pero que siempre, siempre quieren mandar. Ese fue nuestro origen y ese, presidente, es nuestro compromiso contigo al frente, hoy más vivo que nunca, presidente, hoy más vivo que nunca. Cuando aprietan los bancos, cuando aprietan las eléctricas o los fondos buitres que suben los alquileres, el PSOE se pone de al lado de la gente, siempre, siempre al lado de la gente. Por eso, os pido una cosa. Los que estáis en este auditorio, todas y todos, las 5.000 armas que estamos hoy aquí compartiendo con nuestro presidente, este primer gran acto de precampaña, pediros que salgáis de aquí con orgullo. Hablad con vuestros vecinos, con vuestras vecinas, con vuestras familias, con vuestras compañeras, con vuestros compañeros, con quien dude. Decirles que hay un proyecto, que hay un presidente y también un partido que no se arrodilla ante los poderosos. Porque cuando gana el PSOE, gana la gente."
+  },
+  {
+   "start": 2009.34,
+   "end": 2012.06,
+   "label": "SPEAKER_02",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "A ganar, a ganar y a ganar."
+  },
+  {
+   "start": 2012.72,
+   "end": 2019.82,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Con todos vosotros, la secretaria general María Jesús Montero, la secretaria general del PSOE de Andalucía Qué"
+  },
+  {
+   "start": 2050.41,
+   "end": 3400.74,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "bonito se ve desde aquí este clamor de la gente de Andalucía que ha venido a acompañar al presidente y a decirle que aquí está el Partido Socialista de Andalucía a ganar las elecciones Nos quedan unas apasionantes semanas que lo vamos a dar todo para hacer posible que este país siga avanzando, que la mayoría social encuentre que sus derechos tienen reconocimiento y garantía dentro de un gobierno. Gobierno. Estamos encantados de poder hacer una campaña con la ilusión, con la fuerza de la gente. Así que el PSOE de Andalucía, más listo que nunca, más preparado que nunca y a por todas, vamos a por todas. Y permitirme, compañeros y compañeras, que en primer lugar Le doy un abrazo, un sentido muy íntimo a nuestro compañero Paco. Paco, siente el calor, el cariño del PSOE de Andalucía y, cómo no, de dos hermanas. Gracias, gracias por estar aquí. Gracias por ser como eres. Y gracias, sobre todo, por ser un alcalde referente de las políticas socialistas en España. Gracias, porque tú mejor que nadie sabes lo que significa exprimir las competencias de un ayuntamiento para ponerla al servicio de los problemas de la gente, como él ha explicado en este caso de la vivienda. El Ayuntamiento de Dos Hermanas, Paco, dedica el 45% del suelo disponible de entrenúcleos de la zona de expansión a vivienda de protección oficial. Así se construye política socialista. Vivienda, vivienda asequible para la gente, como hacen nuestros alcaldes, como me explicaba el otro día Javier Fernández, nuestro secretario provincial, alcalde de La Rinconada, que comparábamos en La Rinconada vivienda a 115.000 euros, en Sevilla 350.000 euros. Más del doble, más del triple de lo que hacen nuestras alcaldes. Gracias también, Javier. Porque, compañeros, estamos justamente demostrando esa utilidad de la política. Y por eso me tenéis que permitir que le dé una bienvenida, un abrazo muy especial a Pedro Sánchez, A nuestro presidente del Gobierno, a nuestro secretario general. Gracias, gracias presidente hoy, cada día tiene su afán, pero hoy gracias por dos cosas. La primera, por volver a elegir dos hermanas, Sevilla y Andalucía, para iniciar este apasionante viaje a la victoria. Dos hermanas forman parte ya de la historia del PSOE, pero también de la historia íntima del presidente. Y gracias, presidente, gracias por estos años de gobierno al lado de la gente, demostrando que desde la izquierda, desde las políticas progresistas, se puede crecer más, Se puede redistribuir mejor, se puede avanzar en derechos de los trabajadores, se puede tener voz propia en el ámbito internacional a pesar de que la derecha de este país ataque, amenace, insulte, ladre, cacaré cada día para intentar callarte. Gracias por ser fuerte, gracias por ser fuerte, gracias por apoyarte siempre. Y como dice el compañero, vamos a seguir avanzando porque quiero deciros, compañeros y compañeras, que el Partido Socialista, que Pedro Sánchez, va a ganar las próximas elecciones generales. Os quiero decir que la mayoría social de este país va a ganar las próximas elecciones generales. La gente, como decía Paco, la mayoría, y la vamos a ganar porque vivimos tiempos complejos, vivimos tiempos de incertidumbre. Nos preocupa esa ola reaccionaria que está recorriendo el mundo. Nos preocupa esa política, mala política, que practica la derecha en este país. El Partido Popular, el señor Feijóo, el señor Bonilla y todos los que lo acompañan también, Vox. Nos preocupa, nos preocupa. Y porque nos preocupa en los tiempos de incertidumbre necesitamos liderazgo sólido, necesitamos valores, necesitamos compromiso, necesitamos valentía. Y si en este país hay un líder con valentía, se llama Pedro Sánchez. Y si no, decidme, decidme, ¿qué gobierno del mundo ha hecho políticas más progresistas que el gobierno de Pedro Sánchez? En cualquier materia, en avances sociales, en lucha contra el cambio climático, en impulso a la democracia o a la transparencia, en buscar la paz, el multilateralismo como forma de resolver los problemas. ¿Ha habido acaso un liderazgo en el mundo que haya tenido mayor protagonismo de políticas izquierdas que la de Pedro Sánchez? Pues está que no lo soportan, por eso lo critican, por eso quieren con los bulos acabar con nuestro gobierno. El presidente Sánchez le ha devuelto a este país la autoestima también a nivel internacional. Al presidente Sánchez, a Pedro Sánchez, no le ha temblado las piernas cuando ha habido que defender la paz, aunque eso le haya costado tener que tomar partido y tener que enfrentarse a los poderosos del mundo Para reclamar el respeto a los derechos humanos en Gaza, en el reconocimiento del Estado palestino, oponiéndose a la guerra de Irán, en la invasión de Ucrania, en cualquier conflicto, ha estado Pedro Sánchez con voz propia diciendo no a la guerra. Lo ha estado cuando ha mantenido una posición firme respecto al gasto de defensa, porque no iba a consentir que ese 5% provocara un recorte de 40.000 millones de euros menos para las políticas sociales, para los pensionistas, los jóvenes, las mujeres, los estudiantes que necesitan de los poderes públicos para seguir avanzando. Es el presidente que le ha devuelto la dignidad a los trabajadores subiendo el salario mínimo y sobre todo afectando aquí en Andalucía en donde más de medio millón de trabajadores han visto subir su salario un 60% por las políticas de Pedro Sánchez. o convirtiendo sus contratos en indefinidos para no tener la incertidumbre de que su tiempo se acaba y todo eso con la amenaza de la derecha como siempre. Los agoreros, los de las gafas negras, los del miedo, diciendo esto no se puede hacer porque vamos a perder puestos de trabajo, porque va a subir el paro. Pues se puede hacer y se demuestra que hacerlo permite que nuestra economía crezca más, ninguna otra más, de todos los países avanzados del mundo con los trabajadores dignos. Han gritado y le han insultado y le han llamado traidor y lo han llamado celón y lo han llamado todos los insultos imaginables que se puedan dar solo y exclusivamente porque estaba practicando una política que defendía a la mayoría de la gente frente a las élites y a los poderosos de este país y del mundo que quieren seguir contando. con esos privilegios. Este ha sido el gobierno que ha bajado el precio de la luz con la solución ibérica, aunque para ello se haya tenido que enfrentar a las energéticas o se haya tenido que enfrentar a la banca para que los trabajadores pudieran tener un ERTE que permitiera mantener Esta ha sido la política de Pedro Sánchez de elegir porque gobernar es elegir de qué lado se está, si se está del lado de la gente o de los que nunca quieren perder privilegio porque lo tienen todo. Y ha sido el Gobierno que más recursos ha transferido a las comunidades autónomas. En Andalucía, más de 50.000 millones de euros más de los que mandaba Rajoy, a pesar del llanto, de la queja constante, de la confrontación por deporte que practica el señor Bonilla, que nunca quiere ejercer sus competencias. Ha tenido más dinero que nunca y la sanidad en Andalucía se está privatizando como nunca, con listas de esperas inaguantables, con profesionales quemados, como siempre, intentando que se derive la gente a los seguros privados. Más recursos que nunca y han proliferado las universidades privadas sin calidad que poco menos intentan dar un título saltándose la igualdad de oportunidades. Nosotros queremos mantener una educación pública para que los hijos de la clase media, de los trabajadores, avancen en el ascensor social y lleguen más lejos de lo que hemos llegado nosotros. Y la vivienda, presidente, el gran problema que tiene hoy la gente, el problema de la vivienda, que no solo lo tienen los jóvenes, que hay muchos padres, madres angustiadas porque ven que sus hijos cumplen años y no tienen posibilidades de emanciparse. La vivienda cuya competencia exclusiva es del señor Moreno Bonilla, que parece un tertuliano cuando habla de vivienda. Él no tiene responsabilidad de nada. Y solo dije, dejamos que el mercado actúe, que se deje, que siga la construcción de vivienda al ritmo que sea, que se equilibrará. Y el señor Moreno Bonilla prometió construir 40.000 viviendas de alquiler asequible con su empresa pública. ¿Sabéis cuántas ha construido? ¡Cero! ¡Cero viviendas en ocho años de la empresa pública de alquiler de Andalucía! Ha tenido que ser el Gobierno de España que ante la pasividad de las comunidades autónomas ha tenido que coger la rienda de la política de vivienda con el voto en contra del Partido Popular, con el voto contra de Vox, como siempre de aquellos que se ponen del lado de los fondos buitres, de los especuladores, de los grandes tenedores, negándole a la sociedad española el derecho a vivir. De hecho, a que todas y todos podamos vivir bajo un techo digno, que es lo que nosotros tenemos que procurar. Aquí, en Andalucía, donde es más caro el precio, ha subido más el precio de la vivienda de toda España, donde ha subido más el precio del alquiler de toda España y en donde todas las promociones de vivienda las paga el Gobierno de España. Porque como dijo Moreno Bonilla, se acordarán los compañeros de Córdoba en una promoción en Córdoba, pero ¿qué más da quien ponga el dinero? Pues claro que da, si el dinero lo pone el Gobierno de España, el Gobierno de Andalucía con las competencias, al menos tiene que poner el mismo dinero y ha dejado de ejecutar 1.600 millones de euros. Pero, presidente, la tragedia de lo ocurrido con Mari Carmen, nuestro cariño, nuestro respeto, nuestro dolor para sus familiares, para la gente que la ha acompañado. La tragedia se tiene que convertir, se ha convertido en fuerza social, porque el presidente Sánchez, cuando se tumbó el decreto que el Congreso de los Diputados tumbó, dijo algo que ha llevado a efecto. Mientras que yo sea presidente, no va a volver a ocurrir ningún caso como el de Mari Carmen. Y lo has cumplido porque eres la garantía de que todo el mundo pueda ejercer sus derechos y lo pueda hacer con facilidades, sin sufrimiento, sin el dolor social que ha producido. Y veréis, no voy a profundizar para no causar mayor dolor, pero quiero hacer un recordatorio. Hace tres días que el concejal de Benalmádena insultó gravemente a Mari Carmen el mismo día que falleció y Moreno Bonilla todavía no la ha cesado. Exigimos el cese del concejal de Benalmádena, que hiele la sangre lo que dijo. Igual que exigimos el cese del alcalde de Algeciras, que ha vuelto a tener una denuncia de una mujer por comportamiento más que complicado y que el Partido Popular sigue manteniendo al andaluce como alcalde. Una vergüenza para Andalucía, una vergüenza para las mujeres. Exigimos que mañana lo quite de alcalde. Por eso, compañeros y compañeras, tenemos por delante 50 días donde los socialistas, las socialistas andaluces, las mujeres de Andalucía, que no estamos dispuestas a que este país dé ningún paso atrás, estaba aquí Amparo, porque la cuesta sigue siendo empinada y tenemos que seguir conquistando nuestros derechos como hemos hecho en esta legislatura con avances tan importantes como la equiparación de los permisos de paternidad y maternidad para que no nos penalice el nacimiento de nuestros hijos. Tenemos que seguir trabajando los jóvenes, las personas mayores, la clase media de Andalucía para que no se produzcan Frente Amplio, Junta Electoral Central, Tribunal Constitucional y la gente que es la que nos va a llevar a las urnas para descontaminar la vida política. Y propongo que esa irrupción de esa energía tan positiva que viene de todo lo que nos ha ocurrido en los últimos días, en donde saludamos las movilizaciones de los colectivos de vivienda que están en todas partes de España y que están subrayando que esto es una emergencia nacional. Saludamos la convocatoria de huelga general de los sindicatos porque, por supuesto, cada uno desde nuestras trincheras tenemos que seguir trabajando para esa mayoría social. Y vamos a hacerlo descontaminando la política del ruido interesado de los que no quieren que la gente vote. La vamos a descontaminar del insulto, la vamos a descontaminar de la mentira proponiendo porque aquel que se esconde detrás de un insulto o una amenaza simplemente lo hace porque no tiene proyecto de país o porque no puede contarlo, porque consiste en recorte y en retroceso. Por eso vamos a apelar a esa ciudadanía bonita, a la gente de España que quiere la convivencia, que quiere la tolerancia, a la gente que sabe que donar órgano es desde luego lo mejor que puede hacer uno cuando ya se está yendo. A la gente que llora cuando ve las imágenes de la guerra en la televisión, a la gente que vibra con un gol de la Selección de España sin importar el color de la piel del jugador que está metiendo esa pelota. Apelamos a unirnos en esta causa durante estos días para convertir esa energía social en también energía electoral. Para que esa energía social se traduzca en política útil para los ciudadanos. Así que Andalucía, arriba, a por ello, vamos a ganar y vamos a hacer que el PSOE de España gane bien estas elecciones. A por ello, a ganar."
+  },
+  {
+   "start": 3421.4,
+   "end": 3426.96,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Sánchez es un mentiroso compulsivo. Es hostiable. Un caudillejo tercermundista. Cabrón."
+  },
+  {
+   "start": 3427.06,
+   "end": 3428.16,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "El jeta de la mareta."
+  },
+  {
+   "start": 3428.32,
+   "end": 3437.0,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "El galgo de Paiporta. Creo que debería irse de este país en un maletero. El repugnante presidente del gobierno de España"
+  },
+  {
+   "start": 3437.0,
+   "end": 3444.82,
+   "label": "SPEAKER_06",
+   "person": null,
+   "name": "Hablante sin identificar 6",
+   "text": "Mentiroso, cobarde Es un corrupto,"
+  },
+  {
+   "start": 3444.82,
+   "end": 3446.4,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "un traidor y un indecente Es"
+  },
+  {
+   "start": 3446.4,
+   "end": 3453.0,
+   "label": "SPEAKER_06",
+   "person": null,
+   "name": "Hablante sin identificar 6",
+   "text": "un farsante Un peligro Un caudillismo que en España no se veía desde hace 50 años"
+  },
+  {
+   "start": 3453.0,
+   "end": 3454.96,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Me gusta la fruta Yo"
+  },
+  {
+   "start": 3454.96,
+   "end": 3518.41,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "seré un perro, pero no tengo amo ¿Por qué nos insultan? Por subir el salario mínimo y batir récord de empleos Por revalorizar y llenar la hucha de las pensiones Por extender y equiparar los permisos de paternidad y maternidad Por aprobar una ley que garantiza la igualdad salarial entre hombres y mujeres Por aprobar medidas en favor del pequeño propietario y los inquilinos frente a los fondos buitres Por alzar la voz contra el genocidio en Gaza ¿Por qué nos insultan? ¿Por enfrentarnos a esos ternoligarcas que quieren forrarse a costa de la salud mental de la gente? ¿Por defender el estado del bienestar frente al rearme militar del 5%? Pues sí, por eso nos insultan, porque somos el gobierno de la gente que pone en su sitio a los de arriba. Y si queremos llegar más lejos en avances sociales y hacerlo antes, necesitamos tu fuerza. La fuerza de la gente."
+  },
+  {
+   "start": 3543.8,
+   "end": 4473.18,
+   "label": "SPEAKER_02",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "¡Buenos días, dos hermanas! Buenos días, Sevilla. Buenos días, Andalucía. Así me gusta, veros con sonrisa en la cara, porque el miedo no gana elecciones, gana elecciones la esperanza. La esperanza que representan partidos socialistas en Andalucía y en toda España para tener cuatro años más de avances sociales. Y que la derecha y la ultraderecha, Feijóo y Abascal, de nuevo a la oposición. Cuatro años más por no haber hecho los deberes. Muchísimas gracias María Jesús por tus palabras, por tu convicción, por tu fuerza y gracias también a Paco. Antes él lo comentaba, para mí siempre es un placer empezar las campañas en dos hermanas. Hace diez años me dijeron, Pedro, no es posible, no se puede. Vine a dos hermanas y el resto ya es historia, Paco. Pero quiero empezar por trasladar primero todo mi cariño, todo mi respeto a Mari Carmen, a sus seres queridos, a su familia, a todas las personas que como ella están sufriendo precisamente los abusos y las amenazas y la especulación de los fondos buitre. Porque hace diez días, en un mitin muy semejante a este, antes de convocar las elecciones, estábamos presentando las candidaturas a las elecciones municipales en la región de Madrid, en una ciudad como Getafe, dije y me comprometí a llevar a las Cortes y a aprobar antes en un Consejo de Ministros y Ministras un Real Decreto Ley que protegiera a los pequeños propietarios y también a los inquilinos frente a la especulación de los fondos buitre. Y fue tumbado por el Partido Popular, por Junts y por Vox. Y entonces matuve mi compromiso. Y una vez disueltas las Cortes Generales, porque adelantamos las elecciones, llevé el pasado martes al Consejo de Ministros y Ministras el decreto de vivienda que hoy está vigente. Que hoy está vigente. Y quiero hoy aquí, desde Dos Hermanas, desde Andalucía, decir lo siguiente. Este es mi compromiso, que la política de vivienda no tiene fecha de caducidad y que el próximo Parlamento con una amplia mayoría progresista y un gobierno progresista reforzará y mantendrá ese Real Decreto Ley de Vivienda que protege a los pequeños propietarios y protege también a los inquilinos frente a la especulación. María Carmen y todos aquellos que se están movilizando con ella y con todos aquellos que se están movilizando por la causa de la vivienda justa abrieron el camino y a nosotros nos corresponde llegar tan lejos como quiera la gente de la calle y llegar tan lejos como nos permita la fuerza del voto de la gente. De eso van estas elecciones. Y si os fijáis, no solamente en eso consisten estas elecciones, sino que además es lo que nos viene sucediendo desde la crisis financiera cuando estuvimos en la oposición y ahora desde el Gobierno. Siempre las causas sociales, las grandes conquistas sociales, los grandes avances tienen el mismo camino. Recorren una misma historia que podríamos sintetizar en tres pasos. El primero, movilización social. El segundo, el no de los de siempre. Y el tercero, un desbordamiento de la sociedad que apoya mayorías progresistas que llevan a leyes esas grandes conquistas sociales. Veo por aquí a pensionistas. ¿O no os acordáis de cuántos estuvisteis manifestando durante la crisis financiera y los años de Mariano Rajoy para tener pensiones dignas? ¿Cómo dijo que no el Partido Popular diciendo que se iba a romper la caja de las pensiones y finalmente un gobierno progresista ha revalorizado las pensiones conforme al IPC y está aumentando la hucha de las pensiones hasta 20.000 millones de euros? Veo aquí a muchas mujeres. ¿No os acordáis de cómo os habéis estado manifestando durante todos esos años de mayoría absoluta del Partido Popular, los 8 de marzo, reivindicando una España libre, segura, donde las mujeres puedan vivir sin tener que sufrir miedo? No os acordáis de las manifestaciones que hubo del colectivo LGTBI, que lo único que pedían era poder casarse como el resto de personas y de ciudadanos y también disfrutar del derecho a poder casarse con quien quieran. Se manifestaron hasta los curas y hoy tienen una ley que hasta incluso ellos mismos aprovechan. De eso van las conquistas sociales. Aquí veo también trabajadores y trabajadoras, autónomos, pequeños y medianos empresarios que se manifestaron durante esos años y que encontraron un no por parte de la mayoría absoluta del Partido Popular diciendo que era mucho mejor precarizar, que era mucho mejor el reducir los costes del despido precisamente para ajustar las plantillas en épocas de crisis. Y se movilizaron y movilizaron durante esos años de crisis financiera. Y llegó una mayoría progresista e hizo una reforma laboral que ha rebajado la temporalidad al 12% y hemos aumentado el salario mínimo interprofesional un 66%. Siempre es la misma historia. Movilizaciones de la gente, movilizaciones sociales por las pensiones, por la igualdad de género, hasta por, como decía María Jesús, Jesús también, la gente joven se está manifestando por la paz en el mundo, por el respeto al derecho internacional y por el fin del genocidio en Gaza. Y eso también lo ha hecho este gobierno, reconociendo el Estado de Palestina. Hoy la causa social lleva el nombre de una mujer de 87 años que falleció desahuciada Y que nos dijo algo muy importante que recordar durante todos estos días y los años que tendremos de gobierno después del 29 de noviembre. Nos dijo que lo que yo he sufrido no lo sufra nadie más. Pues yo quiero decirle a los ciudadanos y ciudadanas que sufren ese problema de la vivienda, que honraremos ese ejemplo de vida, como nuestros abuelos honraron su lucha por la democracia, nuestros padres y madres su lucha por el estado del bienestar. La nuestra también será la vivienda. Y la vamos a ganar como se ganan todas las luchas, con la fuerza de la gente, con una mayoría amplia y progresista en el Parlamento y en el Gobierno de España, para llevar a ley lo que siente la gente y lo que quiere en relación con la política de vivienda. Y enfrente, ¿qué tenemos? Enfrente tenemos solamente mensajes de miedo. Llevan ocho años con el España se hunde. No, no, no toquéis la reforma laboral, no subáis los impuestos a la banca, no reconozcáis impuestos a las grandes energéticas, no vaya a ser que se nos vayan los inversores, no vaya a ser con esta reforma laboral y la subida del salario mínimo interprofesional que se caiga el empleo, que se destruya empleo. Pero bueno, si estamos creciendo, ayer el Banco de España subió al 2,6% las previsiones de crecimiento económico. Estamos creciendo tres veces más que la zona euro y concentrando el 85% de la creación de empleo de toda la zona euro. Dijeron, no revalorecéis las pensiones, eso es vivir por encima de nuestras posibilidades, no tenemos tanta capacidad. Bueno, de hecho, os habréis fijado que en estas primeras horas de campaña ya han dicho claramente que quieren privatizar el sistema público de pensiones. Yolanda Díaz, Alberto Núñez Feijóo, Santiago Abascal, Irene Montero, Frente Amplio, Junta Electoral Central, Tribunal Constitucional Están siempre con la fábula de Pedro y el Lobo, el uno que llama cáncer a las bajas laborales, el otro que dice que hay que privatizar las pensiones porque no podemos vivir por encima de nuestras posibilidades. Bueno, ha salido Yadnar diciendo que hasta incluso la monarquía constitucional parlamentaria peligra si gana el malvado Sánchez. No, no, no, no, no. En la fábula de Pedro y el Lobo, el Lobo son ellos, son ellos. Yo en todo caso seré un perro que no tiene amo. Y si sirvo a alguien, es a la gente de a pie. Sí, dicen, dicen. Claro, como no tienen argumentos. Estas elecciones también van de eso, van de que gane la buena política frente a la mala educación, frente a la mala educación. Educación. El otro día escuchaba al portavoz del PP decir que si gana el PP se acabaron los insultos. Si gana el PP y gobierna, se acaban los insultos y vuelve la buena educación. Claro, la verdad es que es un dilema de susto o muerte para la gente, ¿no? Porque claro, si están en la oposición insultan y si están en el gobierno recortan. Pues yo prefiero que estén cuatro años más en la oposición insultando y nosotros gobernando para la gente, para hacer los avances sociales que merece la gente, particularmente en vivienda. Tratan de meter miedo a la gente, tratan también de insuflar, en fin, para que no vayan a votar, y luego hablaré algo de ello, con el voto por correo y también la ley de memoria democrática, tratan también de enfrentar a la gente. Simplemente, fijaos lo que están haciendo, por ejemplo, con la política de vivienda. ¿Cuál es su argumento para no votar a favor de un decreto que claramente protege al pequeño propietario y a los inquilinos? Dicen, no, no, no, es que no podemos enfrentar a los pequeños propietarios con los inquilinos. Pero no saben que los pequeños propietarios, cuando se sientan en su hogar y miran a sus hijos, Ven a gente que no puede emanciparse como consecuencia del alto precio del alquiler, que sufren también muchos de sus hijos y de sus hijas. Lo hacen, lo hacen, tratan de enfrentar a pequeños propietarios con inquilinos para que no miremos arriba, que es donde está el problema. Y nosotros lo que proponemos es la unión de los pequeños propietarios y los inquilinos y que miremos arriba a la de los aticazos y a los fondos buitres ¡Aplausos! Sanidad Pública, Vivienda Digna o Vivienda Digna. Eso es lo que venimos haciendo durante ocho años y es lo que vamos a seguir haciendo otros cuatro años más. Y frente a su proyecto de una España en blanco y negro, la de Feijóo y de Abascal, nosotros somos la España que representa el avance, el optimismo y la esperanza. Fijaos que lo único que ofrecen es el recorte. El debate, antes lo decía el vídeo, lo plasmaba muy bien el vídeo, todo este debate sobre el derecho a votar por correo y todo lo que están diciendo de mentiras, de bulo, que en realidad, oye, yo creo que este bulo lo expanden porque tienen miedo a perder. Y efectivamente, van a perder las elecciones y van a estar cuatro años más gobernando el Partido Socialista. Pero, ¿por qué hacen esto? ¿Por qué siembran dudas sobre el derecho a votar por correo? ¿No os parece un poco raro? ¿Empezar una campaña electoral desanimando a la gente a que vote? ¿Y el voto? Bueno, ya lo han hecho también con la Ley de Memoria Democrática, que reconoce el derecho a ejercer el voto aquellos nietos y nietas de los exiliados y exiliadas víctimas del franquismo, de la guerra civil y de la dictadura. Gracias, señora presidenta. Fijaos que es curioso, ¿eh? Pero estos de el que pueda hacer que haga, ahora son los de cuantos menos voten mejor. Pero yo os voy a decir una cosa. Tienen razón en tener miedo. Porque urnas llenas gana la gente y urnas vacías ganan los que mueven los hilos. Así que vamos a votar todos el 29 de noviembre, vamos a ganar las elecciones y vamos a gobernar cuatro años más para la gente, para la gente de a pie, que es a quien servimos. ¡Vamos a por ello, compañeros!"
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+[Unit]
+Description=Archivo del discurso: read-only JSON API (search, stats, daily game)
+After=network.target
+
+[Service]
+User=ubuntu
+WorkingDirectory=/home/ubuntu/discurso
+ExecStart=/usr/bin/python3 -I /home/ubuntu/discurso/src/api.py --port 8431
+Restart=on-failure
+MemoryMax=150M
+NoNewPrivileges=true
+
+[Install]
+WantedBy=multi-user.target

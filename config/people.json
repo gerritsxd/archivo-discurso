@@ -1,0 +1,11 @@
+{
+ "sanchez": {"name": "Pedro Sánchez", "role": "PSOE", "kind": "candidate", "match": ["Pedro Sánchez", "Sánchez"]},
+ "feijoo": {"name": "Alberto Núñez Feijóo", "role": "PP", "kind": "candidate", "match": ["Feijóo", "Feijoo"]},
+ "abascal": {"name": "Santiago Abascal", "role": "Vox", "kind": "candidate", "match": ["Abascal"]},
+ "colau": {"name": "Ada Colau", "role": "Frente Amplio", "kind": "candidate", "match": ["Colau"]},
+ "montero": {"name": "Irene Montero", "role": "Podemos", "kind": "candidate", "match": ["Irene Montero"]},
+ "belarra": {"name": "Ione Belarra", "role": "Podemos", "kind": "candidate", "match": ["Belarra"]},
+ "herrera": {"name": "Carlos Herrera", "role": "periodista, COPE", "kind": "host"},
+ "bustos": {"name": "Jorge Bustos", "role": "periodista, COPE", "kind": "host"},
+ "bretos": {"name": "Aimar Bretos", "role": "periodista, SER", "kind": "host"}
+}

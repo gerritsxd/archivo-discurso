@@ -1,0 +1,16 @@
+{
+ "audio": "C:\\Users\\gerrit\\Desktop\\me\\discurso\\data\\raw\\2026-10-20-feijoo-cope-herrera\\audio.wav",
+ "model": "large-v3",
+ "device": "cuda",
+ "compute_type": "float16",
+ "beam_size": 5,
+ "language": "es",
+ "hotwords": "Pedro Sánchez, Alberto Núñez Feijóo, Santiago Abascal, Ada Colau, Irene Montero, Ione Belarra, Emilio Delgado, Yolanda Díaz, Margarita Robles, Carlos Herrera, Jorge Bustos, Aimar Bretos, Federico Jiménez Losantos, Carlos Alsina, Àngels Barceló, Íñigo Alfonso, PSOE, PP, Vox, Sumar, Podemos, Frente Amplio, Junta Electoral Central, Tribunal Constitucional",
+ "audio_duration_s": 1959.63,
+ "audio_after_vad_s": 1946.62,
+ "load_time_s": 2.73,
+ "transcribe_time_s": 231.25,
+ "rtf_audio_per_proc": 8.47,
+ "gpu_mem_baseline_mib": 1392,
+ "gpu_mem_peak_mib": 5799
+}

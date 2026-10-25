@@ -1,0 +1,94 @@
+{
+ "ref_words": 1214,
+ "hyp_words": 1290,
+ "wer": 0.1137,
+ "substitutions": 38,
+ "deletions": 12,
+ "insertions": 88,
+ "diff_chunks": 84,
+ "number_related_chunks": 0
+}
+- insert     official=''  ours='buenos días y gracias a los medios de comunicación por atender esta declaración institucional'  |  [] queridos ciudadanos y ciudadanas como
+- substitute official='saben'  ours='sabéis'  | queridos ciudadanos y ciudadanas como [saben] hace más de tres años
+- insert     official=''  ours='y diputadas'  | el congreso de los diputados [] decidieron volver a apostar por
+- substitute official='siguiese'  ours='siguiera'  | lo hicieron para que españa [siguiese] avanzando por la senda de
+- insert     official=''  ours='la'  | avanzando por la senda de [] transformación ambición y justicia social
+- insert     official=''  ours='de la'  | por la senda de transformación [] ambición y justicia social que
+- insert     official=''  ours='la'  | senda de transformación ambición y [] justicia social que ha venido
+- delete     official='y'  ours=''  | ha tocado gestionar emergencias inéditas [y] navegar una coyuntura internacional muy
+- substitute official='la guerra'  ours='las guerras'  | energéticas y el regreso de [la guerra] en europa y oriente medio
+- insert     official=''  ours='en'  | la guerra en europa y [] oriente medio hemos tenido que
+- insert     official=''  ours='también'  | medio hemos tenido que trabajar [] con un congreso muy bronco
+- substitute official='renunciar'  ours='traicionar'  | absurdamente muchos confunden pactar con [renunciar] y bloquear con vencer hemos
+- insert     official=''  ours='también'  | bloquear con vencer hemos tenido [] que batirnos contra élites económicas
+- substitute official='seguir'  ours='continuar'  | las elecciones pero que quieren [seguir] controlando nuestro país y hemos
+- insert     official=''  ours='también'  | controlando nuestro país y hemos [] tenido también que lidiar con
+- delete     official='también'  ours=''  | nuestro país y hemos tenido [también] que lidiar con la peor
+- insert     official=''  ours='historia'  | oposición que ha conocido nuestra [] democracia una oposición sin sentido
+- substitute official='democracia'  ours='democrática'  | oposición que ha conocido nuestra [democracia] una oposición sin sentido de
+- insert     official=''  ours='ningún'  | nuestra democracia una oposición sin [] sentido de estado que no
+- insert     official=''  ours='hasta incluso'  | no ha parado de cuestionar [] la legitimidad de nuestro sistema
+- insert     official=''  ours='y municipal'  | de usar su poder autonómico [] para boicotear políticas buenas para
+- insert     official=''  ours='a este respecto simplemente quisiera recordar que'  | gente de a pie nosotros [] hemos transferido a esos gobiernos
+- substitute official='construyeran vivienda e'  ours='invirtieran en sanidad'  | recursos que nunca para que [construyeran vivienda e] invirtieran en sanidad para que
+- delete     official='invirtieran'  ours=''  | para que construyeran vivienda e [invirtieran] en sanidad para que construyeran
+- substitute official='sanidad'  ours='educación'  | construyeran vivienda e invirtieran en [sanidad] para que construyeran viviendas y
+- substitute official='viviendas'  ours='vivienda'  | en sanidad para que construyeran [viviendas] y ellos han comprado áticos
+- insert     official=''  ours='han'  | ellos han comprado áticos y [] privatizado hospitales aun así a
+- substitute official='aun'  ours='aún'  | comprado áticos y privatizado hospitales [aun] así a pesar de todas
+- insert     official=''  ours='y'  | y privatizado hospitales aun así [] a pesar de todas estas
+- insert     official=''  ours='también'  | de todas estas dificultades y [] hostilidades el gobierno de coalición
+- substitute official='nuestro'  ours='españa'  | largo de estos tres años [nuestro] país se ha convertido en
+- delete     official='país'  ours=''  | de estos tres años nuestro [país] se ha convertido en la
+- insert     official=''  ours='que'  | economía que más crece y [] más empleo crea de toda
+- insert     official=''  ours='grandes economías europeas como'  | ha aumentado el triple que [] en francia y en alemania
+- substitute official='en francia y en alemania'  ours='la francesa o la alemana'  | ha aumentado el triple que [en francia y en alemania] y nuestros niveles de desigualdad
+- insert     official=''  ours='en definitiva'  | serie histórica que la registra [] con esfuerzo y diálogo hemos
+- insert     official=''  ours='con'  | la registra con esfuerzo y [] diálogo hemos logrado ampliar las
+- delete     official='las'  ours=''  | y diálogo hemos logrado ampliar [las] becas los permisos de maternidad
+- insert     official=''  ours='al sistema'  | maternidad y paternidad las ayudas [] a la dependencia y la
+- substitute official='a la'  ours='nacional de'  | maternidad y paternidad las ayudas [a la] dependencia y la cartera del
+- substitute official='abordado'  ours='acelerado'  | fondos llamados next generation hemos [abordado] uno de los principales problemas
+- substitute official='que'  ours='y'  | problemas que tenía nuestro país [que] era el escaso desarrollo de
+- substitute official='proceda'  ours='procediera'  | la mitad de nuestra energía [proceda] de fuentes renovables hemos aprobado
+- insert     official=''  ours='y también'  | energía proceda de fuentes renovables [] hemos aprobado medidas valientes para
+- insert     official=''  ours='de las'  | interés de los españoles y [] españolas y al mismo tiempo
+- insert     official=''  ours='y'  | españolas y al mismo tiempo [] en la medida de nuestras
+- insert     official=''  ours='mejor'  | hemos esforzado por construir un [] mundo mejor para nuestros compatriotas
+- delete     official='mejor'  ours=''  | esforzado por construir un mundo [mejor] para nuestros compatriotas y también
+- substitute official='tecno'  ours='tecnoligarcas'  | a los tiranos a los [tecno] oligarcas y también a los
+- delete     official='oligarcas'  ours=''  | los tiranos a los tecno [oligarcas] y también a los especuladores
+- insert     official=''  ours='de'  | futuro de nuestros hijos y [] nuestras hijas para agrandar sus
+- insert     official=''  ours='producto interior bruto en'  | altar militar del 5 del [] pib todo esto ha hecho
+- substitute official='pib'  ours='definitiva'  | altar militar del 5 del [pib] todo esto ha hecho a
+- substitute official='esto'  ours='eso'  | del 5 del pib todo [esto] ha hecho a nuestro país
+- substitute official='a'  ours='de'  | pib todo esto ha hecho [a] nuestro país ha convertido a
+- insert     official=''  ours='de'  | un referente mundial de paz [] feminismo y prosperidad y nos
+- insert     official=''  ours='de'  | mundial de paz feminismo y [] prosperidad y nos ha permitido
+- delete     official='también'  ours=''  | millones de trabajadores y trabajadoras [también] de los trabajadores autónomos y
+- substitute official='los'  ours='también'  | trabajadores y trabajadoras también de [los] trabajadores autónomos y por supuesto
+- delete     official='gracias'  ours=''  | país también ha sido posible [gracias] a la generosidad de otras
+- substitute official='aqradecérselo'  ours='agradecérselo'  | parlamentarias a las cuales quiero [aqradecérselo] en primera persona que han
+- insert     official=''  ours='una de las'  | de sí misma en cada [] crisis que hemos tenido que
+- insert     official=''  ours='también'  | hemos tenido que abordar sé [] que en parte de esa
+- insert     official=''  ours='los intereses de la gente de a pie'  | indigna ver cómo sus intereses [] son pisoteados en el parlamento
+- insert     official=''  ours='también'  | nos habíamos propuesto es verdad [] que aún quedan muchas injusticias
+- substitute official='el ámbito'  ours='los ámbitos'  | que resolver sobre todo en [el ámbito] de la desigualdad los servicios
+- insert     official=''  ours='de'  | el ámbito de la desigualdad [] los servicios públicos y del
+- insert     official=''  ours='debemos'  | de desigualdad debemos movilizarnos y [] lograr que el parlamento nos
+- insert     official=''  ours='españa'  | sociales y seguir transformando españa [] por eso tras informar como
+- delete     official='las'  ours=''  | de que los españoles y [las] españolas decidáis qué futuro queréis
+- substitute official='sí'  ours='vosotros'  | decidáis qué futuro queréis para [sí] mismos y para su país
+- substitute official='su'  ours='vuestro'  | para sí mismos y para [su] país ahora depende de vosotros
+- insert     official=''  ours='de'  | ahora depende de vosotros y [] vosotras basta examinar el horizonte
+- insert     official=''  ours='muy'  | se asoma a una época [] compleja de transformación de transición
+- insert     official=''  ours='es una época'  | artificial muy disruptivos una época [] por tanto de grandes peligros
+- delete     official='las'  ours=''  | grandes oportunidades los españoles y [las] españolas tenéis que decidir qué
+- substitute official='siga'  ours='continúe'  | gobierna o deseáis que españa [siga] siendo un baluarte de apertura
+- insert     official=''  ours='entregaros o'  | la mayoría social o preferís [] entregar las riendas del país
+- insert     official=''  ours='últimos'  | hemos venido construyendo durante estos [] ocho años para beneficiar a
+- substitute official='reparos'  ours='reparo'  | desafíos y que no tenéis [reparos] en ser los únicos o
+- insert     official=''  ours='vamos'  | vamos a dejarnos la piel [] para trabajar para mereceros vuestra
+- substitute official='para'  ours='a'  | vamos a dejarnos la piel [para] trabajar para mereceros vuestra su
+- substitute official='mereceros'  ours='merecernos'  | la piel para trabajar para [mereceros] vuestra su confianza para ilusionar
+- delete     official='su'  ours=''  | para trabajar para mereceros vuestra [su] confianza para ilusionar y para

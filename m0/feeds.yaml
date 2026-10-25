@@ -1,0 +1,187 @@
+# Radio and podcast feeds for discovery and fetch. Checked with curl on 2026-10-25:
+# every URL below returned HTTP 200 and parsed as RSS XML.
+# granularity: hours = one item per broadcast hour; clips = one item per segment or interview;
+# mixed = both. depth = how far back the feed reached on 2026-10-25.
+
+# ---------- Radio ----------
+- station: Cadena SER
+  programme: Hoy por Hoy
+  rss_url: https://fapi-top.prisasd.com/api/v2/feed-rss/playser/hoy-por-hoy/itunestfp
+  verified: yes
+  granularity: "clips plus 'El pulso de Hoy por Hoy' blocks (~70 min); no full-show items"
+  interviews_separate: "yes (title names the guest; description says 'Aimar Bretos entrevista a ...')"
+  depth: "600 items, back to 2026-08-28"
+- station: Cadena SER
+  programme: Hora 25
+  rss_url: https://fapi-top.prisasd.com/api/v2/feed-rss/playser/hora-25/itunestfp
+  verified: yes
+  granularity: "mixed (daily 'Programa completo' ~2h20 plus La mesa / Las ocho clips)"
+  interviews_separate: yes
+  depth: "600 items, back to 2026-07-13"
+- station: Cadena SER
+  programme: Hora 25 Fin de Semana
+  rss_url: https://fapi-top.prisasd.com/podcast/playser/hora_25_fin_de_semana/itunestfp/podcast.xml
+  verified: yes
+  granularity: "one item per show (~25 min)"
+  depth: "100 items, back to 2025-12-14"
+- station: Cadena SER
+  programme: La Ventana
+  rss_url: https://fapi-top.prisasd.com/podcast/playser/la_ventana/itunestfp/podcast.xml
+  verified: yes
+  granularity: "mixed (2h blocks plus sections)"
+  depth: "600 items, back to 2026-07-10"
+- station: Cadena SER
+  programme: Las 8 de Hoy por Hoy
+  rss_url: https://fapi-top.prisasd.com/podcast/playser/las_8_de_hoy_por_hoy_3131/itunestfp/podcast.xml
+  verified: yes
+  granularity: "daily news block (~15 min); duplicates items in the main feed"
+  depth: "600 items, back to 2024-06-27"
+- station: COPE
+  programme: Herrera en COPE
+  rss_url: https://www.cope.es/api/es/programas/herrera-en-cope/audios/rss.xml
+  verified: yes
+  granularity: "mixed (full hours 'HH:00H | DD MMM YYYY', 06-13h, plus clips)"
+  interviews_separate: "yes (e.g. 'La entrevista de las 9h con Herrera')"
+  depth: "600 items, back to 2026-08-21"
+  quirk: "pubDate is ISO 8601, not RFC 822"
+- station: COPE
+  programme: La Linterna
+  rss_url: https://www.cope.es/api/es/programas/la-linterna/audios/rss.xml
+  verified: yes
+  granularity: "hours (19-23h)"
+  depth: "600 items, back to 2026-04-30"
+- station: COPE
+  programme: Mediodía COPE
+  rss_url: https://www.cope.es/api/es/programas/mediodia-cope/audios/rss.xml
+  verified: yes
+  granularity: hours
+  depth: "600 items, back to 2025-10-24"
+- station: COPE
+  programme: Fin de Semana
+  rss_url: https://www.cope.es/api/es/programas/fin-de-semana/audios/rss.xml
+  verified: yes
+  granularity: hours
+  depth: "600 items, back to 2025-08-03"
+- station: Onda Cero
+  programme: Más de uno
+  rss_url: https://www.ondacero.es/rss/podcast/triton/mount/ATRESMEDIA_MAS_DE_UNO_AOD_P/origin/fastly
+  verified: yes
+  granularity: "mixed (full show 'Más de uno DD/MM/YYYY' ~4h18, a 06-08h block, plus clips)"
+  interviews_separate: yes
+  depth: "300 items, back to 2026-09-25 (shallow, so crawl daily)"
+- station: Onda Cero
+  programme: La Brújula
+  rss_url: https://www.ondacero.es/rss/podcast/triton/mount/ATRESMEDIA_LA_BRUJULA_AOD_P/origin/fastly
+  verified: yes
+  granularity: "mixed (full show ~4h30 plus clips)"
+  depth: "300 items, back to 2026-09-15"
+- station: Onda Cero
+  programme: Julia en la onda
+  rss_url: https://www.ondacero.es/rss/podcast/triton/mount/ATRESMEDIA_JULIA_EN_LA_ONDA_AOD_P/origin/fastly
+  verified: yes
+  granularity: "mixed (full show ~3h55 plus clips)"
+  depth: "300 items, back to 2026-05-09"
+- station: Onda Cero
+  programme: La brújula electoral
+  rss_url: https://www.ondacero.es/rss/podcast/6878207/podcast.xml
+  verified: yes
+  granularity: clips
+  depth: "stale (last item 2023-07-28); watch in case it is revived for 29N"
+- station: RNE
+  programme: Las mañanas de RNE
+  rss_url: https://api.rtve.es/api/adapter/programas/119312/audios.rss
+  verified: yes
+  granularity: "mixed (one item per hour, 'Primera..Cuarta hora', plus clips)"
+  interviews_separate: yes
+  depth: "RSS holds only the last 20 items (~2 days). For backfill use the JSON API https://api.rtve.es/api/programas/119312/audios.json?size=60&page=N (144 items since 5 Oct)"
+- station: RNE
+  programme: 24 horas
+  rss_url: https://api.rtve.es/api/adapter/programas/1871/audios.rss
+  verified: yes
+  granularity: "mixed (hours plus clips)"
+  depth: "20 items in the RSS; JSON API as above with programme id 1871"
+- station: RNE
+  programme: Las tardes de RNE
+  rss_url: https://www.rtve.es/api/adapter/programas/167211/audios.rss
+  verified: yes
+  granularity: mixed
+  depth: "20 items in the RSS; JSON API with programme id 167211"
+- station: esRadio
+  programme: Es la Mañana de Federico
+  rss_url: https://www.spreaker.com/show/4850998/episodes/feed
+  verified: yes
+  granularity: "sections and clips (Federico a las 6/7/8, Tertulia, interviews as separate items); no full hours"
+  interviews_separate: "yes ('Federico entrevista a ...')"
+  depth: "1000 items, back to 2026-06-19. Spreaker API also works: https://api.spreaker.com/v2/shows/4850998/episodes?limit=100"
+  alt_rss_url: https://esradio.libertaddigital.com/es-la-manana-de-federico/podcast.xml
+  alt_note: "verified, but only 50 items (~5 days)"
+- station: esRadio
+  programme: La Noche de Dieter
+  rss_url: https://esradio.libertaddigital.com/la-noche-de-dieter/podcast.xml
+  verified: yes
+  granularity: clips
+  depth: "stale (last item 2025-09-24)"
+- station: Catalunya Ràdio
+  programme: El matí de Catalunya Ràdio
+  rss_url: https://dinamics.3cat.cat/public/podcast/catradio/xml/6/6/podprograma1566.xml
+  verified: yes
+  granularity: "hours (one item per hour, section named in the title and description)"
+  depth: "270 items, back to 2026-08-24"
+  quirk: "ISO-8859-1 encoding; in Catalan"
+- station: RAC1
+  programme: El món a RAC1 - Entrevista
+  rss_url: https://api.audioteca.rac1.cat/rss/el-mon/entrevista
+  verified: yes
+  granularity: "one item per interview"
+  depth: "100 items (~1 month)"
+  quirk: "in Catalan; audio hosted on Omny"
+- station: Onda Cero Podcast
+  programme: Las entrevistas de Sonsoles
+  rss_url: https://feeds.megaphone.fm/entrevistas-sonsoles
+  verified: yes
+  granularity: "one item per interview"
+  depth: "stale (last item 2026-07-08)"
+
+# ---------- Podcasts / long-form (non-TV) ----------
+- station: YouTube / podcast
+  programme: The Wild Project (Jordi Wild)
+  rss_url: https://anchor.fm/s/115a4336c/podcast/rss
+  verified: yes
+  granularity: "one item per episode (2.5-5 h)"
+  note: "All four main candidates (Sánchez, Feijóo, Abascal, Colau) have accepted interviews. The press says they come out around 9-13 Nov 2026. Watch this feed and the YouTube channel"
+- station: podcast
+  programme: LO QUE TÚ DIGAS (Alex Fidalgo)
+  rss_url: https://anchor.fm/s/101d1e078/podcast/rss
+  verified: yes
+  granularity: "one item per episode"
+- station: podcast
+  programme: La Pija y la Quinqui
+  rss_url: https://feeds.megaphone.fm/GLT1185080500
+  verified: yes
+  granularity: "one item per episode"
+- station: podcast
+  programme: La Ruina
+  rss_url: https://anchor.fm/s/a4e7fe88/podcast/rss
+  verified: yes
+  granularity: "one item per episode"
+- station: podcast
+  programme: Carne Cruda
+  rss_url: https://feeds.acast.com/public/shows/6a6b0ff2a585d3be78ce0ba1
+  verified: yes
+  granularity: "one item per episode"
+- station: Cadena SER podcast
+  programme: Nadie Sabe Nada
+  rss_url: https://fapi-top.prisasd.com/podcast/playser/nadie_sabe_nada/itunestfp/podcast.xml
+  verified: yes
+  granularity: "one item per episode"
+- station: podcast
+  programme: La Sotana
+  rss_url: https://anchor.fm/s/10e30d900/podcast/rss
+  verified: yes
+  granularity: "one item per episode"
+- station: Podium Podcast
+  programme: Estirando el chicle
+  rss_url: https://www.omnycontent.com/d/playlist/2446592a-b80e-4d28-a4fd-ae4c0140ac11/42658bb8-4afa-4449-9c7a-aea9010e5b53/5942eb19-73a6-4772-8093-aea9010e5b61/podcast.rss
+  verified: yes
+  granularity: "one item per episode"
+  depth: "last item 2026-06-20 (between seasons)"

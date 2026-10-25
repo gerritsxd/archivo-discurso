@@ -1,0 +1,171 @@
+{
+ "id": "2026-10-07-feijoo-dc5d41",
+ "date": "2026-10-07",
+ "expected_person": "Alberto Núñez Feijóo",
+ "kind": "press_conf",
+ "outlet": "PP YouTube",
+ "title": "🔵 DIRECTO: Feijóo y Juan Jesús Vivas realizan una intervención ante los medios",
+ "url": "https://www.youtube.com/watch?v=zqKGHM7TASI",
+ "language": "es",
+ "duration_s": 4330.15,
+ "sha256": "b0eb817ce469d8ae922fd9dc10c78b26d0c1ffc20d8044b86ba6958407f12170",
+ "fetched_at": "2026-10-25T09:12:07+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.55,
+  "processed_at": "2026-10-25T09:54:54+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_01": {
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "decision": "match",
+   "reason": "sim 0.89, next 0.39",
+   "talk_s": 1137.3
+  },
+  "SPEAKER_03": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "unknown",
+   "reason": "best sim 0.55 < 0.55",
+   "talk_s": 22.7
+  },
+  "SPEAKER_02": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "unknown",
+   "reason": "best sim 0.32 < 0.55",
+   "talk_s": 666.1
+  },
+  "SPEAKER_04": {
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "decision": "unknown",
+   "reason": "best sim 0.30 < 0.55",
+   "talk_s": 32.2
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "decision": "too_short",
+   "reason": "only 18s of speech",
+   "talk_s": 18.0
+  }
+ },
+ "turns": [
+  {
+   "start": 1711.98,
+   "end": 2213.16,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Querido presidente, queridos compañeros y queridas compañeras del Partido Popular, profesionales de los medios de comunicación, buenas tardes a todos y muchas gracias por asistir a esta comparecencia con la que el Partido Popular inicia la precampaña de las elecciones para el próximo día 29 de noviembre. Unas elecciones que estoy convencido, Hoy van a hacer que Alberto Núñez Feijóo sea el próximo presidente del Gobierno de España. Yo, con la edad que tengo, procuro no faltar nunca a la verdad y si digo que estoy convencido es porque estoy convencido. Estoy convencido de qué es lo que quieren los españoles y estoy convencido de qué es lo que le conviene a España. España, porque los españoles quieren y a España le conviene un cambio decalado, un cambio profundo en la política nacional, un cambio decalado para que la política vuelva a ser útil, útil para atender las necesidades de los ciudadanos y útil también para afrontar los retos que como país tenemos de cara al futuro. La política útil para que las instituciones estén para eso, para servir a los ciudadanos y no al servicio de un partido político determinado como ha ocurrido en estos últimos años. Útil para que se imponga la primacía del interés general por encima de cualquier otro Y para que la gestión pública se lleve a cabo con transparencia, con decencia y con integridad. Que la transparencia, la decencia y la integridad sean la norma y no la excepción como ahora ocurre. Útil para que la política deje de ser, como se ha venido haciendo estos últimos años, un instrumento que enfrente a los españoles. Un instrumento que divida a los españoles. Hacen falta desde la política tender puentes entre los españoles y no al contrario. Una política para que España sea respetada en el ámbito de la política exterior y una política para que se ponga el foco allí donde más se necesita. Y eso, precisamente, es lo que está haciendo hoy el presidente Feijóo. Poner el foco allí donde más se necesita, no en aquel lugar en que más convenga para, como hace el Gobierno de la Nación, como hace Pedro Sánchez, donde más convenga para él seguir estando en el poder. La política no está concebida en sus principios constitucionales para eso. Y el presidente Feijóo ha querido hoy iniciar la pre-campaña en Ceuta porque cree que Ceuta necesita esta presencia. Su gesto tiene muchísima trascendencia porque está señalando algunas cosas que me parecen muy relevantes. Está señalando que Ceuta vive una situación excepcional desde hace dos meses, una situación límite. Una situación absolutamente injusta. Y está señalando con su presencia aquí hoy que lo que ha ocurrido en Ceuta y sigue ocurriendo es el hecho más grave desde la perspectiva de la seguridad nacional que ha ocurrido en España en toda la historia reciente de España. Por eso está aquí hoy el presidente Feijóo. Y no nos cansaremos de repetirlo. Además de agradecerle el gesto, yo creo que tenemos la obligación de contarlo muchas veces. Es necesario contarlo muchas veces para que todos los españoles sepan lo que aquí ha ocurrido y sigue ocurriendo. Es necesario repetir, no nos podemos cansar de repetir que los días 30 y 31 de julio, cerca de 90.000 personas, cerca de 100.000 personas, ya vamos por 100.000 en función de los que van saliendo, cerca de 100.000 personas fueron utilizadas para vulnerar la integridad territorial de España. Esto es conveniente que se recuerde una invasión, una invasión que trajo como consecuencia el drama irreparable de 141 muertos, que sepamos, pero que además dejó a Ceuta en una situación absolutamente insostenible, la que hoy todavía seguimos viviendo. Ceuta no es la que era. Los ceutíes hemos tenido que cambiar nuestros hábitos de vida. Hemos visto mermados nuestros derechos fundamentales. Hemos perdido seguridad, tranquilidad, libertad, junto al deterioro de los servicios públicos esenciales, la seguridad, como digo, pero también la sanidad, también la educación, la ruina económica, el riesgo para la convivencia, la incertidumbre de no saber si se volverá a repetir. La inquietud de no saber hasta cuándo. Esto está ocurriendo ahora mismo en Ceuta y, por tanto, vivimos en una olla a presión desde hace dos meses que en cualquier momento puede estallar. Y lo más grave del asunto es que esto se pudo evitar y no se evitó. Lo más grave de esto es que quien podía y debía de hacer lo que debía, que es Pedro Sánchez, no lo hizo. Lo más grave de esto es que no atendió las alarmas de los días previos. Lo más grave es que en los años anteriores tampoco hizo nada para que esto se pudiera ocurrir, lo que nos está pasando. Y había indicios que decían que esto podía pasar, porque en mayo de 2021 pasó lo mismo, solo que de menor envergadura. Y porque durante el día de la invasión tampoco se actuó de manera proporcional a lo que estaba ocurriendo. Y porque después de la invasión no se han puesto todos los medios y todas las capacidades con las que cuenta la Administración General del Estado para que Ceuta volviera a la normalidad. No se han puesto. A día de hoy tenemos que decir, desafortunadamente, que todavía permanecen en Ceuta cerca de 15.000 personas de las que entraron. Se ha ido mucha gente, pero se han ido voluntariamente. Desgraciadamente tenemos que decir que no se ha devuelto a nadie, a día de hoy, dos meses después. Por tanto, todo esto que digo es verdad. Y todo esto que digo nos lleva a una conclusión. Pedro Sánchez no ha cumplido con sus obligaciones constitucionales de proteger nuestra integridad y de proteger los derechos fundamentales de los ceutíes. Y esto, desde la perspectiva de presidente del gobierno, lo inhabilita para seguir siendo el presidente del gobierno. Y también quiero decir que hay cosas de las que no nos podemos olvidar. Y de que no nos vamos a olvidar ni los ceutíes ni el resto de los españoles. Yo creo que no nos podemos olvidar que el mismo día que el presidente del gobierno afirmaba que España había sido invadida, también renglón seguido decía que se iba de vacaciones. Yo esperaba que dijera España ha sido invadida porque era la verdad y al mismo tiempo se constituyera un gabinete de crisis para remediar la situación. El gabinete de crisis fue irse de vacaciones. Por tanto, es una prueba inequívoca de lo que le importa a Pedro Sánchez la integridad territorial de España, de lo que le importan a Pedro Sánchez los derechos de"
+  },
+  {
+   "start": 2213.16,
+   "end": 2216.04,
+   "label": "SPEAKER_01",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "los españoles y, en particular, de los ceutíes."
+  },
+  {
+   "start": 2216.04,
+   "end": 2583.7,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Nos dejó a un ministro encargado de la vuelta a la normalidad y al día siguiente de irse Pedro Sánchez se fue también el ministro y resulta que el ministro se fue con el argumento de que Ceuta estaba volviendo a la normalidad y que aquí quedaban 2.500 personas. Ambas cosas no se corresponden con la verdad. Ni Ceuta estaba volviendo a la normalidad porque nada más que hay que ver cómo estamos dos meses después. Y no quedaban 2.500, quedaban 25.000. Diez veces más de las que dijo el ministro. Y luego el otro ministro, el más lanzado que tiene en el gabinete, dijo que el mismo día otra crisis más resuelta por Pedro Sánchez. Sánchez, sinceramente, ojalá y hubiera sido cierto. Pero desgraciadamente para Ceuta y para España no lo era. Resulta sinceramente inadmisible que el presidente del gobierno hace pocos días le pidiera a los ceutíes paciencia. Paciencia a un pueblo que lleva dos meses con la soga al cuello. Es absolutamente inadmisible que Pedro Sánchez haya estado más dedicado a disculpar a Marruecos que a proteger los intereses de los ceutíes. Es absolutamente inadmisible. No nos podemos olvidar, pero tenemos el contrapunto. Y el contrapunto se llama Alberto Núñez Feijóo y el Partido Popular. Porque esta es la quinta vez que viene a Ceuta desde la invasión. Y siempre ha venido con algo. Siempre ha venido con propuestas, con iniciativas, con compromisos. Gracias a todos. Por tanto, querido presidente, muchas gracias. Muchas gracias por haber estado aquí el día 2 de septiembre. Ese día era muy importante para Ceuta. Yo creo que ha sido el 2 de septiembre más importante de la historia de Ceuta. Y ese día el presidente Feijóo quería poner de manifiesto que su corazón y el corazón del Partido Popular de toda España estaban con Ceuta. Muchísimas gracias. Muchísimas gracias, querido presidente, por haber alentado y animado al Partido Popular de toda España para que el día 2 de septiembre España fuera un clamor. Y el 2 de septiembre, en todos los rincones de nuestra geografía, España fue un clamor para decir que Ceuta no estaba sola, para decir que Ceuta no se vende, para decir que Ceuta se defiende, para decir que Ceuta es España. España. Se lo debemos a los españoles que actuaron de una manera espontánea, pero también se lo debemos al Partido Popular que apoyó esas manifestaciones. Lo verdaderamente lamentable es que un partido que se llama de Estado, que es un presidente del gobierno como Pedro Sánchez, prohibiera a sus militantes que salieran el día 2 de septiembre a defender a España y a defender a César. Todavía a día de hoy me llegan informaciones de emociones que se están presentando en ayuntamientos en España de apoyo a Ceuta y el Partido Socialista está votando en contra. Es algo verdaderamente inaudito. Muchas gracias, querido presidente, por la incorporación de Ceuta al Comité de las Regiones. Muchas gracias, querido presidente, por habernos facilitado el contacto con la Comisión Europea. Muchas gracias, y yo te lo atribuyo a ti personalmente, por el pronunciamiento que ha tenido la presidenta de la Comisión acerca de Ceuta y de nuestra hermana Melilla. Muchas gracias y a título atribuyo personalmente por la resolución del Parlamento Europeo poniendo claramente de manifiesto que nuestras dos ciudades son ciudades europeas, españolas y europeas. Muchas gracias querido presidente por comprometerte con Ceuta en que habrá un antes y un después, en que contigo como presidente Ceuta tendrá un futuro, un horizonte de seguridad, de prosperidad y de bienestar. Muchas gracias, presidente, por haber puesto en su sitio siempre a los ceutíes, por haber reconocido el mérito de este pueblo, por haber reconocido el coraje y el valor de los ceutíes para resistir, por haber reconocido la madurez de los ceutíes para no perder la calma ni con el alma en vilo, por haber reconocido el amor de los ceutíes a España, por haber reconocido la capacidad de los ceutíes para convivir, Personas de diferentes credos, culturas y orígenes, en paz y en libertad, juntos y unidos Muchas gracias querido presidente por querer tanto a España y por querer tanto a Ceuta Yo creo que la comparación es inevitable Tenemos que elegir el día 29 y está claro que la elección tiene que ser a favor de Alberto Núñez Feijóo"
+  },
+  {
+   "start": 2584.5,
+   "end": 2585.94,
+   "label": "SPEAKER_01",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "Y creo que está claro,"
+  },
+  {
+   "start": 2589.84,
+   "end": 2641.84,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "creo, creo, creo, creo con la misma sinceridad que me manifestaba al principio que existen numerosísimas razones para que Pedro Sánchez deje de ser presidente del gobierno y Alberto Núñez Feijóo sea el presidente del gobierno. Pero creo también que entre estas razones, para mí, una de las de mayor peso es lo que ha ocurrido Y sigue ocurriendo en Ceuta. Porque los españoles merecen un presidente que proteja nuestra integridad territorial. Merecen un presidente que defienda la dignidad nacional. Merecen un presidente que garantice la igualdad de todos los españoles, vivan donde vivan. Merecen a un presidente como Alberto Núñez Feijóo. Señor presidente, suya es la palabra."
+  },
+  {
+   "start": 2706.49,
+   "end": 3625.82,
+   "label": "SPEAKER_01",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "Gracias, señor presidente. La convocatoria electoral es que no podría ser en otro lugar. Quien aspira a gobernar España debe empezar por donde España necesita más la presencia del Estado. El presidente Vivas lo acaba de referir. He venido muchas veces a Ceuta, por supuesto, no solo en campaña. He venido cuando las cosas iban bien en la ciudad. Y sobre todo he venido en los últimos días en sus peores momentos. Estar aquí es mi forma de entender la política. Es estar donde hace falta y estar cuando hace falta. También he querido venir porque la reacción de los ceutíes con el presidente Vivas a la cabeza es un espejo en el que debemos mirarnos. Frente al abandono, los ceutíes están defendiendo con valentía y con dignidad su ciudad. Valentía no es furia, es firmeza. Y no es enfrentamiento, sino el deseo de la convivencia entre todos. Pues bien, reivindico la España de los valientes y ofrezco un gobierno que se incorpore a ella. Un gobierno que afronte los desafíos con el mismo coraje y la misma valentía que lo está haciendo Ceuta. Vivimos tiempos en los que es necesario afianzar cosas que nunca debieron estar en cuestión. 80.000 españoles han tenido que defenderse prácticamente solos de un ataque a su integridad territorial que dura ya más de dos meses. Quiero decirles que esto no volverá a pasar. Porque esto es darle la espalda a los ciudadanos que tienen exactamente los mismos derechos de vivir tranquilos que el resto de los españoles. No hay distancia, ni posición geográfica, ni chantaje, ni mucho menos periodo vacacional que exima a un gobierno de cumplir su primera obligación, que es garantizar la integridad territorial de la nación a la que sirve. Proteger la soberanía de la nación es el primer compromiso del gobierno de la nación. El único muro que tiene que defender el gobierno es su frontera. Lamentablemente, Ceuta no es la excepción de esta etapa que estamos dejando atrás. Es el síntoma de la decadencia, de la corrupción y de la mentira en la que se ha asumido la nación entera. Siempre muy preocupados por controlar el relato y absolutamente indiferentes por controlar la situación. Ni la frontera, ni los trenes, ni la vivienda, ni la sanidad, ni la educación, ni la política migratoria, ni el coste de vida, nada. Nada. Cuando precisamente gobernar consiste en gestionar los problemas, no ignorarlos, no agrandarlos, no crear otros, gestionarlos. Y desde este punto de vista el diagnóstico de la nación es muy claro. España va en la peor dirección. España necesita un cambio profundo y yo le pido la confianza a los españoles para iniciar y consolidar un cambio profundo. España no puede estar más tiempo en manos de escapistas. España necesita estadistas. Y la buena noticia es que si no nos confiamos, si no damos un voto por seguro, el 29 de noviembre podemos alcanzarlo. El daño es descomunal. El daño que se ha hecho a la nación en esta legislatura no es nuestra responsabilidad. Dijimos desde el minuto uno que esta legislatura era un inmenso error. Pero lo que viene a partir de ahora sí que puede estar en nuestras manos. Tenemos la oportunidad y la obligación de responder a la convocatoria de las urnas pensando y defendiendo exclusivamente el interés de los ciudadanos. Si la gente me da su confianza, sé lo que tengo que hacer. Sé en qué consiste la reconstrucción que necesita nuestro país. La gente está harta, harta de que la política sea una solución de desagradables sorpresas. Es una sucesión constante de disparates. Y conmigo, les aseguro que no lo sabrá. Lo que digo, lo cumplo. Y sé que el presidente del gobierno y su gobierno, su objetivo es que España vuelva a funcionar. Por eso, no he venido únicamente a decir a Ceuta lo que hay que hacer, sino sobre todo cómo hay que hacerlo. He dicho ya en alguna ocasión que si los españoles me dan la oportunidad de llegar a la Moncloa, lo primero que haremos será aprobar las normas de la reconstrucción y de la regeneración democrática de nuestro país. Para que nadie pueda volver a apropiarse de las instituciones ni del dinero de los españoles, para desterrar la corrupción económica y moral de la faz de la política y para que sea imposible vivir toda la legislatura sin ni siquiera presentar las cuentas del Estado. Pero, mi primer encargo concreto será recuperar la normalidad de la ciudad de Ceuta. Mi primer viaje como candidato es hoy a Ceuta. Y si los españoles me apoyan, Ceuta será la primera carpeta en la mesa del Consejo de Diputados. Muchas gracias. Yo no voy a ignorar lo que he visto aquí. No voy a ignorar lo que ocurre aquí. Ni tampoco voy a esconderlo, como ahora se pretende. Voy a apoyar al presidente Vivas diciendo la verdad. Y la verdad es que Ceuta no ha recuperado la normalidad. Y la verdad es que sigue habiendo en Ceuta 15.000 personas que de forma irregular han invadido la ciudad. Y la verdad es que la única solución que tiene esta situación es que los 15.000 se vayan de Ceuta y se vayan de España. Esa es la única solución y ese es mi compromiso. Queridos compañeros, la frontera tiene que reforzarse, mucho más, y el Ejército debe de contar con la condición de autoridad como ha aprobado el Congreso de los Diputados hace semanas. Nuestras Fuerzas Armadas, al igual que las Fuerzas y Cuerpos de Seguridad del Estado, merecen un gobierno que las respalde, no que las abandone. Los ceutíes sois tan españoles como el resto. Ceuta no es una ciudad de segunda. Y si alguna vez se ha sentido así, doy mi palabra de que esto no va a volver a suceder jamás. Esto, ayer, o antes de ayer, ya lo recuerdo, en el Senado, la mayoría absoluta de la Cámara otorgó, Recogeó la medalla de oro a la ciudad de Ceuta. La recogió el presidente de la ciudad. Intervino el presidente de la Real Academia de la Historia y recordó que hay que distinguir lo que es España y lo que pertenece a España. Ceuta es España desde hace 500 años y va a seguir siendo España en las próximas décadas y en los próximos siglos. Queridos amigos, defender esta realidad no es abrir ni alentar ningún conflicto, es empezar con la claridad de vida las relaciones de vecindad que hemos de tener. Y puesto que cada calle de Ceuta es exactamente igual de española que cualquier calle de Madrid o cualquier calle de Barcelona, hace falta también un compromiso estable, una política de Estado y una mirada a largo plazo. Por ello, el control de la frontera tiene que ejercerse desde el Gobierno de España, no subcontratarse en el país vecino. Y esto significa una planificación, una planificación que nos permita adelantarnos y no actuar siempre tarde. Significa una nueva ley de extranjería que permita la devolución inmediata de todos los que entren, ya sea por tierra o por mar. Significa más medios humanos y mejorar los sistemas de vigilancia. Significa, por supuesto, ampliar el espigón del Tarajal y no una boya flotante rota que simula una frontera. Y significa utilizar todos los instrumentos de la Constitución, digo, todos los instrumentos de la Constitución, si es necesario para parar cualquier crisis, incluido el artículo 8 de la Constitución. Igualmente me comprometo a que España lidere en Europa un compromiso específico y permanente en Ceuta y Melilla. No solo recursos ante una emergencia, sino un apoyo estable para la protección de la frontera, para la lucha contra las mafias y la cooperación necesaria con los países de nuestro entorno. Y asimismo, esta política de Estado nos obliga a entender que Ceuta necesita no solamente seguridad, que por supuesto, sino también oportunidades. Debemos trabajar en un verdadero plan para Ceuta, igual que para Melilla, que no dependa de que haya una invasión en Ceuta para activar un plan. No, un plan a medio y largo plazo para consolidar Ceuta e impedir que pueda volver a haber alguna transgresión de nuestra frontera. En este sentido, quiero anunciarles que un cebutí de adopción, Juan Bravo, y también una de las mejores políticas que tiene nuestro partido, Alma Ezcurra, están aquí porque están haciendo ese trabajo. Y quiero anunciarles algunas de las condiciones de ese trabajo. En primer lugar, nos comprometemos a ampliar la plantilla de profesionales, de médicos de enfermería y de personal sanitario en el Hospital Público de Ceuta. En segundo lugar, nos comprometemos a construir 8.000 viviendas en Ceuta. En tercer lugar, hacer una nueva comisaría de policía, una nueva comandancia de la Guardia Civil y una única base militar única para concentrar todos los efectivos de las Fuerzas Armadas en Ceuta, liberar espacios y construir viviendas. Por supuesto que habrá beneficios en las principales figuras tributarias. Tiene que haber una nueva fiscalidad para Ceuta y de una forma muy especial para la economía digital y para inversiones turísticas. Por cierto, empezando por el parador nacional. Ceuta debe retener el talento y por ello las inversiones en empleo, en formación o en el puerto reforzarán el talento y la población ceutí. Estos son nuestros compromisos. Hacer de Ceuta una prioridad permanente. Que Europa sepa que la frontera sur es Ceuta y Melilla en el continente africano. Garantizar los medios suficientes para proteger permanentemente nuestra integridad e impulsar un plan estable para el desarrollo económico y social de nuestras ciudades autónomas. En definitiva, que ninguna circunstancia convierta a Ceuta en una ciudad de segunda. Así debe ser, queridos compañeros, así debe ser porque aquí empieza España. Así debe ser porque haciendo esto engrandecemos España. Es cierto que aquí se nota especialmente la profunda grieta que esta etapa nos va a dejar, pero la buena noticia es que podemos cerrar esa grieta. Y para ello pido la máxima movilización, yo el primero. No estoy aquí para probar suerte. He gobernado, sé lo que es tomar decisiones y sé la diferencia entre servir y servirse. Les aseguro que no me mueve nada más que poder decir pronto que Ceuta ha recuperado la normalidad y que algún día España también lo hará. Muchísimas gracias a todos."
+  },
+  {
+   "start": 3681.89,
+   "end": 3682.79,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Gracias por esta comunicación y"
+  },
+  {
+   "start": 3682.79,
+   "end": 3734.69,
+   "label": "SPEAKER_01",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "me he comprometido a contestar alguna pregunta sabiendo que mi objetivo en el día de hoy no lo voy a cambiar. Mi objetivo es lo importante. Para mí lo más importante en el día de hoy es la integridad territorial de mi país. Lo primero que tiene que hacer un candidato a la presidencia del Gobierno es garantizarle a los ciudadanos que va a mantener la integridad territorial y la soberanía de su país. Aquellos candidatos que no sean capaces de cumplir y de comprometer este objetivo no son fiables. Y aquellos otros en los que se ha comprobado que no fueron capaces, no dan explicaciones y ni siquiera después de dos meses solucionan una crisis, no merecen ocupar el alto honor de presidentes de gobierno. En todo caso, como digo, si hay alguna pregunta que yo pueda contestar, estoy a su disposición."
+  },
+  {
+   "start": 3734.69,
+   "end": 3760.99,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¿Se me escucha? Sí. Bueno, aquí Ángela Póvez de La Razón. En primer lugar, le escucho a usted decir que cambiaría la ley de extranjería, pero me gustaría saber qué hubiera hecho usted si hubiera estado en la presidencia del Gobierno el día de la entrada masiva y cómo lo hubiera solucionado. ¿Y qué solución plantea para que Ceuta por fin pueda tener la normalidad y si usted se ve ganador en las próximas elecciones generales? Muchas gracias. Gracias."
+  },
+  {
+   "start": 3794.12,
+   "end": 3995.86,
+   "label": "SPEAKER_01",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "De todas formas, somos perfectamente conscientes de que hay dos formas de perder las elecciones, darlas por ganadas o darlas por perdidas. Vamos a jugar todos los balones, no vamos a dar un voto por perdido y le aseguro que nuestro objetivo es ganar sin ningún tipo de confianza previa. El cambio profundo que necesita España necesita un gobierno muy sólido, muy fuerte, muy determinante, con un mandato directo de las urnas. Eso es lo que vamos a intentar el 29 de noviembre. ¿Qué hubiera hecho yo? En el año 21, si observo que en una ciudad española entran 15.000 personas de forma irregular, evidentemente habría aprendido y habría activado todas las acciones y decisiones para que no volviera a ocurrir. En el año 21 hubiera reforzado las fronteras. Hubiera construido el espigón de Tarajal para que no se pueda pasar andando o simplemente andando esa frontera. Hubiese reforzado los fuerzos y cuerpos de seguridad y tendría ese protocolo ante cualquier eventualidad futura. Llegado el día 26, 27, 28, 29 de julio, después de recibir las advertencias del presidente de la ciudad y de los servicios de inteligencia, CNI, y de la comisaría de extranjería de la Policía Nacional, hubiese descolgado el teléfono de forma inmediata, me hubiese puesto en contacto con nuestro vecino de Marrocos Y le hubiera advertido que parase cualquier tipo de movimiento que se estaba produciendo en las redes sociales, que se hiciese cargo de la responsabilidad de controlar su frontera de la misma forma que yo controlaría la mía. Si observo una respuesta tibia por parte de Marruecos, hubiese activado el artículo 8 de la Constitución y hubiese desplegado el ejército para garantizar la integridad territorial de nuestras fronteras de acuerdo con la Constitución española. No es una decisión precipitada, es cumplir la Constitución. Cada vez que he prometido jurado un cargo en anteriores etapas, he prometido cumplir y hacer cumplir la Constitución. El presidente del gobierno es el primero que tiene que cumplir y hacer cumplir la Constitución. Ese artículo prevé que el ejército es el garante de la integridad territorial de un país. Y, por tanto, desplegaría el ejército y notificaría a Marruecos mi decisión en tiempo real, para que conozca cuál es la decisión del presidente del gobierno de España. Esto es lo que haría, pero no lo digo yo en Ceuta. Hay algún compañero suyo que me lo ha preguntado también en Madrid, Y es lo que dije hace semanas. Por tanto, no es una cuestión de pre-campaña, es un convencimiento personal."
+  },
+  {
+   "start": 4002.58,
+   "end": 4034.58,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Buenas tardes. Laura Ortiz, de CeutaTV.com. Yo le quería hacer dos preguntas muy concretas. En primer lugar, ¿qué tipo de acciones van a tomar Juan Bravo y Almazcurra para elaborar ese plan que usted ha anunciado para la ciudad de Ceuta y que será esa primera carpeta que habrá en el Consejo de Ministros si usted llega a ser presidente del Gobierno? Y, por otro lado, me gustaría preguntarle qué le parece que justo hoy el ministro de Hacienda esté en Ceuta y que haya agendado su comparecencia para la misma hora que usted este acto. Muchas gracias."
+  },
+  {
+   "start": 4036.4,
+   "end": 4203.1,
+   "label": "SPEAKER_01",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "Pues mire, últimamente el gobierno de España, de la misma forma que no cumple sus obligaciones estrictas con la corona, parece ser que sí las quiere cumplir con el jefe de la oposición. Y entonces me asignan ministros de jornada. Cuando yo voy a un sitio me acompaña el ministro de jornada. Bueno, oye, pues es un honor para mí que venga el ministro de jornada a Ceuta para intentar contraprogramar al jefe de la oposición. Pero sí, esto es una decisión del presidente del gobierno y me sorprende que el ministro de Hacienda sea tan servil con el presidente del gobierno. Ha venido a decir que le va a dar a Ceuta lo que dijo que le iba a dar hace varios meses y no lo ha dado. Pero, en fin, yo me siento muy satisfecho de tener un ministro de jornada cada vez que voy a algún lugar de nuestro país. ¿Alguna otra cosa? Ah, bien, correcto. Vamos a ver, el día 2 de agosto, cuando vine, el 1 y el 2 de agosto, me comprometí a hacer un plan integral para Ceuta. Y me comprometí con el presidente y con su gobierno en activar la confección y elaboración del plan. Lo que he venido ahora es a advertirles ya condiciones y contenidos de ese plan. Supone una nueva comisaría de policía, una nueva comandancia para la Guardia Civil y un único recinto para albergar todas las Fuerzas Armadas. Con esos terrenos sobrantes construiremos 8.000 viviendas. Adicionalmente, me comprometí con el Colegio de Médicos y de Enfermería para incrementar la plantilla de personal médico, enfermería y personal sanitario. Y, por supuesto, con un régimen fiscal específico para retener talento y para retener empresas en Ceuta. Y, por supuesto, no podemos hacer un plan si hay una invasión. Lo que tenemos es que construir un plan para desarrollar económica y socialmente la ciudad de Ceuta y esto va a formar parte efectivamente de mi primera carpeta del Consejo de Ministros porque este plan está prácticamente elaborado y lo que necesitamos es simplemente cerrarlo y posteriormente, a pesar de lo que me voy a encontrar desde el punto de vista presupuestario, priorizar la ejecución material del mismo en la ciudad de Ceuta. Y por eso quiero asumir ese compromiso de forma explícita con el presidente, con su gobierno y con la ciudad. Pero insisto, esto ya lo anticipé en el 1 y 2 de agosto y llevamos tiempo trabajando con anterioridad a la invasión en un plan específico para Zuta."
+  },
+  {
+   "start": 4204.38,
+   "end": 4206.0,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Muy bien, yo no quiero"
+  },
+  {
+   "start": 4206.0,
+   "end": 4306.54,
+   "label": "SPEAKER_01",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "omitir la pregunta de su compañero, porque le veo usted muy interesado en el voto por correo. No, pero usted, mire, ¿yo he sido presidente de Correos como todo el mundo sabe? No. ¿No estaba bien formulada su pregunta o qué? Insisto, mire, he sido presidente de Correos. Primero, confío plenamente en los carteros de Correos. Segundo, confío plenamente en los empleados públicos de Correos. Tercero, no confío en los directivos de Correos. Pero no es que no confíe yo, es que no confía la justicia. Porque el expresidente de Correos y la señora Leire, personaje de reconocido prestigio, están investigados por, entre otras cosas, intentar extorsionar a jueces, fiscales, periodistas y otros ciudadanos. Lo que vamos a hacer es llamar a una movilización, llamar a un voto masivo para que haya un gobierno muy sólido y lo que vamos a hacer en los próximos días es proponerle a la Junta Electoral Central algunas medidas adicionales para incrementar la garantía del voto por correo. Esto es lo que vamos a hacer."
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+# private: downloaded media and intermediate work (published data lives in data/items + site/)
+data/raw/
+data/work/
+logs/
+.venv/
+__pycache__/
+*.pyc
+m1/ours.json
+m1/official_raw.txt
+m1/pip_*.log
+m1/pre_pyannote_freeze.txt
+# built output is published to the server, not committed
+site/
+# voiceprints are biometric data (GDPR art. 9): never published, kept private
+voiceprints/

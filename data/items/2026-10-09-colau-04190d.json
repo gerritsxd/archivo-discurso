@@ -1,0 +1,278 @@
+{
+ "id": "2026-10-09-colau-04190d",
+ "date": "2026-10-09",
+ "expected_person": "Ada Colau",
+ "kind": "interview",
+ "outlet": "laSexta (Más Vale Tarde) YouTube",
+ "title": "Colau da vía libre a Rufián como candidato del Frente Amplio en Cataluña y España - Más Vale Tarde",
+ "url": "https://www.youtube.com/watch?v=1FaRota-oDU",
+ "language": "es",
+ "duration_s": 973.04,
+ "sha256": "f5a9729422377f7e0a850491b4044c0b23f78bc33d55c74e0b93fcfcf7695ba6",
+ "fetched_at": "2026-10-25T09:13:05+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.55,
+  "processed_at": "2026-10-25T10:03:37+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_01": {
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "decision": "match",
+   "reason": "sim 0.90, next 0.44",
+   "talk_s": 645.0
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "unknown",
+   "reason": "best sim 0.52 < 0.55",
+   "talk_s": 294.0
+  }
+ },
+ "turns": [
+  {
+   "start": 0.0,
+   "end": 6.88,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Tenemos la fortuna de contar con Ada Colau para ver si tenemos alguna información que despeje ahora mismo cuál va a ser el futuro de Frente Amplio. Ada Colau, buenas tardes."
+  },
+  {
+   "start": 8.72,
+   "end": 10.12,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Hola, muy buenas tardes."
+  },
+  {
+   "start": 10.4,
+   "end": 22.14,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Pues ahí está la gente, Inalvis. Hay mucha expectación y hay ganas de saber si hay finalmente un acuerdo y Frente Amplio tiene una candidata. ¿Va a ser usted, señora Colau?"
+  },
+  {
+   "start": 24.9,
+   "end": 175.68,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Bueno, pues lo siento porque no tengo ninguna exclusiva que daros ahora mismo, pero sí que agradezco mucho que me deis la oportunidad de hablar porque efectivamente, tal y como estáis comentando, el momento es un momento muy importante, es un momento histórico, es un momento donde nos jugamos muchísimo, ¿no? Y no solo de pasar de 5 a 20 o 30 diputados, sino que nos juzgamos no solo frenar a la extrema derecha, sino que haya un proyecto ilusionante que permita avanzar en derechos tan importantes como el derecho a la vivienda, que ahora mismo no hay miles de personas movilizadas por ese motivo. Con todo eso que está en juego, no podemos andarnos con dudas y con juegos. Sabéis que había descartado durante mucho tiempo, los últimos dos años, hacer de nuevo el paso a la política institucional y en cambio, por el momento que estamos viviendo, me he puesto a disposición de un proyecto amplio y unitario que efectivamente permita tener una propuesta única de la izquierda para juntar todos los votos y que no se pierda ni uno, que es lo que nos está pidiendo la gente en la calle. En ese sentido, el Frente Amplio es una propuesta muy abierta que han impulsado una serie de organizaciones, pero que ya hay otras que se están sumando. Ayer salía Somos Asturias mostrándoles su disposición para participar también, se está hablando también con Compromís para que veamos la forma de colaborar y de encajar, y con muchas otras organizaciones. Evidentemente que contamos con que Podemos esté también en esa propuesta de Frente Amplio, nadie entendería lo contrario, por supuesto que Irene Montero tiene que formar parte de esa propuesta y desde aquí también quiero dejar claro que las puertas del Frente Amplio están totalmente abiertas para Gabriel Rufián. Evidentemente él hasta ahora se ha presentado con Esquerra Republicana y con eso hay que ser absolutamente respetuosas, yo ahí no me voy a meter, Gabriel Rufián tiene su relación con Esquerra Republicana Pero sí que me gustaría insistir en algo que un poco estabais hablando ahora mismo en la mesa. O sea, el momento es histórico, el momento requiere unidad de las diferentes fuerzas de izquierdas y además hay un programa común que es muy evidente, ¿no? La defensa del derecho a la vivienda, de los servicios públicos, la defensa de derechos y libertades en general. O sea, hay un programa común que es muy evidente. Yo creo que el mismo Gabriel Rufián ha sido de los más lúcidos en defender esa idea Yolanda Díaz, Alberto Núñez"
+  },
+  {
+   "start": 175.68,
+   "end": 183.2,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Feijóo, Santiago"
+  },
+  {
+   "start": 183.2,
+   "end": 188.38,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Abascal,"
+  },
+  {
+   "start": 183.2,
+   "end": 217.74,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Ángeles Barceló, Federico Jiménez ¿Dónde está el problema? ¿Dónde o quién tiene el problema ahora mismo para conseguir esta unidad de la izquierda? Y me está dando a mí la sensación de que le está usted solicitando a Gabriel Rufián que sea él el candidato, quien encabece esta unión. ¿Pero por qué no se está consiguiendo? Lo digo porque el tiempo se agota, quedan pocos días para la presentación de candidaturas, sabemos que hay negociaciones, hemos oído que usted se ha reunido con Montero para tratar de desbloquear la situación. ¿Quién o cuál es el problema?"
+  },
+  {
+   "start": 233.81,
+   "end": 315.95,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "¿Qué pasa con el tema? Y ahí sí que yo le invitaría a ejercer la responsabilidad de cumplir con esa propuesta, con ese discurso. A mí me está pasando estos días que cuando ha salido mi nombre como uno de los posibles nombres de esa candidatura unitaria, mucha gente me dice, sí, muy bien, pero también con Gabriel Rufián. Y yo digo, claro que sí, o sea, las puertas del Frente Amplio están abiertas también para Gabriel Rufián. y, simplemente, creo que tenemos que insistir que esta vocación de unidad que nos está pidiendo la ciudadanía es responsabilidad de todos nosotros. Entonces, ahí está la propuesta del Frente Amplio, las puertas están abiertas, creo que Gabriel Rufián tiene un papel muy importante que jugar, creo que él en los últimos meses ha tenido una capacidad de conexión y de comunicación con el conjunto de la ciudadanía que es evidente y ha trasladado este sentido común de que no se puede perder ni un solo voto y que tiene que haber una única propuesta. Entonces, en este sentido, yo sí que le invitaría, vamos, estoy totalmente dispuesta a ayudarle si se decide, ¿no?, a no solo poder ser candidato por Cataluña, sino ejercer ese liderazgo también para unificar esa izquierda a nivel estatal."
+  },
+  {
+   "start": 315.95,
+   "end": 354.93,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Y decía usted, señora Colau, que no nos iba a dar ninguna exclusiva. Pues a mí esto sí que me lo parece, esta solicitud, esta petición al propio Gabriel Rufián para que encabece este movimiento, este Frente Amplio. Claro, lo cierto es que ahora mismo tiene que deshojar todavía a la Margarita, como bien usted decía, con Esquerra Republicana. Es verdad que Esquerra Republicana le ha puesto un ultimátum, ya prepara una lista alternativa si finalmente Rufián no es el candidato de Esquerra. Y si Esquerra reedita ser candidato, perdón, Rufián reedita ser candidato a Esquerra, aquí el día 26 en A3 Media tenemos un debate a cuatro. ¿Se ve usted de candidata de Frente Amplio si Rufián declina su invitación?"
+  },
+  {
+   "start": 357.58,
+   "end": 386.92,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Yo insisto que ahora mismo el objetivo es lo que importa y lo que importa es que haya un proyecto unitario con un programa común y que las diferentes caras que seamos más visibles nos pongamos al servicio de ese proyecto común. Eso es lo que nos está pidiendo la ciudadanía. Por eso yo digo que estaré disponible en el lugar que sea más útil y también le pido a Gabriel Rufián que ejerza también esa responsabilidad y ese liderazgo que ha construido en estos meses y que también ayude a construir esa unidad a la izquierda en el conjunto del Estado."
+  },
+  {
+   "start": 387.48,
+   "end": 411.74,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Sería por lo tonto que abre el rufián su número uno ideal, digamos, para su cabeza de lista, para la candidatura, el candidato de presidente de gobierno de Frente Amplio, entiendo. Pero no me acaba de contestar en dónde está el problema, porque es verdad que son muchas las formaciones, esto siempre es complicado, es una coctelera difícil, pero dónde o quién está, digamos, generando resistencia para llegar a un acuerdo, porque el tiempo apremia."
+  },
+  {
+   "start": 414.74,
+   "end": 484.32,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Pues ya le digo que yo eso no se lo puedo responder. Cada partido tendrá sus consideraciones. Podemos tendrá las suyas, Esquerra República tendrá las suyas, Gabriel Rufián tendrá las suyas. Pero si nos creemos de verdad que estamos en un momento histórico, que realmente la ciudadanía nos exige que vayamos todos juntos, que no se puede entender que haya más de una propuesta de la izquierda en las próximas elecciones, todas nos tenemos que poner a disposición de ese proyecto de unidad. Y ahí está el Frente Amplio para que todo el mundo se sienta a la mesa y para que pueda acordar desde el consenso donde nos colocamos cada una de nosotras para ir todas a una y derrotar a la derecha y a la extrema derecha no solo en las elecciones, sino sobre todo en su discurso de odio y en su intento de desmontar la democracia, de atacar el derecho a la vivienda y de desmontar los servicios públicos. Todo eso está en juego en las próximas elecciones, entonces creo humildemente que todas nos tenemos que poner al servicio de ese proyecto. Gabriel Rufián también ha sido muy enfático en la defensa de esa propuesta y por eso le digo que estamos absolutamente abiertos desde el Frente Amplio a que Gabriel Rufián pueda sumar ese liderazgo para acabar de ayudar a unir toda esa izquierda y que efectivamente podamos cumplir con la demanda de la ciudadanía, que es que haya una única propuesta en las próximas elecciones por parte de la izquierda."
+  },
+  {
+   "start": 485.06,
+   "end": 508.18,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Ha citado usted tantas veces a Rufián que estoy por poner un teléfono de aludidos, por si Gabriel los está viendo ahora mismo y quiere responder a esta invitación que me parece muy interesante. Le quiero preguntar también, si no está Podemos, ¿usted no participará en Frente Amplio? Lo digo porque parece que el encaje de Podemos con sus antiguos compañeros de Sumar es ahora mismo una de las piezas más difíciles de encajar. Si no está en la formación de Irene Montero, ¿tampoco estará Ada Colau?"
+  },
+  {
+   "start": 510.7,
+   "end": 541.08,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Es que no concibo que no estemos todas, de verdad. Es que sería fallarle a la gente de una manera tan increíble que no concibo que estemos todas. O sea, es que doy por hecho que tiene que estar Irene Montero, que esperemos que pueda estar Gabriel Rufián, y que estemos todas las formaciones de izquierda, porque insisto, el momento histórico requiero que estemos todas. Entonces, no concibo la posibilidad de que en ese Frente Amplio no podamos coincidir todas las formaciones. Es lo que nos está pidiendo la gente en la calle, a mí me lo dicen cada día, Y, por tanto, creo que todas tenemos que hacer el máximo esfuerzo para que eso sea una realidad."
+  },
+  {
+   "start": 541.08,
+   "end": 577.5,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Bueno, es que, de hecho, se lo dice usted en la calle y lo dicen las encuestas que hoy hemos conocido. El descalabro sería enorme para la izquierda si se presenta dividida, pero aumentaría, casi doblaría su representación si se presenta de forma conjunta. Sumar, Podemos, algunas formaciones se espera que hayan decidido ir por libre como adelante Andalucía, pero la posibilidad de la unión existe. Insiste. Y hemos puesto el teléfono de aludidos ya, por cierto, porque lo mismo Gabriel, lo mismo llama, porque yo no sé si le han puesto a ustedes un plazo, porque insisto, creo que son en una semana, hay que presentar ya las candidaturas, no sabemos todavía, Gabriel, cuándo va a tomar la decisión con Espejera Republicana, el domingo que viene."
+  },
+  {
+   "start": 577.5,
+   "end": 579.38,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Con este ya tendría que decirlo a RCN."
+  },
+  {
+   "start": 579.38,
+   "end": 590.64,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Claro, faltan días para que ya le dé la contestación a Esquerra. ¿Ustedes le han puesto una fecha límite a Gabriel? ¿Podemos conocer su decisión en unas horas, en unos días, o estamos a expensas del tiempo que él quiera tomarse?"
+  },
+  {
+   "start": 592.84,
+   "end": 616.66,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "No, no, yo esta intervención la estoy haciendo a título personal y sin ponerle ninguna fecha límite a nadie. La cuestión es que todas nosotras tenemos una semana para acabar de ponernos de acuerdo. Y yo lo que emplazo es que a todas nos pongamos de acuerdo Y que pongamos el bien común por delante de cualquier interés personal o particular. Yo estoy completamente dispuesta a ponerme a disposición para ir en el lugar en el que sea más útil para que esa unidad sea una realidad."
+  },
+  {
+   "start": 616.94,
+   "end": 617.74,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Y creo que eso es"
+  },
+  {
+   "start": 617.74,
+   "end": 663.94,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "lo que tiene que primar ahora. Nos queda una semana de tiempo que es muy poco tiempo. Entonces creo que no podemos estar mareando la pertiz. Creo que todas tenemos que decir sí, estamos dispuestas a ir todas juntas, tenemos un programa común, tenemos el mandato de la calle, que es lo que más importa, La ciudadanía de izquierdas nos está pidiendo cada día a todas nosotras que vayamos juntas y que el programa de mínimos está clarísimo, por lo tanto fallarle a la ciudadanía con una situación tan clara como la que tenemos ahora mismo sería inaceptable. Y en ese sentido yo lo único que digo es me pongo a disposición para facilitar que ese consenso se haga realidad, que todo el mundo encuentre su lugar, que todo el mundo encuentre su papel, hay espacio para todo el mundo, necesitamos no a una cara sino a muchas caras y desde luego también necesitamos a Irene Montero y necesitamos a Gabriel Rufiano. Tenemos que estar todas en esa propuesta unitaria."
+  },
+  {
+   "start": 664.26,
+   "end": 685.74,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Entiendo que sí, claro, hay una serie de puntos comunes, como así es, entre todas estas formaciones de izquierda. ¿El problema entonces cuáles son? ¿Los puestos de salida? Porque claro, me da la sensación que a veces igual están ustedes perdiendo mucha energía y tiempo en la discusión de una serie de escaños que igual no se consiguen. ¿Son los puestos de salida que van a ocupar los distintos partidos ahora mismo también una cuestión que dificulta la negociación?"
+  },
+  {
+   "start": 688.69,
+   "end": 720.91,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Pues yo no puedo responder por otras formaciones políticas. Yo le puedo decir que las formaciones políticas que están impulsando el Frente Amplio tienen muy claro que lo más importante es que estemos todas, que haya unidad y que ese Frente Amplio realmente sea amplio y no le falle a la ciudadanía. Entonces creo que ese es el objetivo, está clarísimo y eso se resuelve sentándonos todas en una mesa y acabando de acordar los detalles. Hay espacio para todo el mundo, insisto, hay protagonismo para todo el mundo, no se necesita solo una cara sino muchas, el reto es enorme pero también está muy claro y no podemos fallar."
+  },
+  {
+   "start": 721.85,
+   "end": 745.83,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Veo que además está usted con una determinación a la hora de conseguir este objetivo que buscan los partidos de izquierda. Entonces, claro, yo me pregunto, me parece fantástico este llamamiento al señor Rufián público, pero ¿le ha llamado a usted, le ha mandado un WhatsApp? ¿Tienen pensado verse, reunirse ustedes dos con alguien más, una videollamada, algo para...? ¿Sabe él de todo esto? ¿Se está enterando ahora? Claro, no sé, ¿han negociado con él algo?"
+  },
+  {
+   "start": 746.19,
+   "end": 754.89,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "No, no, estos días evidentemente ya le he dicho, estamos hablando todos con todos Y por lo tanto, lo que estoy diciendo en público lo he dicho también en privado."
+  },
+  {
+   "start": 754.99,
+   "end": 755.61,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "A Rufián también."
+  },
+  {
+   "start": 755.77,
+   "end": 822.17,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Evidentemente creo que las conversaciones privadas, a las conversaciones privadas creo que no hay que explicarlas, ¿no? Por respeto a las otras personas, pero evidentemente que estamos en contacto y que he trasladado la voluntad a todo el mundo con quien he hablado estos días, la voluntad de que podamos concretar esa propuesta unitaria. Creo que tenemos una obligación, o sea, tenemos un deber, no podemos fallarle a la gente de esta manera. Es que si le fallamos a la gente en este momento ya nos podemos ir a todos a casa y no volver nunca más, sinceramente. O sea, si nos creemos de verdad que la responsabilidad ahora es que haya una propuesta creíble, unitaria, de la izquierda en este país para poder parar los pies no solo a la derecha y a la extrema derecha, sino a la especulación, a la recorte de servicios públicos y hacer avanzar este país en lugar de retroceder, si nos lo creemos de verdad tenemos que estar todas y ponernos de acuerdo. Ya le digo que yo, ha habido gente que me ha propuesto para estar en lugares de encabezar listas, a mí me da igual el lugar que ocupe en la lista, yo me pongo a disposición para que efectivamente ese proyecto sea unitario y para que efectivamente estemos todas, que es lo que nos está pidiendo la gente cada día en las calles."
+  },
+  {
+   "start": 822.17,
+   "end": 862.39,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "De hecho, fíjense, si no se ponen de acuerdo, igual no hace falta que se vayan ustedes porque parece que según las encuestas les echarían directamente, sería una representación testimonial la que quedaría de la antigua formación Sumar y mucho menos de Podemos. Hay muchos medios de comunicación que ya se están haciendo eco de estas palabras suyas en torno a Gabriel Rufián. Hay recambio, antes le preguntaba si usted se ve como número uno si Gabriel Rufián no está, pero hábleme de otros nombres porque no sé si hay un plan B, porque claro, ahora mismo Gabriel Rufián está negociando un encaje con el que ha sido su partido toda la vida. ¿Y si esto no llega a cuajar? ¿Todo depende de Rufián o si no hay Rufián hay otros nombres para seguir intentando la unidad de los partidos de izquierda?"
+  },
+  {
+   "start": 865.04,
+   "end": 950.72,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Ya le digo que máximo respeto por mi parte a lo que decida Gabriel Rufián, máximo respeto también a sus conversaciones con Esquerra Republicana, solo faltaría, yo en eso no quiero interferir en absoluto, pero le digo también que tenemos un mandato de la ciudadanía que el propio Gabriel Rufián ha explicado durante estos meses con mucha vehemencia y convicción, que es que tiene que haber una propuesta a la izquierda del PSOE y que no se puede perder ni un solo voto que no nos lo podemos permitir porque directamente hay vidas en peligro y por lo tanto yo lo que animo es a que sigamos hablando para que esa propuesta unitaria en la modalidad que sea para que todo el mundo se sienta cómodo pero que esa propuesta unitaria tiene que ser posible y que nos tenemos que poner las individualidades al servicio del proyecto común y eso es lo que quiero enfatizar con esa intervención Y que aquí no sobra nadie, necesitamos a todo el mundo, a todas las formaciones que ya están impulsando el Frente Amplio, a Izquierda Unida, a Sumar, a Más Madrid, a Comuns, pero también a otras formaciones con las que estamos hablando, como Compromís, como MES, como CHA, como Somes Asturias, a todas aquellas personas y partidos que efectivamente se crean que es necesaria una única propuesta de Frente Amplio que pueda no solo desafiar la victoria de la derecha y de la extrema derecha, ¡Suscríbete al canal!"
+  },
+  {
+   "start": 967.96,
+   "end": 971.38,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Ada Colau, muchísimas gracias por llamarnos y por esta información."
+  },
+  {
+   "start": 971.52,
+   "end": 972.32,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Gracias a vosotros."
+  }
+ ]
+}

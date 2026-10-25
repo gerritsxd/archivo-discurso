@@ -1,0 +1,29 @@
+# Names Whisper should expect, passed as hotwords on every 30-second window.
+# Keep it short: the prompt budget is ~220 tokens. One name per line, # for comments.
+# Candidates
+Pedro Sánchez
+Alberto Núñez Feijóo
+Santiago Abascal
+Ada Colau
+Irene Montero
+Ione Belarra
+Emilio Delgado
+Yolanda Díaz
+Margarita Robles
+# Interviewers
+Carlos Herrera
+Jorge Bustos
+Aimar Bretos
+Federico Jiménez Losantos
+Carlos Alsina
+Àngels Barceló
+Íñigo Alfonso
+# Parties and institutions
+PSOE
+PP
+Vox
+Sumar
+Podemos
+Frente Amplio
+Junta Electoral Central
+Tribunal Constitucional

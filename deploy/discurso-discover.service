@@ -1,0 +1,11 @@
+[Unit]
+Description=Archivo del discurso: discover new appearances + archive radio/RTVE audio
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=ubuntu
+WorkingDirectory=/home/ubuntu/discurso
+ExecStart=/bin/bash -c "/home/ubuntu/discurso/deploy/vps_run.sh >> /home/ubuntu/discurso/logs/vps_run.log 2>&1"
+TimeoutStartSec=1h
+Nice=10

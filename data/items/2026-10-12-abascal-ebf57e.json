@@ -1,0 +1,62 @@
+{
+ "id": "2026-10-12-abascal-ebf57e",
+ "date": "2026-10-12",
+ "expected_person": "Santiago Abascal",
+ "kind": "other",
+ "outlet": "VOX YouTube",
+ "title": "SANTIAGO ABASCAL junto a JORDAN BARDELLA EN CEUTA",
+ "url": "https://www.youtube.com/watch?v=tviH7laSdHE",
+ "language": "es",
+ "duration_s": 598.72,
+ "sha256": "c4c015a48bf4e707a0023ca3f8cd78fea68574dbee66b9b88fdf684810dae8f2",
+ "fetched_at": "2026-10-25T09:15:29+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.55,
+  "processed_at": "2026-10-25T10:54:04+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_00": {
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "decision": "match",
+   "reason": "sim 0.88, next 0.41",
+   "talk_s": 223.6
+  },
+  "SPEAKER_01": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "unknown",
+   "reason": "best sim 0.16 < 0.55",
+   "talk_s": 295.2
+  }
+ },
+ "turns": [
+  {
+   "start": 0.69,
+   "end": 250.57,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Muy buenos días y muchísimas gracias a todos por su atención en un día tan importante para todos los españoles. Hoy, 12 de octubre, España celebra su fiesta nacional. Los españoles celebramos nuestra fiesta nacional en el día de hoy y yo he querido hacer una elección muy especial, que ha sido la de estar aquí, en Ceuta, porque España no puede olvidar, y menos en un día como hoy a nuestros compatriotas de Ceuta, que han soportado una invasión patrocinada por Marruecos y permitida por nuestro gobierno y que todavía hoy, y lo hemos comprobado en las calles de Ceuta, sufren los efectos de esa invasión. Hoy Ceuta sigue invadida y España no puede apartar la mirada hasta que no recupere plenamente la libertad, la seguridad, la dignidad de esta ciudad y la dignidad también de toda nuestra patria. Quiero dar las gracias muy especialmente a mi amigo Jordan Bardella por acompañarnos en un momento tan especial, tan decisivo y tan difícil para nosotros. Es precisamente en las horas difíciles cuando se forjan las grandes alianzas políticas y cuando se demuestra la verdadera amistad. Muchas gracias por estar aquí, Jordan. Que el presidente de Rassemblement Nacional y próximo primer ministro de Francia esté hoy aquí, creo que envía un mensaje político muy poderoso a toda Europa y a todo el mundo. El de que los patriotas están comprometidos a defender su soberanía, están comprometidos para defender las fronteras de sus países y la de que los patriotas colaboran entre ellos para ayudarse mutuamente. Y es también una demostración del nuevo tiempo que se puede abrir en nuestras naciones y espero que también muy pronto en toda Europa como consecuencia de la colaboración entre las fuerzas patrióticas. Junto a Jordan he vuelto a recorrer las calles de Ceuta después de haberlo hecho en los primeros días de agosto para comprobar que la situación sigue siendo muy grave, que la situación es completamente anómala y completamente inaceptable. Nuestros compatriotas ceutíes viven asedeados, no son ellos los que hoy ocupan las calles. Están privados de su libertad para caminar por su propia ciudad, de su seguridad elemental y de su dignidad como pueblo. Y viven así por culpa de un gobierno y de un presidente corrupto que trabaja para intereses ajenos. Hablamos de un presidente corrupto que estaba al tanto de lo que podía ocurrir y de un presidente corrupto que no hizo absolutamente nada para evitarlo y para impedirlo. Por lo tanto nosotros, y deben saberlo todos los españoles, antes del 29 de noviembre exigiremos todas las responsabilidades, tanto a Sánchez como a todos aquellos que durante mucho tiempo han abandonado las obligaciones de defender nuestra frontera y de proteger a nuestros compatriotas. Pero antes que nada, antes de todo eso, todos los invasores deben ser expulsados de la ciudad, deben ser expulsados de tierra española, todos y cada uno de ellos. Y la frontera, esto debía haberse hecho antes y se hará más pronto que tarde, pero la frontera debe ser militarizada y reforzada estructuralmente con todos los recursos humanos y con todos los recursos materiales que sean necesarios para garantizar que nada parecido vuelva a ocurrir nunca. Los españoles vamos a tener muy pronto la oportunidad de cambiar las cosas, de recuperar nuestra dignidad nacional, de reconstruir todo lo que han destruido y vamos a encontrar muy pronto la hora de devolver la grandeza a España y de devolver también la seguridad y la prosperidad a toda Europa. Muchas gracias por su tiempo a todos los profesionales de los medios de comunicación y cedo la palabra a nuestro invitado y gran amigo Jordan Bardella. Espero que muy pronto próximo primer ministro de Francia."
+  },
+  {
+   "start": 283.68,
+   "end": 587.94,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Me siento especialmente honrado de estar aquí contigo, querido Santiago, en este día de fiesta nacional para reafirmar dos principios muy importantes, la seguridad de los españoles y la soberanía de España. A la fin del mes de julio de 2026, 80.000 migrantes se desplazaron en algunas horas en el enclave de Ceuta, donde la población local se elevó a 82.000 habitantes sin reacción de los poderes públicos desbordados. Los españoles fueron enviados aquí a sí mismos, solos, frente a las amenazas de pillaje, frente a las agresiones, frente a la violencia sexual que la prensa española ha documentado. Lo que vimos juntos esta mañana en el enclave de Ceuta, y lo he tenido la oportunidad de decir de muchas veces, es el futuro de Europa si no resumimos urgentemente el control de nuestras fronteras nacionales y europeas. El simple hecho de que miles de migrantes se puedan, en menos de una día, penetrar en este territorio europeo hasta que los habitantes se sumerjan, ilustra primero el éxito mayor del gobierno socialista de Pedro Sánchez. La naiveté migratoire de la gauche est traduite ici, concrètement, par un appel d'air aux conséquences gravissimes et par un refus idéologique de protéger les frontières du royaume d'Espagne. Pedro Sánchez, en appelant à régulariser des centaines de milliers de clandestins, a donné le coup d'envoi d'une ruée vers l'Europe, dont les conséquences sécuritaires seront dévastatrices pour tous ses partenaires européens. En el Parlamento Europeo, los socialistas y el Partido Popular han acompañado, mano en mano, el despliegue de las fronteras europeas, prefiriendo no ver los peligros que los patriotes han visto, denunciado y combatido antes de todo el mundo. A rebote de la mayoría de los gobiernos europeos, el presidente de la República Francesa creó bueno de apoyar al primer ministro español en su fanatismo migratorio. A l'inverse, l'Italie de Giorgia Meloni a pris la décision courageuse et responsable de suspendre temporairement la libre circulation de l'espace Schengen avec l'Espagne. Le gouvernement socialiste español n'a pas seulement échoué à protéger ses propres concitoyens qui seront juges dans les prochaines semaines, il a envoyé le signal que l'on pouvait impunément violer les frontières de l'Europe. El mundo entero ha visto las imágenes de Ceuta. Por todo el mundo, la inmigración se utiliza como un medio de presión para destabilizar las sociedades europeas. En las últimas años, he podido verlo en la frontera entre Grecia y Turquía, o en junio, en la frontera entre Polonia y Bielorrusia. La lucha contra la inmigración de la mayoría es un doble enjeo de seguridad y de soberanía, y para nosotros son enjeos vitales. La convocación de las elecciones legislativas anticipadas que se mantendrán en España en algunas semanas debe permitir que el pueblo español se exprime, como la elección presidencial francesa en algunos meses debe permitir que el pueblo francés reprenda su destino en manos. En Francia como en España, la gestión de la política migratoria y el reestablecimiento del orden serán en el corazón de estas dos elecciones mayores. Si los españoles tienen su identidad y su seguridad, si desean que en Ceuta se celebre la Diade y la Hispanidad durante siglos, porque este territorio es un territorio español y europeo que tiene vocación de permanecer, entonces deben elegir entre Vox y Santiago Abascal. Deben elegir conceder una izquierda aferista que ha traído los intereses del país. Con gobiernos renovados y los patriotes en el poder, Nuestros dos países podrán contar un con el otro para trabajar juntos para la seguridad de las fronteras de Europa. Desde el verano de 2027, si los franceses nos dan su confianza, la Francia pedirá que la libre circulación en Schengen sea exclusivamente reservada para los emigrantes europeos. La Francia trabajará para el duración de la política de inmigración en Europa, que deberá organizar el tratamiento del asilo en los países tercios y favorecer centros de retención fuera de la Unión. La France s'engagera aussi dans une coopération accrue avec l'Espagne face à l'immigration illégale pour protéger conjointement nos frontières nationales. Le rôle de Frontex, l'agence de garde frontière européenne, doit être de protéger et de refouler, non d'accueillir et de répartir les migrants dans nos communes. Pour conclure, la sécurité des peuples, la défense de nos souverainetés et de nos identités exigent que nous soyons lucides, fermes, capables d'agir ensemble chaque fois que cela est nécessaire. La protección de nuestras fronteras no se refiere solamente a los habitantes de los territorios donde la presión migratoria es fuerte, como aquí en Ceuta, aunque sea un motivo suficiente para actuar. También se refiere a nuestra identidad, la soberanía de los Estados Unidos, la credibilidad de nuestras instituciones y la confianza de nuestros compatriotas. Proteger las fronteras de España, de la Francia y de Europa es también defender nuestra identidad y nuestras valores de civilización. Gracias y nos quedamos a vuestra disposición para responder a vuestras preguntas."
+  },
+  {
+   "start": 591.58,
+   "end": 591.82,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Gracias."
+  }
+ ]
+}

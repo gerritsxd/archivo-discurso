@@ -1,0 +1,33 @@
+{
+ "audio": "data/raw/2026-10-23-feijoo-ser-hoyporhoy/audio.wav",
+ "threshold": 0.55,
+ "margin": 0.1,
+ "speakers": {
+  "SPEAKER_01": {
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "decision": "match",
+   "reason": "sim 0.96, next 0.34",
+   "talk_s": 1981.7,
+   "scores": {
+    "feijoo": 0.96,
+    "herrera": 0.344,
+    "bustos": 0.278,
+    "sanchez": 0.145
+   }
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "unknown",
+   "reason": "best sim 0.40 < 0.55",
+   "talk_s": 306.5,
+   "scores": {
+    "sanchez": 0.399,
+    "feijoo": 0.382,
+    "herrera": 0.266,
+    "bustos": 0.231
+   }
+  }
+ }
+}

@@ -1,0 +1,273 @@
+{
+ "id": "2026-10-11-abascal-26d2ab",
+ "date": "2026-10-11",
+ "expected_person": "Santiago Abascal",
+ "kind": "rally",
+ "outlet": "VOX YouTube",
+ "title": "🟢 GRAN ACTO PÚBLICO con Santiago Abascal en Estepona",
+ "url": "https://www.youtube.com/watch?v=oF0W_gzPKkA",
+ "language": "es",
+ "duration_s": 4385.08,
+ "sha256": "b0f92c291cc265b4973fe5b0d00cf0c4367cf94ca28a28a141702718b0d9bccc",
+ "fetched_at": "2026-10-25T09:15:08+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.55,
+  "processed_at": "2026-10-25T10:39:36+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_04": {
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "decision": "match",
+   "reason": "sim 0.91, next 0.41",
+   "talk_s": 1427.6
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "too_short",
+   "reason": "only 6s of speech",
+   "talk_s": 5.9
+  },
+  "SPEAKER_03": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "unknown",
+   "reason": "best sim 0.42 < 0.55",
+   "talk_s": 301.0
+  },
+  "SPEAKER_06": {
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "decision": "unknown",
+   "reason": "best sim 0.32 < 0.55",
+   "talk_s": 295.1
+  },
+  "SPEAKER_05": {
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "decision": "unknown",
+   "reason": "best sim 0.22 < 0.55",
+   "talk_s": 79.7
+  },
+  "SPEAKER_01": {
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "decision": "unknown",
+   "reason": "best sim 0.19 < 0.55",
+   "talk_s": 31.7
+  },
+  "SPEAKER_02": {
+   "person": null,
+   "name": "Hablante sin identificar 6",
+   "decision": "unknown",
+   "reason": "best sim 0.17 < 0.55",
+   "talk_s": 144.5
+  }
+ },
+ "turns": [
+  {
+   "start": 568.4,
+   "end": 593.83,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Y la tierra de sus padres seguirá siendo su hogar Yo le miro a los ojos y no sé qué contestar Pero su mirada me da fuerzas para seguir y luchar Lucharé por mis convicciones, lucharé por lo que creo No le debo nada a nadie,"
+  },
+  {
+   "start": 593.95,
+   "end": 600.37,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 6",
+   "text": "solo creo en lo que me padre Es el hogar de mis abuelos, la que con sudor y..."
+  },
+  {
+   "start": 609.36,
+   "end": 617.67,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Una sola mi familia, prioridad nacional,"
+  },
+  {
+   "start": 618.03,
+   "end": 740.44,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 6",
+   "text": "prioridad nacional, las heridas sigan siendo mías, junto a Vox de la mano llegaremos al fin, tierra, prioridad nacional, la lucía es miña, yo voy a votar."
+  },
+  {
+   "start": 783.43,
+   "end": 1320.59,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Buenas tardes a todos, bienvenidos a Estepona, bienvenidos a Málaga. Es un orgullo para el equipo de Vox Málaga que nuestro presidente nacional, Santiago Abascal, haya elegido Málaga como inicio de esta etapa tan importante y tan crucial para el futuro de España. Por eso, Santiago, desde el equipo de Málaga te queremos agradecer que estés aquí, agradecerte que hayas elegido a Málaga como inicio de esta pre-campaña en estas elecciones, Y decirte simplemente que el equipo está preparado. Y yo quiero decir, bueno, pues, dar un agradecimiento por todo el esfuerzo, por todo el trabajo, por toda la dedicación que ha tenido el equipo de Málaga y que hemos conseguido un reto en las últimas elecciones al Parlamento de Andalucía y fue, pues bueno, superar los 100.000 votos en Málaga ante esas elecciones autonómicas que nunca lo habíamos conseguido. Y eso es gracias al trabajo, entre otros, de todo ese equipo tan importante que tenemos en la provincia de Málaga. Santiago, simplemente decirte que estamos todos preparados, que nos vamos a dejar la piel en estas elecciones, porque lo que queremos es verte en el Gobierno, en la Presidencia del Gobierno de España. Y ahora quiero que recibamos con un fuerte aplauso al Vicepresidente de la Junta de Andalucía, Consejero de Turismo, Justicia, Regulación y Administración Local, Manuel Gaviria"
+  },
+  {
+   "start": 1339.12,
+   "end": 1595.3,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Buenas tardes Estepona, buenas tardes Málaga, arriba las banderas, arriba las banderas que está llegando nuestro tiempo, llevamos años señalando a ese gobierno corrupto, a ese gobierno traidor El día 29 es nuestro momento. No se nos ha olvidado su corrupción, su mujer investigada, su hermano condenado, los compadres del PSOE en Soto del Real y el fiscal también condenado. No se nos ha olvidado las traiciones a todos los españoles, la última la de Ceuta, un abrazo fuerte, un abrazo fuerte con los compañeros, con los españoles de Ceuta Y no se nos ha olvidado que es un gobierno criminal, no se nos ha olvidado lo que sufrimos los españoles con los compatriotas de Valencia por la dana Ni se nos ha olvidado, en Andalucía, cada una de las víctimas del accidente de ferroviario en Adamus, no se nos olvida. Pues ahora es nuestro momento, el 29 de noviembre es nuestro momento, el momento en el que los españoles vamos a mandar al paro a todos los socialistas, el momento en el que todos los españoles vamos a tener el presidente que nos merecemos, vamos a tener a Santiago de presidente. Presidente, y el momento en el que de una vez por todas tendremos un gobierno en el que lo primero, lo segundo y lo tercero van a ser los españoles, los españoles siempre primero, siempre primero, y lo vamos a decir cada vez que tengamos oportunidad. Y parecía, uno que lleva muchos años ya en esto, parecía impensable hace unos pocos años que Vox estuviera en el gobierno de Andalucía, parecía impensable, pues ya se ha hecho realidad. Y el día 29, el 29 de noviembre, vamos a hacer realidad nuestro sueño, nuestro sueño de verdad. Tener en España un gobierno patriota, tener un gobierno en España orgulloso de nuestra historia, tener un gobierno en España sin complejos y tener en España un gobierno valiente, no un gobierno de rodillas como tenemos con Sánchez, no un gobierno que ha sacrificado a Ceuta, Eso es lo que nos jugamos el 29, el 29 de noviembre. De verdad que ya cada día que pasa los españoles cuando te ven por la calle lo único que te dicen es que están cansados, que están cansados, que están cansados de sus fraudes, de sus corrupciones, de sus mentiras, que están ya, que ya no pueden más. Y hoy tenemos el problema, dos problemas fundamentales. No nos podemos olvidar de Ceuta, de verdad que no. Cada día hay que recordarlo. Cada día tenemos que recordarlo porque para este gobierno cualquiera es más importante que los españoles. Cualquiera. Y tenemos un problema de vivienda y ahora Carlos subirá y os explicará el grave problema que hay en nuestra nación. Pero cualquiera que llega, cualquiera que llega de fuera tiene su vivienda. Cualquiera que llega de fuera puede formar un proyecto de vida porque agrupan a las familias y la traen de fuera. Y eso es lo que nos jugamos también el 29 de noviembre. Por eso los españoles cada vez están más hartos. Y fijaros lo que está pasando en Andalucía. Ha nombrado Sánchez jefa de estrategia a María"
+  },
+  {
+   "start": 1595.3,
+   "end": 1596.0,
+   "label": "SPEAKER_04",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Jesús Montero."
+  },
+  {
+   "start": 1599.09,
+   "end": 1795.34,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Jefa de estrategia. La que ha salido diciendo que la huelga general es contra la oposición. Ya ha demostrado la señora Montero para lo que sirven los sindicatos en nuestra nación, para estar de rodillas al gobierno socialista. Esa señora Montero es la que pagó el chantaje a los separatistas. Y esa señora Montero, Carlos, fue la que siendo consejera de Hacienda de la Junta de Andalucía, vendió edificios del Servicio Andaluz de Salud a fondos buitres. Yo que queréis que os diga, que los buitres son ellos, los carroñeros son ellos, los ladrones son ellos, y lo voy a decir, los puteros son ellos, ellos son. Pero no van solos, no van solos. Después está, bueno, el resto de la izquierda, los de Sumar, los de Sumar o los de Izquierda Unida, los de Frente Amplio o los de Boca Ancha, porque se comen todas las porquerías del Partido Socialista. Esos también van con los socialistas. Y por supuesto, esa llamada izquierda alegre, que de alegre no tienen absolutamente nada. Son los mismos que el resto de izquierda que hay en nuestra nación. Los mismos. La misma izquierda separatista, la misma izquierda amigo de los terroristas. Esos de Adelante Andalucía, que han aprovechado hace unas pocas semanas para traer a los herederos de ETA Andalucía, para darles charlas de aprendizaje. Eso es lo que quieren. Esa izquierda graciosa, esa izquierda de camiseta, de la mano de los amigos de ETA. Pues todo eso es lo que se va a acabar el 29 de noviembre. Por eso, por eso, nadie duda, no hay nadie, no hay ningún español que piense que hay un hombre en España que no le va a temblar el pulso. Y no le va a temblar el pulso a ese hombre, que es Santiago Abascal, para tomar las decisiones que hay que tomar. Y es nuestro momento. Pero de verdad, serán decisiones difíciles. Pero el criterio es muy fácil. Los españoles primero. Los españoles primero. Y los españoles primero. Y acabaremos con el problema que tenemos también de la vivienda. Acabaremos con el problema. Y para eso, no hay nadie en esta nación que sepa más que Carlos Achequero. Por favor, recibidlo con un fuerte aplauso a causa. Gracias."
+  },
+  {
+   "start": 1795.76,
+   "end": 2180.5,
+   "label": "SPEAKER_06",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Buenas tardes, Estepona. Hace calor, ¿eh? Hace calor, pero hay muchas ganas, hay muchas ganas de que cambien las cosas. Para mí un orgullo que esta pre-campaña se lance aquí en Málaga, se lance en Estepona y que la larga gira que llevará por toda España Santiago Abascal comience aquí, la gira de recuperar un país y recuperar la normalidad de un país. Yo os voy a contar una historieta, una historieta que va recorriendo todo aquello que Vox viene denunciando. Suena un despertador a las 7 de la mañana en el cuarto de Rubén. Rubén tiene 33 años y es malagueño, pero podía ser de cualquier otro lugar de España. Llega a la cocina, se prepara el café, abre la nevera y ve que su balda está tiritando. Un yogur, medio tomate y una loncha de jamón cocido. Mira el calendario, es día 25, aún no ha cobrado y hasta que cobre parece que toca dieta de racionamiento. Tiene muchas ganas de ir al baño, pero es miércoles y los miércoles le toca el tercero, le toca el tercero porque en casa son seis, son seis compartiendo piso. Cuando por fin llega su turno, entra y mientras está duchando se pone a pensar en su suerte y en si es normal o no lo que él vive. ¿Quién vive? Piensa que sus padres con su edad ya le habían tenido a él y a su hermana y que pagaban una hipoteca y él está ahí sin poder pagar ni siquiera un alquiler de un piso completo. ¿Piensan sus amigos? Todos han estudiado, han ido al extranjero, han aprendido idiomas, se han formado, son competentes, son esforzados, han progresado en su empresa y ninguno puede comprarse una casa. Bueno, hay uno que sí, pero porque tuvo la desgracia de que sus padres fallecieron y pudo comprarse una casa porque heredó. Está en estas cavilaciones cuando ya se va vistiendo y sale a la calle y se da cuenta de que lo que ve en la calle tampoco le dice nada bueno. Donde estaba antaño la imprenta o la academia, está la persiana bajada. Incluso el bar en el que desayunaba su abuelo parece que ha dejado tiempo atrás la clientela. Ya solamente hay gente en la puerta del centro de salud. Ahí la gente se agolpa y se amontona. En el resto parece que es el recuerdo de un país que ya fue. Termina de llegar a la estación de cercanías y según llega, anuncia por megafonía. Por motivos técnicos, el próximo tren lleva un retraso de más de 17 minutos. 17 minutos que al final son 25. Cuando se monta, consigue un hueco espachurrado junto al cristal y piensa si es que ese día toda España se ha puesto de acuerdo para entrar en su vagón. Pero no es así. Es que toda España es ya así. Es que toda España es una inmensa cola, es una inmensa saturación, un inmenso colapso. Saca el móvil y llama a su madre. Mamá, ¿qué tal? Hoy te daba los resultados de la prueba, ¿verdad? Y dice, sí, seis meses por fin, después de haberme detectado el bulto, me van a dar los resultados. Mucha suerte, mamá. Luego te llamo. El tren sigue al tran-tran y se va parando una y otra vez. Y no en cada estación, sino en tres estaciones. Y al final consigue llegar una hora y cuarto tarde al trabajo. En medio ha ido haciendo tiempo mirando las noticias. Yolanda Díaz, joven veinteañero en Málaga, asesinado de un disparo en la cabeza porque le confundieron con otra persona. Niña de 14 años, violada por dos magrebíes. Anciano al que le roban y le hacen un mataleón para quitarle una cadena. Y por supuesto las últimas novedades de Ceuta. Y se plantea en qué momento se ha empezado a normalizar lo anormal, en qué momento lo extraordinario se ha convertido en rutina cotidiana, en frecuente. Llega al trabajo, el jefe les reúne y les dice Malas noticias, el plan que teníamos de crear una nueva planta ha quedado paralizado. No hay capacidad ni potencia en la red eléctrica para poder abrir una nueva planta. Come mientras trabaja con el ordenador y después de una jornada tediosa coge de vuelta cercanías y vuelve a reproducir mismas escenas. Llama a su madre. ¿Qué tal los resultados, mamá? Me van a tener que operar. ¿Cuándo? Me han dicho que no piense que antes de cuatro, cinco o seis meses. ¿Cuatro, cinco o seis meses, mamá? Si ya llevamos medio año. Es lo que hay, hijo, es lo que hay. Y la frase se le queda grabada en la cabeza. Es lo que hay. Abre el WhatsApp y tiene un WhatsApp de su hermana. Al final no me han dado la plaza de guardería para tu sobrina. Y es que en la España de las colas el español siempre va al último. Es lo que hay. Es lo que hay, se dice. ¿Qué dice? Baja el cercanías, iba caminando, pasa por el parque en el que jugaba en su infancia y ve que donde antes había niños ahora hay bandas que se han adueñado de los columpios y de los bancos y los vecinos ya ni se atreven a acercarse. Llega a casa y con una tierna sospecha abre la nevera pensando que a lo mejor ha podido obrar el milagro y que va a tener algo más que ese jamón chuchurrío, ese yogur y ese medio tomate, pero no ha habido suerte. Y mientras se lo toma, se mete en su cuarto, se tumba en la cama y abre el móvil, abre Twitter. Pedro Sánchez ha convocado elecciones y dice que ya está bien, que ya está bien de esa vida de miseria, que ya está bien de piso compartido, de no poder irse con su novia, de no poder tener hijos, de que su madre tenga que esperar meses para una prueba y para un resultado y para una operación, que ya está bien de llegar tarde al trabajo porque los trenes no funcionan, que ya está bien de sentirse extraño en su propio barrio, que ya está bien de todo lo que no es normal. Yolanda Díaz, Alberto Núñez Feijóo, Santiago Abascal, Ángeles Barceló, Federico Jiménez"
+  },
+  {
+   "start": 2194.52,
+   "end": 2285.52,
+   "label": "SPEAKER_04",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Gracias a todos por estar aquí, no solo por estar aquí, por seguir aquí después de tanto tiempo, después de tantos años de pelea, de tantos años de avance, levantando esas banderas que habían sido arrojadas al suelo pero que representaban a tantos españoles y viendo como una tras otra, combate tras combate siempre estabais detrás de nosotros. No habría sido fácil llegar hasta aquí ante tanto ataque, ante tanta mentira, ante tanta difamación, si no hubiésemos contado con vuestro apoyo y yo quiero un día más volver a daros las gracias por llevarnos en volandas. Gracias. Creo que Carlos lo ha dicho casi todo."
+  },
+  {
+   "start": 2286.34,
+   "end": 2287.1,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Ya está bien."
+  },
+  {
+   "start": 2288.6,
+   "end": 3004.18,
+   "label": "SPEAKER_04",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Ha llegado la hora de la verdad. Ha llegado el momento y la oportunidad de dejar de soportar tanta injusticia, tanta indignidad, tanta discriminación, tanto insulto a nuestra patria y tanta pobreza para nuestros compatriotas. Y comenzamos a hacerlo hoy en Estepona, pero yo no os voy a regalar los oídos, porque me habéis agradecido que comencemos aquí y que hayamos tenido este gesto y este detalle de empezar en Málaga, pero yo tengo por costumbre de decir la verdad. Y no hemos elegido Estepona ni Málaga para comenzar esta precampaña electoral. Hemos venido a Estepona únicamente porque pillaba de paso. Gracias, porque estáis muy cerca de nuestras tierras en África y de nuestros compatriotas en África, porque estáis a Dao de Ceuta, estáis al lado de la España invadida y mañana, que es el día de la fiesta nacional, a mí me gustaría haber podido estar, como en tantas otras ocasiones, o bien entre el pueblo de Madrid, viendo ese desfile, ¿Es posible o bien en una tribuna de autoridades decente y no en una tribuna de autoridades repleta de traidores? Yo mañana, 12 de octubre, Día de la Hispanidad, yo mañana, Día Nacional, en representación de todos vosotros, no quiero formar parte de esa tribuna y quiero estar en representación de todos vosotros en nuestro territorio invadido en Ceuta, en el norte de África, que es España desde hace siglos y que va a seguir siendo España por los siglos de los siglos. Ese es nuestro compromiso, esa es nuestra tarea. Mientras estemos aquí pisando esta tierra, mientras estemos aquí respirando en esta patria, antes de dar el testigo a otros, nuestro compromiso es dar a nuestros hijos lo que nos dieron nuestros padres y nuestros abuelos. Y por eso, mañana en Ceuta. Lo de Estepona, también con todo el cariño hacia vosotros, pero os tengo que reconocer que es porque pillaba de paso. Gracias, presidente. Te pido las disculpas por decir la verdad cruda, pero sé que la preferís y que además la aplaudís, porque todos queréis estar donde mañana voy a estar yo. Es la hora de la verdad y no me quiero poner dramático, pero probablemente es la última oportunidad para muchos españoles. Hemos visto lo que estaban intentando hacer y los hemos detenido nosotros denunciándoles en el Tribunal Supremo con nacionalizaciones masivas de personas que se habían ido hace 60, 70, 150 años y sus nietos y sus descendientes, que son gente que se fue de España pero que probablemente muchos de ellos no saben muy bien lo que está pasando en España Y tienen otras preocupaciones. Y han intentado alterar el censo electoral para robarnos las elecciones y para robarnos el futuro definitivamente. Para poner a los funcionarios cubanos y a los funcionarios venezolanos, esos del grupo de Puebla y de Sao Paulo, a rellenar los sobres de los votos que después iban a llegar a España a apoyar a un gobierno que durante ocho años, que se han hecho eternos, Muchachos, y por eso digo que es la hora de la verdad y quizá la última oportunidad, nos ha hecho de todo. Ha mentido a los españoles de una forma miserable sobre sus pactos. Todavía se atreve a salir en las tribunas a hablar de las mentiras de los demás. Este personaje ha traicionado a los españoles con legislaciones a favor de los golpistas. Ha metido a los comunistas que han pretendido destruir de la mano de Pedro Sánchez, Porque él no es menos que ellos, ni menos extremista que ellos. Toda nuestra prosperidad, toda nuestra economía, todo el futuro de los autónomos y de las pequeñas y medianas empresas, y también de los trabajadores, y nos ha puesto al borde de la ruina. Y por lo tanto el día 29 de noviembre creo que nos lo jugamos todo. Y yo quiero animaros a no fallar ese día. Hace muy poco tiempo, hace cuatro años, hace menos de cuatro. 3 y un par de meses tuvimos la oportunidad de votar en unas fechas muy malas y todos visteis aquellas encuestas que decían que Sánchez se iba y la gente se confió y este tipo se quedó pactando con todos los enemigos de España en el interior y en el exterior. No puede volver a pasar. El 29 de noviembre no hay reunión familiar, no hay partido de fútbol, no hay afición, no hay excusa que valga para que acudamos todos a las urnas a recuperar el rumbo de España. Porque esto no está hecho. Esas encuestas que prevén un extraordinario crecimiento de Vox, yo también lo veo por la calle. Pero esas encuestas que dan una gigantesca mayoría para echar a Pedro Sánchez son nuestro principal enemigo. No os fiéis de una sola encuesta, porque las carga el diablo, porque las pagan los que las pagan, porque llevan a la confianza excesiva y porque de aquí al día 29 nos vamos a encontrar con todo por el camino. Vamos a encontrar un panorama electoral o de campaña electoral terrible, y ya tenemos experiencia, hemos visto cosas, nos han lanzado adoquines, han abierto la cabeza a nuestros diputados, han herido a algunos de ellos. En Cataluña, en Cestao, en Vallecas y en muchos lugares. Luego somos nosotros los de la violencia, cuando somos los únicos que la padecemos. Y por lo tanto debemos esperar una campaña de violencia por parte de las milicias de Pedro Sánchez, de las que tiene por un lado acampadas y compartidas con Mohamed VI en la playa del Trampolín y de las que tiene acampadas en Sol. Debemos esperarnos cualquier cosa, debemos esperarnos todo tipo de mentiras, Ya las estamos escuchando estos días y yo hablaré de algunas de ellas y debemos esperarnos cualquier tipo de trampa. Tenemos al gobierno más sucio de la historia de España. Supongo que ninguno aquí somos tan incautos como va a pensar que vamos a tener unas elecciones limpias protagonizadas por el gobierno más sucio de la historia de España. En España debemos estar preparados para lo peor, desde la calma, desde la tranquilidad, sin entrar a ningún tipo de provocación, pero yo os pido que seamos conscientes de que estas no son unas elecciones normales y os pido que se lo digáis a todos aquellos que os rodean, para que no haya nadie que no sea consciente del momento histórico, de la gravedad de lo que puede pasar en España si este tipo sigue en el poder, Gracias. Una gravedad extraordinaria. Este es un gobierno que ha funcionado a través de las mentiras, de las mafias y de las cloacas durante mucho tiempo. Y es un gobierno que está dispuesto absolutamente a todo. Están dispuestos a mentir y están dispuestos a matar, por lo que hemos visto. Y eso es lo que tenemos enfrente. Y no exageramos ni una pizca, ni un ápice. Y por eso yo en el día de hoy, a la vez que os alerto, quiero deciros también algo para daros algo de tranquilidad y de esperanza. Y creo que lo puedo decir en plural y representándoos a todos vosotros. Estamos preparados para este momento histórico. Estamos preparados para soportarlo todo. Estamos preparados para continuar avanzando sin miedo a nada ni a nadie, como hemos dicho durante tanto tiempo. Estamos preparados para combatir sus mentiras, estamos preparados para pasar por encima de la violencia y no echarnos nunca atrás. Y estamos preparados para dejarnos la piel en la promesa de una España mejor para las próximas generaciones y es lo que vamos a hacer durante esta campaña electoral y si los españoles nos dan su confianza a partir del 29 de noviembre. Las trampas, las mentiras y las violencias van a estar ahí, pero si todos vamos a votar, si todos cumplimos con nuestra obligación el 29 de noviembre, no hay trampa, ni mentira, ni violencia que detenga el cambio en España. Tienen una legión de asesores para esparcir las mentiras, para extender sus amenazas que llegan hasta los jueces, para utilizar a los narcos y lo que haga falta. ¿Cómo lo están pasando los españoles? Yo creo que Carlos ha hecho un relato con el que muchas personas se sienten absolutamente identificadas. Sé que muchos de los que estáis aquí, sobre todo muchos jóvenes, cuando habéis escuchado a Carlos, parecía que os habían leído la mente. Y nadie ha salido a defenderos, nosotros en el Parlamento sí, pero de aquellos que en principio debían defender a los trabajadores, han estado los sindicatos callados como muertos, por no decir otra cosa, durante ocho años de legislatura criminal que ha llevado a los españoles a la mayor pérdida de poder adquisitivo en el último medio siglo. Bueno, o en el último siglo. Callados como muertos. Ni una movilización, ni una huelga, ni una protesta contra el gobierno, porque esos sindicatos del crimen, esos sindicatos ideológicos, lo único que protegen es su financiación y las subvenciones brutales que han sido recibidas después de que los españoles vean cómo se les arrebata el fruto de su esfuerzo con unos impuestos abusivos Para que estos golfos estén allí callados como muertos frente a un gobierno que arruina a los españoles Y después salir a todo correr en mitad de una campaña electoral para atraer la violencia Y para acusar a la oposición de lo que ha hecho el gobierno durante ocho años Si solo fuera eso, si solo fuera lo del marisco, eso ya es pecata minuta al lado de lo que estos tipos están dispuestos a hacer Vamos a encontrarnos cualquier cosa Al de la Moncloa, unos días le vamos a ver con la vena hinchada y esa cara que se le pone cuando está nervioso y hace como que no, y está muy irritado. Y otros días recomendándonos las canciones preferidas. Nos reímos, pero en mitad de la muerte, en mitad de la muerte, con casi 200 seres humanos ahogados en Ceuta, por culpa de los que han dejado que se pasase por las fronteras, es decir, por culpa de él, nos recomendaba música. Música. Conciencia nos va a recomendar los 10 principales platos que se pueden hacer con cuscús marroquí, que de eso seguro que saben mucho. Porque no está al servicio"
+  },
+  {
+   "start": 3004.18,
+   "end": 3009.52,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "de los españoles, está al servicio de un gobierno extranjero, de una monarquía extranjera."
+  },
+  {
+   "start": 3012.12,
+   "end": 3079.88,
+   "label": "SPEAKER_04",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "A nosotros también nos gusta comer cosas de todo el mundo, y también nos gusta escuchar todo tipo de música. La política, hombre, pero irrita y ofende mucho ver a un tipo que ha hecho tanto daño, que ha tenido tanta muerte, en Valencia por culpa de sus políticas de fanatismo ideológico, en Atamuz por culpa de que se habían gastado el dinero de los españoles en guarrerías, en Ceuta, donde han traído la muerte y donde han traído la inseguridad, pues después contándonos estas cosas. Es una especie de insulto psicopático y desvergonzado a los españoles, pues que yo creo que a todos nos sorprende, pero no desde luego a aquellos que van a ir en la lista del Partido Socialista y que se han convertido en cómplices de toda esta situación y en cómplices de todas las actuaciones de Sánchez. Ante eso, nosotros tenemos respuestas y ya las conocéis. Las vamos a repetir durante todos estos días para que lleguen a aquellos españoles que no las conocen, Aquellos españoles a los que nuestro mensaje les llega distorsionado, les llega cambiado. Y la respuesta es muy clara, ya ha sido dicha también por Manolo, prioridad nacional. La respuesta es muy clara, es remigración."
+  },
+  {
+   "start": 3080.28,
+   "end": 3083.38,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Y la respuesta es muy clara, y es desregulación."
+  },
+  {
+   "start": 3084.04,
+   "end": 3255.14,
+   "label": "SPEAKER_04",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "¿Qué es la prioridad nacional para nosotros? No solo es que los españoles sean los primeros en su propia patria. Como entendemos, los marroquíes deben ser los primeros en su propia patria y los franceses deben ser los primeros en Francia. Es sentido común. No es que queramos ser más que los demás. Queremos en nuestra propia casa no ser desplazados ni discriminados. Es poquito lo que pedimos. Es de una justicia básica. Es de un sentido común aplastante. Y sin embargo, lo traducen ellos y sus medios, también financiados como los sindicatos, en una especie de exposición del fascismo. Bueno, pues están llamando fascista a toda España. También a muchos votantes que habrán sido socialistas y algunos que probablemente están pensando en votarle, que también quieren prioridad nacional. Estamos defendiendo lo que es justo, pero prioridad nacional no solo es eso. Prioridad nacional es que en Ceuta no pase lo que está pasando, es que las fronteras de España estén defendidas en el mar y en la tierra. La prioridad nacional es que las inversiones que hay que hacer en España y que faltan en España, inversiones hidráulicas, inversiones en agricultura y de todo tipo, pues se hagan en España y no en Marruecos, que nos gustaría que les vaya muy bien a otros países, pero es que lo necesitamos nosotros. Y no es normal que no exista la prioridad nacional de dedicar los fondos de los españoles y de los europeos a los asuntos de los españoles y de los europeos. La prioridad nacional es ayudar a los de dentro antes que a los de fuera, pero lo que tenemos es una situación que la verdad es que es fácil decirlo, pero es difícil asumir lo que está pasando. Pagamos más que nunca y recibimos menos que nunca. Carlos también lo relataba con los colapsos en la sanidad, con unas listas de espera desconocidas en España. Han dicho que la sanidad pagada por los trabajadores españoles es universal para todo el mundo que venga aquí. Las vías del tren o los trenes hacen que la gente vaya muerta de miedo o muerta directamente. Venimos por la carretera dando botes en la furgoneta. Y claro, ya no se arregla. Directamente ahora ya te ponen unas líneas amarillas, ya está, arreglado. Pero el bache ahí sigue, te ponen líneas amarillas. Como ha pasado en los países decadentes, en los países comunistas, donde ya se dejan de arreglar las cosas porque la economía no funciona. No puede funcionar la economía si matas a tu propio pueblo, si los torsionas, los quilmas y le quitas todo. No puede funcionar. Y eso es lo que hace el Estado en España desde hace mucho tiempo. Lo ha hecho con todos los partidos, pero muy especialmente con Pedro Sánchez. Sánchez, salarios de miseria al lado del coste de la vida. En toda la democracia nunca han tenido tan poco poder adquisitivo los españoles para tener una vida digna y para llenar esa nevea de la que habla Carlos."
+  },
+  {
+   "start": 3256.44,
+   "end": 3257.84,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Ni ha habido tanto miedo en los"
+  },
+  {
+   "start": 3257.84,
+   "end": 3347.67,
+   "label": "SPEAKER_04",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "barrios y en las calles. Nos hablan de los ancianos, de los mayores, de las pensiones, que son muy importantes. Pero lo que no nos dicen es que incluso con las subidas están perdiendo poder adquisitivo. Lo que no nos dicen es que cuando van al cajero a sacar el dinero tienen un riesgo de ser atracados que antes no tenían. Lo que no nos dicen es que esos parques que tenían que ser el lugar de esparcimiento de los niños y de tranquilidad de los ancianos muchas veces son el lugar de asentamiento de los criminales que ha traído Pedro Sánchez. Esa es la verdad. Esa es la España que nos regalan después de que los españoles pagan más impuestos que nunca. Quieren secuestrar a los ancianos con las pensiones y con las mentiras. Y el otro día se han inventado, y lo han hecho correr, que Vox va a privatizar las pensiones. Yo lo he dicho muy claro. Con Vox las pensiones de nuestros mayores se van a pagar como sea. Y como sea es como sea. Nos da igual el modelo, nos da igual la fórmula, pero las pensiones de los mayores que las han ganado después de trabajar toda una vida se van a pagar al precio que sea y como sea. Y el futuro de los jóvenes se va a recuperar también como sea y al precio que sea. Y el acceso a la vivienda se va a recuperar como sea y al precio que sea. Que sigan ellos con sus mentiras que nosotros trataremos de abrir paso a la verdad que estamos representando. Remigración. ¿Por qué hablamos de ello?"
+  },
+  {
+   "start": 3349.6,
+   "end": 3352.34,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "¿Es porque no nos gustan las personas de fuera? En absoluto."
+  },
+  {
+   "start": 3355.12,
+   "end": 3825.8,
+   "label": "SPEAKER_04",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "¿Es por odio a los de fuera? No. Es por amor a los de dentro. Es porque tenemos una responsabilidad como los políticos, como un padre la tiene con sus hijos y con su familia en primer lugar, La tenemos en primer lugar con los nacionales. Eso significa que tengamos algo con las personas que han venido en otros momentos a trabajar, que están colaborando con los españoles, que están respetando nuestras leyes, que no imponen fanatismos ideológicos ni religiosos, que contribuyen, que pagan impuestos, que respetan nuestra cultura en absoluto. A esas personas les damos las gracias. Estas personas están siendo perjudicadas también, igual que los españoles discriminados por un proceso de inmigración masiva y por un proceso de invasión migratoria que ha alcanzado unos tintes absolutamente insoportables. Y lo que planteamos es muy sencillo. Que no queremos que vengan 100.000 en Ceuta, ni 10.000, ni 10, ni 1 ilegalmente. El que viene ilegalmente a España tiene que ser repatriado. El que viene a España a cometer delitos tiene que irse a su propio país a cumplir la pena. Fuera los delincuentes, han de ser deportados. Oye, y las personas que han venido a España no a trabajar, sino a vivir de las ayudas sociales que no alcanzan a los españoles, pues tienen que remigrar a su propio país. Es de sentido común, es como si abrimos la puerta de nuestra casa y nos encontramos a alguien en el salón. ¿Proceso de regularización? Pues no. Se vuelve a salir, se llama a la puerta y se pide permiso. No podemos aceptar que las paredes de nuestra patria, como las paredes de nuestra casa, sean de papel. Porque todo eso protege nuestra seguridad, nuestra tranquilidad, nuestra manera de vivir, nuestra identidad, nuestra libertad. Y todo eso es lo que este gobierno ha destruido y, por supuesto, protege nuestra prosperidad, que ha sido destruida durante varias décadas y de manera acelerada durante estos ocho últimos años de gobierno socialista. Y decimos reemigración porque cuando hablamos del problema de la vivienda, que estos ya vemos lo que han hecho, ¿no? Utilizan a una mujer, confunden hasta el nombre, les hemos visto llamarle Paquita a Mari Carmen, Porque ya tenían todo el listado para montar el número. Cuando bajo el gobierno de Pedro Sánchez se ha encarecido la vivienda en un 74% y el alquiler en un 40%, cuando hay una cantidad enorme de desahucios diarios, han elegido unas personas, probablemente ya conociendo el estado de salud y me atrevería a decir cosas más graves de alguna de ellas, para montar este número. Y para culpar a la oposición de lo que ha hecho el gobierno, que es arruinar a los españoles, es desahuciar a los españoles, es robar el futuro a los jóvenes. Eso lo ha hecho Pedro Sánchez. Pedro Sánchez es el culpable directo de los desahucios, de la crisis de vivienda. Es el culpable directo de las personas que se suicidan porque les echan de su casa. Es el culpable directo de todo lo que está pasando en España desde hace ocho años. Es él. Pero algunos nos quieren contar otra cosa. Gracias a Dios, yo he visto a los españoles muy serenos y muy maduros con este montaje del gobierno y muy conscientes de lo que estaba pasando. No les ha salido bien. No les va a salir bien este montaje. Porque los españoles, incluso Mari Carmen, culpan a Pedro Sánchez de la crisis de la vivienda en España. Lo hemos escuchado. Pero esto no se va a quedar aquí. Van a pasar muchas más cosas y no sabemos exactamente cuáles son. Lo que ha pasado hasta ahora es que en cinco años, en los últimos cinco años de Sánchez, han entrado a España cinco millones de personas. Cinco millones de personas. Y no se ha construido vivienda. La vivienda construida ha sido ridícula. Porque no se hace vivienda pública y porque no se puede hacer vivienda privada porque es imposible construir. Construir, porque no hay suelo y porque todo está carísimo como consecuencia de las regulaciones y de los impuestos. ¿Cuál iba a ser la consecuencia? La gente que viene, como suele decir Carlos irónicamente, tiene la mala costumbre de querer un techo, claro. Necesitan un techo para vivir. Si las casas son las mismas, los precios suben. Si a todo el que entra ilegal, a casi un millón, lo regularizamos de golpe, ¿con quién tienen que competir los españoles que necesitan una vivienda? Pues con los pobres de todo el mundo a los que se ha abierto la puerta y por supuesto también con los ricos de todo el mundo que llegan con privilegios por algunas legislaciones autonómicas a Madrid y pagan a tocateja los pisos y las casas que los españoles no pueden pagar ni siquiera con créditos hipotecarios de 40 años porque no les dan ni crédito. Entonces, los españoles están en una situación endiablada entre dos presiones que les impiden acceder a la vivienda. Por eso hablamos también de remigración. No puede ser que haya personas en España que no están trabajando, que no están contribuyendo, que están recibiendo las ayudas sociales que hacen falta a los españoles y que están ocupando las casas que hacen falta a los españoles. Esto creo que también lo entiende casi todo el mundo. Y no hay ningún odio, ningún rechazo a todas esas personas. Si hay un rechazo, y me atrevería a decir que algo más, es a los politicuchos de tres al cuarto que los han traído y que nos han condenado a todos a esta situación. Y por eso hablamos también de desregulación. Es decir, que es algo que estamos intentando hacer a través de todos los vicepresidentes de los gobiernos donde hemos pactado en las autonomías. y todos ellos tienen el título, además de las competencias que ocupan, de vicepresidentes de desregulación. Porque queremos detectar todo el exceso de burocrática, todas las trabas administrativas, todas las leyes ideológicas y absurdas que encarecen y que ralentizan todos los procesos en la construcción de la vivienda, en el emprendimiento de un negocio y prácticamente en cualquier situación. Queremos que los emprendedores, que los agricultores, que los trabajadores, que aquellos que quieren crear en España no tengan que ocupar una parte importantísima de su tiempo en papeleos y en respetar legislaciones absurdas e ideológicas que se han convertido en criminales porque nos están llevando también a la pobreza. Legislaciones que no respetan en otros países, que luego compiten con nosotros aquí, con sus productos, porque nuestros políticos nos llevan a acuerdos comerciales para que compitamos precisamente con aquellos que no tienen ni las mismas trabas, ni las mismas leyes laborales y de todo tipo que tenemos nosotros. Y con ese tipo de regulaciones excesivas hay que ir acabando poco a poco. Las regulaciones ideológicas son un crimen para la industria, para la agricultura, para los pequeños y medianas empresas, para los autónomos, para todo el mundo. Y por supuesto el abuso fiscal. Algunos dicen, las medidas fiscales de Vox van a llevar al déficit y son imposibles de aplicar. Claro, porque no están dispuestos a quitarles a los sindicatos, al gasto político, al gasto ideológico, a los partidos políticos, a la ayuda al exterior, que no sabemos ni a dónde va ni quién la gestiona, porque no están dispuestos a acabar con las regulaciones climáticas brutales, porque no están dispuestos a hacer nada que sea productivo, no están dispuestos a utilizar los impuestos de los españoles para hacer cosas importantes para los españoles. Y eso es lo que hay que hacer, que los impuestos sean los menos y que sirvan mucho más a los intereses nacionales y menos a los intereses ideológicos de los partidos. Por eso nosotros cuando nos dicen que"
+  },
+  {
+   "start": 3825.8,
+   "end": 3827.04,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "si de derecha, de izquierda, no"
+  },
+  {
+   "start": 3827.04,
+   "end": 4046.58,
+   "label": "SPEAKER_04",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "somos sospechosos de covarrías y de no decir lo que pensamos. Creo que desde que llegamos nos atrevimos a desafiar a todos los discursos establecidos. Habían marcado un terreno de juego muy pequeño, no se podía decir nada, ahí estaban todos de acuerdo en aquel momento, PP y PSOE. Y llegó Vox, le dio una patada al terreno de juego y empezó a hablar de muchas cosas que los españoles pensaban y que estaban prohibidas. Nosotros no tenemos miedo, pero esas cosas ideológicas en las que a veces se enzarzan, el otro día me preguntaba una periodista, sin mala intención probablemente, ¿Usted, como preguntan en las encuestas del CIS, en esa escala del 1, si el 0 es la extrema izquierda y el 10 la extrema derecha, usted qué? Le digo, pues que no sé de qué me está hablando. De verdad es que no lo entiendo. ¿Defender las fronteras qué es? ¿De extrema derecha o de extrema izquierda? ¿Los impuestos bajos qué son? ¿De izquierdas o de derechas? Porque lo que llegó Montoro y lo subió más que los de izquierdas. ¿La seguridad en las calles es de derechas o de izquierdas? ¿Qué cosas son esas? Que se pueda acceder a una vivienda que es de derechas o de izquierdas, que es socialista, es franquista, es liberal, pero ¿qué cosas son esas? Nos importa un comino, francamente. Nosotros solo queremos que los españoles tengan futuro. Nos da igual cómo nos llamen y por lo tanto nosotros nos vamos a andar poniendo etiquetitas. Vamos a seguir con valentía, levantando esas banderas, vamos a seguir proponiendo la remigración, la desregulación y la prioridad nacional contra viento y marea. Hoy la gente no les vota con ilusión ni va a verles aplaudiendo. Allí van cuatro que los llevan no sabemos cómo, con qué subvención, con qué paga, con qué autobús, con qué bocadillo y al resto los quieren llevar con el miedo. Que viene Vox y Vox va a acabar con todo. No, Vox no va a acabar con nada. Vox va a recuperarlo todo. Vox va a hacer que España vuelva a ser un país alegre, un país con futuro, un país con prosperidad, un país con libertad, un país con nuestra identidad histórica, un país que no pida perdón, un país que no se deje pisotear, un país que no permita entrar a 100.000 señores en su territorio y que deje amenazados de desahucio a 80.000 compatriotas en Ceuta. La Junta de España con Vox va a ser una patria que vamos a recuperar. Pero no os ilusionéis tanto. Todo lo que hemos dicho es, y muchas otras cosas de las que me hablan por aquí detrás, todo es urgente, todo es importante, no va a temblarnos el pulso ni vamos a tener ningún miedo, pero hasta el día 29 de noviembre puede pasar cualquier cosa. Os lo he dicho, estos son capaces de traicionar, de mentir, de amenazar de muerte, de matar. No hemos visto cuál es su historia. Son capaces de disfrazarse de feministas y darnos en herencia a un país en el que las violaciones de mujeres se han multiplicado por tres. Son capaces de cualquier cosa. No os confiéis. Acudid todos los que podáis a votar presencialmente. El que no tenga otro remedio, que lo haga de otra manera."
+  },
+  {
+   "start": 4047.46,
+   "end": 4050.26,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "No es una desconfianza del sistema, es una desconfianza de Sánchez."
+  },
+  {
+   "start": 4051.1,
+   "end": 4160.2,
+   "label": "SPEAKER_04",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Me preguntaba un periodista el otro día, pero usted, ¿qué cree que van a hacer? Y yo le digo, no sé, es que a mí no se me ocurre, pero que este tío ha robado las elecciones en su propio partido. ¿Qué hemos perdido? Que lo hemos visto en los audios, no sé si de Cerdán, de Ávalos, ya me he perdido, o del Coldo, de todos los que iban en el coche aquel con Sánchez, que decían que era un Peugeot pero luego era un Mercedes. De eso yo me enteré a mitad de campaña, hace poco, cuando lo iba contando, y allí en esos audios se ve como le dicen ahora mete el voto de los cuatro rumanos y luego hemos sabido que eran unos rumanos, un marroquí, un boliviano, parece un chiste. No lo es. No lo es. Lo hicieron. Y lo que estamos diciendo del voto por correo parece una exageración. No lo es. Son capaces de todo. Vamos a tener que soportar mentiras, intentos de trampa y, por supuesto, intentos de amedrentamiento y de provocaciones en las que no vamos a caer. Y yo os pido a todos que no caigáis en esas provocaciones, que lo único que hagáis de aquí al 29 de noviembre sea acompañarnos en estos actos, Hablad con todo vuestro entorno familiar, de amigos, para convencer a esas buenas personas que tenéis al lado. Algunas ya han tirado la toalla porque a todos les parece lo mismo, están dispuestos a abstenerse. Otros dicen que Vox dice no sé qué y vosotros sabéis que no, han sido confundidos. Incluso algunos están dispuestos a votar a otros por equivocación. Yo os pido que con humildad pero con perseverancia os dirijáis a todas esas personas. Les pidáis que sean conscientes del momento histórico, les ayudéis a no creer en las mentiras que se están propagando y que lo hagáis con tranquilidad, con calma y como hemos pedido siempre, sin miedo a nada ni a nadie. ¡Viva España!"
+  },
+  {
+   "start": 4177.76,
+   "end": 4183.52,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Para finalizar, como acostumbramos en los actos de Vox, nos ponemos en pie para escuchar nuestro himno nacional."
+  }
+ ]
+}

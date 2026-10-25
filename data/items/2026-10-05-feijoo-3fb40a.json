@@ -1,0 +1,54 @@
+{
+ "id": "2026-10-05-feijoo-3fb40a",
+ "date": "2026-10-05",
+ "expected_person": "Alberto Núñez Feijóo",
+ "kind": "speech",
+ "outlet": "PP YouTube",
+ "title": "🔵 DIRECTO: Feijóo ofrece una declaración institucional",
+ "url": "https://www.youtube.com/watch?v=b9cmQFbokPU",
+ "language": "es",
+ "duration_s": 2730.03,
+ "sha256": "0b04836a6729f521bdd5a59bbdb8ea662f3c1a13d4ecc69fe6349fde894cc672",
+ "fetched_at": "2026-10-25T09:10:52+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.55,
+  "processed_at": "2026-10-25T09:39:14+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_01": {
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "decision": "match",
+   "reason": "sim 0.89, next 0.40",
+   "talk_s": 470.9
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "too_short",
+   "reason": "only 2s of speech",
+   "talk_s": 1.6
+  }
+ },
+ "turns": [
+  {
+   "start": 2138.83,
+   "end": 2139.73,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Muy buenos días a todos,"
+  },
+  {
+   "start": 2139.91,
+   "end": 2700.02,
+   "label": "SPEAKER_01",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "gracias por su presencia. Por fin, por fin España dirá lo que piensa, por fin volverá a hablar a la mayoría, por fin decidirán los españoles. No unos pocos, no uno solo, todos los españoles. Por fin podemos cerrar este tiempo y abrir otro mejor. Por fin puede irse quien nunca debió llegar tan lejos. Por fin votaremos y por fin España podrá elegir el país que quiere ser. Es la única buena noticia que Sánchez podía dar a estas alturas. Y no son unas elecciones más. La disyuntiva del 29 de noviembre es algo más que escoger entre dos partidos. Se trata de elegir entre un proyecto de ambición personalista o un proyecto de país. Esto no va sencillamente de que el PP le gane al PSOE. No son unas elecciones como las anteriores en democracia. Esto va de que España le gane a Sánchez y a lo que representa. De que la nación y la democracia venzan a quien más daño le han causado. Esa es la elección entre la corrupción y la decencia, entre la decadencia y la prosperidad, entre un gobierno que solo aspira a sobrevivir y un país que piensa en su futuro. La pregunta que le propongo a los ciudadanos es si quieren cuatro años más de lo que estamos viviendo o si quieren dar una oportunidad al cambio. España lleva demasiado tiempo atrapada en una gran mentira que lo ha ensuciado todo. Hemos sufrido una política sin escrúpulos, una ambición de poder sin límites, un gobierno dispuesto a cualquier cosa con tal de resistir. Desde el primer día hasta el último se ha corrompido la verdad, se han corrompido las instituciones y la gestión del dinero público y se ha corrompido la confianza del país. Se ha perdido todo tipo de respeto, la mínima higiene que debe existir en cualquier democracia. Se ha perseguido al crítico, ya fuese político, periodista, miembro de las fuerzas y cuerpos de seguridad del Estado, juez o ciudadano de a pie. Y se ha despreciado la convivencia como nunca antes. Se ha levantado un muro entre españoles. Como mantener el poder ha sido el único fin, los ciudadanos han sido rehenes, y el dinero que tributan, con el fruto de su esfuerzo, un recurso del que apropiarse. Por eso las dificultades de los españoles se han acumulado durante estos años. El Estado ha dispuesto de más recursos que nunca, y sin embargo hoy, ocho años después, el coste de la vida es insoportable. La vivienda está inalcanzable, faltan médicos y sobran huelgas, empeora el nivel educativo, las infraestructuras son decadentes, la inmigración está descontrolada, sufrimos apagones, más inseguridad, la mayor recaudación de impuestos no ha servido ni siquiera para atender como es debido el ataque a la integridad territorial de nuestra nación en la ciudad de Ceuta. Esta vez no es un problema de dinero, sino de mal uso. Todo se gestiona peor que antes, simplemente porque todo está al servicio de un proyecto personal. Ante una situación como esta el cambio empieza por decir la verdad. Y la verdad es que ojalá el próximo gobierno solo tuviera que resolver un gran problema, pero tendrá que afrontar muchos y muy profundos. Los retos de la siguiente legislatura solo son comparables con los que España tuvo que afrontar hace 50 años. La verdad, también a reconocer quién ha creado los problemas está incapacitado para resolverlos. Si 8 años no han sido suficientes, ¿para qué quieren 4 años más? Y la verdad es finalmente afirmar que el daño ha sido descomunal, pero no ha sido irreversible. Las elecciones nos dan la oportunidad de decir lo que pensamos sobre todo lo que ha ocurrido. Sobre los engaños, los privilegios, las excusas, las subidas hacia adelante, las maniobras más egoístas y retorcidas que hemos visto hasta los últimos días. Todo esto se merece el mayor de los castigos, pero sobre todo España puede darse otra oportunidad, otro rumbo. Frente a un gobierno pendiente de aguantar, debemos darnos otro que sí se haga cargo de los problemas y que sí rinda cuentas ante los ciudadanos. Un gobierno que no sea una suma de debilidades y chantajes, sino una suma de fortalezas, convicciones y compromisos. Un gobierno con autoridad para gobernar, libertad para decidir y palabra para cumplir. Un gobierno para la mayoría. Ocho años después, los españoles no necesitan que les expliquen por qué no se pueden tomar decisiones. Necesitan un gobierno que les demuestre que sí es posible hacerlo. España no necesita cuatro años más de resistencia. Necesita un proyecto que reúna de nuevo las energías de toda la nación. Lo que está en juego en las próximas elecciones ya no es la mera alternancia. Es la necesidad imperiosa de abordar una reconstrucción nacional. Necesitamos reconstruir la confianza en las instituciones, la fortaleza de las economías familiares y la igualdad de todos los españoles. Necesitamos reconstruir la convivencia frente a quienes han hecho de la división su principal herramienta política. Necesitamos reconstruir la esperanza de toda una generación que siente que no tiene oportunidades. Los jóvenes merecen Y sobre todo, necesitamos reconstruir algo que va más allá de la política, nuestra autoestima colectiva. Recuperar el orgullo de pertenecer a un país que no se resigna, que no importa recetas que ya han destrozado otras naciones y en el que las decisiones las toman la mayoría de los españoles. Por eso, decadencia o cambio, mentira o cambio, incompetencia o cambio, división o cambio, corrupción o cambio. Quisiera compartir para finalizar lo que creo que realmente hay detrás de la convocatoria del día de hoy. Estoy plenamente seguro de que responde al miedo. Miedo a que se conozca hasta el último detalle de lo que queda por saber en la maraña de casos de corrupción abiertos, los más graves de toda la democracia. Y también creo que el último recurso desesperado para intentar esparcir ese miedo entre la población. El temor a la alternancia es un comportamiento profundamente antidemocrático, pero tiene un antídoto infalible. Esta etapa aún no es pasado, pero está a punto de serlo si no nos confiamos. La mayoría de los españoles queremos pasar página. Hacerlo ya no depende de que el actual gobierno haga nada, sino de que completemos nuestro trabajo. Ya no está en sus manos, está en las nuestras. Y si la gente responde, sé que tras las elecciones, en buena medida, estará en las mías. A esto quiero referirme para finalizar. Soy perfectamente consciente de la dimensión del trabajo que habrá que hacer. No me temblará el pulso. Si los españoles me dan su confianza, yo no la traicionaré. Se sabrá todo lo que queda por conocer, se hará todo lo que hay que hacer y se reparará todo lo que deba repararse. He dicho estos días algo que quisiera repetir ahora. A estas alturas de mi vida no tengo una carrera por hacer ni una meta personal que conquistar. Solo me mueve servir a mi país para dejar atrás esta negra etapa y abrir otra que nos vuelva a reunir a todos los españoles. Quiero poder decir, dentro de 54 días, que el muro ya no existe. Y para eso llamo a todos los españoles a hacer lo posible. En esta legislatura hemos salido muchas veces a la calle, ustedes son testigos de ello, con el compromiso de reparar España. Cientos de miles de personas y decenas de veces. Ahora contamos con la oportunidad de hacerlo desde las urnas. Tenemos la energía, tenemos la obligación y tenemos el proyecto para ello, para un cambio profundo, honesto y necesario. Por fin podremos votarlo, por fin podremos elegir, por fin la palabra la tiene España. Vamos a por ello. Muchísimas gracias a todos ustedes."
+  }
+ ]
+}

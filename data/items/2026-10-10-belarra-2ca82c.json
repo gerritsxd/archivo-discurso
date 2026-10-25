@@ -1,0 +1,678 @@
+{
+ "id": "2026-10-10-belarra-2ca82c",
+ "date": "2026-10-10",
+ "expected_person": "Ione Belarra",
+ "kind": "other",
+ "outlet": "Podemos YouTube",
+ "title": "2x03 Por amor al arte - Entrevista de Ione Belarra a Julio Varas, profesor de instituto",
+ "url": "https://www.youtube.com/watch?v=SV3yRNpeDCE",
+ "language": "es",
+ "duration_s": 2186.73,
+ "sha256": "d939c2c2674fb8d7e7289c668d5d561e786f395bc27e49dc40e0ddaaaeeccee3",
+ "fetched_at": "2026-10-25T09:13:40+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.55,
+  "processed_at": "2026-10-25T10:09:59+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_01": {
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "decision": "match",
+   "reason": "sim 0.70, next 0.39",
+   "talk_s": 177.2
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "unknown",
+   "reason": "best sim 0.31 < 0.55",
+   "talk_s": 1780.6
+  }
+ },
+ "turns": [
+  {
+   "start": 0.0,
+   "end": 7.74,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Los alumnos se juegan sus exámenes finales en junio, entonces todo su curso, digamos,"
+  },
+  {
+   "start": 8.54,
+   "end": 9.16,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "bueno"
+  },
+  {
+   "start": 9.16,
+   "end": 52.1,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "32, es que dentro de las clases hace más, es que tenemos, bueno yo soy técnico de prevención de riesgos laborales y entonces dices que con estas condiciones no se puede trabajar, ¿vale? Y entonces estamos a 36 grados, nosotros bueno, pero es que el alumnado se está jugando su prueba de acceso a la universidad, sus exámenes finales con nosotros, entonces mientras discutís las causas y las medidas, climatizad las aulas, porque es que además también está demostrado que con las altas temperaturas aumenta la violencia, aumenta las agresiones machistas, disminuye el rendimiento, disminuye el sueño, ¿Quién duerme bien a 29 grados por la noche?"
+  },
+  {
+   "start": 52.78,
+   "end": 55.68,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "No hay ningún tipo de climatización en las aulas."
+  },
+  {
+   "start": 55.76,
+   "end": 56.84,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Pero nada."
+  },
+  {
+   "start": 57.24,
+   "end": 58.52,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "Ni ventiladores, nada."
+  },
+  {
+   "start": 58.64,
+   "end": 116.03,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "No, no, no. Pero no los hay ni en los departamentos. En las salas de profesores puedes tener un ventilador de techo, pero no hay una climatización real. O sea, estás chorreando con el ventilador de techo. Y entonces, si todo el mundo está de acuerdo en que hay cambio que hace más calor, Y todo el mundo está de acuerdo que el calor disminuye el rendimiento, entonces, a sabiendas, estamos permitiendo que los alumnos tengan un peor rendimiento. Buenos días, gracias Julio"
+  },
+  {
+   "start": 116.03,
+   "end": 131.67,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "por atendernos en unas semanas tan importantes para la comunidad educativa de la Comunidad de Madrid. Julio, tú eres profe, tú eres Julio Vara, profe en un instituto público de la Comunidad de Madrid, pero no empezaste aquí, tú has sido también profe del medio rural."
+  },
+  {
+   "start": 131.67,
+   "end": 199.29,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Sí, bueno yo saqué la plaza en 2010, este es mi 17º curso y bueno yo soy de un pueblo muy pequeño de Zamora, muy pequeño que se llama Abre Tocino, es un pueblo maravilloso con monte, vega, río, de todo y está en una zona preciosa que es un vergel, toda la zona de Benavente Y entonces yo estudié en Burganes el colegio, en Benavente el instituto y en Salamanca la universidad. Cuando terminé la carrera hice las oposiciones, tuve la suerte de sacar la plaza y empecé a trabajar allí. Empecé en Salamanca capital, pero poco a poco me fui ruralizando, podemos decir, y estuve en Peñaranda de Bracamonte Y luego en La Adrada, en el Valle del Tietar, en Ávila. Claro, zonas muy pequeñas, rurales, absolutamente nada que ver con la inmensidad de Madrid capital. Es un mundo totalmente distinto, cada uno tiene sus pros y sus contras, pero la verdad que mucho choque. Total, un cambio."
+  },
+  {
+   "start": 199.75,
+   "end": 208.35,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "¿Cuáles dirías tú que son esos problemas que asolan la educación pública en el medio rural? ¿Qué es lo que tú veías?"
+  },
+  {
+   "start": 208.35,
+   "end": 364.59,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "En el medio rural hay muchos colegios que son aulas unitarias y entonces cuando hay pocos alumnos puedes encontrar juntos alumnos de primero de primaria con alumnos de sexto de primaria, todos con una misma maestra que tiene que atender a todos. Estás en un desfase de niveles de seis años y es muy complicado. Por lo general, a mí me resulta más sencillo trabajar en el medio rural, por todo lo que te digo. Al final, las figuras paterna, materna, están más encima. Aquí tenemos unos casos que son difíciles de creer y eso en un pueblo nunca se ven. Por ejemplo, y te hablo solo de experiencias que yo he conocido, familias viviendo en un garaje cerrado, eso en el medio rural no existe, porque antes hay una red familiar, incluso vecinal, que te acoge, familias viviendo los tres hijos e hijas, el padre y la madre, en una habitación compartida con otras familias en una misma vivienda, Entonces, la exigencia que puede tener un alumnado así de rendimiento no puede ser la misma que otro que vive en una familia estructurada. Hablamos de alumnado que el padre ha asesinado a su madre, de haber sido docente de ellos. Y entonces, claro, tiene al padre en la cárcel y a la madre asesinada, y entonces imagínate, yo ese tipo de situaciones nunca las había vivido fuera del ámbito rural. Son, al final, los pueblos, no sé, dicen que pueblo pequeño, infierno grande, pero en ese aspecto hay un tejido importante de protección, mucho, las ciudades están mucho más deshumanizadas, esto ya, bueno, esto se ha escrito, lo escribió hasta Lorca, entonces, esto está escrito en todos los sitios, que tienen un componente bueno de que nadie te conoce, entonces, para bien o para mal, tu fama no importa, No importa, pero luego estás vendido, estás expuesto a los pies de los caballos y de la imprevisión."
+  },
+  {
+   "start": 365.07,
+   "end": 371.57,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "¿Cómo fue para ti ese cambio a dar clase aquí en Madrid, en el centro de Madrid, en un barrio popular?"
+  },
+  {
+   "start": 371.97,
+   "end": 385.01,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Pues, a ver, yo no tengo problemas de adaptación, lo que pasa es que es verdad que me he sentido muy provinciano muchas veces en Madrid, no solo en el ámbito educativo, sino en general."
+  },
+  {
+   "start": 385.43,
+   "end": 386.09,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "Yo también."
+  },
+  {
+   "start": 386.09,
+   "end": 401.95,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Yo, o sea, cosas como coger el metro a mí son cosas que me gustan. Entonces, porque es como, ah, que tengo yo, por ejemplo, en mi pueblo, el núcleo urbano más cercano es Benavente, y si quieres ir a Benavente desde mi pueblo, tienes el autobús de los jueves."
+  },
+  {
+   "start": 401.95,
+   "end": 402.97,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "Sí, sí, sí."
+  },
+  {
+   "start": 402.99,
+   "end": 416.87,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "O sea, el lunes no, el martes... Entonces, a mí decía, ah, pero que tengo... Incluso cuando vivía en un pueblo de la Comunidad de Madrid, tenía cada hora manera de venirme aquí. Y entonces, en mi pueblo es como, si no tienes carnet de conducir, estás perdido."
+  },
+  {
+   "start": 416.89,
+   "end": 417.69,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "Estás vendido, sí."
+  },
+  {
+   "start": 417.83,
+   "end": 495.25,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Entonces, pues en mi vida general, muy bien, mucho ocio, puedes ir al teatro, puedes ir al cine. Para mí ir al cine en mi pueblo es algo impensable, no hay cajero. Es muy bucólico, precioso, pero poco operativo. Y en mi día a día bien, y en el alumnado muchísimo cambio también. En mi centro tenemos unas 30 nacionalidades. Yo nunca había vivido más de una o dos que no fuesen nacionalidad española. Entonces, claro, es un choque impresionante y además maravilloso, porque aquí ya sabes, Usera, hay una comunidad china muy importante, tenemos muchísimo alumnado chino y la verdad que es que son impresionantes, su manera de ser, además es que es como, no sé si, cada, digamos, país del que vienen tiene su idiosincrasia, su casuística, Entonces, a mí me parece maravilloso, pero fue un choque muy importante y también por lo que te he comentado, de que aquí ves verdaderos dramas que yo no había visto en los pueblos."
+  },
+  {
+   "start": 495.61,
+   "end": 501.47,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "¿Y tú consideras que tenéis el equipo suficiente para poder enfrentar todas las situaciones que...?"
+  },
+  {
+   "start": 501.47,
+   "end": 639.73,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Ni de broma, pero ni de broma porque, bueno, te puedo ir hablando de ratios, si quieres, la ratio de la Comunidad de Madrid son 25 alumnos por clase en la ESO y bueno, el alumnado es variable en un más 10%, eso quiere decir que tú vas a empezar probablemente con 25, Pero a medida que van viniendo, por ejemplo, alumnado de otros países, claro, pues hay que darles educación, hay que darles cobijo, así que van ampliando esa ratio y imagínate, yo por ejemplo en física, les planteas un ejercicio y esperas a que lo hagan en clase para ver después de una explicación, para ver cómo lo resuelven. Y claro, tienes 25 que uno falla en las unidades, otro falla en la fórmula, otro falla que es que no ha comprendido la explicación, otra de repente se olvida una cuenta a mitad de camino, entonces ir uno por uno por 25 alumnos es algo que es imposible, no es operativo. Yolanda Díaz, Alberto Núñez Feijóo, Santiago Abascal, Irene Montero, Frente Amplio, Junta Electoral Central, Tribunal Constitucional Un control, como decían en mi época, para ver si lo que yo he explicado lo habían entendido. Bueno, pues son 25 y 25, 50, dos clases, 10 preguntas, 500 preguntas que ya tienes para corregir, solo para ver cómo van, no hablamos que es ni de examen parcial ni nada. Entonces se necesita mucha gente, pero ojo, no solo en los departamentos, No te puedes imaginar lo que hay, por poner un ejemplo, en el departamento de orientación,"
+  },
+  {
+   "start": 639.73,
+   "end": 640.37,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "de trabajo."
+  },
+  {
+   "start": 641.07,
+   "end": 642.39,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Estamos hablando que..."
+  },
+  {
+   "start": 642.39,
+   "end": 645.25,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "¿Tú todos esos controles que preparas, cuándo los corriges?"
+  },
+  {
+   "start": 645.75,
+   "end": 687.67,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Pues en casa por la tarde, cuando puedo, porque la verdad que estamos todos hasta arriba, con familia. No, no, bueno, pero por supuesto. ¿Cuándo? Pues no sé, a las 12 de la noche empiezo, 10 y media, por ahí, y ya empiezas a corregir. Y hasta donde llegues, y al día siguiente seguir, y eso de dos grupos, que luego tienes muchos más grupos, muchos más alumnos, pues tener 180 alumnos, los que tengas, hay quien ha tenido 300 por atenciones educativas que tienes una hora semanal, pero tienes con todos los grupos, o sea, con el grupo entero, entonces al final tienes una auténtica barbaridad de alumnado."
+  },
+  {
+   "start": 687.81,
+   "end": 689.19,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "¿A cuántos grupos le das tu clase?"
+  },
+  {
+   "start": 689.19,
+   "end": 759.13,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Pues mira, yo ahora mismo doy 1, 2, 3, 4, 5, 6, 7 laboratorios, pues como 9 contando los laboratorios y entonces, claro, 9 grupos con sus notas de hoy ha traído la calculadora o no, Es decir, que luego desdispección, cuando hay una reclamación no hay piedad para nosotros y entonces, que me parece bien, es decir, todo tiene que estar, no me parece bien que no haya piedad, quiero decir que me parece bien que tenga que estar todas las notas bien atadas, pero claro, al final nos metemos en otra gran reivindicación que es la burocracia. Nos pasamos el día cumplimentando... Ojo que la burocracia no es mala por naturaleza, es decir, lo que es malo por naturaleza es duplicar la burocracia, que los programas informáticos no sean intuitivos, no haya atajos..."
+  },
+  {
+   "start": 759.13,
+   "end": 760.11,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "Que luego nadie se lo lea."
+  },
+  {
+   "start": 760.11,
+   "end": 798.59,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Claro, hay burocracia que me parece interesante por ponerte ejemplos. Nosotros rellenamos el alumnado que ha pasado de curso con una materia que suspensa, pues el año siguiente tiene que recuperar la materia anterior, las materias de pendientes que llamamos, y entonces las pendientes tienes que cumplimentar un anexo donde pones el nombre del alumno, qué curso, cómo la vas a recuperar, cómo le vas a evaluar, Eso personalizado para cada alumno. Está bien porque así las familias conocen cómo su hijo o su hija tiene que recuperar, pero claro, te genera... Al final dices..."
+  },
+  {
+   "start": 798.59,
+   "end": 799.03,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "Nueve grupos."
+  },
+  {
+   "start": 799.39,
+   "end": 831.61,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Claro, y al final a lo mejor llega un momento que entiendo que haya parte del profesorado que diga, oye, que es que por un poco, por suspender por poco, me va a tocar hacer 750.000 papeles. Entonces, claro, te ves en unos dilemas que es todo, todo una burocracia impresionante, por ejemplo, también, pero está bien, está bien que las familias conozcan cómo recuperar esas materias, también está muy bien."
+  },
+  {
+   "start": 832.01,
+   "end": 834.13,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "Sí, lo que no está bien es la sobrecarga total"
+  },
+  {
+   "start": 834.13,
+   "end": 835.65,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "del trabajo, ¿no? Me refiero a que"
+  },
+  {
+   "start": 835.65,
+   "end": 839.07,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "eso mismo con la mitad de alumnado asignado..."
+  },
+  {
+   "start": 839.07,
+   "end": 934.35,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Sería perfecto, o imagínate la atención a las diferencias individuales. Cuando tienes 25 alumnos, en un mundo ideal serían 25 alumnos y alumnas brillantes que se enteran de todo y que todo el alumnado va a la vez y que todo el alumnado tiene el mismo nivel socioeconómico, cultural, familias estructuradas y en cambio lo que te encuentras es un porcentaje de alumnado que tiene dificultades de aprendizaje, Bien por dislexia, bien por déficit de atención, otro porcentaje del alumnado que tiene incorporación tardía al sistema educativo, ya en otro nivel dentro del ACNEAE, alumnos con necesidades educativas especiales, que tienen discapacidades graves, trastornos graves de conducta, y claro, todo eso requiere una burocracia de cómo vas a atender en tu materia a ese alumno multiplicado por todas las materias cómo lo van a atender y entonces en todos los grupos que tienes entonces al final estás generando una cantidad de volumen grandísimo que es necesario pero es que es inabarcable y que va, eso aumenta pero no disminuye otra cosa Entonces, no es una balanza, de ahí las reivindicaciones de las horas lectivas, que, bueno, y yo hablo de la burocracia que hago yo, no te puedes imaginar en un departamento de orientación, bueno, tú eres psicóloga, hija"
+  },
+  {
+   "start": 934.35,
+   "end": 935.25,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "de orientador, es"
+  },
+  {
+   "start": 935.25,
+   "end": 1013.65,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "verdad, es verdad, pues imagínate que, pero es que, bueno, siguen ejerciendo, ya está jubilado, vale, bueno, pero es que esto va, mira, tenemos una legislación infinita, puedes ir desde el Real Decreto, El decreto del 217, que es el de secundaria, te vas al decreto de Madrid del 65-22, pero luego el 23-23, plan incluyo, el 17-12, todo medidas, y luego, ¿pero quién va a hacer esto? ¿Quién va a cumplimentar todo esto? En orientación hablamos de protocolos de acoso, protocolos de suicidio, protocolos de autolesiones, protocolos de pertenencia a bandas juveniles, protocolos de consumo de sustancias. Todo eso genera un volumen de papeleo infinito que solo un orientador abarca en un centro, porque hay un orientador, sea 700 alumnos o 150. Entonces tú imagínate en un volumen de 700.000 alumnos cuánto papeleo generas y no hay suficientes, o sea no es que se necesiten más orientadores, se necesitan más AELs, más PT's, sobre todo Para los"
+  },
+  {
+   "start": 1013.65,
+   "end": 1015.15,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "no iniciados, audición y"
+  },
+  {
+   "start": 1015.15,
+   "end": 1151.57,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "lenguaje Audición y lenguaje, es decir, bueno, por especialistas que ayudan al alumnado que tiene dificultades. Servicios a la comunidad, si no refuerza los servicios a la comunidad, no sirve de nada que yo esté haciendo mil papeles y que esté volviéndome loco para explicar cuando ese alumnado no tiene un apoyo detrás económico. Yolanda Díaz, Alberto Núñez Feijóo, Santiago Abascal, Irene Montero, Frente Amplio, Junta Electoral Central, Tribunal Constitucional ¡Hasta que le acogen! Estamos hablando de cosas gravísimas, que además, no te lo pierdas, cuando hay un protocolo de acoso o algo así, cualquier profesor y profesora te conviertes en un juez instructor. Entonces tienes que instruir el caso. Llamas a los testigos, llamas a las familias, levantas acta... Claro, que no te equivoques, que eso es como si fuese un proceso penal llevado por alguien que no sabe, vamos, ni dónde está el jugado de primera instancia, entonces te dan tres hojas para que lo aprendas y ya está, entonces abarcas, digamos, profesiones que no estás preparado ni formado para ello, pero que luego no pase nada, porque si luego hay un protocolo de acoso tienes que abrirlo inmediatamente Por si la cosa va a más. Pero es que aunque vaya a más, si hay algo mal por el camino, cuidado. Entonces, no sé, creo que mucha burocracia, alguna de ellas duplicada, alguna de ellas para ahorrar trabajo a esferas superiores, también hay que decirlo, que tienes que hacer el resumen del resumen del resumen, y burocracia bien, en su justa medida, pero menos trabajo por otro lado."
+  },
+  {
+   "start": 1151.57,
+   "end": 1162.79,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "En estos 17 años de ejercicio, cuéntanos alguna cosa que te haya pasado con los alumnos y las alumnas que hayas dicho, por esto merece la pena"
+  },
+  {
+   "start": 1162.79,
+   "end": 1240.97,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "estar aquí. Sí, sí, un montonazo, un montonazo. Pues desde al finalizar el curso, cuando ya le has puesto las notas, pues unos regalos preciosos, unas notas maravillosas. Vienen a verme cuando están en la universidad, siempre, ¿qué razón tenías cuando nos decías que estudiando lo que estudiamos en la universidad nos iban a dar unos palos? ¿Qué razón? Fíjate, es que no te hacíamos caso, tal, entonces, bueno, te podría contar mil anécdotas, anécdotas diarias de explicar algo y como un alumno de repente ves que hace, y dices, ya está, ya lo ha entendido. Y entonces, Ode, yo, a mí lo que nunca me deja de sorprender es las perlas que tenemos por aquí, o sea, siempre digo, ya he visto a mis 10 alumnos más inteligentes, 10 alumnas, un ranking, ya tengo a mis 10 alumnas y alumnos más inteligentes, pues nunca, siempre, de repente llega alguien que dices, madre mía, pero ¿de dónde ha salido este diamante? O sea, que no tienen recursos, que no... gente muy humilde que de repente es brillantísima. Y a mí esa es una de las cosas que más me impresionan, pero podría contarte mil por no enrollarme demasiado. Y yo es que también puedes cortarme cuando quieras, porque si no yo empiezo a hablar."
+  },
+  {
+   "start": 1242.45,
+   "end": 1262.99,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "Y ahora que... bueno, creo que una de las cosas más importantes de esta entrevista es recordarle a todo el mundo El próximo 14 de octubre, los profes y las profes de la Comunidad de Madrid de la Educación Pública vais a la huelga indefinida con estas reivindicaciones, con que bajen las horas lectivas, con que aumenten los salarios. ¿Qué tal se cobra en la pública?"
+  },
+  {
+   "start": 1262.99,
+   "end": 1293.75,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Bueno, sobre las horas lectivas quiero aclarar que Madrid yo creo que ya es la única comunidad que queda, que todas las comunidades tienen menos que nosotros ya, entonces creemos que ya va siendo hora, porque aquí lo hacen mucho como progresivo, escalonado, ya hace años, porque fíjate que todo esto de las horas lectivas, no sé si te acuerdas, que en 2011 aquello que se llamó racionalización del gasto público, Yolanda Díaz,"
+  },
+  {
+   "start": 1293.75,
+   "end": 1293.83,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "Alberto"
+  },
+  {
+   "start": 1293.75,
+   "end": 1358.13,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Núñez Feijóo, Santiago Abascal, Ángeles Barceló, Íñigo Alfonso, Federico Jiménez La Comunidad de la Comunidad de la Comunidad de la Comunidad Sí, pero en detrimento de la calidad, porque tú, al final, si yo te voy amontonando cosas, no puedes dedicarle el mismo tiempo."
+  },
+  {
+   "start": 1358.31,
+   "end": 1364.81,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "Sobre todo, yo creo que al final te obligan a perder el foco de los alumnos y las alumnas,"
+  },
+  {
+   "start": 1364.81,
+   "end": 1365.95,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "que son las personas"
+  },
+  {
+   "start": 1365.95,
+   "end": 1368.13,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "en las que te tendrías que concentrar."
+  },
+  {
+   "start": 1368.19,
+   "end": 1374.95,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Es que llega un momento que dices, ostras, espera, la clase, porque estás..."
+  },
+  {
+   "start": 1374.95,
+   "end": 1385.71,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "Sí, y luego que la adolescencia es un momento muy delicado de la vida de las personas, donde me imagino que tú como profe, el acompañamiento emocional, la presencia, es"
+  },
+  {
+   "start": 1385.71,
+   "end": 1411.85,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "súper importante. Sí, de hecho, a todos y todas nos ha pasado que fuese profesor, esa profesora de instituto la que te hizo estudiar esto o el que te hizo no estudiar esto. ¿Vale? Entonces, hemos vivido todo así. Entonces, es una etapa muy importante. Bueno, ya no hablemos de las compañeras de educación infantil y primaria, que ya es educación más supervivencia."
+  },
+  {
+   "start": 1412.79,
+   "end": 1426.45,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "Porque, claro, los salarios, lo que hablamos siempre, que los salarios, igual hace unos años podían estar razonablemente bien, pero con los alquileres disparados, con lo caro que es vivir en Madrid, que al final es una ciudad carísima."
+  },
+  {
+   "start": 1427.23,
+   "end": 1512.93,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Y al final, al final vamos a lo que hablamos antes, Madrid está lejos de ser la comunidad que más paga a sus profesores, pero bastante lejos, en renta per cápita estamos muy bien, en crecimiento muy bien, pero nosotros no, entonces ese dinero está en algún sitio, No somos la comunidad que más cobramos ni de lejos, sí somos la comunidad que más selectivas tenemos y aparte lo que comentas que hay que tener en cuenta el factor del coste de vida. El coste de vida en la capital, como puede ser en Barcelona, como puede ser en Baleares, Valencia, Sevilla, es altísimo. Entonces, si yo viviese en Bretocino, en mi pueblo, cobraría lo mismo o más que ahora, pero mis gastos se reducirían. Bueno, yo cuando trabajaba en La Adrada, vivía en Sotillo, creo que pagaba al mes 220 euros por el piso completo. completo, claro, entonces al final no queremos ser más que nadie, pero hombre, habrá que prorratear de alguna forma, por ejemplo, en el País Vasco, mucha renta per cápita, mucho coste de vida, mucho más salario,"
+  },
+  {
+   "start": 1512.99,
+   "end": 1516.25,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "entonces, lo normal, vamos, al"
+  },
+  {
+   "start": 1516.25,
+   "end": 1530.91,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "final, claro, es que si tú presumes de tu crecimiento económico, Entonces, pues ponlo, ponlo, que se vea. Y bueno, lo que hemos hablado..."
+  },
+  {
+   "start": 1530.91,
+   "end": 1538.15,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "Algunas compañeras me decían que si los alumnos y las alumnas supieran en qué condiciones viven algunos de sus profes, fliparían."
+  },
+  {
+   "start": 1538.29,
+   "end": 1538.89,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Bueno, claro."
+  },
+  {
+   "start": 1539.59,
+   "end": 1540.71,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "Compartiendo piso, ¿no?"
+  },
+  {
+   "start": 1540.83,
+   "end": 1628.45,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Bueno, y amigos y compañeros que hablas, ya he hablado contigo de compañeros que han dejado la profesión ya por la hartura. Y luego, aparte, que también lo hemos hablado, el coste de la vida es muy alto, por tanto, todo el mundo puede entender que el salario debe ser acorde. Pero es que, aparte, si tú te basas en una economía de productividad, es decir, de incentivos, de resultados, de aquí se cobra según el trabajo, Yo he visto ufanarse en varias ocasiones hace bien poco a nuestras autoridades con que Madrid por primera vez ha liderado el informe PISA que mide el desempeño del alumnado de los jóvenes de 15 años en toda la OCDE. Entonces, nosotros hemos cumplido, no nosotros, las compañeras de educación infantil, que han empezado ellas, las compañeras de educación primaria, y nosotros hemos cumplido nuestra parte. ¿Quieres evaluarnos por objetivos, por incentivos? Ahí tienes nuestro resultado. Por favor, cumple tu parte del trato, ¿vale? Y no estoy de acuerdo en que los resultados midan tu salario en la educación, mucho menos. Pero si esa es tu forma, ese es tu baremo y es tu forma de medir las cosas, pues aquí lo tienes. Estos son nuestros poderes, como decía."
+  },
+  {
+   "start": 1628.79,
+   "end": 1643.79,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "Bueno, yo para terminar esta entrevista te quería hacer una pregunta que les suelo hacer a menudo a los invitados. Si tú fueras la presidenta o el presidente de la Comunidad de Madrid, ¿cuál sería la primera medida que tomarías?"
+  },
+  {
+   "start": 1646.43,
+   "end": 1806.69,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Pues yo creo que está bastante claro. Siempre, para beneficio del alumnado, por empezar, digamos por ahí, bajada de horas lectivas. Trabajar más horas lectivas no significa trabajar mejor. El ejemplo es claro, los jefes de departamento tenemos una hora lectiva menos que el resto del profesorado, pues trabajamos, tenemos que hacer 80.000 papeles por ello, por tanto no te compensa. Los equipos directivos, yo fui equipo directivo, tenía más o menos la mitad de horas lectivas que el resto del profesorado, pues solo me faltaba hacer noche en el instituto. Por tanto, reducción de horas lectivas, por supuesto, bajada de ratios, quieres que el alumnado aprenda, necesitan atención lo más individualizada posible Yo le diría a cualquier mandatario, cuando tú te vas de viaje, ¿te gusta ir con 60 personas o preferirías un tour privado? Pues esto es lo mismo, es decir, tú quieres atención real, personalizada y de calidad, baja de ratios, son algunas de las cuestiones que estamos solicitando, mayor atención a la diversidad, todos los problemas que hemos hablado, refuerzo de los departamentos de orientación, servicios a la comunidad, PT, AL, más orientadores, todo esto, más cosas, menos burocracia, por favor, menos burocracia, sobre todo la duplicada Y si la burocracia está bien, hay que bajar de otro lado el trabajo. Sueldo, por supuesto, pero es que no hemos hablado del amor al arte. Porque te puedo contar, yo creo que ahora mismo ostento como tres cargos de dudosa conveniencia, pero omisa remuneración, y como yo, todos los compañeros. Tenemos compañeros de departamento de lengua organizando semanas culturales durante todo el año, traen a grandes poetas, hacen lecturas de grandes obras, pero bueno, tenemos departamentos de educación física, preparando viajes de nieve, nosotros, bueno ahora nosotros lo hacíamos el viaje al CERN, al laboratorio de partículas más importante del mundo, el departamento de física y química y ahora ya se hace como centro de viaje, fin de estudios. Es una pasada porque además visitan pueblecitos de... Está como"
+  },
+  {
+   "start": 1806.69,
+   "end": 1807.73,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "Bolaños con la mosca."
+  },
+  {
+   "start": 1807.79,
+   "end": 1815.07,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Sí, sí, entonces, pero todo eso por amor al arte, o sea, todo..."
+  },
+  {
+   "start": 1815.07,
+   "end": 1817.33,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "Tú llevas el plan Refuerza, ¿no? Además por las tardes..."
+  },
+  {
+   "start": 1817.33,
+   "end": 1890.35,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Sí, el plan Refuerza, sí, bueno, ese sí está remunerado, muy poco, es un plan que es una suerte de clases particulares Por las tardes gratuitas a alumnado que lo necesita. Los equipos docentes observan qué alumnado puede necesitarlo, lo hay que cumplir en unos requisitos como obligación de acudir, en definitiva, ya que te dan un recurso tan importante, que por lo menos lo aprovechen y ya está. Luego, aparte, consejo escolar, música de centro, proyectos. Aquí tenemos unos proyectos de investigación maravillosos, hacemos lingüísticos, aquí los alumnos salen con el nivel C1 de inglés, el departamento de inglés aquí es muy potente, entonces imagínate un C1 ya para tu vida laboral, está muy bien, pero aparte son proyectos de investigación, de filosofía, de historia, de música, de literatura, entonces muy potente, yo recomiendo a todo el mundo la enseñanza pública, no te imaginas el nivel que tienen los compañeros. Bueno, te lo imaginas, que tú además has investigado, y has investigado la educación,"
+  },
+  {
+   "start": 1890.61,
+   "end": 1891.35,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "pero que hay"
+  },
+  {
+   "start": 1891.35,
+   "end": 1897.69,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "un nivelazo, vamos, yo he tenido desde siempre compañeros y compañeras, ¿cuánto sabe esta"
+  },
+  {
+   "start": 1897.69,
+   "end": 1897.95,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "gente?"
+  },
+  {
+   "start": 1898.31,
+   "end": 1947.75,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "O sea, increíble, les ayudamos en todo, y luego, por último, también se reivindica, yo reivindico mucho la infraestructura, es decir, seguimos con colegios con amianto, El amianto, nadie puede dudar, porque esto es de la investigación contra el cáncer, la Sociedad Internacional de Investigación Contra el Cáncer, dice que el amianto es cancerígeno del tipo 1, es decir, que ahora como tienen decenas de años, pues se van resquebrajando y esos silicatos se van quedando como suspendidos en el aire y provocan desde todas las dificultades respiratorias hasta cáncer. ¿Qué hacemos con amianto en los colegios?"
+  },
+  {
+   "start": 1947.83,
+   "end": 1951.09,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "Esto es salud de nuestras"
+  },
+  {
+   "start": 1951.09,
+   "end": 2002.87,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "niñas y nuestros niños. Entonces, no puede ser. Los departamentos de educación física, más, más infraestructura, más convenios, con piscinas cercanas, más todavía, porque no caben, tienen que andar peleando casi, yo hoy cojo el gimnasio, entonces, más infraestructura para ellos. Gracias, luego, muy importante, estamos hablando de cosas de bastante sentido común, no hace falta estar en bandos, lo que hablamos es, si le das una vuelta, son cosas bastante lógicas, entonces, creo que no hay nadie que dude de que hay un cambio climático, ¿no? Si tú quieres discutir si es un factor antropogénico o es un factor externo a ser humano, lo puedes discutir. Si tú quieres discutir si las medidas tomadas tienen que ser rápidas o lentas, discutid entre vosotros."
+  },
+  {
+   "start": 2002.89,
+   "end": 2003.79,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "Pero que hace más de 25"
+  },
+  {
+   "start": 2003.79,
+   "end": 2005.81,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "grados todas las noches en Madrid."
+  },
+  {
+   "start": 2006.21,
+   "end": 2006.87,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "En mi pueblo"
+  },
+  {
+   "start": 2006.85,
+   "end": 2078.49,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "el huerto se ha adelantado. Lo que antes se plantaba en mayo, ahora se planta en abril. Pero es que las guindillas antes en octubre se dejaban de recoger en septiembre finales y ahora estás prácticamente hasta Los Santos recogiendo guindillas Yolanda Díaz Estamos a 36 grados, nosotros bueno, pero es que el alumnado se está jugando su prueba de acceso a la universidad, sus exámenes finales con nosotros, entonces mientras discutís las causas y las medidas, climatizad las aulas, porque es que además también está demostrado que con las altas temperaturas aumenta la violencia, aumenta las agresiones machistas, disminuye el rendimiento, disminuye el sueño, ¿quién duerme bien a 29 grados por la noche?"
+  },
+  {
+   "start": 2078.85,
+   "end": 2082.09,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "Entonces, no hay ningún tipo de climatización en las aulas, ni ventiladores, nada."
+  },
+  {
+   "start": 2085.01,
+   "end": 2175.99,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "No, no, no, pero no los hay ni en los departamentos, en las salas de profesores puedes tener un ventilador de techo, pero no hay una climatización real, o sea, estás chorreando con el ventilador de techo. y entonces si todo el mundo está de acuerdo en que hay cambio que hace más calor y todo el mundo está de acuerdo que el calor disminuye el rendimiento entonces a sabiendas estamos permitiendo que los alumnos tengan un peor rendimiento y además es que eso no es lo mismo Galicia o Asturias que Madrid aquí tendremos que invertir más en eso como imagino que pasará en Jaén y en Badajoz Entonces, yo creo que esas son las líneas maestras, digamos, reducción de jornada activa, reducción de ratios, atención a los alumnos con dificultades, burocracia, salario e instalaciones Yo creo que esas serían, bueno, me habré olvidado luego mis compañeros que me han pasado, porque claro, yo hablo con ellos y, oye, tienes que hablar de esto, seguro que algo se me ha olvidado por supuesto los compañeros de administración, de conserjería, el PAS, porque cuando llegan las matrículas, o sea, están todo, yo entro ahí, siempre están, raíces, tal, además luego gente súper eficiente, le pides cualquier papel, tardan un segundo en dártelo, entonces también necesitan remuneración y refuerzo y personal de refuerzo."
+  },
+  {
+   "start": 2176.11,
+   "end": 2178.75,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "Total, pues muchísimas gracias por atendernos."
+  },
+  {
+   "start": 2178.75,
+   "end": 2181.97,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Muchas gracias a ti, Ione, por darme el altavoz."
+  },
+  {
+   "start": 2182.33,
+   "end": 2185.11,
+   "label": "SPEAKER_01",
+   "person": "belarra",
+   "name": "Ione Belarra (Podemos)",
+   "text": "Muchas gracias y fuerza con esa huelga indefinida que..."
+  }
+ ]
+}
