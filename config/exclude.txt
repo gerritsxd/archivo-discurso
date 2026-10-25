@@ -8,3 +8,7 @@
 2026-10-21-sanchez-035ff9  # duplicate of 2026-10-20-sanchez-6a642e (dedup.py, similarity 0.94)
 2026-10-25-abascal-3fa132  # duplicate of 2026-10-23-abascal-99f34e (dedup.py, similarity 0.90)
 2026-10-23-feijoo-a83d43  # duplicate of 2026-10-23-feijoo-a46a59 (dedup.py, similarity 0.91)
+2026-10-16-sanchez-445b82  # duplicate of 2026-10-16-sanchez-d46dcc (dedup.py, similarity 0.90)
+2026-10-18-abascal-6251a8  # duplicate of 2026-10-19-abascal-0b44d2 (dedup.py, similarity 1.00)
+2026-10-23-feijoo-0eef99  # duplicate of 2026-10-25-feijoo-230534 (dedup.py, similarity 0.95)
+2026-10-24-sanchez-b520a2  # duplicate of 2026-10-24-sanchez-2c2573 (dedup.py, similarity 0.91)

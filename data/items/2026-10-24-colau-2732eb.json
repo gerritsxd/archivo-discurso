@@ -1,0 +1,2596 @@
+{
+ "id": "2026-10-24-colau-2732eb",
+ "date": "2026-10-24",
+ "expected_person": "Ada Colau",
+ "kind": "other",
+ "outlet": "elDiarioes YouTube",
+ "title": "Ada Colau: \"No habrá un Gobierno progresista solo con un buen resultado del PSOE\"",
+ "url": "https://www.youtube.com/watch?v=jknbDEXMXMQ",
+ "language": "es",
+ "duration_s": 1694.5,
+ "sha256": "2c68fee3eafef2c6efcda448b2ca7025e83f1e286d4176346cb311f7a23b2113",
+ "fetched_at": "2026-10-25T22:12:54+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T22:35:55+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_01": {
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "decision": "match",
+   "reason": "sim 0.92, next 0.33",
+   "talk_s": 1337.0
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "unknown",
+   "reason": "best sim 0.32 < 0.65",
+   "talk_s": 272.6
+  }
+ },
+ "turns": [
+  {
+   "start": 0.0,
+   "end": 8.82,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Buenas tardes, señora Colau. Vamos a empezar por preguntas que se pueden hacer muchos ciudadanos, muchos electores. ¿Qué diferencia hay entre votarle a usted o a Irene Montero?",
+   "marks": [
+    [
+     0,
+     0.0
+    ],
+    [
+     29,
+     1.3
+    ],
+    [
+     73,
+     3.4
+    ],
+    [
+     116,
+     5.9
+    ],
+    [
+     158,
+     7.6
+    ]
+   ]
+  },
+  {
+   "start": 9.42,
+   "end": 59.02,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Bueno, yo creo que más allá de los personalismos, lo importante es el proyecto político. Entonces, yo tengo el honor de representar al Frente Amplio, que ha sido un gran esfuerzo para impulsar un proyecto de unidad de la izquierda, que es lo que nos pedía la gente en la calle. Reunimos a 15 formaciones políticas que tienen muy claro Este país necesita una alternativa de izquierda transformadora que no solo resista a la extrema derecha y evite que pueda gobernar el fascismo, sino que quiera ir más allá y que quiera avanzar en derechos y en libertades con una agenda que ponga en el centro el derecho a la vivienda, las pensiones, la subida de los salarios y bajar el coste de la vida. Ese proyecto, que es el Frente Amplio, creo que es el que ahora mismo encarna mejor esa posibilidad de llegar a un gobierno progresista que no solo, como digo, resista a la extrema derecha, sino que efectivamente permita seguir con una agenda de transformación y de avance en derechos y libertades.",
+   "marks": [
+    [
+     0,
+     9.4
+    ],
+    [
+     67,
+     11.7
+    ],
+    [
+     89,
+     12.8
+    ],
+    [
+     142,
+     15.3
+    ],
+    [
+     208,
+     19.2
+    ],
+    [
+     265,
+     21.3
+    ],
+    [
+     278,
+     22.4
+    ],
+    [
+     335,
+     25.9
+    ],
+    [
+     418,
+     31.8
+    ],
+    [
+     484,
+     35.3
+    ],
+    [
+     542,
+     37.5
+    ],
+    [
+     605,
+     39.9
+    ],
+    [
+     669,
+     43.2
+    ],
+    [
+     690,
+     44.7
+    ],
+    [
+     729,
+     46.6
+    ],
+    [
+     793,
+     50.0
+    ],
+    [
+     860,
+     53.8
+    ],
+    [
+     936,
+     57.7
+    ]
+   ]
+  },
+  {
+   "start": 59.88,
+   "end": 70.52,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Por lo tanto, entiendo que son más y además son garantía de que pueda haber un gobierno progresista. ¿Eso significa que a lo mejor en el caso de Podemos no está tan claro que puedan dar ese apoyo?",
+   "marks": [
+    [
+     0,
+     59.9
+    ],
+    [
+     60,
+     63.8
+    ],
+    [
+     101,
+     66.0
+    ],
+    [
+     131,
+     66.9
+    ],
+    [
+     186,
+     70.1
+    ]
+   ]
+  },
+  {
+   "start": 71.28,
+   "end": 104.92,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "¿Qué ha pasado con el apoyo? Mirar hacia adelante, dejar de hablar de nosotros mismos, dejar de hablar de siglas y hablar de proyecto",
+   "marks": [
+    [
+     0,
+     71.3
+    ],
+    [
+     29,
+     100.5
+    ],
+    [
+     67,
+     102.1
+    ]
+   ]
+  },
+  {
+   "start": 104.92,
+   "end": 115.14,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "político para el país. ¿Existirá algún tipo de pacto de no agresión durante la campaña? ¿Será un poco el sálvese quien pueda? Por mi parte no hace falta que haya ningún pacto",
+   "marks": [
+    [
+     0,
+     104.9
+    ],
+    [
+     23,
+     107.4
+    ],
+    [
+     68,
+     109.4
+    ],
+    [
+     88,
+     110.8
+    ],
+    [
+     126,
+     112.6
+    ],
+    [
+     133,
+     113.1
+    ]
+   ]
+  },
+  {
+   "start": 115.14,
+   "end": 178.0,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "porque soy garantía de que no habrá agresión entre formaciones progresistas. Me parece que ahora mismo sería deprimente que hubiera ataques entre formaciones progresistas. El adversario es una extrema derecha que se presenta a las elecciones con dos siglas, PP y Vox. Lamentablemente estamos viendo en cada una de las declaraciones del señor Feijóo que claramente se ha rendido a la agenda de Vox y que está planteando recortar pensiones, está planteando acabar con la agenda feminista, liquidar el Ministerio de Igualdad, cuestionar el derecho al aborto. Por lo tanto vemos que efectivamente el señor Feijóo se ha rendido a Abascal Yolanda Abascal, que ahora mismo lo que se plantea es una agenda de la extrema derecha con dos siglas y frente a ese adversario que es realmente el adversario, creo que no ha lugar que las izquierdas nos dediquemos a criticarnos entre nosotras. Evidentemente si hay diferencias entre proyectos habrá que explicar esas diferencias entre proyectos para que la ciudadanía libremente pueda elegir, pero eso siempre sin faltar el respeto y teniendo muy claro quién es el adversario.",
+   "marks": [
+    [
+     0,
+     115.1
+    ],
+    [
+     77,
+     119.0
+    ],
+    [
+     80,
+     119.1
+    ],
+    [
+     172,
+     125.2
+    ],
+    [
+     242,
+     130.9
+    ],
+    [
+     268,
+     133.2
+    ],
+    [
+     311,
+     135.1
+    ],
+    [
+     380,
+     138.1
+    ],
+    [
+     455,
+     142.5
+    ],
+    [
+     537,
+     149.5
+    ],
+    [
+     556,
+     150.6
+    ],
+    [
+     609,
+     153.7
+    ],
+    [
+     673,
+     156.8
+    ],
+    [
+     735,
+     159.7
+    ],
+    [
+     802,
+     163.4
+    ],
+    [
+     878,
+     167.8
+    ],
+    [
+     969,
+     171.7
+    ],
+    [
+     1048,
+     175.7
+    ]
+   ]
+  },
+  {
+   "start": 178.6,
+   "end": 192.2,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Estamos en Barcelona, usted es candidata a la presidencia del gobierno, pero ¿por qué un elector catalán debería votarle a usted y no a Gabriel Rufián, a quien también le reclamó ir juntos en la misma lista para unir fuerzas?",
+   "marks": [
+    [
+     0,
+     178.6
+    ],
+    [
+     77,
+     183.1
+    ],
+    [
+     136,
+     187.4
+    ],
+    [
+     201,
+     190.9
+    ]
+   ]
+  },
+  {
+   "start": 219.92,
+   "end": 240.08,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "¿Cuáles son las propuestas? El proyecto que Rufián había teorizado durante más de un año, que es que haya una fuerza política estatal de unidad popular, de unidad de las izquierdas, que presente una alternativa de izquierda transformadora que vaya más allá del Partido Socialista. Entonces, esa propuesta es necesaria a nivel estatal y eso es lo que nosotros vamos a defender también en Cataluña.",
+   "marks": [
+    [
+     0,
+     219.9
+    ],
+    [
+     28,
+     222.2
+    ],
+    [
+     79,
+     224.2
+    ],
+    [
+     137,
+     227.5
+    ],
+    [
+     214,
+     231.9
+    ],
+    [
+     281,
+     236.4
+    ],
+    [
+     305,
+     237.3
+    ],
+    [
+     365,
+     239.7
+    ]
+   ]
+  },
+  {
+   "start": 240.82,
+   "end": 266.96,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Señor Colau, ¿puede ser que en la teoría fuese más fácil que en la práctica se ha visto que no? Y que luego, por ejemplo, en el caso de los comuns y de Esquerra, hay tantas heridas pendientes que lo hacían imposible. Lo digo porque, por ejemplo, hay gente que dice que Esquerra no le ha perdonado que usted en el 2019 dejase a su candidato, Nesmar Agall, sin la alcaldía, pese a haber sido el más votado. Yo insisto que lo que",
+   "marks": [
+    [
+     0,
+     240.8
+    ],
+    [
+     61,
+     244.0
+    ],
+    [
+     96,
+     245.3
+    ],
+    [
+     113,
+     246.1
+    ],
+    [
+     173,
+     250.0
+    ],
+    [
+     217,
+     254.0
+    ],
+    [
+     250,
+     256.5
+    ],
+    [
+     310,
+     258.5
+    ],
+    [
+     377,
+     264.1
+    ],
+    [
+     405,
+     265.7
+    ]
+   ]
+  },
+  {
+   "start": 266.96,
+   "end": 316.5,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "está en juego es tan grave en este 29 de noviembre que creo que ningún votante de izquierdas vote al partido que vote nos perdonaría que estuviéramos aquí lamiéndonos las heridas o haciendo reproches del pasado. Creo que sería faltarle el respeto a la ciudadanía y a los votantes progresistas. Por lo tanto, pleno respeto a que haya más de una propuesta en el espacio progresista. Nosotros hemos trabajado por la unidad y ahora vamos a hablar de proyecto, vamos a hablar de propuestas concretas y de soluciones a los problemas de la gente, que es lo que se espera de nosotros, porque insisto, el adversario es una extrema derecha que se presenta con dos siglas a estas elecciones, pero con una única agenda y van a por nosotros. Entonces creo que ahora defender a la mayoría social es nuestro trabajo y en ningún caso nos podemos permitir el lujo de estar con antiguos reproches o con cuestiones personales, eso sería absolutamente imperdonable y fuera de lugar.",
+   "marks": [
+    [
+     0,
+     267.0
+    ],
+    [
+     55,
+     269.7
+    ],
+    [
+     122,
+     273.0
+    ],
+    [
+     212,
+     278.4
+    ],
+    [
+     271,
+     281.5
+    ],
+    [
+     294,
+     282.6
+    ],
+    [
+     340,
+     286.2
+    ],
+    [
+     381,
+     288.5
+    ],
+    [
+     420,
+     290.1
+    ],
+    [
+     485,
+     293.1
+    ],
+    [
+     547,
+     295.8
+    ],
+    [
+     614,
+     299.0
+    ],
+    [
+     686,
+     302.0
+    ],
+    [
+     729,
+     304.8
+    ],
+    [
+     747,
+     305.4
+    ],
+    [
+     813,
+     308.6
+    ],
+    [
+     881,
+     312.7
+    ]
+   ]
+  },
+  {
+   "start": 317.66,
+   "end": 332.66,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Que usted haya tenido que volver a la primera línea de la política, teniendo en cuenta que se había ido y además decía que estaba muy contenta fuera de la política, lejos del foco, ¿significa que la izquierda tiene un problema en la renovación de liderazgos?",
+   "marks": [
+    [
+     0,
+     317.7
+    ],
+    [
+     58,
+     320.4
+    ],
+    [
+     123,
+     325.4
+    ],
+    [
+     196,
+     329.6
+    ]
+   ]
+  },
+  {
+   "start": 333.52,
+   "end": 418.56,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Yo creo que en la izquierda se están produciendo renovación de liderazgos, creo que en todas las listas electorales está habiendo renovación, pero es verdad que en este caso hacía falta un proyecto que reuniera a muchas izquierdas. El Frente Amplio es una propuesta de unidad, que es lo que nos estaba pidiendo la ciudadanía en la calle. Y desde esa idea de unidad, diferentes fuerzas políticas me vinieron a buscar como persona que podía ser de consenso Todas somos necesarias y allí donde seamos más útiles, ahí tenemos que estar. A mí cuando se me planteó que era una persona de consenso por mi lucha por el derecho a la vivienda durante décadas, por mi experiencia de gestión en el ayuntamiento, me ofrecí a ser útil allí donde fuera más útil. Si es como candidata a la presidencia, aquí estoy, plenamente dispuesta a tirar adelante con este proyecto. Pero también lo dije, si hubiera otra persona de mayor consenso, también estaría dispuesta a cederle este lugar Y a ocupar otro lugar, porque lo que importa es la causa colectiva y no la personal.",
+   "marks": [
+    [
+     0,
+     333.5
+    ],
+    [
+     75,
+     337.2
+    ],
+    [
+     150,
+     341.6
+    ],
+    [
+     213,
+     346.0
+    ],
+    [
+     232,
+     346.8
+    ],
+    [
+     284,
+     348.8
+    ],
+    [
+     338,
+     351.4
+    ],
+    [
+     346,
+     351.9
+    ],
+    [
+     421,
+     356.5
+    ],
+    [
+     491,
+     390.3
+    ],
+    [
+     533,
+     392.4
+    ],
+    [
+     551,
+     393.1
+    ],
+    [
+     611,
+     396.4
+    ],
+    [
+     683,
+     399.6
+    ],
+    [
+     748,
+     403.5
+    ],
+    [
+     822,
+     407.5
+    ],
+    [
+     856,
+     409.4
+    ],
+    [
+     894,
+     411.0
+    ],
+    [
+     970,
+     414.5
+    ],
+    [
+     1035,
+     417.5
+    ]
+   ]
+  },
+  {
+   "start": 418.76,
+   "end": 438.04,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "En esa causa colectiva, en ese contexto histórico de emergencia que cita para frenar a la extrema derecha, usted dice al fascismo, calculadora en mano, ¿hay provincias en las que los votantes del Frente Amplio lo que deberían hacer es apoyar al PSOE para que el beneficiado sea Vox?",
+   "marks": [
+    [
+     0,
+     418.8
+    ],
+    [
+     73,
+     422.5
+    ],
+    [
+     146,
+     427.7
+    ],
+    [
+     213,
+     433.4
+    ],
+    [
+     278,
+     437.6
+    ]
+   ]
+  },
+  {
+   "start": 438.72,
+   "end": 518.62,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Yo creo que el momento de los pactos ha pasado ya. Fue la semana anterior donde se cerraron las coaliciones. Creo que por nuestra parte hicimos un máximo esfuerzo de unidad de las izquierdas y el resultado es el Frente Amplio con 15 formaciones. Creo que también hicimos un gran esfuerzo liderando un acuerdo con el Partido Socialista en el Senado para evitar que pueda haber esa mayoría de PP y Vox que tendría consecuencias nefastas en nuestro país. Y ese esfuerzo ya se ha hecho de grandes acuerdos. Ahora creo que es necesario que haya una propuesta alternativa de país y de futuro de las izquierdas transformadoras en todo el país. Y también nos lo están diciendo las encuestas. Es decir, una vez que se ha formalizado el acuerdo del Frente Amplio y se ha definido claramente la candidatura, en las encuestas ha empezado a subir la intención de voto, estamos ya cerca del 9%, y si llegamos al 10% eso va a multiplicar los resultados. Y sabemos que no habrá un gobierno progresista solo con un buen resultado del PSOE. Es necesario que haya un buen resultado del Frente Amplio, es necesario que haya un buen resultado de una izquierda alternativa y transformadora para que pueda haber un gobierno progresista. de la Unidad Popular de la Izquierda Transformadora",
+   "marks": [
+    [
+     0,
+     438.7
+    ],
+    [
+     51,
+     442.5
+    ],
+    [
+     55,
+     443.0
+    ],
+    [
+     109,
+     446.3
+    ],
+    [
+     130,
+     447.0
+    ],
+    [
+     196,
+     450.9
+    ],
+    [
+     246,
+     453.7
+    ],
+    [
+     271,
+     455.0
+    ],
+    [
+     341,
+     458.7
+    ],
+    [
+     400,
+     462.8
+    ],
+    [
+     452,
+     465.6
+    ],
+    [
+     473,
+     467.5
+    ],
+    [
+     503,
+     469.2
+    ],
+    [
+     540,
+     471.2
+    ],
+    [
+     620,
+     476.7
+    ],
+    [
+     637,
+     477.8
+    ],
+    [
+     684,
+     479.7
+    ],
+    [
+     746,
+     482.3
+    ],
+    [
+     817,
+     488.1
+    ],
+    [
+     881,
+     491.0
+    ],
+    [
+     939,
+     494.8
+    ],
+    [
+     1003,
+     498.7
+    ],
+    [
+     1023,
+     499.6
+    ],
+    [
+     1074,
+     501.8
+    ],
+    [
+     1151,
+     505.2
+    ],
+    [
+     1214,
+     508.2
+    ],
+    [
+     1227,
+     515.4
+    ]
+   ]
+  },
+  {
+   "start": 538.7,
+   "end": 553.0,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "De hecho, usted hace un mes pidió a su espacio político incluso que se plantease salir del gobierno si no se actuaba contra los fondos buitre y dijo literalmente que no podían ser cómplices de la cobardía del PSOE. ¿El PSOE ha sido cobarde en vivienda en esta legislatura?",
+   "marks": [
+    [
+     0,
+     538.7
+    ],
+    [
+     64,
+     542.1
+    ],
+    [
+     128,
+     544.9
+    ],
+    [
+     196,
+     548.3
+    ],
+    [
+     215,
+     549.6
+    ],
+    [
+     260,
+     552.4
+    ]
+   ]
+  },
+  {
+   "start": 553.68,
+   "end": 696.72,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "El Partido Socialista, desde que lo conozco, ha sido cobarde y ha sido un incumplidor en materia de vivienda. Desde que lo conozco, desde inicio de los años 2000, que empecé con mi activismo político. Llevo muchos años de experiencia, tanto como activista como alcaldesa, de reclamar al Partido Socialista que cumpla con sus palabras y los traslade a sus hechos, a los hechos. Y no ha habido manera, tampoco en esta legislatura. Cuando finalmente el Partido Socialista se ha movido es porque ha habido una fuerte movilización social, liderada por Mari Carmen, de quien siempre nos acordaremos y honraremos su memoria, y liderada por Mari Carmen y por el Sindicato de Inquilinos ha habido una fuerte movilización que nos dio la fuerza también al espacio que hoy representa el Frente Amplio en el gobierno para obligar al PSOE a presentar unos decretos que llevaban meses sobre la mesa pero que se negaba a aprobar. Ese es solo un ejemplo de los muchos que tenemos con el Partido Socialista. Yo recuerdo que Pedro Sánchez se comprometió conmigo en 2019 a regular los alquileres y hasta 2024 esa regulación no se aprobó. Entonces, esa ha sido la historia del Partido Socialista, que dice que quiere regular el derecho a la vivienda, pero luego es muy sensible a los poderes fácticos y a los poderes del lobby inmobiliario especulador. De hecho, tiene intereses directos con el señor Joan Clos, exalcalde de Barcelona, que ha liderado la patronal de los grandes propietarios que quieren especular con la vivienda en alquiler, y tiene muchos otros casos de puertas giratorias con el sector inmobiliario. Entonces, ese es el Partido Socialista en materia de vivienda, que siempre arrastra los pies, Y yo creo que ahora mismo el país que se está movilizando en las plazas, en las calles, ha dicho basta. Y no es solo Mari Carmen, es Olga, son muchas más personas que su vida está en juego. La situación es insostenible en materia de vivienda, afecta a todas las edades. Por ello, yo creo que no es nada exagerado decir que el próximo 29 de noviembre las elecciones van a ser un referéndum en materia de derecho a la vivienda. Y lo que yo me puedo comprometer personalmente, y tú, Neos, me conoces desde hace muchos años, y creo que la ciudadanía también, creo que sabéis que lo digo en serio, es que si de mí depende, los fondos buitres serán expulsados de este país. O sea, en España no habrá lugar para los fondos buitres. Habrá gobierno progresista si se expulsan los fondos buitres de este país. Y vamos a garantizar el derecho a la vivienda si el gobierno progresista depende de nosotros el próximo 29 de noviembre.",
+   "marks": [
+    [
+     0,
+     553.7
+    ],
+    [
+     66,
+     557.7
+    ],
+    [
+     110,
+     560.9
+    ],
+    [
+     138,
+     561.9
+    ],
+    [
+     201,
+     565.4
+    ],
+    [
+     207,
+     565.9
+    ],
+    [
+     287,
+     570.6
+    ],
+    [
+     355,
+     574.8
+    ],
+    [
+     377,
+     576.1
+    ],
+    [
+     416,
+     578.4
+    ],
+    [
+     429,
+     579.2
+    ],
+    [
+     495,
+     582.1
+    ],
+    [
+     577,
+     586.7
+    ],
+    [
+     647,
+     591.6
+    ],
+    [
+     720,
+     594.3
+    ],
+    [
+     789,
+     597.9
+    ],
+    [
+     855,
+     601.9
+    ],
+    [
+     914,
+     604.9
+    ],
+    [
+     918,
+     605.4
+    ],
+    [
+     978,
+     608.2
+    ],
+    [
+     990,
+     608.7
+    ],
+    [
+     1053,
+     613.0
+    ],
+    [
+     1118,
+     617.7
+    ],
+    [
+     1128,
+     618.5
+    ],
+    [
+     1196,
+     621.8
+    ],
+    [
+     1259,
+     624.9
+    ],
+    [
+     1332,
+     629.1
+    ],
+    [
+     1335,
+     629.4
+    ],
+    [
+     1415,
+     633.3
+    ],
+    [
+     1493,
+     637.0
+    ],
+    [
+     1560,
+     640.8
+    ],
+    [
+     1599,
+     642.5
+    ],
+    [
+     1641,
+     644.3
+    ],
+    [
+     1707,
+     647.7
+    ],
+    [
+     1769,
+     651.6
+    ],
+    [
+     1797,
+     653.2
+    ],
+    [
+     1826,
+     655.0
+    ],
+    [
+     1883,
+     657.7
+    ],
+    [
+     1886,
+     658.1
+    ],
+    [
+     1963,
+     661.9
+    ],
+    [
+     2019,
+     664.6
+    ],
+    [
+     2085,
+     668.5
+    ],
+    [
+     2119,
+     669.7
+    ],
+    [
+     2140,
+     671.1
+    ],
+    [
+     2216,
+     675.2
+    ],
+    [
+     2279,
+     678.2
+    ],
+    [
+     2347,
+     683.3
+    ],
+    [
+     2361,
+     684.2
+    ],
+    [
+     2402,
+     686.5
+    ],
+    [
+     2418,
+     687.3
+    ],
+    [
+     2482,
+     690.7
+    ],
+    [
+     2493,
+     691.3
+    ],
+    [
+     2542,
+     693.9
+    ]
+   ]
+  },
+  {
+   "start": 696.72,
+   "end": 709.76,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Ahora citaba su pasado activista y estos días se ha vuelto a viralizar mucho una imagen suya, se acordará, del 2007 en el que aparecía interrumpiendo un acto de iniciativa en el que estaba también Ernest Urtasun, su número dos ahora.",
+   "marks": [
+    [
+     0,
+     696.7
+    ],
+    [
+     61,
+     700.1
+    ],
+    [
+     126,
+     703.0
+    ],
+    [
+     204,
+     708.2
+    ]
+   ]
+  },
+  {
+   "start": 710.46,
+   "end": 768.8,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "¿Quién se ha movido más, usted o él? Pues yo creo que ambos, ¿no? Ambos nos hemos movido y eso es positivo. Lo importante es que la ciudadanía, yo creo, en una democracia saludable marca el camino y que más allá de quién están las instituciones por parte de partidos progresistas, partidos de izquierdas, la agenda social, por ejemplo, en materia de vivienda, avanzará si hay una ciudadanía movilizada, crítica y exigente. Eso en democracia siempre ha sido así y lo es también ahora. Yo creo que ahora la gran oportunidad es que hay una ciudadanía que se ha organizado, que se ha movilizado con las movilizaciones por el derecho a la vivienda, en las plazas, con la próxima huelga general y eso marca la pauta para que efectivamente quien esté representando a formaciones progresistas en un posible gobierno progresista después del 29 de noviembre tengan la máxima ambición para ir lo más lejos posible y que efectivamente la próxima legislatura sea la legislatura del derecho a la vivienda y en la que se acabe con la especulación.",
+   "marks": [
+    [
+     0,
+     710.5
+    ],
+    [
+     37,
+     713.4
+    ],
+    [
+     54,
+     714.4
+    ],
+    [
+     66,
+     715.3
+    ],
+    [
+     108,
+     717.4
+    ],
+    [
+     122,
+     718.3
+    ],
+    [
+     190,
+     722.0
+    ],
+    [
+     255,
+     726.3
+    ],
+    [
+     339,
+     731.2
+    ],
+    [
+     423,
+     736.0
+    ],
+    [
+     484,
+     739.1
+    ],
+    [
+     548,
+     742.8
+    ],
+    [
+     618,
+     746.3
+    ],
+    [
+     681,
+     749.7
+    ],
+    [
+     758,
+     754.6
+    ],
+    [
+     838,
+     759.3
+    ],
+    [
+     905,
+     763.1
+    ],
+    [
+     982,
+     766.4
+    ]
+   ]
+  },
+  {
+   "start": 768.8,
+   "end": 840.16,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Decía porque usted, usted ha sido informada parte de este gobierno, usted le dijo lo que le dijo a este gobierno, y no sé si cree que Sumar debería haber presionado más, o en todo caso, escuchándola, le reformó la pregunta, Sumar presionará más si está en un gobierno, Sumar, Frente Amplio, ¿el Frente Amplio presionará más a un futuro gobierno de Pedro Sánchez de lo que lo ha hecho en la pasada legislatura? Cataluña sigue siendo la comunidad donde hay más desahucios, Pese a los topes de alquiler, una legislación mucho más estricta y dura que en otras comunidades, pero aún así es la comunidad que lo lidera y teniendo en cuenta que ciudades como Barcelona y la mayoría de las del área metropolitana gobierna la izquierda, ¿a qué lo atribuye?",
+   "marks": [
+    [
+     0,
+     768.8
+    ],
+    [
+     74,
+     772.3
+    ],
+    [
+     122,
+     775.2
+    ],
+    [
+     186,
+     779.4
+    ],
+    [
+     259,
+     784.0
+    ],
+    [
+     336,
+     788.9
+    ],
+    [
+     390,
+     791.2
+    ],
+    [
+     410,
+     818.9
+    ],
+    [
+     476,
+     821.7
+    ],
+    [
+     543,
+     825.6
+    ],
+    [
+     605,
+     831.4
+    ],
+    [
+     674,
+     835.7
+    ]
+   ]
+  },
+  {
+   "start": 841.4,
+   "end": 903.22,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Bueno, primero evidentemente para acabar con la especulación hay que tomar medidas estructurales, no sirve con medidas parche como se ha hecho hasta ahora, y hacen falta medidas estructurales que pasan por regular los alquileres y no solo congelarlos sino bajar sus precios, por imposibilitar los desahucios si no hay alternativa habitacional, son diferentes medidas estructurales las que hay que tomar. La experiencia que tuvimos en Barcelona durante ocho años demostramos que se podía hacer mucho más de lo que nos decían. Cuando llegamos al gobierno de Barcelona nos dijeron que no teníamos competencias para parar los desahucios. Nos inventamos una unidad de mediación que paralizó el 90% de los desahucios que llegaban a las oficinas de vivienda del ayuntamiento. Esa medida, si se hubiera hecho a escala catalana y estatal inmediatamente, habría cambiado radicalmente el panorama de los desahucios. Ese es un ejemplo de que si hay voluntad política, evidentemente que se pueden cambiar las cosas en materia de vivienda. Y lo hicimos en Barcelona en muchos otros sentidos. Le pusimos multas a los fondos buitres, por ejemplo, y fruto de ello nos pusieron querellas y nos",
+   "marks": [
+    [
+     0,
+     841.4
+    ],
+    [
+     83,
+     845.0
+    ],
+    [
+     156,
+     848.8
+    ],
+    [
+     231,
+     853.3
+    ],
+    [
+     311,
+     859.1
+    ],
+    [
+     397,
+     863.4
+    ],
+    [
+     404,
+     863.7
+    ],
+    [
+     478,
+     869.7
+    ],
+    [
+     525,
+     872.0
+    ],
+    [
+     541,
+     872.8
+    ],
+    [
+     618,
+     875.6
+    ],
+    [
+     634,
+     876.4
+    ],
+    [
+     691,
+     880.2
+    ],
+    [
+     755,
+     883.5
+    ],
+    [
+     769,
+     884.7
+    ],
+    [
+     829,
+     887.7
+    ],
+    [
+     905,
+     890.9
+    ],
+    [
+     915,
+     891.5
+    ],
+    [
+     992,
+     894.7
+    ],
+    [
+     1026,
+     896.8
+    ],
+    [
+     1055,
+     898.3
+    ],
+    [
+     1078,
+     899.1
+    ],
+    [
+     1131,
+     901.3
+    ]
+   ]
+  },
+  {
+   "start": 903.22,
+   "end": 903.76,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "hicieron una guerra judicial.",
+   "marks": [
+    [
+     0,
+     903.2
+    ]
+   ]
+  },
+  {
+   "start": 904.62,
+   "end": 929.2,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Si esa misma actitud de enfrentarnos a las frentes buitres que tuvimos en Barcelona se hubiera hecho en Cataluña y en el Estado, hoy los fondos buitres no estarían en España. Por lo tanto, creo que también han habido experiencias a nivel local como la de Barcelona que demuestran que se puede hacer mucho más y si eso se hace desde el Estado, que es la máxima administración con la máxima competencia, podemos conseguir garantizar el derecho a la vivienda y erradicar la especulación.",
+   "marks": [
+    [
+     0,
+     904.6
+    ],
+    [
+     71,
+     907.9
+    ],
+    [
+     133,
+     911.3
+    ],
+    [
+     175,
+     912.9
+    ],
+    [
+     198,
+     914.7
+    ],
+    [
+     269,
+     918.9
+    ],
+    [
+     326,
+     922.1
+    ],
+    [
+     402,
+     925.5
+    ]
+   ]
+  },
+  {
+   "start": 929.2,
+   "end": 948.88,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Sobre esas ofensivas judiciales, una de las razones que usted esgrimió para abandonar la primera línea fueron precisamente las campañas judiciales, también las mediáticas, que sufrió en su contra. ¿Teme otras campañas similares que vuelvan esas campañas a activarse ahora que está ya otra vez en primera línea? Bueno, esas campañas ya han empezado otra vez.",
+   "marks": [
+    [
+     0,
+     929.2
+    ],
+    [
+     76,
+     932.7
+    ],
+    [
+     172,
+     937.5
+    ],
+    [
+     197,
+     940.1
+    ],
+    [
+     245,
+     943.0
+    ],
+    [
+     311,
+     947.2
+    ]
+   ]
+  },
+  {
+   "start": 950.7,
+   "end": 1004.02,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Lo que pasa es que estoy muy curtida, la verdad. Ya sufrí los ataques de campañas de desprestigio, de fake news, de lawfare, lo sufrí como activista de la PAH, lo sufrí como alcaldesa de Barcelona y ahora en cuanto se me ha situado como candidata a la presidencia han vuelto otra vez los ataques personales, las fake news y no me dan miedo, sinceramente. Estoy muy curtida y tengo muy claro por qué estoy aquí. Por defender el derecho a la vivienda, por defender a la mayoría social trabajadora, por defender la subida del salario mínimo, de las pensiones, por defender los servicios públicos, Entonces, que las élites o que sus brazos judiciales o sus brazos mediáticos o sus brazos políticos me amenacen, en realidad me refuerza en esta causa colectiva, no me asusta. Y evidentemente eso va a existir, incluso va a empeorar, porque estamos viendo como con la inteligencia artificial se están haciendo campañas por parte de la derecha y de la extrema derecha para atacar",
+   "marks": [
+    [
+     0,
+     950.7
+    ],
+    [
+     49,
+     952.5
+    ],
+    [
+     58,
+     953.6
+    ],
+    [
+     128,
+     958.8
+    ],
+    [
+     197,
+     961.7
+    ],
+    [
+     252,
+     965.1
+    ],
+    [
+     324,
+     969.4
+    ],
+    [
+     355,
+     971.3
+    ],
+    [
+     391,
+     973.8
+    ],
+    [
+     411,
+     974.8
+    ],
+    [
+     454,
+     976.6
+    ],
+    [
+     531,
+     979.6
+    ],
+    [
+     612,
+     983.2
+    ],
+    [
+     677,
+     987.5
+    ],
+    [
+     756,
+     992.4
+    ],
+    [
+     770,
+     993.4
+    ],
+    [
+     817,
+     995.8
+    ],
+    [
+     903,
+     1000.2
+    ],
+    [
+     965,
+     1003.2
+    ]
+   ]
+  },
+  {
+   "start": 1004.02,
+   "end": 1004.12,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "a los adversarios.",
+   "marks": [
+    [
+     0,
+     1004.0
+    ]
+   ]
+  },
+  {
+   "start": 1004.74,
+   "end": 1040.28,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Nosotros, por cierto, hemos decidido que no vamos a entrar en esas tácticas, que nuestra formación política no va a utilizar la inteligencia artificial para atacar a los adversarios y esperamos que el resto de partidos políticos asuman ese mismo compromiso. Porque creo que si estamos criticando que la inteligencia artificial se pueda poner al servicio de las campañas de fake news, de erosión de la democracia, cualquier partido democrático que se presente a las elecciones y a la presidencia de un gobierno de un Estado democrático debería predicar con el ejemplo y no utilizar. Esas herramientas para generar confusión, mentiras y campañas de desprestigio.",
+   "marks": [
+    [
+     0,
+     1004.7
+    ],
+    [
+     67,
+     1007.5
+    ],
+    [
+     152,
+     1011.7
+    ],
+    [
+     219,
+     1015.1
+    ],
+    [
+     258,
+     1017.5
+    ],
+    [
+     300,
+     1019.8
+    ],
+    [
+     373,
+     1023.6
+    ],
+    [
+     450,
+     1027.7
+    ],
+    [
+     513,
+     1030.9
+    ],
+    [
+     582,
+     1034.0
+    ],
+    [
+     587,
+     1034.9
+    ]
+   ]
+  },
+  {
+   "start": 1040.38,
+   "end": 1053.7,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "De hecho, usted en 2021 dejó Twitter, ahora X, dijo con carácter indefinido, porque dijo que quería volver a hacer buena política y que esta red le alejaba de ello. Pero ahora ha vuelto. ¿Qué ha cambiado?",
+   "marks": [
+    [
+     0,
+     1040.4
+    ],
+    [
+     65,
+     1044.6
+    ],
+    [
+     136,
+     1049.2
+    ],
+    [
+     165,
+     1050.8
+    ],
+    [
+     187,
+     1052.6
+    ],
+    [
+     195,
+     1053.3
+    ]
+   ]
+  },
+  {
+   "start": 1053.7,
+   "end": 1182.04,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Pues efectivamente yo personalmente dejé Twitter hace ya años porque Twitter forma parte igual que todas las redes sociales de grandes empresas tecnológicas que están al servicio de la extrema derecha, que están financiadas por la extrema derecha, que el algoritmo obedece a la extrema derecha, que promueven los discursos de odio y por lo tanto soy muy crítica con redes sociales como puede ser Twitter. Sin embargo, ahora mismo estamos en una lucha donde se enfrenta la democracia con el fascismo, literalmente, no solo aquí, sino en muchos otros lugares del mundo, y creo que tenemos que dar la batalla en todos los campos. Entonces, yo personalmente no vuelvo a Twitter, es decir, yo no utilizaré como usuaria Twitter, pero sí que creo que tenemos que estar en todas las redes sociales donde se va a dar esa batalla por la democracia y utilizar esas herramientas para que al menos toda la gente que pueda estar en esas redes y que necesite encontrar información de cómo garantizar el derecho a la vivienda, cómo subir salarios, cómo reducir el coste de la vida, que esas propuestas puedan llegarle a todo el mundo a pesar de las campañas de desinformación que hay. Y luego hay otra cosa que me interesa especialmente y creo que es especialmente importante también en esta campaña y que también es un parte un poco de autocrítica creo de las izquierdas que tenemos que hacer, que es que hay muchísima gente joven que va a votar por primera vez en estas elecciones, muchísima gente joven que se siente muy lejos de la política institucional, que la política institucional hace mucho tiempo que no le habla a esta gente joven, eso la extrema derecha lo ha intentado utilizar y no podemos dejar ese... Ese camino, ese campo por perdido. Hay que utilizar todos los canales para llegar a la gente joven y para decirle que hay una alternativa valiente, una alternativa que no habla desde el paternalismo, que no le va a dar sermones, sino que desde el tú a tú, en todos los canales, le va a decir que aquí hay una alternativa valiente para hacer políticas de vivienda, para hacer políticas de derechos, para garantizar libertades y que efectivamente esa puede ser su opción. Entonces creo que el hecho también de llegar a la gente joven por todos los canales es un tema especialmente importante en estas elecciones.",
+   "marks": [
+    [
+     0,
+     1053.7
+    ],
+    [
+     83,
+     1059.4
+    ],
+    [
+     161,
+     1064.4
+    ],
+    [
+     231,
+     1068.1
+    ],
+    [
+     309,
+     1072.1
+    ],
+    [
+     366,
+     1075.6
+    ],
+    [
+     405,
+     1077.5
+    ],
+    [
+     441,
+     1079.9
+    ],
+    [
+     517,
+     1083.9
+    ],
+    [
+     579,
+     1088.1
+    ],
+    [
+     627,
+     1090.1
+    ],
+    [
+     654,
+     1091.4
+    ],
+    [
+     723,
+     1095.3
+    ],
+    [
+     781,
+     1098.4
+    ],
+    [
+     840,
+     1102.5
+    ],
+    [
+     909,
+     1105.3
+    ],
+    [
+     985,
+     1110.3
+    ],
+    [
+     1054,
+     1113.5
+    ],
+    [
+     1118,
+     1116.7
+    ],
+    [
+     1169,
+     1121.1
+    ],
+    [
+     1181,
+     1122.2
+    ],
+    [
+     1260,
+     1124.9
+    ],
+    [
+     1318,
+     1128.3
+    ],
+    [
+     1386,
+     1131.5
+    ],
+    [
+     1447,
+     1134.7
+    ],
+    [
+     1517,
+     1138.7
+    ],
+    [
+     1599,
+     1142.0
+    ],
+    [
+     1657,
+     1145.7
+    ],
+    [
+     1702,
+     1150.1
+    ],
+    [
+     1728,
+     1152.2
+    ],
+    [
+     1737,
+     1152.7
+    ],
+    [
+     1795,
+     1155.1
+    ],
+    [
+     1870,
+     1159.8
+    ],
+    [
+     1931,
+     1162.7
+    ],
+    [
+     1983,
+     1165.9
+    ],
+    [
+     2053,
+     1169.0
+    ],
+    [
+     2133,
+     1174.1
+    ],
+    [
+     2172,
+     1176.0
+    ],
+    [
+     2207,
+     1177.4
+    ],
+    [
+     2262,
+     1179.9
+    ]
+   ]
+  },
+  {
+   "start": 1182.98,
+   "end": 1200.04,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Hablando de campos perdidos o no, su compañero de candidatura, Emilio Delgado, aseguró que en barrios de algunas ciudades hay niños que no pueden salir a la calle. Literalmente dijo, porque pasan movidas. ¿Cree que hay un problema de seguridad en nuestras ciudades o es comprarle un cierto marco a la extrema derecha?",
+   "marks": [
+    [
+     0,
+     1183.0
+    ],
+    [
+     79,
+     1186.7
+    ],
+    [
+     146,
+     1189.9
+    ],
+    [
+     164,
+     1191.6
+    ],
+    [
+     205,
+     1194.1
+    ],
+    [
+     219,
+     1194.9
+    ],
+    [
+     290,
+     1198.8
+    ]
+   ]
+  },
+  {
+   "start": 1200.56,
+   "end": 1267.2,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Bueno, no recuerdo exactamente en qué contexto hizo esas declaraciones Emilio. Yo creo que, en general, España es uno de los países más seguros del mundo, eso lo dicen las estadísticas de todas las organizaciones internacionales, a pesar de ello, evidentemente, que siempre hay problemas de seguridad o de convivencia. El tema es que hay diferentes respuestas a esas sensaciones de inseguridad. Y yo lo que puedo decir también por la experiencia que tengo tanto como ciudadana como de gestión es que la izquierda lo que tiene que dar es una alternativa de convivencia y de seguridad completamente diferente de la que da la extrema derecha. La extrema derecha agita el miedo e intenta dividirnos entre nosotros, entre la mayoría social trabajadora e intenta que desconfiemos del vecino. Para mí la propuesta de seguridad es reforzar la comunidad, reforzar los barrios Y sobre todo garantizar la vivienda, garantizar el salario digno, garantizar pensiones dignas, garantizar servicios públicos dignos. Esa es la mayor seguridad que la izquierda tiene que ofrecer para que efectivamente la gente no tenga miedo en su día a día.",
+   "marks": [
+    [
+     0,
+     1200.6
+    ],
+    [
+     79,
+     1204.9
+    ],
+    [
+     82,
+     1205.4
+    ],
+    [
+     144,
+     1208.7
+    ],
+    [
+     230,
+     1215.1
+    ],
+    [
+     303,
+     1219.5
+    ],
+    [
+     319,
+     1220.4
+    ],
+    [
+     379,
+     1223.8
+    ],
+    [
+     395,
+     1224.9
+    ],
+    [
+     446,
+     1228.6
+    ],
+    [
+     513,
+     1232.5
+    ],
+    [
+     573,
+     1235.5
+    ],
+    [
+     640,
+     1238.2
+    ],
+    [
+     651,
+     1238.6
+    ],
+    [
+     728,
+     1244.6
+    ],
+    [
+     786,
+     1247.4
+    ],
+    [
+     807,
+     1248.7
+    ],
+    [
+     880,
+     1253.3
+    ],
+    [
+     983,
+     1260.5
+    ],
+    [
+     1000,
+     1261.7
+    ],
+    [
+     1053,
+     1263.8
+    ],
+    [
+     1118,
+     1266.9
+    ]
+   ]
+  },
+  {
+   "start": 1268.68,
+   "end": 1301.28,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "La última vez que se presentó a unas elecciones, las municipales del 23, hablando de barrios, perdió apoyos en lo que podríamos decir los distintos barrios más populares. No Barris bajó 5 puntos, en cambio los ganó en algunos de más renta de Barcelona, por ejemplo el Eixample. Usted estaba diciendo qué tiene que hacer la izquierda, pues qué tiene que hacer la izquierda para reconectar con ese votante desencantado que seguramente era suyo, no de Ada Colau, sino de un partido de izquierdas, a lo mejor no el suyo, pero puede ser.",
+   "marks": [
+    [
+     0,
+     1268.7
+    ],
+    [
+     69,
+     1272.0
+    ],
+    [
+     138,
+     1276.8
+    ],
+    [
+     171,
+     1278.7
+    ],
+    [
+     210,
+     1282.0
+    ],
+    [
+     278,
+     1286.1
+    ],
+    [
+     349,
+     1290.7
+    ],
+    [
+     433,
+     1295.9
+    ],
+    [
+     494,
+     1299.5
+    ]
+   ]
+  },
+  {
+   "start": 1301.28,
+   "end": 1431.46,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Sí, yo después de estos más de dos años que he estado alejada de la primera línea institucional, aunque me propusieron volver antes y siempre dije que no, pero me han servido para tomar un poco de distancia y hacer aprendizajes. Y creo que una de las autocríticas constructivas que las izquierdas tenemos que hacer, y la tenemos que hacer rápido, es que hemos permitido de alguna manera que, tanto en el relato como hablando de algunos temas en concreto, La extrema derecha consiga dividirnos, es decir, consiga dividir a la mayoría social trabajadora y haga discursos donde se enfrentan mujeres con hombres, jóvenes con pensionistas, o con migrantes, o con personas LGTBI. En realidad somos la mayoría social trabajadora y eso es lo que la izquierda no puede perder nunca de vista. Somos una mayoría social trabajadora que queremos lo mismo, que queremos una vida digna y en paz, que queremos que se garantice el derecho a la vivienda, que se suban los salarios, que se suban las pensiones, que se refuercen los servicios públicos, que haya una agenda de derechos y libertades. Eso lo quiere la mayoría social trabajadora. Y creo que ahí la extrema derecha ha sido muy hábil en utilizar las redes, en utilizar el individualismo, que es uno de los valores que el capitalismo ha promovido más en los últimos años. La mayoría social trabajadora ha utilizado todo eso para dividir a esa mayoría social e intentar enfrentarnos entre nosotros. Eso es lo que no podemos permitir. Nosotros tenemos que ser el partido de la cohesión social, de la convivencia y de recordarnos que somos mayoría. Todas nosotras, mujeres, hombres, gente joven, pensionistas, personas LGTBI, personas migrantes, somos la mayoría social trabajadora que dependemos de nuestro trabajo y no de especular para llegar a final de mes. Y somos esa mayoría social trabajadora que estamos sufriendo cada vez más desigualdad y más precariedad por culpa de unos ultra ricos que cada día son más ricos. Entonces tenemos a unos partidos de derecha que son el brazo político de esos ultra ricos que pretenden enfrentarnos entre nosotras para ellos mantener sus privilegios y aumentarlos. Y ahí está el conflicto que la izquierda tiene que señalar. Por lo tanto creo que sí, han habido errores que hemos hecho en el pasado pero que creo que ahora estamos corrigiendo. Y lo importante es que no olvidemos a quién servimos, que es esa mayoría social trabajadora.",
+   "marks": [
+    [
+     0,
+     1301.3
+    ],
+    [
+     54,
+     1305.1
+    ],
+    [
+     134,
+     1308.8
+    ],
+    [
+     194,
+     1312.6
+    ],
+    [
+     229,
+     1314.4
+    ],
+    [
+     264,
+     1316.8
+    ],
+    [
+     339,
+     1320.0
+    ],
+    [
+     404,
+     1325.4
+    ],
+    [
+     482,
+     1330.6
+    ],
+    [
+     559,
+     1336.0
+    ],
+    [
+     641,
+     1341.1
+    ],
+    [
+     674,
+     1342.9
+    ],
+    [
+     722,
+     1345.3
+    ],
+    [
+     776,
+     1347.5
+    ],
+    [
+     783,
+     1348.2
+    ],
+    [
+     856,
+     1351.7
+    ],
+    [
+     914,
+     1355.2
+    ],
+    [
+     977,
+     1358.3
+    ],
+    [
+     1053,
+     1361.3
+    ],
+    [
+     1079,
+     1362.3
+    ],
+    [
+     1124,
+     1364.5
+    ],
+    [
+     1126,
+     1364.9
+    ],
+    [
+     1188,
+     1367.9
+    ],
+    [
+     1256,
+     1371.3
+    ],
+    [
+     1313,
+     1373.8
+    ],
+    [
+     1324,
+     1374.4
+    ],
+    [
+     1399,
+     1377.2
+    ],
+    [
+     1439,
+     1379.4
+    ],
+    [
+     1474,
+     1380.9
+    ],
+    [
+     1539,
+     1384.0
+    ],
+    [
+     1587,
+     1386.9
+    ],
+    [
+     1627,
+     1389.8
+    ],
+    [
+     1724,
+     1396.0
+    ],
+    [
+     1792,
+     1399.7
+    ],
+    [
+     1800,
+     1400.1
+    ],
+    [
+     1866,
+     1403.9
+    ],
+    [
+     1934,
+     1407.8
+    ],
+    [
+     1962,
+     1409.3
+    ],
+    [
+     1998,
+     1411.1
+    ],
+    [
+     2066,
+     1414.4
+    ],
+    [
+     2145,
+     1418.3
+    ],
+    [
+     2151,
+     1418.8
+    ],
+    [
+     2205,
+     1420.9
+    ],
+    [
+     2218,
+     1421.4
+    ],
+    [
+     2279,
+     1425.0
+    ],
+    [
+     2324,
+     1427.1
+    ],
+    [
+     2347,
+     1428.2
+    ]
+   ]
+  },
+  {
+   "start": 1431.76,
+   "end": 1436.44,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "La escuela es tradicional, que parece que se había abandonado en el discurso político, también por parte de la izquierda.",
+   "marks": [
+    [
+     0,
+     1431.8
+    ],
+    [
+     68,
+     1434.6
+    ]
+   ]
+  },
+  {
+   "start": 1436.5,
+   "end": 1530.18,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Pero es que efectivamente hay un problema, ya te diría que ni siquiera de clases, creo que es incluso más grave. Hay indicadores de que estamos incluso volviendo a una situación medieval, porque ya ni siquiera hay clases sociales. Hay una minoría ultra rica, o sea, en España hay 33 personas que son milmillonarias, 33 personas. La desigualdad no para de crecer. Y el tema de la desigualdad creo que es el tema central de nuestra agenda ahora mismo. Es decir, tenemos a una derecha y una extrema derecha que su proyecto político es aumentar esa desigualdad. Es decir, que sirven a esas élites económicas, a esas grandes multinacionales, grandes tecnológicas, grandes inmobiliarias y fondos buitre, y que no se esconden, como la señora Ayuso, que le pone alfombras rojas a los especuladores en Madrid. Tenemos a esa derecha que su proyecto es aumentar la desigualdad en beneficio de los ultraricos. Luego tenemos a un partido socialista que es tibio y que lo que quiere es gestionar la desigualdad, es decir, quiere hacer algunas medidas sociales pero sin cuestionar que haya ultra ricos, sin enfrentarse a esas élites con las que ha tenido una cierta relación de connivencia, con las que ha tenido unas puertas giratorias y ahí están también los casos de corrupción del partido socialista. Entonces, hay un Partido Socialista que gestiona la desigualdad, pero que no la combate. Y luego está nuestra propuesta, la del Frente Amplio, que es la de una izquierda transformadora que no se resigna que haya desigualdad y que la quiere reducir al mínimo histórico. Y que lo que quiere es que dejen de haber ultra ricos y se redistribuya la riqueza para que efectivamente todo el mundo tenga las necesidades básicas cubiertas. Yo creo que ese es el gran conflicto social y económico que tenemos ahora mismo sobre la mesa.",
+   "marks": [
+    [
+     0,
+     1436.5
+    ],
+    [
+     62,
+     1439.5
+    ],
+    [
+     113,
+     1441.7
+    ],
+    [
+     132,
+     1443.1
+    ],
+    [
+     210,
+     1447.1
+    ],
+    [
+     231,
+     1447.9
+    ],
+    [
+     276,
+     1450.3
+    ],
+    [
+     329,
+     1454.8
+    ],
+    [
+     352,
+     1455.9
+    ],
+    [
+     363,
+     1456.7
+    ],
+    [
+     406,
+     1458.5
+    ],
+    [
+     450,
+     1460.5
+    ],
+    [
+     474,
+     1461.9
+    ],
+    [
+     545,
+     1465.7
+    ],
+    [
+     558,
+     1466.4
+    ],
+    [
+     620,
+     1469.9
+    ],
+    [
+     710,
+     1475.1
+    ],
+    [
+     776,
+     1478.1
+    ],
+    [
+     801,
+     1479.2
+    ],
+    [
+     851,
+     1481.7
+    ],
+    [
+     898,
+     1484.8
+    ],
+    [
+     925,
+     1485.6
+    ],
+    [
+     985,
+     1489.5
+    ],
+    [
+     1070,
+     1494.7
+    ],
+    [
+     1133,
+     1498.3
+    ],
+    [
+     1203,
+     1500.8
+    ],
+    [
+     1278,
+     1504.3
+    ],
+    [
+     1290,
+     1505.0
+    ],
+    [
+     1364,
+     1508.9
+    ],
+    [
+     1379,
+     1509.7
+    ],
+    [
+     1433,
+     1512.5
+    ],
+    [
+     1497,
+     1515.2
+    ],
+    [
+     1559,
+     1518.4
+    ],
+    [
+     1565,
+     1518.9
+    ],
+    [
+     1618,
+     1521.5
+    ],
+    [
+     1701,
+     1525.2
+    ],
+    [
+     1720,
+     1526.4
+    ],
+    [
+     1766,
+     1528.5
+    ]
+   ]
+  },
+  {
+   "start": 1530.18,
+   "end": 1536.16,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "A cabo con un par de preguntas sobre su lista, ¿por qué no repite la portavoz Aina Vidal en la lista de los comuns?",
+   "marks": [
+    [
+     0,
+     1530.2
+    ],
+    [
+     56,
+     1533.5
+    ]
+   ]
+  },
+  {
+   "start": 1537.0,
+   "end": 1598.64,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Ante todo agradecer muchísimo el trabajo a Aina Vidal que llevaba más de 10 años de experiencia como diputada en el Congreso de los Diputados. Creo que ha hecho un trabajo excelente y así se le ha reconocido desde el partido de los comuns. Pero finalmente la dirección del partido tiene que hacer listas y hay también una importancia de la renovación. Digamos que repetimos encabezando en esta lista estoy yo misma y está Ernest Hurtasun que es una persona con mucha experiencia pero el partido ha considerado que también era importante que hubiera renovación y ha habido mucha renovación no solo hay Navidad sino que también altos cargos de nuestra formación como es Candela López que es coordinadora del partido como es Gerardo Pisarello que ha sido un diputado muy destacado en esta legislatura y que ahora se presenta al Ayuntamiento de Barcelona Barcelona como candidato al alcalde, Eloy Badía, o sea que hay muchos muy buenos diputados, para todos ellos solo tengo palabras de agradecimiento y de reconocimiento, que han hecho un excelente trabajo, que seguirán en activo en los comuns, que siguen siendo un activo del partido,",
+   "marks": [
+    [
+     0,
+     1537.0
+    ],
+    [
+     70,
+     1541.6
+    ],
+    [
+     132,
+     1545.1
+    ],
+    [
+     143,
+     1546.2
+    ],
+    [
+     194,
+     1548.8
+    ],
+    [
+     240,
+     1551.6
+    ],
+    [
+     269,
+     1553.5
+    ],
+    [
+     337,
+     1558.3
+    ],
+    [
+     352,
+     1559.0
+    ],
+    [
+     415,
+     1562.7
+    ],
+    [
+     484,
+     1566.1
+    ],
+    [
+     562,
+     1569.6
+    ],
+    [
+     632,
+     1572.6
+    ],
+    [
+     706,
+     1576.4
+    ],
+    [
+     778,
+     1579.6
+    ],
+    [
+     851,
+     1583.2
+    ],
+    [
+     921,
+     1587.5
+    ],
+    [
+     1000,
+     1592.6
+    ],
+    [
+     1078,
+     1596.2
+    ]
+   ]
+  },
+  {
+   "start": 1598.8,
+   "end": 1599.48,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "también",
+   "marks": [
+    [
+     0,
+     1598.8
+    ]
+   ]
+  },
+  {
+   "start": 1599.48,
+   "end": 1609.34,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Aina Vidal, se sigue contando con ella y seguro que será muy importante para la política presente y futura desde los comuns, hará campaña con nosotras y seguiremos contando con ella.",
+   "marks": [
+    [
+     0,
+     1599.5
+    ],
+    [
+     61,
+     1603.0
+    ],
+    [
+     138,
+     1607.3
+    ]
+   ]
+  },
+  {
+   "start": 1609.34,
+   "end": 1616.04,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Más de un tercio del Consejo Nacional votó en contra de esta lista renovada que han configurado. ¿Cómo lo interpreta?",
+   "marks": [
+    [
+     0,
+     1609.3
+    ],
+    [
+     61,
+     1612.5
+    ],
+    [
+     97,
+     1614.9
+    ]
+   ]
+  },
+  {
+   "start": 1616.56,
+   "end": 1687.12,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Yo creo que haya debate dentro de las formaciones políticas es positivo y es señal de que son formaciones que están vivas. Yo, cuando me fui de la primera línea, tampoco estoy en los órganos de dirección, así que no participo de esas cuestiones orgánicas internas, Pero pleno respeto a que hayan diferentes criterios y que finalmente, escuchando a todo el mundo, haya una dirección del partido que elija una lista, que es una lista muy potente, que tiene perfiles de renovación y perfiles muy buenos. Quiero destacar por ejemplo que está Andrés García Berrio, que actualmente es diputado en el Parlamento, que es alguien de origen gitano, que va a plantear muy claramente la cuestión de derechos humanos, de reconocimiento al derecho a la protesta, tiene una larga trayectoria. Y creo que es un tema central en el momento en que nos encontramos. Está Lucía Martín también, que tiene una larga trayectoria en la defensa del derecho a la vivienda y experiencia de gestión en materia de vivienda, que es otro tema central. Así que creo que es una lista que aporta muchas cosas buenas. Insisto, todas las personas que nos repiten no desaparecen, siguen estando en los comuns y son activos de primera línea para esta formación política. Pues señora Colau, mucha suerte con la campaña y gracias.",
+   "marks": [
+    [
+     0,
+     1616.6
+    ],
+    [
+     72,
+     1620.6
+    ],
+    [
+     123,
+     1624.5
+    ],
+    [
+     134,
+     1625.5
+    ],
+    [
+     194,
+     1627.8
+    ],
+    [
+     276,
+     1633.2
+    ],
+    [
+     353,
+     1637.2
+    ],
+    [
+     419,
+     1640.6
+    ],
+    [
+     489,
+     1644.1
+    ],
+    [
+     501,
+     1644.6
+    ],
+    [
+     564,
+     1648.2
+    ],
+    [
+     639,
+     1652.9
+    ],
+    [
+     708,
+     1657.8
+    ],
+    [
+     778,
+     1662.2
+    ],
+    [
+     785,
+     1662.7
+    ],
+    [
+     846,
+     1665.4
+    ],
+    [
+     919,
+     1668.7
+    ],
+    [
+     984,
+     1671.7
+    ],
+    [
+     1020,
+     1673.3
+    ],
+    [
+     1044,
+     1674.4
+    ],
+    [
+     1082,
+     1677.8
+    ],
+    [
+     1118,
+     1679.3
+    ],
+    [
+     1188,
+     1682.6
+    ],
+    [
+     1232,
+     1684.8
+    ],
+    [
+     1268,
+     1686.5
+    ]
+   ]
+  },
+  {
+   "start": 1687.7,
+   "end": 1688.02,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Gracias.",
+   "marks": [
+    [
+     0,
+     1687.7
+    ]
+   ]
+  }
+ ]
+}

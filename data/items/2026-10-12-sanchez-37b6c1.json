@@ -1,0 +1,190 @@
+{
+ "id": "2026-10-12-sanchez-37b6c1",
+ "date": "2026-10-12",
+ "expected_person": "Pedro Sánchez",
+ "kind": "other",
+ "outlet": "Antena 3 Noticias (clip)",
+ "title": "Pedro Sánchez admite que varios buques marroquíes entraron en aguas de Ceuta (declaraciones tras el desfile del 12 de octubre)",
+ "url": "https://dpvclip.antena3.com/assets7/2026/10/12/ABAFB5CE-8C7C-4BB9-8404-BF5F6AE155EB/640x360.mp4",
+ "language": "es",
+ "duration_s": 88.0,
+ "sha256": "4125dc49b4e1fcacddf6528651cc3cbaeb0c904ae4c22adbd817a646c44025b3",
+ "fetched_at": "2026-10-25T22:09:06+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T22:16:34+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "unknown",
+   "reason": "best sim 0.47 < 0.65",
+   "talk_s": 25.7
+  },
+  "SPEAKER_01": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "unknown",
+   "reason": "best sim 0.46 < 0.65",
+   "talk_s": 57.1
+  }
+ },
+ "turns": [
+  {
+   "start": 0.14,
+   "end": 58.56,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Pues hoy, un día antes de esa visita, el diario El País ha publicado que buques de guerra marroquíes entraron en aguas de Ceuta el 30 y el 31 de julio, justo los días en los que se produjo el asalto masivo de inmigrantes a la frontera. La noticia ha sido confirmada por el presidente del gobierno en una conversación informal con los periodistas. Sánchez ha dicho que fueron días intensos, pero que la interlocución entre las fuerzas armadas de los dos países fue fluida y que no se ha vuelto a producir. La pregunta es por qué el gobierno no informó a los españoles de ese incidente, y solo lo hemos conocido ahora, debido a la filtración a un periódico. La segunda pregunta es si habrá ocurrido algo más de lo que el gobierno no ha dado información. Hablamos de un incidente serio, porque los buques militares de España y Marruecos estuvieron muy cerca, y eso da mayor verosimilitud, si es que cabe más, a la sospecha de que el gobierno marroquí estaba involucrado en el asalto a la frontera. Mar Ferra, vamos a Rabat. ¿Alguna reacción de Marruecos a la noticia de la incursión de sus barcos en aguas españolas?",
+   "marks": [
+    [
+     0,
+     0.1
+    ],
+    [
+     56,
+     3.9
+    ],
+    [
+     128,
+     7.9
+    ],
+    [
+     174,
+     10.9
+    ],
+    [
+     236,
+     13.6
+    ],
+    [
+     239,
+     14.0
+    ],
+    [
+     317,
+     17.0
+    ],
+    [
+     347,
+     18.6
+    ],
+    [
+     395,
+     21.1
+    ],
+    [
+     464,
+     24.1
+    ],
+    [
+     505,
+     28.4
+    ],
+    [
+     520,
+     29.3
+    ],
+    [
+     585,
+     32.0
+    ],
+    [
+     645,
+     35.4
+    ],
+    [
+     656,
+     36.1
+    ],
+    [
+     712,
+     39.0
+    ],
+    [
+     752,
+     41.5
+    ],
+    [
+     784,
+     43.0
+    ],
+    [
+     858,
+     46.0
+    ],
+    [
+     920,
+     50.0
+    ],
+    [
+     985,
+     52.7
+    ],
+    [
+     995,
+     53.1
+    ],
+    [
+     1021,
+     54.6
+    ],
+    [
+     1056,
+     56.2
+    ]
+   ]
+  },
+  {
+   "start": 60.22,
+   "end": 86.26,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "De momento aquí no hay reacción oficial, tampoco se espera, no es habitual que Rabat responda a informaciones publicadas en medios de comunicación. Esta frontera marítima siempre ha sido un tema sensible. Ha habido otros incidentes puntuales en el pasado, pero nunca entre dos fragatas militares. Marruecos no solo reivindica su soberanía sobre la ciudad autónoma, sino también sobre sus aguas.",
+   "marks": [
+    [
+     0,
+     60.2
+    ],
+    [
+     66,
+     64.4
+    ],
+    [
+     148,
+     69.7
+    ],
+    [
+     153,
+     70.2
+    ],
+    [
+     205,
+     73.3
+    ],
+    [
+     232,
+     75.0
+    ],
+    [
+     297,
+     79.3
+    ],
+    [
+     310,
+     80.5
+    ],
+    [
+     388,
+     85.8
+    ]
+   ]
+  }
+ ]
+}

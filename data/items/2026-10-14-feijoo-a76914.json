@@ -1,0 +1,94 @@
+{
+ "id": "2026-10-14-feijoo-a76914",
+ "date": "2026-10-14",
+ "expected_person": "Alberto Núñez Feijóo",
+ "kind": "other",
+ "outlet": "Antena 3 Noticias (clip)",
+ "title": "Feijóo exige explicaciones a Sánchez por los buques marroquíes: \"abandono negligente e imperdonable\" (posible solape con el acto de Bruselas del 15)",
+ "url": "https://dpvclip.antena3.com/assets1/2026/10/14/F052D267-2F58-4169-BA92-857F88E4D18A/640x360.mp4",
+ "language": "es",
+ "duration_s": 26.01,
+ "sha256": "2ab49e688651d69f63880c6ca215507aa7518302386f7233232e79688977bdf4",
+ "fetched_at": "2026-10-25T22:09:08+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T22:17:02+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "too_short",
+   "reason": "only 14s of speech",
+   "talk_s": 13.8
+  },
+  "SPEAKER_01": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "too_short",
+   "reason": "only 10s of speech",
+   "talk_s": 9.8
+  }
+ },
+ "turns": [
+  {
+   "start": 0.0,
+   "end": 8.86,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Gracias, Marc. Bueno, pues aquí Núñez Feijóo exige hoy a Pedro Sánchez que comparezca por este motivo en el Congreso, que dé explicaciones por la incursión de esos dos barcos de guerra marroquíes.",
+   "marks": [
+    [
+     0,
+     0.0
+    ],
+    [
+     15,
+     0.5
+    ],
+    [
+     71,
+     3.5
+    ],
+    [
+     143,
+     6.6
+    ]
+   ]
+  },
+  {
+   "start": 10.3,
+   "end": 24.26,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "El gobierno lo sabía y el presidente se fue de vacaciones y además se lo ocultó a las Cortes Generales, a los ceutíes y al resto de los españoles. Y ya está puesto en conocimiento de la Audiencia Nacional donde estamos personados.",
+   "marks": [
+    [
+     0,
+     10.3
+    ],
+    [
+     60,
+     14.1
+    ],
+    [
+     120,
+     17.9
+    ],
+    [
+     147,
+     19.4
+    ],
+    [
+     183,
+     21.4
+    ]
+   ]
+  }
+ ]
+}

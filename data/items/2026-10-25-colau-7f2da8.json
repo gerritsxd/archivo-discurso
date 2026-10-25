@@ -1,0 +1,110 @@
+{
+ "id": "2026-10-25-colau-7f2da8",
+ "date": "2026-10-25",
+ "expected_person": "Ada Colau",
+ "kind": "other",
+ "outlet": "laSexta (clip)",
+ "title": "Ada Colau acusa al PSOE de \"gestionar\" y no \"combatir\" la desigualdad",
+ "url": "https://dpvclip.lasexta.com/assets13/2026/10/25/5D625823-3966-4944-BE6D-ECC7181F39B3/640x360.mp4",
+ "language": "es",
+ "duration_s": 46.02,
+ "sha256": "207285247a2396c32442acdc28c6cc91cf45ccd6aff5a0e6ae4d60181afdcead",
+ "fetched_at": "2026-10-25T22:07:25+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T22:39:56+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_01": {
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "decision": "match",
+   "reason": "sim 0.84, next 0.32",
+   "talk_s": 21.7
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "unknown",
+   "reason": "best sim 0.30 < 0.65",
+   "talk_s": 21.0
+  }
+ },
+ "turns": [
+  {
+   "start": 0.0,
+   "end": 20.86,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Está claro quiénes son los adversarios de Sánchez, PP y Vox, que hasta hace unas horas eran también los únicos adversarios de Frente Amplio. Lo sorprendente es cómo hablan ahora mismo del PSOE, porque la propia Ada Colau aseguró que no iban a criticar a las formaciones izquierdas, pero sin embargo hoy acusan los socialistas de no combatir la desigualdad.",
+   "marks": [
+    [
+     0,
+     0.0
+    ],
+    [
+     65,
+     3.7
+    ],
+    [
+     141,
+     7.7
+    ],
+    [
+     211,
+     11.7
+    ],
+    [
+     282,
+     15.7
+    ]
+   ]
+  },
+  {
+   "start": 22.38,
+   "end": 44.82,
+   "label": "SPEAKER_01",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Ya sabemos lo que hacen, gestionar la desigualdad, pero jamás combaten la desigualdad. Cuando le pidieron cuáles eran las medidas destacadas de este último gobierno, nos dijo que las subidas del salario mínimo, la reforma laboral y los últimos decretos de vivienda. Le pediría a ver si en esta campaña en algún momento pudiera informarnos de alguna medida de la que esté muy orgulloso de algún ministro socialista.",
+   "marks": [
+    [
+     0,
+     22.4
+    ],
+    [
+     74,
+     27.4
+    ],
+    [
+     87,
+     27.9
+    ],
+    [
+     156,
+     31.2
+    ],
+    [
+     230,
+     36.3
+    ],
+    [
+     266,
+     38.5
+    ],
+    [
+     289,
+     39.5
+    ],
+    [
+     362,
+     42.5
+    ]
+   ]
+  }
+ ]
+}

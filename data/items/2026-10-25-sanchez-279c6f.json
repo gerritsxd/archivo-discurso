@@ -1,0 +1,875 @@
+{
+ "id": "2026-10-25-sanchez-279c6f",
+ "date": "2026-10-25",
+ "expected_person": "Pedro Sánchez",
+ "kind": "other",
+ "outlet": "EL PAÍS YouTube",
+ "title": "ELECCIONES 29N | Entrevista a Pedro Sánchez: “Un Gobierno del PP con Vox es retroceder 50 años”",
+ "url": "https://www.youtube.com/watch?v=jGOwPQZwQxI",
+ "language": "es",
+ "duration_s": 557.44,
+ "sha256": "286821ff1bdd9ad3fe51adccdfdfb68753a6a34502de71bc84cd554ee1b13c41",
+ "fetched_at": "2026-10-25T22:09:40+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T22:42:17+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_01": {
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "decision": "match",
+   "reason": "sim 0.89, next 0.21",
+   "talk_s": 488.5
+  },
+  "SPEAKER_02": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "too_short",
+   "reason": "only 14s of speech",
+   "talk_s": 13.7
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "too_short",
+   "reason": "only 16s of speech",
+   "talk_s": 15.6
+  }
+ },
+ "turns": [
+  {
+   "start": 1.23,
+   "end": 35.97,
+   "label": "SPEAKER_01",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Si el Parlamento no tiene los mimbres para responder de manera efectiva a la principal preocupación de los ciudadanos, que es el acceso a la vivienda, pues es evidente que tenemos que abrir las urnas para tener una mayoría, que es lo que espero, mucho más amplia y progresista, para llegar más lejos y antes en materia de vivienda. No creo que sea una huelga general contra, sino a favor de que las administraciones, todas las administraciones que tenemos competencias, Yolanda Díaz, no solamente el Gobierno de España, pongamos soluciones a la principal preocupación y fuente de desigualdad que hay en nuestro país, que",
+   "marks": [
+    [
+     0,
+     1.2
+    ],
+    [
+     72,
+     6.3
+    ],
+    [
+     138,
+     9.6
+    ],
+    [
+     205,
+     13.5
+    ],
+    [
+     265,
+     16.4
+    ],
+    [
+     332,
+     20.6
+    ],
+    [
+     335,
+     20.8
+    ],
+    [
+     395,
+     26.5
+    ],
+    [
+     497,
+     30.0
+    ],
+    [
+     577,
+     33.9
+    ]
+   ]
+  },
+  {
+   "start": 35.97,
+   "end": 37.07,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "es precisamente el acceso a la vivienda.",
+   "marks": [
+    [
+     0,
+     36.0
+    ]
+   ]
+  },
+  {
+   "start": 37.59,
+   "end": 157.53,
+   "label": "SPEAKER_01",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Durante estos últimos años hemos construido un millón de viviendas. La clave no está solamente en construir más viviendas, sino en comprometerse todas las administraciones a construir vivienda asequible, vivienda protegida, y a ser posible que esa vivienda protegida no sea vendida a fondos buitre. En segundo lugar, la regulación. Si hemos intervenido, por ejemplo, ante los oxen energéticos de la guerra de Putin en Ucrania, un mercado que no funcionaba como era el mercado de la energía y ha sido positivo para la competitividad, la industria, los hogares y las empresas de nuestro país, ¿por qué no vamos a poder regular también el mercado de la vivienda? La patronal y los sindicatos, en el marco de la negociación colectiva, deben negociar el aumento de los salarios medios para hacer frente a la inflación y, por tanto, llegar a un acuerdo sindicato y patronal. El Gobierno de España, ¿qué está haciendo? Ha subido el salario mínimo, como usted bien indicaba, y, por supuesto, subiremos el salario mínimo interprofesional, como nos hemos comprometido a ello. El sistema público de pensiones es un sistema saneado con unas cuentas públicas sólidas. Y si a Feijóo y a Vox lo que les preocupa es la sostenibilidad de esas pensiones, lo que deberían hacer es decirle a la patronal que acordara con los sindicatos una subida mayor de los sueldos a la clase media y trabajadora. Probablemente no haya una sola respuesta, pero sí le daré una que me parece fundamental, Y es el algoritmo, el diseño de esos algoritmos, que lo que hacen es privilegiar un engagement por parte de los usuarios que claramente polariza y claramente está propagando mensajes de odio y mensajes de ultraderecha. Y la pena ha sido precisamente la utilización, la suplantación mediante la inteligencia artificial de la imagen de las personas. Claro, el que lo haga todo un partido como el Partido Popular, que aspira a gobernar, me parece lamentable.",
+   "marks": [
+    [
+     0,
+     37.6
+    ],
+    [
+     68,
+     41.4
+    ],
+    [
+     77,
+     42.0
+    ],
+    [
+     155,
+     45.9
+    ],
+    [
+     244,
+     50.5
+    ],
+    [
+     299,
+     53.7
+    ],
+    [
+     317,
+     55.0
+    ],
+    [
+     332,
+     56.2
+    ],
+    [
+     396,
+     61.5
+    ],
+    [
+     461,
+     65.2
+    ],
+    [
+     517,
+     68.3
+    ],
+    [
+     596,
+     72.2
+    ],
+    [
+     660,
+     75.1
+    ],
+    [
+     731,
+     78.7
+    ],
+    [
+     800,
+     83.4
+    ],
+    [
+     869,
+     86.9
+    ],
+    [
+     912,
+     88.5
+    ],
+    [
+     941,
+     89.7
+    ],
+    [
+     1030,
+     93.1
+    ],
+    [
+     1066,
+     94.9
+    ],
+    [
+     1101,
+     96.8
+    ],
+    [
+     1155,
+     101.1
+    ],
+    [
+     1169,
+     102.1
+    ],
+    [
+     1226,
+     105.8
+    ],
+    [
+     1297,
+     110.2
+    ],
+    [
+     1359,
+     115.2
+    ],
+    [
+     1380,
+     116.4
+    ],
+    [
+     1433,
+     118.8
+    ],
+    [
+     1498,
+     123.3
+    ],
+    [
+     1568,
+     127.9
+    ],
+    [
+     1652,
+     132.4
+    ],
+    [
+     1688,
+     138.4
+    ],
+    [
+     1719,
+     142.4
+    ],
+    [
+     1803,
+     148.6
+    ],
+    [
+     1817,
+     150.9
+    ],
+    [
+     1863,
+     153.8
+    ]
+   ]
+  },
+  {
+   "start": 157.71,
+   "end": 161.79,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Entiendo entonces que el PSOE se compromete a no utilizar la inteligencia artificial en campaña.",
+   "marks": [
+    [
+     0,
+     157.7
+    ],
+    [
+     74,
+     160.7
+    ]
+   ]
+  },
+  {
+   "start": 162.01,
+   "end": 345.07,
+   "label": "SPEAKER_01",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Nosotros desde luego no vamos a hacer una utilización de deepfakes y mucho menos como está haciendo el Partido Popular, que me parece absolutamente lamentable. Después de muchos años estamos viendo como Vox es quien pone las ideas y el Partido Popular pone la ambición de poder. No se harán esta semana, no se han hecho una foto con Milei, por extrema vergüenza, ninguno de los dos, pero es evidente que comparten su manual de instrucciones de recortes, de tijeretazos o de motoserras. Me parece normal también, desde el punto de vista de un electorado templado, el pensar que en una democracia la alternancia es positiva. La novedad es que lo que estamos escuchando significa que un gobierno del PP con Vox no es una alternancia, es una auténtica involución, es retroceder 40 años, 50 años de golpe. En debates tan sustantivos como es, por ejemplo, el derecho de la mujer a interrumpir o no voluntariamente su embarazo, en cuestiones como, por ejemplo, la muerte digna, lo extraordinario no es que avance la extrema derecha. Lo está haciendo en todo el mundo. Lo extraordinario, lo realmente singular es que España tenga un gobierno progresista. Estas elecciones se pueden resumir en una idea muy sencilla. O avanza el pasado o avanza España. Y creo que vamos a tener una mayoría suficiente como para permitir que España continúe avanzando cuatro años más. Muchos de los que dijeron y están diciendo que hoy va a ganar el Partido Popular con Vox y que tienen ya garantizado una mayoría parlamentaria fueron los que dijeron que en 2019 iba a perder y en 2023 también las opciones progresistas iban a perder. El dilema al que nos vamos a enfrentar, si estamos de acuerdo en que España, como todas las sociedades occidentales, tienen un problema de reto demográfico, es ¿queremos ser una sociedad abierta y por tanto próspera? ¿O queremos ser una sociedad cerrada y por tanto en decadencia? Esa migración tiene que ser, por supuesto, ordenada, regular, tiene también que ser una migración que se integre y que asimile y acepte los valores constitucionales de una sociedad solidaria y abierta como es la sociedad española, donde, por cierto, la igualdad entre hombres y mujeres es uno de sus principales vectores y pilares. Nadie vio la magnitud de lo que sucedió el 30 y el 31 de julio. Eso nos lleva también a una reflexión que me parece también muy relevante vinculada de nuevo con las tecnologías y es la capacidad que tenemos los estados de anticiparnos a movimientos en redes sociales que no sabemos exactamente por parte de quién son dirigidos o por parte de quién son gestionados o autogestionados donde se propaga como la pólvora un bulo, una fake, como fue por ejemplo una lectura interesada de una sentencia del Tribunal Supremo en lo que respecta a la expulsión en frontera.",
+   "marks": [
+    [
+     0,
+     162.0
+    ],
+    [
+     69,
+     166.7
+    ],
+    [
+     148,
+     171.0
+    ],
+    [
+     160,
+     172.1
+    ],
+    [
+     221,
+     176.0
+    ],
+    [
+     279,
+     181.0
+    ],
+    [
+     282,
+     181.4
+    ],
+    [
+     340,
+     184.2
+    ],
+    [
+     414,
+     189.2
+    ],
+    [
+     486,
+     193.1
+    ],
+    [
+     489,
+     193.2
+    ],
+    [
+     563,
+     199.0
+    ],
+    [
+     623,
+     202.9
+    ],
+    [
+     634,
+     203.6
+    ],
+    [
+     700,
+     209.4
+    ],
+    [
+     774,
+     215.4
+    ],
+    [
+     801,
+     217.8
+    ],
+    [
+     837,
+     220.3
+    ],
+    [
+     908,
+     224.3
+    ],
+    [
+     989,
+     228.5
+    ],
+    [
+     1026,
+     232.3
+    ],
+    [
+     1051,
+     233.3
+    ],
+    [
+     1061,
+     233.8
+    ],
+    [
+     1125,
+     237.5
+    ],
+    [
+     1147,
+     238.7
+    ],
+    [
+     1208,
+     243.1
+    ],
+    [
+     1244,
+     245.8
+    ],
+    [
+     1263,
+     248.0
+    ],
+    [
+     1348,
+     252.0
+    ],
+    [
+     1358,
+     252.6
+    ],
+    [
+     1409,
+     256.0
+    ],
+    [
+     1463,
+     258.1
+    ],
+    [
+     1540,
+     261.8
+    ],
+    [
+     1608,
+     265.8
+    ],
+    [
+     1670,
+     268.8
+    ],
+    [
+     1747,
+     273.1
+    ],
+    [
+     1825,
+     280.1
+    ],
+    [
+     1889,
+     285.2
+    ],
+    [
+     1893,
+     285.6
+    ],
+    [
+     1973,
+     290.6
+    ],
+    [
+     2037,
+     295.4
+    ],
+    [
+     2120,
+     299.5
+    ],
+    [
+     2185,
+     303.4
+    ],
+    [
+     2221,
+     305.5
+    ],
+    [
+     2253,
+     308.6
+    ],
+    [
+     2285,
+     310.5
+    ],
+    [
+     2307,
+     311.2
+    ],
+    [
+     2378,
+     315.8
+    ],
+    [
+     2443,
+     320.1
+    ],
+    [
+     2525,
+     327.7
+    ],
+    [
+     2587,
+     331.4
+    ],
+    [
+     2660,
+     338.2
+    ],
+    [
+     2737,
+     342.3
+    ]
+   ]
+  },
+  {
+   "start": 345.29,
+   "end": 346.91,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¿Cómo va a convencer a la gente de que no fue malo?",
+   "marks": [
+    [
+     0,
+     345.3
+    ]
+   ]
+  },
+  {
+   "start": 346.91,
+   "end": 407.95,
+   "label": "SPEAKER_01",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Es que yo no, a ver, yo como presidente del gobierno, yo puedo entender y respeto las opiniones, pero yo como presidente del gobierno no puedo decidir y sobre todo abrir una escalada de crisis diplomática La política con un país vecino simplemente por suposiciones. Yo me tengo que basar en hechos, en datos. Muy probablemente a esos ciudadanos españoles si les pregunta si quieren ustedes tener unas relaciones constructivas o no con Marruecos, en un amplio porcentaje también le dirán que sí. Ha sido la propia Guardia Civil la que ha dicho que desde el 30 y 31 de julio, en hechos puntuales que se pueden producir entre países vecinos, también en la cuestión de la frontera marítima, Hubo una interlocución muy fluida y muy positiva entre las armadas de Marruecos y de España y no ha habido ningún hecho más reseñable sobre esta cuestión. Yo creo que hay tres cosas que he hecho y además no son palabras solo. Primero he pedido perdón, en segundo lugar he actuado con contundencia y en tercer lugar he colaborado con la justicia.",
+   "marks": [
+    [
+     0,
+     346.9
+    ],
+    [
+     57,
+     350.2
+    ],
+    [
+     134,
+     352.9
+    ],
+    [
+     205,
+     358.0
+    ],
+    [
+     266,
+     361.1
+    ],
+    [
+     278,
+     361.8
+    ],
+    [
+     309,
+     363.9
+    ],
+    [
+     355,
+     365.5
+    ],
+    [
+     431,
+     370.2
+    ],
+    [
+     495,
+     373.2
+    ],
+    [
+     498,
+     373.5
+    ],
+    [
+     556,
+     376.2
+    ],
+    [
+     617,
+     379.6
+    ],
+    [
+     692,
+     385.3
+    ],
+    [
+     767,
+     391.0
+    ],
+    [
+     827,
+     395.5
+    ],
+    [
+     842,
+     396.6
+    ],
+    [
+     884,
+     400.2
+    ],
+    [
+     913,
+     401.8
+    ],
+    [
+     956,
+     404.2
+    ],
+    [
+     1023,
+     407.5
+    ]
+   ]
+  },
+  {
+   "start": 408.23,
+   "end": 413.2,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "¿Por qué no han presentado una querella contra la ley de Díez?",
+   "marks": [
+    [
+     0,
+     408.2
+    ]
+   ]
+  },
+  {
+   "start": 413.2,
+   "end": 425.76,
+   "label": "SPEAKER_01",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Bueno, nosotros en el momento en el que saltó este caso, se pidió su baja como militante del Partido Socialista y así sucedió, en cuestión de días.",
+   "marks": [
+    [
+     0,
+     413.2
+    ],
+    [
+     60,
+     419.1
+    ],
+    [
+     130,
+     425.2
+    ]
+   ]
+  },
+  {
+   "start": 426.08,
+   "end": 428.4,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Pero nunca se han querellado, presidente, ¿por qué no se querellan?",
+   "marks": [
+    [
+     0,
+     426.1
+    ]
+   ]
+  },
+  {
+   "start": 428.46,
+   "end": 449.1,
+   "label": "SPEAKER_01",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Bueno, pero eso son estrategias judiciales que sigue, en este caso, la organización del Partido Socialista, pero desde el punto de vista de la acción, de la respuesta ante este caso, yo lo he dicho además públicamente, El Partido Socialista es absolutamente ajeno a estos vídeos, a esta forma de actuar y a lo que hiciera en",
+   "marks": [
+    [
+     0,
+     428.5
+    ],
+    [
+     71,
+     433.0
+    ],
+    [
+     143,
+     436.3
+    ],
+    [
+     205,
+     439.8
+    ],
+    [
+     287,
+     446.4
+    ]
+   ]
+  },
+  {
+   "start": 449.1,
+   "end": 452.34,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "este caso Leire Díaz. Ustedes no sabían nada al respecto.",
+   "marks": [
+    [
+     0,
+     449.1
+    ],
+    [
+     22,
+     450.7
+    ]
+   ]
+  },
+  {
+   "start": 452.52,
+   "end": 468.52,
+   "label": "SPEAKER_01",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Yo respeto su presunción de inocencia, en segundo lugar defiendo el legado de José Luis Rodríguez Zapatero y finalmente tendremos que hablar con José Luis para ver si quiere, tiene ganas de participar en la campaña, pero él desde luego es un activo para el Partido Socialista.",
+   "marks": [
+    [
+     0,
+     452.5
+    ],
+    [
+     75,
+     456.6
+    ],
+    [
+     150,
+     460.6
+    ],
+    [
+     216,
+     465.2
+    ]
+   ]
+  },
+  {
+   "start": 468.52,
+   "end": 473.4,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Por cierto, ¿ha recibido usted como presidente regalos valiosos y qué ha hecho con ellos si los ha recibido?",
+   "marks": [
+    [
+     0,
+     468.5
+    ],
+    [
+     73,
+     471.9
+    ]
+   ]
+  },
+  {
+   "start": 473.48,
+   "end": 492.86,
+   "label": "SPEAKER_01",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "A ver, a mí la pistola que regaló a los líderes de la Alianza Atlántica, Erdogan. Yo, por ejemplo, cuando me dieron este obsequio, como al resto de líderes de la OTAN, me enteré, que no lo sabía, después de ocho años, que en Moncloa hay un espacio físico donde los expresidentes del gobierno han dejado muchas cosas.",
+   "marks": [
+    [
+     0,
+     473.5
+    ],
+    [
+     51,
+     476.2
+    ],
+    [
+     82,
+     479.0
+    ],
+    [
+     131,
+     483.1
+    ],
+    [
+     186,
+     485.3
+    ],
+    [
+     248,
+     489.9
+    ]
+   ]
+  },
+  {
+   "start": 493.14,
+   "end": 501.72,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¿Y por qué Zapatero no ha dejado las suyas? ¿Usted le pediría, aprovecharía esta entrevista para decirle a Zapatero, Yo no",
+   "marks": [
+    [
+     0,
+     493.1
+    ],
+    [
+     44,
+     495.2
+    ],
+    [
+     63,
+     496.0
+    ]
+   ]
+  },
+  {
+   "start": 501.72,
+   "end": 546.62,
+   "label": "SPEAKER_01",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "le voy a decir a José Luis lo que tiene que hacer, pero yo sé que José Luis es muy consciente de lo que debe hacer. Es un proceso que ahora mismo está abierto desde el punto de vista del Ministerio de Justicia y, por supuesto, ya sabe cuál es la posición del Gobierno de España. Nosotros consideramos el Gobierno de coalición en su conjunto y creo que además una amplia parte de la sociedad española y de fuerzas parlamentarias, Es una sentencia injusta y, por tanto, cuando llegue el momento y se cierre el procedimiento, decidiremos. Lo he dicho, desde luego, para mí, ese doble error de no haberlo visto y, por supuesto, de que sucediera que fue la corrupción de Ábalos.",
+   "marks": [
+    [
+     0,
+     501.7
+    ],
+    [
+     51,
+     504.9
+    ],
+    [
+     104,
+     508.7
+    ],
+    [
+     116,
+     509.4
+    ],
+    [
+     168,
+     514.5
+    ],
+    [
+     235,
+     517.7
+    ],
+    [
+     279,
+     519.2
+    ],
+    [
+     313,
+     520.5
+    ],
+    [
+     376,
+     524.5
+    ],
+    [
+     454,
+     528.6
+    ],
+    [
+     523,
+     531.8
+    ],
+    [
+     536,
+     533.1
+    ],
+    [
+     590,
+     538.6
+    ],
+    [
+     652,
+     545.7
+    ]
+   ]
+  }
+ ]
+}

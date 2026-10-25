@@ -1,0 +1,228 @@
+{
+ "id": "2026-10-18-abascal-6251a8",
+ "date": "2026-10-18",
+ "expected_person": "Santiago Abascal",
+ "kind": "other",
+ "outlet": "RTVE Play - Informativo 24h",
+ "title": "Abascal confirma la \"voluntad\" de Vox de pactar con el PP para \"proteger al Senado\" de los acuerdos de la izquierda",
+ "url": "https://www.rtve.es/play/videos/informativo-24h/abascal-confirma-voluntad-vox-pactar-pp-para-proteger-senado-acuerdos-izquierda/17272930/",
+ "language": "es",
+ "duration_s": 102.83,
+ "sha256": "91fd97290df17ffc5852d9ab889800c05c295938aebac24f4f8bb518194ddaad",
+ "fetched_at": "2026-10-25T22:08:07+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T22:18:18+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_01": {
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "decision": "match",
+   "reason": "sim 0.81, next 0.39",
+   "talk_s": 76.0
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "too_short",
+   "reason": "only 9s of speech",
+   "talk_s": 8.8
+  }
+ },
+ "turns": [
+  {
+   "start": 0.0,
+   "end": 4.16,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Escuchamos al presidente de Vox, declaración institucional",
+   "marks": [
+    [
+     0,
+     0.0
+    ]
+   ]
+  },
+  {
+   "start": 4.16,
+   "end": 4.48,
+   "label": "SPEAKER_01",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "de",
+   "marks": [
+    [
+     0,
+     4.2
+    ]
+   ]
+  },
+  {
+   "start": 4.16,
+   "end": 8.78,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Santiago Abascal, habla de esta gota fría y también se refiere a los disturbios en Francia.",
+   "marks": [
+    [
+     0,
+     4.2
+    ],
+    [
+     65,
+     7.8
+    ]
+   ]
+  },
+  {
+   "start": 8.9,
+   "end": 101.68,
+   "label": "SPEAKER_01",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Y en muchas ciudades de España, especialmente en Cataluña. Los españoles ya hemos sufrido demasiado estos gobiernos que han abierto la puerta a la invasión migratoria. Y creo honradamente que no es el momento de pedir más sacrificios a los españoles. Hay que sacrificar las políticas que nos han traído hasta aquí. Y hay que recuperar las instituciones para el pueblo español. La alianza de Sánchez con esa extrema izquierda exige sacrificios a los partidos de la oposición y nosotros mantenemos la voluntad de algún entendimiento que proteja el Senado de los acuerdos que Sánchez ha alcanzado con la extrema izquierda. No podemos olvidar que Sánchez ha dicho que va a seguir gobernando de una manera o de otra. Y parece que Sánchez ha disfrutado emitiendo esa amenaza. Y estamos viendo cómo en la Puerta del Sol o en la huelga de los sindicatos está sembrando la coacción y la violencia para influir en las próximas elecciones generales. Igual que pretende utilizar el Tribunal Constitucional para poder alterar el censo electoral en España. Este mes y medio que queda hasta el día 29 de noviembre, los españoles deben estar atentos, porque insisto, como lo he hecho en otras ocasiones, Sánchez pretende robar estas elecciones. No será la primera vez que manipula un proceso electoral y la única manera de evitarlo en esta ocasión es con una respuesta masiva en las urnas por parte de la inmensa mayoría de los españoles.",
+   "marks": [
+    [
+     0,
+     8.9
+    ],
+    [
+     59,
+     12.5
+    ],
+    [
+     76,
+     14.6
+    ],
+    [
+     147,
+     18.7
+    ],
+    [
+     168,
+     20.5
+    ],
+    [
+     218,
+     23.1
+    ],
+    [
+     251,
+     25.2
+    ],
+    [
+     292,
+     28.1
+    ],
+    [
+     315,
+     29.3
+    ],
+    [
+     361,
+     32.6
+    ],
+    [
+     377,
+     33.4
+    ],
+    [
+     443,
+     39.0
+    ],
+    [
+     511,
+     43.1
+    ],
+    [
+     584,
+     48.3
+    ],
+    [
+     620,
+     49.8
+    ],
+    [
+     660,
+     52.5
+    ],
+    [
+     712,
+     56.7
+    ],
+    [
+     714,
+     57.5
+    ],
+    [
+     770,
+     61.2
+    ],
+    [
+     792,
+     62.6
+    ],
+    [
+     846,
+     65.2
+    ],
+    [
+     917,
+     70.5
+    ],
+    [
+     939,
+     71.7
+    ],
+    [
+     1013,
+     76.2
+    ],
+    [
+     1043,
+     78.3
+    ],
+    [
+     1076,
+     80.6
+    ],
+    [
+     1151,
+     85.9
+    ],
+    [
+     1229,
+     90.1
+    ],
+    [
+     1291,
+     94.6
+    ],
+    [
+     1360,
+     98.8
+    ]
+   ]
+  },
+  {
+   "start": 101.8,
+   "end": 102.44,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Muchas gracias.",
+   "marks": [
+    [
+     0,
+     101.8
+    ]
+   ]
+  }
+ ]
+}

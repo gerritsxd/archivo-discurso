@@ -1,0 +1,245 @@
+{
+ "id": "2026-10-25-colau-137ff1",
+ "date": "2026-10-25",
+ "expected_person": "Ada Colau",
+ "kind": "other",
+ "outlet": "Europa Press (vídeo)",
+ "title": "Colau llama a \"llenar las calles\" y \"poner el cuerpo\" frente a los políticos de \"piquito de oro\"",
+ "url": "https://video4.europapress.net/ep/H264/1128000/1128350_1_21.mp4",
+ "language": "es",
+ "duration_s": 140.06,
+ "sha256": "c66f35105c7cfb5095c19e08ff52b3d1246f78ac397ae05b91e1999e1f53f0d6",
+ "fetched_at": "2026-10-25T22:07:28+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T22:39:26+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_00": {
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "decision": "match",
+   "reason": "sim 0.78, next 0.34",
+   "talk_s": 133.0
+  }
+ },
+ "turns": [
+  {
+   "start": 1.17,
+   "end": 139.13,
+   "label": "SPEAKER_00",
+   "person": "colau",
+   "name": "Ada Colau (Frente Amplio)",
+   "text": "Nosotras somos esa mayoría social trabajadora que no se va a rendir, que vamos a estar más unidas que siempre, que vamos a saber hacer lo que hemos sabido hacer a lo largo de generaciones y generaciones, porque luego en la política, fijaos, hay muchos políticos que saben hablar muy bien, que tienen un piquito de oro, y que te hacen enormes y grandes discursos, pero luego, Feijóo es verdad que está fallando un poco en eso, pero en todo caso, veréis a muchos políticos de derechas y que también se llaman de izquierdas, Las que hablan muy bien y tienen un piquito de oro. Pero, luego, ¿quién pone el cuerpo? Cuando hay que defender un centro sanitario, cuando hay que defender la escuela pública, cuando hay que defender el hospital, cuando hay que defender la vivienda, cuando hay que parar un desahucio, ¿quién pone el cuerpo? Lo pone la gente, lo pone la mayoría social trabajadora, que es la que siempre ha arriesgado su cuerpo para defender los derechos sociales de la mayoría social. Así que menos palabras y más poner el cuerpo. En esta campaña vamos a tener que poner el cuerpo todas nosotras. Eso va a marcar la diferencia. Que llenemos las calles, que no nos resignemos porque ellas, las de las élites, nos quieren deprimidas, nos quieren resignadas, quieren que pensemos que somos minorías separadas entre nosotras, quieren que pensemos que no hay nada que hacer, quieren que nos creamos no sé qué encuesta que dice que va a ganar la derecha. Pues no señoras, en este país la mayoría social ha hecho historia un montón de veces y el próximo 29 de noviembre vamos a volver a hacer historia, vamos a volver a hacer historia, vamos a ganar y vamos a seguir transformando este país a mejor. Y lo vamos a hacer ¿cómo? Con alegría, con alegría de estar juntas en las plazas, lo vamos a hacer con una sonrisa, lo vamos a hacer bailando, lo vamos a hacer defendiendo la esperanza contra el miedo. Esas somos nosotras, las que sonreímos, las que bailamos, las que peleamos, las que ponemos el cuerpo para avanzar. Nunca, nunca retroceder. Igual que hoy en Brasil, en Brasil Lula va a conseguir derrotar al fascismo con una mayoría social que se está movilizando a pesar de todas las malas artes de los fascistas. Hoy en Brasil se es la misma pelea que daremos nosotros el 29 de noviembre. Os pido, hagamos una gran foto, por favor, que están medios de comunicación, todas a levantar al brazo con la L de Lula.",
+   "marks": [
+    [
+     0,
+     1.2
+    ],
+    [
+     69,
+     5.3
+    ],
+    [
+     129,
+     9.4
+    ],
+    [
+     190,
+     12.3
+    ],
+    [
+     272,
+     16.7
+    ],
+    [
+     328,
+     19.4
+    ],
+    [
+     401,
+     23.4
+    ],
+    [
+     461,
+     26.8
+    ],
+    [
+     530,
+     29.6
+    ],
+    [
+     574,
+     32.6
+    ],
+    [
+     594,
+     33.8
+    ],
+    [
+     610,
+     34.6
+    ],
+    [
+     666,
+     38.0
+    ],
+    [
+     743,
+     42.5
+    ],
+    [
+     815,
+     46.2
+    ],
+    [
+     831,
+     47.0
+    ],
+    [
+     875,
+     49.8
+    ],
+    [
+     948,
+     53.5
+    ],
+    [
+     992,
+     55.8
+    ],
+    [
+     1017,
+     57.7
+    ],
+    [
+     1038,
+     58.6
+    ],
+    [
+     1078,
+     61.0
+    ],
+    [
+     1104,
+     63.1
+    ],
+    [
+     1135,
+     64.8
+    ],
+    [
+     1148,
+     65.5
+    ],
+    [
+     1215,
+     69.5
+    ],
+    [
+     1303,
+     74.7
+    ],
+    [
+     1377,
+     78.3
+    ],
+    [
+     1436,
+     81.3
+    ],
+    [
+     1456,
+     82.2
+    ],
+    [
+     1497,
+     84.3
+    ],
+    [
+     1557,
+     86.9
+    ],
+    [
+     1620,
+     91.2
+    ],
+    [
+     1691,
+     96.0
+    ],
+    [
+     1700,
+     96.8
+    ],
+    [
+     1726,
+     98.3
+    ],
+    [
+     1751,
+     100.0
+    ],
+    [
+     1807,
+     102.8
+    ],
+    [
+     1875,
+     108.2
+    ],
+    [
+     1902,
+     109.5
+    ],
+    [
+     1950,
+     112.8
+    ],
+    [
+     2018,
+     116.3
+    ],
+    [
+     2025,
+     116.8
+    ],
+    [
+     2043,
+     118.3
+    ],
+    [
+     2088,
+     122.1
+    ],
+    [
+     2166,
+     125.5
+    ],
+    [
+     2217,
+     128.8
+    ],
+    [
+     2224,
+     129.4
+    ],
+    [
+     2282,
+     132.5
+    ],
+    [
+     2293,
+     133.1
+    ],
+    [
+     2353,
+     136.0
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,286 @@
+{
+ "id": "2026-10-25-feijoo-f2933b",
+ "date": "2026-10-25",
+ "expected_person": "Alberto Núñez Feijóo",
+ "kind": "other",
+ "outlet": "RTVE Play - Telediario fin de semana",
+ "title": "Feijóo carga contra Sánchez por su gestión frente al Gobierno",
+ "url": "https://www.rtve.es/play/videos/telediario-fin-de-semana/feijoo-carga-contra-sanchez-su-gestion-frente-gobierno/17282646/",
+ "language": "es",
+ "duration_s": 91.2,
+ "sha256": "a826d061975ade56883d33861123db6584db1b7abf29c00887084c13a4472c34",
+ "fetched_at": "2026-10-25T22:14:48+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T22:40:37+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "too_short",
+   "reason": "only 14s of speech",
+   "talk_s": 14.3
+  },
+  "SPEAKER_03": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "too_short",
+   "reason": "only 18s of speech",
+   "talk_s": 18.2
+  },
+  "SPEAKER_02": {
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "decision": "too_short",
+   "reason": "only 18s of speech",
+   "talk_s": 17.8
+  },
+  "SPEAKER_01": {
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "decision": "unknown",
+   "reason": "best sim 0.62 < 0.65",
+   "talk_s": 37.5
+  }
+ },
+ "turns": [
+  {
+   "start": 0.27,
+   "end": 5.81,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Retroceder 50 años de golpe es lo que Pedro Sánchez cree que pasará si el PP gobierna con Vox.",
+   "marks": [
+    [
+     0,
+     0.3
+    ],
+    [
+     61,
+     3.9
+    ]
+   ]
+  },
+  {
+   "start": 6.01,
+   "end": 11.07,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Estamos viendo como Vox es quien pone las ideas y el Partido Popular pone la ambición de poder.",
+   "marks": [
+    [
+     0,
+     6.0
+    ],
+    [
+     61,
+     9.7
+    ]
+   ]
+  },
+  {
+   "start": 11.41,
+   "end": 19.71,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "En una entrevista se muestra confiado para obtener una mayoría suficiente el 29 de noviembre y señala cuál ha sido su mayor error en esta legislatura.",
+   "marks": [
+    [
+     0,
+     11.4
+    ],
+    [
+     77,
+     15.2
+    ],
+    [
+     133,
+     18.9
+    ]
+   ]
+  },
+  {
+   "start": 20.07,
+   "end": 29.95,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Ese doble error de no haberlo visto y por supuesto de que sucediera que fue la corrupción de Ábalos.",
+   "marks": [
+    [
+     0,
+     20.1
+    ],
+    [
+     58,
+     26.9
+    ]
+   ]
+  },
+  {
+   "start": 30.27,
+   "end": 32.69,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Una equivocación que no olvida el PP En",
+   "marks": [
+    [
+     0,
+     30.3
+    ]
+   ]
+  },
+  {
+   "start": 32.69,
+   "end": 42.49,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "la papeleta de Sánchez van Ábalos, los Zerdán, los Coldo y los Leire Hay otra papeleta que es la que España necesita Otra",
+   "marks": [
+    [
+     0,
+     32.7
+    ],
+    [
+     63,
+     38.3
+    ]
+   ]
+  },
+  {
+   "start": 42.49,
+   "end": 48.09,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "papeleta con los nombres de los cabezadelistas que hoy la acompañaban y de los que ha presumido en su discurso Os",
+   "marks": [
+    [
+     0,
+     42.5
+    ],
+    [
+     72,
+     45.8
+    ]
+   ]
+  },
+  {
+   "start": 48.09,
+   "end": 57.01,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "exijo lo que no tiene aún gobierno de España Os exijo respeto, decencia y servicio Mientras,",
+   "marks": [
+    [
+     0,
+     48.1
+    ],
+    [
+     63,
+     54.4
+    ]
+   ]
+  },
+  {
+   "start": 57.13,
+   "end": 61.59,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "a la derecha del PP, Abascal le pide a Feijóo que no se olvide de quién es el enemigo.",
+   "marks": [
+    [
+     0,
+     57.1
+    ],
+    [
+     53,
+     59.9
+    ]
+   ]
+  },
+  {
+   "start": 61.75,
+   "end": 71.79,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Me preocupa que el Partido Popular entienda y actúe de tal manera que finalmente estas elecciones para ellos sean una competición con Vox.",
+   "marks": [
+    [
+     0,
+     61.8
+    ],
+    [
+     66,
+     66.8
+    ]
+   ]
+  },
+  {
+   "start": 71.95,
+   "end": 75.99,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Y a la izquierda del PSOE, Frente Amplio intenta atraer los votos de la izquierda.",
+   "marks": [
+    [
+     0,
+     72.0
+    ],
+    [
+     66,
+     75.3
+    ]
+   ]
+  },
+  {
+   "start": 76.23,
+   "end": 84.65,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Y es por ellos, y gobiernan solos, ya sabemos lo que hacen, que jamás combaten la desigualdad, jamás se enfrentan a los especuladores.",
+   "marks": [
+    [
+     0,
+     76.2
+    ],
+    [
+     60,
+     80.2
+    ]
+   ]
+  },
+  {
+   "start": 84.65,
+   "end": 90.59,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "También hoy Gabriel Rufián ha insistido en la idea de que estas elecciones van de someter al Partido Socialista.",
+   "marks": [
+    [
+     0,
+     84.7
+    ],
+    [
+     64,
+     87.9
+    ]
+   ]
+  }
+ ]
+}

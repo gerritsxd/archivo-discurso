@@ -1,0 +1,4706 @@
+{
+ "id": "2026-10-18-abascal-eb55b7",
+ "date": "2026-10-18",
+ "expected_person": "Santiago Abascal",
+ "kind": "other",
+ "outlet": "La Razón (entrevista en vídeo)",
+ "title": "Abascal: \"Estoy muy preocupado por las elecciones: Sánchez usará a sus milicias\" (YouTube embed de la entrevista; unica fuente)",
+ "url": "https://www.youtube.com/watch?v=yGsFHi9Hu-g",
+ "language": "es",
+ "duration_s": 2470.76,
+ "sha256": "26d1ba5516576cedfe397e7e063729b5cc7e1804e293519c8072da0551f3373b",
+ "fetched_at": "2026-10-25T22:09:03+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T22:24:33+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_00": {
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "decision": "match",
+   "reason": "sim 0.87, next 0.46",
+   "talk_s": 1797.6
+  },
+  "SPEAKER_01": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "unknown",
+   "reason": "best sim 0.29 < 0.65",
+   "talk_s": 338.6
+  }
+ },
+ "turns": [
+  {
+   "start": 22.89,
+   "end": 29.89,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¿Quiere asumir la responsabilidad de gobernar Vox en estos momentos o lo que quiere es tener influencia para condicionar a quien gobierne?",
+   "marks": [
+    [
+     0,
+     22.9
+    ],
+    [
+     73,
+     26.9
+    ]
+   ]
+  },
+  {
+   "start": 30.41,
+   "end": 55.47,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Nosotros queremos ganar las elecciones y yo me presento a la presidencia del gobierno, pero nos presentamos a las elecciones y yo a la presidencia del gobierno para gobernar y para tener influencia. Si los españoles deciden que esa influencia hay que ejercerla de otra manera, nosotros somos demócratas y lo aceptamos y haremos valer nuestros votos. Pero Vox es un partido con vocación de gobierno. Vox no es un partido protesta. Vox es un partido que quiere el poder para cambiar las cosas.",
+   "marks": [
+    [
+     0,
+     30.4
+    ],
+    [
+     73,
+     34.5
+    ],
+    [
+     135,
+     38.2
+    ],
+    [
+     199,
+     41.6
+    ],
+    [
+     216,
+     42.5
+    ],
+    [
+     292,
+     45.3
+    ],
+    [
+     350,
+     48.4
+    ],
+    [
+     362,
+     49.2
+    ],
+    [
+     399,
+     51.3
+    ],
+    [
+     430,
+     52.8
+    ]
+   ]
+  },
+  {
+   "start": 56.47,
+   "end": 65.33,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Claro, si el resultado se ajusta a lo que ahora conocemos, lo que dicen las encuestas, ¿tienen suficientes escaños como para entrar en ese gobierno? ¿Entrarán en ese gobierno?",
+   "marks": [
+    [
+     0,
+     56.5
+    ],
+    [
+     62,
+     60.3
+    ],
+    [
+     139,
+     64.1
+    ],
+    [
+     149,
+     64.4
+    ]
+   ]
+  },
+  {
+   "start": 66.07,
+   "end": 70.35,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Lo que pasa es que yo estoy muy preocupado... Es que yo creo que es una de las preguntas",
+   "marks": [
+    [
+     0,
+     66.1
+    ],
+    [
+     46,
+     69.8
+    ],
+    [
+     56,
+     69.8
+    ]
+   ]
+  },
+  {
+   "start": 70.35,
+   "end": 71.25,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "que se hace todo el mundo.",
+   "marks": [
+    [
+     0,
+     70.3
+    ]
+   ]
+  },
+  {
+   "start": 71.39,
+   "end": 74.79,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Sí, y yo lo entiendo, pero yo estoy muy preocupado con el resultado de las elecciones.",
+   "marks": [
+    [
+     0,
+     71.4
+    ],
+    [
+     58,
+     73.9
+    ]
+   ]
+  },
+  {
+   "start": 75.01,
+   "end": 75.39,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¿Por qué?",
+   "marks": [
+    [
+     0,
+     75.0
+    ]
+   ]
+  },
+  {
+   "start": 75.39,
+   "end": 121.55,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Porque creo que a pesar de las encuestas en las que se da una mayoría tan amplia a una suma de cambio en España, creo que eso no está hecho y creo que esas encuestas son muy contraproducentes para que ese cambio se produzca. En el año 2023 ya afrontamos unas elecciones en las que se anunciaba un cambio contundente en España y no se produjo. Y recuerdo perfectamente las entrevistas, los mítines, en donde prácticamente se daban unos detalles no solo de repartos ministeriales, sino de pactos de Estado y de lo que unos y otros iban a hacer después. Y eso no ocurrió. Creo que frustró la expectativa. Yo ahora tengo el deber de alertar a los españoles de que Sánchez puede hacer cualquier cosa para repetir.",
+   "marks": [
+    [
+     0,
+     75.4
+    ],
+    [
+     55,
+     79.2
+    ],
+    [
+     113,
+     83.2
+    ],
+    [
+     170,
+     87.0
+    ],
+    [
+     225,
+     89.9
+    ],
+    [
+     240,
+     91.1
+    ],
+    [
+     316,
+     96.3
+    ],
+    [
+     343,
+     98.2
+    ],
+    [
+     389,
+     102.1
+    ],
+    [
+     464,
+     107.8
+    ],
+    [
+     523,
+     111.5
+    ],
+    [
+     551,
+     113.3
+    ],
+    [
+     569,
+     114.5
+    ],
+    [
+     586,
+     116.0
+    ],
+    [
+     602,
+     116.6
+    ],
+    [
+     653,
+     118.6
+    ]
+   ]
+  },
+  {
+   "start": 122.13,
+   "end": 125.79,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Entonces, si le pregunto si usted entrará en un gobierno presidido por Feijóo, ¿qué me contesta?",
+   "marks": [
+    [
+     0,
+     122.1
+    ],
+    [
+     71,
+     124.8
+    ]
+   ]
+  },
+  {
+   "start": 125.79,
+   "end": 162.61,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Creo que yo no me presento a la vicepresidencia del gobierno, me presento a la presidencia del gobierno y que cuando lleguemos a ese río cruzaremos ese puente, o al revés creo que se dice, no estoy nexo en estos momentos. Yo realmente estoy ocupado y preocupado por el momento electoral. Yo creo que la gente ya sabe lo que es Vox, lo que se puede esperar de Vox. Hay unos pactos de gobierno en varias regiones y en función del poder que tiene Vox, pues las ideas de Vox tendrán más fuerza o tendrán menos fuerza. Pero es que la derrota de Pedro Sánchez no se ha producido todavía.",
+   "marks": [
+    [
+     0,
+     125.8
+    ],
+    [
+     65,
+     128.6
+    ],
+    [
+     133,
+     132.8
+    ],
+    [
+     192,
+     138.4
+    ],
+    [
+     222,
+     141.6
+    ],
+    [
+     266,
+     145.6
+    ],
+    [
+     288,
+     147.3
+    ],
+    [
+     324,
+     149.0
+    ],
+    [
+     364,
+     150.5
+    ],
+    [
+     380,
+     152.0
+    ],
+    [
+     444,
+     156.1
+    ],
+    [
+     506,
+     158.7
+    ],
+    [
+     514,
+     159.1
+    ],
+    [
+     563,
+     162.0
+    ]
+   ]
+  },
+  {
+   "start": 164.13,
+   "end": 173.23,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Insisto, si los pronósticos se mantienen, usted por arriba, usted por debajo, ¿qué tres condiciones pondría para llegar a un acuerdo de gobierno con el Partido Popular?",
+   "marks": [
+    [
+     0,
+     164.1
+    ],
+    [
+     78,
+     169.1
+    ],
+    [
+     149,
+     172.4
+    ]
+   ]
+  },
+  {
+   "start": 173.59,
+   "end": 229.79,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "No vamos a dar sorpresas, nosotros queremos hacer en el gobierno lo que estamos defendiendo en la oposición, en estos momentos nuestro mensaje es muy claro para los españoles, es un mensaje de prioridad nacional, que en primer lugar significa recuperar Ceuta al precio que sea, La idea es poner a los españoles en primer lugar en su propio país. Tenemos un mensaje muy contundente de regulación y de rebajas fiscales, es decir, de dar libertad a la sociedad española, también a los emprendedores, a los empresarios, a los trabajadores, y un mensaje de reemigración de muchas personas que creemos que no tienen que estar en España, los que han entrado ilegalmente, que han de ser repatriados, los que han entrado a cometer delitos que tienen que ser deportados, y los que están aquí viviendo de ayudas sociales sin trabajar y sin aportar y son ayudas sociales que necesitan los españoles, que tienen que remigrar. Yo creo que eso es lo prioritario para nosotros, esas son nuestras grandes medidas en estos momentos y es lo que llevaremos a un gobierno como prioritario.",
+   "marks": [
+    [
+     0,
+     173.6
+    ],
+    [
+     68,
+     177.2
+    ],
+    [
+     146,
+     180.3
+    ],
+    [
+     217,
+     184.2
+    ],
+    [
+     286,
+     187.1
+    ],
+    [
+     346,
+     191.1
+    ],
+    [
+     421,
+     196.0
+    ],
+    [
+     497,
+     200.2
+    ],
+    [
+     568,
+     203.8
+    ],
+    [
+     635,
+     206.9
+    ],
+    [
+     704,
+     209.9
+    ],
+    [
+     771,
+     213.5
+    ],
+    [
+     839,
+     216.9
+    ],
+    [
+     913,
+     220.0
+    ],
+    [
+     916,
+     220.4
+    ],
+    [
+     988,
+     224.8
+    ],
+    [
+     1051,
+     228.5
+    ]
+   ]
+  },
+  {
+   "start": 230.01,
+   "end": 237.71,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¿Hay alguna circunstancia en la que Vox facilita ser un gobierno del Partido Popular desde fuera? ¿Por alguna circunstancia en que ustedes permitirían eso?",
+   "marks": [
+    [
+     0,
+     230.0
+    ],
+    [
+     69,
+     233.4
+    ],
+    [
+     98,
+     234.9
+    ]
+   ]
+  },
+  {
+   "start": 238.15,
+   "end": 314.77,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Bueno, eso lo decidirán los españoles y además también habría que preguntarle al señor Feijó ¿Qué pasa con el partido de Vox? Con violencia, con mucha presión en las calles. El primer acto que he convocado prácticamente la semana que viene ya está anunciada una contra-manifestación. Sabemos que esto es lo que se va a producir porque el gobierno y sus milicias quieren que haya violencia en torno a Vox, quieren atemorizar a nuestra gente y quieren relacionar a Vox con la violencia y la bronca. Aunque nosotros solo vamos a hablar y a defender nuestras ideas y creo que son unas elecciones en las que vamos a tener que estar muy atentos. Hemos conseguido derrotar el intento de trampa con la ley de nietos, pero probablemente Sánchez tiene algunos otros conejos en la chistera para intentar cambiar el resultado de las elecciones y para intentar alterarlo. No sé cuáles porque yo no soy capaz de poner... Eso es lo que iba a",
+   "marks": [
+    [
+     0,
+     238.2
+    ],
+    [
+     78,
+     241.0
+    ],
+    [
+     126,
+     271.7
+    ],
+    [
+     141,
+     272.3
+    ],
+    [
+     174,
+     274.9
+    ],
+    [
+     206,
+     277.4
+    ],
+    [
+     284,
+     281.6
+    ],
+    [
+     292,
+     281.9
+    ],
+    [
+     347,
+     283.8
+    ],
+    [
+     413,
+     286.8
+    ],
+    [
+     484,
+     291.4
+    ],
+    [
+     497,
+     292.0
+    ],
+    [
+     546,
+     293.9
+    ],
+    [
+     609,
+     297.2
+    ],
+    [
+     640,
+     298.9
+    ],
+    [
+     680,
+     301.7
+    ],
+    [
+     756,
+     305.8
+    ],
+    [
+     832,
+     311.4
+    ],
+    [
+     859,
+     312.6
+    ],
+    [
+     895,
+     314.3
+    ],
+    [
+     907,
+     314.3
+    ]
+   ]
+  },
+  {
+   "start": 314.77,
+   "end": 317.49,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "preguntar, ¿qué trampas usted sospecha que puede tener?",
+   "marks": [
+    [
+     0,
+     314.8
+    ]
+   ]
+  },
+  {
+   "start": 317.49,
+   "end": 346.17,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "La verdad es que soy incapaz de preverlo, pero estoy absolutamente convencido de que es capaz de cualquier cosa. Yo también fui incapaz de ver que iban a hacer lo de la ley de nietos y nacionalizaciones masivas por esa vía, pero en cuanto lo detectamos lo recurrimos al Tribunal Supremo y hemos conseguido ganarlo y prestar un servicio a la sociedad española. No sé qué puede tener en la cabeza Sánchez, pero yo creo que ya después de ocho años hemos aprendido a que siempre tiene alguna sorpresa desagradable.",
+   "marks": [
+    [
+     0,
+     317.5
+    ],
+    [
+     78,
+     322.7
+    ],
+    [
+     113,
+     324.4
+    ],
+    [
+     139,
+     325.8
+    ],
+    [
+     185,
+     329.3
+    ],
+    [
+     267,
+     333.5
+    ],
+    [
+     338,
+     336.7
+    ],
+    [
+     360,
+     338.0
+    ],
+    [
+     404,
+     340.2
+    ],
+    [
+     463,
+     343.8
+    ]
+   ]
+  },
+  {
+   "start": 346.17,
+   "end": 347.71,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¿Y por violencia a qué se refiere?",
+   "marks": [
+    [
+     0,
+     346.2
+    ]
+   ]
+  },
+  {
+   "start": 348.25,
+   "end": 395.11,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Bueno, a la presión permanente contra Vox al intento de agredirnos, a agredirnos como ya nos ha pasado durante estos años, en Vallecas, donde incluso hubo diputados de Vox que fueron heridos, en Sestao, donde también recibimos la violencia y hubo diputados de Vox que fueron heridos en muchos actos en Cataluña, el otro día también se produjo un intento de agresión contra mí, La violencia es algo que se produce permanentemente y que está orquestado por grupos de extrema izquierda que son los que apoyan al gobierno. Hoy en Sol, quien ha tomado el control, es una asociación que impidió la celebración de la Vuelta a España y que está ligada a Bildu, que es el gran apoyo del gobierno. Esa es la violencia a la que me refiero, a la que he asistido y a la que pronostico, que creo que va a ser mayor en estas elecciones.",
+   "marks": [
+    [
+     0,
+     348.2
+    ],
+    [
+     70,
+     353.5
+    ],
+    [
+     142,
+     357.8
+    ],
+    [
+     217,
+     362.6
+    ],
+    [
+     286,
+     366.8
+    ],
+    [
+     354,
+     370.3
+    ],
+    [
+     429,
+     375.6
+    ],
+    [
+     495,
+     379.9
+    ],
+    [
+     519,
+     380.9
+    ],
+    [
+     559,
+     382.9
+    ],
+    [
+     626,
+     386.5
+    ],
+    [
+     678,
+     388.7
+    ],
+    [
+     688,
+     389.4
+    ],
+    [
+     734,
+     391.6
+    ],
+    [
+     789,
+     393.9
+    ]
+   ]
+  },
+  {
+   "start": 395.11,
+   "end": 414.27,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "A usted le parecieron violentos, más que me viene ahora a colación, las protestas o los altercados que se produjeron también en la Puerta del Sol después del desfile del 12 de octubre, donde las personas señaladas eran personas que parecía que venían del desfile y vinculadas, no sé si a la derecha o a la extrema derecha, ¿sabe usted qué le ocurrió?",
+   "marks": [
+    [
+     0,
+     395.1
+    ],
+    [
+     68,
+     398.7
+    ],
+    [
+     138,
+     403.1
+    ],
+    [
+     204,
+     406.7
+    ],
+    [
+     280,
+     410.3
+    ],
+    [
+     335,
+     413.8
+    ]
+   ]
+  },
+  {
+   "start": 414.33,
+   "end": 499.71,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Sí, evidentemente ahí se ha producido una confrontación de insultos en forma de violencia por parte de todo el mundo, pero lo que ha ocurrido aquí no tiene que ver con el 15M. Ángeles Ángeles La ducha obrera, porque se están bañando en la fuente de la Puerta del Sol, pero claro, tiene una responsabilidad en la ocupación de la vía pública, tanto la administración del Ayuntamiento de Madrid como la administración del Estado, y tiene que estar desocupada.",
+   "marks": [
+    [
+     0,
+     414.3
+    ],
+    [
+     77,
+     418.4
+    ],
+    [
+     133,
+     421.8
+    ],
+    [
+     176,
+     436.6
+    ],
+    [
+     195,
+     483.6
+    ],
+    [
+     259,
+     488.3
+    ],
+    [
+     328,
+     493.2
+    ],
+    [
+     415,
+     496.6
+    ]
+   ]
+  },
+  {
+   "start": 499.97,
+   "end": 501.47,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¿Por qué cree que no lo desocupan?",
+   "marks": [
+    [
+     0,
+     500.0
+    ]
+   ]
+  },
+  {
+   "start": 502.85,
+   "end": 511.41,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Pues unos porque tienen interés en que se produzca la violencia, que son los del gobierno de Sánchez, y otros porque tienen miedo, porque no saben cuáles son las consecuencias.",
+   "marks": [
+    [
+     0,
+     502.9
+    ],
+    [
+     69,
+     506.9
+    ],
+    [
+     138,
+     510.2
+    ]
+   ]
+  },
+  {
+   "start": 511.41,
+   "end": 512.15,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¿Otros son los del PP?",
+   "marks": [
+    [
+     0,
+     511.4
+    ]
+   ]
+  },
+  {
+   "start": 512.15,
+   "end": 515.09,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Sí, porque les cuesta afrontar ese tipo de decisiones.",
+   "marks": [
+    [
+     0,
+     512.1
+    ]
+   ]
+  },
+  {
+   "start": 515.25,
+   "end": 517.17,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Pero la competencia es de la Policía Nacional, ¿no?",
+   "marks": [
+    [
+     0,
+     515.2
+    ]
+   ]
+  },
+  {
+   "start": 517.51,
+   "end": 565.77,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Bueno, la Policía Nacional tiene la competencia sobre el derecho de manifestación, pero la ocupación del espacio público no. Nosotros, cuando solicitamos actos, que muchas veces se nos deniegan y no podemos ir, los solicitamos a los ayuntamientos. Y son los ayuntamientos los que nos deniegan o nos permiten la ocupación del espacio público. No es la policía. A la policía se le comunica que va a haber una manifestación, Pero una manifestación permanente en un lugar, ocupando toda una plaza, generando insalubridad, generando problemas a los comercios, agrediendo a los periodistas, no se puede permitir. No están defendiendo el derecho a la vivienda. No están pidiendo trabajo. Están sirviendo a Pedro Sánchez. Son las milicias de Pedro Sánchez, como dijimos también, que las milicias de Pedro Sánchez y de Marruecos estaban en la playa del trampolín.",
+   "marks": [
+    [
+     0,
+     517.5
+    ],
+    [
+     83,
+     521.4
+    ],
+    [
+     125,
+     523.3
+    ],
+    [
+     165,
+     525.4
+    ],
+    [
+     229,
+     529.0
+    ],
+    [
+     248,
+     530.7
+    ],
+    [
+     299,
+     533.4
+    ],
+    [
+     342,
+     535.9
+    ],
+    [
+     360,
+     537.1
+    ],
+    [
+     365,
+     537.2
+    ],
+    [
+     431,
+     539.8
+    ],
+    [
+     528,
+     546.5
+    ],
+    [
+     607,
+     550.8
+    ],
+    [
+     654,
+     553.0
+    ],
+    [
+     681,
+     556.3
+    ],
+    [
+     714,
+     558.4
+    ],
+    [
+     754,
+     559.9
+    ],
+    [
+     828,
+     564.8
+    ]
+   ]
+  },
+  {
+   "start": 566.01,
+   "end": 572.55,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¿Es verdad que han firmado un pacto de no agresión? ¿Es una invención mediática?",
+   "marks": [
+    [
+     0,
+     566.0
+    ],
+    [
+     52,
+     568.0
+    ],
+    [
+     60,
+     571.8
+    ]
+   ]
+  },
+  {
+   "start": 599.43,
+   "end": 634.09,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "La prioridad nacional hoy es echar a Pedro Sánchez. ¿Eso significa que somos dos partidos iguales? No, tenemos muchas diferencias. ¿Eso significa que nosotros no vamos a criticar al Partido Popular? No, vamos a criticar posiciones del Partido Popular. Por ejemplo, la votación de ayer en el Parlamento Europeo en contra de la Comisión de Investigación en Ceuta. El Partido Popular volvió a votar con los socialistas. Creo que es un gran error. Acabo de criticar las posiciones del alcalde de Madrid que no desaloja la Puerta del Sol. de hecho vamos a actuar jurídicamente tanto contra el Ayuntamiento de Madrid como contra la delegación del gobierno por eso pero lo esencial hoy es echar a Pedro Sánchez",
+   "marks": [
+    [
+     0,
+     599.4
+    ],
+    [
+     52,
+     602.6
+    ],
+    [
+     71,
+     603.3
+    ],
+    [
+     99,
+     604.4
+    ],
+    [
+     131,
+     606.2
+    ],
+    [
+     159,
+     608.7
+    ],
+    [
+     199,
+     610.5
+    ],
+    [
+     231,
+     612.3
+    ],
+    [
+     252,
+     613.2
+    ],
+    [
+     302,
+     615.3
+    ],
+    [
+     362,
+     618.0
+    ],
+    [
+     373,
+     618.3
+    ],
+    [
+     417,
+     620.7
+    ],
+    [
+     437,
+     621.3
+    ],
+    [
+     444,
+     621.6
+    ],
+    [
+     506,
+     624.0
+    ],
+    [
+     534,
+     625.7
+    ],
+    [
+     578,
+     628.1
+    ],
+    [
+     654,
+     631.1
+    ]
+   ]
+  },
+  {
+   "start": 635.01,
+   "end": 642.11,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¿Es verdad o nos lo inventamos? Es una cosa también mediática que usted y Feijóo hablan continuamente ¿Y si es así cuando han hablado por última vez?",
+   "marks": [
+    [
+     0,
+     635.0
+    ],
+    [
+     32,
+     636.7
+    ],
+    [
+     66,
+     638.4
+    ],
+    [
+     134,
+     641.5
+    ]
+   ]
+  },
+  {
+   "start": 642.85,
+   "end": 684.83,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "A lo último no lo voy a contestar por prudencia y a lo primero le hago un matiz Continuamente no, hablamos con normalidad cuando es necesario, telefónicamente, presencialmente, porque yo creo que tenemos el deber de hacerlo. Es un deber patriótico en estos momentos tener interlocución entre el Partido Popular y Vox y entendernos, como nos hemos entendido también en otros gobiernos regionales, con normalidad. Lo que no puede ser es que nosotros no podamos hablar y que otros puedan hablar hasta con ETA. Porque nosotros estamos defendiendo el orden, estamos defendiendo la ley. Bueno, hasta hace poco no hablaban, hasta",
+   "marks": [
+    [
+     0,
+     642.9
+    ],
+    [
+     52,
+     650.0
+    ],
+    [
+     129,
+     654.7
+    ],
+    [
+     216,
+     662.7
+    ],
+    [
+     225,
+     663.1
+    ],
+    [
+     295,
+     666.4
+    ],
+    [
+     368,
+     670.6
+    ],
+    [
+     412,
+     673.8
+    ],
+    [
+     439,
+     675.8
+    ],
+    [
+     507,
+     679.7
+    ],
+    [
+     581,
+     683.5
+    ],
+    [
+     594,
+     683.7
+    ]
+   ]
+  },
+  {
+   "start": 684.83,
+   "end": 685.33,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "hace poco no hablaban.",
+   "marks": [
+    [
+     0,
+     684.8
+    ]
+   ]
+  },
+  {
+   "start": 685.35,
+   "end": 686.31,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "No, sí hablábamos.",
+   "marks": [
+    [
+     0,
+     685.4
+    ]
+   ]
+  },
+  {
+   "start": 686.31,
+   "end": 687.79,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Era casi como un estigma, ¿no?",
+   "marks": [
+    [
+     0,
+     686.3
+    ]
+   ]
+  },
+  {
+   "start": 687.87,
+   "end": 697.89,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "No, sí hablábamos, probablemente menos, pero es que hasta hace poco el Partido Popular estaba ocupado en hacer desaparecer a Vox más que en derrotar al gobierno.",
+   "marks": [
+    [
+     0,
+     687.9
+    ],
+    [
+     71,
+     691.9
+    ],
+    [
+     140,
+     697.2
+    ]
+   ]
+  },
+  {
+   "start": 698.93,
+   "end": 700.19,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¿Y ahora en qué está ocupado?",
+   "marks": [
+    [
+     0,
+     698.9
+    ]
+   ]
+  },
+  {
+   "start": 701.01,
+   "end": 719.05,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Bueno, espero que esté ocupado en ganar las elecciones. Yo estoy ocupado en ganar las elecciones, estoy ocupado en tener el mayor número de votos posibles, estoy ocupado en que el mensaje de Vox llegue a todos los rincones de España sin traducción, es decir, de manera directa y me voy a entregar a eso. Espero que el Partido Popular haga lo mismo con su mensaje, que es un mensaje distinto al de Vox.",
+   "marks": [
+    [
+     0,
+     701.0
+    ],
+    [
+     56,
+     702.9
+    ],
+    [
+     73,
+     704.3
+    ],
+    [
+     140,
+     707.0
+    ],
+    [
+     204,
+     709.9
+    ],
+    [
+     277,
+     713.9
+    ],
+    [
+     304,
+     715.0
+    ],
+    [
+     334,
+     716.0
+    ],
+    [
+     394,
+     718.8
+    ]
+   ]
+  },
+  {
+   "start": 719.85,
+   "end": 728.23,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Hablaba antes usted de las diferencias, que hay diferencias, somos partidos diferentes. ¿Cuáles son las principales diferencias que da usted entre su programa y el que presenta Feijóo?",
+   "marks": [
+    [
+     0,
+     719.9
+    ],
+    [
+     88,
+     723.5
+    ],
+    [
+     161,
+     727.2
+    ]
+   ]
+  },
+  {
+   "start": 729.19,
+   "end": 808.17,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Lo cierto es que todavía no hemos presentado los programas y lo iremos haciendo, pero las cosas que estamos defendiendo nosotros precisamente, que las he relatado antes, pero las resumo ahora más, que son prioridad nacional, que es remigración y que es desregulación, pues el Partido Popular tiene muchas resistencias para aplicar esas políticas. Por eso la fuerza de Vox está siendo tan importante en los gobiernos y el Partido Popular tiene resistencias para aceptar tanto la desregulación, la bajada fiscal, la reemigración como la prioridad nacional porque ha tenido responsabilidad en aplicar todas esas políticas de inmigración masiva, también a través de sus votos en Europa, de subidas fiscales, podemos volver a recordar a Cristóbal Montoro, y también todo lo que tiene que ver con oponerse a la prioridad nacional. El particular ha formado parte de la legislación que en España ha puesto a los españoles en una situación de discriminación en el acceso a las ayudas sociales y a las ayudas de vivienda pública. Eso está cambiando en los sitios donde gobernamos porque el particular, para pactar con Vox, ha tenido que aceptar una parte de nuestras posiciones. Y nosotros hemos tenido que renunciar a una parte de las nuestras, pero es lo normal. Nosotros somos demócratas y entendemos que en función de la fuerza que nos dan los españoles podemos negociar.",
+   "marks": [
+    [
+     0,
+     729.2
+    ],
+    [
+     64,
+     732.5
+    ],
+    [
+     151,
+     742.0
+    ],
+    [
+     225,
+     746.1
+    ],
+    [
+     298,
+     750.4
+    ],
+    [
+     347,
+     752.1
+    ],
+    [
+     372,
+     753.5
+    ],
+    [
+     443,
+     756.6
+    ],
+    [
+     532,
+     763.2
+    ],
+    [
+     619,
+     766.7
+    ],
+    [
+     686,
+     771.5
+    ],
+    [
+     766,
+     778.4
+    ],
+    [
+     825,
+     780.7
+    ],
+    [
+     828,
+     781.0
+    ],
+    [
+     898,
+     785.5
+    ],
+    [
+     964,
+     788.5
+    ],
+    [
+     1020,
+     791.8
+    ],
+    [
+     1029,
+     792.2
+    ],
+    [
+     1108,
+     796.5
+    ],
+    [
+     1169,
+     798.8
+    ],
+    [
+     1180,
+     799.2
+    ],
+    [
+     1244,
+     802.2
+    ],
+    [
+     1255,
+     802.9
+    ],
+    [
+     1315,
+     806.2
+    ]
+   ]
+  },
+  {
+   "start": 808.17,
+   "end": 824.25,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "A lo mejor los reparos también tienen que ver con que algunas de estas cuestiones, por ejemplo la prioridad nacional, yo creo que esta misma semana desde Europa se planteaba que eso no se ajustaba a la legislación europea o no se ajusta a lo que establece la Constitución, entendido rigurosamente con lo que ustedes defienden.",
+   "marks": [
+    [
+     0,
+     808.2
+    ],
+    [
+     62,
+     811.1
+    ],
+    [
+     135,
+     814.1
+    ],
+    [
+     199,
+     816.9
+    ],
+    [
+     259,
+     820.6
+    ]
+   ]
+  },
+  {
+   "start": 825.17,
+   "end": 832.03,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Bueno, lo cierto es que no hay ningún tipo de recurso a la prioridad nacional tal y como se está aplicando en las cuatro regiones.",
+   "marks": [
+    [
+     0,
+     825.2
+    ],
+    [
+     56,
+     828.2
+    ],
+    [
+     121,
+     831.5
+    ]
+   ]
+  },
+  {
+   "start": 832.09,
+   "end": 836.85,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Sí, cada uno lo lee de una manera, si se le pregunta al PP habla de una cosa que es la prioridad nacional y ustedes hablan de otra distinta.",
+   "marks": [
+    [
+     0,
+     832.1
+    ],
+    [
+     53,
+     833.5
+    ],
+    [
+     108,
+     835.7
+    ]
+   ]
+  },
+  {
+   "start": 836.85,
+   "end": 882.81,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "No, nosotros en estos momentos estamos diciendo que la política internacional es un concepto, que creemos que hay que aplicar a toda la política y efectivamente hay dificultades legislativas en algunos órdenes, dificultades legislativas en España, en Europa o en convenios internacionales que estamos dispuestos a vencer y España puede cambiar si los españoles votan con contundencia el día 21 de noviembre, Pero también Europa está cambiando, y va a cambiar probablemente Francia muy pronto, en Italia puede continuar un gobierno que puede ser un aliado de España, si en España hay cambios, y eso va a llevar a grandes cambios en la Unión Europea y también en los convenios internacionales, con lo cual todas esas posiciones que Vox defiende y que por ahora estamos logrando aplicar en parte, siempre respetando la legalidad, se van a poder aplicar con mucha más contundencia.",
+   "marks": [
+    [
+     0,
+     836.9
+    ],
+    [
+     81,
+     840.5
+    ],
+    [
+     145,
+     843.0
+    ],
+    [
+     248,
+     850.0
+    ],
+    [
+     323,
+     853.4
+    ],
+    [
+     394,
+     858.1
+    ],
+    [
+     473,
+     862.3
+    ],
+    [
+     545,
+     867.1
+    ],
+    [
+     601,
+     870.0
+    ],
+    [
+     661,
+     872.6
+    ],
+    [
+     743,
+     876.4
+    ],
+    [
+     816,
+     879.8
+    ]
+   ]
+  },
+  {
+   "start": 882.81,
+   "end": 888.63,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¿Qué ha aprendido usted y su partido de los gobiernos autonómicos con el Partido Popular?",
+   "marks": [
+    [
+     0,
+     882.8
+    ],
+    [
+     70,
+     887.8
+    ]
+   ]
+  },
+  {
+   "start": 888.83,
+   "end": 890.07,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "¿Qué hemos aprendido? ¿Qué ha aprendido?",
+   "marks": [
+    [
+     0,
+     888.8
+    ],
+    [
+     22,
+     889.8
+    ]
+   ]
+  },
+  {
+   "start": 890.17,
+   "end": 891.67,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Sí. ¿Qué lecciones ha tomado?",
+   "marks": [
+    [
+     0,
+     890.2
+    ],
+    [
+     4,
+     890.4
+    ]
+   ]
+  },
+  {
+   "start": 891.89,
+   "end": 892.57,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Bueno, yo...",
+   "marks": [
+    [
+     0,
+     891.9
+    ]
+   ]
+  },
+  {
+   "start": 894.39,
+   "end": 895.41,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "No todo se hace bien.",
+   "marks": [
+    [
+     0,
+     894.4
+    ]
+   ]
+  },
+  {
+   "start": 895.69,
+   "end": 928.27,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "No, no, no, no todo se hace bien. Yo creo que la experiencia de gobierno para Vox es buena. Una de las acusaciones que permanentemente se hace a Vox es que no tiene experiencia de gobierno. Bueno, claro, claro que no la tenemos. Es un partido nuevo y la experiencia de gobierno se adquiere gobernando. y eso es lo que están aprendiendo a hacer nuestros vicepresidentes, los cuadros directivos de Vox y espero que ese sea un aprendizaje rápido y que podamos ofrecérselo a la sociedad española. Yo creo que ese es el aprendizaje con la comisión de errores, tanto en la oposición como en los gobiernos.",
+   "marks": [
+    [
+     0,
+     895.7
+    ],
+    [
+     34,
+     898.2
+    ],
+    [
+     49,
+     899.8
+    ],
+    [
+     92,
+     903.1
+    ],
+    [
+     119,
+     904.4
+    ],
+    [
+     190,
+     906.6
+    ],
+    [
+     229,
+     908.4
+    ],
+    [
+     251,
+     910.4
+    ],
+    [
+     302,
+     912.0
+    ],
+    [
+     318,
+     912.8
+    ],
+    [
+     402,
+     917.5
+    ],
+    [
+     471,
+     921.4
+    ],
+    [
+     493,
+     922.5
+    ],
+    [
+     534,
+     925.5
+    ]
+   ]
+  },
+  {
+   "start": 928.81,
+   "end": 945.05,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Mientras ya ha hecho varias veces alusión a la política migratoria, vamos a centrarnos ahora en esto. Es evidente que ustedes defienden una política migratoria mucho más restrictiva. No sé si tienen ya un cálculo de a cuántas personas podrían suponer eso la expulsión y con qué criterios jurídicos.",
+   "marks": [
+    [
+     0,
+     928.8
+    ],
+    [
+     74,
+     932.4
+    ],
+    [
+     102,
+     934.3
+    ],
+    [
+     149,
+     936.2
+    ],
+    [
+     183,
+     938.0
+    ],
+    [
+     216,
+     940.5
+    ],
+    [
+     288,
+     944.6
+    ]
+   ]
+  },
+  {
+   "start": 945.91,
+   "end": 1068.49,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "No, no podemos tener un cálculo, no sabemos exactamente cuántas pueden ser esas personas porque desconfiamos de todos los datos públicos. Esperamos tener esos datos concretos cuando accedamos al poder, pero aunque no sepa el número, que creo que es irrelevante, Es irrelevante en el sentido que a nosotros nos da igual que sean 100, 1000, 100.000, 1.000.000 o más. Lo que queremos es que todos los que estén en las circunstancias que hemos relatado se vayan de España. Los que están ilegalmente se tienen que ir de España todos y tienen que iniciar, los que quieran, pidiendo permiso, un proceso de inmigración legal. Los que están cometiendo delitos se tienen que ir todos a través de convenios internacionales con los países de origen a cumplir las penas de prisión en sus propias naciones. Y los que han venido a España no a trabajar, sino a vivir de las ayudas sociales que la política del establishment ha dado durante tanto tiempo, tienen que irse fuera de España. Ahora bien, los que han venido a España a trabajar, están contribuyendo, están respetando las leyes, no quieren imponer fanatismos religiosos, Pues esas personas les hemos dado siempre la bienvenida. El problema es que ahora en España creemos que no cabe nadie más. Han entrado 5 millones de personas en 5 años. Eso tiene unas implicaciones sobre el mercado de la vivienda brutales, sobre el colapso sanitario, sobre la asistencia social, sobre la seguridad en las calles, sobre la propia identidad del país, las costumbres. Tiene una afección tremenda. Ya vemos cuáles son los problemas de otros países del norte de Europa. No queremos continuar por esa senda. Por lo tanto, es muy claro a quienes queremos enseñar el camino de regreso a sus propias patrias y es muy claro con quienes no tenemos ningún problema. Es más, los inmigrantes legales que respetan la ley, que se adaptan, Los que trabajan, que contribuyen, que pagan impuestos, también son víctimas, como los españoles, de las consecuencias de la inmigración masiva.",
+   "marks": [
+    [
+     0,
+     945.9
+    ],
+    [
+     75,
+     950.8
+    ],
+    [
+     138,
+     954.2
+    ],
+    [
+     159,
+     955.2
+    ],
+    [
+     233,
+     960.7
+    ],
+    [
+     297,
+     964.5
+    ],
+    [
+     353,
+     970.7
+    ],
+    [
+     365,
+     972.0
+    ],
+    [
+     408,
+     973.8
+    ],
+    [
+     469,
+     977.0
+    ],
+    [
+     477,
+     977.5
+    ],
+    [
+     541,
+     981.0
+    ],
+    [
+     618,
+     985.7
+    ],
+    [
+     622,
+     986.1
+    ],
+    [
+     686,
+     988.3
+    ],
+    [
+     760,
+     992.2
+    ],
+    [
+     793,
+     993.9
+    ],
+    [
+     823,
+     995.2
+    ],
+    [
+     881,
+     999.7
+    ],
+    [
+     960,
+     1003.4
+    ],
+    [
+     971,
+     1004.5
+    ],
+    [
+     1023,
+     1007.1
+    ],
+    [
+     1119,
+     1013.6
+    ],
+    [
+     1171,
+     1016.1
+    ],
+    [
+     1190,
+     1016.5
+    ],
+    [
+     1237,
+     1019.4
+    ],
+    [
+     1251,
+     1020.4
+    ],
+    [
+     1283,
+     1023.1
+    ],
+    [
+     1321,
+     1025.2
+    ],
+    [
+     1402,
+     1031.3
+    ],
+    [
+     1474,
+     1035.3
+    ],
+    [
+     1496,
+     1036.2
+    ],
+    [
+     1525,
+     1039.0
+    ],
+    [
+     1549,
+     1040.2
+    ],
+    [
+     1596,
+     1043.3
+    ],
+    [
+     1622,
+     1045.0
+    ],
+    [
+     1633,
+     1045.6
+    ],
+    [
+     1687,
+     1049.2
+    ],
+    [
+     1745,
+     1052.5
+    ],
+    [
+     1785,
+     1054.2
+    ],
+    [
+     1821,
+     1057.0
+    ],
+    [
+     1893,
+     1063.2
+    ],
+    [
+     1976,
+     1067.7
+    ]
+   ]
+  },
+  {
+   "start": 1068.81,
+   "end": 1072.33,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Claro, los que ya están, los que han sido regularizados, se quedan, con eso no hay ningún problema.",
+   "marks": [
+    [
+     0,
+     1068.8
+    ],
+    [
+     68,
+     1071.3
+    ]
+   ]
+  },
+  {
+   "start": 1072.69,
+   "end": 1079.87,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Bueno, hay un gran problema con las regularizaciones, creemos que las regularizaciones... No, pero hay que tener marcha atrás, no sé si hemos",
+   "marks": [
+    [
+     0,
+     1072.7
+    ],
+    [
+     90,
+     1078.6
+    ]
+   ]
+  },
+  {
+   "start": 1079.87,
+   "end": 1079.95,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "visto...",
+   "marks": [
+    [
+     0,
+     1079.9
+    ]
+   ]
+  },
+  {
+   "start": 1079.87,
+   "end": 1087.75,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Bueno, efectivamente, hay cosas que sí pueden tener marcha atrás, en España hay concesiones de nacionalidad fraudulentas, que hay que analizar.",
+   "marks": [
+    [
+     0,
+     1079.9
+    ],
+    [
+     76,
+     1083.5
+    ]
+   ]
+  },
+  {
+   "start": 1088.75,
+   "end": 1090.21,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¿Se está refiriendo al voto exterior?",
+   "marks": [
+    [
+     0,
+     1088.8
+    ]
+   ]
+  },
+  {
+   "start": 1090.51,
+   "end": 1121.49,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "No, me estoy refiriendo a concesiones de nacionalidad cuando no hay tratado de doble nacionalidad y cuando no se renuncia a la nacionalidad de origen. Yo animo a ustedes, que son los que pueden investigar estas cosas, a hablar con los notarios que están viendo esas nacionalizaciones y que les pregunten por qué son masivas. Porque en estos momentos, por ejemplo, en las nacionalizaciones de Marruecos ¿Tienen",
+   "marks": [
+    [
+     0,
+     1090.5
+    ],
+    [
+     76,
+     1095.2
+    ],
+    [
+     143,
+     1097.6
+    ],
+    [
+     151,
+     1099.4
+    ],
+    [
+     211,
+     1103.8
+    ],
+    [
+     286,
+     1108.4
+    ],
+    [
+     325,
+     1110.6
+    ],
+    [
+     355,
+     1113.1
+    ]
+   ]
+  },
+  {
+   "start": 1121.49,
+   "end": 1122.39,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "datos de esto?",
+   "marks": [
+    [
+     0,
+     1121.5
+    ]
+   ]
+  },
+  {
+   "start": 1144.83,
+   "end": 1150.59,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Si se encuentra que son culpables de yihadismo o de cualquier otro delito grave, se les va a retirar la nacionalidad.",
+   "marks": [
+    [
+     0,
+     1144.8
+    ],
+    [
+     67,
+     1148.1
+    ]
+   ]
+  },
+  {
+   "start": 1152.27,
+   "end": 1159.31,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Hablaba antes de las políticas sociales. En las políticas sociales de las que ahora mismo se beneficia la población migrante, ¿hay que hacer algún cambio?",
+   "marks": [
+    [
+     0,
+     1152.3
+    ],
+    [
+     41,
+     1153.9
+    ],
+    [
+     74,
+     1155.1
+    ],
+    [
+     147,
+     1159.0
+    ]
+   ]
+  },
+  {
+   "start": 1161.14,
+   "end": 1179.14,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Es que yo creo que las ayudas sociales tienen que ser prioritariamente para los españoles. Si hay una población de inmigrantes que han llegado, han trabajado, han contribuido y de repente tienen un problema, En este tema, lógicamente, esas personas han adquirido derechos para recibir ayudas. Eso es lo que está",
+   "marks": [
+    [
+     0,
+     1161.1
+    ],
+    [
+     71,
+     1166.2
+    ],
+    [
+     91,
+     1167.4
+    ],
+    [
+     144,
+     1171.7
+    ],
+    [
+     216,
+     1175.1
+    ],
+    [
+     293,
+     1178.5
+    ],
+    [
+     300,
+     1178.8
+    ]
+   ]
+  },
+  {
+   "start": 1179.14,
+   "end": 1180.2,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "establecido ahora mismo, ¿no?",
+   "marks": [
+    [
+     0,
+     1179.1
+    ]
+   ]
+  },
+  {
+   "start": 1180.3,
+   "end": 1196.9,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "No, no. Ahora las ayudas sociales llegan también directamente a los que están ilegales, a los que acaban de ser regularizados pero no tienen un trabajo, no han contribuido. Hay tutoriales en Youtube explicando el modo de acceder a ayudas sociales en España nada más llegar.",
+   "marks": [
+    [
+     0,
+     1180.3
+    ],
+    [
+     8,
+     1180.7
+    ],
+    [
+     72,
+     1184.6
+    ],
+    [
+     141,
+     1188.6
+    ],
+    [
+     173,
+     1191.8
+    ],
+    [
+     218,
+     1194.8
+    ]
+   ]
+  },
+  {
+   "start": 1197.14,
+   "end": 1200.54,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¿Pero cuáles son esas ayudas sociales de las que se benefician quienes han llegado y no tienen ningún derecho?",
+   "marks": [
+    [
+     0,
+     1197.1
+    ],
+    [
+     71,
+     1199.8
+    ]
+   ]
+  },
+  {
+   "start": 1200.42,
+   "end": 1219.92,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Pues ayudas directas, económicas a familias, ayudas al alquiler, puntos en las oposiciones o en los concursos para acceder a ayudas de alquiler y al final los españoles quedan por detrás, en la práctica, porque al español le dicen, no, tú tienes aquí un arraigo, no hay problema, porque tú tienes familia.",
+   "marks": [
+    [
+     0,
+     1200.4
+    ],
+    [
+     79,
+     1207.6
+    ],
+    [
+     146,
+     1211.2
+    ],
+    [
+     214,
+     1215.8
+    ],
+    [
+     280,
+     1219.4
+    ]
+   ]
+  },
+  {
+   "start": 1220.44,
+   "end": 1221.06,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Y a los",
+   "marks": [
+    [
+     0,
+     1220.4
+    ]
+   ]
+  },
+  {
+   "start": 1221.06,
+   "end": 1231.66,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "españoles que necesitan independizarse, formar una familia, le dicen quédate con tus padres. Y en cambio al inmigrante se le pone por delante y acaba accediendo a esas ayudas alquiler que necesitan los españoles.",
+   "marks": [
+    [
+     0,
+     1221.1
+    ],
+    [
+     85,
+     1225.0
+    ],
+    [
+     93,
+     1225.6
+    ],
+    [
+     144,
+     1228.7
+    ]
+   ]
+  },
+  {
+   "start": 1232.84,
+   "end": 1234.84,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Claro, pero porque están en una situación todavía más vulnerable.",
+   "marks": [
+    [
+     0,
+     1232.8
+    ]
+   ]
+  },
+  {
+   "start": 1235.6,
+   "end": 1293.86,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Sí, pero España no tiene que solucionar los problemas de todo el mundo. Yo me hago cargo de esa vulnerabilidad si ni siquiera se la reprochamos al inmigrante. Bueno, a algunos sí, porque son delincuentes, porque son yihadistas, Pero no se la reprochamos a los inmigrantes, se la reprochamos a los políticos que han abierto las puertas y que han dicho que la sanidad española pagada por los trabajadores españoles es para todo el mundo y que el mercado de la vivienda en España es para todo el mundo. Pues no, no es posible, porque la gente que viene necesita un techo y nos encontramos con que hay familias enteras viviendo en habitaciones y compartiendo pisos. Y hay una depauperización de la sociedad española, pero también hay una depauperización de los inmigrantes que están llegando. Y eso no conduce a nada bueno. Por eso decimos que el principal modo para resolver el problema de la vivienda es la remigración junto con la liberalización del suelo para que se pueda construir más, mejor y más rápido con impuestos más bajos y también la construcción de vivienda social por parte del Estado.",
+   "marks": [
+    [
+     0,
+     1235.6
+    ],
+    [
+     65,
+     1238.1
+    ],
+    [
+     72,
+     1238.6
+    ],
+    [
+     129,
+     1241.5
+    ],
+    [
+     159,
+     1242.8
+    ],
+    [
+     212,
+     1245.1
+    ],
+    [
+     279,
+     1248.1
+    ],
+    [
+     345,
+     1251.0
+    ],
+    [
+     421,
+     1254.6
+    ],
+    [
+     477,
+     1257.6
+    ],
+    [
+     500,
+     1259.1
+    ],
+    [
+     534,
+     1261.1
+    ],
+    [
+     598,
+     1264.6
+    ],
+    [
+     662,
+     1268.8
+    ],
+    [
+     688,
+     1270.3
+    ],
+    [
+     769,
+     1276.0
+    ],
+    [
+     789,
+     1276.8
+    ],
+    [
+     820,
+     1278.1
+    ],
+    [
+     828,
+     1278.4
+    ],
+    [
+     899,
+     1283.0
+    ],
+    [
+     967,
+     1287.7
+    ],
+    [
+     1033,
+     1291.6
+    ]
+   ]
+  },
+  {
+   "start": 1294.22,
+   "end": 1302.66,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¿Qué hacemos? Pero solución realista, de verdad, con aquellos menores que han llegado, que están aquí y que sus países de origen no los aceptan.",
+   "marks": [
+    [
+     0,
+     1294.2
+    ],
+    [
+     14,
+     1295.0
+    ],
+    [
+     78,
+     1299.3
+    ],
+    [
+     136,
+     1302.1
+    ]
+   ]
+  },
+  {
+   "start": 1303.42,
+   "end": 1308.28,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Bueno, pues lo primero que hay que decir es que Marruecos ha dicho que los acepta, que los quiere.",
+   "marks": [
+    [
+     0,
+     1303.4
+    ],
+    [
+     61,
+     1306.4
+    ]
+   ]
+  },
+  {
+   "start": 1308.38,
+   "end": 1309.78,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Sí, pero sabemos que no los acepta.",
+   "marks": [
+    [
+     0,
+     1308.4
+    ]
+   ]
+  },
+  {
+   "start": 1309.78,
+   "end": 1389.94,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "No, no, es que igual es Sánchez el que no quiere devolverlos. ¿Y por qué no va a querer devolverlos? Pues no lo sé, porque probablemente... No lo sé, no, sí lo sé, porque más lo afirmo. Sánchez no puede andar por la calle. Sánchez es un señor que después de ocho años ha terminado odiando a su propio pueblo y quiere sustituirlo. Sánchez necesita este proceso de regularización. Estamos viendo estos días en redes sociales, por parte de portavoces de partidos marroquíes, diciendo que su candidato en España es Sánchez, que el candidato marroquí en España es Sánchez. Y por eso precisamente necesitan a esa gente aquí, porque saben que los van a comprar con ayudas sociales. No tienen ningún interés en devolverlo y lo han utilizado como un elemento de confrontación, incluso como un elemento de violencia. Nosotros cuando hemos ido a determinados lugares nos hemos encontrado a esos grupos de menores, con grupos autodenominados antifascistas de extrema izquierda, atacando a Vox conjuntamente. Era paradójico. Nos hemos encontrado a personas probablemente que son musulmanes radicales Manifestándose contra nosotros con personas que llevaban una bandera LGTB y que les han dicho que Vox quiere perseguir a ese tipo de personas Es una barbaridad, ¿no? Pero eso es lo que nos estamos encontrando Sánchez necesita sus milicias y necesita sus nuevos votantes Pero Marruecos ha dicho, y yo lo que dice Marruecos lo pongo también en tela de juicio Ah,",
+   "marks": [
+    [
+     0,
+     1309.8
+    ],
+    [
+     62,
+     1313.2
+    ],
+    [
+     101,
+     1314.8
+    ],
+    [
+     116,
+     1315.2
+    ],
+    [
+     140,
+     1316.7
+    ],
+    [
+     178,
+     1318.5
+    ],
+    [
+     186,
+     1320.6
+    ],
+    [
+     223,
+     1323.9
+    ],
+    [
+     243,
+     1324.9
+    ],
+    [
+     308,
+     1329.0
+    ],
+    [
+     330,
+     1331.4
+    ],
+    [
+     379,
+     1333.8
+    ],
+    [
+     400,
+     1334.6
+    ],
+    [
+     481,
+     1338.4
+    ],
+    [
+     549,
+     1341.5
+    ],
+    [
+     568,
+     1342.8
+    ],
+    [
+     619,
+     1345.6
+    ],
+    [
+     675,
+     1348.4
+    ],
+    [
+     685,
+     1349.3
+    ],
+    [
+     753,
+     1352.7
+    ],
+    [
+     807,
+     1355.0
+    ],
+    [
+     835,
+     1356.1
+    ],
+    [
+     914,
+     1360.9
+    ],
+    [
+     996,
+     1367.4
+    ],
+    [
+     1012,
+     1368.4
+    ],
+    [
+     1016,
+     1368.7
+    ],
+    [
+     1118,
+     1373.4
+    ],
+    [
+     1181,
+     1376.9
+    ],
+    [
+     1248,
+     1380.1
+    ],
+    [
+     1253,
+     1380.5
+    ],
+    [
+     1317,
+     1382.9
+    ],
+    [
+     1387,
+     1387.9
+    ]
+   ]
+  },
+  {
+   "start": 1389.94,
+   "end": 1391.9,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "por eso le iba a decir, que así nos creemos la palabra de",
+   "marks": [
+    [
+     0,
+     1389.9
+    ],
+    [
+     55,
+     1391.7
+    ]
+   ]
+  },
+  {
+   "start": 1391.9,
+   "end": 1406.58,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Marruecos No nos la creemos, pero lo ha dicho un público y hay que tomar la palabra Hay que tomar la palabra. Marrocos dice que hay dificultades en la legislación española. ¿Por qué los políticos españoles no quieren cambiar esas supuestas dificultades?",
+   "marks": [
+    [
+     0,
+     1391.9
+    ],
+    [
+     59,
+     1396.7
+    ],
+    [
+     110,
+     1400.1
+    ],
+    [
+     124,
+     1400.7
+    ],
+    [
+     173,
+     1402.7
+    ],
+    [
+     206,
+     1404.4
+    ]
+   ]
+  },
+  {
+   "start": 1406.58,
+   "end": 1409.16,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Es pendiente el tema de las devoluciones en calientes, ¿verdad? Que eso se acaba el plazo.",
+   "marks": [
+    [
+     0,
+     1406.6
+    ],
+    [
+     64,
+     1408.5
+    ],
+    [
+     72,
+     1408.7
+    ]
+   ]
+  },
+  {
+   "start": 1409.4,
+   "end": 1427.48,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Pues eso hay que hacerlo. En todo caso, en el caso de Ceuta es otra cuestión. Yo creo que estamos hablando de una guerra híbrida y aquí no opera la política migratoria. Aquí yo creo que operan otros parámetros y esas personas tienen que ser devueltas inmediatamente. No es el pacto de inmigración o asilo, hay que devolverlas inmediatamente.",
+   "marks": [
+    [
+     0,
+     1409.4
+    ],
+    [
+     26,
+     1410.8
+    ],
+    [
+     54,
+     1412.5
+    ],
+    [
+     78,
+     1414.1
+    ],
+    [
+     121,
+     1416.0
+    ],
+    [
+     169,
+     1419.9
+    ],
+    [
+     186,
+     1420.6
+    ],
+    [
+     267,
+     1424.3
+    ],
+    [
+     270,
+     1424.8
+    ]
+   ]
+  },
+  {
+   "start": 1428.44,
+   "end": 1444.14,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Pensiones, vivienda, fiscalidad, que son los grandes temas. Pensiones, hay millones de pensionistas ahora mismo que quieren respuestas sin ambigüedades. Para que quede claro, ¿ustedes garantizan también la revalorización de las pensiones conforme al IPC? Sí, ¿no? Conforme a los distintos mensajes que hemos estado escuchando.",
+   "marks": [
+    [
+     0,
+     1428.4
+    ],
+    [
+     60,
+     1431.2
+    ],
+    [
+     87,
+     1433.5
+    ],
+    [
+     153,
+     1436.2
+    ],
+    [
+     175,
+     1437.4
+    ],
+    [
+     255,
+     1441.2
+    ],
+    [
+     259,
+     1441.7
+    ],
+    [
+     264,
+     1441.9
+    ]
+   ]
+  },
+  {
+   "start": 1444.16,
+   "end": 1444.82,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Pero también proponen",
+   "marks": [
+    [
+     0,
+     1444.2
+    ]
+   ]
+  },
+  {
+   "start": 1444.82,
+   "end": 1448.46,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "un modelo mixto. ¿Cómo se llega a ese modelo mixto? No, no, yo",
+   "marks": [
+    [
+     0,
+     1444.8
+    ],
+    [
+     17,
+     1446.2
+    ],
+    [
+     52,
+     1447.3
+    ],
+    [
+     60,
+     1447.8
+    ]
+   ]
+  },
+  {
+   "start": 1448.46,
+   "end": 1505.06,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "quiero ser muy claro porque aquí la mentira del gobierno ha funcionado con mucha fuerza durante estos días y yo creo que por eso podemos decir que esta va a ser una campaña violenta, poco transparente en algunas circunstancias y manipulada, porque va a haber mucha mentira. El gobierno ha dicho que Vox quiere privatizar las pensiones, Vox jamás ha dicho eso, Vox quiere que se mantenga el sistema público de pensiones y que se pague como sea, como sea es como sea. ¿Cuál tiene que ser el modelo? Esas cosas serán discutibles y desde luego nosotros no tenemos ningún interés en discutirlas. Lo que tenemos interés y le damos importancia es a que los pensionistas estén tranquilos. Las pensiones se van a pagar. Las pensiones se ponen en riesgo si continúa este gobierno, que va a destruir la economía, que va a destruir a los autónomos, que va a avasallar con más impuestos y va a hacer imposible el sostenimiento del gasto público. Pero si hay un cambio en España es como se van a garantizar las pensiones.",
+   "marks": [
+    [
+     0,
+     1448.5
+    ],
+    [
+     71,
+     1454.0
+    ],
+    [
+     129,
+     1457.5
+    ],
+    [
+     201,
+     1460.6
+    ],
+    [
+     274,
+     1464.8
+    ],
+    [
+     277,
+     1465.0
+    ],
+    [
+     349,
+     1468.6
+    ],
+    [
+     419,
+     1472.5
+    ],
+    [
+     466,
+     1476.5
+    ],
+    [
+     472,
+     1476.9
+    ],
+    [
+     497,
+     1477.8
+    ],
+    [
+     540,
+     1479.6
+    ],
+    [
+     591,
+     1482.7
+    ],
+    [
+     616,
+     1484.5
+    ],
+    [
+     681,
+     1487.4
+    ],
+    [
+     695,
+     1488.2
+    ],
+    [
+     711,
+     1490.2
+    ],
+    [
+     756,
+     1492.9
+    ],
+    [
+     820,
+     1496.1
+    ],
+    [
+     879,
+     1499.6
+    ],
+    [
+     933,
+     1501.8
+    ],
+    [
+     948,
+     1502.5
+    ]
+   ]
+  },
+  {
+   "start": 1505.06,
+   "end": 1523.06,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Yo creo que también ha ayudado a que el Partido Socialista vaya por esa vía, declaraciones de la portavoz del Partido Popular y creo que de su portavoz económico, reconociendo algo que se ve en los informes de la AIREF, informes del Banco de España, que este sistema actual no es sostenible si no se introducen cambios.",
+   "marks": [
+    [
+     0,
+     1505.1
+    ],
+    [
+     64,
+     1509.1
+    ],
+    [
+     133,
+     1512.6
+    ],
+    [
+     198,
+     1516.4
+    ],
+    [
+     267,
+     1519.5
+    ]
+   ]
+  },
+  {
+   "start": 1524.46,
+   "end": 1535.2,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "El Partido Socialista ha dicho que Vox va a privatizar las pensiones. Es una mentira. Vox jamás ha dicho ni una sola palabra de privatizar las pensiones.",
+   "marks": [
+    [
+     0,
+     1524.5
+    ],
+    [
+     70,
+     1527.9
+    ],
+    [
+     86,
+     1531.5
+    ],
+    [
+     128,
+     1534.1
+    ]
+   ]
+  },
+  {
+   "start": 1535.6,
+   "end": 1540.18,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¿Tú no te has dado las preguntas? Porque tenía bastantes preguntas sobre cambiar al sistema de capitalización.",
+   "marks": [
+    [
+     0,
+     1535.6
+    ],
+    [
+     34,
+     1536.9
+    ],
+    [
+     73,
+     1538.1
+    ]
+   ]
+  },
+  {
+   "start": 1541.4,
+   "end": 1558.64,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Esa es una discusión de técnicos, pero yo me presento a la presidencia del gobierno y quiero ofrecer un mensaje claro a los españoles. Las pensiones no están en riesgo. Se pagarán con el sistema que hay, con una modernización del sistema, con los cambios que sean necesarios, pero no están en riesgo.",
+   "marks": [
+    [
+     0,
+     1541.4
+    ],
+    [
+     59,
+     1545.9
+    ],
+    [
+     135,
+     1549.1
+    ],
+    [
+     169,
+     1551.7
+    ],
+    [
+     199,
+     1553.4
+    ],
+    [
+     276,
+     1557.7
+    ]
+   ]
+  },
+  {
+   "start": 1558.84,
+   "end": 1565.8,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¿Y la propuesta suya, la de ustedes, que también se lo preguntaría al Partido Popular, la de ustedes para cambiar ese modelo, para hacerlo sostenible, cuál es?",
+   "marks": [
+    [
+     0,
+     1558.8
+    ],
+    [
+     67,
+     1561.3
+    ],
+    [
+     139,
+     1565.0
+    ]
+   ]
+  },
+  {
+   "start": 1566.04,
+   "end": 1599.02,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Pues yo creo que es algo complicado, para lo cual también hay que tener toda la información del Estado, que en estos momentos el gobierno de Sánchez nos hurta. y por lo tanto creo que exige una reflexión mucho más sosegada que una reflexión de campaña electoral. Lo importante es que la gente que recibe una pensión tiene que saber que eso no se va a poner en riesgo de ninguna manera, que van a seguir recibiéndolo, que tienen ese derecho, que tienen derecho a no perder poder adquisitivo y eso es lo esencial. ¿Cómo hay que pagar eso mientras tenemos un modelo más eficaz?",
+   "marks": [
+    [
+     0,
+     1566.0
+    ],
+    [
+     62,
+     1569.6
+    ],
+    [
+     129,
+     1572.1
+    ],
+    [
+     160,
+     1573.7
+    ],
+    [
+     190,
+     1575.0
+    ],
+    [
+     263,
+     1580.4
+    ],
+    [
+     266,
+     1580.8
+    ],
+    [
+     332,
+     1583.4
+    ],
+    [
+     386,
+     1587.1
+    ],
+    [
+     460,
+     1590.9
+    ],
+    [
+     512,
+     1594.7
+    ],
+    [
+     522,
+     1595.3
+    ]
+   ]
+  },
+  {
+   "start": 1599.46,
+   "end": 1600.6,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Pues de la manera que sea",
+   "marks": [
+    [
+     0,
+     1599.5
+    ]
+   ]
+  },
+  {
+   "start": 1600.6,
+   "end": 1607.2,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "necesaria, como se hace ahora, por cierto. Porque hay que introducir dinero fuera del sistema para poder pagarlas.",
+   "marks": [
+    [
+     0,
+     1600.6
+    ],
+    [
+     43,
+     1604.0
+    ],
+    [
+     76,
+     1605.4
+    ]
+   ]
+  },
+  {
+   "start": 1610.18,
+   "end": 1619.92,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Economía y vivienda. ¿Ustedes defienden rebajar los impuestos, reducir el gasto público? ¿De dónde sacarían esa reducción del gasto público? ¿De qué partidas concretar para que los ciudadanos sepan?",
+   "marks": [
+    [
+     0,
+     1610.2
+    ],
+    [
+     21,
+     1611.5
+    ],
+    [
+     89,
+     1614.5
+    ],
+    [
+     141,
+     1617.0
+    ],
+    [
+     168,
+     1618.3
+    ]
+   ]
+  },
+  {
+   "start": 1619.92,
+   "end": 1721.6,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Bueno, yo creo que la reducción del gasto público tiene que estar absolutamente en todos los terrenos. Hay un gasto político excesivo, un gasto ideológico excesivo, un gasto en subvenciones excesivo, un gasto que no es que sea improductivo sino destructivo porque es ideológico y va a atacar la producción de energía, La economía va a atacar por el consumo de CO2. Hay gasto que directamente se puede ahorrar y luego hay gasto que directamente está provocando menos ingresos y que está haciendo un daño mayor. Creemos que hay grandes disfunciones en el modelo del Estado, que hay que reorganizarlo por completo. Nuestra posición es muy clara contra el modelo autonómico, pero sabemos que para eso hacen falta grandes mayorías y nos gustaría cambiarlo, No es la urgencia nacional, eso exige una gran reforma. La urgencia nacional es reordenar en estos momentos todas las administraciones y por supuesto plantearse, como están haciendo muchos otros países, y sobre todo a la luz de lo que significa la tecnología, la inteligencia artificial, que probablemente hay muchos puestos de trabajo en el sector público que no tienen necesariamente que cubrirse, sino que se pueden ir amortizando cuando se producen jubilaciones. Pero es absolutamente necesario que el peso del Estado deje de ser una losa terrible sobre aquellas personas que están emprendiendo, que están generando trabajo, que están pagando impuestos. Porque si no, vamos a la quiebra absoluta, porque si no, vamos a una deuda pública y con unos intereses de la deuda que España no va a poder asumir. Por lo tanto, hay que detectar exactamente todo ese gasto en todos los órdenes. Y lo estamos haciendo poco a poco en las regiones.",
+   "marks": [
+    [
+     0,
+     1619.9
+    ],
+    [
+     66,
+     1622.5
+    ],
+    [
+     103,
+     1625.8
+    ],
+    [
+     144,
+     1630.0
+    ],
+    [
+     219,
+     1637.8
+    ],
+    [
+     292,
+     1642.1
+    ],
+    [
+     357,
+     1646.5
+    ],
+    [
+     365,
+     1647.6
+    ],
+    [
+     421,
+     1650.7
+    ],
+    [
+     498,
+     1655.4
+    ],
+    [
+     510,
+     1657.0
+    ],
+    [
+     572,
+     1660.1
+    ],
+    [
+     612,
+     1662.2
+    ],
+    [
+     649,
+     1663.5
+    ],
+    [
+     726,
+     1667.1
+    ],
+    [
+     794,
+     1673.0
+    ],
+    [
+     808,
+     1674.2
+    ],
+    [
+     870,
+     1677.1
+    ],
+    [
+     957,
+     1682.5
+    ],
+    [
+     1015,
+     1686.2
+    ],
+    [
+     1101,
+     1689.9
+    ],
+    [
+     1174,
+     1694.0
+    ],
+    [
+     1219,
+     1695.8
+    ],
+    [
+     1263,
+     1699.2
+    ],
+    [
+     1332,
+     1703.3
+    ],
+    [
+     1410,
+     1707.5
+    ],
+    [
+     1420,
+     1708.1
+    ],
+    [
+     1479,
+     1711.2
+    ],
+    [
+     1540,
+     1714.8
+    ],
+    [
+     1559,
+     1715.7
+    ],
+    [
+     1607,
+     1718.2
+    ],
+    [
+     1639,
+     1719.4
+    ],
+    [
+     1668,
+     1720.5
+    ]
+   ]
+  },
+  {
+   "start": 1722.02,
+   "end": 1722.46,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¿Sindicatos?",
+   "marks": [
+    [
+     0,
+     1722.0
+    ]
+   ]
+  },
+  {
+   "start": 1722.46,
+   "end": 1776.32,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Yo creo que los sindicatos de clase, porque no se puede generalizar, los sindicatos ideológicos del Partido Socialista y de las fuerzas políticas comunistas, Comisiones Obreras y UGT, acaban de demostrar a quién sirven. Sirven a un gobierno al que han estado callados durante ocho años, al que no le han hecho ningún tipo de huelga, a pesar de que la compra de vivienda se ha encarecido en un 74% y el alquiler en un 40%, y van a hacer una huelga general en mitad de las elecciones contra la oposición, no contra el gobierno. Yo creo que los españoles están muy hartos de tener que pagar esa fiesta, de tener que pagar todo eso y por supuesto las subvenciones a los sindicatos y a los partidos políticos y a las organizaciones patronales, no solo a los sindicatos, creo que deben ser revisadas, rebajadas drásticamente e incluso suprimidas.",
+   "marks": [
+    [
+     0,
+     1722.5
+    ],
+    [
+     69,
+     1727.7
+    ],
+    [
+     158,
+     1733.0
+    ],
+    [
+     220,
+     1738.3
+    ],
+    [
+     229,
+     1738.8
+    ],
+    [
+     294,
+     1743.4
+    ],
+    [
+     348,
+     1746.2
+    ],
+    [
+     399,
+     1749.7
+    ],
+    [
+     455,
+     1753.6
+    ],
+    [
+     526,
+     1757.8
+    ],
+    [
+     588,
+     1760.8
+    ],
+    [
+     647,
+     1765.4
+    ],
+    [
+     712,
+     1768.5
+    ],
+    [
+     795,
+     1773.8
+    ]
+   ]
+  },
+  {
+   "start": 1776.32,
+   "end": 1789.28,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Las asociaciones que están vinculadas con todo el tema de ayudas a las mujeres, temas sociales, violencia machista o violencia de género, ¿todo esto es ese conglomerado?",
+   "marks": [
+    [
+     0,
+     1776.3
+    ],
+    [
+     67,
+     1779.6
+    ],
+    [
+     149,
+     1786.8
+    ]
+   ]
+  },
+  {
+   "start": 1789.82,
+   "end": 1817.74,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Bueno, yo no puedo hablar en general, tengo que conocer exactamente cuál es la labor de cualquier tipo de asociación civil con cualquier intención y cómo contribuye a la sociedad y cómo puede contribuir en un momento dado incluso al ahorro del Estado a través del voluntariado. Pero todas las asociaciones que están en realidad dirigidas de manera ideológica y que están sustituyendo al Estado pero cobrando únicamente del Estado, pues tienen que ver revisadas todas sus aportaciones.",
+   "marks": [
+    [
+     0,
+     1789.8
+    ],
+    [
+     73,
+     1793.3
+    ],
+    [
+     147,
+     1798.9
+    ],
+    [
+     209,
+     1802.5
+    ],
+    [
+     278,
+     1806.5
+    ],
+    [
+     283,
+     1807.0
+    ],
+    [
+     361,
+     1811.9
+    ],
+    [
+     443,
+     1815.7
+    ]
+   ]
+  },
+  {
+   "start": 1817.74,
+   "end": 1820.24,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¿Tiene algún nombre que ya tenga identificado?",
+   "marks": [
+    [
+     0,
+     1817.7
+    ]
+   ]
+  },
+  {
+   "start": 1820.24,
+   "end": 1834.18,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "No, no voy a señalar a ninguna asociación. Yo creo que, no sé, yo tengo que ser prudente, pero todos deben saber que eso exige una auditoría y probablemente están haciendo cosas que tiene que hacer la administración directamente.",
+   "marks": [
+    [
+     0,
+     1820.2
+    ],
+    [
+     43,
+     1823.0
+    ],
+    [
+     59,
+     1824.5
+    ],
+    [
+     121,
+     1827.5
+    ],
+    [
+     198,
+     1831.7
+    ]
+   ]
+  },
+  {
+   "start": 1835.18,
+   "end": 1837.76,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¿Mantendría usted el gasto en educación y en sanidad, la actual?",
+   "marks": [
+    [
+     0,
+     1835.2
+    ]
+   ]
+  },
+  {
+   "start": 1838.56,
+   "end": 1890.54,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "A mí lo que me gustaría es aumentar el gasto en educación y en sanidad, y aumentar la eficiencia, y reducirlo en todas las demás cosas. Y además nosotros pensamos que la rebaja fiscal no reduce el presupuesto, sino que lo aumenta, porque pensamos que la rebaja fiscal lleva a un mejor modelo económico, a mayor actividad, a mayor empleo, a mejores sueldos, y por lo tanto a una mayor recaudación fiscal. Esa es nuestra posición, y lo que nos gustaría es que el dinero público de los impuestos de los españoles vaya a lo importante, ¿Qué es lo importante? Pues exactamente nuestra sanidad que está colapsada, la educación que está en los peores datos desde un punto de vista de las comparativas internacionales, la seguridad en las calles que está empeorando, las infraestructuras, los trenes, las carreteras que están hechas una porquería, a eso tienen que ir nuestros impuestos y no a tanta ideología, a tanta subvención y a tanto gasto ideológico contra la prosperidad.",
+   "marks": [
+    [
+     0,
+     1838.6
+    ],
+    [
+     58,
+     1840.8
+    ],
+    [
+     123,
+     1844.5
+    ],
+    [
+     136,
+     1845.3
+    ],
+    [
+     194,
+     1848.2
+    ],
+    [
+     268,
+     1851.1
+    ],
+    [
+     338,
+     1855.8
+    ],
+    [
+     404,
+     1858.7
+    ],
+    [
+     461,
+     1861.0
+    ],
+    [
+     532,
+     1863.8
+    ],
+    [
+     555,
+     1864.8
+    ],
+    [
+     611,
+     1867.8
+    ],
+    [
+     674,
+     1871.9
+    ],
+    [
+     759,
+     1876.4
+    ],
+    [
+     842,
+     1881.0
+    ],
+    [
+     905,
+     1886.2
+    ]
+   ]
+  },
+  {
+   "start": 1890.72,
+   "end": 1892.32,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¿Qué impuestos eliminaría primero?",
+   "marks": [
+    [
+     0,
+     1890.7
+    ]
+   ]
+  },
+  {
+   "start": 1892.32,
+   "end": 1917.86,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Bueno, nosotros ya hemos hecho nuestro programa económico, que os invito a ver... Bueno, pero la entrevista no es el único momento de comunicación de mi campaña. Nosotros vamos a concretar eso durante toda la campaña, ya tenemos unos programas económicos conocidos en otras campañas electorales, y yo iré día a día explicando cuáles son los impuestos que queremos suprimir y los impuestos que queremos rebajar.",
+   "marks": [
+    [
+     0,
+     1892.3
+    ],
+    [
+     75,
+     1897.4
+    ],
+    [
+     82,
+     1898.3
+    ],
+    [
+     147,
+     1904.3
+    ],
+    [
+     162,
+     1905.2
+    ],
+    [
+     218,
+     1907.8
+    ],
+    [
+     301,
+     1912.6
+    ],
+    [
+     373,
+     1916.5
+    ]
+   ]
+  },
+  {
+   "start": 1918.06,
+   "end": 1920.02,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Ah, que no quiere contar todavía a desvelar esa baza.",
+   "marks": [
+    [
+     0,
+     1918.1
+    ]
+   ]
+  },
+  {
+   "start": 1920.02,
+   "end": 1927.76,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Bueno, muchas cosas. Nosotros vamos a dar propuestas concretas durante toda esta campaña, muy concretas, pero no las voy a hacer todas de golpe y todas en una entrevista.",
+   "marks": [
+    [
+     0,
+     1920.0
+    ],
+    [
+     21,
+     1921.2
+    ],
+    [
+     81,
+     1923.7
+    ],
+    [
+     144,
+     1926.9
+    ]
+   ]
+  },
+  {
+   "start": 1927.92,
+   "end": 1933.12,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Voy a insistir por si acaso. ¿Qué habría que hacer durante los primeros 100 días para aumentar la oferta de vivienda?",
+   "marks": [
+    [
+     0,
+     1927.9
+    ],
+    [
+     29,
+     1929.4
+    ],
+    [
+     63,
+     1931.2
+    ]
+   ]
+  },
+  {
+   "start": 1933.86,
+   "end": 1935.18,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Bueno, comenzar el proceso...",
+   "marks": [
+    [
+     0,
+     1933.9
+    ]
+   ]
+  },
+  {
+   "start": 1935.18,
+   "end": 1936.18,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Los primeros 100 días del próximo gobierno.",
+   "marks": [
+    [
+     0,
+     1935.2
+    ]
+   ]
+  },
+  {
+   "start": 1937.26,
+   "end": 1974.74,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Comenzar el proceso de remigración y comenzar un proceso de desregulación de todo aquello que constituye una traba para que quienes tienen la capacidad de empezar a construir vivienda puedan hacerlo. Hay que ir a las rebajas fiscales y a la liberalización inmediata del suelo, salvo en las áreas protegidas. España es un país muy grande, no está superpoblado, hay muchas áreas en las que se puede construir, pero las dificultades regulatorias, las dificultades económicas, las dificultades impositivas dificultan todo eso. Y por supuesto el Estado tiene que hacer lo mismo con la construcción de vivienda pública para las personas más desfavorecidas.",
+   "marks": [
+    [
+     0,
+     1937.3
+    ],
+    [
+     77,
+     1941.7
+    ],
+    [
+     152,
+     1945.7
+    ],
+    [
+     200,
+     1948.0
+    ],
+    [
+     217,
+     1948.6
+    ],
+    [
+     290,
+     1953.6
+    ],
+    [
+     308,
+     1954.4
+    ],
+    [
+     364,
+     1959.8
+    ],
+    [
+     444,
+     1964.6
+    ],
+    [
+     523,
+     1969.3
+    ],
+    [
+     538,
+     1970.0
+    ],
+    [
+     605,
+     1972.9
+    ]
+   ]
+  },
+  {
+   "start": 1978.52,
+   "end": 1985.16,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¿Se puede dar una cifra concreta? Porque esto es muy habitual en campaña electoral, una cifra concreta de viviendas que se pueden construir durante una legislatura.",
+   "marks": [
+    [
+     0,
+     1978.5
+    ],
+    [
+     34,
+     1980.3
+    ],
+    [
+     65,
+     1981.3
+    ],
+    [
+     148,
+     1984.4
+    ]
+   ]
+  },
+  {
+   "start": 1985.22,
+   "end": 1989.22,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "No, yo no cometeré ese error. Yo no soy uno de esos.",
+   "marks": [
+    [
+     0,
+     1985.2
+    ],
+    [
+     30,
+     1987.9
+    ]
+   ]
+  },
+  {
+   "start": 1991.38,
+   "end": 2003.6,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "La relación es la política exterior, señora Abascal. Si las decisiones de Donald Trump perjudican a nuestros agricultores, a las empresas, a nuestros intereses estratégicos, ¿usted se enfrentará políticamente a él?",
+   "marks": [
+    [
+     0,
+     1991.4
+    ],
+    [
+     53,
+     1994.8
+    ],
+    [
+     74,
+     1995.9
+    ],
+    [
+     160,
+     2000.5
+    ]
+   ]
+  },
+  {
+   "start": 2003.88,
+   "end": 2005.32,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Me sorprende que haya alguna duda.",
+   "marks": [
+    [
+     0,
+     2003.9
+    ]
+   ]
+  },
+  {
+   "start": 2006.74,
+   "end": 2008.26,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¿Cómo la hay? Por eso le pregunto.",
+   "marks": [
+    [
+     0,
+     2006.7
+    ],
+    [
+     14,
+     2007.4
+    ]
+   ]
+  },
+  {
+   "start": 2008.26,
+   "end": 2020.86,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Me sorprende que la haya, evidentemente, evidentemente que nosotros vamos a defender nuestros intereses, pero nosotros tenemos una comprensión de la política internacional, creo que mejor que el resto de los partidos políticos en España,",
+   "marks": [
+    [
+     0,
+     2008.3
+    ],
+    [
+     85,
+     2013.8
+    ],
+    [
+     178,
+     2018.4
+    ]
+   ]
+  },
+  {
+   "start": 2021.5,
+   "end": 2022.78,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Donald",
+   "marks": [
+    [
+     0,
+     2021.5
+    ]
+   ]
+  },
+  {
+   "start": 2022.78,
+   "end": 2082.9,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Trump, Giorgia Meloni, todos nuestros aliados, Javier Milei, todos los que no son nuestros aliados también, defienden sus intereses nacionales, y eso es lo normal, Yo no me puedo enfrentar a Giorgia Meloni cuando defiende sus intereses nacionales porque perjudica a los nuestros. Tengo que comprenderlo. Igual que ella comprende, y estoy seguro porque además he estado con ella precisamente hace unas pocas horas, ella comprende perfectamente que nosotros defendamos nuestros intereses nacionales. Los intereses nacionales de dos aliados pueden ser contrapuestos, pero yo creo que la política internacional consiste en comprender precisamente eso. Nosotros defendemos los intereses de España y nuestros aliados defienden los suyos. Es verdad que hay unas grandes líneas en las que compartimos posición, que tienen que ver con la soberanía nacional, con la protección de las fronteras, con la detención de la inmigración masiva. Pero no hay ninguna duda de que nosotros defendemos única y exclusivamente los intereses nacionales.",
+   "marks": [
+    [
+     0,
+     2022.8
+    ],
+    [
+     78,
+     2029.8
+    ],
+    [
+     156,
+     2034.5
+    ],
+    [
+     226,
+     2039.7
+    ],
+    [
+     280,
+     2042.8
+    ],
+    [
+     304,
+     2044.4
+    ],
+    [
+     314,
+     2045.0
+    ],
+    [
+     391,
+     2047.6
+    ],
+    [
+     486,
+     2052.5
+    ],
+    [
+     498,
+     2053.3
+    ],
+    [
+     572,
+     2060.0
+    ],
+    [
+     648,
+     2062.6
+    ],
+    [
+     668,
+     2063.8
+    ],
+    [
+     732,
+     2067.0
+    ],
+    [
+     742,
+     2067.7
+    ],
+    [
+     814,
+     2072.7
+    ],
+    [
+     885,
+     2075.7
+    ],
+    [
+     928,
+     2078.6
+    ],
+    [
+     953,
+     2079.9
+    ]
+   ]
+  },
+  {
+   "start": 2084.76,
+   "end": 2090.06,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¿Qué posición tiene que defender España si se toma la decisión de que se impongan nuevas sanciones a Rusia?",
+   "marks": [
+    [
+     0,
+     2084.8
+    ],
+    [
+     66,
+     2088.5
+    ]
+   ]
+  },
+  {
+   "start": 2091.26,
+   "end": 2107.82,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Yo creo que lo tendremos que ver en función de las circunstancias. Es una cosa que yo pueda adelantar en este momento. Tendremos que saber exactamente por qué es, pero en todo caso, a nosotros lo que nos gustaría es que se produzca un diálogo y que sea posible que llegue la paz pronto entre Rusia y Ucrania. Ese es nuestro deseo.",
+   "marks": [
+    [
+     0,
+     2091.3
+    ],
+    [
+     67,
+     2095.2
+    ],
+    [
+     119,
+     2098.8
+    ],
+    [
+     133,
+     2099.5
+    ],
+    [
+     196,
+     2102.3
+    ],
+    [
+     253,
+     2104.2
+    ],
+    [
+     309,
+     2107.1
+    ],
+    [
+     316,
+     2107.3
+    ]
+   ]
+  },
+  {
+   "start": 2108.46,
+   "end": 2113.52,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¿Hay que anteponer siempre a la posición común europea a lo que pueden ser nuestros acuerdos con Estados Unidos?",
+   "marks": [
+    [
+     0,
+     2108.5
+    ],
+    [
+     64,
+     2111.5
+    ]
+   ]
+  },
+  {
+   "start": 2115.5,
+   "end": 2129.76,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Yo soy un soberanista, soy un patriota, y lo que quiero es anteponer los intereses de España a cualquier posición de Estados Unidos o cualquier posición de la Unión Europea. Eso me resulta indiferente, me interesa única y exclusivamente el interés de España.",
+   "marks": [
+    [
+     0,
+     2115.5
+    ],
+    [
+     59,
+     2120.5
+    ],
+    [
+     134,
+     2123.9
+    ],
+    [
+     174,
+     2125.2
+    ],
+    [
+     214,
+     2127.7
+    ]
+   ]
+  },
+  {
+   "start": 2130.76,
+   "end": 2132.04,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¿Y qué política concreta?",
+   "marks": [
+    [
+     0,
+     2130.8
+    ]
+   ]
+  },
+  {
+   "start": 2132.04,
+   "end": 2138.88,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Quiero decir que si en un asunto concreto la posición de la Unión Europea es más favorable para España que una posición concreta de Estados Unidos,",
+   "marks": [
+    [
+     0,
+     2132.0
+    ],
+    [
+     60,
+     2135.1
+    ],
+    [
+     132,
+     2138.4
+    ]
+   ]
+  },
+  {
+   "start": 2149.1,
+   "end": 2154.36,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¿Qué política concreta en materia de política exterior hay que seguir con Marruecos?",
+   "marks": [
+    [
+     0,
+     2149.1
+    ],
+    [
+     74,
+     2154.0
+    ]
+   ]
+  },
+  {
+   "start": 2155.44,
+   "end": 2190.98,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Bueno, yo creo que es muy sencillo, la verdad. Con Marruecos la política que hay que seguir es la de exigir respeto. Y hay que pedir pocas cosas a Marruecos. Dos, que deje de reclamar nuestro territorio nacional de Ceuta y Melilla y que deje de utilizar la inmigración masiva como una herramienta de presión. Nosotros deseamos tener una buena relación con todos los países de nuestro entorno. Marruecos no lo está haciendo posible, entre otras cosas porque Marruecos está en una posición de fuerza respecto a España. Hoy Marruecos manda sobre el jefe del gobierno español.",
+   "marks": [
+    [
+     0,
+     2155.4
+    ],
+    [
+     47,
+     2157.7
+    ],
+    [
+     64,
+     2159.1
+    ],
+    [
+     117,
+     2163.5
+    ],
+    [
+     123,
+     2164.4
+    ],
+    [
+     158,
+     2166.3
+    ],
+    [
+     192,
+     2169.1
+    ],
+    [
+     257,
+     2173.8
+    ],
+    [
+     309,
+     2176.5
+    ],
+    [
+     343,
+     2178.1
+    ],
+    [
+     393,
+     2180.9
+    ],
+    [
+     414,
+     2182.1
+    ],
+    [
+     491,
+     2185.7
+    ],
+    [
+     517,
+     2187.3
+    ],
+    [
+     564,
+     2190.6
+    ]
+   ]
+  },
+  {
+   "start": 2191.46,
+   "end": 2192.8,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¿Por qué cree que es así?",
+   "marks": [
+    [
+     0,
+     2191.5
+    ]
+   ]
+  },
+  {
+   "start": 2220.98,
+   "end": 2242.76,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Y que va a controlar sus fronteras y los viajes que vienen de España porque no quiere recibir las entradas masivas que están llegando de España por culpa de las posiciones de Pedro Sánchez, tanto respecto a Marruecos como respecto a las regularizaciones masivas. Por lo tanto, a Marruecos únicamente exigirle el respeto que España merece. Si Marruecos respeta a España, España podrá tener un aliado en Marruecos.",
+   "marks": [
+    [
+     0,
+     2221.0
+    ],
+    [
+     59,
+     2224.5
+    ],
+    [
+     134,
+     2228.3
+    ],
+    [
+     205,
+     2231.6
+    ],
+    [
+     263,
+     2234.9
+    ],
+    [
+     279,
+     2236.4
+    ],
+    [
+     339,
+     2239.3
+    ],
+    [
+     362,
+     2240.5
+    ]
+   ]
+  },
+  {
+   "start": 2244.2,
+   "end": 2265.54,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "La diplomacia, y me da igual con gobiernos de izquierdas o gobiernos de derechas, siempre ha sido muy cautelosa y siempre nos ha trasladado el mismo mensaje de que hay que tener mucho cuidado con Marruecos por la dependencia que tenemos en determinadas cuestiones, lucha antiterrorista, migración, que luego la realpolitik a veces choca con los discursos que podemos hacer o que hacen los partidos o este discurso que usted está haciendo.",
+   "marks": [
+    [
+     0,
+     2244.2
+    ],
+    [
+     69,
+     2247.9
+    ],
+    [
+     140,
+     2250.7
+    ],
+    [
+     206,
+     2253.4
+    ],
+    [
+     302,
+     2257.5
+    ],
+    [
+     373,
+     2262.8
+    ]
+   ]
+  },
+  {
+   "start": 2266.4,
+   "end": 2318.48,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "La real política lo que ha demostrado es que estamos de rodillas ante Marruecos. Todos esos que dicen hay que tener cuidado, tenemos la razón, no critiquemos, financiemos en Marruecos las infraestructuras que no financiamos en España ni en Europa, nos ha llevado a la situación de una ciudad española como Ceuta invadida en estos momentos. Ceuta está invadida. Estuve la semana pasada y han vaciado las playas, pero los han dispersado por toda la ciudad. Los veías por todas partes. A los ceutíes no se les veía. Para mí fue una visita muy impactante. Y lo habían hecho rápidamente por la visita del rey. Pero la realidad es que allí sigue habiendo miles de personas. Según los datos que nos ofrecen nuestros compañeros en Ceuta, 20.000 personas. Esa es la consecuencia de la política de todos estos años respecto a Marruecos. Marruecos no está respetando a España.",
+   "marks": [
+    [
+     0,
+     2266.4
+    ],
+    [
+     65,
+     2270.2
+    ],
+    [
+     81,
+     2271.1
+    ],
+    [
+     136,
+     2274.9
+    ],
+    [
+     227,
+     2279.9
+    ],
+    [
+     285,
+     2282.8
+    ],
+    [
+     340,
+     2285.6
+    ],
+    [
+     361,
+     2287.1
+    ],
+    [
+     368,
+     2287.5
+    ],
+    [
+     435,
+     2291.1
+    ],
+    [
+     455,
+     2292.5
+    ],
+    [
+     483,
+     2294.9
+    ],
+    [
+     497,
+     2295.9
+    ],
+    [
+     513,
+     2297.2
+    ],
+    [
+     552,
+     2299.5
+    ],
+    [
+     554,
+     2300.0
+    ],
+    [
+     605,
+     2304.5
+    ],
+    [
+     622,
+     2305.4
+    ],
+    [
+     668,
+     2308.4
+    ],
+    [
+     688,
+     2309.3
+    ],
+    [
+     747,
+     2312.9
+    ],
+    [
+     757,
+     2313.6
+    ],
+    [
+     827,
+     2316.7
+    ],
+    [
+     837,
+     2317.1
+    ]
+   ]
+  },
+  {
+   "start": 2319.14,
+   "end": 2326.06,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Sí, sí, yo lo que iba es que es muy fácil, si me lo permite, predicar, pero luego es más difícil ejecutar.",
+   "marks": [
+    [
+     0,
+     2319.1
+    ],
+    [
+     46,
+     2322.4
+    ]
+   ]
+  },
+  {
+   "start": 2326.48,
+   "end": 2360.74,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Yo comparto el refranero popular también, es muy fácil predicar y no tanto dar trigo. Pero los españoles deben saber cuál es nuestra voluntad, es construir infraestructuras defensivas en Ceuta y Melilla para evitar las entradas masivas, tanto en tierra como en el mar, que la Armada vigile nuestras costas y cambiar todas las leyes que haya que cambiar. En España, en la Unión Europea y convenios internacionales que haya que cambiar para que se pueda devolver inmediatamente a cualquiera que entre y, por supuesto, poner a nuestro ejército a vigilar permanentemente las fronteras. Y el chantaje será mucho más difícil.",
+   "marks": [
+    [
+     0,
+     2326.5
+    ],
+    [
+     69,
+     2331.3
+    ],
+    [
+     86,
+     2332.3
+    ],
+    [
+     143,
+     2334.6
+    ],
+    [
+     228,
+     2340.1
+    ],
+    [
+     290,
+     2344.1
+    ],
+    [
+     354,
+     2348.5
+    ],
+    [
+     357,
+     2348.6
+    ],
+    [
+     434,
+     2352.7
+    ],
+    [
+     506,
+     2355.5
+    ],
+    [
+     582,
+     2359.2
+    ],
+    [
+     587,
+     2359.7
+    ]
+   ]
+  },
+  {
+   "start": 2361.36,
+   "end": 2364.28,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¿Se repite alguna decisión que haya tomado en política?",
+   "marks": [
+    [
+     0,
+     2361.4
+    ]
+   ]
+  },
+  {
+   "start": 2365.14,
+   "end": 2403.06,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Sí, seguro, pero no te las voy a contar. Vaya. Estoy en campaña electoral, que sean mis adversarios los que señalen mis errores. No voy a señalarlos yo, pero sin ninguna duda he tomado decisiones equivocadas en política. Pero creo que sobre todo he acertado. Cuando durante estos ocho años he señalado a la mafia del gobierno, he dicho que lo peor de Sánchez estaba por llegar y lo he hecho en la incomprensión general, tanto de otras fuerzas de la oposición como de los medios de comunicación, y ha sido un momento difícil para nosotros. Creo que hemos acertado presentando las mociones de censura, haciendo unos relatos sobre este gobierno que se han ido confirmando. Incluso creo que Pedro Sánchez ha llegado mucho más allá de lo que yo estaba advirtiendo.",
+   "marks": [
+    [
+     0,
+     2365.1
+    ],
+    [
+     41,
+     2367.0
+    ],
+    [
+     47,
+     2368.3
+    ],
+    [
+     56,
+     2368.8
+    ],
+    [
+     129,
+     2372.3
+    ],
+    [
+     132,
+     2372.7
+    ],
+    [
+     208,
+     2376.7
+    ],
+    [
+     221,
+     2377.1
+    ],
+    [
+     259,
+     2379.1
+    ],
+    [
+     280,
+     2380.0
+    ],
+    [
+     340,
+     2383.3
+    ],
+    [
+     394,
+     2385.3
+    ],
+    [
+     467,
+     2390.0
+    ],
+    [
+     539,
+     2393.7
+    ],
+    [
+     622,
+     2397.3
+    ],
+    [
+     670,
+     2399.5
+    ],
+    [
+     693,
+     2400.3
+    ]
+   ]
+  },
+  {
+   "start": 2403.06,
+   "end": 2415.32,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "La última es, se habla de, bueno, es que yo que llevo ya muchos años en política, yo sé usted, estoy en la democracia interna de los partidos, pero bueno, también de la de Vox. ¿Usted se plantea la limitación de mandatos o tomar alguna medida en ese sentido?",
+   "marks": [
+    [
+     0,
+     2403.1
+    ],
+    [
+     54,
+     2407.2
+    ],
+    [
+     118,
+     2409.4
+    ],
+    [
+     177,
+     2411.7
+    ],
+    [
+     184,
+     2412.1
+    ],
+    [
+     250,
+     2415.0
+    ]
+   ]
+  },
+  {
+   "start": 2416.22,
+   "end": 2424.22,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "No es una prioridad para nosotros. Limitación de mandatos en el poder no es una prioridad. Yo creo que ese no es el debate importante para España.",
+   "marks": [
+    [
+     0,
+     2416.2
+    ],
+    [
+     35,
+     2418.9
+    ],
+    [
+     70,
+     2420.3
+    ],
+    [
+     91,
+     2422.2
+    ],
+    [
+     123,
+     2423.4
+    ]
+   ]
+  },
+  {
+   "start": 2424.56,
+   "end": 2432.7,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¿Y si no me quiere hablar de sus errores? Esta sí es la última. ¿Alguna decisión ha tomado Pedro Sánchez que haya sido buena?",
+   "marks": [
+    [
+     0,
+     2424.6
+    ],
+    [
+     42,
+     2426.8
+    ],
+    [
+     53,
+     2427.5
+    ],
+    [
+     64,
+     2429.0
+    ]
+   ]
+  },
+  {
+   "start": 2434.72,
+   "end": 2442.74,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Bueno, supongo que sí, porque hasta un reloj parado da bien la hora una vez al día, pero no se me ocurre ahora.",
+   "marks": [
+    [
+     0,
+     2434.7
+    ],
+    [
+     63,
+     2440.1
+    ]
+   ]
+  },
+  {
+   "start": 2443.52,
+   "end": 2445.78,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Pues aquí lo dejamos. Gracias.",
+   "marks": [
+    [
+     0,
+     2443.5
+    ],
+    [
+     22,
+     2445.3
+    ]
+   ]
+  },
+  {
+   "start": 2446.08,
+   "end": 2446.3,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Gracias.",
+   "marks": [
+    [
+     0,
+     2446.1
+    ]
+   ]
+  }
+ ]
+}

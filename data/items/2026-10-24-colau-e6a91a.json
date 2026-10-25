@@ -1,0 +1,114 @@
+{
+ "id": "2026-10-24-colau-e6a91a",
+ "date": "2026-10-24",
+ "expected_person": "Ada Colau",
+ "kind": "other",
+ "outlet": "laSexta (clip)",
+ "title": "Ada Colau advierte a Feijóo que el Ministerio de Igualdad \"no es una opción ni una opinión\" (declaraciones en la manifestación de Madrid)",
+ "url": "https://dpvclip.lasexta.com/assets1/2026/10/24/E04E3B3F-84BC-4028-852C-5B3A2DB5118C/640x360.mp4",
+ "language": "es",
+ "duration_s": 36.01,
+ "sha256": "11155709d9620204492fbe4dba29ea2c5b3138b2bd7ba6b2024b3cb5eac63e98",
+ "fetched_at": "2026-10-25T22:07:23+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T22:37:02+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_01": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "too_short",
+   "reason": "only 19s of speech",
+   "talk_s": 18.6
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "too_short",
+   "reason": "only 15s of speech",
+   "talk_s": 14.7
+  }
+ },
+ "turns": [
+  {
+   "start": 0.62,
+   "end": 15.54,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Y continúan las reacciones a las palabras de Feijóo sobre el futuro del Ministerio de Igualdad. Esta vez han sido los miembros de Frente Amplio, en concreto Ada Colau. Advierten al líder de la oposición que el Ministerio no es ni opción ni opinión.",
+   "marks": [
+    [
+     0,
+     0.6
+    ],
+    [
+     68,
+     4.7
+    ],
+    [
+     96,
+     6.3
+    ],
+    [
+     137,
+     8.3
+    ],
+    [
+     168,
+     10.2
+    ],
+    [
+     207,
+     12.0
+    ]
+   ]
+  },
+  {
+   "start": 17.06,
+   "end": 35.98,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "No vamos a dar ni un paso atrás en la agenda feminista de este país. El Ministerio de Igualdad no es una opinión ni es una opción. Que ayer el señor Feijóo volvía a situar su agenda asimilándose al programa de Vox diciendo que cuestionaba de nuevo el derecho al aborto, cosa que no vamos a permitir, o que quería cargarse el ministro.",
+   "marks": [
+    [
+     0,
+     17.1
+    ],
+    [
+     55,
+     20.3
+    ],
+    [
+     69,
+     21.0
+    ],
+    [
+     116,
+     23.4
+    ],
+    [
+     131,
+     24.1
+    ],
+    [
+     175,
+     27.3
+    ],
+    [
+     251,
+     32.7
+    ],
+    [
+     313,
+     35.3
+    ]
+   ]
+  }
+ ]
+}

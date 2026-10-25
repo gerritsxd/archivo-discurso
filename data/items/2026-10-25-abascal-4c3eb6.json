@@ -1,0 +1,167 @@
+{
+ "id": "2026-10-25-abascal-4c3eb6",
+ "date": "2026-10-25",
+ "expected_person": "Santiago Abascal",
+ "kind": "other",
+ "outlet": "laSexta (clip)",
+ "title": "Abascal afirma que \"hay posibilidades\" de acuerdo con el PP en el Senado",
+ "url": "https://dpvclip.lasexta.com/assets13/2026/10/25/225F8B6E-EBFB-4E39-8535-E8411BCCF42A/640x360.mp4",
+ "language": "es",
+ "duration_s": 70.02,
+ "sha256": "d22ac514908d1c20dbcc90845c3ad7ed02e0e39000f65cd4c4a3673bb5ff733a",
+ "fetched_at": "2026-10-25T22:09:05+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T22:38:13+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "too_short",
+   "reason": "only 17s of speech",
+   "talk_s": 16.9
+  },
+  "SPEAKER_01": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "too_short",
+   "reason": "only 12s of speech",
+   "talk_s": 11.7
+  },
+  "SPEAKER_02": {
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "decision": "unknown",
+   "reason": "best sim 0.30 < 0.65",
+   "talk_s": 38.8
+  }
+ },
+ "turns": [
+  {
+   "start": 0.0,
+   "end": 11.4,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "A poco más de 24 horas para poder registrar las listas de partidos y coaliciones en las juntas electorales provinciales, PP y Vox apuran para lograr, Fran, un acuerdo en el Senado.",
+   "marks": [
+    [
+     0,
+     0.0
+    ],
+    [
+     58,
+     3.6
+    ],
+    [
+     137,
+     8.6
+    ]
+   ]
+  },
+  {
+   "start": 11.52,
+   "end": 50.18,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Sí, el objetivo sería optimizar el voto del bloque de la derecha frente a ese pacto histórico en la Cámara Alta que ya anunciaron los partidos de izquierda. Es una alianza que busca blindar la mayoría de tres quintos para tomar decisiones clave. Lo que no sabemos todavía es en qué consistirá ese acuerdo. Vox podría renunciar a presentar candidaturas en algunas provincias donde la derecha suele fragmentarse. Esa sería la propuesta preferida de Feijóo, mientras que los de Abascal proponen, entre otras, introducir a miembros de su partido dentro de las listas que registre el Partido Popular. Y escuchando las palabras de Abascal, ese pacto parece estar cerca de alcanzarse.",
+   "marks": [
+    [
+     0,
+     11.5
+    ],
+    [
+     65,
+     14.9
+    ],
+    [
+     130,
+     19.2
+    ],
+    [
+     157,
+     20.4
+    ],
+    [
+     201,
+     22.0
+    ],
+    [
+     246,
+     24.5
+    ],
+    [
+     272,
+     25.9
+    ],
+    [
+     306,
+     28.8
+    ],
+    [
+     352,
+     32.0
+    ],
+    [
+     411,
+     34.9
+    ],
+    [
+     434,
+     36.3
+    ],
+    [
+     517,
+     40.4
+    ],
+    [
+     579,
+     43.9
+    ],
+    [
+     596,
+     44.8
+    ],
+    [
+     657,
+     48.4
+    ]
+   ]
+  },
+  {
+   "start": 51.04,
+   "end": 69.02,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Sí, yo creo que hay posibilidades de acordar algo, por supuesto, y creo que es un deber tratar de hacer el gesto Todo lo que esté en nuestra mano, sea pequeño o sea grande, para que el cambio llegue no solo en el Congreso de los Diputados, sino que ese cambio se mantenga también en el Senado.",
+   "marks": [
+    [
+     0,
+     51.0
+    ],
+    [
+     67,
+     54.9
+    ],
+    [
+     121,
+     58.3
+    ],
+    [
+     182,
+     63.4
+    ],
+    [
+     245,
+     66.5
+    ]
+   ]
+  }
+ ]
+}

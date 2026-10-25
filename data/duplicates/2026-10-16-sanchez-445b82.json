@@ -1,0 +1,156 @@
+{
+ "id": "2026-10-16-sanchez-445b82",
+ "date": "2026-10-16",
+ "expected_person": "Pedro Sánchez",
+ "kind": "other",
+ "outlet": "RTVE Play - La tarde en 24h",
+ "title": "Sánchez lamenta la dimisión de Montse Mínguez: \"Está rota, está pasándolo muy mal\"",
+ "url": "https://www.rtve.es/play/videos/la-tarde-en-24h/sanchez-lamenta-dimision-montse-minguez-rota-esta/17270754/",
+ "language": "es",
+ "duration_s": 101.55,
+ "sha256": "0d69298f34de7aad737ae4e6fbf77008e4c19ee95274538394b505a00c9cb05a",
+ "fetched_at": "2026-10-25T22:13:51+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T22:17:39+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_00": {
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "decision": "match",
+   "reason": "sim 0.83, next 0.20",
+   "talk_s": 83.1
+  },
+  "SPEAKER_01": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "too_short",
+   "reason": "only 0s of speech",
+   "talk_s": 0
+  }
+ },
+ "turns": [
+  {
+   "start": 0.0,
+   "end": 100.82,
+   "label": "SPEAKER_00",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "Sobre la portavoz no he tenido ocasión de poder hablar con ella. Me he tenido que mensajear con ella durante el debate que hemos tenido en el Consejo. Me constaba, porque lo había hecho saber a algunas personas compañeras del partido, que Montse estaba rota, que estaba pasándolo muy mal desde el punto de vista personal. La política algunas veces maltrata a buenas personas. El caso de Monse es uno de ellos. Y me ha pedido ella renunciar a entrar en listas. Y yo lo lamento. Yo le dije que no lo hiciera. Porque creo que es una extraordinaria portavoz, es una inmensa política, El nivel de agresividad y de odio que en muchas ocasiones no sufren solamente aquellas personas que están en política, sino también sus seres queridos, es algunas veces irreparable. Yo creo que desgraciadamente en muchas ocasiones en nuestro país durante estos últimos años se han cruzado líneas rojas que no deberían de haberse cruzado y esta es la consecuencia. Yo lamento mucho que Montse no continúe como diputada porque es una gran política, es muy buena persona y cuando me ha dicho que eran razones personales por las cuales dejaba la política, pues yo no puedo sino apoyarla y por supuesto respetarlo, pero también lamentarlo porque perdemos una gran compañera y un gran activo del partido.",
+   "marks": [
+    [
+     0,
+     0.0
+    ],
+    [
+     65,
+     3.8
+    ],
+    [
+     129,
+     7.2
+    ],
+    [
+     151,
+     8.8
+    ],
+    [
+     194,
+     12.0
+    ],
+    [
+     280,
+     24.0
+    ],
+    [
+     322,
+     26.7
+    ],
+    [
+     348,
+     29.7
+    ],
+    [
+     376,
+     32.6
+    ],
+    [
+     410,
+     36.0
+    ],
+    [
+     460,
+     41.6
+    ],
+    [
+     465,
+     42.2
+    ],
+    [
+     477,
+     43.1
+    ],
+    [
+     507,
+     45.6
+    ],
+    [
+     523,
+     46.4
+    ],
+    [
+     604,
+     53.6
+    ],
+    [
+     676,
+     58.1
+    ],
+    [
+     749,
+     64.0
+    ],
+    [
+     762,
+     64.8
+    ],
+    [
+     835,
+     68.8
+    ],
+    [
+     901,
+     72.1
+    ],
+    [
+     944,
+     75.2
+    ],
+    [
+     972,
+     77.0
+    ],
+    [
+     1040,
+     81.5
+    ],
+    [
+     1105,
+     86.6
+    ],
+    [
+     1169,
+     92.1
+    ],
+    [
+     1254,
+     99.7
+    ]
+   ]
+  }
+ ]
+}

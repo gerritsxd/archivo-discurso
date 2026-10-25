@@ -1,0 +1,173 @@
+{
+ "id": "2026-10-24-sanchez-b520a2",
+ "date": "2026-10-24",
+ "expected_person": "Pedro Sánchez",
+ "kind": "other",
+ "outlet": "Onda Cero (vídeo)",
+ "title": "Pedro Sánchez defiende el \"no a la guerra\" en un vídeo junto al Guernica (Museo Reina Sofía)",
+ "url": "https://dpvclip.ondacero.es/assets13/2026/10/24/1FC730A9-8401-4DFB-911C-1CE4FBC35EE7/video_480p_es.mp4",
+ "language": "es",
+ "duration_s": 93.03,
+ "sha256": "26bc60b03819794b1b518a1856a8cf2ef1e2b812b6f5135d5f1d67289c6328ac",
+ "fetched_at": "2026-10-25T22:09:07+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T22:37:39+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_00": {
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "decision": "match",
+   "reason": "sim 0.85, next 0.27",
+   "talk_s": 63.2
+  }
+ },
+ "turns": [
+  {
+   "start": 0.98,
+   "end": 89.1,
+   "label": "SPEAKER_00",
+   "person": "sanchez",
+   "name": "Pedro Sánchez (PSOE)",
+   "text": "En los últimos años, muchas cosas han cambiado en el mundo. Y echando la vista atrás, pienso en todas las veces en las que España ha tenido que defender sus principios pese a las enormes presiones. Por eso es tan importante que recordemos por qué estamos aquí. Me gustaría enseñaros algo. Cuando miro este cuadro, no veo solo una obra de arte. Veo qué sucede cuando la barbarie se impone a la razón. Por eso, durante estos años España ha defendido que ninguna guerra es inevitable, que ninguna vida vale menos que otra y que mirar hacia otro lado no debería ser nunca una opción. Lo hemos defendido en Europa y también en el resto del mundo. Y no ha sido fácil. Cuando unos apostaban por las bombas, nosotros dijimos no a la guerra. Cuando nos exigieron aumentar el gasto militar hasta el 5% del PIB, nosotros dijimos no a recortar un solo céntimo de euro de nuestro estado de bienestar. Y cuando muchos guardaron silencio, nosotros denunciamos el genocidio del pueblo palestino en Gaza. España va a seguir defendiendo una idea muy sencilla, pero muy poderosa. La convivencia. Que juntos somos más fuertes. Y cuando miro este cuadro siempre recuerdo que hasta incluso en los momentos más oscuros hay una luz, la luz de nuestros valores.",
+   "marks": [
+    [
+     0,
+     1.0
+    ],
+    [
+     60,
+     5.4
+    ],
+    [
+     62,
+     6.0
+    ],
+    [
+     123,
+     9.2
+    ],
+    [
+     198,
+     13.8
+    ],
+    [
+     261,
+     18.3
+    ],
+    [
+     264,
+     18.8
+    ],
+    [
+     289,
+     25.0
+    ],
+    [
+     335,
+     27.6
+    ],
+    [
+     344,
+     29.2
+    ],
+    [
+     393,
+     31.8
+    ],
+    [
+     400,
+     32.1
+    ],
+    [
+     467,
+     36.3
+    ],
+    [
+     531,
+     40.1
+    ],
+    [
+     580,
+     43.5
+    ],
+    [
+     599,
+     44.6
+    ],
+    [
+     642,
+     47.5
+    ],
+    [
+     650,
+     48.3
+    ],
+    [
+     662,
+     49.0
+    ],
+    [
+     722,
+     53.3
+    ],
+    [
+     733,
+     53.6
+    ],
+    [
+     790,
+     57.3
+    ],
+    [
+     851,
+     62.8
+    ],
+    [
+     888,
+     65.5
+    ],
+    [
+     933,
+     68.2
+    ],
+    [
+     988,
+     71.8
+    ],
+    [
+     1007,
+     73.0
+    ],
+    [
+     1061,
+     76.3
+    ],
+    [
+     1077,
+     77.5
+    ],
+    [
+     1088,
+     78.1
+    ],
+    [
+     1107,
+     79.9
+    ],
+    [
+     1160,
+     83.6
+    ],
+    [
+     1219,
+     88.6
+    ]
+   ]
+  }
+ ]
+}

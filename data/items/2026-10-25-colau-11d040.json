@@ -1,0 +1,106 @@
+{
+ "id": "2026-10-25-colau-11d040",
+ "date": "2026-10-25",
+ "expected_person": "Ada Colau",
+ "kind": "other",
+ "outlet": "laSexta (clip)",
+ "title": "Colau llama a la unidad de la izquierda: \"Sería deprimente que hubiera ataques cuando el adversario es la extrema derecha\"",
+ "url": "https://dpvclip.lasexta.com/assets5/2026/10/25/645478C5-2B40-46C7-91BF-174D028401CF/640x360.mp4",
+ "language": "es",
+ "duration_s": 33.0,
+ "sha256": "148d70c2c61aeaae337265a788d09b4716cb944fe0d0d6a38f794545e4ddc2fb",
+ "fetched_at": "2026-10-25T22:07:24+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.65,
+  "processed_at": "2026-10-25T22:38:41+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_01": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "too_short",
+   "reason": "only 20s of speech",
+   "talk_s": 19.5
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "too_short",
+   "reason": "only 9s of speech",
+   "talk_s": 9.1
+  }
+ },
+ "turns": [
+  {
+   "start": 0.0,
+   "end": 9.08,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "Pues hoy la candidata de Frente Amplio le ha lanzado un aviso a Pedro Sánchez. Dice Ada Colau que no habrá un gobierno progresista solo con un buen resultado del PSOE.",
+   "marks": [
+    [
+     0,
+     0.0
+    ],
+    [
+     62,
+     3.3
+    ],
+    [
+     79,
+     4.0
+    ],
+    [
+     131,
+     6.6
+    ]
+   ]
+  },
+  {
+   "start": 11.02,
+   "end": 30.4,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Sabemos que no habrá un gobierno progresista solo con un buen resultado del PSOE. Es necesario que haya un buen resultado del Frente Amplio para que pueda haber un gobierno progresista. Hemos hecho el máximo esfuerzo para que haya una candidatura de unidad popular de la izquierda transformadora Y ahora hay que ofrecer esa alternativa a todo el país porque hay mucha gente que no quiere votar al Partido Socialista.",
+   "marks": [
+    [
+     0,
+     11.0
+    ],
+    [
+     72,
+     14.6
+    ],
+    [
+     82,
+     15.1
+    ],
+    [
+     140,
+     17.6
+    ],
+    [
+     186,
+     19.7
+    ],
+    [
+     217,
+     21.0
+    ],
+    [
+     296,
+     24.9
+    ],
+    [
+     358,
+     27.9
+    ]
+   ]
+  }
+ ]
+}
