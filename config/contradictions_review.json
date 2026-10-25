@@ -1,0 +1,9 @@
+{
+  "_note": "Human review of possible contradictions. 'rejected' pairs (stable keys: sha1(person+quote)[:12], sorted, joined by '-') are never published. Reviewed 2026-10-25.",
+  "rejected": {
+    "3835787b70a4-6cf81a90329e": "Feijóo, desahucios: 'más de 277.000' vs 'aproximadamente 300.000' is an approximation, not a contradiction",
+    "05b5d6ba7374-db8f13396fa7": "Feijóo, economía: 'not attractive to foreign investment' vs 'everyone wants to live here' are different things",
+    "e1d532d81080-f3275d330298": "Feijóo, impuestos: lowering transmisiones to 4% can be a ~60% cut; compatible",
+    "4b78081ee0c6-55a626a73087": "Abascal: 163.000 in the census vs 168.000 granted nationality are different figures"
+  }
+}

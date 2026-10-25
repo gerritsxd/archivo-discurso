@@ -456,7 +456,12 @@ def build_home(ctx):
   <p class="role">{esc(p["role"])}</p>
   <p class="figs"><span><b class="f-time">{hours_es(st["secs"])}</b> de voz identificada</span><span><b class="f-items">{n_it}</b> <span class="f-items-l">{"aparición" if n_it == 1 else "apariciones"}</span></span></p>
   {quote}
+  <p class="qmeta f-an" hidden></p>
 </article>""")
+    tiles = "".join(
+        f'<a class="an-tile" href="analisis.html#{k}"><span class="an-n" id="an-{k}">–</span><span class="an-l">{esc(t)}</span></a>'
+        for k, t in (("promesa", "promesas"), ("dato", "cifras"), ("ataque", "ataques"),
+                     ("insulto", "descalificaciones"), ("contradiccion", "posibles contradicciones")))
     latest = "".join(
         f'<li><a href="a/{esc(it["id"])}.html">{esc(it["title"])}</a><span class="meta">{item_meta_line(it)}</span></li>'
         for it in items[:12]) or '<li class="empty">Aún no hay apariciones procesadas.</li>'
@@ -476,6 +481,20 @@ def build_home(ctx):
     <div><dt>horas de audio</dt><dd id="n-hours">{f"{ctx['total_secs'] / 3600:.1f}".replace(".", ",")}</dd></div>
     <div><dt>intervenciones de candidatos</dt><dd id="n-quotes">{num_es(ctx["n_sent"])}</dd></div>
   </dl>
+</section>
+<section class="an-home">
+  <h2 class="sect">Lo que dicen, analizado <span class="aside">clasificación automática, cada frase con su fuente</span></h2>
+  <div class="an-tiles">{tiles}</div>
+  <div id="an-feature" hidden>
+    <p class="kicker">Una posible contradicción</p>
+    <p id="an-f-who" class="who"></p>
+    <p id="an-f-exp" class="lede an-exp"></p>
+    <div class="an-pair">
+      <div><blockquote id="an-f-a" class="pull"></blockquote><p id="an-f-am" class="qmeta"></p></div>
+      <div><blockquote id="an-f-b" class="pull"></blockquote><p id="an-f-bm" class="qmeta"></p></div>
+    </div>
+    <p class="qmeta"><a href="analisis.html#contradiccion">Ver todas</a> · <a href="analisis.html#tono">El tono de cada candidato</a></p>
+  </div>
 </section>
 <section>
   <h2 class="sect">Candidatos <span class="aside">por orden alfabético del apellido</span></h2>
@@ -527,7 +546,7 @@ def build_analysis(ctx):
     people = ctx["people"]
     opts = "".join(f'<option value="{esc(pid)}">{esc(people[pid]["name"])}</option>' for pid in ctx["candidates"])
     topics = "".join(f'<option value="{esc(t)}">{esc(t)}</option>' for t in TOPICS_ES)
-    tabs = [("promesa", "Promesas"), ("ataque", "Ataques"), ("insulto", "Insultos"), ("dato", "Cifras"),
+    tabs = [("promesa", "Promesas"), ("ataque", "Ataques"), ("insulto", "Descalificaciones"), ("dato", "Cifras"),
             ("postura", "Posturas"), ("contradiccion", "Posibles contradicciones"), ("tono", "Tono")]
     tabh = "".join(f'<button type="button" class="tab" data-v="{k}"{" aria-pressed=true" if i == 0 else ""}>{esc(t)}</button>'
                    for i, (k, t) in enumerate(tabs))
@@ -688,6 +707,9 @@ def build_person(ctx, pid):
 </dl>
 <p class="note">{esc(vp)}</p>
 {search_form(root, person=pid, placeholder="Buscar en lo que dijo " + p["name"])}
+<section><h2 class="sect">Análisis <span class="aside">clasificación automática</span></h2>
+<p class="an-links">{" · ".join(f'<a href="{root}analisis.html?c={esc(pid)}#{k}">{t}</a>' for k, t in (("promesa", "Sus promesas"), ("dato", "Sus cifras"), ("ataque", "A quién ataca"), ("insulto", "Descalificaciones"), ("contradiccion", "Posibles contradicciones"), ("tono", "Tono")))}</p>
+</section>
 <section><h2 class="sect">Apariciones</h2>
 {"".join(tl) or '<p class="empty">Todavía no hay apariciones con su voz identificada.</p>'}
 </section>

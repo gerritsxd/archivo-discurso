@@ -37,6 +37,55 @@
     })
     .catch(function () { /* keep the static figures */ });
 
+  // Analysis: counts per type, a line per candidate card, one featured possible contradiction
+  var MONTHS = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
+  function dateEs(d) { var p = (d || "").split("-"); return p.length === 3 ? (+p[2]) + " de " + MONTHS[+p[1] - 1] : d; }
+  function j(url) { return tfetch(url).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }); }
+  Promise.all([j("api/analysis"), j("api/tone").catch(function () { return {}; }),
+               j("api/claims?insult=1&limit=1")]).then(function (res) {
+    var a = res[0], tone = (res[1] && res[1].per_person) || {}, tot = {};
+    Object.keys(a.per_person || {}).forEach(function (pid) {
+      var t = a.per_person[pid].types || {};
+      Object.keys(t).forEach(function (k) { tot[k] = (tot[k] || 0) + t[k]; });
+    });
+    ["promesa", "dato", "ataque"].forEach(function (k) { set("an-" + k, num(tot[k])); });
+    set("an-insulto", num(res[2].total));
+    set("an-contradiccion", num(a.contradictions));
+    Array.prototype.forEach.call(document.querySelectorAll("[data-person]"), function (card) {
+      var pid = card.getAttribute("data-person"), p = (a.per_person || {})[pid], line = card.querySelector(".f-an");
+      if (!p || !line) return;
+      var t = p.types || {}, parts = [num(t.promesa) + " promesas", num(t.ataque) + " ataques", num(p.insults) + " descalificaciones"];
+      if (tone[pid]) parts.push("tono " + tone[pid].tone.toLocaleString("es-ES"));
+      line.textContent = "";
+      var link = document.createElement("a");
+      link.href = "analisis.html?c=" + encodeURIComponent(pid) + "#promesa";
+      link.textContent = parts.join(" · ");
+      line.appendChild(link);
+      line.hidden = false;
+    });
+  }).catch(function () { /* analysis not available: tiles keep their dash */ });
+  j("api/contradictions").then(function (d) {
+    var r = d.results || [];
+    if (!r.length) return;
+    var x = r[Math.floor(Math.random() * r.length)];
+    var names = {};
+    Array.prototype.forEach.call(document.querySelectorAll("[data-person] h3 a"), function (e) {
+      names[e.closest("[data-person]").getAttribute("data-person")] = e.textContent;
+    });
+    set("an-f-who", (names[x.person] || x.person) + " · " + x.topic + " · " +
+        (x.kind === "cifras" ? "cifras que no cuadran" : "posturas opuestas"));
+    set("an-f-exp", x.explanation);
+    set("an-f-a", x.a.quote); set("an-f-am", dateEs(x.a.date) + " · " + x.a.outlet);
+    set("an-f-b", x.b.quote); set("an-f-bm", dateEs(x.b.date) + " · " + x.b.outlet);
+    [["an-f-am", x.a], ["an-f-bm", x.b]].forEach(function (m) {
+      if (!m[1].link) return;
+      var e = document.getElementById(m[0]), l = document.createElement("a");
+      l.href = m[1].link; l.rel = "noopener noreferrer"; l.target = "_blank"; l.textContent = "fuente";
+      e.appendChild(document.createTextNode(" · ")); e.appendChild(l);
+    });
+    document.getElementById("an-feature").hidden = false;
+  }).catch(function () {});
+
   // Daily game: say if today's puzzle is already done (localStorage is optional)
   try {
     var days = (JSON.parse(localStorage.getItem("quienlodijo:v1") || "{}").days) || {};

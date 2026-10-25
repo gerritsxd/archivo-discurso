@@ -47,6 +47,17 @@
 <h2>El juego diario</h2>
 <p>«¿Quién lo dijo?» elige cada día cinco frases de candidatos identificados, iguales para todos. Se descartan las frases que contienen el nombre del candidato o de su partido, porque darían la respuesta. Después de cada respuesta se muestra la fuente en el minuto exacto. Las frases salen de la misma transcripción automática que el resto del archivo, con los mismos errores posibles. El resultado y la racha se guardan solo en tu navegador; el servidor no guarda quién juega.</p>
 
+<h2 id="analisis">El análisis automático</h2>
+<p>Un modelo de lenguaje (DeepSeek) lee todo lo que dicen los candidatos identificados, en fragmentos de unos dos minutos, y saca sus <strong>promesas</strong>, <strong>cifras</strong>, <strong>ataques</strong> (a quién) y <strong>posturas</strong>, con el tema. Las transcripciones le llegan como datos a analizar, nunca como instrucciones.</p>
+<ul>
+  <li><strong>Citas literales comprobadas.</strong> Cada frase que muestra el análisis se busca palabra por palabra en la transcripción; si el modelo la ha parafraseado o inventado, se descarta.</li>
+  <li><strong>Descalificaciones.</strong> Una segunda lectura, más estricta, solo deja las que contienen un calificativo despectivo explícito, y muestra esas palabras.</li>
+  <li><strong>Posibles contradicciones.</strong> El modelo propone pares de frases del mismo candidato y otra comprobación independiente, que ve el contexto de cada frase, descarta lapsus, errores de transcripción y frases que citan a otros. Casi todas son cifras distintas para el mismo dato. Lee siempre las dos en su fuente.</li>
+  <li><strong>Tono.</strong> Cada fragmento se valora de −2 (muy negativo) a +2 (muy positivo), con las emociones a las que apela y el tiempo dedicado a hablar de rivales. La media se pondera por minutos de voz.</li>
+  <li><strong>Comprobación de atribuciones.</strong> El modelo también lee lo que dice cada hablante identificado y avisa si el contenido no encaja con el candidato (por ejemplo, alguien que habla como miembro de otro partido). Esos avisos se revisan a mano; la primera revisión corrigió dos atribuciones erróneas y endureció el umbral de las huellas de voz.</li>
+</ul>
+<p>Es una clasificación automática sin revisión humana: puede equivocarse al etiquetar. Si ves un error, <a href="#correcciones">comunícalo</a>.</p>
+
 <h2>Qué se publica y qué no</h2>
 <ul>
   <li>Se publica el texto, las marcas de tiempo y el enlace a la fuente. No se publica audio ni vídeo.</li>

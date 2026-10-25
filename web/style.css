@@ -316,9 +316,25 @@ section .search { margin-top: 1rem; }
 .tbar { position: relative; height: 0.7rem; max-width: 28rem; background: var(--paper-2); border-radius: 2px; margin: 0.3rem 0 0.8rem; }
 .tbar-fill { position: absolute; top: 0; bottom: 0; background: var(--ink-2); border-radius: 2px; }
 .tbar-zero { position: absolute; top: -0.2rem; bottom: -0.2rem; width: 1px; background: var(--muted); }
-.tdays { display: flex; gap: 2px; align-items: center; height: 3rem; max-width: 28rem; margin: 0.3rem 0 0.5rem; }
+.tdays { display: flex; gap: 2px; align-items: center; height: 5rem; max-width: 28rem; margin: 0.3rem 0 0.5rem; }
 .tday { position: relative; flex: 1; height: 100%; display: flex; flex-direction: column; }
-.tday::before { content: ""; position: absolute; left: 0; right: 0; top: 50%; height: 1px; background: var(--rule); }
+.tday::before { content: ""; position: absolute; left: 0; right: 0; top: 50%; height: 1px; background: var(--muted); }
 .tday-pos, .tday-neg { position: absolute; left: 1px; right: 1px; background: var(--ink-2); border-radius: 2px; }
 .tday-pos { bottom: 50%; max-height: 50%; }
 .tday-neg { top: 50%; max-height: 50%; opacity: 0.55; }
+.an-tiles { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); margin-bottom: 1.5rem; }
+.an-tile { display: flex; flex-direction: column; padding: 0.9rem 0.75rem 0.9rem 0; text-decoration: none; min-width: 0; }
+.an-tile + .an-tile { border-left: 1px solid var(--rule); padding-left: 0.75rem; }
+.an-tile:hover { background: var(--paper-2); }
+.an-n { font: 400 clamp(1.4rem, 4vw, 1.9rem)/1.1 var(--serif); font-variant-numeric: lining-nums tabular-nums; }
+.an-l { font: 400 0.8125rem/1.3 var(--sans); color: var(--muted); }
+.an-exp { font-size: 1rem; margin-bottom: 0.75rem; }
+.an-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 0.75rem; }
+.an-links { font: 400 0.9375rem/1.8 var(--sans); }
+@media (max-width: 640px) {
+  .an-tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .an-tile:nth-child(odd) { border-left: 0; padding-left: 0; }
+  .an-tile:nth-child(n+3) { border-top: 1px solid var(--rule); }
+  .an-pair { grid-template-columns: 1fr; }
+}
+.an-home { margin-bottom: 1rem; }

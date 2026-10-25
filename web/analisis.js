@@ -146,6 +146,10 @@
   $("t").addEventListener("change", function () { load(true); });
   $("q").addEventListener("input", function () { clearTimeout(timer); timer = setTimeout(function () { load(true); }, 350); });
   moreBtn.addEventListener("click", function () { load(false); });
+  // deep links: analisis.html?c=feijoo&t=vivienda#promesa
+  var sp = new URLSearchParams(location.search);
+  if (sp.get("c")) $("c").value = sp.get("c");
+  if (sp.get("t")) $("t").value = sp.get("t");
   var h = (location.hash || "").replace("#", "");
   if (h) {
     var b = document.querySelector('.tab[data-v="' + h + '"]');
