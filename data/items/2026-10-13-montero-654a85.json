@@ -1,0 +1,243 @@
+{
+ "id": "2026-10-13-montero-654a85",
+ "date": "2026-10-13",
+ "expected_person": "Irene Montero",
+ "kind": "interview",
+ "outlet": "Cadena SER - Hoy por Hoy",
+ "title": "Irene Montero evita polemizar sobre la candidatura de Ada Colau con el Frente Amplio y confirma que siguen las conversaciones",
+ "url": "https://prisa-es.mc.tritondigital.com/HOY_POR_HOY_CADENASER_222_P/media/playser/audio/202610/13/5154391.mp3?dest=hoy_por_hoy",
+ "language": "es",
+ "duration_s": 411.92,
+ "sha256": "344c63d838364fd6b8aa63a92ab73d09aec426e9f2ecc51fe7881ad651a51f5d",
+ "fetched_at": "2026-10-25T09:16:12+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.55,
+  "processed_at": "2026-10-25T12:18:47+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_03": {
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "decision": "match",
+   "reason": "sim 0.90, next 0.43",
+   "talk_s": 263.0
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "unknown",
+   "reason": "best sim 0.42 < 0.55",
+   "talk_s": 82.4
+  },
+  "SPEAKER_04": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "too_short",
+   "reason": "only 11s of speech",
+   "talk_s": 10.6
+  },
+  "SPEAKER_02": {
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "decision": "too_short",
+   "reason": "only 6s of speech",
+   "talk_s": 6.2
+  },
+  "SPEAKER_01": {
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "decision": "too_short",
+   "reason": "only 5s of speech",
+   "talk_s": 4.9
+  }
+ },
+ "turns": [
+  {
+   "start": 1.49,
+   "end": 11.21,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Ser Podcast Son las 9 y 21 de la mañana, las 8 y 21 en Canarias. Irene Montero, buenos días."
+  },
+  {
+   "start": 11.69,
+   "end": 13.05,
+   "label": "SPEAKER_03",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "¿Qué tal? Muy buenos días, Aimar."
+  },
+  {
+   "start": 13.23,
+   "end": 16.13,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Señora Montero, ¿cómo se gestó la decisión de aliarse con Esquerra?"
+  },
+  {
+   "start": 17.13,
+   "end": 53.35,
+   "label": "SPEAKER_03",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "Bueno, pues muy despacito y escuchando a la gente y creo que esas formas de colaboración, de cooperación entre fuerzas y personas diferentes Independientes es lo que la gente nos está pidiendo y honestamente creo que puede ser una propuesta que represente a una mayoría de gente que quiere que baje el precio de los alquileres, que baje el coste de la vida y que tengamos una izquierda fuerte en el Congreso que salga de estas elecciones y que realmente esa candidatura pueda hacer que las cosas pasen y no solo que estén puestas en un programa electoral pero que al final por cualquier excusa se terminen por no hacer."
+  },
+  {
+   "start": 53.35,
+   "end": 58.03,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Esa alianza, señora Montero, se circunscribe a Cataluña."
+  },
+  {
+   "start": 59.39,
+   "end": 70.43,
+   "label": "SPEAKER_03",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "Bueno, la alianza lo que dice es que nosotras vamos a contribuir a la candidatura de Esquerra Republicana en Cataluña y que Gabriel y yo vamos a hacer equipo para las elecciones generales en todo el territorio."
+  },
+  {
+   "start": 71.25,
+   "end": 76.71,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¿Y eso está abierto a que se sumen los partidos que ahora están en eso que se llama Frente Amplio?"
+  },
+  {
+   "start": 76.71,
+   "end": 105.29,
+   "label": "SPEAKER_03",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "Hombre, pero por supuesto todavía esto es, yo creo, un paso muy importante y un paso que la gente estaba pidiendo, que jugásemos un papel, que llegásemos a marcos de colaboración entre diferentes y ahora pues hay que seguir trabajando para que mucha más gente esté ahí y para que esa candidatura represente a esa mayoría de izquierdas que está deseando poder votar para bajar el precio de los alquileres, para bajar el coste de la vida, para acabar con el negocio de la especulación"
+  },
+  {
+   "start": 110.69,
+   "end": 129.59,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Ayer, anoche, los partidos que forman el Frente Amplio, que son Izquierda Unida, Más Madrid, Los Comunes y Movimiento Sumar, dijeron, nosotros estamos ya de acuerdo en presentar a Ada Colau, o que Ada Colau sea la candidata a la presidencia del gobierno, y le abrimos la puerta a Podemos para que se sume. ¿Ustedes a esto qué dicen?"
+  },
+  {
+   "start": 130.57,
+   "end": 179.49,
+   "label": "SPEAKER_03",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "A ver, a mí me incomoda profundamente este tipo de... O sea, es que no quiero responder y seguir en el bucle infinito. Nosotras ya planteamos, en lo que tiene que ver con la izquierda española, que creíamos que estábamos en un bucle del que había que salir y que las primarias eran la mejor forma de hacerlo. Nosotras hemos trabajado intensamente para hacer unas primarias, que por cierto se vota el día 14 y 15 y la gente puede entrar en primarias.info y votar. Y estamos trabajando además para hacer marcos y para establecer marcos de colaboración, como es este tándem Gabriel conmigo, para poder tener la candidatura más fuerte. Y todo lo demás, la verdad, yo prefiero mi silencio, porque creo que es lo que mejor puede contribuir a que las cosas vayan bien y a que no nos tengamos que ruborizar de nosotras mismas."
+  },
+  {
+   "start": 179.49,
+   "end": 186.99,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Pero por entenderlo, señora Montero, ¿usted lo que propone es que esos partidos se sumen a lo que ya han construido Esquerra y ustedes?"
+  },
+  {
+   "start": 187.75,
+   "end": 229.51,
+   "label": "SPEAKER_03",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "Yo prefiero cuando las cosas se hagan poder contarlas y no estar hablando permanentemente en un bucle infinito que incomoda a todo el mundo, que incomoda a la propia gente a la que le tenemos que pedir su confianza y su voto y a la que lo que le tenemos que garantizar Vamos a encontrar la forma de tener una candidatura fuerte que sea capaz de hacer lo que la gente está ya haciendo en las acampadas, en las calles, organizando la huelga general, que es que como este sistema no funciona, pues hay que cambiarlo y que no puede haber más excusas que nos demoren en hacer las cosas que hay que hacer respecto a la crisis de vivienda o respecto al precio de los alimentos o respecto a los impuestos que tienen que pagar los superricos."
+  },
+  {
+   "start": 229.51,
+   "end": 241.21,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Pero, por ejemplo, en Cataluña, en las cuatro circunscripciones de Cataluña, ¿es factible pensar una candidatura en la que estén ustedes, Esquerra, los comunes, todos juntos? Parece imposible que Esquerra y los comunes estén en la misma candidatura."
+  },
+  {
+   "start": 241.65,
+   "end": 282.15,
+   "label": "SPEAKER_03",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "Lo que tenemos seguro es que Gabriel y yo vamos a hacer equipo para las elecciones generales y que, como parte de ese acuerdo también, nosotras vamos a contribuir a la candidatura de Esquerra. Eso es lo que yo puedo contar porque es lo que hemos trabajado Y creo que ha salido bien trabajarlo tranquila y silenciosamente y cuando está hecho poder contarlo, porque de lo contrario entramos en un bucle infinito en el que va a ser un titular que luego otro responde, que luego otro responde y así no llegamos a ninguna parte, de verdad, si sirviese para algo no tendría problema, creo que todo el mundo sabe lo que pienso, aunque no lo diga, y creo que la cosa aquí está de conseguir que las cosas salgan."
+  },
+  {
+   "start": 282.19,
+   "end": 284.79,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "La cuestión es que usted nos lo explique, señora Montero."
+  },
+  {
+   "start": 285.35,
+   "end": 292.55,
+   "label": "SPEAKER_03",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "Sí, sí, pero creo que ahora mismo, como te decía, lo más importante es que consigamos que las cosas pasen, que las cosas pasen."
+  },
+  {
+   "start": 292.57,
+   "end": 310.17,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Vale, en ese camino a que las cosas pasen, ¿ahora mismo hay conversaciones, negociaciones con los partidos que están en el Frente Amplio para que no haya candidaturas que se hagan la competencia, por lo menos en las circunscripciones que menos escaños reparten y en las que penalizaría muchísimo concurrir? Por supuesto, ¿hay negociaciones?"
+  },
+  {
+   "start": 310.17,
+   "end": 323.07,
+   "label": "SPEAKER_03",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "Sí, conversaciones hay siempre y yo creo que quedan ya poquitos días y que lo más importante es que cuidemos las cosas y tratemos de hacer que finalmente lleguen a buen puerto."
+  },
+  {
+   "start": 323.45,
+   "end": 331.0,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Es que nos decía Antonio Maillo anoche en Hora 25 que no hay, que no se está negociando."
+  },
+  {
+   "start": 331.88,
+   "end": 363.82,
+   "label": "SPEAKER_03",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "Bueno, a ver, yo creo que el hecho de que las cosas no se hagan como tú quieres no significa que no sean una buena idea o que no se estén haciendo con la mejor voluntad. Entonces, de verdad que yo creo que la gente está entendiendo lo que ocurre, que para mí el objetivo es encontrar una manera de establecer marcos de colaboración y marcos de cooperación entre fuerzas diferentes que nos permitan tener una candidatura fuerte y creo que vamos por el buen camino."
+  },
+  {
+   "start": 376.58,
+   "end": 378.08,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Irene Montero, muchas gracias."
+  },
+  {
+   "start": 378.72,
+   "end": 380.92,
+   "label": "SPEAKER_03",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "Gracias a ti Aimar, que tengas buen día. Adiós."
+  },
+  {
+   "start": 405.59,
+   "end": 408.77,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "¡Suscríbete al canal!"
+  }
+ ]
+}

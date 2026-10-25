@@ -1,0 +1,39 @@
+{
+ "id": "2026-10-14-abascal-6e6d82",
+ "date": "2026-10-14",
+ "expected_person": "Santiago Abascal",
+ "kind": "speech",
+ "outlet": "VOX YouTube",
+ "title": "29 N: ES AHORA O QUIZÁ NUNCA",
+ "url": "https://www.youtube.com/watch?v=ZQiHvTfm3_I",
+ "language": "es",
+ "duration_s": 265.69,
+ "sha256": "05bf1424fdbff4bc0b9354a1abdb4a9d35a80b2a784be3b3d6332c0cef6fc006",
+ "fetched_at": "2026-10-25T09:16:46+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.55,
+  "processed_at": "2026-10-25T12:18:47+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_00": {
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "decision": "match",
+   "reason": "sim 0.87, next 0.48",
+   "talk_s": 220.0
+  }
+ },
+ "turns": [
+  {
+   "start": 0.0,
+   "end": 264.92,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Hoy iniciamos este Comité Ejecutivo Nacional ampliado, invitando también a todos nuestros portavoces y representantes regionales, y lo hacemos con toda la solemnidad y toda la preocupación que este momento tiene para los españoles. Creo que todos podemos decir, ante el reto del 29 de noviembre, sin ningún temor a exagerar, que es ahora o quizá nunca, para una inmensa mayoría de los españoles, Y yo, por ello, quiero pediros una cosa fundamental de cara a este proceso electoral. Quiero pediros que hagáis llegar el mensaje de Vox hasta el último rincón de España, pero también hasta el último rincón del mundo donde están los verdaderos españoles expatriados, y no esos que quería fabricar Sánchez con la maquinita de las trampas. Estamos ante un gobierno que hace estrategias para eliminar a jueces incómodos, para eliminar físicamente. Estamos ante un gobierno que ha robado a manos llenas, ante un partido socialista que ha robado a manos llenas. Estamos ante un gobierno que ha actuado como una mafia, y no hay más que ver las imputaciones de todo el entorno político y personal de Pedro Sánchez. Y estamos ante un gobierno, y lo hemos visto durante estos ocho años, dispuesto a pactar con el diablo, con todos los enemigos internos y todos los enemigos exteriores que tiene España. Y por lo tanto, estamos ante unos personajes que juegan con ventaja, porque no están dispuestos a respetar nada. Su presidente miente sin límites, se ha corrompido sin límites, ha traicionado sin límites y odia sin límites a los españoles. Y la última víctima de su odio es Ceuta y la población de Ceuta. Y eso, sus consecuencias, aún se siguen comprobando en las calles de Ceuta y las pudimos ver sólo hace dos días. Y por eso nuestra labor no es simplemente una labor electoral importante de un partido político, es una labor histórica para España. Todas las elecciones son importantes, ¿qué va a decir un partido político? Pero esta elección es una elección existencial para el conjunto de los españoles. Podemos decir que representamos a millones de españoles que quieren un cambio real. Un cambio real sin destruir nada, pero cambiándolo todo. Enfrente vamos a encontrar la mentira, no es sorprendente decirlo a estas alturas, vamos a encontrar la trampa, y me atrevo a decir que vamos a encontrar incluso la violencia contra Vox. No sería la primera vez. Es algo a lo que desgraciadamente ya nos han acostumbrado las milicias de este gobierno durante estos ocho años. Y yo quiero pediros que nos comprometamos todos, y no va a ser difícil para nosotros, a hacer una campaña sin odio, pero sin ningún tipo de miedo, sin ningún tipo de cesión, sin ningún tipo de intranquilidad, Con la convicción de que somos nosotros los que estamos haciendo lo correcto frente al peor gobierno de nuestra historia y el peor gobierno del mundo occidental. Nuestro discurso es muy sencillo, es el del sentido común. Cuando uno pregunta a los españoles qué es lo que piensan, los españoles mayoritariamente expresan el discurso de Vox. Si aún no lo respaldan electoralmente es porque nuestro discurso, el de Vox, llega muchas veces manipulado y mal traducido y retorcido. Y lo hemos padecido también durante estas semanas y lo vamos a padecer durante los próximos días. Pero creo que si logramos que una mayoría de los españoles escuchen nuestro discurso de sentido común, una mayoría de los españoles lo apoyarán. Una mayoría de los españoles. Creo que tenemos que salir a estas elecciones con toda la ambición de convencer a la mayoría de nuestro pueblo y de ser la fuerza política mayoritaria. Nada está escrito. España no tiene ninguna maldición que nos condene a tener que soportar este gobierno cuatro años más o eternamente. Y España, en definitiva, no está condenada a que las cosas no se puedan cambiar. Por eso estamos aquí. Por eso ofrecimos a los españoles esta alternativa política. El futuro de España está por escribir y yo lo que os propongo es que salgamos a la calle a partir de hoy, como lo hemos hecho durante estos ocho años, y que lo escribamos junto a una inmensa mayoría de españoles, incluyendo a la mayor cantidad posible de nuestros compatriotas. Muchísimas gracias."
+  }
+ ]
+}

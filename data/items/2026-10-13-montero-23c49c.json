@@ -1,0 +1,462 @@
+{
+ "id": "2026-10-13-montero-23c49c",
+ "date": "2026-10-13",
+ "expected_person": "Irene Montero",
+ "kind": "other",
+ "outlet": "RTVE Noticias YouTube",
+ "title": "Irene Montero: \"He pactado con Rufián una colaboración para hacer equipo\" | RTVE Noticias",
+ "url": "https://www.youtube.com/watch?v=5mLH1FxjzF4",
+ "language": "es",
+ "duration_s": 816.84,
+ "sha256": "c0fd07faaa79bd807585589b999754c06258e777b33715a8cf82945dda385696",
+ "fetched_at": "2026-10-25T09:16:09+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.55,
+  "processed_at": "2026-10-25T12:18:47+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_01": {
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "decision": "match",
+   "reason": "sim 0.97, next 0.38",
+   "talk_s": 508.6
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "unknown",
+   "reason": "best sim 0.39 < 0.55",
+   "talk_s": 207.2
+  }
+ },
+ "turns": [
+  {
+   "start": 0.0,
+   "end": 5.52,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Ahora vamos a incorporarle a nuestra mesa a Irene Montero, candidata de Podemos a la presidencia del Gobierno. Muy buenos días."
+  },
+  {
+   "start": 7.58,
+   "end": 8.02,
+   "label": "SPEAKER_01",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "¿Qué tal?"
+  },
+  {
+   "start": 8.18,
+   "end": 26.42,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Buenos días, Silvia. A ver, candidata, le voy a pedir que sea didáctica y concisa porque hay mucho interés en saber qué es lo que está sucediendo en el espacio a la izquierda de la izquierda, pero para el ciudadano, nivel ciudadano, vamos a ver. ¿Usted qué ha pactado exactamente con Gabriel Rufián?"
+  },
+  {
+   "start": 29.47,
+   "end": 43.45,
+   "label": "SPEAKER_01",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "Una colaboración para poder hacer equipo en las elecciones generales. Gabriel Rufián y yo vamos a hacer equipo en estas elecciones y eso es lo que hemos pactado. Algo que la gente esperaba, ¿no? Que colaborásemos, pues querían acuerdos, tenemos acuerdos."
+  },
+  {
+   "start": 43.87,
+   "end": 49.93,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¿Y eso supone que va a haber candidatos de Podemos dentro de las listas de Esquerra Republicana de Cataluña?"
+  },
+  {
+   "start": 52.93,
+   "end": 59.79,
+   "label": "SPEAKER_01",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "Efectivamente, contribuiremos a la candidatura de Esquerra Republicana y haremos equipo, Gabriel y yo, en el conjunto del Estado."
+  },
+  {
+   "start": 60.07,
+   "end": 69.65,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Que habrá espectadores, candidata, que se estén preguntando, si han podido pactar con Gabriel Rufián en estos términos, ¿por qué no pudieron pactar con los comuns?"
+  },
+  {
+   "start": 72.92,
+   "end": 105.4,
+   "label": "SPEAKER_01",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "Para eso proponíamos unas primarias, porque como llevamos mucho tiempo buscando diferentes formas de encontrar acuerdos, pues al final las primarias y que decida la gente y que pueda también presentarse quien quiera, creemos y lo seguimos pensando. Votamos el 14 y el 15 en primarias.info y ahí en ese proceso se ha podido presentar quien ha querido y claro, hay que seguir buscando los acuerdos. Ya tenemos uno que yo creo que es bastante importante, que es este de hacer equipo Gabriel y yo y hay que seguir buscando acuerdos, claro."
+  },
+  {
+   "start": 105.72,
+   "end": 107.94,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Pero para tomar esa decisión no hubo primarias."
+  },
+  {
+   "start": 111.05,
+   "end": 111.87,
+   "label": "SPEAKER_01",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "Esquerra ha hecho sus"
+  },
+  {
+   "start": 111.87,
+   "end": 119.99,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "primarias y nosotras estamos haciendo las nuestras, sí. Pero, digo, todavía no conocemos el resultado antes de que anunciasen ustedes el pacto."
+  },
+  {
+   "start": 121.93,
+   "end": 127.25,
+   "label": "SPEAKER_01",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "Por supuesto, y el resultado va a ser respetado, pero que sí que estamos haciendo esos procesos."
+  },
+  {
+   "start": 128.55,
+   "end": 132.31,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "De momento la única lista es la suya, ¿no? La que se presenta a las primarias en Podemos."
+  },
+  {
+   "start": 134.32,
+   "end": 149.02,
+   "label": "SPEAKER_01",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "No, no, hay muchos candidatos y candidatas que se están presentando como independientes, otros muchos, por supuesto, en listas, Y en eso consisten unas primarias, en que hay gente que forma listas, otras que no. Eso ha pasado siempre y eso ha pasado también en estas."
+  },
+  {
+   "start": 150.06,
+   "end": 156.5,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Pero entonces, ¿cómo anuncia usted un acuerdo con Rufián sin haber esperado el resultado de las primarias en Podemos?"
+  },
+  {
+   "start": 159.3,
+   "end": 230.04,
+   "label": "SPEAKER_01",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "Pues porque los tiempos son muy cortos y lo que estamos intentando es responder a lo que la gente nos pide. Los partidos también buscan esos acuerdos. Entonces, estamos haciendo lo que la gente espera, que es llegar a acuerdos. para poder maximizar las posibilidades de tener una candidatura que represente al conjunto de las personas que quieren que acabe el negocio de la vivienda o que baje el precio de los alimentos o que hagamos políticas que cuiden el planeta. Necesitamos esos acuerdos y eso es perfectamente compatible con que haya procedimientos democráticos donde se elige a los candidatos y a las candidatas. Lo que salga de esas primarias será lo que forme parte de ese acuerdo. Lo que tampoco vale es criticar todo lo que pase. Si no hay acuerdo, porque no hay acuerdo. Si hay acuerdo, no nos parece bien ese acuerdo. Yo creo que hay que tener un poco de, también de, no sé, de entender que estamos en un momento, que lo decíais antes en la mesa, de reorganización del espacio y que lo importante es que consigamos tener acuerdos que la gente está esperando y que nos permitan tener una candidatura que represente a la mayoría de la gente, que quiere que pasen cosas y que no siempre, por cualquier excusa al final, pues terminemos quedándonos como estamos con un sistema que no funciona. Creo que vamos por el buen camino."
+  },
+  {
+   "start": 230.7,
+   "end": 240.68,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Entonces, dentro de ese acuerdo, sin esperar a primarias, nos confirma que va a haber candidatos de Podemos en las listas de Esquerra Republicana. ¿Cuántos? Sí."
+  },
+  {
+   "start": 242.64,
+   "end": 248.78,
+   "label": "SPEAKER_01",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "Pues habrá diferentes en diferentes posiciones. En todas las listas, en las cuatro circunscripciones."
+  },
+  {
+   "start": 250.74,
+   "end": 254.7,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Usted, si piensa que Podemos puede tener un buen resultado... Depende del resultado que se obtenga,"
+  },
+  {
+   "start": 254.7,
+   "end": 255.92,
+   "label": "SPEAKER_01",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "habrá más o menos diputados."
+  },
+  {
+   "start": 256.52,
+   "end": 279.84,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "No, no, discúlpeme señora Montero, que es que quería escuchar la respuesta hasta el final. Pero de entrada, ¿en qué consistiría, digamos, los mimbres del pacto con Esquerra Republicana de Cataluña? Oiga, señor Rufián, si conseguimos tantos escaños, si se consiguen tantos escaños, yo me quedo con X. Si se consiguen más, yo me quedo con X más uno. Más o menos, ¿en qué consistiría el pacto, señora Montero? Es mucho más sencillo."
+  },
+  {
+   "start": 280.74,
+   "end": 308.88,
+   "label": "SPEAKER_01",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "Pero Podemos va a contribuir a la candidatura de Esquerra Republicana en Cataluña y Gabriel Rufián es nuestro candidato en Cataluña y Gabriel Rufián y yo vamos a hacer equipo en el conjunto del Estado para poder representar a un montón de gente a la que le puede gustar Gabriel Rufián, le puede gustar Podemos y quieren que lleguemos a marcos de colaboración y de entendimiento. Y eso hemos buscado con mucha paciencia y eso tenemos ahora mismo. Y ya te digo, creo que todavía faltan más acuerdos pero que vamos por el buen camino."
+  },
+  {
+   "start": 309.98,
+   "end": 321.96,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Nos confirma que habrá candidatos entonces de Podemos en la lista de Esquerra Republicana de Cataluña. Por el otro lado del pacto, ¿cuál es la implicación de Esquerra Republicana de Cataluña en el resto de España dentro de Podemos?"
+  },
+  {
+   "start": 325.34,
+   "end": 351.29,
+   "label": "SPEAKER_01",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "Es que Esquerra es una fuerza catalana. Se presentan en Cataluña, nosotras tenemos a Gabriel como candidato en Cataluña y Gabriel va a hacer campaña y va a hacer equipo con nosotras en el conjunto del Estado. Y ahora equipo con nosotras, con Podemos, en el resto del Estado, en España."
+  },
+  {
+   "start": 352.33,
+   "end": 360.67,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Si Podemos cree que puede mantener un buen resultado en las elecciones generales, ¿por qué mantienen abiertas las negociaciones con Frente Amplio, señora Montero?"
+  },
+  {
+   "start": 363.33,
+   "end": 435.53,
+   "label": "SPEAKER_01",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "Porque la gente está pidiendo que busquemos vías de acuerdo y porque cuantas más seamos, mejor vamos a poder representar a esa mayoría. Podemos ha buscado acuerdos en todo momento y en todas las elecciones y eso vamos a seguir haciendo. Es que parece como que es sospechoso que se busquen acuerdos. Yo creo que eso es lo que tiene que pasar en los procesos electorales, que busquemos acuerdos entre diferentes y que trabajemos juntas para tener los mejores resultados y sobre todo a un montón de gente en el Congreso ¿Qué pasa con los acuerdos? ¿Cómo puede jugar un rol en el conjunto del Estado? Y eso es la colaboración que estamos construyendo. Hasta ayer era lo que todo el mundo quería."
+  },
+  {
+   "start": 436.15,
+   "end": 437.73,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Ahora de repente a lo"
+  },
+  {
+   "start": 437.43,
+   "end": 437.73,
+   "label": "SPEAKER_01",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "mejor como..."
+  },
+  {
+   "start": 439.81,
+   "end": 455.29,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Yo, señora Montero, es que lo que no alcanza a comprender es por qué los mismos términos y condiciones, por qué han podido pactar con Gabriel Rufián en Cataluña y con los comunes no. En los mismos términos y condiciones. ¿Qué es lo que no alcanza a comprender?"
+  },
+  {
+   "start": 458.3,
+   "end": 491.34,
+   "label": "SPEAKER_01",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "Pues porque yo creo que con Esquerra y con Gabriel eso es lo que está pidiendo la gente y porque hemos sido capaces de establecer ese marco de cooperación y luego es que no sé cuál es el problema de que lleguemos a un acuerdo y a una colaboración y eso no quiere decir que no se pueda llegar a acuerdos con más gente. Llevamos proponiendo que haya primarias, proponiendo que todo el mundo pueda presentarse, proponiendo que la gente pueda elegir a las personas que mejor le representan, O sea que la voluntad de acuerdo es total y cuando se llega a un acuerdo se anuncia y eso no quiere decir que luego no puedan llegar más acuerdos."
+  },
+  {
+   "start": 492.06,
+   "end": 494.92,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¿Intentaron un acuerdo con los comunes que no salió, señora Montero?"
+  },
+  {
+   "start": 498.73,
+   "end": 530.67,
+   "label": "SPEAKER_01",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "Yo creo que las cosas cuando salen hay que contarlas y si no es mejor no contribuir al bucle infinito. Lo que estamos haciendo creo que tiene sentido, que es trabajar con aquellos liderazgos que son fuertes, aquellos liderazgos que la gente quiere ver unidos, Podemos, aquellas fuerzas políticas que siendo diferentes podemos tener objetivos compartidos y que podemos trabajar y hacer cooperaciones excepcionales en un momento que es excepcional y creo que eso es lo que nos está pidiendo la gente y que es el camino que tenemos que seguir, lo que ya estamos haciendo y lo que tenemos que seguir haciendo en estos días."
+  },
+  {
+   "start": 531.23,
+   "end": 533.15,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¿Podemos se va a integrar en Frente Amplio?"
+  },
+  {
+   "start": 535.33,
+   "end": 564.73,
+   "label": "SPEAKER_01",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "No. ¿No? No, no, nosotras tenemos un acuerdo con Esquerra Republicana de Cataluña y vamos a trabajar, a hacer equipo con Gabriel y eso está abierto a que se incorpore quien quiera, pero digamos que las cosas no se hagan como algunas personas querrían, no quiere decir que no estén hechas con la mejor voluntad o que se hagan para conseguir los mejores resultados y que sean buenas al final para la gente."
+  },
+  {
+   "start": 564.73,
+   "end": 570.11,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Entonces, la negociación que mantienen desde Podemos con Frente Amplio, ¿qué objetivo tiene?"
+  },
+  {
+   "start": 574.04,
+   "end": 583.56,
+   "label": "SPEAKER_01",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "Nosotras vamos a hablar siempre con todo el mundo y el objetivo es que las diferentes fuerzas políticas tenemos que poder hablar y tenemos que poder buscar formas de entendimiento de las formas que consigamos."
+  },
+  {
+   "start": 584.56,
+   "end": 588.1,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "¿Y cuál sería la mejor forma de entendimiento en su opinión, señora Montero?"
+  },
+  {
+   "start": 589.94,
+   "end": 607.62,
+   "label": "SPEAKER_01",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "Las primarias, que es lo que llevamos proponiendo todos estos días y que, insisto, se vota los días 14 y 15 en primarias.info, 14 y 15 de octubre, que es ya mañana y pasado, se puede votar. Esa es la forma que nosotras creemos que es la mejor de llegar a acuerdos, sobre todo cuando se lleva mucho tiempo en un bucle infinito que no lleva a ninguna parte."
+  },
+  {
+   "start": 608.18,
+   "end": 628.34,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Claro, pero es que es ahí donde volvemos al bucle, porque no le han hecho falta primarias para pactar con Gabriel Rufián. Es que por eso digo que es que no entiendo, por eso no alcanzo a comprender y creo que hablo por todos los compañeros que tengo en la mesa, es decir, si usted dice, oiga, mira, primero hacemos primarias y luego ya decidimos, lo entiendo, pero el problema es que pactó con Rufián antes de esperar a hacer primarias."
+  },
+  {
+   "start": 631.74,
+   "end": 689.7,
+   "label": "SPEAKER_01",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "Yo creo de verdad que la gente quiere acuerdos, que la gente quiere que nos podamos entender, si ahora resulta que no, pues será la gente la que juzgue, Silvia, por suerte hay unas elecciones muy pronto y será la gente la que decida y la que ponga a cada uno y a cada una en su sitio, yo me voy a dejar la piel de verdad porque haya una candidatura fuerte que represente a la gente que quiere que baje el precio de los alquileres, que quiere que las cosas cambien, que sabe que este sistema como está no funciona y que sabe que tenemos que cooperar entre todos. Yolanda Díaz, Alberto Núñez Feijóo, Santiago Abascal, Irene Montero,"
+  },
+  {
+   "start": 689.7,
+   "end": 698.27,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Frente Amplio, Junta Electoral Central, Tribunal Constitucional Me guste más o menos. ¿Usted no ve la contradicción? Que la puede defender, pero no ve la contradicción."
+  },
+  {
+   "start": 698.97,
+   "end": 711.47,
+   "label": "SPEAKER_01",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "Yo creo que la gente está pidiendo acuerdos y que esos acuerdos pasan porque entre diferentes busquemos puntos en común y busquemos formas de cooperación y eso es lo que estamos haciendo."
+  },
+  {
+   "start": 712.57,
+   "end": 719.11,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Entonces, si Frente Amplio no accede a primarias, ¿Podemos concurre por separado con Esquerra Republicana?"
+  },
+  {
+   "start": 723.13,
+   "end": 727.63,
+   "label": "SPEAKER_01",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "Vamos a seguir hablando y vamos a seguir intentando todas las formas de colaboración, Silvia."
+  },
+  {
+   "start": 729.17,
+   "end": 740.37,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "No me ha despejado la duda, señora Montero. Digo, sí, es que, ¿sabe lo que pasa? Que para entrar en coalición se acaba el tiempo para el viernes. Es que todavía quedan unos días. Por eso, pues, vamos a seguir trabajando"
+  },
+  {
+   "start": 740.37,
+   "end": 758.67,
+   "label": "SPEAKER_01",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "y yo creo que es mejor que cuando tengamos acuerdos que poder comunicar, los comunicamos. Y mientras tanto, pues, hay que dejar que se pueda trabajar. Pero sí, creo que las primarias hubiesen sido una muy buena forma de poder ordenar y llegar a acuerdos."
+  },
+  {
+   "start": 759.69,
+   "end": 760.77,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Yo sí lo creo,"
+  },
+  {
+   "start": 760.87,
+   "end": 768.05,
+   "label": "SPEAKER_01",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "y si no, pues tendremos que seguir hablando, evidentemente, pues seguiremos hablando. Y si hay algo que comunicar y que acordar, pues os lo contaremos."
+  },
+  {
+   "start": 768.39,
+   "end": 779.79,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Es decir, que estaría dispuesta a llegar..."
+  },
+  {
+   "start": 784.3,
+   "end": 789.52,
+   "label": "SPEAKER_01",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "Silvia, cuando tengamos una forma, un acuerdo, algo que comunicar, lo comunicaremos."
+  },
+  {
+   "start": 790.02,
+   "end": 793.86,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Mientras tanto, creo de verdad que es un"
+  },
+  {
+   "start": 793.86,
+   "end": 814.92,
+   "label": "SPEAKER_01",
+   "person": "montero",
+   "name": "Irene Montero (Podemos)",
+   "text": "bucle infinito que además que incomoda a todo el mundo, de verdad, que es que hace hasta que sea difícil defender las cosas buenas que están pasando como que hay acuerdos. Entonces, bueno, pues no lo sé. Yo creo que cuando tengamos un acuerdo lo podremos contar. Señora Montero, gracias por haber estado con nosotros en directo esta mañana. Venga Silvia, muchísimas gracias."
+  },
+  {
+   "start": 815.44,
+   "end": 816.14,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Hasta luego."
+  }
+ ]
+}

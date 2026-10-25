@@ -1,0 +1,39 @@
+{
+ "id": "2026-10-14-abascal-ae0a6d",
+ "date": "2026-10-14",
+ "expected_person": "Santiago Abascal",
+ "kind": "speech",
+ "outlet": "VOX YouTube",
+ "title": "SANTIAGO ABASCAL presenta a JORDAN BARDELLA en FORUM EUROPA",
+ "url": "https://www.youtube.com/watch?v=mryUWF4zNr0",
+ "language": "es",
+ "duration_s": 382.93,
+ "sha256": "386a45d8b2e28c2b05743ff60466eed426553bb1cd72270a558833928f56da5d",
+ "fetched_at": "2026-10-25T09:16:49+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.55,
+  "processed_at": "2026-10-25T12:19:16+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_00": {
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "decision": "match",
+   "reason": "sim 0.87, next 0.46",
+   "talk_s": 362.2
+  }
+ },
+ "turns": [
+  {
+   "start": 0.0,
+   "end": 378.95,
+   "label": "SPEAKER_00",
+   "person": "abascal",
+   "name": "Santiago Abascal (Vox)",
+   "text": "Muy buenos días a todos, querido José Luis, señores embajadores, diputados, señoras y señores, queridos amigos, muy buenos días a todos. Y muchísimas gracias al Fórum Nueva Economía por la invitación a Jordan Bardella y por haberme dado la oportunidad de poder presentarlo en un momento tan importante para España y para Francia. Y gracias a todos ustedes por su interés y por acompañarnos durante esta mañana. Tengo el honor de presentar al próximo primer ministro de Francia. No es un deseo, es un pronóstico, no es cortesía, es lo que parece que va a pasar en Francia muy pronto. Jordan Bardella creció en Saint-Denis, a las puertas de París, en un barrio de vivienda social, en un barrio humilde. De niño vio lo que pasa cuando el Estado, a causa de sus políticos, abandona un barrio. Vio lo que ocurre cuando la ley deja de cumplirse, cuando los vecinos de siempre se sienten extranjeros en su propia calle y cuando quien más sufre el desorden es precisamente quien menos tiene. Hoy con 30 años, 31 años, Jordan Bardella preside el partido más votado de Francia y también preside el grupo parlamentario en el Parlamento Europeo, Patriotas por Europa, que es también el nuestro. Ha llegado aquí precisamente por decir en voz alta, desde muy joven, lo que muchísimos franceses pensaban probablemente todavía en voz baja. Y por eso, precisamente, millones de franceses, cada vez más, se han reconocido en Jordán Bardella y en el proyecto de Marine Le Pen. Ayer estuvimos juntos en Ceuta. Ayer, como todos ustedes saben, 12 de octubre, era el día de la fiesta nacional de España y Jordán Bardella tuvo el detalle de pasarla junto a nosotros en nuestra frontera sur. Y es algo por lo que yo quiero darle las gracias de nuevo a Jordan Bardella por acompañarnos ayer en Ceuta. He de decir que por segundo año consecutivo yo también me ausenté de la tribuna de autoridades porque no puedo compartir esa tribuna con quienes han traicionado a España y muy especialmente con quienes este año han traicionado a España en Ceuta. Jordan pudo comprobar en Ceuta de primera mano lo que muchos europeos conocen solo por la televisión. Pudo ver una ciudad española que desde el 30 de julio sigue esperando a que su gobierno la defienda Su presencia ayer en Ceuta dice algo muy sencillo a todos los españoles y a todos los europeos Y lo que afirma es que la frontera sur de España es también la frontera sur de Francia, es la frontera sur de Europa Lo que dice es que lo que ocurre en la frontera del Tarajal no es solo un asunto español, es clarísimamente un asunto europeo Como es también un asunto europeo, las regularizaciones masivas del gobierno de Sánchez, las que ha llevado a cabo y que han traído, además del colapso a la vivienda y a la sanidad, un terrible efecto llamada que todavía hoy persiste y que daña también los intereses de todos los ciudadanos europeos, no solo de los españoles. Y por eso hoy podemos decir que los españoles y los franceses, junto a millones de europeos, compartimos una misma amenaza y cada vez más apostamos por las mismas soluciones. También Jordan Bardel ha sufrido los mismos ataques que sufrimos en España desde hace mucho tiempo los que hemos hecho de nuestra biografía política una defensa diaria de la defensa de la soberanía nacional, de la identidad nacional y de los intereses nacionales. No importa, en realidad eso es algo que nos une más y yo incluso creo que es bueno estar unidos en eso. Y creo sobre todo que es muy bueno que ustedes hoy puedan escuchar directamente, sin traducción de los medios de comunicación, a Jordan Bardella, para que conozcan exactamente qué es lo que piensa un político joven, un político directo y valiente, perfectamente preparado para desempeñar un gran papel en la historia próxima de Francia y creo que también en la historia de Europa. Marín Le Pen ya le ha señalado como su primer ministro y creo que al hacerlo ha multiplicado la esperanza de una generación de jóvenes europeos que han sido excluidos de la política mientras la política decidía su futuro. Con Marín Le Pen en el Elisio y con Jordan Bardella en Matiñón estoy seguro de que España tendrá en París la oportunidad de una gran alianza en lo esencial, ¿Qué es lo que ya defendemos juntos en Bruselas, en el Parlamento Europeo? El mes pasado decía Jordan Bardella, esto se lo digo a ustedes como advertencia, que espera verme algún día al frente de España y no es porque estemos a 47 días de las elecciones, pero yo ya les advierto de que no está bien llevar en la contraria a un invitado. Lo cierto es que en algunos temas, quizá los exprese Jordan Bardella hoy mismo, puede que no estemos de acuerdo Y solemos bromear cuando los medios de comunicación o nuestros adversarios señalan nuestras diferencias o nuestras contradicciones. Creo que precisamente el principal deber de los políticos es defender los intereses de la nación, los intereses nacionales. Y eso por pura lógica nos lleva en muchas ocasiones a disentir de otras naciones, incluso con los vecinos o con los aliados, porque defienden intereses nacionales contrarios a los nuestros. Pero también creo que el acuerdo político y más allá, las alianzas más firmes todavía, se basan precisamente en el respeto a la soberanía y en la comprensión y el entendimiento de que nuestro interlocutor y nuestro aliado está defendiendo sus intereses legítimamente, aunque estos a veces puedan dañarnos a nosotros. Pero dicho eso, creo que la Francia que quieren Marine Le Pen y Jordan Bardella no solo no representa ninguna amenaza para España, sino que constituye una gran oportunidad también para nuestro pueblo. Por eso les invito a escucharle con atención, querido Jordan, bienvenido a Madrid, bienvenido de nuevo a España. Gracias por acompañarnos en Ceuta, señores y señoras, el próximo primer ministro de Francia."
+  }
+ ]
+}

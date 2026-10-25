@@ -5,5 +5,8 @@ set -u
 cd "$(dirname "$0")/.."
 echo "== $(date -u +%FT%TZ)"
 .venv/bin/python src/discover.py
+.venv/bin/python src/discover_extra.py             # Congreso, Moncloa, RTVE Play, 3Cat
 .venv/bin/python src/fetch.py --inventory data/queue.csv --only direct --no-wav
 .venv/bin/python src/fetch.py --inventory data/queue.csv --only rtve --no-wav
+.venv/bin/python src/fetch.py --inventory data/queue.csv --only moncloa --no-wav
+.venv/bin/python src/fetch.py --inventory data/queue.csv --only direct_video --no-wav

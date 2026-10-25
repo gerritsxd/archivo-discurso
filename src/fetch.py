@@ -52,6 +52,12 @@ def kind_of(url):
         return "youtube"
     if "rtve.es/play" in url:
         return "rtve"
+    if "3cat.cat/3cat/" in url or "telemadrid.es/" in url:
+        return "rtve"  # same path: yt-dlp, best audio
+    if "lamoncloa.gob.es/multimedia/videos/" in url:
+        return "moncloa"
+    if "static.congreso.es/" in url and url.lower().endswith(".mp4"):
+        return "direct_video"
     if url.split("?")[0].lower().endswith((".mp3", ".m4a", ".aac", ".ogg")) or "/play.mp3" in url:
         return "direct"
     return None
@@ -74,8 +80,8 @@ def sha256(path):
 
 
 def download(url, kind, d):
-    if kind == "direct":
-        out = d / "source.mp3"
+    if kind in ("direct", "direct_video"):
+        out = d / ("source.mp4" if kind == "direct_video" else "source.mp3")
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (archivo-discurso)"})
         with urllib.request.urlopen(req, timeout=120) as r, open(out, "wb") as f:
             shutil.copyfileobj(r, f)
@@ -84,7 +90,9 @@ def download(url, kind, d):
     # be gentle: YouTube answers a burst of downloads with "confirm you're not a bot" for hours
     cmd = [sys.executable, "-m", "yt_dlp", "-q", "--no-warnings", "--no-playlist",
            "--sleep-requests", "1.5", "--sleep-interval", "20", "--max-sleep-interval", "45",
-           "-f", "bestaudio/best", "--retries", "10", "--fragment-retries", "10",
+           # Moncloa HLS has no audio-only rendition: the smallest video carries the same audio
+           "-f", "worst" if kind == "moncloa" else "bestaudio/best",
+           "--retries", "10", "--fragment-retries", "10",
            "-o", str(d / "source.%(ext)s"), url]
     subprocess.run(cmd, check=True, timeout=3600)
     found = [p for p in d.glob("source.*") if p.suffix not in (".part", ".ytdl")]
@@ -96,7 +104,7 @@ def download(url, kind, d):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--inventory", default=str(ROOT / "m0" / "inventory.csv"))
-    ap.add_argument("--only", choices=["youtube", "direct", "rtve"])
+    ap.add_argument("--only", choices=["youtube", "direct", "rtve", "moncloa", "direct_video"])
     ap.add_argument("--limit", type=int)
     ap.add_argument("--no-wav", action="store_true",
                     help="archive the original file only (VPS: no ffmpeg, the PC makes the wav)")

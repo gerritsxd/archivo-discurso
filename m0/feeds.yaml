@@ -89,14 +89,14 @@
   depth: "stale (last item 2023-07-28); watch in case it is revived for 29N"
 - station: RNE
   programme: Las mañanas de RNE
-  rss_url: https://api.rtve.es/api/adapter/programas/119312/audios.rss
+  rss_url: https://www.rtve.es/api/adapter/programas/119312/audios.rss
   verified: yes
   granularity: "mixed (one item per hour, 'Primera..Cuarta hora', plus clips)"
   interviews_separate: yes
-  depth: "RSS holds only the last 20 items (~2 days). For backfill use the JSON API https://api.rtve.es/api/programas/119312/audios.json?size=60&page=N (144 items since 5 Oct)"
+  depth: "RSS holds only the last 20 items (~2 days). For backfill use the JSON API https://www.rtve.es/api/programas/119312/audios.json?size=60&page=N (144 items since 5 Oct)"
 - station: RNE
   programme: 24 horas
-  rss_url: https://api.rtve.es/api/adapter/programas/1871/audios.rss
+  rss_url: https://www.rtve.es/api/adapter/programas/1871/audios.rss
   verified: yes
   granularity: "mixed (hours plus clips)"
   depth: "20 items in the RSS; JSON API as above with programme id 1871"

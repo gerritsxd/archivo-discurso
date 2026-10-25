@@ -1,0 +1,520 @@
+{
+ "id": "2026-10-13-feijoo-cbba06",
+ "date": "2026-10-13",
+ "expected_person": "Alberto Núñez Feijóo",
+ "kind": "interview",
+ "outlet": "esRadio - Es la Mañana de Federico",
+ "title": "Federico entrevista a Alberto Núñez Feijóo: \"No voy a amnistiar al sanchismo\"",
+ "url": "https://api.spreaker.com/v2/episodes/75747571/play.mp3",
+ "language": "es",
+ "duration_s": 3108.87,
+ "sha256": "df979f44cb8a93ae38b53d396bb80549ee20de1811443cdd575f86f0794bde01",
+ "fetched_at": "2026-10-25T09:16:04+00:00",
+ "pipeline": {
+  "asr": "faster-whisper large-v3 (float16)",
+  "diarization": "pyannote/speaker-diarization-community-1",
+  "voiceprint_threshold": 0.55,
+  "processed_at": "2026-10-25T12:18:47+00:00",
+  "reviewed": false
+ },
+ "speakers": {
+  "SPEAKER_09": {
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "decision": "match",
+   "reason": "sim 0.95, next 0.38",
+   "talk_s": 1869.8
+  },
+  "SPEAKER_05": {
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "decision": "unknown",
+   "reason": "best sim 0.48 < 0.55",
+   "talk_s": 587.5
+  },
+  "SPEAKER_06": {
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "decision": "too_short",
+   "reason": "only 6s of speech",
+   "talk_s": 5.5
+  },
+  "SPEAKER_07": {
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "decision": "unknown",
+   "reason": "best sim 0.44 < 0.55",
+   "talk_s": 31.2
+  },
+  "SPEAKER_01": {
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "decision": "unknown",
+   "reason": "best sim 0.43 < 0.55",
+   "talk_s": 71.2
+  },
+  "SPEAKER_04": {
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "decision": "unknown",
+   "reason": "best sim 0.40 < 0.55",
+   "talk_s": 78.9
+  },
+  "SPEAKER_03": {
+   "person": null,
+   "name": "Hablante sin identificar 6",
+   "decision": "too_short",
+   "reason": "only 17s of speech",
+   "talk_s": 17.0
+  },
+  "SPEAKER_00": {
+   "person": null,
+   "name": "Hablante sin identificar 7",
+   "decision": "unknown",
+   "reason": "best sim 0.37 < 0.55",
+   "talk_s": 53.9
+  },
+  "SPEAKER_08": {
+   "person": null,
+   "name": "Hablante sin identificar 8",
+   "decision": "too_short",
+   "reason": "only 18s of speech",
+   "talk_s": 18.1
+  },
+  "SPEAKER_12": {
+   "person": null,
+   "name": "Hablante sin identificar 9",
+   "decision": "too_short",
+   "reason": "only 8s of speech",
+   "talk_s": 7.7
+  },
+  "SPEAKER_10": {
+   "person": null,
+   "name": "Hablante sin identificar 10",
+   "decision": "unknown",
+   "reason": "best sim 0.18 < 0.55",
+   "talk_s": 35.0
+  },
+  "SPEAKER_14": {
+   "person": null,
+   "name": "Hablante sin identificar 11",
+   "decision": "unknown",
+   "reason": "best sim 0.17 < 0.55",
+   "talk_s": 22.5
+  },
+  "SPEAKER_15": {
+   "person": null,
+   "name": "Hablante sin identificar 12",
+   "decision": "too_short",
+   "reason": "only 19s of speech",
+   "talk_s": 18.7
+  },
+  "SPEAKER_02": {
+   "person": null,
+   "name": "Hablante sin identificar 13",
+   "decision": "too_short",
+   "reason": "only 15s of speech",
+   "talk_s": 14.7
+  },
+  "SPEAKER_13": {
+   "person": null,
+   "name": "Hablante sin identificar 14",
+   "decision": "unknown",
+   "reason": "best sim 0.14 < 0.55",
+   "talk_s": 60.4
+  },
+  "SPEAKER_11": {
+   "person": null,
+   "name": "Hablante sin identificar 15",
+   "decision": "unknown",
+   "reason": "best sim 0.14 < 0.55",
+   "talk_s": 24.4
+  }
+ },
+ "turns": [
+  {
+   "start": 0.5,
+   "end": 27.36,
+   "label": "SPEAKER_11",
+   "person": null,
+   "name": "Hablante sin identificar 15",
+   "text": "Soy Shannon Maldonado, la fundadora de Yowie, un negocio de regalos con un foco en objetos de artesanía y de mano. De todas las plataformas que he probado, Shopify ha sido absolutamente el mejor de los que he usado. Me pareció importante pensar en dónde estaríamos en la futura. Todas las herramientas para ver los números de ventas, como la planeación de los precios, se encuentran en su dashboard. Comienza tu periodo de prueba gratis en Shopify.com"
+  },
+  {
+   "start": 33.5,
+   "end": 269.94,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "El día 29 por la noche, a eso de las 10 de la noche, habrá resultados electorales. Una cosa que, como lo he elogiado antes, lo puedo hacer delante de usted, que me ha gustado, es que más que hablar de un programa electoral, los programas se hacen, pero luego la realidad te permite hacerlos o no, O te encuentras con unas cuentas que no son las que tú habías previsto, que con este gobierno es seguro, etc. Pero sí hubo una serie de compromisos personales, pocos, pero a mí eso me pareció más importante. Yo me fío mucho más de los compromisos personales que son eso, compromisos, que no de los programas que se pueden hacer o no. Y hubo tres. Lo primero, voy a poner luz sobre todo lo que está oculto de este gobierno, toda la corrupción de este gobierno en todos los ámbitos, lo cual significa las cloacas con una cosa a la que usted se refirió también recientemente, que yo creo que es algo que no puede de ninguna manera pasar inadvertido. O sea, este gobierno, para proteger a la familia del presidente del gobierno, ha contratado narcos para matar a una juez. Esto no ha pasado ni en Bielorrusia, esto no ha pasado ni Putin. Bueno, Putin pone directamente a los jueces, no los tiene que matar. Pero nunca en la historia de España y de Europa Occidental. Y entonces usted dijo, esto se va a saber, se va a iluminar, porque además hay que decir que varios jueces y fiscales y policías y guardias civiles han hecho su trabajo contra viento y marea. El otro día veía el informe de los guardia civiles que le iban contando a la juez Viedma cómo le expresionaban. Era una cosa heroica, porque estamos hablando de Badajoz, que tampoco es Nueva York, y se conoce todo el mundo, los narcos también, y saben dónde vives. Bueno, tremendo. Otro compromiso fue en Ceuta, el quinto o sexto viaje, que dijo, voy a echar a los invasores, a todos, y además voy a traer el ejército. Es decir, ayer nos enteramos, y esta es la primera pregunta obligada, ayer nos enteramos por el propio presidente del gobierno, que la invasión, digamos, civil, fue también militar, no hubo guerra híbrida. Eso que dice, de híbrida nada, entró, las fragatas militares de Marruecos escoltaron a los 100.000 invasores, militares, civiles, ampones, camellos, ahí entró de todo, yihadistas, sarnosos, de todo, y además durante dos días estuvieron asegurándose de que la invasión tenía éxito. Perfecto. ¿Usted no cree que cuando hemos visto, yo imagino que esto, no sé cómo lo interpreta usted, solo le pregunto, esto fue una manera de tratar de sabotear el viaje del rey hoy a Ceuta por la foto famosa en que está el rey con los jefes de Estado Mayor de todos los ejércitos y es evidente que ahí se sabían cosas que se han hurtado a la nación, porque la invasión era también puramente militar, que lo fue, Con la complicidad del gobierno, y yo ya, como creo que Sánchez no es más malo porque no entrena, pero soy seguro que lo hizo, creo yo, no sé cómo lo interpreta usted, para tratar de estropear la visita de hoy a Ceuta. Pero en todo caso, ese día 29 a las 10 de la noche, si usted se ve presidente del gobierno, la primera cuestión, ¿cómo se rehace una doctrina de seguridad para un país que ha perdido por completo la idea de seguridad?"
+  },
+  {
+   "start": 271.3,
+   "end": 359.9,
+   "label": "SPEAKER_09",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "Muy bien, pues muy buenos días Federico, encantado de estar aquí, efectivamente lo hemos dicho y lo reitero, yo no voy a amnistiar al sanchismo, todo se ha de saber y todo se sabrá. Es obligatorio hacerlo así porque tenemos que reconstruir las instituciones, tenemos que cumplir la ley y tenemos que informar a la nación. Hay una falta de respeto constante en el sanchismo a los ciudadanos, una falta de respeto a la ley, a la justicia, a la verdad, al sufrimiento de la gente, a las fronteras de nuestro país y, por lo tanto, a la nación. Ceuta. Ceuta es la acreditación de la indolencia, de la frivolidad y de la falta de cumplimiento de un deber esencial de un gobierno y de un presidente, que es garantizar la integridad territorial de su país. Lo dije cuando fui a Ceuta, efectivamente, cinco o seis ocasiones. El presidente de gobierno dijo ayer en los corrillos que habían sido días muy difíciles. Hombre, si cuando usted tiene un día muy difícil o días muy difíciles lo que hace es irse de vacaciones a la mareta durante 25 días continuados es otra falta de respeto doble a los ciudadanos. Y también lo dije en Ceuta y lo reitero, el artículo 8 de la Constitución dice que al ejército le corresponde garantizar la integridad territorial. Y por tanto, si Marruecos..."
+  },
+  {
+   "start": 359.9,
+   "end": 361.4,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Y el orden constitucional."
+  },
+  {
+   "start": 361.66,
+   "end": 574.46,
+   "label": "SPEAKER_09",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "Si Marruecos, después de que el gobierno debería haberle avisado el día 27, 28 y 29, porque el CNI estaba informando y la Comisaría de Extranjería de la Policía Nacional también, También no aborta esa operación. Lo lógico es decirle, oiga, si usted no aborta esa operación, yo voy a desplegar al ejército en la frontera. Y por tanto lo vuelvo a reiterar. El ejército debería haberse desplegado en la frontera para garantizar la integridad de nuestro país. Todo este tipo de cosas las voy a hacer, y las voy a hacer no porque sea un planteamiento programático, sino porque es un deber constitucional de alguien que quiere ser presidente del gobierno. La fragata y las patrulleras. Bueno, a ver, yo no sé por qué el gobierno ha reventado esa información ayer, pero lo que está claro es que la jueza Tardón está esperando el informe del CNI. Y ese informe aún no ha llegado. Y no ha llegado, será responsabilidad del Ministerio de Defensa, del Consejo de Ministros, de los dos, pero lo que está claro es que los temas de soberanía de un país se tratan en la sede de la soberanía de un país. Y si esto ocurre, el presidente del gobierno tiene que comparecer, no mentir, decirle a la Cámara lo que ha ocurrido y, por tanto, proponerle a la Cámara lo que ha de hacer. Mire, yo lo que estamos observando durante todos estos años es una frivolidad en los asuntos de Estado, es unas obligaciones y unos miedos que tendrá el señor Sánchez. Me decía un dirigente socialista de los antiguos que hay intereses económicos de dirigentes o exdirigentes del Partido Socialista con Marruecos. Pues todo parece indicar que sí. Pegasus además, ¿no? Por lo tanto, mire, con Marruecos, lealtad, buena vecindad, ahora bien, firmeza. No se negocia la integridad territorial de nuestro país. Y esto lo ha de saber Marruecos y lo ha de saber cualquier país. Y creo que hay una cosa que hemos conseguido, y que quizás a lo mejor no se le dio toda la importancia en este programa así, que fue sensibilizar a nuestros colegas europeos y meter en el discurso de la Unión, de la Presidenta de la Comisión, aquella frase de que cuando Ceuta se ataca, se ataca Europa. Europa y en el Parlamento Europeo en contra del voto socialista, pues hablar de una violación de la integridad territorial de nuestro país, de la necesidad de despegar Frontex y en este momento quiero decir para finalizar, estamos trabajando y yo espero que esta semana o la próxima se remita al Consejo un procedimiento de emergencia ante supuestos como los de Ceuta, donde la legislación europea cambie y permita a los países La expulsión inmediata de todos los que invadan un país, la expulsión inmediata, la denegación de asilo completa y defender las fronteras de la Unión Europea. El hecho de que Europa se dé cuenta de que la frontera sur no es el Mediterráneo español, sino que es el Mediterráneo africano, Ceuta y Melilla, eso, en mi opinión, es un antes y un después para asegurar la integridad territorial de España y la integridad territorial de Europa."
+  },
+  {
+   "start": 574.46,
+   "end": 646.56,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Esta es una cuestión, antes yo lo decía a propósito, hay mucha gente que ha criticado que no estuviera Abascal, bueno, podría haber estado, pero el discurso que hizo Bagdelá, que puede ser presidente del gobierno, igual que Marine Le Pen, presidenta de la República, en primavera, y siempre el problema que ha tenido España en política exterior es Francia, que alguien se comprometa a que va a defender Ceuta, que va a apoyar a España, sea, no sé lo que será Vox, ni lo que será Abascal, Pero que lo diga el que puede ser, en seis meses, primer ministro de Francia en Ceuta Y que diga que va a apoyar esa frontera, porque las fronteras son las de España, las de Francia, las de Italia Hizo una referencia alogiosa a Meloni, a la que ahora todos critican Pero en su día, pues, en fin, digamos hizo lo que pudo Pero en el caso de España es que no nos han podido pillar peor Porque es que la geografía nos condena, o sea, no tenemos derecho a tener miedo Tenemos que defendernos, estamos donde estamos Hay una segunda cuestión que ha planteado el gobierno, como digamos, no sé si como bengala, como qué, que es la cuestión de la vivienda."
+  },
+  {
+   "start": 663.92,
+   "end": 674.24,
+   "label": "SPEAKER_14",
+   "person": null,
+   "name": "Hablante sin identificar 11",
+   "text": "Creo que es la bicicleta en sí misma. Es el tipo de cosa con la que se hace. Runa el negocio en Shopify. Comienza tu periodo de prueba gratis en Shopify.com"
+  },
+  {
+   "start": 708.84,
+   "end": 711.64,
+   "label": "SPEAKER_10",
+   "person": null,
+   "name": "Hablante sin identificar 10",
+   "text": "www.greenchoice"
+  },
+  {
+   "start": 713.53,
+   "end": 726.45,
+   "label": "SPEAKER_02",
+   "person": null,
+   "name": "Hablante sin identificar 13",
+   "text": ".nl No tengo ni idea."
+  },
+  {
+   "start": 758.18,
+   "end": 872.36,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Para hacer absolutamente nada y con el ejemplo de Barcelona, por cierto, a cuya alcaldesa han nombrado ahora candidata de Sumar. O sea, yo no sé, yo creo que pronto no se presentarán para que la gente vote a Sánchez porque no sé cómo se puede hacer peor. Pero en el caso de la vivienda, usted habló de un proyecto de hacer en el tiempo que fuera posible con una serie de reformas que hay que hacer A ver, porque abarcan, y usted sí, sí sabe lo que es la administración, pero empezó en el Insalud, en Correos, y luego ha estado cuatro años presidiendo la Junta de Galicia, además sin déficit, bien, y yo siempre digo que es la mejor infraestructura de España de carreteras, no está en Galicia, cosa que es verdad, y la prueba es cuando sales de Galicia y entras en Castilla, que parece que entras en el siglo XIX, Y luego, porque siendo una población muy dispersa, con todos los problemas que tiene España de envejecimiento de población, está abastecida, los centros tanto de alimentación como sanitarios están en todas partes. Tú te vas a vivir a Galicia y no estás lejos de un sitio donde te puedan atender. Por lo tanto, eso es dinero que hay que administrarlo. ¿Cómo se puede reorganizar el mercado de la vivienda? ¿Cuáles son los puntos que usted ve como fundamentales? Y teniendo en cuenta que el PP tiene una mayoría casi aplastante en las comunidades autónomas y es de suponer, es posible al menos, después de las elecciones municipales en muchos municipios, ¿Cómo se puede abordar eso conjuntamente? Porque aquí todo el mundo se queja. Si no es de un ayuntamiento, de la comunidad autónoma. Si no del gobierno central, si no del ecologista de turno. ¿Cómo lo ve?"
+  },
+  {
+   "start": 874.32,
+   "end": 1228.84,
+   "label": "SPEAKER_09",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "Le agradezco mucho la referencia a Galicia porque hay una cuestión que diferencia una extremidad política de otra. Cuando yo llego a Galicia en el año 9, y ya sabía que había una crisis a pesar de que aquí se hablaba de brotes verdes, Plan E, un disparate de gasto público inútil, pues lo primero que hice fue reservar un crédito para la conservación de las carreteras durante toda la legislatura. Porque el objetivo no era hacer algunos kilómetros más, sino el objetivo era mantener los 5.000 kilómetros de carreteras. Ahora se vuelve a dar el mismo caso práctico. El objetivo es mantener la conservación de las autovías de la red del Estado, que están en su peor momento. De momento, nunca hemos visto unas autovías peor conservadas que las que ha gestionado este gobierno en los últimos ocho años. Y lo mismo pasa con la red de alta velocidad. Ayer veíamos el incendio de la máquina en el corredor de Madrid-Catalunya-Barcelona y hoy me comentaban que en Córdoba también una máquina en el Andén ha empezado a echar humo y se ha interrumpido la circulación. Por lo tanto, las vías y las autovías están en el peor momento con el mayor gasto público de la historia, con la mayor recaudación y, por lo tanto, pago de impuestos de la historia y con los mayores fondos europeos de la historia, 80.000 millones a fondo perdido. ¿Dónde está ese dinero? En fin, y podemos ahora hablar efectivamente de vivienda. España tenía la posibilidad de pedir 80.000 millones en préstamos. Yo no soy partidario nunca de pedir préstamos porque hay que devolverlos ahora bien. Hay veces que los préstamos tienen un impacto económico positivo y un impacto social incuestionable. Además de que no hemos dedicado de esos 80.000 al fondo perdido dinero suficiente para vivienda, hemos renunciado a los préstamos. Aquí hay un problema de crisis de vivienda. Vivienda, desde hace 6 o 7 años, entró el gobierno con la vivienda problema número 18, hace 3 años que ya es el problema número 1, ha incrementado la población española 5 millones de personas en los últimos 8 años, es evidente por tanto que había una mayor demanda de vivienda, y lo que el gobierno ha hecho, pues es lo que hace este tipo de partidos populistas comunistas de extrema izquierda, que es vamos a intervenir el mercado. No, hombre, no. El mercado lo que hay que hacer es poner mucha vivienda para que se incrementa la oferta y, por lo tanto, la oferta se adecue a la demanda. El gobierno ha hecho una política de vivienda absolutamente especulativa, que es prohibir hacer vivienda y subir los precios de forma inmediata. Si además quieres intervenir en los precios, lo que hace el propietario que no tiene seguridad de cobrar y además le ponen un precio tope es retirar las viviendas del mercado. Y esto es lo que ha pasado. Hay un lugar especialmente claro del fallo de la política de vivienda que es Cataluña, donde es una especie de reino socialista, donde está la Generalitat, está el Ayuntamiento de Barcelona y ¿qué es lo que ha pasado? Se han retirado un 40% de las viviendas, que ha subido las viviendas un 30%, que la ocupación de vivienda ilegal supone en el área metropolitana de Barcelona el 40% del total de las ocupaciones y, bueno, pues hay evidentemente un caos de vivienda. La Generalitat y el Ayuntamiento de Barcelona se dedican a comprar edificios ocupados. El otro día vi 9 millones de euros en la compra de un edificio en el centro de Barcelona ocupado. Por tanto, a un señor que está de forma ilegal en un piso, le compras el piso, le dejas seguir viviendo de forma ilegal y el señor que está trabajando, pues a ese señor, oiga, pues que viva en un piso compartido. Propuesta. Incrementar la oferta. Propuesta. Un millón de viviendas. Y yo ya estoy echando cálculos con la gente nuestra de vivienda que probablemente sea más. Necesitemos más de un millón de viviendas. Eso sin duda. Y para esto, ¿qué hemos de hacer? Pues hace dos años que hemos aprobado la ley de anteocupación en el Senado, bloqueada en el Congreso. Si tú sabes que si te ocupan el piso automáticamente en 48 horas se va a ir, pues entonces te quedas tranquilo. Primero, segundo, una ley del suelo, oiga, no puede ser. La lista de espera quirúrgica, la lista de espera médica es un problema. Oiga, ¿y la lista de espera urbanística en los ayuntamientos españoles? Pues tenemos que decirle a usted, si usted no da una licencia de obra nueva, a los 90 días empieza la obra. Y, por supuesto, esto de pedir licencias para cambiar el baño de tu casa, oiga, no, eso es una declaración responsable sin más. Por tanto, modificar la ley de ocupación, modificar la ley del suelo. El problema de España, muchos, y son enormes, pero quizás uno de los problemas es la esperanza de los jóvenes. A un joven de menos de 35 años le tenemos que hacer un régimen tributario a medida 60% rebaja del impuesto de transmisiones para vivienda de segunda mano, 60% rebaja para el impuesto IVA, para vivienda de primera mano, y adicionalmente completar los avales al 100% en el caso de pedir una hipoteca. Salían los datos de emancipación. España es el país de la Unión Europea donde los jóvenes se emancipan más tarde, a los treinta y pico años. La media de Europa está en veintiséis años. La gente de mi generación, de cada tres, uno teníamos vivienda a los treinta años, con una hipoteca. Hoy no, hoy es la mitad. En definitiva, un plan de vivienda que apueste por la seguridad jurídica del propietario y del inquilino, un plan de vivienda que apueste por el incremento a la oferta, Un plan de vivienda que apueste por la construcción. Es que un millón de viviendas, 250.000 por año, son 500.000 puestos de trabajo. 500.000 puestos de trabajo. Por lo tanto, esto ha sido el verdadero desastre en política social del sanchismo y yo le aseguro que este sería un éxito de mi gobierno en el caso de obtener la confianza de la gente."
+  },
+  {
+   "start": 1228.84,
+   "end": 1290.0,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Solo una cosa muy breve y ya os paso el testigo. ¿Cómo ha conseguido que en esta campaña, en lo que llevamos, en la práctica estamos ya en campaña, bueno, Sánchez siempre ha estado en campaña, pero ya desde que no le salió lo de la pobre Mari Carmen y otros difuntos, pues está desatado. Y ahora condena al Parlamento, ya condena todo, todo, las leyes, etc. ¿Cómo ha conseguido que ni Vox se meta con el PP, ni el PP se meta con Vox? Yo hoy he mirado por casualidad, porque siempre la MED saca algo que vaya o contra Ayuso o contra Vox. Nada, no he encontrado nada. Esto ha sido una amenaza de garrote vil. ¿Esto ha sido un cuidadito que está mirando el jefe o esto ha sido un acuerdo, digamos, tácito de los dos partidos? Porque los están llevando los dos partidos a la vez de hay que echar a Sánchez y no vamos a repetir el 93."
+  },
+  {
+   "start": 1290.9,
+   "end": 1494.02,
+   "label": "SPEAKER_09",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "Sí, bueno, el tema de los desahucios que has comentado, aproximadamente 300.000 en estos ocho años de Sánchez, Una media de 97 desahucios diarios, diarios. Recuerdo la chica de cuarenta y pico años con dos hijos llamada Olga en Barcelona que se suicidó. Hace unos días salía un desahucio de un piso de protección oficial en el País Vasco, donde el gobierno del PNV y del Partido Socialista han cogido y han vendido bloques de piso de protección oficial a fondos de inversión. Y donde el Ministerio de Hacienda ha vendido de España, ha vendido edificios de patrimonio a fondos de inversión. Pero usted, ¿de qué me está hablando? ¿Pero qué es eso de los fondos buitre? Que cuando usted va a Nueva York lo que pide es reunirse con todos los fondos que le quieran escuchar para hablar de las bondades de su política económica. Que por cierto lo que ha traído es menor inversión y mayor deuda pública, menor competitividad y mayor absentismo. Pero volviendo al tema de Vox, que es lo importante que usted me dice. Vamos a ver, Vox es la tercera fuerza política de nuestro país. Por tanto, legitimidad democrática, total. Segundo, oiga, si usted quiere realmente producir un cambio en su país, sea usted respetuoso con los resultados electorales. Sea usted respetuoso con Vox, sea leal con Vox. Vox y, bueno, si su objetivo de verdad, el del PP le aseguro que lo es, y el de Vox creo que también, y yo diría que también, omito el creo, es producir un cambio en España, pues tenemos que ser consecuentes con ello. Yo ya les decía, oiga, mire, con Vox, ni cordón sanitario, ni cordón umbilical. Oiga, Vox es un partido distinto al PP, el PP es un partido distinto a Vox, el PP tiene experiencia de gobierno, Vox no la tiene, el PP ha gobernado y está gobernando para el 70% de la población. En cuatro de esas comunidades autónomas lo estamos haciendo con Vox, por tanto, pues seamos respetuosos con la situación. Hay un documento marco que nosotros propusimos y que funcionó para construir... Construir. Nadie pensó, por cierto, que iba a funcionar. Pues está funcionando y ahora estamos preparando y presentando. Ayer me decía el presidente Castilla y León, pues creo que hoy presenta el presupuesto Castilla y León en una rueda de prensa conjunta entre el presidente y el vicepresidente de Vox. Y tenemos ese compromiso, que es mejorar la situación política y eso pasa inevitablemente por un cambio de gobierno. Ahora bien, ¿yo qué pretendo? No se lo voy a ocultar. Yo pretendo tener los votos suficientes en el entorno del PP para hacer lo que tengo que hacer, hacerlo bien y hacerlo más rápido. Y cuanto más solidez y cuanto más respaldo parlamentario tenga el Partido Popular, esto será más fácil. Pero dicho esto, Vox no es nuestro enemigo, no es nuestro adversario. Nuestro adversario son las políticas de Sánchez y sus socios, que evidentemente cuando uno se confunde de prioridades, al final uno se pierde. Yo no me voy a confundir de prioridades. El cambio político en mi país está por encima del PP y está por encima del candidato al PP."
+  },
+  {
+   "start": 1525.42,
+   "end": 1534.56,
+   "label": "SPEAKER_13",
+   "person": null,
+   "name": "Hablante sin identificar 14",
+   "text": "¡Gracias! 14 meses por más de 30 euros por mes. Cheque Delta.nl. Delta, a todo lo pensado."
+  },
+  {
+   "start": 1560.04,
+   "end": 1591.2,
+   "label": "SPEAKER_00",
+   "person": null,
+   "name": "Hablante sin identificar 7",
+   "text": "¿Cómo se recupera la autoestima de una nación que piensa que después de Sánchez no hay nada o que viene algo peor? Y luego, si no considera usted que también la sociedad española tiene que hacer autocrítica. Es decir, ¿hasta qué punto es normal que una sociedad se conmueva por una mujer de 87 años, por Mari Carmen, por el fallecimiento de Mari Carmen, que a fin de cuentas Mari Carmen llevaba 20 años en un piso que tenía que haber abandonado hace 20 años, Y es idea incapaz de conmoverse por una jueza de instrucción que ha sido amenazada de muerte por una cloaca creada por el gobierno."
+  },
+  {
+   "start": 1592.82,
+   "end": 1833.6,
+   "label": "SPEAKER_09",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "Efectivamente, hay que recuperar la autoestima como nación, la autoestima como país, la autoestima como Estado. Somos uno de los países que han influido más en la civilización. Somos un país que tiene mucho que enseñar y yo estoy muy orgulloso de ser español, se lo digo. Y cuando salgo de aquí, el miércoles me voy a Bruselas, estaré ahí con mis colegas primeros ministros o jefes de la oposición, pero lo tengo clarísimo. Yo dije en el IPP, yo quiero que se vote en el Parlamento Europeo la condena a la invasión de Marrocos. Había colegas que no entendían muy bien que eso fuese un problema de ellos. Y, adicionalmente, había colegas que no entendían que el gobierno de España quería que se mirase para otro lado y que fuese el jefe de la oposición en España el que llevase ese asunto y lo pusiese encima de la mesa. He dicho, pero este, o votamos esto, o la delegación española, desde luego, lo va a votar y tomaré nota. Tomaré nota de que cuando nuestros amigos polacos tienen problemas, o cuando cualquier otro país pueda tener problemas, como los griegos, resulta que, claro, es verdad que en este caso era el jefe de la oposición en España. Y conseguimos que todo el IPP, un austriaco, un finlandés, un alemán, se solidarizara con el jefe de la oposición de España. Por lo tanto, yo soy orgulloso de ser español y no tengo ninguna duda. Yo no voté a la Comisión Europea. Yo voté a la presidenta de la Comisión, pero la Comisión no la voté. Y no la voté porque yo no puedo aceptar que la señora Teresa Rivera sea la vicepresidenta de la Comisión Europea después de que no haya ido. Ni un solo día a la Comunidad Valenciana a ver el desastre de sus políticas de infraestructuras hídricas. Por lo tanto, lo tengo claro, ellos me conocen y yo por encima de España no está ningún otro interés. Ahora, usted me pregunta, ¿cómo es posible? Mire, la mayoría de los ciudadanos sabe distinguir entre el agitar la calle y entre los problemas que tiene nuestro país. Y yo confío en ello, yo confío en esos. Yo siento mucho la situación de la señora María Carmen Abascal, por supuesto, pero es que, claro, y la señora Olga, la de Cataluña, oiga, ¿y usted que tiene 97 desahucios diarios nos va a dar clase de cómo podemos parar los desahucios? ¡Hombre! ¿Usted qué quiere agitar la calle si no puede pisarla? ¿Usted ahora va a vivir y buscar la agitación de la calle en España pero resulta que usted no puede pisar la calle? Hay que estar muy desesperado para hacer esto, ¿no? No, yo sigo pensando que nuestro país es el mejor de los posibles. Es verdad que hay momentos de decadencia y eso afecta a muchos países. Yo creo que los últimos ocho años han sido los peores momentos de la democracia española. Ya se inició la ruptura de la cordialidad y del proyecto nacional con Zapatero. Es verdad que nosotros tuvimos el tiempo que estuvimos en el gobierno con las dos manos ocupadas para que no se cayese la pared, la pared de la economía, la pared de los depósitos de la gente por la quiebra de las cajas, la regla de gasto, en fin, todos estos líos. Pero, hombre, hemos de reconstruir nuestro país, hemos de resetear nuestro país y por eso necesitamos un gobierno muy fuerte. Y necesitamos un presidente de gobierno que tenga un grupo parlamentario muy sólido en Congreso Yo llevo toda mi vida preparándome para ser candidato a la presidencia del gobierno, pero yo diría, para ser presidente de gobierno, otra cosa es que no depende de mí. En las encuestas ustedes van muy bien, pero la campaña acaba de empezar y cuando se decide quién gana las elecciones es el día 29 de noviembre. Hasta ese momento no hay nada, pero cumplir con mi deber, saber lo que tengo que hacer y por qué orden tengo que hacerlo, le aseguro que lo sé. Y le aseguro que llevo cuatro años estudiando y preparándome para este momento."
+  },
+  {
+   "start": 1834.86,
+   "end": 1905.52,
+   "label": "SPEAKER_01",
+   "person": null,
+   "name": "Hablante sin identificar 4",
+   "text": "Señor Feijóo, buenos días. No hay nada hasta ahora, además hace bien en repetirlo, no hay nada ganado, evidentemente hasta el último minuto, pues bueno, hasta el rabo todo es toro. Pero hay un ambiente de que parece que las cosas van muy bien, al margen de que lo alimenten las encuestas, y también usted ha dicho que ha visto al partido que está viéndolo muy movilizado, posiblemente más que en el 23, que venían cansados de las citas electorales, de las autonómicas, pero está frenando un poquito ese entusiasmo. La gente lo ve que es la posibilidad del cambio, sobre todo porque la gente detesta a Pedro Sánchez y se ve cada vez que aparece. Pero también tienen miedo de que Pedro Sánchez en el último minuto, ya sabemos que su campaña electoral es crispación y fraude. Fraude ya lo hemos visto con la ley de nietos y crispación ya lo estamos viendo cada día. Intentó sumarse al movimiento Mari Carmen y no lo ha logrado. ¿Cree que puede hacer algo en el último minuto o en el penúltimo Pedro Sánchez? ¿Pero Sánchez, porque además va en su propia naturaleza para desvirtuar la campaña y con ello el resultado electoral, ¿le tiene miedo a un golpe de efecto que se saque de la manga Pedro Sánchez? Como tantos españoles que hablas con la gente y dicen, bueno, es que al final algo se inventará Pedro Sánchez para fastidiarlo todo."
+  },
+  {
+   "start": 1908.14,
+   "end": 2122.02,
+   "label": "SPEAKER_09",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "Vamos a ver, yo creo que la gente que quiere cambio está enchufada. Lo veo en la calle, lo veo en las gasolineras, en las carreteras, en los trenes, en los aeropuertos. La gente está enchufada. Yo creo que el PP tiene un trabajo anticipado, sólido. Yo le dije al partido en el mes de julio, a partir de agosto o septiembre, todo puede ocurrir. Porque es que en julio pasó casi desapercibido, pero es que ganamos una cosa en el Congreso, una votación, que es que el presidente del gobierno se someta a una cuestión de confianza. Es que ganamos esa votación. Es que este señor lleva burlándose y faltando al respeto no solamente a la ley y a la justicia y al sufrimiento de la gente y a las fronteras de nuestro país. Es que lleva todo este tiempo faltando el respeto a las cortes. Es que le da igual, es que yo lo he dicho, que él iba a gobernar con independencia. Ahora bien, soy perfectamente consciente, eso lo decía su compañera, que las elecciones se ganan el 29 de noviembre y hasta ese momento no. Bueno, que está ahora, creo, por lo que oigo, por lo que leo, pues ahora está viendo qué puede hacer con la ley de nietos. Oiga, el Tribunal Supremo ha dicho algo elemental, que no tiene nada contra darle la nacionalidad a los nietos de los exiliados, como dice la ley, pero evidentemente no puede dar la nacionalidad ni se pueden regalar pasaportes a aquellos que no son nietos y a aquellos que no provienen de los exiliados, que es la instrucción de la hermana del ministro, pero eso yo creo que lo diría cualquier tribunal de instancia. Pero es que ya la Junta Electoral Central advirtió de que esa instrucción iba en contra de la ley y añadió, no obstante, entendemos que la Junta Electoral Central no es el órgano adecuado para dejarse en efecto una norma, cosa que tuvo cinco votos donde se decía que sí porque la Junta Electoral Central debe de velar por la limpieza del censo. No hay limpieza democrática si no hay limpieza del censo. Otra de las trampas del sánchezismo es decir que nosotros estamos en contra de la posibilidad de dar un pasaporte con derecho a voto a los nietos de los exiliados. Es falso. Usted lo que ha hecho es una instrucción en contra de una ley para abrir de forma indiscriminada a cualquier ciudadano que tenga un antepasado, ya sea su tatarabuelo o lo que fuere, en España. Y eso no tiene parangón. Yo tengo que darle valor al pasaporte español. Es que si no le damos valor al instrumento jurídico más importante que tiene una nación, que es dar el pasaporte a un país y considerarlo con plenos derechos y obligaciones a ese ciudadano, automáticamente todo esto quiebra. Yo no sé lo que va a hacer Sánchez, yo sé lo que voy a hacer yo. Yo voy a trabajar hasta el último instante, incluida la jornada de reflexión, en el sentido de tener el partido activado. Nuestros interventores y nuestros apoderados estarán en todas las mesas y le aseguro que estamos preparados porque llevamos tantas trampas, tantas coacciones, tantas manipulaciones y tantas cloacas, tantas mordidas, Yolanda Díaz, que yo pido altura de miras a los españoles y que no se dejen engañar, porque esto es una oportunidad, una oportunidad de cambiar o una oportunidad de despeñarnos por el abismo de Sánchez. La última, Paco, y además hay muchas preguntas para"
+  },
+  {
+   "start": 2122.02,
+   "end": 2122.5,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Feijóo."
+  },
+  {
+   "start": 2122.5,
+   "end": 2192.2,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Señor Feijóo, muy buenos días. Hemos asistido a un hecho absolutamente inédito, como es que el presidente del gobierno, después de negar la existencia de la alternancia política, dijo en la rueda de prensa en que anunció la convocatoria de elecciones, negó la legitimidad del Parlamento. Había dicho antes que estaba dispuesto a gobernar sin el Parlamento, pero ahora directamente contra el Parlamento, al que contrapuso la legitimidad de la calle, ideológicamente liderada por el propio Pedro Sánchez. Tenemos además el hecho también inédito de una huelga general política en la que los sindicatos se manifiestan contra la oposición, es decir, en una estrategia que parece de doble batiente, tanto de aquí a las elecciones como después de las elecciones. ¿Cómo piensa gestionar esa agitación aparente de la calle desde el gobierno, tanto Sánchez para quedarse como para después de hacerle la oposición al propio gobierno, en el que parece que la voluntad no es que la política se haga en el parlamento como residencia de la soberanía nacional, sino que sea la calle? ¿Cómo se prepara para ese escenario?"
+  },
+  {
+   "start": 2193.38,
+   "end": 2284.96,
+   "label": "SPEAKER_09",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "Vamos a ver, yo comentaba que es curioso que un gobierno quiera agitar la calle pero no puede pisar la calle. Ojalá acredita que el gobierno está muy agitado, muy asustado, con un instinto de supervivencia enorme, ¿no? Por eso escuchamos todas estas cosas que se dicen, ¿no? Yo sigo diciendo, el gobierno ha recortado los informes del CNI y de la Comisaría de Extranjería. El gobierno tiene que mandar esos informes a la jueza de la Audiencia Nacional. No puede ser que a través de un periódico nos enteremos de que hay barcos de guerra de un país que nos ha invadido en aguas jurisdiccionales españolas. El gobierno, por mucho que intente hablar de desahucios, lo que hay que hacer es un único desahucio, España, que es sacar a Sánchez de Moncloa. Eso sí, desahucio democrático, pero este es el desahucio más importante que tiene España. Allá los sindicatos, yo soy partidario de mantener una relación fluida con los sindicatos de información y de establecer cuál es nuestra propuesta de gobierno en todas las áreas. Ahora bien, yo creo que los sindicatos se han equivocado y están perdiendo legitimidad en esta decisión, claramente, como ha dicho la directora de estrategia del Partido Socialista, la señora Montero, que es una huelga a la oposición. Desde luego, yo soy líder sindical y inmediatamente salgo y digo, oiga, esto no es así, y si alguien interpreta que esta huelga es a la oposición, yo la retiro. Pero cómo no va a ser si la convocan"
+  },
+  {
+   "start": 2284.96,
+   "end": 2285.2,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "en plena campaña electoral."
+  },
+  {
+   "start": 2285.9,
+   "end": 2287.34,
+   "label": "SPEAKER_09",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "Bien, vale, vale, sí, sí, dice..."
+  },
+  {
+   "start": 2287.34,
+   "end": 2288.0,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Podemos ser todos los"
+  },
+  {
+   "start": 2288.0,
+   "end": 2288.54,
+   "label": "SPEAKER_09",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "ingenuos que queramos."
+  },
+  {
+   "start": 2288.9,
+   "end": 2290.66,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "No, no, no. No hace falta que lo diga Montero."
+  },
+  {
+   "start": 2290.66,
+   "end": 2323.08,
+   "label": "SPEAKER_09",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "Yo difeno lo justo, pero de experiencia con los sindicatos le aseguro que la he tenido desde que presidía la Mesa Sectorial de Sanidad con 29 años en la Junta de Galicia y posteriormente como presidente de Correos donde el 80% de la plantilla estaba sindicada, con descuento en nómina. Por lo tanto, me conozco bien a los sindicatos y creo que yo a los sindicatos que conocía esto no lo hacían. Esto no lo hacían. Y de hecho hay sindicatos y partes de los sindicatos que no están de acuerdo. Bueno, por ejemplo, Uso,"
+  },
+  {
+   "start": 2323.22,
+   "end": 2326.04,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "CESIF, por ejemplo, que están en contra, sí. Vox"
+  },
+  {
+   "start": 2326.04,
+   "end": 2416.98,
+   "label": "SPEAKER_09",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "Comisión Sobre Ascensión, te he dicho, oiga, yo con los líos que tengo aquí, no lo voy a hacer. Pero yo comprendo, Paco, en fin, esas dudas y esos miedos que yo no le oculto, ¿eh? A mí también me afectan, es decir, cuando estoy viendo y he dicho la pregunta y lo vuelvo a reiterar. Señor Sánchez, ¿quién ha dado instrucciones a las personas concretas para acabar con la juez de Badajoz? ¿Quién ha dado esa instrucción? ¿Quién está detrás? ¿Quién la ha financiado? Esa es una pregunta que cualquier presidente de gobierno tenía que salir de forma inmediata y aclararlo. Aquí se está investigando la financiación del PSOE, aquí se está investigando la financiación de las cloacas del PSOE, aquí se está investigando por qué el PSOE y el gobierno no garantizó la integridad del territorio español Y aquí el Partido Socialista pues es probablemente el partido con más sumarios abiertos y con más imputados que diputados. Por lo tanto, todo esto de agitar la calle, ¿agitarlo qué? Si la calle lo que tenía que estar agitada contra usted, pero la calle tiene que manifestarse de forma clara, contundente y masiva desde las 9 de la mañana a las"
+  },
+  {
+   "start": 2416.98,
+   "end": 2424.68,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "8 de la tarde del día 21. Yo creo que los que han llamado, hay muchísima gente que ha llamado haciéndole preguntas a Alberto Núñez Feijóo, Silvia."
+  },
+  {
+   "start": 2424.76,
+   "end": 2455.72,
+   "label": "SPEAKER_07",
+   "person": null,
+   "name": "Hablante sin identificar 3",
+   "text": "Muchas preguntas, sí. Por ejemplo, Daniel, que es de Madrid, quiere saber si tiene usted pensado abrir una comisión de investigación para esclarecer el asunto Pegasus. Hay mucho interés también acerca de su agenda internacional en caso de que a partir del 29 de noviembre ocupe usted el Palacio de la Moncloa. Muy preocupados están los oyentes también por el futuro del Tribunal Constitucional a la luz de lo que hemos visto a lo largo de las dos últimas legislaturas y, por supuesto, pensiones y la madre de todas las preguntas. ¿Qué va a pasar con Vox?"
+  },
+  {
+   "start": 2455.72,
+   "end": 2474.18,
+   "label": "SPEAKER_08",
+   "person": null,
+   "name": "Hablante sin identificar 8",
+   "text": "Yo quiero saber si el Partido Popular tiene algo previsto para conseguir que el Tribunal Constitucional deje de ser el cachondeo que es hoy y esté formado por gente independiente o incluso si eso no es posible, suprimirlo y que pasa a ser el Tribunal Supremo el que se encargue de los asuntos."
+  },
+  {
+   "start": 2474.18,
+   "end": 2488.84,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 6",
+   "text": "Si su primera visita como tal va a ser a Marruecos para visitar al rey Mohamed VI, y si es así, ¿por qué sería? Y si no es así, también, presidente, cuéntenos por qué no sería. Un abrazo y gracias desde Barcelona."
+  },
+  {
+   "start": 2489.34,
+   "end": 2497.7,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Necesito saber qué va a hacer usted con las pensiones. ¿Las va a revalorizar, las va a reducir o las va a congelar?"
+  },
+  {
+   "start": 2497.84,
+   "end": 2503.12,
+   "label": "SPEAKER_06",
+   "person": null,
+   "name": "Hablante sin identificar 2",
+   "text": "¿Va a dejar de lado las diferencias y pactar con Vox para lograr una mayoría de derechas?"
+  },
+  {
+   "start": 2524.9,
+   "end": 2536.82,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Bueno, hay que decir que estos son muy repetidos, estos son una síntesis. A como diría Pili Juerga, a elegir. Vamos a ver, pensiones."
+  },
+  {
+   "start": 2536.82,
+   "end": 2694.9,
+   "label": "SPEAKER_09",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "Yo voy a garantizar la viabilidad del sistema público de pensiones para las gentes que no las han cobrado y que están dudando si las van a poder o no cobrar. Primero, voy a revalorizar las pensiones a la gente que las está cobrando. Sí, la respuesta es sí. Sé lo difícil que es y sé que tienen un déficit enorme y sé que el boom de natalidad de los que hemos nacido entre los años 60 y los años 74 va a poner muy difícil. Ahora bien, el sistema público de pensiones es una cuestión que no voy a cuestionar en ningún caso. Por tanto, revalorización con el IPC de pensiones la respuesta es sí y garantizar el futuro de las pensiones para los jóvenes de mi país, eso es un objetivo básico. Para eso tenemos que crecer. Para eso tenemos que crecer la economía de forma sana, no a través del gasto público ni a través del incremento masivo de impuestos. Para eso tenemos que mejorar la productividad, mejorar la competitividad y dejar de gastar aquello que es superfluo y aquello que es evitable. La soberanía marrocos, vea usted, la soberanía de un país se discute en la sede de la soberanía y eso es en las cortes. Por tanto, yo llevaré a las Cortes lo que me encuentre, no solamente en relación con la auditoría obligada que tengo que hacer sobre la situación económica de mi país para ver cuántos y con qué intensidad puedo bajar impuestos, sino que tengo que llevar cuál es la situación de las relaciones exteriores de mi país. Yo tengo que informar a los españoles por qué España ha mantenido unas relaciones estrechas con una dictadura como Venezuela. Tengo que informar por qué España no ha repelido una invasión a su integridad territorial con Marruecos. Tengo que informar qué compromisos tengo en su caso con China. Y yo soy un político pro-atlantista y pro-europeísta. Y en ese contexto me voy a mover. Tengo muy claro que mi política migratoria no la voy a romper en relación con la Unión Europea. Haré un plan de inmigración igual que un plan de vivienda porque tengo que resolver los problemas fundamentales de mi país. Intentaré otra vez garantizar en el menor tiempo posible que España vuelva a funcionar Y por tanto que vuelvan a funcionar los trenes, que las autovías empecemos a conservarlas de verdad Que funcione la sanidad un año y medio de huelga Oiga, cuando yo estaba en sanidad si había una huelga de una semana Era portada en los periódicos del país un año y medio de huelga médica De"
+  },
+  {
+   "start": 2694.9,
+   "end": 2696.98,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "todos los sectores, eso no se había"
+  },
+  {
+   "start": 2696.98,
+   "end": 2700.12,
+   "label": "SPEAKER_09",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "conseguido nunca Es que millones de personas"
+  },
+  {
+   "start": 2700.12,
+   "end": 2701.54,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "se ha incrementado la lista de espera."
+  },
+  {
+   "start": 2702.42,
+   "end": 2904.3,
+   "label": "SPEAKER_09",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "Pero millones de consultas, de pruebas diagnósticas, de cirugías, pues nada. Y ahora resulta que me dicen que ellos defienden los servicios públicos. Este es el gobierno que más ha deteriorado los servicios públicos. Tanto las infraestructuras como los servicios sanitarios como los servicios educativos. Pero qué vergüenza ver en el informe PISA, el primer informe que se hace con la LOLOI, el peor resultado de la historia desde que hay informe PISA en España. Por lo tanto, yo tengo que hablar de esto, yo tengo que hablar de precios, tengo que hablar de trenes, tengo que hablar de médicos, tengo que hablar de fronteras, Tengo que hablar de educación, tengo que hablar de los problemas de los ciudadanos Y eso es a lo que me voy a comprometer Me decía también una pregunta el Tribunal Constitucional Yo he dicho, una de las cosas que tengo que hacer son unas normas para regenerar las instituciones democráticas de mi país Y no puede ser que un ministro de mi gobierno sea magistrado del Constitucional O un fiscal general de un gobierno del PP sea el presidente del Tribunal Constitucional No, se acabó, se acabó. No hay nadie que pueda entrar en un Tribunal Constitucional o en el Consejo General del Poder Judicial que lleve, que no esté como mínimo cinco años fuera de cualquier cargo público, no solo del gobierno de España, sino también del gobierno de las comunidades autónomas, porque también son Estado. Por tanto, ¿regeneremos esto? No hay duda. El Tribunal Constitucional tiene que dedicarse a lo suyo y el Tribunal Supremo a lo suyo. Y nunca había pasado lo que está pasando con este Tribunal Constitucional y yo lo advertí. ¿Cómo es posible que el presidente del Tribunal Constitucional sea un exfiscal general del Estado de Zapatero? Que haya un exministro de Sánchez y una asesora del señor Bolaños como magistrados del Tribunal Constitucional. El plan de regeneración de las instituciones, junto con el refuerzo de las fronteras, junto con la auditoría de las cuentas públicas para ver hasta cuándo y hasta cuánto podemos bajar los impuestos, son cuestiones que hay que hacer y este es mi planteamiento. Hay tantas tareas. Ahora bien, lo primero es saber lo que has de hacer. Y lo segundo, por qué orden. Y lo tercero, tener un grupo parlamentario que te apoye. Y yo he dicho, pero este, un gobierno que presenta el presupuesto y se lo tumban, solo tiene derecho a una prórroga. Finalizada la prórroga, si no tiene el presupuesto, hay que disolver. Hay que disolver las cortes. Pero esto lo he dicho hace dos años. ¿Cómo no me voy a acordar de lo que he dicho anteriormente? Y, por supuesto, lo vamos a hacer. El plan de regeneración democrática. que tenemos cerrado, está visto por letrados del Consejo de Estado, por letrados de Cortés, está visto por los mejores juristas que tenemos en nuestro país y yo vengo a sanear la política en mi país. Yo vengo a volver otra vez a decir, mire, un gobierno es el primero que se somete a la ley. No hay nada por encima de la ley y mucho menos el gobierno de España y su presidente. Las cortes hacen las leyes. La justicia imparte justicia sin ningún tipo de presión. Y el Ejecutivo se tiene que desgastar para que no se desgaste el país. Y yo creo que esa forma de entender la política que le he practicado toda mi vida no la voy a cambiar ahora. Salve, si me permite, Federico, un segundo."
+  },
+  {
+   "start": 2905.06,
+   "end": 2908.06,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Es que se van a Zaragoza. No, era preguntarle que si tienes equipo"
+  },
+  {
+   "start": 2908.06,
+   "end": 2913.84,
+   "label": "SPEAKER_04",
+   "person": null,
+   "name": "Hablante sin identificar 5",
+   "text": "Ejecutivo y la cabeza de quién puede ser. ¿Perdón? Que si tienes equipo Ejecutivo para materializar todo eso."
+  },
+  {
+   "start": 2914.5,
+   "end": 3007.8,
+   "label": "SPEAKER_09",
+   "person": "feijoo",
+   "name": "Alberto Núñez Feijóo (PP)",
+   "text": "Claro que tenemos equipo, lo que pasa es que, oye, tú sabes que a Zaragoza se puede llegar impuntual, bien por llegar antes de tiempo o por llegar después de la hora pactada Y estas cosas no conviene en ningún caso hablar de eso ahora, simplemente porque hay un respeto a la campaña y un respeto al día 29 El 29 a las 11 de la noche vamos a saber qué puede ocurrir en nuestro país. Si hay cambio, y yo espero que sí, sé que me voy a someter a la prueba de mayor intensidad política que he tenido en mi vida, pero también es verdad, no me importa decirlo, pero después de cinco elecciones a las que me he presentado durante toda mi vida, Cuatro en una comunidad, Galicia, y esta última del 23 Y hemos ganado las cinco Pues oiga, yo creo que en estas se puede producir el cambio en España Desde luego, por el PP que está enchufado, cosa que no estaba en el año 23 En el año 23 mi partido en el mes de julio no cumplió las expectativas de movilización Yo estoy convencido que mi partido en noviembre de este año va a cumplir las expectativas de la movilización Y cuando el PP, que es como una especie de enorme trasatlántico, empieza ya a salir del muelle, empieza a invocar la mar y empieza a navegar, le aseguro que de aquí al 29 de noviembre vamos a ver un PP bonito."
+  },
+  {
+   "start": 3007.66,
+   "end": 3073.78,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Yo le aseguro, además, don Alberto, que va a llegar a Zaragoza, porque la Virgen del Pilar, el otro día, que estamos en su área, consiguió que en el minuto 110 de un partido, que perdíamos 2-4 con la cantera de Atlético, empatamos. Y si eso, si eso se ha conseguido, pues por supuesto que usted tiene que llegar, y además a Huesca. A Huesca después, sí. Saludes, son los mejores los de Huesca, pero si se encuentra la mano derecha de Pili Juerga, que es el hijo de Marcel y Miesquitas, o sea, qué desastres tenemos en Aragón. Espero que nos veamos alguna vez antes de las elecciones y si no, en todo caso, yo, don Alberto, le tomo la palabra. Esto es una cuestión de becarios, de becarios del pueblo. Yo creo en los compromisos personales y creo que su compromiso es sincero y creo que toda ayuda será poca para que lo lleve adelante, pero creo que hay que intentarlo y"
+  },
+  {
+   "start": 3073.78,
+   "end": 3076.48,
+   "label": "SPEAKER_03",
+   "person": null,
+   "name": "Hablante sin identificar 6",
+   "text": "además es un honor, es un honor."
+  },
+  {
+   "start": 3076.76,
+   "end": 3088.0,
+   "label": "SPEAKER_05",
+   "person": null,
+   "name": "Hablante sin identificar 1",
+   "text": "Bueno, muchas gracias, don Alberto, y que vaya muy bien y que llegue bien a Zaragoza y cuidadito con las piedras del Evo, que se deja unos gorditos. Es la mañana, es radio."
+  },
+  {
+   "start": 3089.02,
+   "end": 3108.7,
+   "label": "SPEAKER_13",
+   "person": null,
+   "name": "Hablante sin identificar 14",
+   "text": "Y también el sentimiento de que cada uno va 10 veces más rápido cuando ves exactamente esas esponjas, ahora con 70% de reducción, y solo hay un par, entonces te dejas en tu banqueta, agarras tu banca, pero no funciona, y boom, se ha vendido. Bueno, entonces puedes usar un poco de velocidad. Felizmente, ahora hay los deals de Giga Delta. Temporalmente con un vaso de glas de Giga, las primeras 14 meses por solo 30 euros por mes. Cheque Delta.com. Delta, a todo lo pensado."
+  }
+ ]
+}
